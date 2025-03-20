@@ -109,7 +109,7 @@ $(function(){initNavTree('mesh__primitive__cuboid_8cs_source.html',''); initResi
   <div class="headertitle"><div class="title">mesh_primitive_cuboid.cs</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="keyword">using </span>System.Collections;</div>
+<a href="mesh__primitive__cuboid_8cs.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="keyword">using </span>System.Collections;</div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="keyword">using </span>System.Collections.Generic;</div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="keyword">using </span>Unity.Burst;</div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="keyword">using </span>Unity.Collections;</div>
@@ -119,9 +119,11 @@ $(function(){initNavTree('mesh__primitive__cuboid_8cs_source.html',''); initResi
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_b_x_geometry_graph_1_1_runtime.html">BXGeometryGraph.Runtime</a></div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>{</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>    <span class="keyword">static</span> <span class="keyword">class </span>mesh_primitive_cuboid</div>
+<div class="foldopen" id="foldopen00011" data-start="{" data-end="};">
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="class_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid.html">   11</a></span>    <span class="keyword">static</span> <span class="keyword">class </span><a class="code hl_class" href="class_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid.html">mesh_primitive_cuboid</a></div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>    {</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>        <span class="keyword">struct </span>CuboidConfig</div>
+<div class="foldopen" id="foldopen00013" data-start="{" data-end="};">
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="struct_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid_1_1_cuboid_config.html">   13</a></span>        <span class="keyword">struct </span><a class="code hl_function" href="struct_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid_1_1_cuboid_config.html#a8a0c4392b12d9b43ef47d9b247d112e5">CuboidConfig</a></div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>        {</div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>            <span class="keyword">internal</span> float3 size;</div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>            <span class="keyword">internal</span> <span class="keywordtype">int</span> verts_x;</div>
@@ -134,7 +136,8 @@ $(function(){initNavTree('mesh__primitive__cuboid_8cs_source.html',''); initResi
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>            <span class="keyword">internal</span> <span class="keywordtype">int</span> face_count;</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>            <span class="keyword">internal</span> <span class="keywordtype">int</span> loop_count;</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>            <span class="keyword">public</span> CuboidConfig(float3 size, <span class="keywordtype">int</span> verts_x, <span class="keywordtype">int</span> verts_y, <span class="keywordtype">int</span> verts_z)</div>
+<div class="foldopen" id="foldopen00026" data-start="{" data-end="}">
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="struct_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid_1_1_cuboid_config.html#a8a0c4392b12d9b43ef47d9b247d112e5">   26</a></span>            <span class="keyword">public</span> <a class="code hl_function" href="struct_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid_1_1_cuboid_config.html#a8a0c4392b12d9b43ef47d9b247d112e5">CuboidConfig</a>(float3 size, <span class="keywordtype">int</span> verts_x, <span class="keywordtype">int</span> verts_y, <span class="keywordtype">int</span> verts_z)</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>            {</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>                this.size = size;</div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>                this.verts_x = verts_x;</div>
@@ -147,35 +150,41 @@ $(function(){initNavTree('mesh__primitive__cuboid_8cs_source.html',''); initResi
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>                face_count = 0;</div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>                loop_count = 0;</div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>                vertex_count = get_vertex_count();</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>                face_count = get_face_count();</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>                vertex_count = <a class="code hl_function" href="struct_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid_1_1_cuboid_config.html#a6d66f170ed533904589f605c399ea3fd">get_vertex_count</a>();</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>                face_count = <a class="code hl_function" href="struct_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid_1_1_cuboid_config.html#ad6b6649b228d9a02dcb8ecc8270c5dff">get_face_count</a>();</div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>                loop_count = face_count * 4;</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>            }</div>
+</div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>            <span class="keyword">private</span> <span class="keywordtype">int</span> get_vertex_count()</div>
+<div class="foldopen" id="foldopen00044" data-start="{" data-end="}">
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="struct_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid_1_1_cuboid_config.html#a6d66f170ed533904589f605c399ea3fd">   44</a></span>            <span class="keyword">private</span> <span class="keywordtype">int</span> <a class="code hl_function" href="struct_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid_1_1_cuboid_config.html#a6d66f170ed533904589f605c399ea3fd">get_vertex_count</a>()</div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>            {</div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>                <span class="keywordtype">int</span> inner_position_count = (verts_x - 2) * (verts_y - 2) * (verts_z - 2);</div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>                <span class="keywordflow">return</span> verts_x * verts_y * verts_z - inner_position_count;</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>            }</div>
+</div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>            <span class="keyword">private</span> <span class="keywordtype">int</span> get_face_count()</div>
+<div class="foldopen" id="foldopen00050" data-start="{" data-end="}">
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="struct_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid_1_1_cuboid_config.html#ad6b6649b228d9a02dcb8ecc8270c5dff">   50</a></span>            <span class="keyword">private</span> <span class="keywordtype">int</span> <a class="code hl_function" href="struct_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid_1_1_cuboid_config.html#ad6b6649b228d9a02dcb8ecc8270c5dff">get_face_count</a>()</div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>            {</div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>                <span class="keywordflow">return</span> 2 * (edges_x * edges_y + edges_y * edges_z + edges_z * edges_x);</div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>            }</div>
+</div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>        }</div>
+</div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>        [BurstCompile]</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>        <span class="keyword">internal</span> <span class="keyword">static</span> (JobHandle, MeshData) create_cuboid_mesh(float3 size, <span class="keywordtype">int</span> verts_x, <span class="keywordtype">int</span> verts_y, <span class="keywordtype">int</span> verts_z, JobHandle dependsOn = <span class="keywordflow">default</span>)</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>        <span class="keyword">internal</span> <span class="keyword">static</span> (JobHandle, <a class="code hl_struct" href="struct_b_x_geometry_graph_1_1_runtime_1_1_mesh_data.html">MeshData</a>) create_cuboid_mesh(float3 size, <span class="keywordtype">int</span> verts_x, <span class="keywordtype">int</span> verts_y, <span class="keywordtype">int</span> verts_z, JobHandle dependsOn = <span class="keywordflow">default</span>)</div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>        {</div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>            CuboidConfig config = <span class="keyword">new</span> CuboidConfig(size, verts_x, verts_y, verts_z);</div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>            MeshData mesh = <span class="keyword">new</span> MeshData(config.vertex_count, 0, config.face_count, config.loop_count, Allocator.TempJob);</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>            <a class="code hl_struct" href="struct_b_x_geometry_graph_1_1_runtime_1_1_mesh_data.html">MeshData</a> mesh = <span class="keyword">new</span> <a class="code hl_struct" href="struct_b_x_geometry_graph_1_1_runtime_1_1_mesh_data.html">MeshData</a>(config.vertex_count, 0, config.face_count, config.loop_count, Allocator.TempJob);</div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>            create_cuboid_mesh_job job = <span class="keyword">new</span> create_cuboid_mesh_job()</div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>            {</div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>                config = config,</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>                positions = mesh.positions,</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>                face_offset_indices = mesh.face_offset_indices,</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>                positions = mesh.<a class="code hl_variable" href="struct_b_x_geometry_graph_1_1_runtime_1_1_mesh_data.html#a7133999d6e2a07e16afb8d8673a1d86d">positions</a>,</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>                face_offset_indices = mesh.<a class="code hl_variable" href="struct_b_x_geometry_graph_1_1_runtime_1_1_mesh_data.html#ab19d033915b2c30234e2c3ffada464fe">face_offset_indices</a>,</div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>                corner_verts = mesh.corner_verts</div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>            };</div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>            JobHandle jobHandle = job.Schedule(dependsOn);</div>
@@ -184,30 +193,35 @@ $(function(){initNavTree('mesh__primitive__cuboid_8cs_source.html',''); initResi
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>        }</div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
 <div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>        [BurstCompile]</div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>        <span class="keyword">private</span> <span class="keyword">struct </span>create_cuboid_mesh_job : IJob</div>
+<div class="foldopen" id="foldopen00076" data-start="{" data-end="};">
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno"><a class="line" href="struct_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid_1_1create__cuboid__mesh__job.html">   76</a></span>        <span class="keyword">private</span> <span class="keyword">struct </span><a class="code hl_struct" href="struct_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid_1_1create__cuboid__mesh__job.html">create_cuboid_mesh_job</a> : IJob</div>
 <div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>        {</div>
 <div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>            [ReadOnly]</div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>            <span class="keyword">public</span> CuboidConfig config;</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno"><a class="line" href="struct_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid_1_1create__cuboid__mesh__job.html#a7c3ba32be28b44eacf1d555c8ba1c3a8">   79</a></span>            <span class="keyword">public</span> <a class="code hl_struct" href="struct_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid_1_1_cuboid_config.html">CuboidConfig</a> <a class="code hl_variable" href="struct_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid_1_1create__cuboid__mesh__job.html#a7c3ba32be28b44eacf1d555c8ba1c3a8">config</a>;</div>
 <div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span> </div>
 <div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>            [WriteOnly]</div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>            <span class="keyword">public</span> NativeArray&lt;float3&gt; positions;</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno"><a class="line" href="struct_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid_1_1create__cuboid__mesh__job.html#a3190d3bd46f6796f948d1b3b70d2f2e3">   82</a></span>            <span class="keyword">public</span> NativeArray&lt;float3&gt; <a class="code hl_variable" href="struct_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid_1_1create__cuboid__mesh__job.html#a3190d3bd46f6796f948d1b3b70d2f2e3">positions</a>;</div>
 <div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>            [WriteOnly]</div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>            <span class="keyword">public</span> NativeArray&lt;int&gt; face_offset_indices;</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno"><a class="line" href="struct_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid_1_1create__cuboid__mesh__job.html#a1f574a5385c838e2754693c2250b0a3d">   84</a></span>            <span class="keyword">public</span> NativeArray&lt;int&gt; <a class="code hl_variable" href="struct_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid_1_1create__cuboid__mesh__job.html#a1f574a5385c838e2754693c2250b0a3d">face_offset_indices</a>;</div>
 <div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>            [WriteOnly]</div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>            <span class="keyword">public</span> NativeArray&lt;int&gt; corner_verts;</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno"><a class="line" href="struct_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid_1_1create__cuboid__mesh__job.html#acce75a3474f84d3db611468bb6e4997f">   86</a></span>            <span class="keyword">public</span> NativeArray&lt;int&gt; <a class="code hl_variable" href="struct_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid_1_1create__cuboid__mesh__job.html#acce75a3474f84d3db611468bb6e4997f">corner_verts</a>;</div>
 <div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span> </div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>            <span class="keyword">public</span> <span class="keywordtype">void</span> Execute()</div>
+<div class="foldopen" id="foldopen00088" data-start="{" data-end="}">
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno"><a class="line" href="struct_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid_1_1create__cuboid__mesh__job.html#a20cded958ffd4a11fcd29a2ca35ba630">   88</a></span>            <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code hl_function" href="struct_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid_1_1create__cuboid__mesh__job.html#a20cded958ffd4a11fcd29a2ca35ba630">Execute</a>()</div>
 <div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>            {</div>
 <div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>                <span class="comment">// mesh_smooth_set</span></div>
 <div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span> </div>
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>                calculate_positions(ref config, ref positions);</div>
-<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>                offset_indices.fill_constant_grouo_size(4, 0, ref face_offset_indices);</div>
-<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>                calculate_corner_verts(ref config, ref corner_verts);</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>                <a class="code hl_function" href="class_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid.html#a488f1265f982b43ab41ee0ae389cc2bc">calculate_positions</a>(ref <a class="code hl_variable" href="struct_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid_1_1create__cuboid__mesh__job.html#a7c3ba32be28b44eacf1d555c8ba1c3a8">config</a>, ref <a class="code hl_variable" href="struct_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid_1_1create__cuboid__mesh__job.html#a3190d3bd46f6796f948d1b3b70d2f2e3">positions</a>);</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>                offset_indices.fill_constant_grouo_size(4, 0, ref <a class="code hl_variable" href="struct_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid_1_1create__cuboid__mesh__job.html#a1f574a5385c838e2754693c2250b0a3d">face_offset_indices</a>);</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>                <a class="code hl_function" href="class_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid.html#a4d649379833dcef5f8ad29ddf1c6204a">calculate_corner_verts</a>(ref <a class="code hl_variable" href="struct_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid_1_1create__cuboid__mesh__job.html#a7c3ba32be28b44eacf1d555c8ba1c3a8">config</a>, ref <a class="code hl_variable" href="struct_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid_1_1create__cuboid__mesh__job.html#acce75a3474f84d3db611468bb6e4997f">corner_verts</a>);</div>
 <div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>            }</div>
+</div>
 <div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>        }</div>
+</div>
 <div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span> </div>
 <div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>        [BurstCompile]</div>
-<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>        <span class="keyword">private</span> <span class="keyword">static</span> <span class="keywordtype">void</span> calculate_positions(ref CuboidConfig config, ref NativeArray&lt;float3&gt; positions)</div>
+<div class="foldopen" id="foldopen00099" data-start="{" data-end="}">
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno"><a class="line" href="class_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid.html#a488f1265f982b43ab41ee0ae389cc2bc">   99</a></span>        <span class="keyword">private</span> <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid.html#a488f1265f982b43ab41ee0ae389cc2bc">calculate_positions</a>(ref <a class="code hl_struct" href="struct_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid_1_1_cuboid_config.html">CuboidConfig</a> config, ref NativeArray&lt;float3&gt; positions)</div>
 <div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>        {</div>
 <div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>            <span class="keywordtype">float</span> z_bottom = -config.size.x * 0.5f;</div>
 <div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>            <span class="keywordtype">float</span> z_delta = config.size.z / config.edges_z;</div>
@@ -265,9 +279,11 @@ $(function(){initNavTree('mesh__primitive__cuboid_8cs_source.html',''); initResi
 <div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span>                }</div>
 <div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span>            }</div>
 <div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span>        }</div>
+</div>
 <div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span> </div>
 <div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span>        [BurstCompile]</div>
-<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span>        <span class="keyword">private</span> <span class="keyword">static</span> <span class="keywordtype">void</span> calculate_corner_verts(ref CuboidConfig config, ref NativeArray&lt;int&gt; corner_verts)</div>
+<div class="foldopen" id="foldopen00159" data-start="{" data-end="}">
+<div class="line"><a id="l00159" name="l00159"></a><span class="lineno"><a class="line" href="class_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid.html#a4d649379833dcef5f8ad29ddf1c6204a">  159</a></span>        <span class="keyword">private</span> <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid.html#a4d649379833dcef5f8ad29ddf1c6204a">calculate_corner_verts</a>(ref <a class="code hl_struct" href="struct_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid_1_1_cuboid_config.html">CuboidConfig</a> config, ref NativeArray&lt;int&gt; corner_verts)</div>
 <div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span>        {</div>
 <div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span>            <span class="keywordtype">int</span> loop_index = 0;</div>
 <div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span> </div>
@@ -286,7 +302,7 @@ $(function(){initNavTree('mesh__primitive__cuboid_8cs_source.html',''); initResi
 <div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span>                    <span class="keywordtype">int</span> vert_3 = vert_2 + 1;</div>
 <div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span>                    <span class="keywordtype">int</span> vert_4 = vert_1 + 1;</div>
 <div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span> </div>
-<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span>                    define_quad(ref corner_verts, loop_index, vert_1, vert_2, vert_3, vert_4);</div>
+<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span>                    <a class="code hl_function" href="class_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid.html#ac6ca6831936e18462bb3a18f0d8c6be2">define_quad</a>(ref corner_verts, loop_index, vert_1, vert_2, vert_3, vert_4);</div>
 <div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span>                    loop_index += 4;</div>
 <div class="line"><a id="l00180" name="l00180"></a><span class="lineno">  180</span>                }</div>
 <div class="line"><a id="l00181" name="l00181"></a><span class="lineno">  181</span>                vert_1_start += config.verts_x;</div>
@@ -300,7 +316,7 @@ $(function(){initNavTree('mesh__primitive__cuboid_8cs_source.html',''); initResi
 <div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span>            {</div>
 <div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span>                <span class="keywordflow">for</span>(<span class="keywordtype">int</span> x = 0; x &lt; config.edges_x; ++x)</div>
 <div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span>                {</div>
-<div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span>                    define_quad(ref corner_verts, loop_index, vert_1_start + x, vert_1_start + x + 1, vert_2_start + x + 1, vert_2_start + x);</div>
+<div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span>                    <a class="code hl_function" href="class_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid.html#ac6ca6831936e18462bb3a18f0d8c6be2">define_quad</a>(ref corner_verts, loop_index, vert_1_start + x, vert_1_start + x + 1, vert_2_start + x + 1, vert_2_start + x);</div>
 <div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span>                    loop_index += 4;</div>
 <div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span>                }</div>
 <div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span>                vert_1_start = vert_2_start;</div>
@@ -315,7 +331,7 @@ $(function(){initNavTree('mesh__primitive__cuboid_8cs_source.html',''); initResi
 <div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span>            {</div>
 <div class="line"><a id="l00205" name="l00205"></a><span class="lineno">  205</span>                <span class="keywordflow">for</span>(<span class="keywordtype">int</span> x = 0; x &lt; config.edges_x; ++x)</div>
 <div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span>                {</div>
-<div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span>                    define_quad(ref corner_verts, loop_index, vert_1_start + x, vert_1_start + x + 1, vert_2_start + x + 1, vert_2_start + x);</div>
+<div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span>                    <a class="code hl_function" href="class_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid.html#ac6ca6831936e18462bb3a18f0d8c6be2">define_quad</a>(ref corner_verts, loop_index, vert_1_start + x, vert_1_start + x + 1, vert_2_start + x + 1, vert_2_start + x);</div>
 <div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span>                    loop_index += 4;</div>
 <div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span>                }</div>
 <div class="line"><a id="l00210" name="l00210"></a><span class="lineno">  210</span>                vert_2_start += config.verts_x;</div>
@@ -334,7 +350,7 @@ $(function(){initNavTree('mesh__primitive__cuboid_8cs_source.html',''); initResi
 <div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span>                }</div>
 <div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span>                <span class="keywordflow">for</span>(<span class="keywordtype">int</span> x = 0; x &lt; config.edges_x; ++x)</div>
 <div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span>                {</div>
-<div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span>                    define_quad(ref corner_verts, loop_index, vert_1_start + x, vert_2_start + x, vert_2_start + x + 1, vert_1_start + x + 1);</div>
+<div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span>                    <a class="code hl_function" href="class_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid.html#ac6ca6831936e18462bb3a18f0d8c6be2">define_quad</a>(ref corner_verts, loop_index, vert_1_start + x, vert_2_start + x, vert_2_start + x + 1, vert_1_start + x + 1);</div>
 <div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span>                    loop_index += 4;</div>
 <div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span>                }</div>
 <div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span>                vert_2_start += xy_cross_section_vert_count;</div>
@@ -378,7 +394,7 @@ $(function(){initNavTree('mesh__primitive__cuboid_8cs_source.html',''); initResi
 <div class="line"><a id="l00267" name="l00267"></a><span class="lineno">  267</span>                        vert_3 = vert_2 + 2;</div>
 <div class="line"><a id="l00268" name="l00268"></a><span class="lineno">  268</span>                    }</div>
 <div class="line"><a id="l00269" name="l00269"></a><span class="lineno">  269</span> </div>
-<div class="line"><a id="l00270" name="l00270"></a><span class="lineno">  270</span>                    define_quad(ref corner_verts, loop_index, vert_1, vert_2, vert_3, vert_4);</div>
+<div class="line"><a id="l00270" name="l00270"></a><span class="lineno">  270</span>                    <a class="code hl_function" href="class_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid.html#ac6ca6831936e18462bb3a18f0d8c6be2">define_quad</a>(ref corner_verts, loop_index, vert_1, vert_2, vert_3, vert_4);</div>
 <div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span>                    loop_index += 4;</div>
 <div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span>                }</div>
 <div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span>                <span class="keywordflow">if</span>(z == 0)</div>
@@ -433,7 +449,7 @@ $(function(){initNavTree('mesh__primitive__cuboid_8cs_source.html',''); initResi
 <div class="line"><a id="l00322" name="l00322"></a><span class="lineno">  322</span>                        vert_4 = vert_1 + config.verts_x;</div>
 <div class="line"><a id="l00323" name="l00323"></a><span class="lineno">  323</span>                    }</div>
 <div class="line"><a id="l00324" name="l00324"></a><span class="lineno">  324</span> </div>
-<div class="line"><a id="l00325" name="l00325"></a><span class="lineno">  325</span>                    define_quad(ref corner_verts, loop_index, vert_1, vert_4, vert_3, vert_2);</div>
+<div class="line"><a id="l00325" name="l00325"></a><span class="lineno">  325</span>                    <a class="code hl_function" href="class_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid.html#ac6ca6831936e18462bb3a18f0d8c6be2">define_quad</a>(ref corner_verts, loop_index, vert_1, vert_4, vert_3, vert_2);</div>
 <div class="line"><a id="l00326" name="l00326"></a><span class="lineno">  326</span>                    loop_index += 4;</div>
 <div class="line"><a id="l00327" name="l00327"></a><span class="lineno">  327</span>                }</div>
 <div class="line"><a id="l00328" name="l00328"></a><span class="lineno">  328</span>                <span class="keywordflow">if</span>(z == 0)</div>
@@ -447,24 +463,45 @@ $(function(){initNavTree('mesh__primitive__cuboid_8cs_source.html',''); initResi
 <div class="line"><a id="l00336" name="l00336"></a><span class="lineno">  336</span>                vert_2_start += xy_cross_section_vert_count;</div>
 <div class="line"><a id="l00337" name="l00337"></a><span class="lineno">  337</span>            }</div>
 <div class="line"><a id="l00338" name="l00338"></a><span class="lineno">  338</span>        }</div>
+</div>
 <div class="line"><a id="l00339" name="l00339"></a><span class="lineno">  339</span></div>
 <div class="line"><a id="l00350" name="l00350"></a><span class="lineno">  350</span>        [BurstCompile]</div>
-<div class="line"><a id="l00351" name="l00351"></a><span class="lineno">  351</span>        <span class="keyword">private</span> <span class="keyword">static</span> <span class="keywordtype">void</span> define_quad(ref NativeArray&lt;int&gt; corner_verts, <span class="keywordtype">int</span> loop_index, <span class="keywordtype">int</span> vert_1, <span class="keywordtype">int</span> vert_2, <span class="keywordtype">int</span> vert_3, <span class="keywordtype">int</span> vert_4)</div>
+<div class="foldopen" id="foldopen00351" data-start="{" data-end="}">
+<div class="line"><a id="l00351" name="l00351"></a><span class="lineno"><a class="line" href="class_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid.html#ac6ca6831936e18462bb3a18f0d8c6be2">  351</a></span>        <span class="keyword">private</span> <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid.html#ac6ca6831936e18462bb3a18f0d8c6be2">define_quad</a>(ref NativeArray&lt;int&gt; corner_verts, <span class="keywordtype">int</span> loop_index, <span class="keywordtype">int</span> vert_1, <span class="keywordtype">int</span> vert_2, <span class="keywordtype">int</span> vert_3, <span class="keywordtype">int</span> vert_4)</div>
 <div class="line"><a id="l00352" name="l00352"></a><span class="lineno">  352</span>        {</div>
 <div class="line"><a id="l00353" name="l00353"></a><span class="lineno">  353</span>            corner_verts[loop_index] = vert_1;</div>
 <div class="line"><a id="l00354" name="l00354"></a><span class="lineno">  354</span>            corner_verts[loop_index + 1] = vert_2;</div>
 <div class="line"><a id="l00355" name="l00355"></a><span class="lineno">  355</span>            corner_verts[loop_index + 2] = vert_3;</div>
 <div class="line"><a id="l00356" name="l00356"></a><span class="lineno">  356</span>            corner_verts[loop_index + 3] = vert_4;</div>
 <div class="line"><a id="l00357" name="l00357"></a><span class="lineno">  357</span>        }</div>
+</div>
 <div class="line"><a id="l00358" name="l00358"></a><span class="lineno">  358</span>    }</div>
+</div>
 <div class="line"><a id="l00359" name="l00359"></a><span class="lineno">  359</span>}</div>
+<div class="ttc" id="aclass_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid_html"><div class="ttname"><a href="class_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid.html">BXGeometryGraph.Runtime.mesh_primitive_cuboid</a></div><div class="ttdef"><b>Definition</b> <a href="#l00011">mesh_primitive_cuboid.cs:12</a></div></div>
+<div class="ttc" id="aclass_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid_html_a488f1265f982b43ab41ee0ae389cc2bc"><div class="ttname"><a href="class_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid.html#a488f1265f982b43ab41ee0ae389cc2bc">BXGeometryGraph.Runtime.mesh_primitive_cuboid.calculate_positions</a></div><div class="ttdeci">static void calculate_positions(ref CuboidConfig config, ref NativeArray&lt; float3 &gt; positions)</div><div class="ttdef"><b>Definition</b> <a href="#l00099">mesh_primitive_cuboid.cs:99</a></div></div>
+<div class="ttc" id="aclass_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid_html_a4d649379833dcef5f8ad29ddf1c6204a"><div class="ttname"><a href="class_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid.html#a4d649379833dcef5f8ad29ddf1c6204a">BXGeometryGraph.Runtime.mesh_primitive_cuboid.calculate_corner_verts</a></div><div class="ttdeci">static void calculate_corner_verts(ref CuboidConfig config, ref NativeArray&lt; int &gt; corner_verts)</div><div class="ttdef"><b>Definition</b> <a href="#l00159">mesh_primitive_cuboid.cs:159</a></div></div>
+<div class="ttc" id="aclass_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid_html_ac6ca6831936e18462bb3a18f0d8c6be2"><div class="ttname"><a href="class_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid.html#ac6ca6831936e18462bb3a18f0d8c6be2">BXGeometryGraph.Runtime.mesh_primitive_cuboid.define_quad</a></div><div class="ttdeci">static void define_quad(ref NativeArray&lt; int &gt; corner_verts, int loop_index, int vert_1, int vert_2, int vert_3, int vert_4)</div><div class="ttdoc">vert_1 = bottom left, vert_2 = bottom right, vert_3 = top right, vert_4 = top left....</div><div class="ttdef"><b>Definition</b> <a href="#l00351">mesh_primitive_cuboid.cs:351</a></div></div>
 <div class="ttc" id="anamespace_b_x_geometry_graph_1_1_runtime_html"><div class="ttname"><a href="namespace_b_x_geometry_graph_1_1_runtime.html">BXGeometryGraph.Runtime</a></div><div class="ttdef"><b>Definition</b> <a href="_abstract_geometry_job_8cs_source.html#l00010">AbstractGeometryJob.cs:11</a></div></div>
+<div class="ttc" id="astruct_b_x_geometry_graph_1_1_runtime_1_1_mesh_data_html"><div class="ttname"><a href="struct_b_x_geometry_graph_1_1_runtime_1_1_mesh_data.html">BXGeometryGraph.Runtime.MeshData</a></div><div class="ttdef"><b>Definition</b> <a href="_mesh_data_8cs_source.html#l00012">MeshData.cs:13</a></div></div>
+<div class="ttc" id="astruct_b_x_geometry_graph_1_1_runtime_1_1_mesh_data_html_a7133999d6e2a07e16afb8d8673a1d86d"><div class="ttname"><a href="struct_b_x_geometry_graph_1_1_runtime_1_1_mesh_data.html#a7133999d6e2a07e16afb8d8673a1d86d">BXGeometryGraph.Runtime.MeshData.positions</a></div><div class="ttdeci">NativeArray&lt; float3 &gt; positions</div><div class="ttdef"><b>Definition</b> <a href="_mesh_data_8cs_source.html#l00014">MeshData.cs:14</a></div></div>
+<div class="ttc" id="astruct_b_x_geometry_graph_1_1_runtime_1_1_mesh_data_html_ab19d033915b2c30234e2c3ffada464fe"><div class="ttname"><a href="struct_b_x_geometry_graph_1_1_runtime_1_1_mesh_data.html#ab19d033915b2c30234e2c3ffada464fe">BXGeometryGraph.Runtime.MeshData.face_offset_indices</a></div><div class="ttdeci">NativeArray&lt; int &gt; face_offset_indices</div><div class="ttdef"><b>Definition</b> <a href="_mesh_data_8cs_source.html#l00018">MeshData.cs:18</a></div></div>
+<div class="ttc" id="astruct_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid_1_1_cuboid_config_html"><div class="ttname"><a href="struct_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid_1_1_cuboid_config.html">BXGeometryGraph.Runtime.mesh_primitive_cuboid.CuboidConfig</a></div><div class="ttdef"><b>Definition</b> <a href="#l00013">mesh_primitive_cuboid.cs:14</a></div></div>
+<div class="ttc" id="astruct_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid_1_1_cuboid_config_html_a6d66f170ed533904589f605c399ea3fd"><div class="ttname"><a href="struct_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid_1_1_cuboid_config.html#a6d66f170ed533904589f605c399ea3fd">BXGeometryGraph.Runtime.mesh_primitive_cuboid.CuboidConfig.get_vertex_count</a></div><div class="ttdeci">int get_vertex_count()</div><div class="ttdef"><b>Definition</b> <a href="#l00044">mesh_primitive_cuboid.cs:44</a></div></div>
+<div class="ttc" id="astruct_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid_1_1_cuboid_config_html_a8a0c4392b12d9b43ef47d9b247d112e5"><div class="ttname"><a href="struct_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid_1_1_cuboid_config.html#a8a0c4392b12d9b43ef47d9b247d112e5">BXGeometryGraph.Runtime.mesh_primitive_cuboid.CuboidConfig.CuboidConfig</a></div><div class="ttdeci">CuboidConfig(float3 size, int verts_x, int verts_y, int verts_z)</div><div class="ttdef"><b>Definition</b> <a href="#l00026">mesh_primitive_cuboid.cs:26</a></div></div>
+<div class="ttc" id="astruct_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid_1_1_cuboid_config_html_ad6b6649b228d9a02dcb8ecc8270c5dff"><div class="ttname"><a href="struct_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid_1_1_cuboid_config.html#ad6b6649b228d9a02dcb8ecc8270c5dff">BXGeometryGraph.Runtime.mesh_primitive_cuboid.CuboidConfig.get_face_count</a></div><div class="ttdeci">int get_face_count()</div><div class="ttdef"><b>Definition</b> <a href="#l00050">mesh_primitive_cuboid.cs:50</a></div></div>
+<div class="ttc" id="astruct_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid_1_1create__cuboid__mesh__job_html"><div class="ttname"><a href="struct_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid_1_1create__cuboid__mesh__job.html">BXGeometryGraph.Runtime.mesh_primitive_cuboid.create_cuboid_mesh_job</a></div><div class="ttdef"><b>Definition</b> <a href="#l00076">mesh_primitive_cuboid.cs:77</a></div></div>
+<div class="ttc" id="astruct_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid_1_1create__cuboid__mesh__job_html_a1f574a5385c838e2754693c2250b0a3d"><div class="ttname"><a href="struct_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid_1_1create__cuboid__mesh__job.html#a1f574a5385c838e2754693c2250b0a3d">BXGeometryGraph.Runtime.mesh_primitive_cuboid.create_cuboid_mesh_job.face_offset_indices</a></div><div class="ttdeci">NativeArray&lt; int &gt; face_offset_indices</div><div class="ttdef"><b>Definition</b> <a href="#l00084">mesh_primitive_cuboid.cs:84</a></div></div>
+<div class="ttc" id="astruct_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid_1_1create__cuboid__mesh__job_html_a20cded958ffd4a11fcd29a2ca35ba630"><div class="ttname"><a href="struct_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid_1_1create__cuboid__mesh__job.html#a20cded958ffd4a11fcd29a2ca35ba630">BXGeometryGraph.Runtime.mesh_primitive_cuboid.create_cuboid_mesh_job.Execute</a></div><div class="ttdeci">void Execute()</div><div class="ttdef"><b>Definition</b> <a href="#l00088">mesh_primitive_cuboid.cs:88</a></div></div>
+<div class="ttc" id="astruct_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid_1_1create__cuboid__mesh__job_html_a3190d3bd46f6796f948d1b3b70d2f2e3"><div class="ttname"><a href="struct_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid_1_1create__cuboid__mesh__job.html#a3190d3bd46f6796f948d1b3b70d2f2e3">BXGeometryGraph.Runtime.mesh_primitive_cuboid.create_cuboid_mesh_job.positions</a></div><div class="ttdeci">NativeArray&lt; float3 &gt; positions</div><div class="ttdef"><b>Definition</b> <a href="#l00082">mesh_primitive_cuboid.cs:82</a></div></div>
+<div class="ttc" id="astruct_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid_1_1create__cuboid__mesh__job_html_a7c3ba32be28b44eacf1d555c8ba1c3a8"><div class="ttname"><a href="struct_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid_1_1create__cuboid__mesh__job.html#a7c3ba32be28b44eacf1d555c8ba1c3a8">BXGeometryGraph.Runtime.mesh_primitive_cuboid.create_cuboid_mesh_job.config</a></div><div class="ttdeci">CuboidConfig config</div><div class="ttdef"><b>Definition</b> <a href="#l00079">mesh_primitive_cuboid.cs:79</a></div></div>
+<div class="ttc" id="astruct_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid_1_1create__cuboid__mesh__job_html_acce75a3474f84d3db611468bb6e4997f"><div class="ttname"><a href="struct_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid_1_1create__cuboid__mesh__job.html#acce75a3474f84d3db611468bb6e4997f">BXGeometryGraph.Runtime.mesh_primitive_cuboid.create_cuboid_mesh_job.corner_verts</a></div><div class="ttdeci">NativeArray&lt; int &gt; corner_verts</div><div class="ttdef"><b>Definition</b> <a href="#l00086">mesh_primitive_cuboid.cs:86</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_f73a8b7d50989afdadf24d8fc7357a9a.html">FloowDream</a></li><li class="navelem"><a class="el" href="dir_1ba945c5ec581c9e331de81f300aff07.html">Assets</a></li><li class="navelem"><a class="el" href="dir_a57f4778d467e0a6236fa4788364df6c.html">Scripts</a></li><li class="navelem"><a class="el" href="dir_8b4148ef0ffda13d8a8272867298b61d.html">BXRenderPipeline</a></li><li class="navelem"><a class="el" href="dir_a8720bb293956aa0546773bed716ef7d.html">GeometryGraph</a></li><li class="navelem"><a class="el" href="dir_3ac875a336cd5a79e9f366045b67bc23.html">Runtime</a></li><li class="navelem"><a class="el" href="dir_888070082ca4adff137b6275b494a311.html">Primitives</a></li><li class="navelem"><b>mesh_primitive_cuboid.cs</b></li>
+    <li class="navelem"><a class="el" href="dir_f73a8b7d50989afdadf24d8fc7357a9a.html">FloowDream</a></li><li class="navelem"><a class="el" href="dir_1ba945c5ec581c9e331de81f300aff07.html">Assets</a></li><li class="navelem"><a class="el" href="dir_a57f4778d467e0a6236fa4788364df6c.html">Scripts</a></li><li class="navelem"><a class="el" href="dir_8b4148ef0ffda13d8a8272867298b61d.html">BXRenderPipeline</a></li><li class="navelem"><a class="el" href="dir_a8720bb293956aa0546773bed716ef7d.html">GeometryGraph</a></li><li class="navelem"><a class="el" href="dir_3ac875a336cd5a79e9f366045b67bc23.html">Runtime</a></li><li class="navelem"><a class="el" href="dir_888070082ca4adff137b6275b494a311.html">Primitives</a></li><li class="navelem"><a class="el" href="mesh__primitive__cuboid_8cs.html">mesh_primitive_cuboid.cs</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
   </ul>
 </div>

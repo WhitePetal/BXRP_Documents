@@ -1,14 +1,8 @@
 var searchData=
 [
-  ['l0_5fl1rx_0',['L0_L1rx',['../struct_b_x_render_pipeline_1_1_probe_reference_volume_1_1_runtime_resources.html#a125b6430cb851d8f19ea1dd1c3d65441',1,'BXRenderPipeline::ProbeReferenceVolume::RuntimeResources']]],
-  ['l1_5fb_5frz_1',['L1_B_rz',['../struct_b_x_render_pipeline_1_1_probe_reference_volume_1_1_runtime_resources.html#aa353490db022d8456d2bab3dbfedc42c',1,'BXRenderPipeline::ProbeReferenceVolume::RuntimeResources']]],
-  ['l1_5fg_5fry_2',['L1_G_ry',['../struct_b_x_render_pipeline_1_1_probe_reference_volume_1_1_runtime_resources.html#a2de09f9e952049d4cd4b87a2be1ed41e',1,'BXRenderPipeline::ProbeReferenceVolume::RuntimeResources']]],
-  ['l2_5f0_3',['L2_0',['../struct_b_x_render_pipeline_1_1_probe_reference_volume_1_1_runtime_resources.html#aef36eb6921c8e7b3ec8719574d6c19b3',1,'BXRenderPipeline::ProbeReferenceVolume::RuntimeResources']]],
-  ['l2_5f1_4',['L2_1',['../struct_b_x_render_pipeline_1_1_probe_reference_volume_1_1_runtime_resources.html#a455a285b278632bda259dd8bacea4609',1,'BXRenderPipeline::ProbeReferenceVolume::RuntimeResources']]],
-  ['l2_5f2_5',['L2_2',['../struct_b_x_render_pipeline_1_1_probe_reference_volume_1_1_runtime_resources.html#a2c333700372c66f97143b677d313ce89',1,'BXRenderPipeline::ProbeReferenceVolume::RuntimeResources']]],
-  ['l2_5f3_6',['L2_3',['../struct_b_x_render_pipeline_1_1_probe_reference_volume_1_1_runtime_resources.html#ad34cae467fc4e7cadd3091e9aa02a5c1',1,'BXRenderPipeline::ProbeReferenceVolume::RuntimeResources']]],
-  ['leakreductionmode_7',['leakReductionMode',['../class_b_x_render_pipeline_1_1_probe_volumes_options.html#a99b7fcb4f2261277a9f74f5c5bdeffb7',1,'BXRenderPipeline::ProbeVolumesOptions']]],
-  ['leakreductionmode_5fruntime_8',['leakReductionMode_runtime',['../class_b_x_render_pipeline_1_1_probe_volumes_options.html#aa5391b1e50793d15ccffc42ca1cdfec9',1,'BXRenderPipeline::ProbeVolumesOptions']]],
-  ['legacyshadertagids_9',['legacyShaderTagIds',['../class_b_x_render_pipeline_1_1_b_x_render_pipeline.html#a8d0728b053933277c4600f6ddd94fff9',1,'BXRenderPipeline::BXRenderPipeline']]],
-  ['lowestsubdivleveloverride_10',['lowestSubdivLevelOverride',['../class_b_x_render_pipeline_1_1_probe_volume.html#aeb0fc4a491e0e31c62224743b60caca2',1,'BXRenderPipeline::ProbeVolume']]]
+  ['jobhandle_0',['jobHandle',['../class_b_x_geometry_graph_1_1_runtime_1_1_geometry_renderer.html#a78773a83768c5d854edcd4e48e8e6025',1,'BXGeometryGraph::Runtime::GeometryRenderer']]],
+  ['json_1',['json',['../class_b_x_geometry_graph_1_1_runtime_1_1_geometry_s_o.html#a72cb7e8e5359006226b7339c183bb944',1,'BXGeometryGraph::Runtime::GeometrySO']]],
+  ['jsonblobs_2',['jsonBlobs',['../class_b_x_geometry_graph_1_1_multi_json_internal.html#a7487460c528a53e06745d718f8eecd4c',1,'BXGeometryGraph::MultiJsonInternal']]],
+  ['jsondata_3',['jsonData',['../class_b_x_geometry_graph_1_1_multi_json_internal_1_1_unknown_json_object.html#a3cb7fe2e73c3ede771debac928b80597',1,'BXGeometryGraph.MultiJsonInternal.UnknownJsonObject.jsonData'],['../class_b_x_geometry_graph_1_1_multi_json_internal_1_1_unknown_target_type.html#a76ed89909818624b001d752bc2ed0d6f',1,'BXGeometryGraph.MultiJsonInternal.UnknownTargetType.jsonData'],['../class_b_x_geometry_graph_1_1_multi_json_internal_1_1_unknown_sub_target_type.html#ada64979b24b9b78dd7d1e56cbba49ee2',1,'BXGeometryGraph.MultiJsonInternal.UnknownSubTargetType.jsonData']]],
+  ['jsonnodedata_4',['JSONnodeData',['../struct_b_x_geometry_graph_1_1_serialization_helper_1_1_j_s_o_n_serialized_element.html#a87f9f0d4b97ec0dbbf3a7c7b25f27fb5',1,'BXGeometryGraph::SerializationHelper::JSONSerializedElement']]]
 ];

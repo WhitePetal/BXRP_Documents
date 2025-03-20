@@ -123,84 +123,694 @@ Inheritance diagram for IDxcPdbUtils:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:adb4368b096b789f405af97a6f28e1f7c" id="r_adb4368b096b789f405af97a6f28e1f7c"><td class="memItemLeft" align="right" valign="top"><a id="adb4368b096b789f405af97a6f28e1f7c" name="adb4368b096b789f405af97a6f28e1f7c"></a>
-virtual HRESULT STDMETHODCALLTYPE&#160;</td><td class="memItemRight" valign="bottom"><b>Load</b> (_In_ <a class="el" href="struct_i_dxc_blob.html">IDxcBlob</a> *pPdbOrDxil)=0</td></tr>
+<tr class="memitem:adb4368b096b789f405af97a6f28e1f7c" id="r_adb4368b096b789f405af97a6f28e1f7c"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb4368b096b789f405af97a6f28e1f7c">Load</a> (<a class="el" href="basetsd_8h.html#aa74f89aa7d942f4a79ea12d7c9b763ef">_In_</a> <a class="el" href="struct_i_dxc_blob.html">IDxcBlob</a> *pPdbOrDxil)=0</td></tr>
 <tr class="separator:adb4368b096b789f405af97a6f28e1f7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a40f477946e5deac7353a8f4543257822" id="r_a40f477946e5deac7353a8f4543257822"><td class="memItemLeft" align="right" valign="top"><a id="a40f477946e5deac7353a8f4543257822" name="a40f477946e5deac7353a8f4543257822"></a>
-virtual HRESULT STDMETHODCALLTYPE&#160;</td><td class="memItemRight" valign="bottom"><b>GetSourceCount</b> (_Out_ UINT32 *pCount)=0</td></tr>
+<tr class="memitem:a40f477946e5deac7353a8f4543257822" id="r_a40f477946e5deac7353a8f4543257822"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40f477946e5deac7353a8f4543257822">GetSourceCount</a> (<a class="el" href="basetsd_8h.html#a9c50bd6a6ca6e0be76a0f3a79379b90e">_Out_</a> <a class="el" href="basetsd_8h.html#adfe04a44baaebba6143c3a23507ff85b">UINT32</a> *pCount)=0</td></tr>
 <tr class="separator:a40f477946e5deac7353a8f4543257822"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b6a5c70789c1705191f56612f4446fc" id="r_a5b6a5c70789c1705191f56612f4446fc"><td class="memItemLeft" align="right" valign="top"><a id="a5b6a5c70789c1705191f56612f4446fc" name="a5b6a5c70789c1705191f56612f4446fc"></a>
-virtual HRESULT STDMETHODCALLTYPE&#160;</td><td class="memItemRight" valign="bottom"><b>GetSource</b> (_In_ UINT32 uIndex, _COM_Outptr_ <a class="el" href="struct_i_dxc_blob_encoding.html">IDxcBlobEncoding</a> **ppResult)=0</td></tr>
+<tr class="memitem:a5b6a5c70789c1705191f56612f4446fc" id="r_a5b6a5c70789c1705191f56612f4446fc"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5b6a5c70789c1705191f56612f4446fc">GetSource</a> (<a class="el" href="basetsd_8h.html#aa74f89aa7d942f4a79ea12d7c9b763ef">_In_</a> <a class="el" href="basetsd_8h.html#adfe04a44baaebba6143c3a23507ff85b">UINT32</a> uIndex, <a class="el" href="basetsd_8h.html#aa206bd7c9b619a3bec843bc3c5360687">_COM_Outptr_</a> <a class="el" href="struct_i_dxc_blob_encoding.html">IDxcBlobEncoding</a> **ppResult)=0</td></tr>
 <tr class="separator:a5b6a5c70789c1705191f56612f4446fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad27a0dd9c27b07dfbb811b29a60cb921" id="r_ad27a0dd9c27b07dfbb811b29a60cb921"><td class="memItemLeft" align="right" valign="top"><a id="ad27a0dd9c27b07dfbb811b29a60cb921" name="ad27a0dd9c27b07dfbb811b29a60cb921"></a>
-virtual HRESULT STDMETHODCALLTYPE&#160;</td><td class="memItemRight" valign="bottom"><b>GetSourceName</b> (_In_ UINT32 uIndex, _Outptr_result_z_ BSTR *pResult)=0</td></tr>
+<tr class="memitem:ad27a0dd9c27b07dfbb811b29a60cb921" id="r_ad27a0dd9c27b07dfbb811b29a60cb921"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad27a0dd9c27b07dfbb811b29a60cb921">GetSourceName</a> (<a class="el" href="basetsd_8h.html#aa74f89aa7d942f4a79ea12d7c9b763ef">_In_</a> <a class="el" href="basetsd_8h.html#adfe04a44baaebba6143c3a23507ff85b">UINT32</a> uIndex, _Outptr_result_z_ BSTR *pResult)=0</td></tr>
 <tr class="separator:ad27a0dd9c27b07dfbb811b29a60cb921"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9df91bbfe58d282e23cce55dc1ea42fa" id="r_a9df91bbfe58d282e23cce55dc1ea42fa"><td class="memItemLeft" align="right" valign="top"><a id="a9df91bbfe58d282e23cce55dc1ea42fa" name="a9df91bbfe58d282e23cce55dc1ea42fa"></a>
-virtual HRESULT STDMETHODCALLTYPE&#160;</td><td class="memItemRight" valign="bottom"><b>GetFlagCount</b> (_Out_ UINT32 *pCount)=0</td></tr>
+<tr class="memitem:a9df91bbfe58d282e23cce55dc1ea42fa" id="r_a9df91bbfe58d282e23cce55dc1ea42fa"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9df91bbfe58d282e23cce55dc1ea42fa">GetFlagCount</a> (<a class="el" href="basetsd_8h.html#a9c50bd6a6ca6e0be76a0f3a79379b90e">_Out_</a> <a class="el" href="basetsd_8h.html#adfe04a44baaebba6143c3a23507ff85b">UINT32</a> *pCount)=0</td></tr>
 <tr class="separator:a9df91bbfe58d282e23cce55dc1ea42fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8507c1af97cba2a3c23a978a88e42f02" id="r_a8507c1af97cba2a3c23a978a88e42f02"><td class="memItemLeft" align="right" valign="top"><a id="a8507c1af97cba2a3c23a978a88e42f02" name="a8507c1af97cba2a3c23a978a88e42f02"></a>
-virtual HRESULT STDMETHODCALLTYPE&#160;</td><td class="memItemRight" valign="bottom"><b>GetFlag</b> (_In_ UINT32 uIndex, _Outptr_result_z_ BSTR *pResult)=0</td></tr>
+<tr class="memitem:a8507c1af97cba2a3c23a978a88e42f02" id="r_a8507c1af97cba2a3c23a978a88e42f02"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8507c1af97cba2a3c23a978a88e42f02">GetFlag</a> (<a class="el" href="basetsd_8h.html#aa74f89aa7d942f4a79ea12d7c9b763ef">_In_</a> <a class="el" href="basetsd_8h.html#adfe04a44baaebba6143c3a23507ff85b">UINT32</a> uIndex, _Outptr_result_z_ BSTR *pResult)=0</td></tr>
 <tr class="separator:a8507c1af97cba2a3c23a978a88e42f02"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8edb6777942a894190b052ae6d271845" id="r_a8edb6777942a894190b052ae6d271845"><td class="memItemLeft" align="right" valign="top"><a id="a8edb6777942a894190b052ae6d271845" name="a8edb6777942a894190b052ae6d271845"></a>
-virtual HRESULT STDMETHODCALLTYPE&#160;</td><td class="memItemRight" valign="bottom"><b>GetArgCount</b> (_Out_ UINT32 *pCount)=0</td></tr>
+<tr class="memitem:a8edb6777942a894190b052ae6d271845" id="r_a8edb6777942a894190b052ae6d271845"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8edb6777942a894190b052ae6d271845">GetArgCount</a> (<a class="el" href="basetsd_8h.html#a9c50bd6a6ca6e0be76a0f3a79379b90e">_Out_</a> <a class="el" href="basetsd_8h.html#adfe04a44baaebba6143c3a23507ff85b">UINT32</a> *pCount)=0</td></tr>
 <tr class="separator:a8edb6777942a894190b052ae6d271845"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a873e6383c3220e71cb362003c6d01257" id="r_a873e6383c3220e71cb362003c6d01257"><td class="memItemLeft" align="right" valign="top"><a id="a873e6383c3220e71cb362003c6d01257" name="a873e6383c3220e71cb362003c6d01257"></a>
-virtual HRESULT STDMETHODCALLTYPE&#160;</td><td class="memItemRight" valign="bottom"><b>GetArg</b> (_In_ UINT32 uIndex, _Outptr_result_z_ BSTR *pResult)=0</td></tr>
+<tr class="memitem:a873e6383c3220e71cb362003c6d01257" id="r_a873e6383c3220e71cb362003c6d01257"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a873e6383c3220e71cb362003c6d01257">GetArg</a> (<a class="el" href="basetsd_8h.html#aa74f89aa7d942f4a79ea12d7c9b763ef">_In_</a> <a class="el" href="basetsd_8h.html#adfe04a44baaebba6143c3a23507ff85b">UINT32</a> uIndex, _Outptr_result_z_ BSTR *pResult)=0</td></tr>
 <tr class="separator:a873e6383c3220e71cb362003c6d01257"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a873cf8b106918edd1f00718d86d5771c" id="r_a873cf8b106918edd1f00718d86d5771c"><td class="memItemLeft" align="right" valign="top"><a id="a873cf8b106918edd1f00718d86d5771c" name="a873cf8b106918edd1f00718d86d5771c"></a>
-virtual HRESULT STDMETHODCALLTYPE&#160;</td><td class="memItemRight" valign="bottom"><b>GetArgPairCount</b> (_Out_ UINT32 *pCount)=0</td></tr>
+<tr class="memitem:a873cf8b106918edd1f00718d86d5771c" id="r_a873cf8b106918edd1f00718d86d5771c"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a873cf8b106918edd1f00718d86d5771c">GetArgPairCount</a> (<a class="el" href="basetsd_8h.html#a9c50bd6a6ca6e0be76a0f3a79379b90e">_Out_</a> <a class="el" href="basetsd_8h.html#adfe04a44baaebba6143c3a23507ff85b">UINT32</a> *pCount)=0</td></tr>
 <tr class="separator:a873cf8b106918edd1f00718d86d5771c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad292281927a2e03b65648d860cb23c01" id="r_ad292281927a2e03b65648d860cb23c01"><td class="memItemLeft" align="right" valign="top"><a id="ad292281927a2e03b65648d860cb23c01" name="ad292281927a2e03b65648d860cb23c01"></a>
-virtual HRESULT STDMETHODCALLTYPE&#160;</td><td class="memItemRight" valign="bottom"><b>GetArgPair</b> (_In_ UINT32 uIndex, _Outptr_result_z_ BSTR *pName, _Outptr_result_z_ BSTR *pValue)=0</td></tr>
+<tr class="memitem:ad292281927a2e03b65648d860cb23c01" id="r_ad292281927a2e03b65648d860cb23c01"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad292281927a2e03b65648d860cb23c01">GetArgPair</a> (<a class="el" href="basetsd_8h.html#aa74f89aa7d942f4a79ea12d7c9b763ef">_In_</a> <a class="el" href="basetsd_8h.html#adfe04a44baaebba6143c3a23507ff85b">UINT32</a> uIndex, _Outptr_result_z_ BSTR *pName, _Outptr_result_z_ BSTR *pValue)=0</td></tr>
 <tr class="separator:ad292281927a2e03b65648d860cb23c01"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b9d9a857253580406703665215f0f24" id="r_a3b9d9a857253580406703665215f0f24"><td class="memItemLeft" align="right" valign="top"><a id="a3b9d9a857253580406703665215f0f24" name="a3b9d9a857253580406703665215f0f24"></a>
-virtual HRESULT STDMETHODCALLTYPE&#160;</td><td class="memItemRight" valign="bottom"><b>GetDefineCount</b> (_Out_ UINT32 *pCount)=0</td></tr>
+<tr class="memitem:a3b9d9a857253580406703665215f0f24" id="r_a3b9d9a857253580406703665215f0f24"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b9d9a857253580406703665215f0f24">GetDefineCount</a> (<a class="el" href="basetsd_8h.html#a9c50bd6a6ca6e0be76a0f3a79379b90e">_Out_</a> <a class="el" href="basetsd_8h.html#adfe04a44baaebba6143c3a23507ff85b">UINT32</a> *pCount)=0</td></tr>
 <tr class="separator:a3b9d9a857253580406703665215f0f24"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acb263bb4a181e9e3e78778e6aeaacf3b" id="r_acb263bb4a181e9e3e78778e6aeaacf3b"><td class="memItemLeft" align="right" valign="top"><a id="acb263bb4a181e9e3e78778e6aeaacf3b" name="acb263bb4a181e9e3e78778e6aeaacf3b"></a>
-virtual HRESULT STDMETHODCALLTYPE&#160;</td><td class="memItemRight" valign="bottom"><b>GetDefine</b> (_In_ UINT32 uIndex, _Outptr_result_z_ BSTR *pResult)=0</td></tr>
+<tr class="memitem:acb263bb4a181e9e3e78778e6aeaacf3b" id="r_acb263bb4a181e9e3e78778e6aeaacf3b"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acb263bb4a181e9e3e78778e6aeaacf3b">GetDefine</a> (<a class="el" href="basetsd_8h.html#aa74f89aa7d942f4a79ea12d7c9b763ef">_In_</a> <a class="el" href="basetsd_8h.html#adfe04a44baaebba6143c3a23507ff85b">UINT32</a> uIndex, _Outptr_result_z_ BSTR *pResult)=0</td></tr>
 <tr class="separator:acb263bb4a181e9e3e78778e6aeaacf3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a94cc2ec1c95354ebc9a0f48db4c8f693" id="r_a94cc2ec1c95354ebc9a0f48db4c8f693"><td class="memItemLeft" align="right" valign="top"><a id="a94cc2ec1c95354ebc9a0f48db4c8f693" name="a94cc2ec1c95354ebc9a0f48db4c8f693"></a>
-virtual HRESULT STDMETHODCALLTYPE&#160;</td><td class="memItemRight" valign="bottom"><b>GetTargetProfile</b> (_Outptr_result_z_ BSTR *pResult)=0</td></tr>
+<tr class="memitem:a94cc2ec1c95354ebc9a0f48db4c8f693" id="r_a94cc2ec1c95354ebc9a0f48db4c8f693"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94cc2ec1c95354ebc9a0f48db4c8f693">GetTargetProfile</a> (_Outptr_result_z_ BSTR *pResult)=0</td></tr>
 <tr class="separator:a94cc2ec1c95354ebc9a0f48db4c8f693"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d1643f8d2e861199435ca6eeaf86cf3" id="r_a8d1643f8d2e861199435ca6eeaf86cf3"><td class="memItemLeft" align="right" valign="top"><a id="a8d1643f8d2e861199435ca6eeaf86cf3" name="a8d1643f8d2e861199435ca6eeaf86cf3"></a>
-virtual HRESULT STDMETHODCALLTYPE&#160;</td><td class="memItemRight" valign="bottom"><b>GetEntryPoint</b> (_Outptr_result_z_ BSTR *pResult)=0</td></tr>
+<tr class="memitem:a8d1643f8d2e861199435ca6eeaf86cf3" id="r_a8d1643f8d2e861199435ca6eeaf86cf3"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d1643f8d2e861199435ca6eeaf86cf3">GetEntryPoint</a> (_Outptr_result_z_ BSTR *pResult)=0</td></tr>
 <tr class="separator:a8d1643f8d2e861199435ca6eeaf86cf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d96f61ae342635a19549f1310f8e9d1" id="r_a6d96f61ae342635a19549f1310f8e9d1"><td class="memItemLeft" align="right" valign="top"><a id="a6d96f61ae342635a19549f1310f8e9d1" name="a6d96f61ae342635a19549f1310f8e9d1"></a>
-virtual HRESULT STDMETHODCALLTYPE&#160;</td><td class="memItemRight" valign="bottom"><b>GetMainFileName</b> (_Outptr_result_z_ BSTR *pResult)=0</td></tr>
+<tr class="memitem:a6d96f61ae342635a19549f1310f8e9d1" id="r_a6d96f61ae342635a19549f1310f8e9d1"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d96f61ae342635a19549f1310f8e9d1">GetMainFileName</a> (_Outptr_result_z_ BSTR *pResult)=0</td></tr>
 <tr class="separator:a6d96f61ae342635a19549f1310f8e9d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a088a020c7c0862b12d7790594de4542b" id="r_a088a020c7c0862b12d7790594de4542b"><td class="memItemLeft" align="right" valign="top"><a id="a088a020c7c0862b12d7790594de4542b" name="a088a020c7c0862b12d7790594de4542b"></a>
-virtual HRESULT STDMETHODCALLTYPE&#160;</td><td class="memItemRight" valign="bottom"><b>GetHash</b> (_COM_Outptr_ <a class="el" href="struct_i_dxc_blob.html">IDxcBlob</a> **ppResult)=0</td></tr>
+<tr class="memitem:a088a020c7c0862b12d7790594de4542b" id="r_a088a020c7c0862b12d7790594de4542b"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a088a020c7c0862b12d7790594de4542b">GetHash</a> (<a class="el" href="basetsd_8h.html#aa206bd7c9b619a3bec843bc3c5360687">_COM_Outptr_</a> <a class="el" href="struct_i_dxc_blob.html">IDxcBlob</a> **ppResult)=0</td></tr>
 <tr class="separator:a088a020c7c0862b12d7790594de4542b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a09249a339f0b5ad50724bc144974a688" id="r_a09249a339f0b5ad50724bc144974a688"><td class="memItemLeft" align="right" valign="top"><a id="a09249a339f0b5ad50724bc144974a688" name="a09249a339f0b5ad50724bc144974a688"></a>
-virtual HRESULT STDMETHODCALLTYPE&#160;</td><td class="memItemRight" valign="bottom"><b>GetName</b> (_Outptr_result_z_ BSTR *pResult)=0</td></tr>
+<tr class="memitem:a09249a339f0b5ad50724bc144974a688" id="r_a09249a339f0b5ad50724bc144974a688"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09249a339f0b5ad50724bc144974a688">GetName</a> (_Outptr_result_z_ BSTR *pResult)=0</td></tr>
 <tr class="separator:a09249a339f0b5ad50724bc144974a688"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad310734cfc012a980b139a8bcaf38668" id="r_ad310734cfc012a980b139a8bcaf38668"><td class="memItemLeft" align="right" valign="top"><a id="ad310734cfc012a980b139a8bcaf38668" name="ad310734cfc012a980b139a8bcaf38668"></a>
-virtual BOOL STDMETHODCALLTYPE&#160;</td><td class="memItemRight" valign="bottom"><b>IsFullPDB</b> ()=0</td></tr>
+<tr class="memitem:ad310734cfc012a980b139a8bcaf38668" id="r_ad310734cfc012a980b139a8bcaf38668"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="basetsd_8h.html#ad69e2ca4c72d9a05ed80a1916f009f29">BOOL</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad310734cfc012a980b139a8bcaf38668">IsFullPDB</a> ()=0</td></tr>
 <tr class="separator:ad310734cfc012a980b139a8bcaf38668"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e5501ac1bbafdb701c09439030f3050" id="r_a4e5501ac1bbafdb701c09439030f3050"><td class="memItemLeft" align="right" valign="top"><a id="a4e5501ac1bbafdb701c09439030f3050" name="a4e5501ac1bbafdb701c09439030f3050"></a>
-virtual HRESULT STDMETHODCALLTYPE&#160;</td><td class="memItemRight" valign="bottom"><b>GetFullPDB</b> (_COM_Outptr_ <a class="el" href="struct_i_dxc_blob.html">IDxcBlob</a> **ppFullPDB)=0</td></tr>
+<tr class="memitem:a4e5501ac1bbafdb701c09439030f3050" id="r_a4e5501ac1bbafdb701c09439030f3050"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e5501ac1bbafdb701c09439030f3050">GetFullPDB</a> (<a class="el" href="basetsd_8h.html#aa206bd7c9b619a3bec843bc3c5360687">_COM_Outptr_</a> <a class="el" href="struct_i_dxc_blob.html">IDxcBlob</a> **ppFullPDB)=0</td></tr>
 <tr class="separator:a4e5501ac1bbafdb701c09439030f3050"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c122b2cf97d1ea3572fec4ddb32872e" id="r_a2c122b2cf97d1ea3572fec4ddb32872e"><td class="memItemLeft" align="right" valign="top"><a id="a2c122b2cf97d1ea3572fec4ddb32872e" name="a2c122b2cf97d1ea3572fec4ddb32872e"></a>
-virtual HRESULT STDMETHODCALLTYPE&#160;</td><td class="memItemRight" valign="bottom"><b>GetVersionInfo</b> (_COM_Outptr_ <a class="el" href="struct_i_dxc_version_info.html">IDxcVersionInfo</a> **ppVersionInfo)=0</td></tr>
+<tr class="memitem:a2c122b2cf97d1ea3572fec4ddb32872e" id="r_a2c122b2cf97d1ea3572fec4ddb32872e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c122b2cf97d1ea3572fec4ddb32872e">GetVersionInfo</a> (<a class="el" href="basetsd_8h.html#aa206bd7c9b619a3bec843bc3c5360687">_COM_Outptr_</a> <a class="el" href="struct_i_dxc_version_info.html">IDxcVersionInfo</a> **ppVersionInfo)=0</td></tr>
 <tr class="separator:a2c122b2cf97d1ea3572fec4ddb32872e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85f327390d2c6d13562762b63842ac10" id="r_a85f327390d2c6d13562762b63842ac10"><td class="memItemLeft" align="right" valign="top"><a id="a85f327390d2c6d13562762b63842ac10" name="a85f327390d2c6d13562762b63842ac10"></a>
-virtual HRESULT STDMETHODCALLTYPE&#160;</td><td class="memItemRight" valign="bottom"><b>SetCompiler</b> (_In_ <a class="el" href="struct_i_dxc_compiler3.html">IDxcCompiler3</a> *pCompiler)=0</td></tr>
+<tr class="memitem:a85f327390d2c6d13562762b63842ac10" id="r_a85f327390d2c6d13562762b63842ac10"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a85f327390d2c6d13562762b63842ac10">SetCompiler</a> (<a class="el" href="basetsd_8h.html#aa74f89aa7d942f4a79ea12d7c9b763ef">_In_</a> <a class="el" href="struct_i_dxc_compiler3.html">IDxcCompiler3</a> *pCompiler)=0</td></tr>
 <tr class="separator:a85f327390d2c6d13562762b63842ac10"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab24a18384a2072d6015b75d94b927534" id="r_ab24a18384a2072d6015b75d94b927534"><td class="memItemLeft" align="right" valign="top"><a id="ab24a18384a2072d6015b75d94b927534" name="ab24a18384a2072d6015b75d94b927534"></a>
-virtual HRESULT STDMETHODCALLTYPE&#160;</td><td class="memItemRight" valign="bottom"><b>CompileForFullPDB</b> (_COM_Outptr_ <a class="el" href="struct_i_dxc_result.html">IDxcResult</a> **ppResult)=0</td></tr>
+<tr class="memitem:ab24a18384a2072d6015b75d94b927534" id="r_ab24a18384a2072d6015b75d94b927534"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab24a18384a2072d6015b75d94b927534">CompileForFullPDB</a> (<a class="el" href="basetsd_8h.html#aa206bd7c9b619a3bec843bc3c5360687">_COM_Outptr_</a> <a class="el" href="struct_i_dxc_result.html">IDxcResult</a> **ppResult)=0</td></tr>
 <tr class="separator:ab24a18384a2072d6015b75d94b927534"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a620b285b3006344d869616927ec04e08" id="r_a620b285b3006344d869616927ec04e08"><td class="memItemLeft" align="right" valign="top"><a id="a620b285b3006344d869616927ec04e08" name="a620b285b3006344d869616927ec04e08"></a>
-virtual HRESULT STDMETHODCALLTYPE&#160;</td><td class="memItemRight" valign="bottom"><b>OverrideArgs</b> (_In_ <a class="el" href="struct_dxc_arg_pair.html">DxcArgPair</a> *pArgPairs, UINT32 uNumArgPairs)=0</td></tr>
+<tr class="memitem:a620b285b3006344d869616927ec04e08" id="r_a620b285b3006344d869616927ec04e08"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a620b285b3006344d869616927ec04e08">OverrideArgs</a> (<a class="el" href="basetsd_8h.html#aa74f89aa7d942f4a79ea12d7c9b763ef">_In_</a> <a class="el" href="struct_dxc_arg_pair.html">DxcArgPair</a> *pArgPairs, <a class="el" href="basetsd_8h.html#adfe04a44baaebba6143c3a23507ff85b">UINT32</a> uNumArgPairs)=0</td></tr>
 <tr class="separator:a620b285b3006344d869616927ec04e08"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90679151542c84af7d1192ee0974c18d" id="r_a90679151542c84af7d1192ee0974c18d"><td class="memItemLeft" align="right" valign="top"><a id="a90679151542c84af7d1192ee0974c18d" name="a90679151542c84af7d1192ee0974c18d"></a>
-virtual HRESULT STDMETHODCALLTYPE&#160;</td><td class="memItemRight" valign="bottom"><b>OverrideRootSignature</b> (_In_ const WCHAR *pRootSignature)=0</td></tr>
+<tr class="memitem:a90679151542c84af7d1192ee0974c18d" id="r_a90679151542c84af7d1192ee0974c18d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90679151542c84af7d1192ee0974c18d">OverrideRootSignature</a> (<a class="el" href="basetsd_8h.html#aa74f89aa7d942f4a79ea12d7c9b763ef">_In_</a> const <a class="el" href="basetsd_8h.html#aad61bc3eae1804d8784adebdce0721d3">WCHAR</a> *pRootSignature)=0</td></tr>
 <tr class="separator:a90679151542c84af7d1192ee0974c18d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000004">Deprecated</a></b></dt><dd>Please use <a class="el" href="struct_i_dxc_pdb_utils2.html" title="DxcPdbUtils interface.">IDxcPdbUtils2</a> instead. </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="dxcapi_8h_source.html#l01106">1106</a> of file <a class="el" href="dxcapi_8h_source.html">dxcapi.h</a>.</p>
-</div><hr/>The documentation for this struct was generated from the following file:<ul>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="ab24a18384a2072d6015b75d94b927534" name="ab24a18384a2072d6015b75d94b927534"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab24a18384a2072d6015b75d94b927534">&#9670;&#160;</a></span>CompileForFullPDB()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a> IDxcPdbUtils::CompileForFullPDB </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#aa206bd7c9b619a3bec843bc3c5360687">_COM_Outptr_</a> <a class="el" href="struct_i_dxc_result.html">IDxcResult</a> **</td>          <td class="paramname"><span class="paramname"><em>ppResult</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a873e6383c3220e71cb362003c6d01257" name="a873e6383c3220e71cb362003c6d01257"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a873e6383c3220e71cb362003c6d01257">&#9670;&#160;</a></span>GetArg()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a> IDxcPdbUtils::GetArg </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#aa74f89aa7d942f4a79ea12d7c9b763ef">_In_</a> <a class="el" href="basetsd_8h.html#adfe04a44baaebba6143c3a23507ff85b">UINT32</a></td>          <td class="paramname"><span class="paramname"><em>uIndex</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">_Outptr_result_z_ BSTR *</td>          <td class="paramname"><span class="paramname"><em>pResult</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8edb6777942a894190b052ae6d271845" name="a8edb6777942a894190b052ae6d271845"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8edb6777942a894190b052ae6d271845">&#9670;&#160;</a></span>GetArgCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a> IDxcPdbUtils::GetArgCount </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#a9c50bd6a6ca6e0be76a0f3a79379b90e">_Out_</a> <a class="el" href="basetsd_8h.html#adfe04a44baaebba6143c3a23507ff85b">UINT32</a> *</td>          <td class="paramname"><span class="paramname"><em>pCount</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad292281927a2e03b65648d860cb23c01" name="ad292281927a2e03b65648d860cb23c01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad292281927a2e03b65648d860cb23c01">&#9670;&#160;</a></span>GetArgPair()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a> IDxcPdbUtils::GetArgPair </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#aa74f89aa7d942f4a79ea12d7c9b763ef">_In_</a> <a class="el" href="basetsd_8h.html#adfe04a44baaebba6143c3a23507ff85b">UINT32</a></td>          <td class="paramname"><span class="paramname"><em>uIndex</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">_Outptr_result_z_ BSTR *</td>          <td class="paramname"><span class="paramname"><em>pName</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">_Outptr_result_z_ BSTR *</td>          <td class="paramname"><span class="paramname"><em>pValue</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a873cf8b106918edd1f00718d86d5771c" name="a873cf8b106918edd1f00718d86d5771c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a873cf8b106918edd1f00718d86d5771c">&#9670;&#160;</a></span>GetArgPairCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a> IDxcPdbUtils::GetArgPairCount </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#a9c50bd6a6ca6e0be76a0f3a79379b90e">_Out_</a> <a class="el" href="basetsd_8h.html#adfe04a44baaebba6143c3a23507ff85b">UINT32</a> *</td>          <td class="paramname"><span class="paramname"><em>pCount</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acb263bb4a181e9e3e78778e6aeaacf3b" name="acb263bb4a181e9e3e78778e6aeaacf3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb263bb4a181e9e3e78778e6aeaacf3b">&#9670;&#160;</a></span>GetDefine()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a> IDxcPdbUtils::GetDefine </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#aa74f89aa7d942f4a79ea12d7c9b763ef">_In_</a> <a class="el" href="basetsd_8h.html#adfe04a44baaebba6143c3a23507ff85b">UINT32</a></td>          <td class="paramname"><span class="paramname"><em>uIndex</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">_Outptr_result_z_ BSTR *</td>          <td class="paramname"><span class="paramname"><em>pResult</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3b9d9a857253580406703665215f0f24" name="a3b9d9a857253580406703665215f0f24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b9d9a857253580406703665215f0f24">&#9670;&#160;</a></span>GetDefineCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a> IDxcPdbUtils::GetDefineCount </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#a9c50bd6a6ca6e0be76a0f3a79379b90e">_Out_</a> <a class="el" href="basetsd_8h.html#adfe04a44baaebba6143c3a23507ff85b">UINT32</a> *</td>          <td class="paramname"><span class="paramname"><em>pCount</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8d1643f8d2e861199435ca6eeaf86cf3" name="a8d1643f8d2e861199435ca6eeaf86cf3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d1643f8d2e861199435ca6eeaf86cf3">&#9670;&#160;</a></span>GetEntryPoint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a> IDxcPdbUtils::GetEntryPoint </td>
+          <td>(</td>
+          <td class="paramtype">_Outptr_result_z_ BSTR *</td>          <td class="paramname"><span class="paramname"><em>pResult</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8507c1af97cba2a3c23a978a88e42f02" name="a8507c1af97cba2a3c23a978a88e42f02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8507c1af97cba2a3c23a978a88e42f02">&#9670;&#160;</a></span>GetFlag()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a> IDxcPdbUtils::GetFlag </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#aa74f89aa7d942f4a79ea12d7c9b763ef">_In_</a> <a class="el" href="basetsd_8h.html#adfe04a44baaebba6143c3a23507ff85b">UINT32</a></td>          <td class="paramname"><span class="paramname"><em>uIndex</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">_Outptr_result_z_ BSTR *</td>          <td class="paramname"><span class="paramname"><em>pResult</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9df91bbfe58d282e23cce55dc1ea42fa" name="a9df91bbfe58d282e23cce55dc1ea42fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9df91bbfe58d282e23cce55dc1ea42fa">&#9670;&#160;</a></span>GetFlagCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a> IDxcPdbUtils::GetFlagCount </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#a9c50bd6a6ca6e0be76a0f3a79379b90e">_Out_</a> <a class="el" href="basetsd_8h.html#adfe04a44baaebba6143c3a23507ff85b">UINT32</a> *</td>          <td class="paramname"><span class="paramname"><em>pCount</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4e5501ac1bbafdb701c09439030f3050" name="a4e5501ac1bbafdb701c09439030f3050"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e5501ac1bbafdb701c09439030f3050">&#9670;&#160;</a></span>GetFullPDB()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a> IDxcPdbUtils::GetFullPDB </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#aa206bd7c9b619a3bec843bc3c5360687">_COM_Outptr_</a> <a class="el" href="struct_i_dxc_blob.html">IDxcBlob</a> **</td>          <td class="paramname"><span class="paramname"><em>ppFullPDB</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a088a020c7c0862b12d7790594de4542b" name="a088a020c7c0862b12d7790594de4542b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a088a020c7c0862b12d7790594de4542b">&#9670;&#160;</a></span>GetHash()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a> IDxcPdbUtils::GetHash </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#aa206bd7c9b619a3bec843bc3c5360687">_COM_Outptr_</a> <a class="el" href="struct_i_dxc_blob.html">IDxcBlob</a> **</td>          <td class="paramname"><span class="paramname"><em>ppResult</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6d96f61ae342635a19549f1310f8e9d1" name="a6d96f61ae342635a19549f1310f8e9d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d96f61ae342635a19549f1310f8e9d1">&#9670;&#160;</a></span>GetMainFileName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a> IDxcPdbUtils::GetMainFileName </td>
+          <td>(</td>
+          <td class="paramtype">_Outptr_result_z_ BSTR *</td>          <td class="paramname"><span class="paramname"><em>pResult</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a09249a339f0b5ad50724bc144974a688" name="a09249a339f0b5ad50724bc144974a688"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09249a339f0b5ad50724bc144974a688">&#9670;&#160;</a></span>GetName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a> IDxcPdbUtils::GetName </td>
+          <td>(</td>
+          <td class="paramtype">_Outptr_result_z_ BSTR *</td>          <td class="paramname"><span class="paramname"><em>pResult</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5b6a5c70789c1705191f56612f4446fc" name="a5b6a5c70789c1705191f56612f4446fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b6a5c70789c1705191f56612f4446fc">&#9670;&#160;</a></span>GetSource()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a> IDxcPdbUtils::GetSource </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#aa74f89aa7d942f4a79ea12d7c9b763ef">_In_</a> <a class="el" href="basetsd_8h.html#adfe04a44baaebba6143c3a23507ff85b">UINT32</a></td>          <td class="paramname"><span class="paramname"><em>uIndex</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#aa206bd7c9b619a3bec843bc3c5360687">_COM_Outptr_</a> <a class="el" href="struct_i_dxc_blob_encoding.html">IDxcBlobEncoding</a> **</td>          <td class="paramname"><span class="paramname"><em>ppResult</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a40f477946e5deac7353a8f4543257822" name="a40f477946e5deac7353a8f4543257822"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40f477946e5deac7353a8f4543257822">&#9670;&#160;</a></span>GetSourceCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a> IDxcPdbUtils::GetSourceCount </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#a9c50bd6a6ca6e0be76a0f3a79379b90e">_Out_</a> <a class="el" href="basetsd_8h.html#adfe04a44baaebba6143c3a23507ff85b">UINT32</a> *</td>          <td class="paramname"><span class="paramname"><em>pCount</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad27a0dd9c27b07dfbb811b29a60cb921" name="ad27a0dd9c27b07dfbb811b29a60cb921"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad27a0dd9c27b07dfbb811b29a60cb921">&#9670;&#160;</a></span>GetSourceName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a> IDxcPdbUtils::GetSourceName </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#aa74f89aa7d942f4a79ea12d7c9b763ef">_In_</a> <a class="el" href="basetsd_8h.html#adfe04a44baaebba6143c3a23507ff85b">UINT32</a></td>          <td class="paramname"><span class="paramname"><em>uIndex</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">_Outptr_result_z_ BSTR *</td>          <td class="paramname"><span class="paramname"><em>pResult</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a94cc2ec1c95354ebc9a0f48db4c8f693" name="a94cc2ec1c95354ebc9a0f48db4c8f693"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94cc2ec1c95354ebc9a0f48db4c8f693">&#9670;&#160;</a></span>GetTargetProfile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a> IDxcPdbUtils::GetTargetProfile </td>
+          <td>(</td>
+          <td class="paramtype">_Outptr_result_z_ BSTR *</td>          <td class="paramname"><span class="paramname"><em>pResult</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2c122b2cf97d1ea3572fec4ddb32872e" name="a2c122b2cf97d1ea3572fec4ddb32872e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c122b2cf97d1ea3572fec4ddb32872e">&#9670;&#160;</a></span>GetVersionInfo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a> IDxcPdbUtils::GetVersionInfo </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#aa206bd7c9b619a3bec843bc3c5360687">_COM_Outptr_</a> <a class="el" href="struct_i_dxc_version_info.html">IDxcVersionInfo</a> **</td>          <td class="paramname"><span class="paramname"><em>ppVersionInfo</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad310734cfc012a980b139a8bcaf38668" name="ad310734cfc012a980b139a8bcaf38668"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad310734cfc012a980b139a8bcaf38668">&#9670;&#160;</a></span>IsFullPDB()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="basetsd_8h.html#ad69e2ca4c72d9a05ed80a1916f009f29">BOOL</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a> IDxcPdbUtils::IsFullPDB </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adb4368b096b789f405af97a6f28e1f7c" name="adb4368b096b789f405af97a6f28e1f7c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb4368b096b789f405af97a6f28e1f7c">&#9670;&#160;</a></span>Load()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a> IDxcPdbUtils::Load </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#aa74f89aa7d942f4a79ea12d7c9b763ef">_In_</a> <a class="el" href="struct_i_dxc_blob.html">IDxcBlob</a> *</td>          <td class="paramname"><span class="paramname"><em>pPdbOrDxil</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a620b285b3006344d869616927ec04e08" name="a620b285b3006344d869616927ec04e08"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a620b285b3006344d869616927ec04e08">&#9670;&#160;</a></span>OverrideArgs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a> IDxcPdbUtils::OverrideArgs </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#aa74f89aa7d942f4a79ea12d7c9b763ef">_In_</a> <a class="el" href="struct_dxc_arg_pair.html">DxcArgPair</a> *</td>          <td class="paramname"><span class="paramname"><em>pArgPairs</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#adfe04a44baaebba6143c3a23507ff85b">UINT32</a></td>          <td class="paramname"><span class="paramname"><em>uNumArgPairs</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a90679151542c84af7d1192ee0974c18d" name="a90679151542c84af7d1192ee0974c18d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90679151542c84af7d1192ee0974c18d">&#9670;&#160;</a></span>OverrideRootSignature()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a> IDxcPdbUtils::OverrideRootSignature </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#aa74f89aa7d942f4a79ea12d7c9b763ef">_In_</a> const <a class="el" href="basetsd_8h.html#aad61bc3eae1804d8784adebdce0721d3">WCHAR</a> *</td>          <td class="paramname"><span class="paramname"><em>pRootSignature</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a85f327390d2c6d13562762b63842ac10" name="a85f327390d2c6d13562762b63842ac10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85f327390d2c6d13562762b63842ac10">&#9670;&#160;</a></span>SetCompiler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a> IDxcPdbUtils::SetCompiler </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#aa74f89aa7d942f4a79ea12d7c9b763ef">_In_</a> <a class="el" href="struct_i_dxc_compiler3.html">IDxcCompiler3</a> *</td>          <td class="paramname"><span class="paramname"><em>pCompiler</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this struct was generated from the following file:<ul>
 <li><a class="el" href="dxcapi_8h_source.html">dxcapi.h</a></li>
 </ul>
 </div><!-- contents -->

@@ -1,0 +1,7 @@
+var struct_d3_d12___s_e_r_i_a_l_i_z_e_d___r_a_y_t_r_a_c_i_n_g___a_c_c_e_l_e_r_a_t_i_o_n___s_t_r_u_c_t_u_r_e___h_e_a_d_e_r =
+[
+    [ "DeserializedSizeInBytes", "struct_d3_d12___s_e_r_i_a_l_i_z_e_d___r_a_y_t_r_a_c_i_n_g___a_c_c_e_l_e_r_a_t_i_o_n___s_t_r_u_c_t_u_r_e___h_e_a_d_e_r.html#a8af30ca1f5a71bc11a6c452302411cf1", null ],
+    [ "DriverMatchingIdentifier", "struct_d3_d12___s_e_r_i_a_l_i_z_e_d___r_a_y_t_r_a_c_i_n_g___a_c_c_e_l_e_r_a_t_i_o_n___s_t_r_u_c_t_u_r_e___h_e_a_d_e_r.html#afe0d42a7b509514a321c9977150442ad", null ],
+    [ "NumBottomLevelAccelerationStructurePointersAfterHeader", "struct_d3_d12___s_e_r_i_a_l_i_z_e_d___r_a_y_t_r_a_c_i_n_g___a_c_c_e_l_e_r_a_t_i_o_n___s_t_r_u_c_t_u_r_e___h_e_a_d_e_r.html#ab8db3b6434b0078418e8cad932bc2ab4", null ],
+    [ "SerializedSizeInBytesIncludingHeader", "struct_d3_d12___s_e_r_i_a_l_i_z_e_d___r_a_y_t_r_a_c_i_n_g___a_c_c_e_l_e_r_a_t_i_o_n___s_t_r_u_c_t_u_r_e___h_e_a_d_e_r.html#a3dfa11d731f7c2fe8b3f7181f4cb5e38", null ]
+];

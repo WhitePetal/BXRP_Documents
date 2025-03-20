@@ -110,6 +110,8 @@ $(function(){initNavTree('class_b_x_geometry_graph_1_1_geometry_graph_importer.h
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="class_b_x_geometry_graph_1_1_geometry_graph_importer-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">BXGeometryGraph.GeometryGraphImporter Class Reference</div></div>
 </div><!--header-->
@@ -128,18 +130,69 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:acb3556f8967d957f7279c86889b70593" id="r_acb3556f8967d957f7279c86889b70593"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acb3556f8967d957f7279c86889b70593">OnImportAsset</a> (AssetImportContext ctx)</td></tr>
+<tr class="memitem:acb3556f8967d957f7279c86889b70593" id="r_acb3556f8967d957f7279c86889b70593"><td class="memItemLeft" align="right" valign="top">override <a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acb3556f8967d957f7279c86889b70593">OnImportAsset</a> (AssetImportContext ctx)</td></tr>
 <tr class="separator:acb3556f8967d957f7279c86889b70593"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:afa24f59d5632306e686d12b3fc1f3fab" id="r_afa24f59d5632306e686d12b3fc1f3fab"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa24f59d5632306e686d12b3fc1f3fab">Extension</a> = &quot;geometrygraph&quot;</td></tr>
 <tr class="separator:afa24f59d5632306e686d12b3fc1f3fab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a961d0f60dc1a3b879374bd4540b737f8" id="r_a961d0f60dc1a3b879374bd4540b737f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_b_x_geometry_graph_1_1_runtime_1_1_geometry_s_o.html">GeometrySO</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a961d0f60dc1a3b879374bd4540b737f8">BuildGeometrySO</a> (AssetImportContext importContext, AssetImportErrorLog importErrorLog, AssetCollection allImportAssetDependencies, <a class="el" href="class_b_x_geometry_graph_1_1_graph_data.html">GraphData</a> graph)</td></tr>
+<tr class="separator:a961d0f60dc1a3b879374bd4540b737f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a685ac31725ed9d5cb03d25c901f2351d" id="r_a685ac31725ed9d5cb03d25c901f2351d"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a685ac31725ed9d5cb03d25c901f2351d">k_ErrorGeometry</a></td></tr>
+<tr class="separator:a685ac31725ed9d5cb03d25c901f2351d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
 <p class="definition">Definition at line <a class="el" href="_geometry_graph_importer_8cs_source.html#l00017">17</a> of file <a class="el" href="_geometry_graph_importer_8cs_source.html">GeometryGraphImporter.cs</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a961d0f60dc1a3b879374bd4540b737f8" name="a961d0f60dc1a3b879374bd4540b737f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a961d0f60dc1a3b879374bd4540b737f8">&#9670;&#160;</a></span>BuildGeometrySO()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_b_x_geometry_graph_1_1_runtime_1_1_geometry_s_o.html">GeometrySO</a> BXGeometryGraph.GeometryGraphImporter.BuildGeometrySO </td>
+          <td>(</td>
+          <td class="paramtype">AssetImportContext</td>          <td class="paramname"><span class="paramname"><em>importContext</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">AssetImportErrorLog</td>          <td class="paramname"><span class="paramname"><em>importErrorLog</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">AssetCollection</td>          <td class="paramname"><span class="paramname"><em>allImportAssetDependencies</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_b_x_geometry_graph_1_1_graph_data.html">GraphData</a></td>          <td class="paramname"><span class="paramname"><em>graph</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_graph_importer_8cs_source.html#l00207">207</a> of file <a class="el" href="_geometry_graph_importer_8cs_source.html">GeometryGraphImporter.cs</a>.</p>
+
+</div>
+</div>
 <a id="acb3556f8967d957f7279c86889b70593" name="acb3556f8967d957f7279c86889b70593"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acb3556f8967d957f7279c86889b70593">&#9670;&#160;</a></span>OnImportAsset()</h2>
 
@@ -147,7 +200,7 @@ Static Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">override void BXGeometryGraph.GeometryGraphImporter.OnImportAsset </td>
+          <td class="memname">override <a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXGeometryGraph.GeometryGraphImporter.OnImportAsset </td>
           <td>(</td>
           <td class="paramtype">AssetImportContext</td>          <td class="paramname"><span class="paramname"><em>ctx</em></span></td><td>)</td>
           <td></td>
@@ -181,6 +234,34 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="_geometry_graph_importer_8cs_source.html#l00019">19</a> of file <a class="el" href="_geometry_graph_importer_8cs_source.html">GeometryGraphImporter.cs</a>.</p>
+
+</div>
+</div>
+<a id="a685ac31725ed9d5cb03d25c901f2351d" name="a685ac31725ed9d5cb03d25c901f2351d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a685ac31725ed9d5cb03d25c901f2351d">&#9670;&#160;</a></span>k_ErrorGeometry</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string BXGeometryGraph.GeometryGraphImporter.k_ErrorGeometry</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= <span class="stringliteral">@&quot;</span></div>
+<div class="line"><span class="stringliteral">Geometry &quot;&quot;Hidden/GraphErrorGeometry&quot;&quot;</span></div>
+<div class="line"><span class="stringliteral">{</span></div>
+<div class="line"><span class="stringliteral">}&quot;</span></div>
+</div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="_geometry_graph_importer_8cs_source.html#l00021">21</a> of file <a class="el" href="_geometry_graph_importer_8cs_source.html">GeometryGraphImporter.cs</a>.</p>
 
 </div>
 </div>

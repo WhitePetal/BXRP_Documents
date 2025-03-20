@@ -1,0 +1,28 @@
+var struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___a_v1___p_i_c_t_u_r_e___c_o_n_t_r_o_l___c_o_d_e_c___d_a_t_a =
+[
+    [ "_Field_size_full_", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___a_v1___p_i_c_t_u_r_e___c_o_n_t_r_o_l___c_o_d_e_c___d_a_t_a.html#a2369bfd0a670d5b3c47aa148872d9f91", null ],
+    [ "CDEF", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___a_v1___p_i_c_t_u_r_e___c_o_n_t_r_o_l___c_o_d_e_c___d_a_t_a.html#ac1d556ca7f8c962538f76f07d1f1d6d3", null ],
+    [ "CompoundPredictionType", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___a_v1___p_i_c_t_u_r_e___c_o_n_t_r_o_l___c_o_d_e_c___d_a_t_a.html#aaeef44b1a069fe20ca8d93129d632c12", null ],
+    [ "CustomSegmentation", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___a_v1___p_i_c_t_u_r_e___c_o_n_t_r_o_l___c_o_d_e_c___d_a_t_a.html#a142dde8b52fa7edeaf93431c836da4cc", null ],
+    [ "CustomSegmentsMap", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___a_v1___p_i_c_t_u_r_e___c_o_n_t_r_o_l___c_o_d_e_c___d_a_t_a.html#a4370478808b1df1697549c7ed7b8110c", null ],
+    [ "Flags", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___a_v1___p_i_c_t_u_r_e___c_o_n_t_r_o_l___c_o_d_e_c___d_a_t_a.html#a9064fdd146692e7de7cb5a8afb19defe", null ],
+    [ "FrameRestorationConfig", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___a_v1___p_i_c_t_u_r_e___c_o_n_t_r_o_l___c_o_d_e_c___d_a_t_a.html#a8afb896406428ddc8a6fe4e4898765fe", null ],
+    [ "FrameType", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___a_v1___p_i_c_t_u_r_e___c_o_n_t_r_o_l___c_o_d_e_c___d_a_t_a.html#a8059d224a0421e9d48ea912b9fceee16", null ],
+    [ "InterpolationFilter", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___a_v1___p_i_c_t_u_r_e___c_o_n_t_r_o_l___c_o_d_e_c___d_a_t_a.html#add8e7cc8c0eb8f32c3ac617f8a3155c9", null ],
+    [ "LoopFilter", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___a_v1___p_i_c_t_u_r_e___c_o_n_t_r_o_l___c_o_d_e_c___d_a_t_a.html#a77c4ff253ee2536a3f68263933cd93e3", null ],
+    [ "LoopFilterDelta", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___a_v1___p_i_c_t_u_r_e___c_o_n_t_r_o_l___c_o_d_e_c___d_a_t_a.html#ade53933e8f6df593095abf835109a0b2", null ],
+    [ "OrderHint", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___a_v1___p_i_c_t_u_r_e___c_o_n_t_r_o_l___c_o_d_e_c___d_a_t_a.html#a44f263dd4619bff1398bf3d8881d71be", null ],
+    [ "PictureIndex", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___a_v1___p_i_c_t_u_r_e___c_o_n_t_r_o_l___c_o_d_e_c___d_a_t_a.html#ac1f35090c3c6811c9d7f3da2a18d8409", null ],
+    [ "pRateControlQPMap", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___a_v1___p_i_c_t_u_r_e___c_o_n_t_r_o_l___c_o_d_e_c___d_a_t_a.html#a1efb50f31180a6c618bc8107444753b5", null ],
+    [ "PrimaryRefFrame", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___a_v1___p_i_c_t_u_r_e___c_o_n_t_r_o_l___c_o_d_e_c___d_a_t_a.html#a3090ed161e1f7bb5a5720b34044b7f32", null ],
+    [ "QPMapValuesCount", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___a_v1___p_i_c_t_u_r_e___c_o_n_t_r_o_l___c_o_d_e_c___d_a_t_a.html#a47e38b1521ae1c0bc0f1e783ee000cee", null ],
+    [ "Quantization", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___a_v1___p_i_c_t_u_r_e___c_o_n_t_r_o_l___c_o_d_e_c___d_a_t_a.html#a2ce51678bb86f720632bc2d309b3144d", null ],
+    [ "QuantizationDelta", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___a_v1___p_i_c_t_u_r_e___c_o_n_t_r_o_l___c_o_d_e_c___d_a_t_a.html#a60c81a745a2183b43dc9822312b43fa9", null ],
+    [ "ReferenceFramesReconPictureDescriptors", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___a_v1___p_i_c_t_u_r_e___c_o_n_t_r_o_l___c_o_d_e_c___d_a_t_a.html#afa56a24cdd08832860f2bcc7d9f22fef", null ],
+    [ "ReferenceIndices", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___a_v1___p_i_c_t_u_r_e___c_o_n_t_r_o_l___c_o_d_e_c___d_a_t_a.html#a41c76b4a2cd3f1a93d6045835e4d405a", null ],
+    [ "RefreshFrameFlags", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___a_v1___p_i_c_t_u_r_e___c_o_n_t_r_o_l___c_o_d_e_c___d_a_t_a.html#aba5032d8339383a615b1797ec96c6c1d", null ],
+    [ "SpatialLayerIndexPlus1", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___a_v1___p_i_c_t_u_r_e___c_o_n_t_r_o_l___c_o_d_e_c___d_a_t_a.html#a9dbeff40621fe0a9965ec43e0440528b", null ],
+    [ "SuperResDenominator", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___a_v1___p_i_c_t_u_r_e___c_o_n_t_r_o_l___c_o_d_e_c___d_a_t_a.html#afabbe869f8d1196c0028700ced7506bd", null ],
+    [ "TemporalLayerIndexPlus1", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___a_v1___p_i_c_t_u_r_e___c_o_n_t_r_o_l___c_o_d_e_c___d_a_t_a.html#a07b609f5cf7cc973be929b29e1af094c", null ],
+    [ "TxMode", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___a_v1___p_i_c_t_u_r_e___c_o_n_t_r_o_l___c_o_d_e_c___d_a_t_a.html#ae3ed8fcb36ec417dc3c58de0dd6563c3", null ]
+];

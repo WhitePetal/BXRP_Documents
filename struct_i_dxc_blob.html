@@ -131,21 +131,74 @@ Inheritance diagram for IDxcBlob:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a6a6647298407dc458b5c69f0ac57e6c3" id="r_a6a6647298407dc458b5c69f0ac57e6c3"><td class="memItemLeft" align="right" valign="top"><a id="a6a6647298407dc458b5c69f0ac57e6c3" name="a6a6647298407dc458b5c69f0ac57e6c3"></a>
-virtual LPVOID STDMETHODCALLTYPE&#160;</td><td class="memItemRight" valign="bottom"><b>GetBufferPointer</b> (void)=0</td></tr>
-<tr class="memdesc:a6a6647298407dc458b5c69f0ac57e6c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves a pointer to the blob's data. <br /></td></tr>
+<tr class="memitem:a6a6647298407dc458b5c69f0ac57e6c3" id="r_a6a6647298407dc458b5c69f0ac57e6c3"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="basetsd_8h.html#a7573f92a7eaec2f75696c6a57c114e74">LPVOID</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a6647298407dc458b5c69f0ac57e6c3">GetBufferPointer</a> (<a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>)=0</td></tr>
+<tr class="memdesc:a6a6647298407dc458b5c69f0ac57e6c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves a pointer to the blob's data.  <br /></td></tr>
 <tr class="separator:a6a6647298407dc458b5c69f0ac57e6c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a196e1e6acef7c393b80e884150354713" id="r_a196e1e6acef7c393b80e884150354713"><td class="memItemLeft" align="right" valign="top"><a id="a196e1e6acef7c393b80e884150354713" name="a196e1e6acef7c393b80e884150354713"></a>
-virtual SIZE_T STDMETHODCALLTYPE&#160;</td><td class="memItemRight" valign="bottom"><b>GetBufferSize</b> (void)=0</td></tr>
-<tr class="memdesc:a196e1e6acef7c393b80e884150354713"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the size, in bytes, of the blob's data. <br /></td></tr>
+<tr class="memitem:a196e1e6acef7c393b80e884150354713" id="r_a196e1e6acef7c393b80e884150354713"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="basetsd_8h.html#adabaa7976c877ecc9d04c49b328dd88a">SIZE_T</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a196e1e6acef7c393b80e884150354713">GetBufferSize</a> (<a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>)=0</td></tr>
+<tr class="memdesc:a196e1e6acef7c393b80e884150354713"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the size, in bytes, of the blob's data.  <br /></td></tr>
 <tr class="separator:a196e1e6acef7c393b80e884150354713"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A sized buffer that can be passed in and out of DXC APIs. </p>
-<p>This is an alias of <a class="el" href="interface_i_d3_d10_blob.html">ID3D10Blob</a> and ID3DBlob. </p>
+<p>This is an alias of <a class="el" href="interface_i_d3_d10_blob.html">ID3D10Blob</a> and <a class="el" href="d3dcommon_8h.html#ab4787a23c846b18f736b7eab33299510">ID3DBlob</a>. </p>
 
 <p class="definition">Definition at line <a class="el" href="dxcapi_8h_source.html#l00151">151</a> of file <a class="el" href="dxcapi_8h_source.html">dxcapi.h</a>.</p>
-</div><hr/>The documentation for this struct was generated from the following file:<ul>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a6a6647298407dc458b5c69f0ac57e6c3" name="a6a6647298407dc458b5c69f0ac57e6c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a6647298407dc458b5c69f0ac57e6c3">&#9670;&#160;</a></span>GetBufferPointer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="basetsd_8h.html#a7573f92a7eaec2f75696c6a57c114e74">LPVOID</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a> IDxcBlob::GetBufferPointer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a></td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retrieves a pointer to the blob's data. </p>
+
+</div>
+</div>
+<a id="a196e1e6acef7c393b80e884150354713" name="a196e1e6acef7c393b80e884150354713"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a196e1e6acef7c393b80e884150354713">&#9670;&#160;</a></span>GetBufferSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="basetsd_8h.html#adabaa7976c877ecc9d04c49b328dd88a">SIZE_T</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a> IDxcBlob::GetBufferSize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a></td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retrieves the size, in bytes, of the blob's data. </p>
+
+</div>
+</div>
+<hr/>The documentation for this struct was generated from the following file:<ul>
 <li><a class="el" href="dxcapi_8h_source.html">dxcapi.h</a></li>
 </ul>
 </div><!-- contents -->

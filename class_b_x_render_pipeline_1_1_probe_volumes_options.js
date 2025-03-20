@@ -1,5 +1,7 @@
 var class_b_x_render_pipeline_1_1_probe_volumes_options =
 [
+    [ "OverrideData", "class_b_x_render_pipeline_1_1_probe_volumes_options.html#aa13eccd704703e55348a1270bc1e15e2", null ],
+    [ "RefreshData", "class_b_x_render_pipeline_1_1_probe_volumes_options.html#ae0b883dd31039c229ab117cce8bd9a42", null ],
     [ "animateSamplingNoise", "class_b_x_render_pipeline_1_1_probe_volumes_options.html#a01288b93e82ad141f898996b4102c68a", null ],
     [ "animateSamplingNoise_runtime", "class_b_x_render_pipeline_1_1_probe_volumes_options.html#a8fb18d97399ac2f244c8064e41f14bb0", null ],
     [ "intensityMultiplier", "class_b_x_render_pipeline_1_1_probe_volumes_options.html#af00cb34e026d2267058e75ff1f2b72f3", null ],

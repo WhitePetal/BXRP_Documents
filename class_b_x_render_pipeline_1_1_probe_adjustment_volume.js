@@ -19,6 +19,14 @@ var class_b_x_render_pipeline_1_1_probe_adjustment_volume =
       [ "Box", "class_b_x_render_pipeline_1_1_probe_adjustment_volume.html#a2714947f63743e71d116dbbc8dbd5c34a3cfce651e667ab85486dd42a8185f98a", null ],
       [ "Sphere", "class_b_x_render_pipeline_1_1_probe_adjustment_volume.html#a2714947f63743e71d116dbbc8dbd5c34ab7095f057db3fefa7325ad93a04e14fd", null ]
     ] ],
+    [ "Version", "class_b_x_render_pipeline_1_1_probe_adjustment_volume.html#af61c5f8d331a348ff10d5ef6f466995c", [
+      [ "Initial", "class_b_x_render_pipeline_1_1_probe_adjustment_volume.html#af61c5f8d331a348ff10d5ef6f466995ca4f2a91e15af2631ff9424564b8a45fb2", null ],
+      [ "Mode", "class_b_x_render_pipeline_1_1_probe_adjustment_volume.html#af61c5f8d331a348ff10d5ef6f466995ca650be61892bf690026089544abbd9d26", null ],
+      [ "Count", "class_b_x_render_pipeline_1_1_probe_adjustment_volume.html#af61c5f8d331a348ff10d5ef6f466995cae93f994f01c537c4e2f7d8528c3eb5e9", null ]
+    ] ],
+    [ "Awake", "class_b_x_render_pipeline_1_1_probe_adjustment_volume.html#ad72eb2cff3345edd18616145c1118c5f", null ],
+    [ "OnAfterDeserialize", "class_b_x_render_pipeline_1_1_probe_adjustment_volume.html#a1fa6f182716fadb4c5bf46862cd13b8c", null ],
+    [ "OnBeforeSerialize", "class_b_x_render_pipeline_1_1_probe_adjustment_volume.html#a843c852368b55fb4d864666366a464cb", null ],
     [ "directSampleCount", "class_b_x_render_pipeline_1_1_probe_adjustment_volume.html#ae9b6825a5ca822c594076ddefb871e63", null ],
     [ "geometryBias", "class_b_x_render_pipeline_1_1_probe_adjustment_volume.html#a3db03ff159ba4440f646face68408924", null ],
     [ "indirectSampleCount", "class_b_x_render_pipeline_1_1_probe_adjustment_volume.html#aa5f9dcf0b389b7728be8bf2752561616", null ],
@@ -38,6 +46,7 @@ var class_b_x_render_pipeline_1_1_probe_adjustment_volume =
     [ "skyDirection", "class_b_x_render_pipeline_1_1_probe_adjustment_volume.html#a6f14ed51db198387907c544e7538b465", null ],
     [ "skyOcclusionMaxBounces", "class_b_x_render_pipeline_1_1_probe_adjustment_volume.html#a40396dbc9d601b3099b1ee738ea7f4a2", null ],
     [ "skyOcclusionSampleCount", "class_b_x_render_pipeline_1_1_probe_adjustment_volume.html#a289541e34e382615fb95fbc31b788ebc", null ],
+    [ "version", "class_b_x_render_pipeline_1_1_probe_adjustment_volume.html#a431f809ff1cdb62d122682bfddb6cd1d", null ],
     [ "virtualOffsetDistance", "class_b_x_render_pipeline_1_1_probe_adjustment_volume.html#ada6180e1dacece35a45ec3cf68d7ea18", null ],
     [ "virtualOffsetRotation", "class_b_x_render_pipeline_1_1_probe_adjustment_volume.html#a5baebdd156b2ec2161aab0d1af3e0374", null ],
     [ "virtualOffsetThreshold", "class_b_x_render_pipeline_1_1_probe_adjustment_volume.html#aeceda84ea93363e2e7a002f71c15ec87", null ]

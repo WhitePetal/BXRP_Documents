@@ -1,0 +1,6 @@
+var struct_d_m_l___e_l_e_m_e_n_t___w_i_s_e___l_o_g_i_c_a_l___l_e_s_s___t_h_a_n___o_r___e_q_u_a_l___o_p_e_r_a_t_o_r___d_e_s_c =
+[
+    [ "ATensor", "struct_d_m_l___e_l_e_m_e_n_t___w_i_s_e___l_o_g_i_c_a_l___l_e_s_s___t_h_a_n___o_r___e_q_u_a_l___o_p_e_r_a_t_o_r___d_e_s_c.html#ad77c6e2e54ac0d7b38d95db19b13ad88", null ],
+    [ "BTensor", "struct_d_m_l___e_l_e_m_e_n_t___w_i_s_e___l_o_g_i_c_a_l___l_e_s_s___t_h_a_n___o_r___e_q_u_a_l___o_p_e_r_a_t_o_r___d_e_s_c.html#a56608409a40697509e76c568b745f0fc", null ],
+    [ "OutputTensor", "struct_d_m_l___e_l_e_m_e_n_t___w_i_s_e___l_o_g_i_c_a_l___l_e_s_s___t_h_a_n___o_r___e_q_u_a_l___o_p_e_r_a_t_o_r___d_e_s_c.html#a27850249b493e803464d2c103462d9fc", null ]
+];

@@ -109,7 +109,7 @@ $(function(){initNavTree('_context_data_8cs_source.html',''); initResizable(true
   <div class="headertitle"><div class="title">ContextData.cs</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="keyword">using </span>System;</div>
+<a href="_context_data_8cs.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="keyword">using </span>System;</div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="keyword">using </span>System.Collections;</div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="keyword">using </span>System.Collections.Generic;</div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="keyword">using </span>UnityEngine;</div>
@@ -118,44 +118,59 @@ $(function(){initNavTree('_context_data_8cs_source.html',''); initResizable(true
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>{</div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>    [Serializable]</div>
 <div class="foldopen" id="foldopen00009" data-start="{" data-end="};">
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno"><a class="line" href="class_b_x_geometry_graph_1_1_context_data.html">    9</a></span>    <span class="keyword">sealed</span> <span class="keyword">class </span>ContextData</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno"><a class="line" href="class_b_x_geometry_graph_1_1_context_data.html">    9</a></span>    <span class="keyword">sealed</span> <span class="keyword">class </span><a class="code hl_function" href="class_b_x_geometry_graph_1_1_context_data.html#a52bfc53eaf24a2671c93e6b9845c9a9b">ContextData</a></div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>    {</div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>        [SerializeField]</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>        <span class="keyword">private</span> Vector2 m_Position;</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="class_b_x_geometry_graph_1_1_context_data.html#a4589f123fab9925dc3d15f1d047f9795">   12</a></span>        <span class="keyword">private</span> <a class="code hl_enumvalue" href="namespace_b_x_geometry_graph.html#ad0e11e1489817712969f4f5edfebed4fa1bebc5ae2822f8e361fb0ce57b5e09e2">Vector2</a> <a class="code hl_variable" href="class_b_x_geometry_graph_1_1_context_data.html#a4589f123fab9925dc3d15f1d047f9795">m_Position</a>;</div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>        [SerializeField]</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>        <span class="keyword">private</span> List&lt;JsonRef&lt;BlockNode&gt;&gt; m_Blocks = <span class="keyword">new</span> List&lt;JsonRef&lt;BlockNode&gt;&gt;();</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="class_b_x_geometry_graph_1_1_context_data.html#ad0bc8a95fed96b3fa06b6e99fd77dfea">   15</a></span>        <span class="keyword">private</span> List&lt;JsonRef&lt;BlockNode&gt;&gt; <a class="code hl_variable" href="class_b_x_geometry_graph_1_1_context_data.html#ad0bc8a95fed96b3fa06b6e99fd77dfea">m_Blocks</a> = <span class="keyword">new</span> List&lt;JsonRef&lt;BlockNode&gt;&gt;();</div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>        [NonSerialized]</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>        <span class="keyword">private</span> GeometryStage m_GeometryStage;</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="class_b_x_geometry_graph_1_1_context_data.html#a701651b771f7227eceb86bd369fb103b">   18</a></span>        <span class="keyword">private</span> <a class="code hl_enumeration" href="namespace_b_x_geometry_graph.html#a471af61cfc438fec5442d7cde2c775ba">GeometryStage</a> <a class="code hl_variable" href="class_b_x_geometry_graph_1_1_context_data.html#a701651b771f7227eceb86bd369fb103b">m_GeometryStage</a>;</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>        <span class="keyword">public</span> ContextData()</div>
+<div class="foldopen" id="foldopen00020" data-start="{" data-end="}">
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="class_b_x_geometry_graph_1_1_context_data.html#a52bfc53eaf24a2671c93e6b9845c9a9b">   20</a></span>        <span class="keyword">public</span> <a class="code hl_function" href="class_b_x_geometry_graph_1_1_context_data.html#a52bfc53eaf24a2671c93e6b9845c9a9b">ContextData</a>()</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>        {</div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>        }</div>
+</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>        <span class="keyword">public</span> List&lt;JsonRef&lt;BlockNode&gt;&gt; blocks =&gt; m_Blocks;</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="class_b_x_geometry_graph_1_1_context_data.html#a154cd8089e0df56db2303425c81b4cff">   24</a></span>        <span class="keyword">public</span> List&lt;JsonRef&lt;BlockNode&gt;&gt; <a class="code hl_property" href="class_b_x_geometry_graph_1_1_context_data.html#a154cd8089e0df56db2303425c81b4cff">blocks</a> =&gt; <a class="code hl_variable" href="class_b_x_geometry_graph_1_1_context_data.html#ad0bc8a95fed96b3fa06b6e99fd77dfea">m_Blocks</a>;</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>        <span class="keyword">public</span> Vector2 position</div>
+<div class="foldopen" id="foldopen00026" data-start="{" data-end="};">
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="class_b_x_geometry_graph_1_1_context_data.html#adfcd34625d868cd28903b2923a32bdbe">   26</a></span>        <span class="keyword">public</span> <a class="code hl_enumvalue" href="namespace_b_x_geometry_graph.html#ad0e11e1489817712969f4f5edfebed4fa1bebc5ae2822f8e361fb0ce57b5e09e2">Vector2</a> <a class="code hl_property" href="class_b_x_geometry_graph_1_1_context_data.html#adfcd34625d868cd28903b2923a32bdbe">position</a></div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>        {</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>            <span class="keyword">get</span> =&gt; m_Position;</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>            <span class="keyword">set</span> =&gt; m_Position = value;</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>            <span class="keyword">get</span> =&gt; <a class="code hl_variable" href="class_b_x_geometry_graph_1_1_context_data.html#a4589f123fab9925dc3d15f1d047f9795">m_Position</a>;</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>            <span class="keyword">set</span> =&gt; <a class="code hl_variable" href="class_b_x_geometry_graph_1_1_context_data.html#a4589f123fab9925dc3d15f1d047f9795">m_Position</a> = value;</div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>        }</div>
+</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>        <span class="keyword">public</span> GeometryStage geometryStage</div>
+<div class="foldopen" id="foldopen00032" data-start="{" data-end="};">
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="class_b_x_geometry_graph_1_1_context_data.html#aaec6173758e8bb4e2d9a9798dc45ab9e">   32</a></span>        <span class="keyword">public</span> <a class="code hl_enumeration" href="namespace_b_x_geometry_graph.html#a471af61cfc438fec5442d7cde2c775ba">GeometryStage</a> <a class="code hl_property" href="class_b_x_geometry_graph_1_1_context_data.html#aaec6173758e8bb4e2d9a9798dc45ab9e">geometryStage</a></div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>        {</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>            <span class="keyword">get</span> =&gt; m_GeometryStage;</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>            <span class="keyword">set</span> =&gt; m_GeometryStage = value;</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>            <span class="keyword">get</span> =&gt; <a class="code hl_variable" href="class_b_x_geometry_graph_1_1_context_data.html#a701651b771f7227eceb86bd369fb103b">m_GeometryStage</a>;</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>            <span class="keyword">set</span> =&gt; <a class="code hl_variable" href="class_b_x_geometry_graph_1_1_context_data.html#a701651b771f7227eceb86bd369fb103b">m_GeometryStage</a> = value;</div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>        }</div>
+</div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    }</div>
 </div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>}</div>
+<div class="ttc" id="aclass_b_x_geometry_graph_1_1_context_data_html_a154cd8089e0df56db2303425c81b4cff"><div class="ttname"><a href="class_b_x_geometry_graph_1_1_context_data.html#a154cd8089e0df56db2303425c81b4cff">BXGeometryGraph.ContextData.blocks</a></div><div class="ttdeci">List&lt; JsonRef&lt; BlockNode &gt; &gt; blocks</div><div class="ttdef"><b>Definition</b> <a href="#l00024">ContextData.cs:24</a></div></div>
+<div class="ttc" id="aclass_b_x_geometry_graph_1_1_context_data_html_a4589f123fab9925dc3d15f1d047f9795"><div class="ttname"><a href="class_b_x_geometry_graph_1_1_context_data.html#a4589f123fab9925dc3d15f1d047f9795">BXGeometryGraph.ContextData.m_Position</a></div><div class="ttdeci">Vector2 m_Position</div><div class="ttdef"><b>Definition</b> <a href="#l00012">ContextData.cs:12</a></div></div>
+<div class="ttc" id="aclass_b_x_geometry_graph_1_1_context_data_html_a52bfc53eaf24a2671c93e6b9845c9a9b"><div class="ttname"><a href="class_b_x_geometry_graph_1_1_context_data.html#a52bfc53eaf24a2671c93e6b9845c9a9b">BXGeometryGraph.ContextData.ContextData</a></div><div class="ttdeci">ContextData()</div><div class="ttdef"><b>Definition</b> <a href="#l00020">ContextData.cs:20</a></div></div>
+<div class="ttc" id="aclass_b_x_geometry_graph_1_1_context_data_html_a701651b771f7227eceb86bd369fb103b"><div class="ttname"><a href="class_b_x_geometry_graph_1_1_context_data.html#a701651b771f7227eceb86bd369fb103b">BXGeometryGraph.ContextData.m_GeometryStage</a></div><div class="ttdeci">GeometryStage m_GeometryStage</div><div class="ttdef"><b>Definition</b> <a href="#l00018">ContextData.cs:18</a></div></div>
+<div class="ttc" id="aclass_b_x_geometry_graph_1_1_context_data_html_aaec6173758e8bb4e2d9a9798dc45ab9e"><div class="ttname"><a href="class_b_x_geometry_graph_1_1_context_data.html#aaec6173758e8bb4e2d9a9798dc45ab9e">BXGeometryGraph.ContextData.geometryStage</a></div><div class="ttdeci">GeometryStage geometryStage</div><div class="ttdef"><b>Definition</b> <a href="#l00032">ContextData.cs:33</a></div></div>
+<div class="ttc" id="aclass_b_x_geometry_graph_1_1_context_data_html_ad0bc8a95fed96b3fa06b6e99fd77dfea"><div class="ttname"><a href="class_b_x_geometry_graph_1_1_context_data.html#ad0bc8a95fed96b3fa06b6e99fd77dfea">BXGeometryGraph.ContextData.m_Blocks</a></div><div class="ttdeci">List&lt; JsonRef&lt; BlockNode &gt; &gt; m_Blocks</div><div class="ttdef"><b>Definition</b> <a href="#l00015">ContextData.cs:15</a></div></div>
+<div class="ttc" id="aclass_b_x_geometry_graph_1_1_context_data_html_adfcd34625d868cd28903b2923a32bdbe"><div class="ttname"><a href="class_b_x_geometry_graph_1_1_context_data.html#adfcd34625d868cd28903b2923a32bdbe">BXGeometryGraph.ContextData.position</a></div><div class="ttdeci">Vector2 position</div><div class="ttdef"><b>Definition</b> <a href="#l00026">ContextData.cs:27</a></div></div>
 <div class="ttc" id="anamespace_b_x_geometry_graph_html"><div class="ttname"><a href="namespace_b_x_geometry_graph.html">BXGeometryGraph</a></div><div class="ttdef"><b>Definition</b> <a href="_abstract_geometry_graph_data_extension_8cs_source.html#l00008">AbstractGeometryGraphDataExtension.cs:9</a></div></div>
+<div class="ttc" id="anamespace_b_x_geometry_graph_html_a471af61cfc438fec5442d7cde2c775ba"><div class="ttname"><a href="namespace_b_x_geometry_graph.html#a471af61cfc438fec5442d7cde2c775ba">BXGeometryGraph.GeometryStage</a></div><div class="ttdeci">GeometryStage</div><div class="ttdef"><b>Definition</b> <a href="_geometry_stages_8cs_source.html#l00018">GeometryStages.cs:19</a></div></div>
+<div class="ttc" id="anamespace_b_x_geometry_graph_html_ad0e11e1489817712969f4f5edfebed4fa1bebc5ae2822f8e361fb0ce57b5e09e2"><div class="ttname"><a href="namespace_b_x_geometry_graph.html#ad0e11e1489817712969f4f5edfebed4fa1bebc5ae2822f8e361fb0ce57b5e09e2">BXGeometryGraph.PropertyType.Vector2</a></div><div class="ttdeci">@ Vector2</div><div class="ttdef"><b>Definition</b> <a href="_property_type_8cs_source.html#l00018">PropertyType.cs:18</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_f73a8b7d50989afdadf24d8fc7357a9a.html">FloowDream</a></li><li class="navelem"><a class="el" href="dir_1ba945c5ec581c9e331de81f300aff07.html">Assets</a></li><li class="navelem"><a class="el" href="dir_a57f4778d467e0a6236fa4788364df6c.html">Scripts</a></li><li class="navelem"><a class="el" href="dir_8b4148ef0ffda13d8a8272867298b61d.html">BXRenderPipeline</a></li><li class="navelem"><a class="el" href="dir_a8720bb293956aa0546773bed716ef7d.html">GeometryGraph</a></li><li class="navelem"><a class="el" href="dir_70308b049469fb202d64bde4a4db7180.html">Editor</a></li><li class="navelem"><b>ContextData.cs</b></li>
+    <li class="navelem"><a class="el" href="dir_f73a8b7d50989afdadf24d8fc7357a9a.html">FloowDream</a></li><li class="navelem"><a class="el" href="dir_1ba945c5ec581c9e331de81f300aff07.html">Assets</a></li><li class="navelem"><a class="el" href="dir_a57f4778d467e0a6236fa4788364df6c.html">Scripts</a></li><li class="navelem"><a class="el" href="dir_8b4148ef0ffda13d8a8272867298b61d.html">BXRenderPipeline</a></li><li class="navelem"><a class="el" href="dir_a8720bb293956aa0546773bed716ef7d.html">GeometryGraph</a></li><li class="navelem"><a class="el" href="dir_70308b049469fb202d64bde4a4db7180.html">Editor</a></li><li class="navelem"><a class="el" href="_context_data_8cs.html">ContextData.cs</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
   </ul>
 </div>

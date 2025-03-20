@@ -109,7 +109,7 @@ $(function(){initNavTree('dxcore_8h_source.html',''); initResizable(true); });
   <div class="headertitle"><div class="title">dxcore.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/************************************************************</span></div>
+<a href="dxcore_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/************************************************************</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment">*                                                           *</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment">* Copyright (c) Microsoft Corporation.                      *</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment">* Licensed under the MIT license.                           *</span></div>
@@ -119,24 +119,24 @@ $(function(){initNavTree('dxcore_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#ifndef _DXCOREEXTMODULE_H_</span></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#define _DXCOREEXTMODULE_H_</span></div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &lt;winapifamily.h&gt;</span></div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &quot;dxcore_interface.h&quot;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &lt;<a class="code" href="winapifamily_8h.html">winapifamily.h</a>&gt;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &quot;<a class="code" href="dxcore__interface_8h.html">dxcore_interface.h</a>&quot;</span></div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#pragma region Application Family or OneCore Family</span></div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#if WINAPI_FAMILY_PARTITION(WINAPI_PARTITION_APP | WINAPI_PARTITION_SYSTEM)</span></div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#if (_WIN32_WINNT &gt;= _WIN32_WINNT_WIN10)</span></div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>STDAPI</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><a class="code hl_define" href="basetsd_8h.html#a3079b16e4227333f592c32ce353a696a">STDAPI</a></div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>DXCoreCreateAdapterFactory(</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    REFIID riid,</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    _COM_Outptr_ <span class="keywordtype">void</span>** ppvFactory</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    <a class="code hl_define" href="basetsd_8h.html#a1246040d86d82dd9e6151a67b4ca3f89">REFIID</a> riid,</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <a class="code hl_define" href="basetsd_8h.html#aa206bd7c9b619a3bec843bc3c5360687">_COM_Outptr_</a> <span class="keywordtype">void</span>** ppvFactory</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>);</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt;</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>HRESULT</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><a class="code hl_typedef" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a></div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>DXCoreCreateAdapterFactory(</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    _COM_Outptr_ T** ppvFactory</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    <a class="code hl_define" href="basetsd_8h.html#aa206bd7c9b619a3bec843bc3c5360687">_COM_Outptr_</a> T** ppvFactory</div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>)</div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>{</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    <span class="keywordflow">return</span> DXCoreCreateAdapterFactory(IID_PPV_ARGS(ppvFactory));</div>
@@ -150,12 +150,18 @@ $(function(){initNavTree('dxcore_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="preprocessor">#endif </span><span class="comment">// _DXCOREEXTMODULE_H_</span></div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
+<div class="ttc" id="abasetsd_8h_html_a1246040d86d82dd9e6151a67b4ca3f89"><div class="ttname"><a href="basetsd_8h.html#a1246040d86d82dd9e6151a67b4ca3f89">REFIID</a></div><div class="ttdeci">#define REFIID</div><div class="ttdef"><b>Definition</b> <a href="basetsd_8h_source.html#l00147">basetsd.h:147</a></div></div>
+<div class="ttc" id="abasetsd_8h_html_a3079b16e4227333f592c32ce353a696a"><div class="ttname"><a href="basetsd_8h.html#a3079b16e4227333f592c32ce353a696a">STDAPI</a></div><div class="ttdeci">#define STDAPI</div><div class="ttdef"><b>Definition</b> <a href="basetsd_8h_source.html#l00218">basetsd.h:218</a></div></div>
+<div class="ttc" id="abasetsd_8h_html_aa206bd7c9b619a3bec843bc3c5360687"><div class="ttname"><a href="basetsd_8h.html#aa206bd7c9b619a3bec843bc3c5360687">_COM_Outptr_</a></div><div class="ttdeci">#define _COM_Outptr_</div><div class="ttdef"><b>Definition</b> <a href="basetsd_8h_source.html#l00167">basetsd.h:167</a></div></div>
+<div class="ttc" id="abasetsd_8h_html_aadfb999193e5cd72033f6c39036a4359"><div class="ttname"><a href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a></div><div class="ttdeci">LONG HRESULT</div><div class="ttdef"><b>Definition</b> <a href="basetsd_8h_source.html#l00263">basetsd.h:263</a></div></div>
+<div class="ttc" id="adxcore__interface_8h_html"><div class="ttname"><a href="dxcore__interface_8h.html">dxcore_interface.h</a></div></div>
+<div class="ttc" id="awinapifamily_8h_html"><div class="ttname"><a href="winapifamily_8h.html">winapifamily.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_f73a8b7d50989afdadf24d8fc7357a9a.html">FloowDream</a></li><li class="navelem"><a class="el" href="dir_1ba945c5ec581c9e331de81f300aff07.html">Assets</a></li><li class="navelem"><a class="el" href="dir_a57f4778d467e0a6236fa4788364df6c.html">Scripts</a></li><li class="navelem"><a class="el" href="dir_8b4148ef0ffda13d8a8272867298b61d.html">BXRenderPipeline</a></li><li class="navelem"><a class="el" href="dir_ae9a9254ea48b9e75fba492df295591c.html">XEngine</a></li><li class="navelem"><a class="el" href="dir_4eb682de226f4832c0a9db45af2b00b1.html">XEngine</a></li><li class="navelem"><a class="el" href="dir_ae3d7c5e45b917ca49b0624995dac051.html">external</a></li><li class="navelem"><a class="el" href="dir_2107fed38ae0f47ddf43e6fe2d887bfc.html">DirectX-Headers-main</a></li><li class="navelem"><a class="el" href="dir_531b0b6c8f75f86bddea49aefc510079.html">include</a></li><li class="navelem"><a class="el" href="dir_07bea9007c4ff231b72166f52d75e2c3.html">directx</a></li><li class="navelem"><b>dxcore.h</b></li>
+    <li class="navelem"><a class="el" href="dir_f73a8b7d50989afdadf24d8fc7357a9a.html">FloowDream</a></li><li class="navelem"><a class="el" href="dir_1ba945c5ec581c9e331de81f300aff07.html">Assets</a></li><li class="navelem"><a class="el" href="dir_a57f4778d467e0a6236fa4788364df6c.html">Scripts</a></li><li class="navelem"><a class="el" href="dir_8b4148ef0ffda13d8a8272867298b61d.html">BXRenderPipeline</a></li><li class="navelem"><a class="el" href="dir_ae9a9254ea48b9e75fba492df295591c.html">XEngine</a></li><li class="navelem"><a class="el" href="dir_4eb682de226f4832c0a9db45af2b00b1.html">XEngine</a></li><li class="navelem"><a class="el" href="dir_ae3d7c5e45b917ca49b0624995dac051.html">external</a></li><li class="navelem"><a class="el" href="dir_2107fed38ae0f47ddf43e6fe2d887bfc.html">DirectX-Headers-main</a></li><li class="navelem"><a class="el" href="dir_531b0b6c8f75f86bddea49aefc510079.html">include</a></li><li class="navelem"><a class="el" href="dir_07bea9007c4ff231b72166f52d75e2c3.html">directx</a></li><li class="navelem"><a class="el" href="dxcore_8h.html">dxcore.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
   </ul>
 </div>

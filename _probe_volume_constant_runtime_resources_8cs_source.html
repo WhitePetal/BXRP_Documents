@@ -109,7 +109,7 @@ $(function(){initNavTree('_probe_volume_constant_runtime_resources_8cs_source.ht
   <div class="headertitle"><div class="title">ProbeVolumeConstantRuntimeResources.cs</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="keyword">using </span>System.Collections;</div>
+<a href="_probe_volume_constant_runtime_resources_8cs.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="keyword">using </span>System.Collections;</div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="keyword">using </span>System.Collections.Generic;</div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="keyword">using </span>System.Runtime.CompilerServices;</div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="keyword">using </span>Unity.Mathematics;</div>
@@ -118,7 +118,7 @@ $(function(){initNavTree('_probe_volume_constant_runtime_resources_8cs_source.ht
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_b_x_render_pipeline.html">BXRenderPipeline</a></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>{</div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>    <span class="keyword">using </span>RuntimeResources = <a class="code hl_class" href="class_b_x_render_pipeline_1_1_probe_reference_volume.html">ProbeReferenceVolume</a>.<a class="code hl_struct" href="struct_b_x_render_pipeline_1_1_probe_reference_volume_1_1_runtime_resources.html">RuntimeResources</a>;</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="namespace_b_x_render_pipeline.html#a9a1940caae759c30b7ab33269cee59bd">   10</a></span>    <span class="keyword">using </span><a class="code hl_typedef" href="namespace_b_x_render_pipeline.html#a9a1940caae759c30b7ab33269cee59bd">RuntimeResources</a> = <a class="code hl_class" href="class_b_x_render_pipeline_1_1_probe_reference_volume.html">ProbeReferenceVolume</a>.<a class="code hl_struct" href="struct_b_x_render_pipeline_1_1_probe_reference_volume_1_1_runtime_resources.html">RuntimeResources</a>;</div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>    <span class="keyword">internal</span> <span class="keyword">static</span> <span class="keyword">class </span>ProbeVolumeConstantRuntimeResources</div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    {</div>
@@ -126,7 +126,7 @@ $(function(){initNavTree('_probe_volume_constant_runtime_resources_8cs_source.ht
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>        <span class="keyword">private</span> <span class="keyword">static</span> ComputeBuffer m_AntiLeakDataBuffer = <span class="keyword">null</span>;</div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>        [MethodImpl(MethodImplOptions.AggressiveInlining)]</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>        <span class="keyword">internal</span> <span class="keyword">static</span> <span class="keywordtype">void</span> GetRuntimeResources(ref RuntimeResources rr)</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>        <span class="keyword">internal</span> <span class="keyword">static</span> <span class="keywordtype">void</span> GetRuntimeResources(ref <a class="code hl_typedef" href="namespace_b_x_render_pipeline.html#a9a1940caae759c30b7ab33269cee59bd">RuntimeResources</a> rr)</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>        {</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>            rr.SkyPrecomputedDirections = m_SkySamplingDirectionsBuffer;</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>            rr.QualityLeakReductionData = m_AntiLeakDataBuffer;</div>
@@ -383,7 +383,7 @@ $(function(){initNavTree('_probe_volume_constant_runtime_resources_8cs_source.ht
 <div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span>                }</div>
 <div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span>            }</div>
 <div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span>            str += <span class="stringliteral">&quot;        };&quot;</span>;</div>
-<div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span>            Debug.Log(str);</div>
+<div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span>            <a class="code hl_typedef" href="namespace_b_x_render_pipeline.html#a3621186afdb4c5ac3e13978548ad2315">Debug</a>.Log(str);</div>
 <div class="line"><a id="l00276" name="l00276"></a><span class="lineno">  276</span> </div>
 <div class="line"><a id="l00277" name="l00277"></a><span class="lineno">  277</span>            <span class="keywordflow">return</span> antileak;</div>
 <div class="line"><a id="l00278" name="l00278"></a><span class="lineno">  278</span>        }</div>
@@ -413,13 +413,15 @@ $(function(){initNavTree('_probe_volume_constant_runtime_resources_8cs_source.ht
 <div class="line"><a id="l00302" name="l00302"></a><span class="lineno">  302</span>}</div>
 <div class="ttc" id="aclass_b_x_render_pipeline_1_1_probe_reference_volume_html"><div class="ttname"><a href="class_b_x_render_pipeline_1_1_probe_reference_volume.html">BXRenderPipeline.ProbeReferenceVolume</a></div><div class="ttdoc">The reference volume for the Adaptive Probe Volums system. This defines the structure in which volume...</div><div class="ttdef"><b>Definition</b> <a href="_probe_reference_volume_8_binding_8cs_source.html#l00008">ProbeReferenceVolume.Binding.cs:9</a></div></div>
 <div class="ttc" id="anamespace_b_x_render_pipeline_html"><div class="ttname"><a href="namespace_b_x_render_pipeline.html">BXRenderPipeline</a></div><div class="ttdef"><b>Definition</b> <a href="_b_x_additional_light_data_8_types_8cs_source.html#l00006">BXAdditionalLightData.Types.cs:7</a></div></div>
+<div class="ttc" id="anamespace_b_x_render_pipeline_html_a3621186afdb4c5ac3e13978548ad2315"><div class="ttname"><a href="namespace_b_x_render_pipeline.html#a3621186afdb4c5ac3e13978548ad2315">BXRenderPipeline.Debug</a></div><div class="ttdeci">UnityEngine.Debug Debug</div><div class="ttdef"><b>Definition</b> <a href="_probe_volume_scratch_buffer_pool_8cs_source.html#l00011">ProbeVolumeScratchBufferPool.cs:11</a></div></div>
+<div class="ttc" id="anamespace_b_x_render_pipeline_html_a9a1940caae759c30b7ab33269cee59bd"><div class="ttname"><a href="namespace_b_x_render_pipeline.html#a9a1940caae759c30b7ab33269cee59bd">BXRenderPipeline.RuntimeResources</a></div><div class="ttdeci">ProbeReferenceVolume.RuntimeResources RuntimeResources</div><div class="ttdef"><b>Definition</b> <a href="#l00010">ProbeVolumeConstantRuntimeResources.cs:10</a></div></div>
 <div class="ttc" id="astruct_b_x_render_pipeline_1_1_probe_reference_volume_1_1_runtime_resources_html"><div class="ttname"><a href="struct_b_x_render_pipeline_1_1_probe_reference_volume_1_1_runtime_resources.html">BXRenderPipeline.ProbeReferenceVolume.RuntimeResources</a></div><div class="ttdoc">The resources that are bound to the runtime shaders for sampling Adaptive Probe Volume data.</div><div class="ttdef"><b>Definition</b> <a href="_probe_reference_volume_8cs_source.html#l00638">ProbeReferenceVolume.cs:639</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_f73a8b7d50989afdadf24d8fc7357a9a.html">FloowDream</a></li><li class="navelem"><a class="el" href="dir_1ba945c5ec581c9e331de81f300aff07.html">Assets</a></li><li class="navelem"><a class="el" href="dir_a57f4778d467e0a6236fa4788364df6c.html">Scripts</a></li><li class="navelem"><a class="el" href="dir_8b4148ef0ffda13d8a8272867298b61d.html">BXRenderPipeline</a></li><li class="navelem"><a class="el" href="dir_adca635a4a56f63b57dcbe3faea75e30.html">ProbeVolumes</a></li><li class="navelem"><b>ProbeVolumeConstantRuntimeResources.cs</b></li>
+    <li class="navelem"><a class="el" href="dir_f73a8b7d50989afdadf24d8fc7357a9a.html">FloowDream</a></li><li class="navelem"><a class="el" href="dir_1ba945c5ec581c9e331de81f300aff07.html">Assets</a></li><li class="navelem"><a class="el" href="dir_a57f4778d467e0a6236fa4788364df6c.html">Scripts</a></li><li class="navelem"><a class="el" href="dir_8b4148ef0ffda13d8a8272867298b61d.html">BXRenderPipeline</a></li><li class="navelem"><a class="el" href="dir_adca635a4a56f63b57dcbe3faea75e30.html">ProbeVolumes</a></li><li class="navelem"><a class="el" href="_probe_volume_constant_runtime_resources_8cs.html">ProbeVolumeConstantRuntimeResources.cs</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
   </ul>
 </div>

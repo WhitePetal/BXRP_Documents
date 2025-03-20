@@ -1,0 +1,4 @@
+var class_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__line =
+[
+    [ "create_line_mesh_job", "struct_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__line_1_1create__line__mesh__job.html", "struct_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__line_1_1create__line__mesh__job" ]
+];

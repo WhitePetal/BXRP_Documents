@@ -112,6 +112,8 @@ $(function(){initNavTree('interface_i_d3_d12_video_device.html',''); initResizab
   <div class="headertitle"><div class="title">ID3D12VideoDevice Interface Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>import &quot;<a class="el" href="d3d12video_8idl_source.html">d3d12video.idl</a>&quot;;</code></p>
 <div class="dynheader">
 Inheritance diagram for ID3D12VideoDevice:</div>
 <div class="dyncontent">
@@ -124,23 +126,139 @@ Inheritance diagram for ID3D12VideoDevice:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a03795952bc3554ad637b878086afcf7f" id="r_a03795952bc3554ad637b878086afcf7f"><td class="memItemLeft" align="right" valign="top"><a id="a03795952bc3554ad637b878086afcf7f" name="a03795952bc3554ad637b878086afcf7f"></a>
-HRESULT&#160;</td><td class="memItemRight" valign="bottom"><b>CheckFeatureSupport</b> (D3D12_FEATURE_VIDEO FeatureVideo, [annotation(&quot;_Inout_updates_bytes_(FeatureSupportDataSize)&quot;)] void *pFeatureSupportData, UINT FeatureSupportDataSize)</td></tr>
+<tr class="memitem:a03795952bc3554ad637b878086afcf7f" id="r_a03795952bc3554ad637b878086afcf7f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03795952bc3554ad637b878086afcf7f">CheckFeatureSupport</a> (<a class="el" href="d3d12video_8idl.html#a1927a8c6fd49d6bfa1e494e5daba7696">D3D12_FEATURE_VIDEO</a> FeatureVideo, [annotation(&quot;_Inout_updates_bytes_(FeatureSupportDataSize)&quot;)] void *pFeatureSupportData, <a class="el" href="basetsd_8h.html#a2e2c38961834f28c06e17e074eb00bc7">UINT</a> FeatureSupportDataSize)</td></tr>
 <tr class="separator:a03795952bc3554ad637b878086afcf7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a776f97d82ea78f75c9cd83bd49978e26" id="r_a776f97d82ea78f75c9cd83bd49978e26"><td class="memItemLeft" align="right" valign="top"><a id="a776f97d82ea78f75c9cd83bd49978e26" name="a776f97d82ea78f75c9cd83bd49978e26"></a>
-HRESULT&#160;</td><td class="memItemRight" valign="bottom"><b>CreateVideoDecoder</b> ([annotation(&quot;_In_&quot;)] const <a class="el" href="struct_d3_d12___v_i_d_e_o___d_e_c_o_d_e_r___d_e_s_c.html">D3D12_VIDEO_DECODER_DESC</a> *pDesc, [annotation(&quot;_In_&quot;)] REFIID riid, [out, iid_is(riid), annotation(&quot;_COM_Outptr_&quot;)] void **ppVideoDecoder)</td></tr>
+<tr class="memitem:a776f97d82ea78f75c9cd83bd49978e26" id="r_a776f97d82ea78f75c9cd83bd49978e26"><td class="memItemLeft" align="right" valign="top"><a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a776f97d82ea78f75c9cd83bd49978e26">CreateVideoDecoder</a> ([annotation(&quot;_In_&quot;)] const <a class="el" href="struct_d3_d12___v_i_d_e_o___d_e_c_o_d_e_r___d_e_s_c.html">D3D12_VIDEO_DECODER_DESC</a> *pDesc, [annotation(&quot;_In_&quot;)] <a class="el" href="basetsd_8h.html#a1246040d86d82dd9e6151a67b4ca3f89">REFIID</a> riid, [out, iid_is(riid), annotation(&quot;_COM_Outptr_&quot;)] <a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> **ppVideoDecoder)</td></tr>
 <tr class="separator:a776f97d82ea78f75c9cd83bd49978e26"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6bdb3928a4164f5de8cef1a7a1825f82" id="r_a6bdb3928a4164f5de8cef1a7a1825f82"><td class="memItemLeft" align="right" valign="top"><a id="a6bdb3928a4164f5de8cef1a7a1825f82" name="a6bdb3928a4164f5de8cef1a7a1825f82"></a>
-HRESULT&#160;</td><td class="memItemRight" valign="bottom"><b>CreateVideoDecoderHeap</b> ([annotation(&quot;_In_&quot;)]const <a class="el" href="struct_d3_d12___v_i_d_e_o___d_e_c_o_d_e_r___h_e_a_p___d_e_s_c.html">D3D12_VIDEO_DECODER_HEAP_DESC</a> *pVideoDecoderHeapDesc, [annotation(&quot;_In_&quot;)] REFIID riid, [out, iid_is(riid), annotation(&quot;_COM_Outptr_&quot;)] void **ppVideoDecoderHeap)</td></tr>
+<tr class="memitem:a6bdb3928a4164f5de8cef1a7a1825f82" id="r_a6bdb3928a4164f5de8cef1a7a1825f82"><td class="memItemLeft" align="right" valign="top"><a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6bdb3928a4164f5de8cef1a7a1825f82">CreateVideoDecoderHeap</a> ([annotation(&quot;_In_&quot;)]const <a class="el" href="struct_d3_d12___v_i_d_e_o___d_e_c_o_d_e_r___h_e_a_p___d_e_s_c.html">D3D12_VIDEO_DECODER_HEAP_DESC</a> *pVideoDecoderHeapDesc, [annotation(&quot;_In_&quot;)] <a class="el" href="basetsd_8h.html#a1246040d86d82dd9e6151a67b4ca3f89">REFIID</a> riid, [out, iid_is(riid), annotation(&quot;_COM_Outptr_&quot;)] <a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> **ppVideoDecoderHeap)</td></tr>
 <tr class="separator:a6bdb3928a4164f5de8cef1a7a1825f82"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad86671a84bfd0109a734bdbca0733f3" id="r_aad86671a84bfd0109a734bdbca0733f3"><td class="memItemLeft" align="right" valign="top"><a id="aad86671a84bfd0109a734bdbca0733f3" name="aad86671a84bfd0109a734bdbca0733f3"></a>
-HRESULT&#160;</td><td class="memItemRight" valign="bottom"><b>CreateVideoProcessor</b> (UINT NodeMask, [annotation(&quot;_In_&quot;)] const <a class="el" href="struct_d3_d12___v_i_d_e_o___p_r_o_c_e_s_s___o_u_t_p_u_t___s_t_r_e_a_m___d_e_s_c.html">D3D12_VIDEO_PROCESS_OUTPUT_STREAM_DESC</a> *pOutputStreamDesc, UINT NumInputStreamDescs, [annotation(&quot;_In_reads_(NumInputStreamDescs)&quot;)]const <a class="el" href="struct_d3_d12___v_i_d_e_o___p_r_o_c_e_s_s___i_n_p_u_t___s_t_r_e_a_m___d_e_s_c.html">D3D12_VIDEO_PROCESS_INPUT_STREAM_DESC</a> *pInputStreamDescs, [annotation(&quot;_In_&quot;)] REFIID riid, [out, iid_is(riid), annotation(&quot;_COM_Outptr_&quot;)] void **ppVideoProcessor)</td></tr>
+<tr class="memitem:aad86671a84bfd0109a734bdbca0733f3" id="r_aad86671a84bfd0109a734bdbca0733f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad86671a84bfd0109a734bdbca0733f3">CreateVideoProcessor</a> (<a class="el" href="basetsd_8h.html#a2e2c38961834f28c06e17e074eb00bc7">UINT</a> NodeMask, [annotation(&quot;_In_&quot;)] const <a class="el" href="struct_d3_d12___v_i_d_e_o___p_r_o_c_e_s_s___o_u_t_p_u_t___s_t_r_e_a_m___d_e_s_c.html">D3D12_VIDEO_PROCESS_OUTPUT_STREAM_DESC</a> *pOutputStreamDesc, <a class="el" href="basetsd_8h.html#a2e2c38961834f28c06e17e074eb00bc7">UINT</a> NumInputStreamDescs, [annotation(&quot;_In_reads_(NumInputStreamDescs)&quot;)]const <a class="el" href="struct_d3_d12___v_i_d_e_o___p_r_o_c_e_s_s___i_n_p_u_t___s_t_r_e_a_m___d_e_s_c.html">D3D12_VIDEO_PROCESS_INPUT_STREAM_DESC</a> *pInputStreamDescs, [annotation(&quot;_In_&quot;)] <a class="el" href="basetsd_8h.html#a1246040d86d82dd9e6151a67b4ca3f89">REFIID</a> riid, [out, iid_is(riid), annotation(&quot;_COM_Outptr_&quot;)] <a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> **ppVideoProcessor)</td></tr>
 <tr class="separator:aad86671a84bfd0109a734bdbca0733f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
 <p class="definition">Definition at line <a class="el" href="d3d12video_8idl_source.html#l00235">235</a> of file <a class="el" href="d3d12video_8idl_source.html">d3d12video.idl</a>.</p>
-</div><hr/>The documentation for this interface was generated from the following file:<ul>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a03795952bc3554ad637b878086afcf7f" name="a03795952bc3554ad637b878086afcf7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03795952bc3554ad637b878086afcf7f">&#9670;&#160;</a></span>CheckFeatureSupport()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> ID3D12VideoDevice::CheckFeatureSupport </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="d3d12video_8idl.html#a1927a8c6fd49d6bfa1e494e5daba7696">D3D12_FEATURE_VIDEO</a></td>          <td class="paramname"><span class="paramname"><em>FeatureVideo</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">[annotation(&quot;_Inout_updates_bytes_(FeatureSupportDataSize)&quot;)] <a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> *</td>          <td class="paramname"><span class="paramname"><em>pFeatureSupportData</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#a2e2c38961834f28c06e17e074eb00bc7">UINT</a></td>          <td class="paramname"><span class="paramname"><em>FeatureSupportDataSize</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a776f97d82ea78f75c9cd83bd49978e26" name="a776f97d82ea78f75c9cd83bd49978e26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a776f97d82ea78f75c9cd83bd49978e26">&#9670;&#160;</a></span>CreateVideoDecoder()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> ID3D12VideoDevice::CreateVideoDecoder </td>
+          <td>(</td>
+          <td class="paramtype">[annotation(&quot;_In_&quot;)] const <a class="el" href="struct_d3_d12___v_i_d_e_o___d_e_c_o_d_e_r___d_e_s_c.html">D3D12_VIDEO_DECODER_DESC</a> *</td>          <td class="paramname"><span class="paramname"><em>pDesc</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">[annotation(&quot;_In_&quot;)] <a class="el" href="basetsd_8h.html#a1246040d86d82dd9e6151a67b4ca3f89">REFIID</a></td>          <td class="paramname"><span class="paramname"><em>riid</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">[out, iid_is(riid), annotation(&quot;_COM_Outptr_&quot;)] <a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> **</td>          <td class="paramname"><span class="paramname"><em>ppVideoDecoder</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6bdb3928a4164f5de8cef1a7a1825f82" name="a6bdb3928a4164f5de8cef1a7a1825f82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bdb3928a4164f5de8cef1a7a1825f82">&#9670;&#160;</a></span>CreateVideoDecoderHeap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> ID3D12VideoDevice::CreateVideoDecoderHeap </td>
+          <td>(</td>
+          <td class="paramtype">[annotation(&quot;_In_&quot;)] const <a class="el" href="struct_d3_d12___v_i_d_e_o___d_e_c_o_d_e_r___h_e_a_p___d_e_s_c.html">D3D12_VIDEO_DECODER_HEAP_DESC</a> *</td>          <td class="paramname"><span class="paramname"><em>pVideoDecoderHeapDesc</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">[annotation(&quot;_In_&quot;)] <a class="el" href="basetsd_8h.html#a1246040d86d82dd9e6151a67b4ca3f89">REFIID</a></td>          <td class="paramname"><span class="paramname"><em>riid</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">[out, iid_is(riid), annotation(&quot;_COM_Outptr_&quot;)] <a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> **</td>          <td class="paramname"><span class="paramname"><em>ppVideoDecoderHeap</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aad86671a84bfd0109a734bdbca0733f3" name="aad86671a84bfd0109a734bdbca0733f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad86671a84bfd0109a734bdbca0733f3">&#9670;&#160;</a></span>CreateVideoProcessor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> ID3D12VideoDevice::CreateVideoProcessor </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#a2e2c38961834f28c06e17e074eb00bc7">UINT</a></td>          <td class="paramname"><span class="paramname"><em>NodeMask</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">[annotation(&quot;_In_&quot;)] const <a class="el" href="struct_d3_d12___v_i_d_e_o___p_r_o_c_e_s_s___o_u_t_p_u_t___s_t_r_e_a_m___d_e_s_c.html">D3D12_VIDEO_PROCESS_OUTPUT_STREAM_DESC</a> *</td>          <td class="paramname"><span class="paramname"><em>pOutputStreamDesc</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#a2e2c38961834f28c06e17e074eb00bc7">UINT</a></td>          <td class="paramname"><span class="paramname"><em>NumInputStreamDescs</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">[annotation(&quot;_In_reads_(NumInputStreamDescs)&quot;)] const <a class="el" href="struct_d3_d12___v_i_d_e_o___p_r_o_c_e_s_s___i_n_p_u_t___s_t_r_e_a_m___d_e_s_c.html">D3D12_VIDEO_PROCESS_INPUT_STREAM_DESC</a> *</td>          <td class="paramname"><span class="paramname"><em>pInputStreamDescs</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">[annotation(&quot;_In_&quot;)] <a class="el" href="basetsd_8h.html#a1246040d86d82dd9e6151a67b4ca3f89">REFIID</a></td>          <td class="paramname"><span class="paramname"><em>riid</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">[out, iid_is(riid), annotation(&quot;_COM_Outptr_&quot;)] <a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> **</td>          <td class="paramname"><span class="paramname"><em>ppVideoProcessor</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this interface was generated from the following file:<ul>
 <li><a class="el" href="d3d12video_8idl_source.html">d3d12video.idl</a></li>
 </ul>
 </div><!-- contents -->

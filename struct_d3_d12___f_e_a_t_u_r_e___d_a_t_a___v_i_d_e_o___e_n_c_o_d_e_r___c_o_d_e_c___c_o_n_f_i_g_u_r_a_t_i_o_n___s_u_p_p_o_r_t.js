@@ -1,0 +1,8 @@
+var struct_d3_d12___f_e_a_t_u_r_e___d_a_t_a___v_i_d_e_o___e_n_c_o_d_e_r___c_o_d_e_c___c_o_n_f_i_g_u_r_a_t_i_o_n___s_u_p_p_o_r_t =
+[
+    [ "Codec", "struct_d3_d12___f_e_a_t_u_r_e___d_a_t_a___v_i_d_e_o___e_n_c_o_d_e_r___c_o_d_e_c___c_o_n_f_i_g_u_r_a_t_i_o_n___s_u_p_p_o_r_t.html#a0c9e9eeb7b0b1eacff9031cb2580ede0", null ],
+    [ "CodecSupportLimits", "struct_d3_d12___f_e_a_t_u_r_e___d_a_t_a___v_i_d_e_o___e_n_c_o_d_e_r___c_o_d_e_c___c_o_n_f_i_g_u_r_a_t_i_o_n___s_u_p_p_o_r_t.html#ab772e1c289b31cc99853d87af5ed4a84", null ],
+    [ "IsSupported", "struct_d3_d12___f_e_a_t_u_r_e___d_a_t_a___v_i_d_e_o___e_n_c_o_d_e_r___c_o_d_e_c___c_o_n_f_i_g_u_r_a_t_i_o_n___s_u_p_p_o_r_t.html#a79f4ae5a2da93efa05197b672df94c7d", null ],
+    [ "NodeIndex", "struct_d3_d12___f_e_a_t_u_r_e___d_a_t_a___v_i_d_e_o___e_n_c_o_d_e_r___c_o_d_e_c___c_o_n_f_i_g_u_r_a_t_i_o_n___s_u_p_p_o_r_t.html#ab45b51f814ea3498b43ed8f505be52fc", null ],
+    [ "Profile", "struct_d3_d12___f_e_a_t_u_r_e___d_a_t_a___v_i_d_e_o___e_n_c_o_d_e_r___c_o_d_e_c___c_o_n_f_i_g_u_r_a_t_i_o_n___s_u_p_p_o_r_t.html#a1ba1913aade65ced5a5faf6771deb681", null ]
+];

@@ -1,0 +1,5 @@
+var struct_d3_d12___b_u_i_l_d___r_a_y_t_r_a_c_i_n_g___a_c_c_e_l_e_r_a_t_i_o_n___s_t_r_u_c_t_u_r_e___ab16b2e8cea98c2a195e42c95936f963 =
+[
+    [ "NumDescs", "struct_d3_d12___b_u_i_l_d___r_a_y_t_r_a_c_i_n_g___a_c_c_e_l_e_r_a_t_i_o_n___s_t_r_u_c_t_u_r_e___ab16b2e8cea98c2a195e42c95936f963.html#ae48f3c3daed341f91b67757f290f9676", null ],
+    [ "Type", "struct_d3_d12___b_u_i_l_d___r_a_y_t_r_a_c_i_n_g___a_c_c_e_l_e_r_a_t_i_o_n___s_t_r_u_c_t_u_r_e___ab16b2e8cea98c2a195e42c95936f963.html#aa911236c6fde11f0049d32dd5d2b5ef0", null ]
+];

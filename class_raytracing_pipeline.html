@@ -108,10 +108,14 @@ $(function(){initNavTree('class_raytracing_pipeline.html',''); initResizable(tru
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_raytracing_pipeline-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">RaytracingPipeline Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &lt;<a class="el" href="_raytracing_pipeline_8h_source.html">RaytracingPipeline.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for RaytracingPipeline:</div>
 <div class="dyncontent">
@@ -123,18 +127,84 @@ Inheritance diagram for RaytracingPipeline:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a63f27c0aa2f64342b522868122e7c85e" id="r_a63f27c0aa2f64342b522868122e7c85e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a63f27c0aa2f64342b522868122e7c85e">RaytracingPipeline</a> (<a class="el" href="class_engine.html">Engine</a> *engine)</td></tr>
 <tr class="separator:a63f27c0aa2f64342b522868122e7c85e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04786b020307cbc86f21f8c28ea31d26" id="r_a04786b020307cbc86f21f8c28ea31d26"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04786b020307cbc86f21f8c28ea31d26">~RaytracingPipeline</a> ()</td></tr>
+<tr class="separator:a04786b020307cbc86f21f8c28ea31d26"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6164ce32fa8918764ad7985b2f219d4d" id="r_a6164ce32fa8918764ad7985b2f219d4d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6164ce32fa8918764ad7985b2f219d4d">Initialize</a> ()</td></tr>
 <tr class="separator:a6164ce32fa8918764ad7985b2f219d4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a031def8b55ca56adbd3e4045d4888580" id="r_a031def8b55ca56adbd3e4045d4888580"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a031def8b55ca56adbd3e4045d4888580">LoadContent</a> ()</td></tr>
+<tr class="memitem:a031def8b55ca56adbd3e4045d4888580" id="r_a031def8b55ca56adbd3e4045d4888580"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a031def8b55ca56adbd3e4045d4888580">LoadContent</a> ()</td></tr>
 <tr class="separator:a031def8b55ca56adbd3e4045d4888580"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0666e189e0ceac1b9e089636175b85e4" id="r_a0666e189e0ceac1b9e089636175b85e4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0666e189e0ceac1b9e089636175b85e4">OnResize</a> ()</td></tr>
+<tr class="memitem:a0666e189e0ceac1b9e089636175b85e4" id="r_a0666e189e0ceac1b9e089636175b85e4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0666e189e0ceac1b9e089636175b85e4">OnResize</a> ()</td></tr>
 <tr class="separator:a0666e189e0ceac1b9e089636175b85e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6adf3107461c0dd0e8297bfbdbf57fda" id="r_a6adf3107461c0dd0e8297bfbdbf57fda"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6adf3107461c0dd0e8297bfbdbf57fda">OnRender</a> (<a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; ID3D12GraphicsCommandList4 &gt; commandList, <a class="el" href="struct_d3_d12___c_p_u___d_e_s_c_r_i_p_t_o_r___h_a_n_d_l_e.html">D3D12_CPU_DESCRIPTOR_HANDLE</a> rtv, <a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; <a class="el" href="interface_i_d3_d12_resource.html">ID3D12Resource</a> &gt; backBuffer)</td></tr>
+<tr class="memitem:a6adf3107461c0dd0e8297bfbdbf57fda" id="r_a6adf3107461c0dd0e8297bfbdbf57fda"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6adf3107461c0dd0e8297bfbdbf57fda">OnRender</a> (<a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; <a class="el" href="d3d12_8h.html#a47fe09edc0b4bd6037e6d09d8d3262f1">ID3D12GraphicsCommandList4</a> &gt; commandList, <a class="el" href="struct_d3_d12___c_p_u___d_e_s_c_r_i_p_t_o_r___h_a_n_d_l_e.html">D3D12_CPU_DESCRIPTOR_HANDLE</a> rtv, <a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; <a class="el" href="interface_i_d3_d12_resource.html">ID3D12Resource</a> &gt; backBuffer)</td></tr>
 <tr class="separator:a6adf3107461c0dd0e8297bfbdbf57fda"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7b4aa857b140b7435dbb72952d909162" id="r_a7b4aa857b140b7435dbb72952d909162"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b4aa857b140b7435dbb72952d909162">UnloadContent</a> ()</td></tr>
+<tr class="memitem:a7b4aa857b140b7435dbb72952d909162" id="r_a7b4aa857b140b7435dbb72952d909162"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b4aa857b140b7435dbb72952d909162">UnloadContent</a> ()</td></tr>
 <tr class="separator:a7b4aa857b140b7435dbb72952d909162"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4701830675386d5a8c3c820c4a5e786a" id="r_a4701830675386d5a8c3c820c4a5e786a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4701830675386d5a8c3c820c4a5e786a">Destroy</a> ()</td></tr>
+<tr class="memitem:a4701830675386d5a8c3c820c4a5e786a" id="r_a4701830675386d5a8c3c820c4a5e786a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4701830675386d5a8c3c820c4a5e786a">Destroy</a> ()</td></tr>
 <tr class="separator:a4701830675386d5a8c3c820c4a5e786a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a12e42221d126f57b3137f1cd595bba4d" id="r_a12e42221d126f57b3137f1cd595bba4d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_acceleration_structure_buffers.html">AccelerationStructureBuffers</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12e42221d126f57b3137f1cd595bba4d">CreateBottomLevelAS</a> (<a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; <a class="el" href="d3d12_8h.html#ad88deb8a621c6f48c18fed30e523a41d">ID3D12Device5</a> &gt; device, <a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; <a class="el" href="d3d12_8h.html#a47fe09edc0b4bd6037e6d09d8d3262f1">ID3D12GraphicsCommandList4</a> &gt; commandList, std::vector&lt; std::pair&lt; <a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; <a class="el" href="interface_i_d3_d12_resource.html">ID3D12Resource</a> &gt;, uint32_t &gt; &gt; vVertexBuffers, std::vector&lt; std::pair&lt; <a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; <a class="el" href="interface_i_d3_d12_resource.html">ID3D12Resource</a> &gt;, uint32_t &gt; &gt; vIndexBuffers)</td></tr>
+<tr class="separator:a12e42221d126f57b3137f1cd595bba4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a200ba11b5d4ec763131cc4cd13065b54" id="r_a200ba11b5d4ec763131cc4cd13065b54"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a200ba11b5d4ec763131cc4cd13065b54">CreateTopLevelAS</a> (<a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; <a class="el" href="d3d12_8h.html#ad88deb8a621c6f48c18fed30e523a41d">ID3D12Device5</a> &gt; device, <a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; <a class="el" href="d3d12_8h.html#a47fe09edc0b4bd6037e6d09d8d3262f1">ID3D12GraphicsCommandList4</a> &gt; commandList, const std::vector&lt; std::pair&lt; <a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; <a class="el" href="interface_i_d3_d12_resource.html">ID3D12Resource</a> &gt;, DirectX::XMMATRIX &gt; &gt; &amp;instances)</td></tr>
+<tr class="separator:a200ba11b5d4ec763131cc4cd13065b54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b005779ebb7be19c600713e695f4196" id="r_a9b005779ebb7be19c600713e695f4196"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b005779ebb7be19c600713e695f4196">CreateAccelerationStructures</a> ()</td></tr>
+<tr class="separator:a9b005779ebb7be19c600713e695f4196"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1279ff669227505029e0e5ceca13e8a" id="r_aa1279ff669227505029e0e5ceca13e8a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; <a class="el" href="d3d12_8h.html#af17387e0768c42e8ca99d17973486c66">ID3D12RootSignature</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1279ff669227505029e0e5ceca13e8a">CreateRayGenSignature</a> ()</td></tr>
+<tr class="separator:aa1279ff669227505029e0e5ceca13e8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad21a91f2b7616f6f6ffcbfe8e6b6c14f" id="r_ad21a91f2b7616f6f6ffcbfe8e6b6c14f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; <a class="el" href="d3d12_8h.html#af17387e0768c42e8ca99d17973486c66">ID3D12RootSignature</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad21a91f2b7616f6f6ffcbfe8e6b6c14f">CreateMissSignature</a> ()</td></tr>
+<tr class="separator:ad21a91f2b7616f6f6ffcbfe8e6b6c14f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f914d7f5a2db488a33beadd94f7b33d" id="r_a4f914d7f5a2db488a33beadd94f7b33d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; <a class="el" href="d3d12_8h.html#af17387e0768c42e8ca99d17973486c66">ID3D12RootSignature</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f914d7f5a2db488a33beadd94f7b33d">CreateHitSignature</a> ()</td></tr>
+<tr class="separator:a4f914d7f5a2db488a33beadd94f7b33d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab021f91e6d23c7f35a55ae235abb1dba" id="r_ab021f91e6d23c7f35a55ae235abb1dba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab021f91e6d23c7f35a55ae235abb1dba">CreateRaytracingPipline</a> ()</td></tr>
+<tr class="separator:ab021f91e6d23c7f35a55ae235abb1dba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb7ce7eab958bfd045e982295db25b5e" id="r_afb7ce7eab958bfd045e982295db25b5e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afb7ce7eab958bfd045e982295db25b5e">CreateRaytracingOutputBuffer</a> ()</td></tr>
+<tr class="separator:afb7ce7eab958bfd045e982295db25b5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc80c7075fe74a836f26e912ce338a7e" id="r_acc80c7075fe74a836f26e912ce338a7e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc80c7075fe74a836f26e912ce338a7e">CreateRaytracingResourceHeap</a> ()</td></tr>
+<tr class="separator:acc80c7075fe74a836f26e912ce338a7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8cdf4ec8e4511819205b4acd3d75546" id="r_ad8cdf4ec8e4511819205b4acd3d75546"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8cdf4ec8e4511819205b4acd3d75546">CreateRaytracingResourceView</a> ()</td></tr>
+<tr class="separator:ad8cdf4ec8e4511819205b4acd3d75546"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90fb6a91fd7e841fddd3bb5eaa4040a3" id="r_a90fb6a91fd7e841fddd3bb5eaa4040a3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90fb6a91fd7e841fddd3bb5eaa4040a3">CreateRaytracingShaderBindingTable</a> ()</td></tr>
+<tr class="separator:a90fb6a91fd7e841fddd3bb5eaa4040a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a4f5d4fb30348a18ba732ee3a7188ea17" id="r_a4f5d4fb30348a18ba732ee3a7188ea17"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f5d4fb30348a18ba732ee3a7188ea17">m_ContentLoaded</a></td></tr>
+<tr class="separator:a4f5d4fb30348a18ba732ee3a7188ea17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48783e88c8573665cb8afdbfd6282ed9" id="r_a48783e88c8573665cb8afdbfd6282ed9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_engine.html">Engine</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a48783e88c8573665cb8afdbfd6282ed9">m_Engine</a></td></tr>
+<tr class="separator:a48783e88c8573665cb8afdbfd6282ed9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05a3ef5f5554f8be4e1c7283ed5987b5" id="r_a05a3ef5f5554f8be4e1c7283ed5987b5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_acceleration_structure_buffers.html">AccelerationStructureBuffers</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05a3ef5f5554f8be4e1c7283ed5987b5">m_BottomLevelASBuffers</a></td></tr>
+<tr class="separator:a05a3ef5f5554f8be4e1c7283ed5987b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08123b2ed6934988e33c11e65fe41cd9" id="r_a08123b2ed6934988e33c11e65fe41cd9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classnv__helpers__dx12_1_1_top_level_a_s_generator.html">nv_helpers_dx12::TopLevelASGenerator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08123b2ed6934988e33c11e65fe41cd9">m_TopLevelASGenerator</a></td></tr>
+<tr class="separator:a08123b2ed6934988e33c11e65fe41cd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab553ba0c8c99d876dd9ebcf1412801a" id="r_aab553ba0c8c99d876dd9ebcf1412801a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_acceleration_structure_buffers.html">AccelerationStructureBuffers</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab553ba0c8c99d876dd9ebcf1412801a">m_TopLevelASBuffers</a></td></tr>
+<tr class="separator:aab553ba0c8c99d876dd9ebcf1412801a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac119b700da83744af95380a24c411a7b" id="r_ac119b700da83744af95380a24c411a7b"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::pair&lt; <a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; <a class="el" href="interface_i_d3_d12_resource.html">ID3D12Resource</a> &gt;, DirectX::XMMATRIX &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac119b700da83744af95380a24c411a7b">m_Instances</a></td></tr>
+<tr class="separator:ac119b700da83744af95380a24c411a7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6249ecf42ca521ab9d268e52ad114a3d" id="r_a6249ecf42ca521ab9d268e52ad114a3d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; <a class="el" href="struct_i_dxc_blob.html">IDxcBlob</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6249ecf42ca521ab9d268e52ad114a3d">m_RayGenLibrary</a></td></tr>
+<tr class="separator:a6249ecf42ca521ab9d268e52ad114a3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9390fc90652e2a06810fd4988a802309" id="r_a9390fc90652e2a06810fd4988a802309"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; <a class="el" href="struct_i_dxc_blob.html">IDxcBlob</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9390fc90652e2a06810fd4988a802309">m_HitLibrary</a></td></tr>
+<tr class="separator:a9390fc90652e2a06810fd4988a802309"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0cc67eab4b22c3652c8edc00db259e17" id="r_a0cc67eab4b22c3652c8edc00db259e17"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; <a class="el" href="struct_i_dxc_blob.html">IDxcBlob</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0cc67eab4b22c3652c8edc00db259e17">m_MissLibrary</a></td></tr>
+<tr class="separator:a0cc67eab4b22c3652c8edc00db259e17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8020ca7307edcc122cefb9578fcb373" id="r_aa8020ca7307edcc122cefb9578fcb373"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; <a class="el" href="d3d12_8h.html#af17387e0768c42e8ca99d17973486c66">ID3D12RootSignature</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa8020ca7307edcc122cefb9578fcb373">m_RayGenSignature</a></td></tr>
+<tr class="separator:aa8020ca7307edcc122cefb9578fcb373"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebe1ee7439bfd1cb2bd46d34b3626d65" id="r_aebe1ee7439bfd1cb2bd46d34b3626d65"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; <a class="el" href="d3d12_8h.html#af17387e0768c42e8ca99d17973486c66">ID3D12RootSignature</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aebe1ee7439bfd1cb2bd46d34b3626d65">m_HitSignature</a></td></tr>
+<tr class="separator:aebe1ee7439bfd1cb2bd46d34b3626d65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02fd7911ca0c1d0772981f31558f17dc" id="r_a02fd7911ca0c1d0772981f31558f17dc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; <a class="el" href="d3d12_8h.html#af17387e0768c42e8ca99d17973486c66">ID3D12RootSignature</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a02fd7911ca0c1d0772981f31558f17dc">m_MissSignature</a></td></tr>
+<tr class="separator:a02fd7911ca0c1d0772981f31558f17dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cd4e569ab4c1ced29dd311a666b5e5a" id="r_a9cd4e569ab4c1ced29dd311a666b5e5a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; <a class="el" href="interface_i_d3_d12_state_object.html">ID3D12StateObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9cd4e569ab4c1ced29dd311a666b5e5a">m_RTStateObject</a></td></tr>
+<tr class="separator:a9cd4e569ab4c1ced29dd311a666b5e5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a37deab1f2ea4274463268832ba37e5" id="r_a7a37deab1f2ea4274463268832ba37e5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; <a class="el" href="d3d12_8h.html#a353331c7dc57150a5c169b1796f431fd">ID3D12StateObjectProperties</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a37deab1f2ea4274463268832ba37e5">m_RTStateObjectProps</a></td></tr>
+<tr class="separator:a7a37deab1f2ea4274463268832ba37e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a8b9e2fddaf78fb761e73ae1660322c" id="r_a9a8b9e2fddaf78fb761e73ae1660322c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; <a class="el" href="interface_i_d3_d12_resource.html">ID3D12Resource</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a8b9e2fddaf78fb761e73ae1660322c">m_OutputResource</a></td></tr>
+<tr class="separator:a9a8b9e2fddaf78fb761e73ae1660322c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04fcca44e7908862f08695b94c1aae26" id="r_a04fcca44e7908862f08695b94c1aae26"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; <a class="el" href="interface_i_d3_d12_descriptor_heap.html">ID3D12DescriptorHeap</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04fcca44e7908862f08695b94c1aae26">m_SRV_UAV_Heap</a></td></tr>
+<tr class="separator:a04fcca44e7908862f08695b94c1aae26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afccd13634a4027d43ab111df68a17235" id="r_afccd13634a4027d43ab111df68a17235"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classnv__helpers__dx12_1_1_shader_binding_table_generator.html">nv_helpers_dx12::ShaderBindingTableGenerator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afccd13634a4027d43ab111df68a17235">m_SBTHelper</a></td></tr>
+<tr class="separator:afccd13634a4027d43ab111df68a17235"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6695c319ea1ed97478877890ca04e0a5" id="r_a6695c319ea1ed97478877890ca04e0a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; <a class="el" href="interface_i_d3_d12_resource.html">ID3D12Resource</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6695c319ea1ed97478877890ca04e0a5">m_SBTStorage</a></td></tr>
+<tr class="separator:a6695c319ea1ed97478877890ca04e0a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
@@ -179,6 +249,326 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a9b005779ebb7be19c600713e695f4196" name="a9b005779ebb7be19c600713e695f4196"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b005779ebb7be19c600713e695f4196">&#9670;&#160;</a></span>CreateAccelerationStructures()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> RaytracingPipeline::CreateAccelerationStructures </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_raytracing_pipeline_8cpp_source.html#l00274">274</a> of file <a class="el" href="_raytracing_pipeline_8cpp_source.html">RaytracingPipeline.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a12e42221d126f57b3137f1cd595bba4d" name="a12e42221d126f57b3137f1cd595bba4d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12e42221d126f57b3137f1cd595bba4d">&#9670;&#160;</a></span>CreateBottomLevelAS()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_acceleration_structure_buffers.html">AccelerationStructureBuffers</a> RaytracingPipeline::CreateBottomLevelAS </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; <a class="el" href="d3d12_8h.html#ad88deb8a621c6f48c18fed30e523a41d">ID3D12Device5</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>device</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; <a class="el" href="d3d12_8h.html#a47fe09edc0b4bd6037e6d09d8d3262f1">ID3D12GraphicsCommandList4</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>commandList</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; std::pair&lt; <a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; <a class="el" href="interface_i_d3_d12_resource.html">ID3D12Resource</a> &gt;, uint32_t &gt; &gt;</td>          <td class="paramname"><span class="paramname"><em>vVertexBuffers</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; std::pair&lt; <a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; <a class="el" href="interface_i_d3_d12_resource.html">ID3D12Resource</a> &gt;, uint32_t &gt; &gt;</td>          <td class="paramname"><span class="paramname"><em>vIndexBuffers</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_raytracing_pipeline_8cpp_source.html#l00172">172</a> of file <a class="el" href="_raytracing_pipeline_8cpp_source.html">RaytracingPipeline.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a4f914d7f5a2db488a33beadd94f7b33d" name="a4f914d7f5a2db488a33beadd94f7b33d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f914d7f5a2db488a33beadd94f7b33d">&#9670;&#160;</a></span>CreateHitSignature()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; <a class="el" href="d3d12_8h.html#af17387e0768c42e8ca99d17973486c66">ID3D12RootSignature</a> &gt; RaytracingPipeline::CreateHitSignature </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_raytracing_pipeline_8cpp_source.html#l00309">309</a> of file <a class="el" href="_raytracing_pipeline_8cpp_source.html">RaytracingPipeline.cpp</a>.</p>
+
+</div>
+</div>
+<a id="ad21a91f2b7616f6f6ffcbfe8e6b6c14f" name="ad21a91f2b7616f6f6ffcbfe8e6b6c14f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad21a91f2b7616f6f6ffcbfe8e6b6c14f">&#9670;&#160;</a></span>CreateMissSignature()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; <a class="el" href="d3d12_8h.html#af17387e0768c42e8ca99d17973486c66">ID3D12RootSignature</a> &gt; RaytracingPipeline::CreateMissSignature </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_raytracing_pipeline_8cpp_source.html#l00318">318</a> of file <a class="el" href="_raytracing_pipeline_8cpp_source.html">RaytracingPipeline.cpp</a>.</p>
+
+</div>
+</div>
+<a id="aa1279ff669227505029e0e5ceca13e8a" name="aa1279ff669227505029e0e5ceca13e8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1279ff669227505029e0e5ceca13e8a">&#9670;&#160;</a></span>CreateRayGenSignature()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; <a class="el" href="d3d12_8h.html#af17387e0768c42e8ca99d17973486c66">ID3D12RootSignature</a> &gt; RaytracingPipeline::CreateRayGenSignature </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_raytracing_pipeline_8cpp_source.html#l00294">294</a> of file <a class="el" href="_raytracing_pipeline_8cpp_source.html">RaytracingPipeline.cpp</a>.</p>
+
+</div>
+</div>
+<a id="afb7ce7eab958bfd045e982295db25b5e" name="afb7ce7eab958bfd045e982295db25b5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb7ce7eab958bfd045e982295db25b5e">&#9670;&#160;</a></span>CreateRaytracingOutputBuffer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> RaytracingPipeline::CreateRaytracingOutputBuffer </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_raytracing_pipeline_8cpp_source.html#l00359">359</a> of file <a class="el" href="_raytracing_pipeline_8cpp_source.html">RaytracingPipeline.cpp</a>.</p>
+
+</div>
+</div>
+<a id="ab021f91e6d23c7f35a55ae235abb1dba" name="ab021f91e6d23c7f35a55ae235abb1dba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab021f91e6d23c7f35a55ae235abb1dba">&#9670;&#160;</a></span>CreateRaytracingPipline()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> RaytracingPipeline::CreateRaytracingPipline </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_raytracing_pipeline_8cpp_source.html#l00325">325</a> of file <a class="el" href="_raytracing_pipeline_8cpp_source.html">RaytracingPipeline.cpp</a>.</p>
+
+</div>
+</div>
+<a id="acc80c7075fe74a836f26e912ce338a7e" name="acc80c7075fe74a836f26e912ce338a7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc80c7075fe74a836f26e912ce338a7e">&#9670;&#160;</a></span>CreateRaytracingResourceHeap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> RaytracingPipeline::CreateRaytracingResourceHeap </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_raytracing_pipeline_8cpp_source.html#l00381">381</a> of file <a class="el" href="_raytracing_pipeline_8cpp_source.html">RaytracingPipeline.cpp</a>.</p>
+
+</div>
+</div>
+<a id="ad8cdf4ec8e4511819205b4acd3d75546" name="ad8cdf4ec8e4511819205b4acd3d75546"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8cdf4ec8e4511819205b4acd3d75546">&#9670;&#160;</a></span>CreateRaytracingResourceView()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> RaytracingPipeline::CreateRaytracingResourceView </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_raytracing_pipeline_8cpp_source.html#l00387">387</a> of file <a class="el" href="_raytracing_pipeline_8cpp_source.html">RaytracingPipeline.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a90fb6a91fd7e841fddd3bb5eaa4040a3" name="a90fb6a91fd7e841fddd3bb5eaa4040a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90fb6a91fd7e841fddd3bb5eaa4040a3">&#9670;&#160;</a></span>CreateRaytracingShaderBindingTable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> RaytracingPipeline::CreateRaytracingShaderBindingTable </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_raytracing_pipeline_8cpp_source.html#l00420">420</a> of file <a class="el" href="_raytracing_pipeline_8cpp_source.html">RaytracingPipeline.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a200ba11b5d4ec763131cc4cd13065b54" name="a200ba11b5d4ec763131cc4cd13065b54"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a200ba11b5d4ec763131cc4cd13065b54">&#9670;&#160;</a></span>CreateTopLevelAS()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> RaytracingPipeline::CreateTopLevelAS </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; <a class="el" href="d3d12_8h.html#ad88deb8a621c6f48c18fed30e523a41d">ID3D12Device5</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>device</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; <a class="el" href="d3d12_8h.html#a47fe09edc0b4bd6037e6d09d8d3262f1">ID3D12GraphicsCommandList4</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>commandList</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; std::pair&lt; <a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; <a class="el" href="interface_i_d3_d12_resource.html">ID3D12Resource</a> &gt;, DirectX::XMMATRIX &gt; &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>instances</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_raytracing_pipeline_8cpp_source.html#l00218">218</a> of file <a class="el" href="_raytracing_pipeline_8cpp_source.html">RaytracingPipeline.cpp</a>.</p>
+
+</div>
+</div>
 <a id="a4701830675386d5a8c3c820c4a5e786a" name="a4701830675386d5a8c3c820c4a5e786a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4701830675386d5a8c3c820c4a5e786a">&#9670;&#160;</a></span>Destroy()</h2>
 
@@ -186,7 +576,7 @@ Public Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void RaytracingPipeline::Destroy </td>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> RaytracingPipeline::Destroy </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -224,7 +614,7 @@ Public Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void RaytracingPipeline::LoadContent </td>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> RaytracingPipeline::LoadContent </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -243,9 +633,9 @@ Public Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void RaytracingPipeline::OnRender </td>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> RaytracingPipeline::OnRender </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; ID3D12GraphicsCommandList4 &gt;</td>          <td class="paramname"><span class="paramname"><em>commandList</em></span>, </td>
+          <td class="paramtype"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; <a class="el" href="d3d12_8h.html#a47fe09edc0b4bd6037e6d09d8d3262f1">ID3D12GraphicsCommandList4</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>commandList</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -271,7 +661,7 @@ Public Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void RaytracingPipeline::OnResize </td>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> RaytracingPipeline::OnResize </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -290,7 +680,7 @@ Public Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void RaytracingPipeline::UnloadContent </td>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> RaytracingPipeline::UnloadContent </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -299,6 +689,439 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="_raytracing_pipeline_8cpp_source.html#l00116">116</a> of file <a class="el" href="_raytracing_pipeline_8cpp_source.html">RaytracingPipeline.cpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a05a3ef5f5554f8be4e1c7283ed5987b5" name="a05a3ef5f5554f8be4e1c7283ed5987b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05a3ef5f5554f8be4e1c7283ed5987b5">&#9670;&#160;</a></span>m_BottomLevelASBuffers</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_acceleration_structure_buffers.html">AccelerationStructureBuffers</a> RaytracingPipeline::m_BottomLevelASBuffers</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_raytracing_pipeline_8h_source.html#l00060">60</a> of file <a class="el" href="_raytracing_pipeline_8h_source.html">RaytracingPipeline.h</a>.</p>
+
+</div>
+</div>
+<a id="a4f5d4fb30348a18ba732ee3a7188ea17" name="a4f5d4fb30348a18ba732ee3a7188ea17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f5d4fb30348a18ba732ee3a7188ea17">&#9670;&#160;</a></span>m_ContentLoaded</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool RaytracingPipeline::m_ContentLoaded</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_raytracing_pipeline_8h_source.html#l00056">56</a> of file <a class="el" href="_raytracing_pipeline_8h_source.html">RaytracingPipeline.h</a>.</p>
+
+</div>
+</div>
+<a id="a48783e88c8573665cb8afdbfd6282ed9" name="a48783e88c8573665cb8afdbfd6282ed9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48783e88c8573665cb8afdbfd6282ed9">&#9670;&#160;</a></span>m_Engine</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_engine.html">Engine</a>* RaytracingPipeline::m_Engine</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_raytracing_pipeline_8h_source.html#l00058">58</a> of file <a class="el" href="_raytracing_pipeline_8h_source.html">RaytracingPipeline.h</a>.</p>
+
+</div>
+</div>
+<a id="a9390fc90652e2a06810fd4988a802309" name="a9390fc90652e2a06810fd4988a802309"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9390fc90652e2a06810fd4988a802309">&#9670;&#160;</a></span>m_HitLibrary</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt;<a class="el" href="struct_i_dxc_blob.html">IDxcBlob</a>&gt; RaytracingPipeline::m_HitLibrary</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_raytracing_pipeline_8h_source.html#l00066">66</a> of file <a class="el" href="_raytracing_pipeline_8h_source.html">RaytracingPipeline.h</a>.</p>
+
+</div>
+</div>
+<a id="aebe1ee7439bfd1cb2bd46d34b3626d65" name="aebe1ee7439bfd1cb2bd46d34b3626d65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aebe1ee7439bfd1cb2bd46d34b3626d65">&#9670;&#160;</a></span>m_HitSignature</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt;<a class="el" href="d3d12_8h.html#af17387e0768c42e8ca99d17973486c66">ID3D12RootSignature</a>&gt; RaytracingPipeline::m_HitSignature</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_raytracing_pipeline_8h_source.html#l00070">70</a> of file <a class="el" href="_raytracing_pipeline_8h_source.html">RaytracingPipeline.h</a>.</p>
+
+</div>
+</div>
+<a id="ac119b700da83744af95380a24c411a7b" name="ac119b700da83744af95380a24c411a7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac119b700da83744af95380a24c411a7b">&#9670;&#160;</a></span>m_Instances</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::pair&lt;<a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt;<a class="el" href="interface_i_d3_d12_resource.html">ID3D12Resource</a>&gt;, DirectX::XMMATRIX&gt; &gt; RaytracingPipeline::m_Instances</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_raytracing_pipeline_8h_source.html#l00063">63</a> of file <a class="el" href="_raytracing_pipeline_8h_source.html">RaytracingPipeline.h</a>.</p>
+
+</div>
+</div>
+<a id="a0cc67eab4b22c3652c8edc00db259e17" name="a0cc67eab4b22c3652c8edc00db259e17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0cc67eab4b22c3652c8edc00db259e17">&#9670;&#160;</a></span>m_MissLibrary</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt;<a class="el" href="struct_i_dxc_blob.html">IDxcBlob</a>&gt; RaytracingPipeline::m_MissLibrary</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_raytracing_pipeline_8h_source.html#l00067">67</a> of file <a class="el" href="_raytracing_pipeline_8h_source.html">RaytracingPipeline.h</a>.</p>
+
+</div>
+</div>
+<a id="a02fd7911ca0c1d0772981f31558f17dc" name="a02fd7911ca0c1d0772981f31558f17dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02fd7911ca0c1d0772981f31558f17dc">&#9670;&#160;</a></span>m_MissSignature</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt;<a class="el" href="d3d12_8h.html#af17387e0768c42e8ca99d17973486c66">ID3D12RootSignature</a>&gt; RaytracingPipeline::m_MissSignature</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_raytracing_pipeline_8h_source.html#l00071">71</a> of file <a class="el" href="_raytracing_pipeline_8h_source.html">RaytracingPipeline.h</a>.</p>
+
+</div>
+</div>
+<a id="a9a8b9e2fddaf78fb761e73ae1660322c" name="a9a8b9e2fddaf78fb761e73ae1660322c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a8b9e2fddaf78fb761e73ae1660322c">&#9670;&#160;</a></span>m_OutputResource</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt;<a class="el" href="interface_i_d3_d12_resource.html">ID3D12Resource</a>&gt; RaytracingPipeline::m_OutputResource</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_raytracing_pipeline_8h_source.html#l00079">79</a> of file <a class="el" href="_raytracing_pipeline_8h_source.html">RaytracingPipeline.h</a>.</p>
+
+</div>
+</div>
+<a id="a6249ecf42ca521ab9d268e52ad114a3d" name="a6249ecf42ca521ab9d268e52ad114a3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6249ecf42ca521ab9d268e52ad114a3d">&#9670;&#160;</a></span>m_RayGenLibrary</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt;<a class="el" href="struct_i_dxc_blob.html">IDxcBlob</a>&gt; RaytracingPipeline::m_RayGenLibrary</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_raytracing_pipeline_8h_source.html#l00065">65</a> of file <a class="el" href="_raytracing_pipeline_8h_source.html">RaytracingPipeline.h</a>.</p>
+
+</div>
+</div>
+<a id="aa8020ca7307edcc122cefb9578fcb373" name="aa8020ca7307edcc122cefb9578fcb373"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8020ca7307edcc122cefb9578fcb373">&#9670;&#160;</a></span>m_RayGenSignature</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt;<a class="el" href="d3d12_8h.html#af17387e0768c42e8ca99d17973486c66">ID3D12RootSignature</a>&gt; RaytracingPipeline::m_RayGenSignature</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_raytracing_pipeline_8h_source.html#l00069">69</a> of file <a class="el" href="_raytracing_pipeline_8h_source.html">RaytracingPipeline.h</a>.</p>
+
+</div>
+</div>
+<a id="a9cd4e569ab4c1ced29dd311a666b5e5a" name="a9cd4e569ab4c1ced29dd311a666b5e5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9cd4e569ab4c1ced29dd311a666b5e5a">&#9670;&#160;</a></span>m_RTStateObject</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt;<a class="el" href="interface_i_d3_d12_state_object.html">ID3D12StateObject</a>&gt; RaytracingPipeline::m_RTStateObject</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_raytracing_pipeline_8h_source.html#l00074">74</a> of file <a class="el" href="_raytracing_pipeline_8h_source.html">RaytracingPipeline.h</a>.</p>
+
+</div>
+</div>
+<a id="a7a37deab1f2ea4274463268832ba37e5" name="a7a37deab1f2ea4274463268832ba37e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a37deab1f2ea4274463268832ba37e5">&#9670;&#160;</a></span>m_RTStateObjectProps</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt;<a class="el" href="d3d12_8h.html#a353331c7dc57150a5c169b1796f431fd">ID3D12StateObjectProperties</a>&gt; RaytracingPipeline::m_RTStateObjectProps</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_raytracing_pipeline_8h_source.html#l00077">77</a> of file <a class="el" href="_raytracing_pipeline_8h_source.html">RaytracingPipeline.h</a>.</p>
+
+</div>
+</div>
+<a id="afccd13634a4027d43ab111df68a17235" name="afccd13634a4027d43ab111df68a17235"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afccd13634a4027d43ab111df68a17235">&#9670;&#160;</a></span>m_SBTHelper</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classnv__helpers__dx12_1_1_shader_binding_table_generator.html">nv_helpers_dx12::ShaderBindingTableGenerator</a> RaytracingPipeline::m_SBTHelper</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_raytracing_pipeline_8h_source.html#l00082">82</a> of file <a class="el" href="_raytracing_pipeline_8h_source.html">RaytracingPipeline.h</a>.</p>
+
+</div>
+</div>
+<a id="a6695c319ea1ed97478877890ca04e0a5" name="a6695c319ea1ed97478877890ca04e0a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6695c319ea1ed97478877890ca04e0a5">&#9670;&#160;</a></span>m_SBTStorage</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt;<a class="el" href="interface_i_d3_d12_resource.html">ID3D12Resource</a>&gt; RaytracingPipeline::m_SBTStorage</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_raytracing_pipeline_8h_source.html#l00083">83</a> of file <a class="el" href="_raytracing_pipeline_8h_source.html">RaytracingPipeline.h</a>.</p>
+
+</div>
+</div>
+<a id="a04fcca44e7908862f08695b94c1aae26" name="a04fcca44e7908862f08695b94c1aae26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04fcca44e7908862f08695b94c1aae26">&#9670;&#160;</a></span>m_SRV_UAV_Heap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt;<a class="el" href="interface_i_d3_d12_descriptor_heap.html">ID3D12DescriptorHeap</a>&gt; RaytracingPipeline::m_SRV_UAV_Heap</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_raytracing_pipeline_8h_source.html#l00080">80</a> of file <a class="el" href="_raytracing_pipeline_8h_source.html">RaytracingPipeline.h</a>.</p>
+
+</div>
+</div>
+<a id="aab553ba0c8c99d876dd9ebcf1412801a" name="aab553ba0c8c99d876dd9ebcf1412801a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab553ba0c8c99d876dd9ebcf1412801a">&#9670;&#160;</a></span>m_TopLevelASBuffers</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_acceleration_structure_buffers.html">AccelerationStructureBuffers</a> RaytracingPipeline::m_TopLevelASBuffers</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_raytracing_pipeline_8h_source.html#l00062">62</a> of file <a class="el" href="_raytracing_pipeline_8h_source.html">RaytracingPipeline.h</a>.</p>
+
+</div>
+</div>
+<a id="a08123b2ed6934988e33c11e65fe41cd9" name="a08123b2ed6934988e33c11e65fe41cd9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08123b2ed6934988e33c11e65fe41cd9">&#9670;&#160;</a></span>m_TopLevelASGenerator</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classnv__helpers__dx12_1_1_top_level_a_s_generator.html">nv_helpers_dx12::TopLevelASGenerator</a> RaytracingPipeline::m_TopLevelASGenerator</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_raytracing_pipeline_8h_source.html#l00061">61</a> of file <a class="el" href="_raytracing_pipeline_8h_source.html">RaytracingPipeline.h</a>.</p>
 
 </div>
 </div>

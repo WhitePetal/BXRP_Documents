@@ -1,0 +1,8 @@
+var struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___p_i_c_t_u_r_e___c_o_n_t_r_o_l___c_o_d_e_c___d_a_t_a_38d4dae6f42663ec61eb1bd6caa512dd =
+[
+    [ "difference_of_pic_nums_minus1", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___p_i_c_t_u_r_e___c_o_n_t_r_o_l___c_o_d_e_c___d_a_t_a_38d4dae6f42663ec61eb1bd6caa512dd.html#ace7225e63f9438175ef0a709362e51d4", null ],
+    [ "long_term_frame_idx", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___p_i_c_t_u_r_e___c_o_n_t_r_o_l___c_o_d_e_c___d_a_t_a_38d4dae6f42663ec61eb1bd6caa512dd.html#a7a2a98917f2e62d48c4a381547bdc0ff", null ],
+    [ "long_term_pic_num", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___p_i_c_t_u_r_e___c_o_n_t_r_o_l___c_o_d_e_c___d_a_t_a_38d4dae6f42663ec61eb1bd6caa512dd.html#af850d75f9f57536b9958143bcf1d85cc", null ],
+    [ "max_long_term_frame_idx_plus1", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___p_i_c_t_u_r_e___c_o_n_t_r_o_l___c_o_d_e_c___d_a_t_a_38d4dae6f42663ec61eb1bd6caa512dd.html#af4832f50d6524d17ef32356a5985487c", null ],
+    [ "memory_management_control_operation", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___p_i_c_t_u_r_e___c_o_n_t_r_o_l___c_o_d_e_c___d_a_t_a_38d4dae6f42663ec61eb1bd6caa512dd.html#ae0fb84417e9c58808e6725139ddb9054", null ]
+];

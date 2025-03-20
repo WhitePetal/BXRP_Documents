@@ -109,6 +109,8 @@ $(function(){initNavTree('class_b_x_geometry_graph_1_1_abstract_geometry_node_pr
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#properties">Properties</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_b_x_geometry_graph_1_1_abstract_geometry_node_property_drawer-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">BXGeometryGraph.AbstractGeometryNodePropertyDrawer Class Reference</div></div>
 </div><!--header-->
@@ -125,20 +127,99 @@ Inheritance diagram for BXGeometryGraph.AbstractGeometryNodePropertyDrawer:</div
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:add38269a4b94245f61b314cac502cb59" id="r_add38269a4b94245f61b314cac502cb59"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add38269a4b94245f61b314cac502cb59">GetPropertyData</a> (Action setNodesAsDirtyCallback, Action updateNodeViewCallback)</td></tr>
+<tr class="memitem:add38269a4b94245f61b314cac502cb59" id="r_add38269a4b94245f61b314cac502cb59"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add38269a4b94245f61b314cac502cb59">GetPropertyData</a> (Action setNodesAsDirtyCallback, Action updateNodeViewCallback)</td></tr>
 <tr class="separator:add38269a4b94245f61b314cac502cb59"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abf984b9f13f641fae29cb8240dac1437" id="r_abf984b9f13f641fae29cb8240dac1437"><td class="memItemLeft" align="right" valign="top">VisualElement&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf984b9f13f641fae29cb8240dac1437">DrawProperty</a> (PropertyInfo propertyInfo, object actualObject, <a class="el" href="class_b_x_geometry_graph_1_1_inspectable_attribute.html">InspectableAttribute</a> attribute)</td></tr>
+<tr class="memitem:abf984b9f13f641fae29cb8240dac1437" id="r_abf984b9f13f641fae29cb8240dac1437"><td class="memItemLeft" align="right" valign="top">VisualElement&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf984b9f13f641fae29cb8240dac1437">DrawProperty</a> (PropertyInfo propertyInfo, <a class="el" href="d3d12_8idl.html#ad03408aabe16bb53c780fae6cf3910f9">object</a> actualObject, <a class="el" href="class_b_x_geometry_graph_1_1_inspectable_attribute.html">InspectableAttribute</a> attribute)</td></tr>
 <tr class="separator:abf984b9f13f641fae29cb8240dac1437"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:a23341f9c7f5f8001a0f7f63ff01a3835" id="r_a23341f9c7f5f8001a0f7f63ff01a3835"><td class="memItemLeft" align="right" valign="top">Action&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a23341f9c7f5f8001a0f7f63ff01a3835">inspectorUpdateDelegate</a><code> [get, set]</code></td></tr>
 <tr class="separator:a23341f9c7f5f8001a0f7f63ff01a3835"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a7705a84c80b60842b33bcd47608d633d" id="r_a7705a84c80b60842b33bcd47608d633d"><td class="memItemLeft" align="right" valign="top">VisualElement&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7705a84c80b60842b33bcd47608d633d">CreateGUI</a> (<a class="el" href="class_b_x_geometry_graph_1_1_abstract_geometry_node.html">AbstractGeometryNode</a> node, <a class="el" href="class_b_x_geometry_graph_1_1_inspectable_attribute.html">InspectableAttribute</a> attribute, out VisualElement propertyVisualElement)</td></tr>
+<tr class="separator:a7705a84c80b60842b33bcd47608d633d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a331489f81c69f46a47c2308b74f4387b" id="r_a331489f81c69f46a47c2308b74f4387b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> IPropertyDrawer.&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a331489f81c69f46a47c2308b74f4387b">DisposePropertyDrawer</a> ()</td></tr>
+<tr class="separator:a331489f81c69f46a47c2308b74f4387b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a8f276ff268c8de2319cea0856354320a" id="r_a8f276ff268c8de2319cea0856354320a"><td class="memItemLeft" align="right" valign="top">Action&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f276ff268c8de2319cea0856354320a">m_setNodesAsDirtyCallback</a></td></tr>
+<tr class="separator:a8f276ff268c8de2319cea0856354320a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add0bde60f7cecf7c4ed998e5993a4dd9" id="r_add0bde60f7cecf7c4ed998e5993a4dd9"><td class="memItemLeft" align="right" valign="top">Action&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add0bde60f7cecf7c4ed998e5993a4dd9">m_updateNodeViewsCallback</a></td></tr>
+<tr class="separator:add0bde60f7cecf7c4ed998e5993a4dd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
 <p class="definition">Definition at line <a class="el" href="_abstract_geometry_node_property_drawer_8cs_source.html#l00017">17</a> of file <a class="el" href="_abstract_geometry_node_property_drawer_8cs_source.html">AbstractGeometryNodePropertyDrawer.cs</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a7705a84c80b60842b33bcd47608d633d" name="a7705a84c80b60842b33bcd47608d633d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7705a84c80b60842b33bcd47608d633d">&#9670;&#160;</a></span>CreateGUI()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">VisualElement BXGeometryGraph.AbstractGeometryNodePropertyDrawer.CreateGUI </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_b_x_geometry_graph_1_1_abstract_geometry_node.html">AbstractGeometryNode</a></td>          <td class="paramname"><span class="paramname"><em>node</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_b_x_geometry_graph_1_1_inspectable_attribute.html">InspectableAttribute</a></td>          <td class="paramname"><span class="paramname"><em>attribute</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out VisualElement</td>          <td class="paramname"><span class="paramname"><em>propertyVisualElement</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_abstract_geometry_node_property_drawer_8cs_source.html#l00034">34</a> of file <a class="el" href="_abstract_geometry_node_property_drawer_8cs_source.html">AbstractGeometryNodePropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="a331489f81c69f46a47c2308b74f4387b" name="a331489f81c69f46a47c2308b74f4387b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a331489f81c69f46a47c2308b74f4387b">&#9670;&#160;</a></span>DisposePropertyDrawer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> IPropertyDrawer. BXGeometryGraph.AbstractGeometryNodePropertyDrawer.DisposePropertyDrawer </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="interface_b_x_geometry_graph_1_1_i_property_drawer.html#a451ed8225a99e77731176af9dd55d28b">BXGeometryGraph.IPropertyDrawer</a>.</p>
+
+<p class="definition">Definition at line <a class="el" href="_abstract_geometry_node_property_drawer_8cs_source.html#l00104">104</a> of file <a class="el" href="_abstract_geometry_node_property_drawer_8cs_source.html">AbstractGeometryNodePropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
 <a id="abf984b9f13f641fae29cb8240dac1437" name="abf984b9f13f641fae29cb8240dac1437"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abf984b9f13f641fae29cb8240dac1437">&#9670;&#160;</a></span>DrawProperty()</h2>
 
@@ -153,7 +234,7 @@ Properties</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">object</td>          <td class="paramname"><span class="paramname"><em>actualObject</em></span>, </td>
+          <td class="paramtype"><a class="el" href="d3d12_8idl.html#ad03408aabe16bb53c780fae6cf3910f9">object</a></td>          <td class="paramname"><span class="paramname"><em>actualObject</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -163,7 +244,7 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="interface_b_x_geometry_graph_1_1_i_property_drawer.html">BXGeometryGraph.IPropertyDrawer</a>.</p>
+<p>Implements <a class="el" href="interface_b_x_geometry_graph_1_1_i_property_drawer.html#a9b9fdb3dd489e498c83a78d188fedb3e">BXGeometryGraph.IPropertyDrawer</a>.</p>
 
 <p class="definition">Definition at line <a class="el" href="_abstract_geometry_node_property_drawer_8cs_source.html#l00092">92</a> of file <a class="el" href="_abstract_geometry_node_property_drawer_8cs_source.html">AbstractGeometryNodePropertyDrawer.cs</a>.</p>
 
@@ -176,7 +257,7 @@ Properties</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void BXGeometryGraph.AbstractGeometryNodePropertyDrawer.GetPropertyData </td>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXGeometryGraph.AbstractGeometryNodePropertyDrawer.GetPropertyData </td>
           <td>(</td>
           <td class="paramtype">Action</td>          <td class="paramname"><span class="paramname"><em>setNodesAsDirtyCallback</em></span>, </td>
         </tr>
@@ -189,6 +270,55 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="_abstract_geometry_node_property_drawer_8cs_source.html#l00024">24</a> of file <a class="el" href="_abstract_geometry_node_property_drawer_8cs_source.html">AbstractGeometryNodePropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a8f276ff268c8de2319cea0856354320a" name="a8f276ff268c8de2319cea0856354320a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f276ff268c8de2319cea0856354320a">&#9670;&#160;</a></span>m_setNodesAsDirtyCallback</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Action BXGeometryGraph.AbstractGeometryNodePropertyDrawer.m_setNodesAsDirtyCallback</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_abstract_geometry_node_property_drawer_8cs_source.html#l00021">21</a> of file <a class="el" href="_abstract_geometry_node_property_drawer_8cs_source.html">AbstractGeometryNodePropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="add0bde60f7cecf7c4ed998e5993a4dd9" name="add0bde60f7cecf7c4ed998e5993a4dd9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add0bde60f7cecf7c4ed998e5993a4dd9">&#9670;&#160;</a></span>m_updateNodeViewsCallback</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Action BXGeometryGraph.AbstractGeometryNodePropertyDrawer.m_updateNodeViewsCallback</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_abstract_geometry_node_property_drawer_8cs_source.html#l00022">22</a> of file <a class="el" href="_abstract_geometry_node_property_drawer_8cs_source.html">AbstractGeometryNodePropertyDrawer.cs</a>.</p>
 
 </div>
 </div>
@@ -213,7 +343,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="interface_b_x_geometry_graph_1_1_i_property_drawer.html">BXGeometryGraph.IPropertyDrawer</a>.</p>
+<p>Implements <a class="el" href="interface_b_x_geometry_graph_1_1_i_property_drawer.html#a25c4ff0e8fd03e9c5d15dfb317d8512b">BXGeometryGraph.IPropertyDrawer</a>.</p>
 
 <p class="definition">Definition at line <a class="el" href="_abstract_geometry_node_property_drawer_8cs_source.html#l00019">19</a> of file <a class="el" href="_abstract_geometry_node_property_drawer_8cs_source.html">AbstractGeometryNodePropertyDrawer.cs</a>.</p>
 

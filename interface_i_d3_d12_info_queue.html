@@ -112,6 +112,8 @@ $(function(){initNavTree('interface_i_d3_d12_info_queue.html',''); initResizable
   <div class="headertitle"><div class="title">ID3D12InfoQueue Interface Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>import &quot;<a class="el" href="d3d12sdklayers_8idl_source.html">d3d12sdklayers.idl</a>&quot;;</code></p>
 <div class="dynheader">
 Inheritance diagram for ID3D12InfoQueue:</div>
 <div class="dyncontent">
@@ -124,116 +126,724 @@ Inheritance diagram for ID3D12InfoQueue:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a73e212dc7353dda6489a3c3b7688bfc6" id="r_a73e212dc7353dda6489a3c3b7688bfc6"><td class="memItemLeft" align="right" valign="top"><a id="a73e212dc7353dda6489a3c3b7688bfc6" name="a73e212dc7353dda6489a3c3b7688bfc6"></a>
-HRESULT&#160;</td><td class="memItemRight" valign="bottom"><b>SetMessageCountLimit</b> ([annotation(&quot;_In_&quot;)] UINT64 MessageCountLimit)</td></tr>
+<tr class="memitem:a73e212dc7353dda6489a3c3b7688bfc6" id="r_a73e212dc7353dda6489a3c3b7688bfc6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73e212dc7353dda6489a3c3b7688bfc6">SetMessageCountLimit</a> ([annotation(&quot;_In_&quot;)] <a class="el" href="basetsd_8h.html#a95df6cdb32afc350ff070f2fe8a54a67">UINT64</a> MessageCountLimit)</td></tr>
 <tr class="separator:a73e212dc7353dda6489a3c3b7688bfc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a18f1c2af294b05197d5a71bceeed8892" id="r_a18f1c2af294b05197d5a71bceeed8892"><td class="memItemLeft" align="right" valign="top"><a id="a18f1c2af294b05197d5a71bceeed8892" name="a18f1c2af294b05197d5a71bceeed8892"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>ClearStoredMessages</b> ()</td></tr>
+<tr class="memitem:a18f1c2af294b05197d5a71bceeed8892" id="r_a18f1c2af294b05197d5a71bceeed8892"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18f1c2af294b05197d5a71bceeed8892">ClearStoredMessages</a> ()</td></tr>
 <tr class="separator:a18f1c2af294b05197d5a71bceeed8892"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3868f2463765f10faba2b66dfa8f33ae" id="r_a3868f2463765f10faba2b66dfa8f33ae"><td class="memItemLeft" align="right" valign="top"><a id="a3868f2463765f10faba2b66dfa8f33ae" name="a3868f2463765f10faba2b66dfa8f33ae"></a>
-HRESULT&#160;</td><td class="memItemRight" valign="bottom"><b>GetMessage</b> ([annotation(&quot;_In_&quot;)] UINT64 MessageIndex, [annotation(&quot;_Out_writes_bytes_opt_(*pMessageByteLength)&quot;)] D3D12_MESSAGE *pMessage, [annotation(&quot;_Inout_&quot;)] SIZE_T *pMessageByteLength)</td></tr>
+<tr class="memitem:a3868f2463765f10faba2b66dfa8f33ae" id="r_a3868f2463765f10faba2b66dfa8f33ae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3868f2463765f10faba2b66dfa8f33ae">GetMessage</a> ([annotation(&quot;_In_&quot;)] <a class="el" href="basetsd_8h.html#a95df6cdb32afc350ff070f2fe8a54a67">UINT64</a> MessageIndex, [annotation(&quot;_Out_writes_bytes_opt_(*pMessageByteLength)&quot;)] D3D12_MESSAGE *pMessage, [annotation(&quot;_Inout_&quot;)] <a class="el" href="basetsd_8h.html#adabaa7976c877ecc9d04c49b328dd88a">SIZE_T</a> *pMessageByteLength)</td></tr>
 <tr class="separator:a3868f2463765f10faba2b66dfa8f33ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad14e9dca4c83b8d79ff4062ce2de69a3" id="r_ad14e9dca4c83b8d79ff4062ce2de69a3"><td class="memItemLeft" align="right" valign="top"><a id="ad14e9dca4c83b8d79ff4062ce2de69a3" name="ad14e9dca4c83b8d79ff4062ce2de69a3"></a>
-UINT64&#160;</td><td class="memItemRight" valign="bottom"><b>GetNumMessagesAllowedByStorageFilter</b> ()</td></tr>
+<tr class="memitem:ad14e9dca4c83b8d79ff4062ce2de69a3" id="r_ad14e9dca4c83b8d79ff4062ce2de69a3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="basetsd_8h.html#a95df6cdb32afc350ff070f2fe8a54a67">UINT64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad14e9dca4c83b8d79ff4062ce2de69a3">GetNumMessagesAllowedByStorageFilter</a> ()</td></tr>
 <tr class="separator:ad14e9dca4c83b8d79ff4062ce2de69a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a40b23f4501156fa5fd2dbf641ac80290" id="r_a40b23f4501156fa5fd2dbf641ac80290"><td class="memItemLeft" align="right" valign="top"><a id="a40b23f4501156fa5fd2dbf641ac80290" name="a40b23f4501156fa5fd2dbf641ac80290"></a>
-UINT64&#160;</td><td class="memItemRight" valign="bottom"><b>GetNumMessagesDeniedByStorageFilter</b> ()</td></tr>
+<tr class="memitem:a40b23f4501156fa5fd2dbf641ac80290" id="r_a40b23f4501156fa5fd2dbf641ac80290"><td class="memItemLeft" align="right" valign="top"><a class="el" href="basetsd_8h.html#a95df6cdb32afc350ff070f2fe8a54a67">UINT64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40b23f4501156fa5fd2dbf641ac80290">GetNumMessagesDeniedByStorageFilter</a> ()</td></tr>
 <tr class="separator:a40b23f4501156fa5fd2dbf641ac80290"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a056bf74acc20492dda26940c2967ea37" id="r_a056bf74acc20492dda26940c2967ea37"><td class="memItemLeft" align="right" valign="top"><a id="a056bf74acc20492dda26940c2967ea37" name="a056bf74acc20492dda26940c2967ea37"></a>
-UINT64&#160;</td><td class="memItemRight" valign="bottom"><b>GetNumStoredMessages</b> ()</td></tr>
+<tr class="memitem:a056bf74acc20492dda26940c2967ea37" id="r_a056bf74acc20492dda26940c2967ea37"><td class="memItemLeft" align="right" valign="top"><a class="el" href="basetsd_8h.html#a95df6cdb32afc350ff070f2fe8a54a67">UINT64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a056bf74acc20492dda26940c2967ea37">GetNumStoredMessages</a> ()</td></tr>
 <tr class="separator:a056bf74acc20492dda26940c2967ea37"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f7b3e72143dabe31203629b02022a97" id="r_a3f7b3e72143dabe31203629b02022a97"><td class="memItemLeft" align="right" valign="top"><a id="a3f7b3e72143dabe31203629b02022a97" name="a3f7b3e72143dabe31203629b02022a97"></a>
-UINT64&#160;</td><td class="memItemRight" valign="bottom"><b>GetNumStoredMessagesAllowedByRetrievalFilter</b> ()</td></tr>
+<tr class="memitem:a3f7b3e72143dabe31203629b02022a97" id="r_a3f7b3e72143dabe31203629b02022a97"><td class="memItemLeft" align="right" valign="top"><a class="el" href="basetsd_8h.html#a95df6cdb32afc350ff070f2fe8a54a67">UINT64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f7b3e72143dabe31203629b02022a97">GetNumStoredMessagesAllowedByRetrievalFilter</a> ()</td></tr>
 <tr class="separator:a3f7b3e72143dabe31203629b02022a97"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a57351d2bfa753b3331b4cf8c2c0cce9d" id="r_a57351d2bfa753b3331b4cf8c2c0cce9d"><td class="memItemLeft" align="right" valign="top"><a id="a57351d2bfa753b3331b4cf8c2c0cce9d" name="a57351d2bfa753b3331b4cf8c2c0cce9d"></a>
-UINT64&#160;</td><td class="memItemRight" valign="bottom"><b>GetNumMessagesDiscardedByMessageCountLimit</b> ()</td></tr>
+<tr class="memitem:a57351d2bfa753b3331b4cf8c2c0cce9d" id="r_a57351d2bfa753b3331b4cf8c2c0cce9d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="basetsd_8h.html#a95df6cdb32afc350ff070f2fe8a54a67">UINT64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a57351d2bfa753b3331b4cf8c2c0cce9d">GetNumMessagesDiscardedByMessageCountLimit</a> ()</td></tr>
 <tr class="separator:a57351d2bfa753b3331b4cf8c2c0cce9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acb0cf7491d4d59db2607bfc9a90e4f63" id="r_acb0cf7491d4d59db2607bfc9a90e4f63"><td class="memItemLeft" align="right" valign="top"><a id="acb0cf7491d4d59db2607bfc9a90e4f63" name="acb0cf7491d4d59db2607bfc9a90e4f63"></a>
-UINT64&#160;</td><td class="memItemRight" valign="bottom"><b>GetMessageCountLimit</b> ()</td></tr>
+<tr class="memitem:acb0cf7491d4d59db2607bfc9a90e4f63" id="r_acb0cf7491d4d59db2607bfc9a90e4f63"><td class="memItemLeft" align="right" valign="top"><a class="el" href="basetsd_8h.html#a95df6cdb32afc350ff070f2fe8a54a67">UINT64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acb0cf7491d4d59db2607bfc9a90e4f63">GetMessageCountLimit</a> ()</td></tr>
 <tr class="separator:acb0cf7491d4d59db2607bfc9a90e4f63"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a732e679e63dc44fed92bbdb1061f93a6" id="r_a732e679e63dc44fed92bbdb1061f93a6"><td class="memItemLeft" align="right" valign="top"><a id="a732e679e63dc44fed92bbdb1061f93a6" name="a732e679e63dc44fed92bbdb1061f93a6"></a>
-HRESULT&#160;</td><td class="memItemRight" valign="bottom"><b>AddStorageFilterEntries</b> ([annotation(&quot;_In_&quot;)] <a class="el" href="struct_d3_d12___i_n_f_o___q_u_e_u_e___f_i_l_t_e_r.html">D3D12_INFO_QUEUE_FILTER</a> *pFilter)</td></tr>
+<tr class="memitem:a732e679e63dc44fed92bbdb1061f93a6" id="r_a732e679e63dc44fed92bbdb1061f93a6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a732e679e63dc44fed92bbdb1061f93a6">AddStorageFilterEntries</a> ([annotation(&quot;_In_&quot;)] <a class="el" href="struct_d3_d12___i_n_f_o___q_u_e_u_e___f_i_l_t_e_r.html">D3D12_INFO_QUEUE_FILTER</a> *pFilter)</td></tr>
 <tr class="separator:a732e679e63dc44fed92bbdb1061f93a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac0c2202cf9feab8d0c0435acddcd0634" id="r_ac0c2202cf9feab8d0c0435acddcd0634"><td class="memItemLeft" align="right" valign="top"><a id="ac0c2202cf9feab8d0c0435acddcd0634" name="ac0c2202cf9feab8d0c0435acddcd0634"></a>
-HRESULT&#160;</td><td class="memItemRight" valign="bottom"><b>GetStorageFilter</b> ([annotation(&quot;_Out_writes_bytes_opt_(*pFilterByteLength)&quot;)] D3D12_INFO_QUEUE_FILTER *pFilter, [annotation(&quot;_Inout_&quot;)] SIZE_T *pFilterByteLength)</td></tr>
+<tr class="memitem:ac0c2202cf9feab8d0c0435acddcd0634" id="r_ac0c2202cf9feab8d0c0435acddcd0634"><td class="memItemLeft" align="right" valign="top"><a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac0c2202cf9feab8d0c0435acddcd0634">GetStorageFilter</a> ([annotation(&quot;_Out_writes_bytes_opt_(*pFilterByteLength)&quot;)] D3D12_INFO_QUEUE_FILTER *pFilter, [annotation(&quot;_Inout_&quot;)] <a class="el" href="basetsd_8h.html#adabaa7976c877ecc9d04c49b328dd88a">SIZE_T</a> *pFilterByteLength)</td></tr>
 <tr class="separator:ac0c2202cf9feab8d0c0435acddcd0634"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab813b47eb865c21928099a09fe29795e" id="r_ab813b47eb865c21928099a09fe29795e"><td class="memItemLeft" align="right" valign="top"><a id="ab813b47eb865c21928099a09fe29795e" name="ab813b47eb865c21928099a09fe29795e"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>ClearStorageFilter</b> ()</td></tr>
+<tr class="memitem:ab813b47eb865c21928099a09fe29795e" id="r_ab813b47eb865c21928099a09fe29795e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab813b47eb865c21928099a09fe29795e">ClearStorageFilter</a> ()</td></tr>
 <tr class="separator:ab813b47eb865c21928099a09fe29795e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa1668558e9147379b5e301a403f70a94" id="r_aa1668558e9147379b5e301a403f70a94"><td class="memItemLeft" align="right" valign="top"><a id="aa1668558e9147379b5e301a403f70a94" name="aa1668558e9147379b5e301a403f70a94"></a>
-HRESULT&#160;</td><td class="memItemRight" valign="bottom"><b>PushEmptyStorageFilter</b> ()</td></tr>
+<tr class="memitem:aa1668558e9147379b5e301a403f70a94" id="r_aa1668558e9147379b5e301a403f70a94"><td class="memItemLeft" align="right" valign="top"><a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1668558e9147379b5e301a403f70a94">PushEmptyStorageFilter</a> ()</td></tr>
 <tr class="separator:aa1668558e9147379b5e301a403f70a94"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a89d795edb30aec35634c75d1f691e23f" id="r_a89d795edb30aec35634c75d1f691e23f"><td class="memItemLeft" align="right" valign="top"><a id="a89d795edb30aec35634c75d1f691e23f" name="a89d795edb30aec35634c75d1f691e23f"></a>
-HRESULT&#160;</td><td class="memItemRight" valign="bottom"><b>PushCopyOfStorageFilter</b> ()</td></tr>
+<tr class="memitem:a89d795edb30aec35634c75d1f691e23f" id="r_a89d795edb30aec35634c75d1f691e23f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a89d795edb30aec35634c75d1f691e23f">PushCopyOfStorageFilter</a> ()</td></tr>
 <tr class="separator:a89d795edb30aec35634c75d1f691e23f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af08640ddf7050f0549297a877287bafb" id="r_af08640ddf7050f0549297a877287bafb"><td class="memItemLeft" align="right" valign="top"><a id="af08640ddf7050f0549297a877287bafb" name="af08640ddf7050f0549297a877287bafb"></a>
-HRESULT&#160;</td><td class="memItemRight" valign="bottom"><b>PushStorageFilter</b> ([annotation(&quot;_In_&quot;)] <a class="el" href="struct_d3_d12___i_n_f_o___q_u_e_u_e___f_i_l_t_e_r.html">D3D12_INFO_QUEUE_FILTER</a> *pFilter)</td></tr>
+<tr class="memitem:af08640ddf7050f0549297a877287bafb" id="r_af08640ddf7050f0549297a877287bafb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af08640ddf7050f0549297a877287bafb">PushStorageFilter</a> ([annotation(&quot;_In_&quot;)] <a class="el" href="struct_d3_d12___i_n_f_o___q_u_e_u_e___f_i_l_t_e_r.html">D3D12_INFO_QUEUE_FILTER</a> *pFilter)</td></tr>
 <tr class="separator:af08640ddf7050f0549297a877287bafb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae7ba81cffdefaf1ce61fa08d3963ea12" id="r_ae7ba81cffdefaf1ce61fa08d3963ea12"><td class="memItemLeft" align="right" valign="top"><a id="ae7ba81cffdefaf1ce61fa08d3963ea12" name="ae7ba81cffdefaf1ce61fa08d3963ea12"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>PopStorageFilter</b> ()</td></tr>
+<tr class="memitem:ae7ba81cffdefaf1ce61fa08d3963ea12" id="r_ae7ba81cffdefaf1ce61fa08d3963ea12"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae7ba81cffdefaf1ce61fa08d3963ea12">PopStorageFilter</a> ()</td></tr>
 <tr class="separator:ae7ba81cffdefaf1ce61fa08d3963ea12"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7e885cfa45e50d000c8a8f15ef2cc7b" id="r_aa7e885cfa45e50d000c8a8f15ef2cc7b"><td class="memItemLeft" align="right" valign="top"><a id="aa7e885cfa45e50d000c8a8f15ef2cc7b" name="aa7e885cfa45e50d000c8a8f15ef2cc7b"></a>
-UINT&#160;</td><td class="memItemRight" valign="bottom"><b>GetStorageFilterStackSize</b> ()</td></tr>
+<tr class="memitem:aa7e885cfa45e50d000c8a8f15ef2cc7b" id="r_aa7e885cfa45e50d000c8a8f15ef2cc7b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="basetsd_8h.html#a2e2c38961834f28c06e17e074eb00bc7">UINT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7e885cfa45e50d000c8a8f15ef2cc7b">GetStorageFilterStackSize</a> ()</td></tr>
 <tr class="separator:aa7e885cfa45e50d000c8a8f15ef2cc7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0de87ce853d80e3a6be33499b4185425" id="r_a0de87ce853d80e3a6be33499b4185425"><td class="memItemLeft" align="right" valign="top"><a id="a0de87ce853d80e3a6be33499b4185425" name="a0de87ce853d80e3a6be33499b4185425"></a>
-HRESULT&#160;</td><td class="memItemRight" valign="bottom"><b>AddRetrievalFilterEntries</b> ([annotation(&quot;_In_&quot;)] <a class="el" href="struct_d3_d12___i_n_f_o___q_u_e_u_e___f_i_l_t_e_r.html">D3D12_INFO_QUEUE_FILTER</a> *pFilter)</td></tr>
+<tr class="memitem:a0de87ce853d80e3a6be33499b4185425" id="r_a0de87ce853d80e3a6be33499b4185425"><td class="memItemLeft" align="right" valign="top"><a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0de87ce853d80e3a6be33499b4185425">AddRetrievalFilterEntries</a> ([annotation(&quot;_In_&quot;)] <a class="el" href="struct_d3_d12___i_n_f_o___q_u_e_u_e___f_i_l_t_e_r.html">D3D12_INFO_QUEUE_FILTER</a> *pFilter)</td></tr>
 <tr class="separator:a0de87ce853d80e3a6be33499b4185425"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf0713fe09a92084dbbe9c83e5c737c5" id="r_aaf0713fe09a92084dbbe9c83e5c737c5"><td class="memItemLeft" align="right" valign="top"><a id="aaf0713fe09a92084dbbe9c83e5c737c5" name="aaf0713fe09a92084dbbe9c83e5c737c5"></a>
-HRESULT&#160;</td><td class="memItemRight" valign="bottom"><b>GetRetrievalFilter</b> ([annotation(&quot;_Out_writes_bytes_opt_(*pFilterByteLength)&quot;)] D3D12_INFO_QUEUE_FILTER *pFilter, [annotation(&quot;_Inout_&quot;)] SIZE_T *pFilterByteLength)</td></tr>
+<tr class="memitem:aaf0713fe09a92084dbbe9c83e5c737c5" id="r_aaf0713fe09a92084dbbe9c83e5c737c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf0713fe09a92084dbbe9c83e5c737c5">GetRetrievalFilter</a> ([annotation(&quot;_Out_writes_bytes_opt_(*pFilterByteLength)&quot;)] D3D12_INFO_QUEUE_FILTER *pFilter, [annotation(&quot;_Inout_&quot;)] <a class="el" href="basetsd_8h.html#adabaa7976c877ecc9d04c49b328dd88a">SIZE_T</a> *pFilterByteLength)</td></tr>
 <tr class="separator:aaf0713fe09a92084dbbe9c83e5c737c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ac4a2cc502460fd3472438326ada91f" id="r_a5ac4a2cc502460fd3472438326ada91f"><td class="memItemLeft" align="right" valign="top"><a id="a5ac4a2cc502460fd3472438326ada91f" name="a5ac4a2cc502460fd3472438326ada91f"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>ClearRetrievalFilter</b> ()</td></tr>
+<tr class="memitem:a5ac4a2cc502460fd3472438326ada91f" id="r_a5ac4a2cc502460fd3472438326ada91f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ac4a2cc502460fd3472438326ada91f">ClearRetrievalFilter</a> ()</td></tr>
 <tr class="separator:a5ac4a2cc502460fd3472438326ada91f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a735f39ec64a7aae95cebfe43ce8616d5" id="r_a735f39ec64a7aae95cebfe43ce8616d5"><td class="memItemLeft" align="right" valign="top"><a id="a735f39ec64a7aae95cebfe43ce8616d5" name="a735f39ec64a7aae95cebfe43ce8616d5"></a>
-HRESULT&#160;</td><td class="memItemRight" valign="bottom"><b>PushEmptyRetrievalFilter</b> ()</td></tr>
+<tr class="memitem:a735f39ec64a7aae95cebfe43ce8616d5" id="r_a735f39ec64a7aae95cebfe43ce8616d5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a735f39ec64a7aae95cebfe43ce8616d5">PushEmptyRetrievalFilter</a> ()</td></tr>
 <tr class="separator:a735f39ec64a7aae95cebfe43ce8616d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b910024443e1f2e2ecb51e2830f4a72" id="r_a8b910024443e1f2e2ecb51e2830f4a72"><td class="memItemLeft" align="right" valign="top"><a id="a8b910024443e1f2e2ecb51e2830f4a72" name="a8b910024443e1f2e2ecb51e2830f4a72"></a>
-HRESULT&#160;</td><td class="memItemRight" valign="bottom"><b>PushCopyOfRetrievalFilter</b> ()</td></tr>
+<tr class="memitem:a8b910024443e1f2e2ecb51e2830f4a72" id="r_a8b910024443e1f2e2ecb51e2830f4a72"><td class="memItemLeft" align="right" valign="top"><a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b910024443e1f2e2ecb51e2830f4a72">PushCopyOfRetrievalFilter</a> ()</td></tr>
 <tr class="separator:a8b910024443e1f2e2ecb51e2830f4a72"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5c59bae58da4d3ca9995f3294dc263b1" id="r_a5c59bae58da4d3ca9995f3294dc263b1"><td class="memItemLeft" align="right" valign="top"><a id="a5c59bae58da4d3ca9995f3294dc263b1" name="a5c59bae58da4d3ca9995f3294dc263b1"></a>
-HRESULT&#160;</td><td class="memItemRight" valign="bottom"><b>PushRetrievalFilter</b> ([annotation(&quot;_In_&quot;)] <a class="el" href="struct_d3_d12___i_n_f_o___q_u_e_u_e___f_i_l_t_e_r.html">D3D12_INFO_QUEUE_FILTER</a> *pFilter)</td></tr>
+<tr class="memitem:a5c59bae58da4d3ca9995f3294dc263b1" id="r_a5c59bae58da4d3ca9995f3294dc263b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c59bae58da4d3ca9995f3294dc263b1">PushRetrievalFilter</a> ([annotation(&quot;_In_&quot;)] <a class="el" href="struct_d3_d12___i_n_f_o___q_u_e_u_e___f_i_l_t_e_r.html">D3D12_INFO_QUEUE_FILTER</a> *pFilter)</td></tr>
 <tr class="separator:a5c59bae58da4d3ca9995f3294dc263b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c1330e9aa96d9858d537d2c838fce1b" id="r_a4c1330e9aa96d9858d537d2c838fce1b"><td class="memItemLeft" align="right" valign="top"><a id="a4c1330e9aa96d9858d537d2c838fce1b" name="a4c1330e9aa96d9858d537d2c838fce1b"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>PopRetrievalFilter</b> ()</td></tr>
+<tr class="memitem:a4c1330e9aa96d9858d537d2c838fce1b" id="r_a4c1330e9aa96d9858d537d2c838fce1b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c1330e9aa96d9858d537d2c838fce1b">PopRetrievalFilter</a> ()</td></tr>
 <tr class="separator:a4c1330e9aa96d9858d537d2c838fce1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a267544fb8951c82d98050d5b827be3ab" id="r_a267544fb8951c82d98050d5b827be3ab"><td class="memItemLeft" align="right" valign="top"><a id="a267544fb8951c82d98050d5b827be3ab" name="a267544fb8951c82d98050d5b827be3ab"></a>
-UINT&#160;</td><td class="memItemRight" valign="bottom"><b>GetRetrievalFilterStackSize</b> ()</td></tr>
+<tr class="memitem:a267544fb8951c82d98050d5b827be3ab" id="r_a267544fb8951c82d98050d5b827be3ab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="basetsd_8h.html#a2e2c38961834f28c06e17e074eb00bc7">UINT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a267544fb8951c82d98050d5b827be3ab">GetRetrievalFilterStackSize</a> ()</td></tr>
 <tr class="separator:a267544fb8951c82d98050d5b827be3ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a56a8f8e51a0e036003a51e6486a37bc6" id="r_a56a8f8e51a0e036003a51e6486a37bc6"><td class="memItemLeft" align="right" valign="top"><a id="a56a8f8e51a0e036003a51e6486a37bc6" name="a56a8f8e51a0e036003a51e6486a37bc6"></a>
-HRESULT&#160;</td><td class="memItemRight" valign="bottom"><b>AddMessage</b> ([annotation(&quot;_In_&quot;)] D3D12_MESSAGE_CATEGORY Category, [annotation(&quot;_In_&quot;)] D3D12_MESSAGE_SEVERITY Severity, [annotation(&quot;_In_&quot;)] D3D12_MESSAGE_ID ID, [annotation(&quot;_In_&quot;)] LPCSTR pDescription)</td></tr>
+<tr class="memitem:a56a8f8e51a0e036003a51e6486a37bc6" id="r_a56a8f8e51a0e036003a51e6486a37bc6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a56a8f8e51a0e036003a51e6486a37bc6">AddMessage</a> ([annotation(&quot;_In_&quot;)] <a class="el" href="d3d12sdklayers_8idl.html#ad2b47460f8e03d96033ea52d0a83d34d">D3D12_MESSAGE_CATEGORY</a> Category, [annotation(&quot;_In_&quot;)] <a class="el" href="d3d12sdklayers_8idl.html#ad0b1e7169b133363f7e44a2d7d3f21ca">D3D12_MESSAGE_SEVERITY</a> <a class="el" href="d3d12sdklayers_8h.html#ad0b1e7169b133363f7e44a2d7d3f21ca">Severity</a>, [annotation(&quot;_In_&quot;)] <a class="el" href="d3d12sdklayers_8idl.html#a0600b2b6f8debd83cf10478b7bf966b5">D3D12_MESSAGE_ID</a> <a class="el" href="d3d12sdklayers_8h.html#adf12c3bc5be81348494fc5573662da5e">ID</a>, [annotation(&quot;_In_&quot;)] <a class="el" href="basetsd_8h.html#adbea528b1294c9a1dfda3dfa33ff1472">LPCSTR</a> <a class="el" href="d3d12sdklayers_8h.html#ac4a5e4e399f9bb4287451054a99ed2b1">pDescription</a>)</td></tr>
 <tr class="separator:a56a8f8e51a0e036003a51e6486a37bc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f787d334ff81d003457f8d16f2227cc" id="r_a3f787d334ff81d003457f8d16f2227cc"><td class="memItemLeft" align="right" valign="top"><a id="a3f787d334ff81d003457f8d16f2227cc" name="a3f787d334ff81d003457f8d16f2227cc"></a>
-HRESULT&#160;</td><td class="memItemRight" valign="bottom"><b>AddApplicationMessage</b> ([annotation(&quot;_In_&quot;)] D3D12_MESSAGE_SEVERITY Severity, [annotation(&quot;_In_&quot;)] LPCSTR pDescription)</td></tr>
+<tr class="memitem:a3f787d334ff81d003457f8d16f2227cc" id="r_a3f787d334ff81d003457f8d16f2227cc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f787d334ff81d003457f8d16f2227cc">AddApplicationMessage</a> ([annotation(&quot;_In_&quot;)] <a class="el" href="d3d12sdklayers_8idl.html#ad0b1e7169b133363f7e44a2d7d3f21ca">D3D12_MESSAGE_SEVERITY</a> <a class="el" href="d3d12sdklayers_8h.html#ad0b1e7169b133363f7e44a2d7d3f21ca">Severity</a>, [annotation(&quot;_In_&quot;)] <a class="el" href="basetsd_8h.html#adbea528b1294c9a1dfda3dfa33ff1472">LPCSTR</a> <a class="el" href="d3d12sdklayers_8h.html#ac4a5e4e399f9bb4287451054a99ed2b1">pDescription</a>)</td></tr>
 <tr class="separator:a3f787d334ff81d003457f8d16f2227cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abdfd688aab5d25a6eacaadcb2cc89cc9" id="r_abdfd688aab5d25a6eacaadcb2cc89cc9"><td class="memItemLeft" align="right" valign="top"><a id="abdfd688aab5d25a6eacaadcb2cc89cc9" name="abdfd688aab5d25a6eacaadcb2cc89cc9"></a>
-HRESULT&#160;</td><td class="memItemRight" valign="bottom"><b>SetBreakOnCategory</b> ([annotation(&quot;_In_&quot;)] D3D12_MESSAGE_CATEGORY Category, [annotation(&quot;_In_&quot;)] BOOL bEnable)</td></tr>
+<tr class="memitem:abdfd688aab5d25a6eacaadcb2cc89cc9" id="r_abdfd688aab5d25a6eacaadcb2cc89cc9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abdfd688aab5d25a6eacaadcb2cc89cc9">SetBreakOnCategory</a> ([annotation(&quot;_In_&quot;)] <a class="el" href="d3d12sdklayers_8idl.html#ad2b47460f8e03d96033ea52d0a83d34d">D3D12_MESSAGE_CATEGORY</a> Category, [annotation(&quot;_In_&quot;)] <a class="el" href="basetsd_8h.html#ad69e2ca4c72d9a05ed80a1916f009f29">BOOL</a> bEnable)</td></tr>
 <tr class="separator:abdfd688aab5d25a6eacaadcb2cc89cc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a550aa7f731b8452eed527a55c425ae84" id="r_a550aa7f731b8452eed527a55c425ae84"><td class="memItemLeft" align="right" valign="top"><a id="a550aa7f731b8452eed527a55c425ae84" name="a550aa7f731b8452eed527a55c425ae84"></a>
-HRESULT&#160;</td><td class="memItemRight" valign="bottom"><b>SetBreakOnSeverity</b> ([annotation(&quot;_In_&quot;)] D3D12_MESSAGE_SEVERITY Severity, [annotation(&quot;_In_&quot;)] BOOL bEnable)</td></tr>
+<tr class="memitem:a550aa7f731b8452eed527a55c425ae84" id="r_a550aa7f731b8452eed527a55c425ae84"><td class="memItemLeft" align="right" valign="top"><a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a550aa7f731b8452eed527a55c425ae84">SetBreakOnSeverity</a> ([annotation(&quot;_In_&quot;)] <a class="el" href="d3d12sdklayers_8idl.html#ad0b1e7169b133363f7e44a2d7d3f21ca">D3D12_MESSAGE_SEVERITY</a> <a class="el" href="d3d12sdklayers_8h.html#ad0b1e7169b133363f7e44a2d7d3f21ca">Severity</a>, [annotation(&quot;_In_&quot;)] <a class="el" href="basetsd_8h.html#ad69e2ca4c72d9a05ed80a1916f009f29">BOOL</a> bEnable)</td></tr>
 <tr class="separator:a550aa7f731b8452eed527a55c425ae84"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab95a992ff9e81c8fe48fb76d0c5fe451" id="r_ab95a992ff9e81c8fe48fb76d0c5fe451"><td class="memItemLeft" align="right" valign="top"><a id="ab95a992ff9e81c8fe48fb76d0c5fe451" name="ab95a992ff9e81c8fe48fb76d0c5fe451"></a>
-HRESULT&#160;</td><td class="memItemRight" valign="bottom"><b>SetBreakOnID</b> ([annotation(&quot;_In_&quot;)] D3D12_MESSAGE_ID ID, [annotation(&quot;_In_&quot;)] BOOL bEnable)</td></tr>
+<tr class="memitem:ab95a992ff9e81c8fe48fb76d0c5fe451" id="r_ab95a992ff9e81c8fe48fb76d0c5fe451"><td class="memItemLeft" align="right" valign="top"><a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab95a992ff9e81c8fe48fb76d0c5fe451">SetBreakOnID</a> ([annotation(&quot;_In_&quot;)] <a class="el" href="d3d12sdklayers_8idl.html#a0600b2b6f8debd83cf10478b7bf966b5">D3D12_MESSAGE_ID</a> <a class="el" href="d3d12sdklayers_8h.html#adf12c3bc5be81348494fc5573662da5e">ID</a>, [annotation(&quot;_In_&quot;)] <a class="el" href="basetsd_8h.html#ad69e2ca4c72d9a05ed80a1916f009f29">BOOL</a> bEnable)</td></tr>
 <tr class="separator:ab95a992ff9e81c8fe48fb76d0c5fe451"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac734ecc1716954dcf1d6d60984a7c057" id="r_ac734ecc1716954dcf1d6d60984a7c057"><td class="memItemLeft" align="right" valign="top"><a id="ac734ecc1716954dcf1d6d60984a7c057" name="ac734ecc1716954dcf1d6d60984a7c057"></a>
-BOOL&#160;</td><td class="memItemRight" valign="bottom"><b>GetBreakOnCategory</b> ([annotation(&quot;_In_&quot;)] D3D12_MESSAGE_CATEGORY Category)</td></tr>
+<tr class="memitem:ac734ecc1716954dcf1d6d60984a7c057" id="r_ac734ecc1716954dcf1d6d60984a7c057"><td class="memItemLeft" align="right" valign="top"><a class="el" href="basetsd_8h.html#ad69e2ca4c72d9a05ed80a1916f009f29">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac734ecc1716954dcf1d6d60984a7c057">GetBreakOnCategory</a> ([annotation(&quot;_In_&quot;)] <a class="el" href="d3d12sdklayers_8idl.html#ad2b47460f8e03d96033ea52d0a83d34d">D3D12_MESSAGE_CATEGORY</a> Category)</td></tr>
 <tr class="separator:ac734ecc1716954dcf1d6d60984a7c057"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa905fc49562d08e35ac9b576ae01ab47" id="r_aa905fc49562d08e35ac9b576ae01ab47"><td class="memItemLeft" align="right" valign="top"><a id="aa905fc49562d08e35ac9b576ae01ab47" name="aa905fc49562d08e35ac9b576ae01ab47"></a>
-BOOL&#160;</td><td class="memItemRight" valign="bottom"><b>GetBreakOnSeverity</b> ([annotation(&quot;_In_&quot;)] D3D12_MESSAGE_SEVERITY Severity)</td></tr>
+<tr class="memitem:aa905fc49562d08e35ac9b576ae01ab47" id="r_aa905fc49562d08e35ac9b576ae01ab47"><td class="memItemLeft" align="right" valign="top"><a class="el" href="basetsd_8h.html#ad69e2ca4c72d9a05ed80a1916f009f29">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa905fc49562d08e35ac9b576ae01ab47">GetBreakOnSeverity</a> ([annotation(&quot;_In_&quot;)] <a class="el" href="d3d12sdklayers_8idl.html#ad0b1e7169b133363f7e44a2d7d3f21ca">D3D12_MESSAGE_SEVERITY</a> <a class="el" href="d3d12sdklayers_8h.html#ad0b1e7169b133363f7e44a2d7d3f21ca">Severity</a>)</td></tr>
 <tr class="separator:aa905fc49562d08e35ac9b576ae01ab47"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a70a96d486a6fd91d3d9e5529d641146c" id="r_a70a96d486a6fd91d3d9e5529d641146c"><td class="memItemLeft" align="right" valign="top"><a id="a70a96d486a6fd91d3d9e5529d641146c" name="a70a96d486a6fd91d3d9e5529d641146c"></a>
-BOOL&#160;</td><td class="memItemRight" valign="bottom"><b>GetBreakOnID</b> ([annotation(&quot;_In_&quot;)] D3D12_MESSAGE_ID ID)</td></tr>
+<tr class="memitem:a70a96d486a6fd91d3d9e5529d641146c" id="r_a70a96d486a6fd91d3d9e5529d641146c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="basetsd_8h.html#ad69e2ca4c72d9a05ed80a1916f009f29">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70a96d486a6fd91d3d9e5529d641146c">GetBreakOnID</a> ([annotation(&quot;_In_&quot;)] <a class="el" href="d3d12sdklayers_8idl.html#a0600b2b6f8debd83cf10478b7bf966b5">D3D12_MESSAGE_ID</a> <a class="el" href="d3d12sdklayers_8h.html#adf12c3bc5be81348494fc5573662da5e">ID</a>)</td></tr>
 <tr class="separator:a70a96d486a6fd91d3d9e5529d641146c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7392a6bae8eaccbb6f70637e8ea1c4e" id="r_ab7392a6bae8eaccbb6f70637e8ea1c4e"><td class="memItemLeft" align="right" valign="top"><a id="ab7392a6bae8eaccbb6f70637e8ea1c4e" name="ab7392a6bae8eaccbb6f70637e8ea1c4e"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SetMuteDebugOutput</b> ([annotation(&quot;_In_&quot;)] BOOL bMute)</td></tr>
+<tr class="memitem:ab7392a6bae8eaccbb6f70637e8ea1c4e" id="r_ab7392a6bae8eaccbb6f70637e8ea1c4e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7392a6bae8eaccbb6f70637e8ea1c4e">SetMuteDebugOutput</a> ([annotation(&quot;_In_&quot;)] <a class="el" href="basetsd_8h.html#ad69e2ca4c72d9a05ed80a1916f009f29">BOOL</a> bMute)</td></tr>
 <tr class="separator:ab7392a6bae8eaccbb6f70637e8ea1c4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a62263dd9c51bdd9e97bc2a65c8ea2173" id="r_a62263dd9c51bdd9e97bc2a65c8ea2173"><td class="memItemLeft" align="right" valign="top"><a id="a62263dd9c51bdd9e97bc2a65c8ea2173" name="a62263dd9c51bdd9e97bc2a65c8ea2173"></a>
-BOOL&#160;</td><td class="memItemRight" valign="bottom"><b>GetMuteDebugOutput</b> ()</td></tr>
+<tr class="memitem:a62263dd9c51bdd9e97bc2a65c8ea2173" id="r_a62263dd9c51bdd9e97bc2a65c8ea2173"><td class="memItemLeft" align="right" valign="top"><a class="el" href="basetsd_8h.html#ad69e2ca4c72d9a05ed80a1916f009f29">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a62263dd9c51bdd9e97bc2a65c8ea2173">GetMuteDebugOutput</a> ()</td></tr>
 <tr class="separator:a62263dd9c51bdd9e97bc2a65c8ea2173"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
 <p class="definition">Definition at line <a class="el" href="d3d12sdklayers_8idl_source.html#l01550">1550</a> of file <a class="el" href="d3d12sdklayers_8idl_source.html">d3d12sdklayers.idl</a>.</p>
-</div><hr/>The documentation for this interface was generated from the following file:<ul>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a3f787d334ff81d003457f8d16f2227cc" name="a3f787d334ff81d003457f8d16f2227cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f787d334ff81d003457f8d16f2227cc">&#9670;&#160;</a></span>AddApplicationMessage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> ID3D12InfoQueue::AddApplicationMessage </td>
+          <td>(</td>
+          <td class="paramtype">[annotation(&quot;_In_&quot;)] <a class="el" href="d3d12sdklayers_8idl.html#ad0b1e7169b133363f7e44a2d7d3f21ca">D3D12_MESSAGE_SEVERITY</a></td>          <td class="paramname"><span class="paramname"><em>Severity</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">[annotation(&quot;_In_&quot;)] <a class="el" href="basetsd_8h.html#adbea528b1294c9a1dfda3dfa33ff1472">LPCSTR</a></td>          <td class="paramname"><span class="paramname"><em>pDescription</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a56a8f8e51a0e036003a51e6486a37bc6" name="a56a8f8e51a0e036003a51e6486a37bc6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56a8f8e51a0e036003a51e6486a37bc6">&#9670;&#160;</a></span>AddMessage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> ID3D12InfoQueue::AddMessage </td>
+          <td>(</td>
+          <td class="paramtype">[annotation(&quot;_In_&quot;)] <a class="el" href="d3d12sdklayers_8idl.html#ad2b47460f8e03d96033ea52d0a83d34d">D3D12_MESSAGE_CATEGORY</a></td>          <td class="paramname"><span class="paramname"><em>Category</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">[annotation(&quot;_In_&quot;)] <a class="el" href="d3d12sdklayers_8idl.html#ad0b1e7169b133363f7e44a2d7d3f21ca">D3D12_MESSAGE_SEVERITY</a></td>          <td class="paramname"><span class="paramname"><em>Severity</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">[annotation(&quot;_In_&quot;)] <a class="el" href="d3d12sdklayers_8idl.html#a0600b2b6f8debd83cf10478b7bf966b5">D3D12_MESSAGE_ID</a></td>          <td class="paramname"><span class="paramname"><em>ID</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">[annotation(&quot;_In_&quot;)] <a class="el" href="basetsd_8h.html#adbea528b1294c9a1dfda3dfa33ff1472">LPCSTR</a></td>          <td class="paramname"><span class="paramname"><em>pDescription</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0de87ce853d80e3a6be33499b4185425" name="a0de87ce853d80e3a6be33499b4185425"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0de87ce853d80e3a6be33499b4185425">&#9670;&#160;</a></span>AddRetrievalFilterEntries()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> ID3D12InfoQueue::AddRetrievalFilterEntries </td>
+          <td>(</td>
+          <td class="paramtype">[annotation(&quot;_In_&quot;)] <a class="el" href="struct_d3_d12___i_n_f_o___q_u_e_u_e___f_i_l_t_e_r.html">D3D12_INFO_QUEUE_FILTER</a> *</td>          <td class="paramname"><span class="paramname"><em>pFilter</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a732e679e63dc44fed92bbdb1061f93a6" name="a732e679e63dc44fed92bbdb1061f93a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a732e679e63dc44fed92bbdb1061f93a6">&#9670;&#160;</a></span>AddStorageFilterEntries()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> ID3D12InfoQueue::AddStorageFilterEntries </td>
+          <td>(</td>
+          <td class="paramtype">[annotation(&quot;_In_&quot;)] <a class="el" href="struct_d3_d12___i_n_f_o___q_u_e_u_e___f_i_l_t_e_r.html">D3D12_INFO_QUEUE_FILTER</a> *</td>          <td class="paramname"><span class="paramname"><em>pFilter</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5ac4a2cc502460fd3472438326ada91f" name="a5ac4a2cc502460fd3472438326ada91f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ac4a2cc502460fd3472438326ada91f">&#9670;&#160;</a></span>ClearRetrievalFilter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> ID3D12InfoQueue::ClearRetrievalFilter </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab813b47eb865c21928099a09fe29795e" name="ab813b47eb865c21928099a09fe29795e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab813b47eb865c21928099a09fe29795e">&#9670;&#160;</a></span>ClearStorageFilter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> ID3D12InfoQueue::ClearStorageFilter </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a18f1c2af294b05197d5a71bceeed8892" name="a18f1c2af294b05197d5a71bceeed8892"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18f1c2af294b05197d5a71bceeed8892">&#9670;&#160;</a></span>ClearStoredMessages()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> ID3D12InfoQueue::ClearStoredMessages </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac734ecc1716954dcf1d6d60984a7c057" name="ac734ecc1716954dcf1d6d60984a7c057"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac734ecc1716954dcf1d6d60984a7c057">&#9670;&#160;</a></span>GetBreakOnCategory()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="basetsd_8h.html#ad69e2ca4c72d9a05ed80a1916f009f29">BOOL</a> ID3D12InfoQueue::GetBreakOnCategory </td>
+          <td>(</td>
+          <td class="paramtype">[annotation(&quot;_In_&quot;)] <a class="el" href="d3d12sdklayers_8idl.html#ad2b47460f8e03d96033ea52d0a83d34d">D3D12_MESSAGE_CATEGORY</a></td>          <td class="paramname"><span class="paramname"><em>Category</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a70a96d486a6fd91d3d9e5529d641146c" name="a70a96d486a6fd91d3d9e5529d641146c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70a96d486a6fd91d3d9e5529d641146c">&#9670;&#160;</a></span>GetBreakOnID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="basetsd_8h.html#ad69e2ca4c72d9a05ed80a1916f009f29">BOOL</a> ID3D12InfoQueue::GetBreakOnID </td>
+          <td>(</td>
+          <td class="paramtype">[annotation(&quot;_In_&quot;)] <a class="el" href="d3d12sdklayers_8idl.html#a0600b2b6f8debd83cf10478b7bf966b5">D3D12_MESSAGE_ID</a></td>          <td class="paramname"><span class="paramname"><em>ID</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa905fc49562d08e35ac9b576ae01ab47" name="aa905fc49562d08e35ac9b576ae01ab47"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa905fc49562d08e35ac9b576ae01ab47">&#9670;&#160;</a></span>GetBreakOnSeverity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="basetsd_8h.html#ad69e2ca4c72d9a05ed80a1916f009f29">BOOL</a> ID3D12InfoQueue::GetBreakOnSeverity </td>
+          <td>(</td>
+          <td class="paramtype">[annotation(&quot;_In_&quot;)] <a class="el" href="d3d12sdklayers_8idl.html#ad0b1e7169b133363f7e44a2d7d3f21ca">D3D12_MESSAGE_SEVERITY</a></td>          <td class="paramname"><span class="paramname"><em>Severity</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3868f2463765f10faba2b66dfa8f33ae" name="a3868f2463765f10faba2b66dfa8f33ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3868f2463765f10faba2b66dfa8f33ae">&#9670;&#160;</a></span>GetMessage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> ID3D12InfoQueue::GetMessage </td>
+          <td>(</td>
+          <td class="paramtype">[annotation(&quot;_In_&quot;)] <a class="el" href="basetsd_8h.html#a95df6cdb32afc350ff070f2fe8a54a67">UINT64</a></td>          <td class="paramname"><span class="paramname"><em>MessageIndex</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">[annotation(&quot;_Out_writes_bytes_opt_(*pMessageByteLength)&quot;)] <a class="el" href="struct_d3_d12___m_e_s_s_a_g_e.html">D3D12_MESSAGE</a> *</td>          <td class="paramname"><span class="paramname"><em>pMessage</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">[annotation(&quot;_Inout_&quot;)] <a class="el" href="basetsd_8h.html#adabaa7976c877ecc9d04c49b328dd88a">SIZE_T</a> *</td>          <td class="paramname"><span class="paramname"><em>pMessageByteLength</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acb0cf7491d4d59db2607bfc9a90e4f63" name="acb0cf7491d4d59db2607bfc9a90e4f63"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb0cf7491d4d59db2607bfc9a90e4f63">&#9670;&#160;</a></span>GetMessageCountLimit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="basetsd_8h.html#a95df6cdb32afc350ff070f2fe8a54a67">UINT64</a> ID3D12InfoQueue::GetMessageCountLimit </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a62263dd9c51bdd9e97bc2a65c8ea2173" name="a62263dd9c51bdd9e97bc2a65c8ea2173"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62263dd9c51bdd9e97bc2a65c8ea2173">&#9670;&#160;</a></span>GetMuteDebugOutput()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="basetsd_8h.html#ad69e2ca4c72d9a05ed80a1916f009f29">BOOL</a> ID3D12InfoQueue::GetMuteDebugOutput </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad14e9dca4c83b8d79ff4062ce2de69a3" name="ad14e9dca4c83b8d79ff4062ce2de69a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad14e9dca4c83b8d79ff4062ce2de69a3">&#9670;&#160;</a></span>GetNumMessagesAllowedByStorageFilter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="basetsd_8h.html#a95df6cdb32afc350ff070f2fe8a54a67">UINT64</a> ID3D12InfoQueue::GetNumMessagesAllowedByStorageFilter </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a40b23f4501156fa5fd2dbf641ac80290" name="a40b23f4501156fa5fd2dbf641ac80290"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40b23f4501156fa5fd2dbf641ac80290">&#9670;&#160;</a></span>GetNumMessagesDeniedByStorageFilter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="basetsd_8h.html#a95df6cdb32afc350ff070f2fe8a54a67">UINT64</a> ID3D12InfoQueue::GetNumMessagesDeniedByStorageFilter </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a57351d2bfa753b3331b4cf8c2c0cce9d" name="a57351d2bfa753b3331b4cf8c2c0cce9d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57351d2bfa753b3331b4cf8c2c0cce9d">&#9670;&#160;</a></span>GetNumMessagesDiscardedByMessageCountLimit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="basetsd_8h.html#a95df6cdb32afc350ff070f2fe8a54a67">UINT64</a> ID3D12InfoQueue::GetNumMessagesDiscardedByMessageCountLimit </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a056bf74acc20492dda26940c2967ea37" name="a056bf74acc20492dda26940c2967ea37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a056bf74acc20492dda26940c2967ea37">&#9670;&#160;</a></span>GetNumStoredMessages()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="basetsd_8h.html#a95df6cdb32afc350ff070f2fe8a54a67">UINT64</a> ID3D12InfoQueue::GetNumStoredMessages </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3f7b3e72143dabe31203629b02022a97" name="a3f7b3e72143dabe31203629b02022a97"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f7b3e72143dabe31203629b02022a97">&#9670;&#160;</a></span>GetNumStoredMessagesAllowedByRetrievalFilter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="basetsd_8h.html#a95df6cdb32afc350ff070f2fe8a54a67">UINT64</a> ID3D12InfoQueue::GetNumStoredMessagesAllowedByRetrievalFilter </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaf0713fe09a92084dbbe9c83e5c737c5" name="aaf0713fe09a92084dbbe9c83e5c737c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf0713fe09a92084dbbe9c83e5c737c5">&#9670;&#160;</a></span>GetRetrievalFilter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> ID3D12InfoQueue::GetRetrievalFilter </td>
+          <td>(</td>
+          <td class="paramtype">[annotation(&quot;_Out_writes_bytes_opt_(*pFilterByteLength)&quot;)] <a class="el" href="struct_d3_d12___i_n_f_o___q_u_e_u_e___f_i_l_t_e_r.html">D3D12_INFO_QUEUE_FILTER</a> *</td>          <td class="paramname"><span class="paramname"><em>pFilter</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">[annotation(&quot;_Inout_&quot;)] <a class="el" href="basetsd_8h.html#adabaa7976c877ecc9d04c49b328dd88a">SIZE_T</a> *</td>          <td class="paramname"><span class="paramname"><em>pFilterByteLength</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a267544fb8951c82d98050d5b827be3ab" name="a267544fb8951c82d98050d5b827be3ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a267544fb8951c82d98050d5b827be3ab">&#9670;&#160;</a></span>GetRetrievalFilterStackSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="basetsd_8h.html#a2e2c38961834f28c06e17e074eb00bc7">UINT</a> ID3D12InfoQueue::GetRetrievalFilterStackSize </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac0c2202cf9feab8d0c0435acddcd0634" name="ac0c2202cf9feab8d0c0435acddcd0634"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0c2202cf9feab8d0c0435acddcd0634">&#9670;&#160;</a></span>GetStorageFilter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> ID3D12InfoQueue::GetStorageFilter </td>
+          <td>(</td>
+          <td class="paramtype">[annotation(&quot;_Out_writes_bytes_opt_(*pFilterByteLength)&quot;)] <a class="el" href="struct_d3_d12___i_n_f_o___q_u_e_u_e___f_i_l_t_e_r.html">D3D12_INFO_QUEUE_FILTER</a> *</td>          <td class="paramname"><span class="paramname"><em>pFilter</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">[annotation(&quot;_Inout_&quot;)] <a class="el" href="basetsd_8h.html#adabaa7976c877ecc9d04c49b328dd88a">SIZE_T</a> *</td>          <td class="paramname"><span class="paramname"><em>pFilterByteLength</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa7e885cfa45e50d000c8a8f15ef2cc7b" name="aa7e885cfa45e50d000c8a8f15ef2cc7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7e885cfa45e50d000c8a8f15ef2cc7b">&#9670;&#160;</a></span>GetStorageFilterStackSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="basetsd_8h.html#a2e2c38961834f28c06e17e074eb00bc7">UINT</a> ID3D12InfoQueue::GetStorageFilterStackSize </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4c1330e9aa96d9858d537d2c838fce1b" name="a4c1330e9aa96d9858d537d2c838fce1b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c1330e9aa96d9858d537d2c838fce1b">&#9670;&#160;</a></span>PopRetrievalFilter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> ID3D12InfoQueue::PopRetrievalFilter </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae7ba81cffdefaf1ce61fa08d3963ea12" name="ae7ba81cffdefaf1ce61fa08d3963ea12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7ba81cffdefaf1ce61fa08d3963ea12">&#9670;&#160;</a></span>PopStorageFilter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> ID3D12InfoQueue::PopStorageFilter </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8b910024443e1f2e2ecb51e2830f4a72" name="a8b910024443e1f2e2ecb51e2830f4a72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b910024443e1f2e2ecb51e2830f4a72">&#9670;&#160;</a></span>PushCopyOfRetrievalFilter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> ID3D12InfoQueue::PushCopyOfRetrievalFilter </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a89d795edb30aec35634c75d1f691e23f" name="a89d795edb30aec35634c75d1f691e23f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89d795edb30aec35634c75d1f691e23f">&#9670;&#160;</a></span>PushCopyOfStorageFilter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> ID3D12InfoQueue::PushCopyOfStorageFilter </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a735f39ec64a7aae95cebfe43ce8616d5" name="a735f39ec64a7aae95cebfe43ce8616d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a735f39ec64a7aae95cebfe43ce8616d5">&#9670;&#160;</a></span>PushEmptyRetrievalFilter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> ID3D12InfoQueue::PushEmptyRetrievalFilter </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa1668558e9147379b5e301a403f70a94" name="aa1668558e9147379b5e301a403f70a94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1668558e9147379b5e301a403f70a94">&#9670;&#160;</a></span>PushEmptyStorageFilter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> ID3D12InfoQueue::PushEmptyStorageFilter </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5c59bae58da4d3ca9995f3294dc263b1" name="a5c59bae58da4d3ca9995f3294dc263b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c59bae58da4d3ca9995f3294dc263b1">&#9670;&#160;</a></span>PushRetrievalFilter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> ID3D12InfoQueue::PushRetrievalFilter </td>
+          <td>(</td>
+          <td class="paramtype">[annotation(&quot;_In_&quot;)] <a class="el" href="struct_d3_d12___i_n_f_o___q_u_e_u_e___f_i_l_t_e_r.html">D3D12_INFO_QUEUE_FILTER</a> *</td>          <td class="paramname"><span class="paramname"><em>pFilter</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af08640ddf7050f0549297a877287bafb" name="af08640ddf7050f0549297a877287bafb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af08640ddf7050f0549297a877287bafb">&#9670;&#160;</a></span>PushStorageFilter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> ID3D12InfoQueue::PushStorageFilter </td>
+          <td>(</td>
+          <td class="paramtype">[annotation(&quot;_In_&quot;)] <a class="el" href="struct_d3_d12___i_n_f_o___q_u_e_u_e___f_i_l_t_e_r.html">D3D12_INFO_QUEUE_FILTER</a> *</td>          <td class="paramname"><span class="paramname"><em>pFilter</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abdfd688aab5d25a6eacaadcb2cc89cc9" name="abdfd688aab5d25a6eacaadcb2cc89cc9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abdfd688aab5d25a6eacaadcb2cc89cc9">&#9670;&#160;</a></span>SetBreakOnCategory()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> ID3D12InfoQueue::SetBreakOnCategory </td>
+          <td>(</td>
+          <td class="paramtype">[annotation(&quot;_In_&quot;)] <a class="el" href="d3d12sdklayers_8idl.html#ad2b47460f8e03d96033ea52d0a83d34d">D3D12_MESSAGE_CATEGORY</a></td>          <td class="paramname"><span class="paramname"><em>Category</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">[annotation(&quot;_In_&quot;)] <a class="el" href="basetsd_8h.html#ad69e2ca4c72d9a05ed80a1916f009f29">BOOL</a></td>          <td class="paramname"><span class="paramname"><em>bEnable</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab95a992ff9e81c8fe48fb76d0c5fe451" name="ab95a992ff9e81c8fe48fb76d0c5fe451"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab95a992ff9e81c8fe48fb76d0c5fe451">&#9670;&#160;</a></span>SetBreakOnID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> ID3D12InfoQueue::SetBreakOnID </td>
+          <td>(</td>
+          <td class="paramtype">[annotation(&quot;_In_&quot;)] <a class="el" href="d3d12sdklayers_8idl.html#a0600b2b6f8debd83cf10478b7bf966b5">D3D12_MESSAGE_ID</a></td>          <td class="paramname"><span class="paramname"><em>ID</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">[annotation(&quot;_In_&quot;)] <a class="el" href="basetsd_8h.html#ad69e2ca4c72d9a05ed80a1916f009f29">BOOL</a></td>          <td class="paramname"><span class="paramname"><em>bEnable</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a550aa7f731b8452eed527a55c425ae84" name="a550aa7f731b8452eed527a55c425ae84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a550aa7f731b8452eed527a55c425ae84">&#9670;&#160;</a></span>SetBreakOnSeverity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> ID3D12InfoQueue::SetBreakOnSeverity </td>
+          <td>(</td>
+          <td class="paramtype">[annotation(&quot;_In_&quot;)] <a class="el" href="d3d12sdklayers_8idl.html#ad0b1e7169b133363f7e44a2d7d3f21ca">D3D12_MESSAGE_SEVERITY</a></td>          <td class="paramname"><span class="paramname"><em>Severity</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">[annotation(&quot;_In_&quot;)] <a class="el" href="basetsd_8h.html#ad69e2ca4c72d9a05ed80a1916f009f29">BOOL</a></td>          <td class="paramname"><span class="paramname"><em>bEnable</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a73e212dc7353dda6489a3c3b7688bfc6" name="a73e212dc7353dda6489a3c3b7688bfc6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73e212dc7353dda6489a3c3b7688bfc6">&#9670;&#160;</a></span>SetMessageCountLimit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> ID3D12InfoQueue::SetMessageCountLimit </td>
+          <td>(</td>
+          <td class="paramtype">[annotation(&quot;_In_&quot;)] <a class="el" href="basetsd_8h.html#a95df6cdb32afc350ff070f2fe8a54a67">UINT64</a></td>          <td class="paramname"><span class="paramname"><em>MessageCountLimit</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab7392a6bae8eaccbb6f70637e8ea1c4e" name="ab7392a6bae8eaccbb6f70637e8ea1c4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7392a6bae8eaccbb6f70637e8ea1c4e">&#9670;&#160;</a></span>SetMuteDebugOutput()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> ID3D12InfoQueue::SetMuteDebugOutput </td>
+          <td>(</td>
+          <td class="paramtype">[annotation(&quot;_In_&quot;)] <a class="el" href="basetsd_8h.html#ad69e2ca4c72d9a05ed80a1916f009f29">BOOL</a></td>          <td class="paramname"><span class="paramname"><em>bMute</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this interface was generated from the following file:<ul>
 <li><a class="el" href="d3d12sdklayers_8idl_source.html">d3d12sdklayers.idl</a></li>
 </ul>
 </div><!-- contents -->

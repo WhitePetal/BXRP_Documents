@@ -107,21 +107,33 @@ $(function(){initNavTree('class_command_queue.html',''); initResizable(true); })
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pri-types">Private Types</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_command_queue-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">CommandQueue Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &lt;<a class="el" href="_command_queue_8h_source.html">CommandQueue.h</a>&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_command_queue_1_1_command_allocator_entry.html">CommandAllocatorEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a51aaa27ab2251329ab4b9d25fb1897a9" id="r_a51aaa27ab2251329ab4b9d25fb1897a9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a51aaa27ab2251329ab4b9d25fb1897a9">CommandQueue</a> (D3D12_COMMAND_LIST_TYPE type)</td></tr>
+<tr class="memitem:a51aaa27ab2251329ab4b9d25fb1897a9" id="r_a51aaa27ab2251329ab4b9d25fb1897a9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a51aaa27ab2251329ab4b9d25fb1897a9">CommandQueue</a> (<a class="el" href="d3d12_8idl.html#a58071dee5aa123a722f372cc643c7333">D3D12_COMMAND_LIST_TYPE</a> type)</td></tr>
 <tr class="separator:a51aaa27ab2251329ab4b9d25fb1897a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a95eef1f922136aec32a17c13ac9bd278" id="r_a95eef1f922136aec32a17c13ac9bd278"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; ID3D12GraphicsCommandList4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a95eef1f922136aec32a17c13ac9bd278">GetCommandList</a> ()</td></tr>
+<tr class="memitem:a4575d426ec483ab4778da0650c0556bb" id="r_a4575d426ec483ab4778da0650c0556bb"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4575d426ec483ab4778da0650c0556bb">~CommandQueue</a> ()</td></tr>
+<tr class="separator:a4575d426ec483ab4778da0650c0556bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95eef1f922136aec32a17c13ac9bd278" id="r_a95eef1f922136aec32a17c13ac9bd278"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; <a class="el" href="d3d12_8h.html#a47fe09edc0b4bd6037e6d09d8d3262f1">ID3D12GraphicsCommandList4</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a95eef1f922136aec32a17c13ac9bd278">GetCommandList</a> ()</td></tr>
 <tr class="memdesc:a95eef1f922136aec32a17c13ac9bd278"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a available command list from the command queue.  <br /></td></tr>
 <tr class="separator:a95eef1f922136aec32a17c13ac9bd278"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f27b1ea08628941489f934fd7ad2f1e" id="r_a0f27b1ea08628941489f934fd7ad2f1e"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f27b1ea08628941489f934fd7ad2f1e">ExecuteCommandList</a> (<a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; ID3D12GraphicsCommandList4 &gt; commandList)</td></tr>
+<tr class="memitem:a0f27b1ea08628941489f934fd7ad2f1e" id="r_a0f27b1ea08628941489f934fd7ad2f1e"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f27b1ea08628941489f934fd7ad2f1e">ExecuteCommandList</a> (<a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; <a class="el" href="d3d12_8h.html#a47fe09edc0b4bd6037e6d09d8d3262f1">ID3D12GraphicsCommandList4</a> &gt; commandList)</td></tr>
 <tr class="memdesc:a0f27b1ea08628941489f934fd7ad2f1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Execute a command list.  <br /></td></tr>
 <tr class="separator:a0f27b1ea08628941489f934fd7ad2f1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a0a5604fc3cecc4c6a60bad39ab6850" id="r_a9a0a5604fc3cecc4c6a60bad39ab6850"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a0a5604fc3cecc4c6a60bad39ab6850">Signal</a> ()</td></tr>
@@ -130,10 +142,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aac53841ec90344664174420c48cfca1f" id="r_aac53841ec90344664174420c48cfca1f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac53841ec90344664174420c48cfca1f">IsFenceComplete</a> (uint64_t fenceValue)</td></tr>
 <tr class="memdesc:aac53841ec90344664174420c48cfca1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is all commands compelete before the fence sign.  <br /></td></tr>
 <tr class="separator:aac53841ec90344664174420c48cfca1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6786f277365ca567a3d6fb8dc1659a00" id="r_a6786f277365ca567a3d6fb8dc1659a00"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6786f277365ca567a3d6fb8dc1659a00">WaitForFenceValue</a> (uint64_t fenceValue)</td></tr>
+<tr class="memitem:a6786f277365ca567a3d6fb8dc1659a00" id="r_a6786f277365ca567a3d6fb8dc1659a00"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6786f277365ca567a3d6fb8dc1659a00">WaitForFenceValue</a> (uint64_t fenceValue)</td></tr>
 <tr class="memdesc:a6786f277365ca567a3d6fb8dc1659a00"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make CPU Wait fence sign.  <br /></td></tr>
 <tr class="separator:a6786f277365ca567a3d6fb8dc1659a00"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af9fe014b48ec4b4921da534d32f24ee5" id="r_af9fe014b48ec4b4921da534d32f24ee5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9fe014b48ec4b4921da534d32f24ee5">Flush</a> ()</td></tr>
+<tr class="memitem:af9fe014b48ec4b4921da534d32f24ee5" id="r_af9fe014b48ec4b4921da534d32f24ee5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9fe014b48ec4b4921da534d32f24ee5">Flush</a> ()</td></tr>
 <tr class="memdesc:af9fe014b48ec4b4921da534d32f24ee5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make CPU wait <a class="el" href="class_command_queue.html">CommandQueue</a> All commands complete.  <br /></td></tr>
 <tr class="separator:af9fe014b48ec4b4921da534d32f24ee5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd88a45d55021a36e9942d23d78c49b2" id="r_abd88a45d55021a36e9942d23d78c49b2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; <a class="el" href="interface_i_d3_d12_command_queue.html">ID3D12CommandQueue</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd88a45d55021a36e9942d23d78c49b2">GetD3D12CommandQueue</a> () const</td></tr>
@@ -144,13 +156,86 @@ Public Member Functions</h2></td></tr>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a5cbf3dddc4591a7468e7702e0a243c31" id="r_a5cbf3dddc4591a7468e7702e0a243c31"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; <a class="el" href="interface_i_d3_d12_command_allocator.html">ID3D12CommandAllocator</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5cbf3dddc4591a7468e7702e0a243c31">CreateCommandAllocator</a> ()</td></tr>
 <tr class="separator:a5cbf3dddc4591a7468e7702e0a243c31"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac1e2477ab13d1dffdc18b8f604670525" id="r_ac1e2477ab13d1dffdc18b8f604670525"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; ID3D12GraphicsCommandList4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac1e2477ab13d1dffdc18b8f604670525">CreateCommandList</a> (<a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; <a class="el" href="interface_i_d3_d12_command_allocator.html">ID3D12CommandAllocator</a> &gt; allocator)</td></tr>
+<tr class="memitem:ac1e2477ab13d1dffdc18b8f604670525" id="r_ac1e2477ab13d1dffdc18b8f604670525"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; <a class="el" href="d3d12_8h.html#a47fe09edc0b4bd6037e6d09d8d3262f1">ID3D12GraphicsCommandList4</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac1e2477ab13d1dffdc18b8f604670525">CreateCommandList</a> (<a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; <a class="el" href="interface_i_d3_d12_command_allocator.html">ID3D12CommandAllocator</a> &gt; allocator)</td></tr>
 <tr class="separator:ac1e2477ab13d1dffdc18b8f604670525"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-types" name="pri-types"></a>
+Private Types</h2></td></tr>
+<tr class="memitem:a81af8130affee2d1d1e104e4fc35fb26" id="r_a81af8130affee2d1d1e104e4fc35fb26"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a81af8130affee2d1d1e104e4fc35fb26">CommandAllocatorQueue</a> = std::queue&lt;<a class="el" href="struct_command_queue_1_1_command_allocator_entry.html">CommandAllocatorEntry</a>&gt;</td></tr>
+<tr class="separator:a81af8130affee2d1d1e104e4fc35fb26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a421cf7a48ad61ca5a5f1bc3d06dc9bdc" id="r_a421cf7a48ad61ca5a5f1bc3d06dc9bdc"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a421cf7a48ad61ca5a5f1bc3d06dc9bdc">CommandListQueue</a> = std::queue&lt;<a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt;<a class="el" href="d3d12_8h.html#a47fe09edc0b4bd6037e6d09d8d3262f1">ID3D12GraphicsCommandList4</a>&gt;&gt;</td></tr>
+<tr class="separator:a421cf7a48ad61ca5a5f1bc3d06dc9bdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a220133eff4201bf99f003fbf2f18efab" id="r_a220133eff4201bf99f003fbf2f18efab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12_8idl.html#a58071dee5aa123a722f372cc643c7333">D3D12_COMMAND_LIST_TYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a220133eff4201bf99f003fbf2f18efab">m_CommandListType</a></td></tr>
+<tr class="separator:a220133eff4201bf99f003fbf2f18efab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a336e265e57d637bfdba11da0f4d83ce2" id="r_a336e265e57d637bfdba11da0f4d83ce2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; <a class="el" href="interface_i_d3_d12_command_queue.html">ID3D12CommandQueue</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a336e265e57d637bfdba11da0f4d83ce2">m_d3d12CommandQueue</a></td></tr>
+<tr class="separator:a336e265e57d637bfdba11da0f4d83ce2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0873b128082eb943a181d8ce1ae3b181" id="r_a0873b128082eb943a181d8ce1ae3b181"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; <a class="el" href="interface_i_d3_d12_fence.html">ID3D12Fence</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0873b128082eb943a181d8ce1ae3b181">m_d3d12Fence</a></td></tr>
+<tr class="separator:a0873b128082eb943a181d8ce1ae3b181"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:addf8ca8d5a70c2d8c3bcfd9755a25c6e" id="r_addf8ca8d5a70c2d8c3bcfd9755a25c6e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="basetsd_8h.html#a2551e2c43e12d0ac4525d899cdf2c03b">HANDLE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#addf8ca8d5a70c2d8c3bcfd9755a25c6e">m_FenceEvent</a></td></tr>
+<tr class="separator:addf8ca8d5a70c2d8c3bcfd9755a25c6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa74f6440a4cf813de2af869a7a5843fa" id="r_aa74f6440a4cf813de2af869a7a5843fa"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa74f6440a4cf813de2af869a7a5843fa">m_FenceValue</a></td></tr>
+<tr class="separator:aa74f6440a4cf813de2af869a7a5843fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe55645e729062b2515aab554a6ea4bb" id="r_afe55645e729062b2515aab554a6ea4bb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a81af8130affee2d1d1e104e4fc35fb26">CommandAllocatorQueue</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe55645e729062b2515aab554a6ea4bb">m_CommandAllocatorQueue</a></td></tr>
+<tr class="separator:afe55645e729062b2515aab554a6ea4bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6472d3b088dac9a2db6ee74312fb6ad0" id="r_a6472d3b088dac9a2db6ee74312fb6ad0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a421cf7a48ad61ca5a5f1bc3d06dc9bdc">CommandListQueue</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6472d3b088dac9a2db6ee74312fb6ad0">m_CommandListQueue</a></td></tr>
+<tr class="separator:a6472d3b088dac9a2db6ee74312fb6ad0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
 <p class="definition">Definition at line <a class="el" href="_command_queue_8h_source.html#l00011">11</a> of file <a class="el" href="_command_queue_8h_source.html">CommandQueue.h</a>.</p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="a81af8130affee2d1d1e104e4fc35fb26" name="a81af8130affee2d1d1e104e4fc35fb26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81af8130affee2d1d1e104e4fc35fb26">&#9670;&#160;</a></span>CommandAllocatorQueue</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#a81af8130affee2d1d1e104e4fc35fb26">CommandQueue::CommandAllocatorQueue</a> = std::queue&lt;<a class="el" href="struct_command_queue_1_1_command_allocator_entry.html">CommandAllocatorEntry</a>&gt;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_command_queue_8h_source.html#l00072">72</a> of file <a class="el" href="_command_queue_8h_source.html">CommandQueue.h</a>.</p>
+
+</div>
+</div>
+<a id="a421cf7a48ad61ca5a5f1bc3d06dc9bdc" name="a421cf7a48ad61ca5a5f1bc3d06dc9bdc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a421cf7a48ad61ca5a5f1bc3d06dc9bdc">&#9670;&#160;</a></span>CommandListQueue</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#a421cf7a48ad61ca5a5f1bc3d06dc9bdc">CommandQueue::CommandListQueue</a> = std::queue&lt;<a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt;<a class="el" href="d3d12_8h.html#a47fe09edc0b4bd6037e6d09d8d3262f1">ID3D12GraphicsCommandList4</a>&gt;&gt;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_command_queue_8h_source.html#l00073">73</a> of file <a class="el" href="_command_queue_8h_source.html">CommandQueue.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a51aaa27ab2251329ab4b9d25fb1897a9" name="a51aaa27ab2251329ab4b9d25fb1897a9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a51aaa27ab2251329ab4b9d25fb1897a9">&#9670;&#160;</a></span>CommandQueue()</h2>
 
@@ -160,7 +245,7 @@ Protected Member Functions</h2></td></tr>
         <tr>
           <td class="memname">CommandQueue::CommandQueue </td>
           <td>(</td>
-          <td class="paramtype">D3D12_COMMAND_LIST_TYPE</td>          <td class="paramname"><span class="paramname"><em>type</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="d3d12_8idl.html#a58071dee5aa123a722f372cc643c7333">D3D12_COMMAND_LIST_TYPE</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -235,7 +320,7 @@ Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; ID3D12GraphicsCommandList4 &gt; CommandQueue::CreateCommandList </td>
+          <td class="memname"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; <a class="el" href="d3d12_8h.html#a47fe09edc0b4bd6037e6d09d8d3262f1">ID3D12GraphicsCommandList4</a> &gt; CommandQueue::CreateCommandList </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; <a class="el" href="interface_i_d3_d12_command_allocator.html">ID3D12CommandAllocator</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>allocator</em></span></td><td>)</td>
           <td></td>
@@ -261,7 +346,7 @@ Protected Member Functions</h2></td></tr>
         <tr>
           <td class="memname">uint64_t CommandQueue::ExecuteCommandList </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; ID3D12GraphicsCommandList4 &gt;</td>          <td class="paramname"><span class="paramname"><em>commandList</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; <a class="el" href="d3d12_8h.html#a47fe09edc0b4bd6037e6d09d8d3262f1">ID3D12GraphicsCommandList4</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>commandList</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -287,7 +372,7 @@ Protected Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void CommandQueue::Flush </td>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> CommandQueue::Flush </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -308,7 +393,7 @@ Protected Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; ID3D12GraphicsCommandList4 &gt; CommandQueue::GetCommandList </td>
+          <td class="memname"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; <a class="el" href="d3d12_8h.html#a47fe09edc0b4bd6037e6d09d8d3262f1">ID3D12GraphicsCommandList4</a> &gt; CommandQueue::GetCommandList </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -402,7 +487,7 @@ Protected Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void CommandQueue::WaitForFenceValue </td>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> CommandQueue::WaitForFenceValue </td>
           <td>(</td>
           <td class="paramtype">uint64_t</td>          <td class="paramname"><span class="paramname"><em>fenceValue</em></span></td><td>)</td>
           <td></td>
@@ -419,6 +504,175 @@ Protected Member Functions</h2></td></tr>
 </dl>
 
 <p class="definition">Definition at line <a class="el" href="_command_queue_8cpp_source.html#l00109">109</a> of file <a class="el" href="_command_queue_8cpp_source.html">CommandQueue.cpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="afe55645e729062b2515aab554a6ea4bb" name="afe55645e729062b2515aab554a6ea4bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe55645e729062b2515aab554a6ea4bb">&#9670;&#160;</a></span>m_CommandAllocatorQueue</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a81af8130affee2d1d1e104e4fc35fb26">CommandAllocatorQueue</a> CommandQueue::m_CommandAllocatorQueue</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_command_queue_8h_source.html#l00082">82</a> of file <a class="el" href="_command_queue_8h_source.html">CommandQueue.h</a>.</p>
+
+</div>
+</div>
+<a id="a6472d3b088dac9a2db6ee74312fb6ad0" name="a6472d3b088dac9a2db6ee74312fb6ad0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6472d3b088dac9a2db6ee74312fb6ad0">&#9670;&#160;</a></span>m_CommandListQueue</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a421cf7a48ad61ca5a5f1bc3d06dc9bdc">CommandListQueue</a> CommandQueue::m_CommandListQueue</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_command_queue_8h_source.html#l00083">83</a> of file <a class="el" href="_command_queue_8h_source.html">CommandQueue.h</a>.</p>
+
+</div>
+</div>
+<a id="a220133eff4201bf99f003fbf2f18efab" name="a220133eff4201bf99f003fbf2f18efab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a220133eff4201bf99f003fbf2f18efab">&#9670;&#160;</a></span>m_CommandListType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12_8idl.html#a58071dee5aa123a722f372cc643c7333">D3D12_COMMAND_LIST_TYPE</a> CommandQueue::m_CommandListType</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_command_queue_8h_source.html#l00075">75</a> of file <a class="el" href="_command_queue_8h_source.html">CommandQueue.h</a>.</p>
+
+</div>
+</div>
+<a id="a336e265e57d637bfdba11da0f4d83ce2" name="a336e265e57d637bfdba11da0f4d83ce2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a336e265e57d637bfdba11da0f4d83ce2">&#9670;&#160;</a></span>m_d3d12CommandQueue</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt;<a class="el" href="interface_i_d3_d12_command_queue.html">ID3D12CommandQueue</a>&gt; CommandQueue::m_d3d12CommandQueue</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_command_queue_8h_source.html#l00077">77</a> of file <a class="el" href="_command_queue_8h_source.html">CommandQueue.h</a>.</p>
+
+</div>
+</div>
+<a id="a0873b128082eb943a181d8ce1ae3b181" name="a0873b128082eb943a181d8ce1ae3b181"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0873b128082eb943a181d8ce1ae3b181">&#9670;&#160;</a></span>m_d3d12Fence</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt;<a class="el" href="interface_i_d3_d12_fence.html">ID3D12Fence</a>&gt; CommandQueue::m_d3d12Fence</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_command_queue_8h_source.html#l00078">78</a> of file <a class="el" href="_command_queue_8h_source.html">CommandQueue.h</a>.</p>
+
+</div>
+</div>
+<a id="addf8ca8d5a70c2d8c3bcfd9755a25c6e" name="addf8ca8d5a70c2d8c3bcfd9755a25c6e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#addf8ca8d5a70c2d8c3bcfd9755a25c6e">&#9670;&#160;</a></span>m_FenceEvent</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="basetsd_8h.html#a2551e2c43e12d0ac4525d899cdf2c03b">HANDLE</a> CommandQueue::m_FenceEvent</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_command_queue_8h_source.html#l00079">79</a> of file <a class="el" href="_command_queue_8h_source.html">CommandQueue.h</a>.</p>
+
+</div>
+</div>
+<a id="aa74f6440a4cf813de2af869a7a5843fa" name="aa74f6440a4cf813de2af869a7a5843fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa74f6440a4cf813de2af869a7a5843fa">&#9670;&#160;</a></span>m_FenceValue</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint64_t CommandQueue::m_FenceValue</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_command_queue_8h_source.html#l00080">80</a> of file <a class="el" href="_command_queue_8h_source.html">CommandQueue.h</a>.</p>
 
 </div>
 </div>

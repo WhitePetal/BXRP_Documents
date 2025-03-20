@@ -1,0 +1,5 @@
+var struct_d3_d12___r_e_n_d_e_r___p_a_s_s___e_n_d_i_n_g___a_c_c_e_s_s___p_r_e_s_e_r_v_e___l_o_c_a_l___p_a_r_a_m_e_t_e_r_s =
+[
+    [ "AdditionalHeight", "struct_d3_d12___r_e_n_d_e_r___p_a_s_s___e_n_d_i_n_g___a_c_c_e_s_s___p_r_e_s_e_r_v_e___l_o_c_a_l___p_a_r_a_m_e_t_e_r_s.html#a2588f4810252da41c7bb4e2a149f70c2", null ],
+    [ "AdditionalWidth", "struct_d3_d12___r_e_n_d_e_r___p_a_s_s___e_n_d_i_n_g___a_c_c_e_s_s___p_r_e_s_e_r_v_e___l_o_c_a_l___p_a_r_a_m_e_t_e_r_s.html#a64d92c43fdf464faf831391030e25c88", null ]
+];

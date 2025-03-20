@@ -112,6 +112,9 @@ $(function(){initNavTree('struct_b_x_render_pipeline_1_1_b_x_reflection_probe_ma
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="struct_b_x_render_pipeline_1_1_b_x_reflection_probe_manager-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">BXRenderPipeline.BXReflectionProbeManager Struct Reference</div></div>
 </div><!--header-->
@@ -125,14 +128,16 @@ Inheritance diagram for BXRenderPipeline.BXReflectionProbeManager:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><b>ShaderProperties</b></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_b_x_render_pipeline_1_1_b_x_reflection_probe_manager_1_1_cache_probe.html">CacheProbe</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_x_render_pipeline_1_1_b_x_reflection_probe_manager_1_1_shader_properties.html">ShaderProperties</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ac2ae98d19e4db12d280786d5194e3075" id="r_ac2ae98d19e4db12d280786d5194e3075"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2ae98d19e4db12d280786d5194e3075">UpdateGPUData</a> (CommandBuffer cmd, ref CullingResults cullingResults)</td></tr>
+<tr class="memitem:ac2ae98d19e4db12d280786d5194e3075" id="r_ac2ae98d19e4db12d280786d5194e3075"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2ae98d19e4db12d280786d5194e3075">UpdateGPUData</a> (CommandBuffer cmd, ref CullingResults cullingResults)</td></tr>
 <tr class="separator:ac2ae98d19e4db12d280786d5194e3075"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f9ea6b408c1833bbd8e2e155fa9bb2e" id="r_a6f9ea6b408c1833bbd8e2e155fa9bb2e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f9ea6b408c1833bbd8e2e155fa9bb2e">Dispose</a> ()</td></tr>
+<tr class="memitem:a6f9ea6b408c1833bbd8e2e155fa9bb2e" id="r_a6f9ea6b408c1833bbd8e2e155fa9bb2e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f9ea6b408c1833bbd8e2e155fa9bb2e">Dispose</a> ()</td></tr>
 <tr class="separator:a6f9ea6b408c1833bbd8e2e155fa9bb2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
@@ -163,6 +168,43 @@ Properties</h2></td></tr>
 <tr class="separator:a0b6771650c94e5c8267770a8a59bed15"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade2d11197a76a7afc50f66b8c8f659e7" id="r_ade2d11197a76a7afc50f66b8c8f659e7"><td class="memItemLeft" align="right" valign="top">RTHandle&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade2d11197a76a7afc50f66b8c8f659e7">atlasRTHandle</a><code> [get]</code></td></tr>
 <tr class="separator:ade2d11197a76a7afc50f66b8c8f659e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:ae58491b996a5f71bf00498aedd7a60fa" id="r_ae58491b996a5f71bf00498aedd7a60fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae58491b996a5f71bf00498aedd7a60fa">Init</a> ()</td></tr>
+<tr class="separator:ae58491b996a5f71bf00498aedd7a60fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a669675b04d250ccd190b363f5d076b5d" id="r_a669675b04d250ccd190b363f5d076b5d"><td class="memItemLeft" align="right" valign="top">float4&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a669675b04d250ccd190b363f5d076b5d">GetScaleOffset</a> (int level, int dataIndex, bool includePadding, bool yflip)</td></tr>
+<tr class="separator:a669675b04d250ccd190b363f5d076b5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a275ab4f9ff61b0b6035bf5be2ed129c6" id="r_a275ab4f9ff61b0b6035bf5be2ed129c6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a275ab4f9ff61b0b6035bf5be2ed129c6">m_MaxAtlasTextureSize</a></td></tr>
+<tr class="separator:a275ab4f9ff61b0b6035bf5be2ed129c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4075eebae1779a91c607dcb51266e52b" id="r_a4075eebae1779a91c607dcb51266e52b"><td class="memItemLeft" align="right" valign="top">int2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4075eebae1779a91c607dcb51266e52b">m_Resolution</a></td></tr>
+<tr class="separator:a4075eebae1779a91c607dcb51266e52b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a191f5a6352b5923f6ce1a0809fc5f1b2" id="r_a191f5a6352b5923f6ce1a0809fc5f1b2"><td class="memItemLeft" align="right" valign="top">RenderTexture&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a191f5a6352b5923f6ce1a0809fc5f1b2">m_AtlasTexture0</a></td></tr>
+<tr class="separator:a191f5a6352b5923f6ce1a0809fc5f1b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3187bb783026a26d134fe3c0b04c980" id="r_ae3187bb783026a26d134fe3c0b04c980"><td class="memItemLeft" align="right" valign="top">RenderTexture&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae3187bb783026a26d134fe3c0b04c980">m_AtlasTexture1</a></td></tr>
+<tr class="separator:ae3187bb783026a26d134fe3c0b04c980"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a99e8f4ccbad3cb785c3fb5f91b630e" id="r_a2a99e8f4ccbad3cb785c3fb5f91b630e"><td class="memItemLeft" align="right" valign="top">RTHandle&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a99e8f4ccbad3cb785c3fb5f91b630e">m_AtlasTexture0Handle</a></td></tr>
+<tr class="separator:a2a99e8f4ccbad3cb785c3fb5f91b630e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abeddc7b2df5b1bb5ca3a0bd88e4eb81b" id="r_abeddc7b2df5b1bb5ca3a0bd88e4eb81b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_b_x_render_pipeline_1_1_b_x_buddy_allocator.html">BXBuddyAllocator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abeddc7b2df5b1bb5ca3a0bd88e4eb81b">m_AtlasAllocator</a></td></tr>
+<tr class="separator:abeddc7b2df5b1bb5ca3a0bd88e4eb81b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21861c0f05cbac0e40b4b09d15cf363b" id="r_a21861c0f05cbac0e40b4b09d15cf363b"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; int, <a class="el" href="struct_b_x_render_pipeline_1_1_b_x_reflection_probe_manager_1_1_cache_probe.html">CacheProbe</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21861c0f05cbac0e40b4b09d15cf363b">m_Cache</a></td></tr>
+<tr class="separator:a21861c0f05cbac0e40b4b09d15cf363b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4e498bedd072c33191ab8a7690d323f" id="r_ae4e498bedd072c33191ab8a7690d323f"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; int, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4e498bedd072c33191ab8a7690d323f">m_WarningCache</a></td></tr>
+<tr class="separator:ae4e498bedd072c33191ab8a7690d323f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6211972f536c67d434bbc11cdb2e8fd1" id="r_a6211972f536c67d434bbc11cdb2e8fd1"><td class="memItemLeft" align="right" valign="top">List&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6211972f536c67d434bbc11cdb2e8fd1">m_NeedsUpdate</a></td></tr>
+<tr class="separator:a6211972f536c67d434bbc11cdb2e8fd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:ab2ddea17c0cbff82fd1df82057e7cbe9" id="r_ab2ddea17c0cbff82fd1df82057e7cbe9"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab2ddea17c0cbff82fd1df82057e7cbe9">k_MaxVisibleReflectionProbeCount</a> = 4</td></tr>
+<tr class="separator:ab2ddea17c0cbff82fd1df82057e7cbe9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a081b93e7b02517b524fb145458ce5721" id="r_a081b93e7b02517b524fb145458ce5721"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a081b93e7b02517b524fb145458ce5721">k_MaxMipCount</a> = 7</td></tr>
+<tr class="separator:a081b93e7b02517b524fb145458ce5721"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a128326e884e585a8cc915fc3799af60a" id="r_a128326e884e585a8cc915fc3799af60a"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a128326e884e585a8cc915fc3799af60a">k_ReflectionProbeAtlasName</a> = &quot;BX Reflection Probe Atlas&quot;</td></tr>
+<tr class="separator:a128326e884e585a8cc915fc3799af60a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
@@ -202,7 +244,7 @@ Properties</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void BXRenderPipeline.BXReflectionProbeManager.Dispose </td>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXRenderPipeline.BXReflectionProbeManager.Dispose </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -214,6 +256,75 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="a669675b04d250ccd190b363f5d076b5d" name="a669675b04d250ccd190b363f5d076b5d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a669675b04d250ccd190b363f5d076b5d">&#9670;&#160;</a></span>GetScaleOffset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float4 BXRenderPipeline.BXReflectionProbeManager.GetScaleOffset </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>level</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>dataIndex</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>includePadding</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>yflip</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_b_x_reflection_probe_manager_8cs_source.html#l00353">353</a> of file <a class="el" href="_b_x_reflection_probe_manager_8cs_source.html">BXReflectionProbeManager.cs</a>.</p>
+
+</div>
+</div>
+<a id="ae58491b996a5f71bf00498aedd7a60fa" name="ae58491b996a5f71bf00498aedd7a60fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae58491b996a5f71bf00498aedd7a60fa">&#9670;&#160;</a></span>Init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXRenderPipeline.BXReflectionProbeManager.Init </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>, transferOwnership: true</p>
+
+<p class="definition">Definition at line <a class="el" href="_b_x_reflection_probe_manager_8cs_source.html#l00071">71</a> of file <a class="el" href="_b_x_reflection_probe_manager_8cs_source.html">BXReflectionProbeManager.cs</a>.</p>
+
+</div>
+</div>
 <a id="ac2ae98d19e4db12d280786d5194e3075" name="ac2ae98d19e4db12d280786d5194e3075"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac2ae98d19e4db12d280786d5194e3075">&#9670;&#160;</a></span>UpdateGPUData()</h2>
 
@@ -221,7 +332,7 @@ Properties</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">unsafe void BXRenderPipeline.BXReflectionProbeManager.UpdateGPUData </td>
+          <td class="memname">unsafe <a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXRenderPipeline.BXReflectionProbeManager.UpdateGPUData </td>
           <td>(</td>
           <td class="paramtype">CommandBuffer</td>          <td class="paramname"><span class="paramname"><em>cmd</em></span>, </td>
         </tr>
@@ -238,6 +349,174 @@ Properties</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a081b93e7b02517b524fb145458ce5721" name="a081b93e7b02517b524fb145458ce5721"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a081b93e7b02517b524fb145458ce5721">&#9670;&#160;</a></span>k_MaxMipCount</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int BXRenderPipeline.BXReflectionProbeManager.k_MaxMipCount = 7</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_b_x_reflection_probe_manager_8cs_source.html#l00015">15</a> of file <a class="el" href="_b_x_reflection_probe_manager_8cs_source.html">BXReflectionProbeManager.cs</a>.</p>
+
+</div>
+</div>
+<a id="ab2ddea17c0cbff82fd1df82057e7cbe9" name="ab2ddea17c0cbff82fd1df82057e7cbe9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2ddea17c0cbff82fd1df82057e7cbe9">&#9670;&#160;</a></span>k_MaxVisibleReflectionProbeCount</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int BXRenderPipeline.BXReflectionProbeManager.k_MaxVisibleReflectionProbeCount = 4</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_b_x_reflection_probe_manager_8cs_source.html#l00014">14</a> of file <a class="el" href="_b_x_reflection_probe_manager_8cs_source.html">BXReflectionProbeManager.cs</a>.</p>
+
+</div>
+</div>
+<a id="a128326e884e585a8cc915fc3799af60a" name="a128326e884e585a8cc915fc3799af60a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a128326e884e585a8cc915fc3799af60a">&#9670;&#160;</a></span>k_ReflectionProbeAtlasName</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string BXRenderPipeline.BXReflectionProbeManager.k_ReflectionProbeAtlasName = &quot;BX Reflection Probe Atlas&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_b_x_reflection_probe_manager_8cs_source.html#l00016">16</a> of file <a class="el" href="_b_x_reflection_probe_manager_8cs_source.html">BXReflectionProbeManager.cs</a>.</p>
+
+</div>
+</div>
+<a id="abeddc7b2df5b1bb5ca3a0bd88e4eb81b" name="abeddc7b2df5b1bb5ca3a0bd88e4eb81b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abeddc7b2df5b1bb5ca3a0bd88e4eb81b">&#9670;&#160;</a></span>m_AtlasAllocator</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_b_x_render_pipeline_1_1_b_x_buddy_allocator.html">BXBuddyAllocator</a> BXRenderPipeline.BXReflectionProbeManager.m_AtlasAllocator</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_b_x_reflection_probe_manager_8cs_source.html#l00024">24</a> of file <a class="el" href="_b_x_reflection_probe_manager_8cs_source.html">BXReflectionProbeManager.cs</a>.</p>
+
+</div>
+</div>
+<a id="a191f5a6352b5923f6ce1a0809fc5f1b2" name="a191f5a6352b5923f6ce1a0809fc5f1b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a191f5a6352b5923f6ce1a0809fc5f1b2">&#9670;&#160;</a></span>m_AtlasTexture0</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">RenderTexture BXRenderPipeline.BXReflectionProbeManager.m_AtlasTexture0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_b_x_reflection_probe_manager_8cs_source.html#l00021">21</a> of file <a class="el" href="_b_x_reflection_probe_manager_8cs_source.html">BXReflectionProbeManager.cs</a>.</p>
+
+</div>
+</div>
+<a id="a2a99e8f4ccbad3cb785c3fb5f91b630e" name="a2a99e8f4ccbad3cb785c3fb5f91b630e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a99e8f4ccbad3cb785c3fb5f91b630e">&#9670;&#160;</a></span>m_AtlasTexture0Handle</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">RTHandle BXRenderPipeline.BXReflectionProbeManager.m_AtlasTexture0Handle</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_b_x_reflection_probe_manager_8cs_source.html#l00023">23</a> of file <a class="el" href="_b_x_reflection_probe_manager_8cs_source.html">BXReflectionProbeManager.cs</a>.</p>
+
+</div>
+</div>
+<a id="ae3187bb783026a26d134fe3c0b04c980" name="ae3187bb783026a26d134fe3c0b04c980"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3187bb783026a26d134fe3c0b04c980">&#9670;&#160;</a></span>m_AtlasTexture1</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">RenderTexture BXRenderPipeline.BXReflectionProbeManager.m_AtlasTexture1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_b_x_reflection_probe_manager_8cs_source.html#l00022">22</a> of file <a class="el" href="_b_x_reflection_probe_manager_8cs_source.html">BXReflectionProbeManager.cs</a>.</p>
+
+</div>
+</div>
 <a id="a69f2b55adde6623d01c5f0b67511d5e3" name="a69f2b55adde6623d01c5f0b67511d5e3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a69f2b55adde6623d01c5f0b67511d5e3">&#9670;&#160;</a></span>m_BoxMax</h2>
 
@@ -267,6 +546,54 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="_b_x_reflection_probe_manager_8cs_source.html#l00032">32</a> of file <a class="el" href="_b_x_reflection_probe_manager_8cs_source.html">BXReflectionProbeManager.cs</a>.</p>
+
+</div>
+</div>
+<a id="a21861c0f05cbac0e40b4b09d15cf363b" name="a21861c0f05cbac0e40b4b09d15cf363b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21861c0f05cbac0e40b4b09d15cf363b">&#9670;&#160;</a></span>m_Cache</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Dictionary&lt;int, <a class="el" href="struct_b_x_render_pipeline_1_1_b_x_reflection_probe_manager_1_1_cache_probe.html">CacheProbe</a>&gt; BXRenderPipeline.BXReflectionProbeManager.m_Cache</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_b_x_reflection_probe_manager_8cs_source.html#l00025">25</a> of file <a class="el" href="_b_x_reflection_probe_manager_8cs_source.html">BXReflectionProbeManager.cs</a>.</p>
+
+</div>
+</div>
+<a id="a275ab4f9ff61b0b6035bf5be2ed129c6" name="a275ab4f9ff61b0b6035bf5be2ed129c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a275ab4f9ff61b0b6035bf5be2ed129c6">&#9670;&#160;</a></span>m_MaxAtlasTextureSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BXRenderPipeline.BXReflectionProbeManager.m_MaxAtlasTextureSize</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_b_x_reflection_probe_manager_8cs_source.html#l00018">18</a> of file <a class="el" href="_b_x_reflection_probe_manager_8cs_source.html">BXReflectionProbeManager.cs</a>.</p>
 
 </div>
 </div>
@@ -302,6 +629,30 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="a6211972f536c67d434bbc11cdb2e8fd1" name="a6211972f536c67d434bbc11cdb2e8fd1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6211972f536c67d434bbc11cdb2e8fd1">&#9670;&#160;</a></span>m_NeedsUpdate</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;int&gt; BXRenderPipeline.BXReflectionProbeManager.m_NeedsUpdate</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_b_x_reflection_probe_manager_8cs_source.html#l00027">27</a> of file <a class="el" href="_b_x_reflection_probe_manager_8cs_source.html">BXReflectionProbeManager.cs</a>.</p>
+
+</div>
+</div>
 <a id="a4a8f38eb807bb6cfc3bee7145dc53989" name="a4a8f38eb807bb6cfc3bee7145dc53989"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4a8f38eb807bb6cfc3bee7145dc53989">&#9670;&#160;</a></span>m_ProbePostion</h2>
 
@@ -331,6 +682,54 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="_b_x_reflection_probe_manager_8cs_source.html#l00035">35</a> of file <a class="el" href="_b_x_reflection_probe_manager_8cs_source.html">BXReflectionProbeManager.cs</a>.</p>
+
+</div>
+</div>
+<a id="a4075eebae1779a91c607dcb51266e52b" name="a4075eebae1779a91c607dcb51266e52b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4075eebae1779a91c607dcb51266e52b">&#9670;&#160;</a></span>m_Resolution</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int2 BXRenderPipeline.BXReflectionProbeManager.m_Resolution</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_b_x_reflection_probe_manager_8cs_source.html#l00020">20</a> of file <a class="el" href="_b_x_reflection_probe_manager_8cs_source.html">BXReflectionProbeManager.cs</a>.</p>
+
+</div>
+</div>
+<a id="ae4e498bedd072c33191ab8a7690d323f" name="ae4e498bedd072c33191ab8a7690d323f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4e498bedd072c33191ab8a7690d323f">&#9670;&#160;</a></span>m_WarningCache</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Dictionary&lt;int, int&gt; BXRenderPipeline.BXReflectionProbeManager.m_WarningCache</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_b_x_reflection_probe_manager_8cs_source.html#l00026">26</a> of file <a class="el" href="_b_x_reflection_probe_manager_8cs_source.html">BXReflectionProbeManager.cs</a>.</p>
 
 </div>
 </div>

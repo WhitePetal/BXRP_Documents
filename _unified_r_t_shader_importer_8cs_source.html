@@ -109,7 +109,7 @@ $(function(){initNavTree('_unified_r_t_shader_importer_8cs_source.html',''); ini
   <div class="headertitle"><div class="title">UnifiedRTShaderImporter.cs</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="keyword">using </span>System.Collections;</div>
+<a href="_unified_r_t_shader_importer_8cs.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="keyword">using </span>System.Collections;</div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="keyword">using </span>System.Collections.Generic;</div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="keyword">using </span>System.IO;</div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="keyword">using </span>UnityEditor;</div>
@@ -124,29 +124,32 @@ $(function(){initNavTree('_unified_r_t_shader_importer_8cs_source.html',''); ini
 <div class="foldopen" id="foldopen00012" data-start="{" data-end="};">
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="class_b_x_render_pipeline_editor_1_1_unified_r_t_shader_importer.html">   12</a></span>    <span class="keyword">public</span> <span class="keyword">class </span><a class="code hl_class" href="class_b_x_render_pipeline_editor_1_1_unified_r_t_shader_importer.html">UnifiedRTShaderImporter</a> : ScriptedImporter</div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    {</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>        <span class="keyword">const</span> <span class="keywordtype">string</span> computeShaderTemplate =</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="class_b_x_render_pipeline_editor_1_1_unified_r_t_shader_importer.html#a07dad699a0d0761bb9b90b2b6737e058">   14</a></span>        <span class="keyword">const</span> <span class="keywordtype">string</span> <a class="code hl_variable" href="class_b_x_render_pipeline_editor_1_1_unified_r_t_shader_importer.html#a07dad699a0d0761bb9b90b2b6737e058">computeShaderTemplate</a> =</div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>            <span class="stringliteral">&quot;#define UNIFIED_RT_BACKEND_COMPUTE\n&quot;</span> +</div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>            <span class="stringliteral">&quot;SHADERCODE\n&quot;</span> +</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>            <span class="stringliteral">&quot;#include_with_pragmas \&quot;Assets/Shaders/ShaderLibrarys/RayTracing/Compute/ComputeRaygenShader.hlsl\&quot;\n&quot;</span>;</div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>        <span class="keyword">const</span> <span class="keywordtype">string</span> raytracingShaderTemplate =</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="class_b_x_render_pipeline_editor_1_1_unified_r_t_shader_importer.html#ad0a8a74338d5bb3970239391fea7eccc">   19</a></span>        <span class="keyword">const</span> <span class="keywordtype">string</span> <a class="code hl_variable" href="class_b_x_render_pipeline_editor_1_1_unified_r_t_shader_importer.html#ad0a8a74338d5bb3970239391fea7eccc">raytracingShaderTemplate</a> =</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>            <span class="stringliteral">&quot;#define UNIFIED_RT_BACKEND_HARDWARE\n&quot;</span> +</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>            <span class="stringliteral">&quot;SHADERCODE\n&quot;</span> +</div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>            <span class="stringliteral">&quot;#include_with_pragmas \&quot;Assets/Shaders/ShaderLibrarys/RayTracing/Hardware/HardwareRaygenShader.hlsl\&quot;\n&quot;</span>;</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>        <span class="keyword">public</span> <span class="keyword">override</span> <span class="keywordtype">void</span> OnImportAsset(AssetImportContext ctx)</div>
+<div class="foldopen" id="foldopen00024" data-start="{" data-end="}">
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="class_b_x_render_pipeline_editor_1_1_unified_r_t_shader_importer.html#a4c8de5c6c278d70dc50cce7ff75aeb95">   24</a></span>        <span class="keyword">public</span> <span class="keyword">override</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_b_x_render_pipeline_editor_1_1_unified_r_t_shader_importer.html#a4c8de5c6c278d70dc50cce7ff75aeb95">OnImportAsset</a>(AssetImportContext ctx)</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>        {</div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>            <span class="keywordtype">string</span> source = File.ReadAllText(ctx.assetPath);</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>            var com = ShaderUtil.CreateComputeShaderAsset(ctx, computeShaderTemplate.Replace(<span class="stringliteral">&quot;SHADERCODE&quot;</span>, source));</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>            var rt = CreateRayTracingShaderAsset(ctx, raytracingShaderTemplate.Replace(<span class="stringliteral">&quot;SHADERCODE&quot;</span>, source));</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>            var com = ShaderUtil.CreateComputeShaderAsset(ctx, <a class="code hl_variable" href="class_b_x_render_pipeline_editor_1_1_unified_r_t_shader_importer.html#a07dad699a0d0761bb9b90b2b6737e058">computeShaderTemplate</a>.Replace(<span class="stringliteral">&quot;SHADERCODE&quot;</span>, source));</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>            var rt = <a class="code hl_function" href="class_b_x_render_pipeline_editor_1_1_unified_r_t_shader_importer.html#a96bb6c8f00100b2545141184b8eb80f2">CreateRayTracingShaderAsset</a>(ctx, <a class="code hl_variable" href="class_b_x_render_pipeline_editor_1_1_unified_r_t_shader_importer.html#ad0a8a74338d5bb3970239391fea7eccc">raytracingShaderTemplate</a>.Replace(<span class="stringliteral">&quot;SHADERCODE&quot;</span>, source));</div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>            ctx.AddObjectToAsset(<span class="stringliteral">&quot;ComputeShader&quot;</span>, com);</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>            ctx.AddObjectToAsset(<span class="stringliteral">&quot;RayTracingShader&quot;</span>, rt);</div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>            ctx.SetMainObject(com);</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>        }</div>
+</div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>        <span class="keyword">private</span> <span class="keyword">static</span> RayTracingShader CreateRayTracingShaderAsset(AssetImportContext ctx, <span class="keywordtype">string</span> source)</div>
+<div class="foldopen" id="foldopen00036" data-start="{" data-end="}">
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="class_b_x_render_pipeline_editor_1_1_unified_r_t_shader_importer.html#a96bb6c8f00100b2545141184b8eb80f2">   36</a></span>        <span class="keyword">private</span> <span class="keyword">static</span> RayTracingShader <a class="code hl_function" href="class_b_x_render_pipeline_editor_1_1_unified_r_t_shader_importer.html#a96bb6c8f00100b2545141184b8eb80f2">CreateRayTracingShaderAsset</a>(AssetImportContext ctx, <span class="keywordtype">string</span> source)</div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>        {</div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>            var path = ctx.assetPath + <span class="stringliteral">&quot;.raytrace&quot;</span>;</div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>            var fullPath = Path.Combine(Path.GetDirectoryName(<a class="code hl_class" href="class_application.html">Application</a>.dataPath), path);</div>
@@ -155,24 +158,30 @@ $(function(){initNavTree('_unified_r_t_shader_importer_8cs_source.html',''); ini
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>            AssetDatabase.CreateAsset(<span class="keyword">new</span> TextAsset(), path);</div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>            File.WriteAllText(fullPath, source);</div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>            RayTracingShader rt = AssetDatabase.LoadAssetAtPath&lt;RayTracingShader&gt;(path);</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>            rt = Object.Instantiate&lt;RayTracingShader&gt;(rt);</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>            rt = <a class="code hl_typedef" href="_graph_util_8cs.html#a5b2c8b05b9a357906d7f9e5b2c1e154d">Object</a>.Instantiate&lt;RayTracingShader&gt;(rt);</div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>            rt.name = nameW.Replace(<span class="stringliteral">&quot;.urtshader&quot;</span>, <span class="stringliteral">&quot;&quot;</span>);</div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>            AssetDatabase.DeleteAsset(path);</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>            <span class="keywordflow">return</span> rt;</div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        }</div>
+</div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    }</div>
 </div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>}</div>
 </div>
+<div class="ttc" id="a_graph_util_8cs_html_a5b2c8b05b9a357906d7f9e5b2c1e154d"><div class="ttname"><a href="_graph_util_8cs.html#a5b2c8b05b9a357906d7f9e5b2c1e154d">Object</a></div><div class="ttdeci">System.Object Object</div><div class="ttdef"><b>Definition</b> <a href="_graph_util_8cs_source.html#l00015">GraphUtil.cs:15</a></div></div>
 <div class="ttc" id="aclass_application_html"><div class="ttname"><a href="class_application.html">Application</a></div><div class="ttdef"><b>Definition</b> <a href="_application_8h_source.html#l00024">Application.h:25</a></div></div>
 <div class="ttc" id="aclass_b_x_render_pipeline_editor_1_1_unified_r_t_shader_importer_html"><div class="ttname"><a href="class_b_x_render_pipeline_editor_1_1_unified_r_t_shader_importer.html">BXRenderPipelineEditor.UnifiedRTShaderImporter</a></div><div class="ttdef"><b>Definition</b> <a href="#l00012">UnifiedRTShaderImporter.cs:13</a></div></div>
+<div class="ttc" id="aclass_b_x_render_pipeline_editor_1_1_unified_r_t_shader_importer_html_a07dad699a0d0761bb9b90b2b6737e058"><div class="ttname"><a href="class_b_x_render_pipeline_editor_1_1_unified_r_t_shader_importer.html#a07dad699a0d0761bb9b90b2b6737e058">BXRenderPipelineEditor.UnifiedRTShaderImporter.computeShaderTemplate</a></div><div class="ttdeci">const string computeShaderTemplate</div><div class="ttdef"><b>Definition</b> <a href="#l00014">UnifiedRTShaderImporter.cs:14</a></div></div>
+<div class="ttc" id="aclass_b_x_render_pipeline_editor_1_1_unified_r_t_shader_importer_html_a4c8de5c6c278d70dc50cce7ff75aeb95"><div class="ttname"><a href="class_b_x_render_pipeline_editor_1_1_unified_r_t_shader_importer.html#a4c8de5c6c278d70dc50cce7ff75aeb95">BXRenderPipelineEditor.UnifiedRTShaderImporter.OnImportAsset</a></div><div class="ttdeci">override void OnImportAsset(AssetImportContext ctx)</div><div class="ttdef"><b>Definition</b> <a href="#l00024">UnifiedRTShaderImporter.cs:24</a></div></div>
+<div class="ttc" id="aclass_b_x_render_pipeline_editor_1_1_unified_r_t_shader_importer_html_a96bb6c8f00100b2545141184b8eb80f2"><div class="ttname"><a href="class_b_x_render_pipeline_editor_1_1_unified_r_t_shader_importer.html#a96bb6c8f00100b2545141184b8eb80f2">BXRenderPipelineEditor.UnifiedRTShaderImporter.CreateRayTracingShaderAsset</a></div><div class="ttdeci">static RayTracingShader CreateRayTracingShaderAsset(AssetImportContext ctx, string source)</div><div class="ttdef"><b>Definition</b> <a href="#l00036">UnifiedRTShaderImporter.cs:36</a></div></div>
+<div class="ttc" id="aclass_b_x_render_pipeline_editor_1_1_unified_r_t_shader_importer_html_ad0a8a74338d5bb3970239391fea7eccc"><div class="ttname"><a href="class_b_x_render_pipeline_editor_1_1_unified_r_t_shader_importer.html#ad0a8a74338d5bb3970239391fea7eccc">BXRenderPipelineEditor.UnifiedRTShaderImporter.raytracingShaderTemplate</a></div><div class="ttdeci">const string raytracingShaderTemplate</div><div class="ttdef"><b>Definition</b> <a href="#l00019">UnifiedRTShaderImporter.cs:19</a></div></div>
 <div class="ttc" id="anamespace_b_x_render_pipeline_editor_html"><div class="ttname"><a href="namespace_b_x_render_pipeline_editor.html">BXRenderPipelineEditor</a></div><div class="ttdef"><b>Definition</b> <a href="#l00009">UnifiedRTShaderImporter.cs:10</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_f73a8b7d50989afdadf24d8fc7357a9a.html">FloowDream</a></li><li class="navelem"><a class="el" href="dir_1ba945c5ec581c9e331de81f300aff07.html">Assets</a></li><li class="navelem"><a class="el" href="dir_a57f4778d467e0a6236fa4788364df6c.html">Scripts</a></li><li class="navelem"><a class="el" href="dir_8b4148ef0ffda13d8a8272867298b61d.html">BXRenderPipeline</a></li><li class="navelem"><a class="el" href="dir_9caf1d2b15bab339e8d5ed0ad2590bde.html">Editor</a></li><li class="navelem"><b>UnifiedRTShaderImporter.cs</b></li>
+    <li class="navelem"><a class="el" href="dir_f73a8b7d50989afdadf24d8fc7357a9a.html">FloowDream</a></li><li class="navelem"><a class="el" href="dir_1ba945c5ec581c9e331de81f300aff07.html">Assets</a></li><li class="navelem"><a class="el" href="dir_a57f4778d467e0a6236fa4788364df6c.html">Scripts</a></li><li class="navelem"><a class="el" href="dir_8b4148ef0ffda13d8a8272867298b61d.html">BXRenderPipeline</a></li><li class="navelem"><a class="el" href="dir_9caf1d2b15bab339e8d5ed0ad2590bde.html">Editor</a></li><li class="navelem"><a class="el" href="_unified_r_t_shader_importer_8cs.html">UnifiedRTShaderImporter.cs</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
   </ul>
 </div>

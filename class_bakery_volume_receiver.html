@@ -109,6 +109,8 @@ $(function(){initNavTree('class_bakery_volume_receiver.html',''); initResizable(
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_bakery_volume_receiver-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">BakeryVolumeReceiver Class Reference</div></div>
 </div><!--header-->
@@ -122,18 +124,86 @@ Inheritance diagram for BakeryVolumeReceiver:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a57339c87bc29df3511ff0454df71f609" id="r_a57339c87bc29df3511ff0454df71f609"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a57339c87bc29df3511ff0454df71f609">SetPropertyBlock</a> (MaterialPropertyBlock mb)</td></tr>
+<tr class="memitem:a57339c87bc29df3511ff0454df71f609" id="r_a57339c87bc29df3511ff0454df71f609"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a57339c87bc29df3511ff0454df71f609">SetPropertyBlock</a> (MaterialPropertyBlock mb)</td></tr>
 <tr class="separator:a57339c87bc29df3511ff0454df71f609"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:afc6298c00c2679f5fedcf1321fe6a862" id="r_afc6298c00c2679f5fedcf1321fe6a862"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc6298c00c2679f5fedcf1321fe6a862">forceUsage</a> = false</td></tr>
 <tr class="separator:afc6298c00c2679f5fedcf1321fe6a862"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:ad00b21168ee8a8ca034c7982ae540c24" id="r_ad00b21168ee8a8ca034c7982ae540c24"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad00b21168ee8a8ca034c7982ae540c24">Awake</a> ()</td></tr>
+<tr class="separator:ad00b21168ee8a8ca034c7982ae540c24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a484e8c13dcda8f856c1e797832f8b53f" id="r_a484e8c13dcda8f856c1e797832f8b53f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a484e8c13dcda8f856c1e797832f8b53f">LateUpdate</a> ()</td></tr>
+<tr class="separator:a484e8c13dcda8f856c1e797832f8b53f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a9289266e8e8c14695b64f7e444c2ef44" id="r_a9289266e8e8c14695b64f7e444c2ef44"><td class="memItemLeft" align="right" valign="top">Renderer[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9289266e8e8c14695b64f7e444c2ef44">renderers</a></td></tr>
+<tr class="separator:a9289266e8e8c14695b64f7e444c2ef44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c957d6965f71f5b3613490dee681341" id="r_a1c957d6965f71f5b3613490dee681341"><td class="memItemLeft" align="right" valign="top">MaterialPropertyBlock&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c957d6965f71f5b3613490dee681341">current</a></td></tr>
+<tr class="separator:a1c957d6965f71f5b3613490dee681341"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
 <p class="definition">Definition at line <a class="el" href="_bakery_volume_receiver_8cs_source.html#l00007">7</a> of file <a class="el" href="_bakery_volume_receiver_8cs_source.html">BakeryVolumeReceiver.cs</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="ad00b21168ee8a8ca034c7982ae540c24" name="ad00b21168ee8a8ca034c7982ae540c24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad00b21168ee8a8ca034c7982ae540c24">&#9670;&#160;</a></span>Awake()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BakeryVolumeReceiver.Awake </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_bakery_volume_receiver_8cs_source.html#l00019">19</a> of file <a class="el" href="_bakery_volume_receiver_8cs_source.html">BakeryVolumeReceiver.cs</a>.</p>
+
+</div>
+</div>
+<a id="a484e8c13dcda8f856c1e797832f8b53f" name="a484e8c13dcda8f856c1e797832f8b53f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a484e8c13dcda8f856c1e797832f8b53f">&#9670;&#160;</a></span>LateUpdate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BakeryVolumeReceiver.LateUpdate </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_bakery_volume_receiver_8cs_source.html#l00041">41</a> of file <a class="el" href="_bakery_volume_receiver_8cs_source.html">BakeryVolumeReceiver.cs</a>.</p>
+
+</div>
+</div>
 <a id="a57339c87bc29df3511ff0454df71f609" name="a57339c87bc29df3511ff0454df71f609"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a57339c87bc29df3511ff0454df71f609">&#9670;&#160;</a></span>SetPropertyBlock()</h2>
 
@@ -141,7 +211,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void BakeryVolumeReceiver.SetPropertyBlock </td>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BakeryVolumeReceiver.SetPropertyBlock </td>
           <td>(</td>
           <td class="paramtype">MaterialPropertyBlock</td>          <td class="paramname"><span class="paramname"><em>mb</em></span></td><td>)</td>
           <td></td>
@@ -154,6 +224,30 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a1c957d6965f71f5b3613490dee681341" name="a1c957d6965f71f5b3613490dee681341"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c957d6965f71f5b3613490dee681341">&#9670;&#160;</a></span>current</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MaterialPropertyBlock BakeryVolumeReceiver.current</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_bakery_volume_receiver_8cs_source.html#l00016">16</a> of file <a class="el" href="_bakery_volume_receiver_8cs_source.html">BakeryVolumeReceiver.cs</a>.</p>
+
+</div>
+</div>
 <a id="afc6298c00c2679f5fedcf1321fe6a862" name="afc6298c00c2679f5fedcf1321fe6a862"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afc6298c00c2679f5fedcf1321fe6a862">&#9670;&#160;</a></span>forceUsage</h2>
 
@@ -167,6 +261,30 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="_bakery_volume_receiver_8cs_source.html#l00009">9</a> of file <a class="el" href="_bakery_volume_receiver_8cs_source.html">BakeryVolumeReceiver.cs</a>.</p>
+
+</div>
+</div>
+<a id="a9289266e8e8c14695b64f7e444c2ef44" name="a9289266e8e8c14695b64f7e444c2ef44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9289266e8e8c14695b64f7e444c2ef44">&#9670;&#160;</a></span>renderers</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Renderer [] BakeryVolumeReceiver.renderers</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_bakery_volume_receiver_8cs_source.html#l00015">15</a> of file <a class="el" href="_bakery_volume_receiver_8cs_source.html">BakeryVolumeReceiver.cs</a>.</p>
 
 </div>
 </div>

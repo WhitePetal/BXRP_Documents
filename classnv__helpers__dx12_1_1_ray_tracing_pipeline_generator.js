@@ -1,11 +1,26 @@
 var classnv__helpers__dx12_1_1_ray_tracing_pipeline_generator =
 [
+    [ "HitGroup", "structnv__helpers__dx12_1_1_ray_tracing_pipeline_generator_1_1_hit_group.html", "structnv__helpers__dx12_1_1_ray_tracing_pipeline_generator_1_1_hit_group" ],
+    [ "Library", "structnv__helpers__dx12_1_1_ray_tracing_pipeline_generator_1_1_library.html", "structnv__helpers__dx12_1_1_ray_tracing_pipeline_generator_1_1_library" ],
+    [ "RootSignatureAssociation", "structnv__helpers__dx12_1_1_ray_tracing_pipeline_generator_1_1_root_signature_association.html", "structnv__helpers__dx12_1_1_ray_tracing_pipeline_generator_1_1_root_signature_association" ],
     [ "RayTracingPipelineGenerator", "classnv__helpers__dx12_1_1_ray_tracing_pipeline_generator.html#a4faf17e7f037304b8860f93dbca03700", null ],
+    [ "~RayTracingPipelineGenerator", "classnv__helpers__dx12_1_1_ray_tracing_pipeline_generator.html#ae30d3a6fbf67229f38a04b38d0dd4b7a", null ],
     [ "AddHitGroup", "classnv__helpers__dx12_1_1_ray_tracing_pipeline_generator.html#afffeb37c3b24fa1fd9992c1b5e6cad38", null ],
     [ "AddLibrary", "classnv__helpers__dx12_1_1_ray_tracing_pipeline_generator.html#a8a5da922c1681a49dfdd73ca1a535f58", null ],
     [ "AddRootSignatureAssociation", "classnv__helpers__dx12_1_1_ray_tracing_pipeline_generator.html#ab7a09f6a35cdbce090e516355912cd8e", null ],
+    [ "BuildShaderExportList", "classnv__helpers__dx12_1_1_ray_tracing_pipeline_generator.html#a2cc447975e56d619e5b2fa7f3adbc75d", null ],
+    [ "CreateDummyRootSignatures", "classnv__helpers__dx12_1_1_ray_tracing_pipeline_generator.html#a7d25ba784e644a1d0bdbf45b390d8353", null ],
     [ "Generate", "classnv__helpers__dx12_1_1_ray_tracing_pipeline_generator.html#a82b0460f1bb4506e2f983af14781d58b", null ],
     [ "SetMaxAttributeSize", "classnv__helpers__dx12_1_1_ray_tracing_pipeline_generator.html#a86959da2d80f34ad2bc63a555ff19827", null ],
     [ "SetMaxPayloadSize", "classnv__helpers__dx12_1_1_ray_tracing_pipeline_generator.html#a26c95369e685b6ce61b06e5072baf1d1", null ],
-    [ "SetMaxRecursionDepth", "classnv__helpers__dx12_1_1_ray_tracing_pipeline_generator.html#a5d69cfbed2dc08ab9038dd2431aae3b6", null ]
+    [ "SetMaxRecursionDepth", "classnv__helpers__dx12_1_1_ray_tracing_pipeline_generator.html#a5d69cfbed2dc08ab9038dd2431aae3b6", null ],
+    [ "m_device", "classnv__helpers__dx12_1_1_ray_tracing_pipeline_generator.html#a71b9e37782c574c633502ed1490ff464", null ],
+    [ "m_dummyGlobalRootSignature", "classnv__helpers__dx12_1_1_ray_tracing_pipeline_generator.html#a831a5288da79abbd84f18caf77896c3b", null ],
+    [ "m_dummyLocalRootSignature", "classnv__helpers__dx12_1_1_ray_tracing_pipeline_generator.html#a63dc5ceffc99a9211151c6b28db886cf", null ],
+    [ "m_hitGroups", "classnv__helpers__dx12_1_1_ray_tracing_pipeline_generator.html#ad8b3564de57970b989d0661428d9d5cd", null ],
+    [ "m_libraries", "classnv__helpers__dx12_1_1_ray_tracing_pipeline_generator.html#a7855dc1af10a4c36894028acafbf4d73", null ],
+    [ "m_maxAttributeSizeInBytes", "classnv__helpers__dx12_1_1_ray_tracing_pipeline_generator.html#a1f0958fa25ecc8a6662bc7adf05c28b1", null ],
+    [ "m_maxPayLoadSizeInBytes", "classnv__helpers__dx12_1_1_ray_tracing_pipeline_generator.html#ab6da582dca3c70901e47c0852beaa239", null ],
+    [ "m_maxRecursionDepth", "classnv__helpers__dx12_1_1_ray_tracing_pipeline_generator.html#a94cef8dd0473054f1652227ac7cc187e", null ],
+    [ "m_rootSignatureAssociations", "classnv__helpers__dx12_1_1_ray_tracing_pipeline_generator.html#ae9026fc3432e0619f559a3c3d1967b2f", null ]
 ];

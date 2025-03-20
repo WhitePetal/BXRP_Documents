@@ -1,0 +1,5 @@
+var struct_d3_d12___f_e_a_t_u_r_e___d_a_t_a___v_i_d_e_o___m_o_t_i_o_n___e_s_t_i_m_a_t_o_r___p_r_o_t_e_c_t_e_d___r_e_s_o_u_r_c_e_s =
+[
+    [ "NodeIndex", "struct_d3_d12___f_e_a_t_u_r_e___d_a_t_a___v_i_d_e_o___m_o_t_i_o_n___e_s_t_i_m_a_t_o_r___p_r_o_t_e_c_t_e_d___r_e_s_o_u_r_c_e_s.html#a97b802f12c689248bfa942febfc645bc", null ],
+    [ "SupportFlags", "struct_d3_d12___f_e_a_t_u_r_e___d_a_t_a___v_i_d_e_o___m_o_t_i_o_n___e_s_t_i_m_a_t_o_r___p_r_o_t_e_c_t_e_d___r_e_s_o_u_r_c_e_s.html#ab5bb26e99341000c265da460876e3fce", null ]
+];

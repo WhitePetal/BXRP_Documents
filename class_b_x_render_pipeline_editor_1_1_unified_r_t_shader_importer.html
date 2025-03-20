@@ -108,6 +108,8 @@ $(function(){initNavTree('class_b_x_render_pipeline_editor_1_1_unified_r_t_shade
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-static-methods">Static Private Member Functions</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="class_b_x_render_pipeline_editor_1_1_unified_r_t_shader_importer-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">BXRenderPipelineEditor.UnifiedRTShaderImporter Class Reference</div></div>
 </div><!--header-->
@@ -121,13 +123,56 @@ Inheritance diagram for BXRenderPipelineEditor.UnifiedRTShaderImporter:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a4c8de5c6c278d70dc50cce7ff75aeb95" id="r_a4c8de5c6c278d70dc50cce7ff75aeb95"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c8de5c6c278d70dc50cce7ff75aeb95">OnImportAsset</a> (AssetImportContext ctx)</td></tr>
+<tr class="memitem:a4c8de5c6c278d70dc50cce7ff75aeb95" id="r_a4c8de5c6c278d70dc50cce7ff75aeb95"><td class="memItemLeft" align="right" valign="top">override <a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c8de5c6c278d70dc50cce7ff75aeb95">OnImportAsset</a> (AssetImportContext ctx)</td></tr>
 <tr class="separator:a4c8de5c6c278d70dc50cce7ff75aeb95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-methods" name="pri-static-methods"></a>
+Static Private Member Functions</h2></td></tr>
+<tr class="memitem:a96bb6c8f00100b2545141184b8eb80f2" id="r_a96bb6c8f00100b2545141184b8eb80f2"><td class="memItemLeft" align="right" valign="top">static RayTracingShader&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a96bb6c8f00100b2545141184b8eb80f2">CreateRayTracingShaderAsset</a> (AssetImportContext ctx, string source)</td></tr>
+<tr class="separator:a96bb6c8f00100b2545141184b8eb80f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a07dad699a0d0761bb9b90b2b6737e058" id="r_a07dad699a0d0761bb9b90b2b6737e058"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a07dad699a0d0761bb9b90b2b6737e058">computeShaderTemplate</a></td></tr>
+<tr class="separator:a07dad699a0d0761bb9b90b2b6737e058"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0a8a74338d5bb3970239391fea7eccc" id="r_ad0a8a74338d5bb3970239391fea7eccc"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad0a8a74338d5bb3970239391fea7eccc">raytracingShaderTemplate</a></td></tr>
+<tr class="separator:ad0a8a74338d5bb3970239391fea7eccc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
 <p class="definition">Definition at line <a class="el" href="_unified_r_t_shader_importer_8cs_source.html#l00012">12</a> of file <a class="el" href="_unified_r_t_shader_importer_8cs_source.html">UnifiedRTShaderImporter.cs</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a96bb6c8f00100b2545141184b8eb80f2" name="a96bb6c8f00100b2545141184b8eb80f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96bb6c8f00100b2545141184b8eb80f2">&#9670;&#160;</a></span>CreateRayTracingShaderAsset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static RayTracingShader BXRenderPipelineEditor.UnifiedRTShaderImporter.CreateRayTracingShaderAsset </td>
+          <td>(</td>
+          <td class="paramtype">AssetImportContext</td>          <td class="paramname"><span class="paramname"><em>ctx</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>source</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_unified_r_t_shader_importer_8cs_source.html#l00036">36</a> of file <a class="el" href="_unified_r_t_shader_importer_8cs_source.html">UnifiedRTShaderImporter.cs</a>.</p>
+
+</div>
+</div>
 <a id="a4c8de5c6c278d70dc50cce7ff75aeb95" name="a4c8de5c6c278d70dc50cce7ff75aeb95"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4c8de5c6c278d70dc50cce7ff75aeb95">&#9670;&#160;</a></span>OnImportAsset()</h2>
 
@@ -135,7 +180,7 @@ Public Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">override void BXRenderPipelineEditor.UnifiedRTShaderImporter.OnImportAsset </td>
+          <td class="memname">override <a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXRenderPipelineEditor.UnifiedRTShaderImporter.OnImportAsset </td>
           <td>(</td>
           <td class="paramtype">AssetImportContext</td>          <td class="paramname"><span class="paramname"><em>ctx</em></span></td><td>)</td>
           <td></td>
@@ -144,6 +189,63 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="_unified_r_t_shader_importer_8cs_source.html#l00024">24</a> of file <a class="el" href="_unified_r_t_shader_importer_8cs_source.html">UnifiedRTShaderImporter.cs</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a07dad699a0d0761bb9b90b2b6737e058" name="a07dad699a0d0761bb9b90b2b6737e058"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07dad699a0d0761bb9b90b2b6737e058">&#9670;&#160;</a></span>computeShaderTemplate</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string BXRenderPipelineEditor.UnifiedRTShaderImporter.computeShaderTemplate</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">            <span class="stringliteral">&quot;#define UNIFIED_RT_BACKEND_COMPUTE\n&quot;</span> +</div>
+<div class="line">            <span class="stringliteral">&quot;SHADERCODE\n&quot;</span> +</div>
+<div class="line">            <span class="stringliteral">&quot;#include_with_pragmas \&quot;Assets/Shaders/ShaderLibrarys/RayTracing/Compute/ComputeRaygenShader.hlsl\&quot;\n&quot;</span></div>
+</div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="_unified_r_t_shader_importer_8cs_source.html#l00014">14</a> of file <a class="el" href="_unified_r_t_shader_importer_8cs_source.html">UnifiedRTShaderImporter.cs</a>.</p>
+
+</div>
+</div>
+<a id="ad0a8a74338d5bb3970239391fea7eccc" name="ad0a8a74338d5bb3970239391fea7eccc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0a8a74338d5bb3970239391fea7eccc">&#9670;&#160;</a></span>raytracingShaderTemplate</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string BXRenderPipelineEditor.UnifiedRTShaderImporter.raytracingShaderTemplate</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">            <span class="stringliteral">&quot;#define UNIFIED_RT_BACKEND_HARDWARE\n&quot;</span> +</div>
+<div class="line">            <span class="stringliteral">&quot;SHADERCODE\n&quot;</span> +</div>
+<div class="line">            <span class="stringliteral">&quot;#include_with_pragmas \&quot;Assets/Shaders/ShaderLibrarys/RayTracing/Hardware/HardwareRaygenShader.hlsl\&quot;\n&quot;</span></div>
+</div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="_unified_r_t_shader_importer_8cs_source.html#l00019">19</a> of file <a class="el" href="_unified_r_t_shader_importer_8cs_source.html">UnifiedRTShaderImporter.cs</a>.</p>
 
 </div>
 </div>

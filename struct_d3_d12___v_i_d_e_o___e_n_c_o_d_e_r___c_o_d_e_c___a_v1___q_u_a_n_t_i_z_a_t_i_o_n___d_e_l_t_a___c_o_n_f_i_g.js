@@ -1,0 +1,5 @@
+var struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___c_o_d_e_c___a_v1___q_u_a_n_t_i_z_a_t_i_o_n___d_e_l_t_a___c_o_n_f_i_g =
+[
+    [ "DeltaQPresent", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___c_o_d_e_c___a_v1___q_u_a_n_t_i_z_a_t_i_o_n___d_e_l_t_a___c_o_n_f_i_g.html#a9eec55edf629bde8902aaebc46b0d32f", null ],
+    [ "DeltaQRes", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___c_o_d_e_c___a_v1___q_u_a_n_t_i_z_a_t_i_o_n___d_e_l_t_a___c_o_n_f_i_g.html#aed55e85a99d80910c2544f9c90403f97", null ]
+];

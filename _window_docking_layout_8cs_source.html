@@ -109,7 +109,7 @@ $(function(){initNavTree('_window_docking_layout_8cs_source.html',''); initResiz
   <div class="headertitle"><div class="title">WindowDockingLayout.cs</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="keyword">using </span>System;</div>
+<a href="_window_docking_layout_8cs.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="keyword">using </span>System;</div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="keyword">using </span>System.Collections;</div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="keyword">using </span>System.Collections.Generic;</div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="keyword">using </span>UnityEngine;</div>
@@ -158,9 +158,9 @@ $(function(){initNavTree('_window_docking_layout_8cs_source.html',''); initResiz
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>        }</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        [SerializeField]</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>        <span class="keyword">private</span> Vector2 m_Size;</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>        <span class="keyword">private</span> <a class="code hl_enumvalue" href="namespace_b_x_geometry_graph.html#ad0e11e1489817712969f4f5edfebed4fa1bebc5ae2822f8e361fb0ce57b5e09e2">Vector2</a> m_Size;</div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>        <span class="keyword">public</span> Vector2 size</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>        <span class="keyword">public</span> <a class="code hl_enumvalue" href="namespace_b_x_geometry_graph.html#ad0e11e1489817712969f4f5edfebed4fa1bebc5ae2822f8e361fb0ce57b5e09e2">Vector2</a> size</div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>        {</div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>            <span class="keyword">get</span> { <span class="keywordflow">return</span> m_Size; }</div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>            <span class="keyword">set</span> { m_Size = value; }</div>
@@ -168,7 +168,7 @@ $(function(){initNavTree('_window_docking_layout_8cs_source.html',''); initResiz
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>        <span class="keyword">public</span> <span class="keywordtype">void</span> CalculateDockingCornerAndOffset(Rect layout, Rect parentLayout)</div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>        {</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>            Vector2 layoutCenter = <span class="keyword">new</span> Vector2(layout.x + layout.width * 0.5f, layout.y + layout.height * 0.5f);</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>            <a class="code hl_enumvalue" href="namespace_b_x_geometry_graph.html#ad0e11e1489817712969f4f5edfebed4fa1bebc5ae2822f8e361fb0ce57b5e09e2">Vector2</a> layoutCenter = <span class="keyword">new</span> <a class="code hl_enumvalue" href="namespace_b_x_geometry_graph.html#ad0e11e1489817712969f4f5edfebed4fa1bebc5ae2822f8e361fb0ce57b5e09e2">Vector2</a>(layout.x + layout.width * 0.5f, layout.y + layout.height * 0.5f);</div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>            layoutCenter /= parentLayout.size;</div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>            m_DockingLeft = layoutCenter.x &lt; .5f;</div>
@@ -236,7 +236,7 @@ $(function(){initNavTree('_window_docking_layout_8cs_source.html',''); initResiz
 <div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>        {</div>
 <div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>            Rect layout = <span class="keyword">new</span> Rect();</div>
 <div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span> </div>
-<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>            Debug.Log(<span class="stringliteral">&quot;WindowDockingLayout Size: &quot;</span> + size);</div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>            <a class="code hl_typedef" href="_graph_util_8cs.html#a0100be52d45f14348918ea69ec09f959">Debug</a>.<a class="code hl_function" href="class_debug.html#a1c69b0423a8f8161fd8c6c203a77aeab">Log</a>(<span class="stringliteral">&quot;WindowDockingLayout Size: &quot;</span> + size);</div>
 <div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>            layout.size = size;</div>
 <div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span> </div>
 <div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>            <span class="keywordflow">if</span> (dockingLeft)</div>
@@ -261,13 +261,16 @@ $(function(){initNavTree('_window_docking_layout_8cs_source.html',''); initResiz
 <div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span>        }</div>
 <div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span>    }</div>
 <div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span>}</div>
+<div class="ttc" id="a_graph_util_8cs_html_a0100be52d45f14348918ea69ec09f959"><div class="ttname"><a href="_graph_util_8cs.html#a0100be52d45f14348918ea69ec09f959">Debug</a></div><div class="ttdeci">UnityEngine.Debug Debug</div><div class="ttdef"><b>Definition</b> <a href="_graph_util_8cs_source.html#l00014">GraphUtil.cs:14</a></div></div>
+<div class="ttc" id="aclass_debug_html_a1c69b0423a8f8161fd8c6c203a77aeab"><div class="ttname"><a href="class_debug.html#a1c69b0423a8f8161fd8c6c203a77aeab">Debug::Log</a></div><div class="ttdeci">static void Log(const std::string &amp;message)</div><div class="ttdef"><b>Definition</b> <a href="_debug_8cpp_source.html#l00101">Debug.cpp:101</a></div></div>
 <div class="ttc" id="anamespace_b_x_geometry_graph_html"><div class="ttname"><a href="namespace_b_x_geometry_graph.html">BXGeometryGraph</a></div><div class="ttdef"><b>Definition</b> <a href="_abstract_geometry_graph_data_extension_8cs_source.html#l00008">AbstractGeometryGraphDataExtension.cs:9</a></div></div>
+<div class="ttc" id="anamespace_b_x_geometry_graph_html_ad0e11e1489817712969f4f5edfebed4fa1bebc5ae2822f8e361fb0ce57b5e09e2"><div class="ttname"><a href="namespace_b_x_geometry_graph.html#ad0e11e1489817712969f4f5edfebed4fa1bebc5ae2822f8e361fb0ce57b5e09e2">BXGeometryGraph.PropertyType.Vector2</a></div><div class="ttdeci">@ Vector2</div><div class="ttdef"><b>Definition</b> <a href="_property_type_8cs_source.html#l00018">PropertyType.cs:18</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_f73a8b7d50989afdadf24d8fc7357a9a.html">FloowDream</a></li><li class="navelem"><a class="el" href="dir_1ba945c5ec581c9e331de81f300aff07.html">Assets</a></li><li class="navelem"><a class="el" href="dir_a57f4778d467e0a6236fa4788364df6c.html">Scripts</a></li><li class="navelem"><a class="el" href="dir_8b4148ef0ffda13d8a8272867298b61d.html">BXRenderPipeline</a></li><li class="navelem"><a class="el" href="dir_a8720bb293956aa0546773bed716ef7d.html">GeometryGraph</a></li><li class="navelem"><a class="el" href="dir_70308b049469fb202d64bde4a4db7180.html">Editor</a></li><li class="navelem"><a class="el" href="dir_aadc9f8f90e62700ff76d57bf008269a.html">Drawing</a></li><li class="navelem"><b>WindowDockingLayout.cs</b></li>
+    <li class="navelem"><a class="el" href="dir_f73a8b7d50989afdadf24d8fc7357a9a.html">FloowDream</a></li><li class="navelem"><a class="el" href="dir_1ba945c5ec581c9e331de81f300aff07.html">Assets</a></li><li class="navelem"><a class="el" href="dir_a57f4778d467e0a6236fa4788364df6c.html">Scripts</a></li><li class="navelem"><a class="el" href="dir_8b4148ef0ffda13d8a8272867298b61d.html">BXRenderPipeline</a></li><li class="navelem"><a class="el" href="dir_a8720bb293956aa0546773bed716ef7d.html">GeometryGraph</a></li><li class="navelem"><a class="el" href="dir_70308b049469fb202d64bde4a4db7180.html">Editor</a></li><li class="navelem"><a class="el" href="dir_aadc9f8f90e62700ff76d57bf008269a.html">Drawing</a></li><li class="navelem"><a class="el" href="_window_docking_layout_8cs.html">WindowDockingLayout.cs</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
   </ul>
 </div>

@@ -1,4 +1,26 @@
 var searchData=
 [
-  ['numberofcellsblendedperframe_0',['numberOfCellsBlendedPerFrame',['../class_b_x_render_pipeline_1_1_probe_reference_volume.html#a7eab7cb9d69e825678f242112954861e',1,'BXRenderPipeline::ProbeReferenceVolume']]]
+  ['geometry_0',['geometry',['../class_b_x_geometry_graph_1_1_generation_results.html#af4daf997e3a5b7f68da2719e25ad817d',1,'BXGeometryGraph::GenerationResults']]],
+  ['geometrycontext_1',['geometryContext',['../class_b_x_geometry_graph_1_1_graph_data.html#ae93714ca1e233425d9be543c49ad8e55',1,'BXGeometryGraph::GraphData']]],
+  ['geometryinput_2',['geometryInput',['../class_b_x_geometry_graph_1_1_g_g_blackboard_field.html#a35a509a15fff88a6bef710b05f2743c4',1,'BXGeometryGraph::GGBlackboardField']]],
+  ['geometryinputreference_3',['geometryInputReference',['../class_b_x_geometry_graph_1_1_add_geometry_input_action.html#a26c0e5c1e92d67f4c83eef5feb6e9b51',1,'BXGeometryGraph::AddGeometryInputAction']]],
+  ['geometryinputtocopy_4',['geometryInputToCopy',['../class_b_x_geometry_graph_1_1_copy_geometry_input_action.html#a156b1a41b54bf7c17390ae985785a2bd',1,'BXGeometryGraph::CopyGeometryInputAction']]],
+  ['geometryoutputname_5',['geometryOutputName',['../class_b_x_geometry_graph_1_1_geometry_slot.html#a2c793cc4c641c6276b59fed7a2e964c1',1,'BXGeometryGraph::GeometrySlot']]],
+  ['geometryso_6',['geometrySO',['../class_b_x_geometry_graph_1_1_generator.html#a49a23a2c8a172e8f8ecf36d15cb556b1',1,'BXGeometryGraph.Generator.geometrySO'],['../class_b_x_geometry_graph_1_1_runtime_1_1_geometry_renderer.html#a85b62a5b6a8327a6d8907c49d9ff8a76',1,'BXGeometryGraph.Runtime.GeometryRenderer.geometrySO']]],
+  ['geometrystage_7',['geometryStage',['../class_b_x_geometry_graph_1_1_context_data.html#aaec6173758e8bb4e2d9a9798dc45ab9e',1,'BXGeometryGraph::ContextData']]],
+  ['getselection_8',['GetSelection',['../class_b_x_geometry_graph_1_1_geometry_graph_view.html#a1aebe8fc0099d15f844576cd7f4a0d0e',1,'BXGeometryGraph.GeometryGraphView.GetSelection'],['../interface_b_x_geometry_graph_1_1_i_selection_provider.html#a78f85d019cf51480e0bfbb22b2433dfc',1,'BXGeometryGraph.ISelectionProvider.GetSelection']]],
+  ['ggversion_9',['ggVersion',['../class_b_x_geometry_graph_1_1_json_object.html#af697ba2bc99852bb86e91349f430a7e7',1,'BXGeometryGraph::JsonObject']]],
+  ['globalindentlevel_10',['globalIndentLevel',['../class_b_x_geometry_graph_1_1_target_property_g_u_i_context.html#af16c10e4a80c9d5768ba864d38acbdba',1,'BXGeometryGraph::TargetPropertyGUIContext']]],
+  ['gradientvalue_11',['gradientValue',['../struct_b_x_geometry_graph_1_1_preview_property.html#a30689171e7853e84818df20bd26dfdf0',1,'BXGeometryGraph::PreviewProperty']]],
+  ['graph_12',['graph',['../class_b_x_geometry_graph_1_1_geometry_graph_view.html#af6002dafbc98401287a5f62966a3b8c5',1,'BXGeometryGraph.GeometryGraphView.graph'],['../class_b_x_geometry_graph_1_1_graph_object.html#a7c3601f6eb72dd47a6009403f2b172db',1,'BXGeometryGraph.GraphObject.graph']]],
+  ['graphdatastore_13',['graphDataStore',['../class_b_x_geometry_graph_1_1_graph_object.html#a8394d901580957f947391af8de35aa95',1,'BXGeometryGraph::GraphObject']]],
+  ['graphdefaultconcreteprecision_14',['graphDefaultConcretePrecision',['../class_b_x_geometry_graph_1_1_graph_data.html#a0785c43c5693763e9533b33d9bf7ad5b',1,'BXGeometryGraph::GraphData']]],
+  ['graphdefaultprecision_15',['graphDefaultPrecision',['../class_b_x_geometry_graph_1_1_graph_data.html#a76da3f892cd4705740da64e66601b015',1,'BXGeometryGraph::GraphData']]],
+  ['graphinputbeingdraggedin_16',['graphInputBeingDraggedIn',['../class_b_x_geometry_graph_1_1_drag_graph_input_action.html#afd88654e3838eb54462b2d00c3fa69aa',1,'BXGeometryGraph::DragGraphInputAction']]],
+  ['graphprecision_17',['graphPrecision',['../class_b_x_geometry_graph_1_1_abstract_geometry_node.html#a13af8e512898ddc726702883e005f727',1,'BXGeometryGraph::AbstractGeometryNode']]],
+  ['graphview_18',['graphView',['../class_b_x_geometry_graph_1_1_graph_editor_view.html#a02cff492dc6cf6008541981673021ff9',1,'BXGeometryGraph::GraphEditorView']]],
+  ['group_19',['group',['../interface_b_x_geometry_graph_1_1_i_group_item.html#a3f1f86c656a4a1cb97db43acd0a48609',1,'BXGeometryGraph.IGroupItem.group'],['../class_b_x_geometry_graph_1_1_abstract_geometry_node.html#a32bbe5356c872ec6e86bdd22f5d3af15',1,'BXGeometryGraph.AbstractGeometryNode.group'],['../class_b_x_geometry_graph_1_1_sticky_note_data.html#a4e83a328397b386278018473e8cf9aa6',1,'BXGeometryGraph.StickyNoteData.group']]],
+  ['groups_20',['groups',['../class_b_x_geometry_graph_1_1_copy_paste_graph.html#a740d2c57d4b78bd0f3c4a20955fc0f71',1,'BXGeometryGraph.CopyPasteGraph.groups'],['../class_b_x_geometry_graph_1_1_graph_data.html#af3be2883c82a85173bb7cd3cdbe3a613',1,'BXGeometryGraph.GraphData.groups']]],
+  ['guid_21',['guid',['../class_b_x_geometry_graph_1_1_serializable_guid.html#a6cb125fcde9eef2661faaa5788c58e17',1,'BXGeometryGraph::SerializableGuid']]],
+  ['gvnode_22',['gvNode',['../class_b_x_geometry_graph_1_1_geometry_node_view.html#a736a291f35fbd82ce07b6b4a3aacd530',1,'BXGeometryGraph.GeometryNodeView.gvNode'],['../interface_b_x_geometry_graph_1_1_i_geometry_node_view.html#aa2a19e1a75e4f25535763d94ff1f7338',1,'BXGeometryGraph.IGeometryNodeView.gvNode'],['../class_b_x_geometry_graph_1_1_property_node_view.html#a5524d56293c563c4222ea608944f0c89',1,'BXGeometryGraph.PropertyNodeView.gvNode'],['../class_b_x_geometry_graph_1_1_redirect_node_view.html#a00db46fa8ec1b91a80116a2927584c6d',1,'BXGeometryGraph.RedirectNodeView.gvNode']]]
 ];

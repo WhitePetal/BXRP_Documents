@@ -109,7 +109,7 @@ $(function(){initNavTree('_property_drawer_utils_8cs_source.html',''); initResiz
   <div class="headertitle"><div class="title">PropertyDrawerUtils.cs</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="keyword">using </span>System;</div>
+<a href="_property_drawer_utils_8cs.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="keyword">using </span>System;</div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="keyword">using </span>System.Collections;</div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="keyword">using </span>System.Collections.Generic;</div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="keyword">using </span>UnityEngine;</div>
@@ -118,9 +118,11 @@ $(function(){initNavTree('_property_drawer_utils_8cs_source.html',''); initResiz
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_b_x_geometry_graph.html">BXGeometryGraph</a></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>{</div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">class </span>PropertyDrawerUtils</div>
+<div class="foldopen" id="foldopen00010" data-start="{" data-end="};">
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="class_b_x_geometry_graph_1_1_property_drawer_utils.html">   10</a></span>    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">class </span><a class="code hl_class" href="class_b_x_geometry_graph_1_1_property_drawer_utils.html">PropertyDrawerUtils</a></div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>    {</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>        <span class="keyword">public</span> <span class="keyword">static</span> Label CreateLabel(<span class="keywordtype">string</span> text, <span class="keywordtype">int</span> indentLevel = 0, FontStyle fontStyle = FontStyle.Normal)</div>
+<div class="foldopen" id="foldopen00012" data-start="{" data-end="}">
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="class_b_x_geometry_graph_1_1_property_drawer_utils.html#a3ff92b3762a6c96a2ee4b647a24fd741">   12</a></span>        <span class="keyword">public</span> <span class="keyword">static</span> Label <a class="code hl_function" href="class_b_x_geometry_graph_1_1_property_drawer_utils.html#a3ff92b3762a6c96a2ee4b647a24fd741">CreateLabel</a>(<span class="keywordtype">string</span> text, <span class="keywordtype">int</span> indentLevel = 0, FontStyle fontStyle = FontStyle.Normal)</div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>        {</div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>            <span class="keywordtype">string</span> label = <span class="keyword">new</span> string(<span class="charliteral">&#39; &#39;</span>, indentLevel * 4);</div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>            var labelVisualElement = <span class="keyword">new</span> Label(label + text);</div>
@@ -128,20 +130,23 @@ $(function(){initNavTree('_property_drawer_utils_8cs_source.html',''); initResiz
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>            labelVisualElement.name = <span class="stringliteral">&quot;header&quot;</span>;</div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>            <span class="keywordflow">return</span> labelVisualElement;</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>        }</div>
+</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>        <span class="keyword">public</span> <span class="keyword">static</span> Label CreateLabel(<span class="keywordtype">string</span> text, <span class="keywordtype">int</span> indentLevel = 0)</div>
+<div class="foldopen" id="foldopen00021" data-start="{" data-end="}">
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="class_b_x_geometry_graph_1_1_property_drawer_utils.html#aabb0c62458f0c24efa953b8c4a59f75c">   21</a></span>        <span class="keyword">public</span> <span class="keyword">static</span> Label <a class="code hl_function" href="class_b_x_geometry_graph_1_1_property_drawer_utils.html#aabb0c62458f0c24efa953b8c4a59f75c">CreateLabel</a>(<span class="keywordtype">string</span> text, <span class="keywordtype">int</span> indentLevel = 0)</div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>        {</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>            <span class="keywordtype">string</span> label = <span class="keyword">new</span> string(<span class="charliteral">&#39; &#39;</span>, indentLevel * 4);</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>            var labelVisualElement = <span class="keyword">new</span> Label(label + text);</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>            <span class="keywordflow">return</span> labelVisualElement;</div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>        }</div>
+</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>        <span class="keyword">internal</span> <span class="keyword">enum</span> UIPrecisionForShaderGraphs</div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>        {</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>            Inherit = Precision.Inherit,</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>            Single = Precision.Single,</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>            Half = Precision.Half,</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>            UseGraphPrecision = Precision.Graph,</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>            <a class="code hl_enumvalue" href="namespace_b_x_geometry_graph.html#a80e030a9a2fa4f50e2eb310d9e51ffb4ac49484faf79e2388b580e49444d6ac11">Inherit</a> = <a class="code hl_enumeration" href="namespace_b_x_geometry_graph.html#a80e030a9a2fa4f50e2eb310d9e51ffb4">Precision</a>.Inherit,</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>            <a class="code hl_enumvalue" href="namespace_b_x_geometry_graph.html#a80e030a9a2fa4f50e2eb310d9e51ffb4a66ba162102bbf6ae31b522aec561735e">Single</a> = <a class="code hl_enumeration" href="namespace_b_x_geometry_graph.html#a80e030a9a2fa4f50e2eb310d9e51ffb4">Precision</a>.Single,</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>            <a class="code hl_enumvalue" href="namespace_b_x_geometry_graph.html#a80e030a9a2fa4f50e2eb310d9e51ffb4ac48615a1bc4197056d522af276aa5a85">Half</a> = <a class="code hl_enumeration" href="namespace_b_x_geometry_graph.html#a80e030a9a2fa4f50e2eb310d9e51ffb4">Precision</a>.Half,</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>            UseGraphPrecision = <a class="code hl_enumeration" href="namespace_b_x_geometry_graph.html#a80e030a9a2fa4f50e2eb310d9e51ffb4">Precision</a>.Graph,</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>        }</div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>        <span class="keyword">internal</span> <span class="keyword">static</span> <span class="keywordtype">void</span> AddDefaultNodeProperties(VisualElement parentElement, AbstractGeometryNode node, Action setNodesAsDirtyCallback, Action updateNodeViewsCallback)</div>
@@ -160,10 +165,10 @@ $(function(){initNavTree('_property_drawer_utils_8cs_source.html',''); initResiz
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>                        setNodesAsDirtyCallback?.Invoke();</div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>                        node.owner.owner.RegisterCompleteObjectUndo(<span class="stringliteral">&quot;Change precision&quot;</span>);</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>                        node.precision = (Precision)evt.newValue;</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>                        node.precision = (<a class="code hl_variable" href="d3d12video_8idl.html#a74cabab55452d0313ee336ed25d57a1d">Precision</a>)evt.newValue;</div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>                        node.owner.ValidateGraph();</div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>                        updateNodeViewsCallback?.Invoke();</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>                        node.Dirty(ModificationScope.Graph);</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>                        node.Dirty(<a class="code hl_enumeration" href="namespace_b_x_geometry_graph.html#a9ab4f878a5e24617ec879087afe97690">ModificationScope</a>.Graph);</div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>                    });</div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>                });</div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>                <span class="keywordflow">if</span> (node is MultiJsonInternal.UnknownNodeType)</div>
@@ -185,9 +190,9 @@ $(function(){initNavTree('_property_drawer_utils_8cs_source.html',''); initResiz
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
 <div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>                        setNodesAsDirtyCallback?.Invoke();</div>
 <div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>                        node.owner.owner.RegisterCompleteObjectUndo(<span class="stringliteral">&quot;Change preview&quot;</span>);</div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>                        node.m_PreviewMode = (PreviewMode)evt.newValue;</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>                        node.m_PreviewMode = (<a class="code hl_enumeration" href="namespace_b_x_geometry_graph.html#a4c77790176d1482a6bfa0aa319916f8b">PreviewMode</a>)evt.newValue;</div>
 <div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>                        updateNodeViewsCallback?.Invoke();</div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>                        node.Dirty(ModificationScope.Graph);</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>                        node.Dirty(<a class="code hl_enumeration" href="namespace_b_x_geometry_graph.html#a9ab4f878a5e24617ec879087afe97690">ModificationScope</a>.Graph);</div>
 <div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>                    });</div>
 <div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>                });</div>
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>                <span class="keywordflow">if</span> (node is MultiJsonInternal.UnknownNodeType)</div>
@@ -234,7 +239,7 @@ $(function(){initNavTree('_property_drawer_utils_8cs_source.html',''); initResiz
 <div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>                        node.owner.owner.RegisterCompleteObjectUndo(<span class="stringliteral">&quot;Change Block Name&quot;</span>);</div>
 <div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>                        field.value = node.customName = GraphUtil.SanitizeName(usedNames, <span class="stringliteral">&quot;{0}_{1}&quot;</span>, NodeUtils.ConvertToValidHLSLIdentifier(field.value));</div>
 <div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>                        updateNodeViewsCallback?.Invoke();</div>
-<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>                        node.Dirty(ModificationScope.Node);</div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>                        node.Dirty(<a class="code hl_enumeration" href="namespace_b_x_geometry_graph.html#a9ab4f878a5e24617ec879087afe97690">ModificationScope</a>.Node);</div>
 <div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>                        node.owner?.ValidateGraph();</div>
 <div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>                    });</div>
 <div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>                });</div>
@@ -256,7 +261,7 @@ $(function(){initNavTree('_property_drawer_utils_8cs_source.html',''); initResiz
 <div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span>                        node.owner.owner.RegisterCompleteObjectUndo(<span class="stringliteral">&quot;Change Block Type&quot;</span>);</div>
 <div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span>                        node.customWidth = (BlockNode.CustomBlockType)evt.newValue;</div>
 <div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span>                        updateNodeViewsCallback?.Invoke();</div>
-<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span>                        node.Dirty(ModificationScope.Topological);</div>
+<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span>                        node.Dirty(<a class="code hl_enumeration" href="namespace_b_x_geometry_graph.html#a9ab4f878a5e24617ec879087afe97690">ModificationScope</a>.Topological);</div>
 <div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span>                        node.owner?.ValidateGraph();</div>
 <div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span>                    });</div>
 <div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span>                });</div>
@@ -287,7 +292,7 @@ $(function(){initNavTree('_property_drawer_utils_8cs_source.html',''); initResiz
 <div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span>                    SetterFn((<span class="keywordtype">bool</span>)evt.newValue);</div>
 <div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span>                    node.owner.ValidateGraph();</div>
 <div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span>                    updateNodeViewsCallback?.Invoke();</div>
-<div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span>                    node.Dirty(ModificationScope.Graph);</div>
+<div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span>                    node.Dirty(<a class="code hl_enumeration" href="namespace_b_x_geometry_graph.html#a9ab4f878a5e24617ec879087afe97690">ModificationScope</a>.Graph);</div>
 <div class="line"><a id="l00180" name="l00180"></a><span class="lineno">  180</span>                });</div>
 <div class="line"><a id="l00181" name="l00181"></a><span class="lineno">  181</span>            });</div>
 <div class="line"><a id="l00182" name="l00182"></a><span class="lineno">  182</span>            <span class="keywordflow">if</span> (node is MultiJsonInternal.UnknownNodeType)</div>
@@ -301,7 +306,7 @@ $(function(){initNavTree('_property_drawer_utils_8cs_source.html',''); initResiz
 <div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span>            String label,</div>
 <div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span>            String undoLabel,</div>
 <div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span>            Func&lt;T&gt; GetterFn,</div>
-<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span>            Action&lt;T&gt; SetterFn) where T : System.Enum, IConvertible</div>
+<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span>            Action&lt;T&gt; SetterFn) where <a class="code hl_enumvalue" href="namespace_key_code.html#aa3792cfa01da9472a286db0c1d0e023bae9ebd869b9a77352d6648183e1732ccb">T</a> : System.Enum, IConvertible</div>
 <div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span>        {</div>
 <div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span>            var fieldObj = <span class="keyword">new</span> EnumField(GetterFn());</div>
 <div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span>            <span class="comment">//fieldObj.value = ;</span></div>
@@ -318,7 +323,7 @@ $(function(){initNavTree('_property_drawer_utils_8cs_source.html',''); initResiz
 <div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span>                    SetterFn((T)evt.newValue);</div>
 <div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span>                    node.owner.ValidateGraph();</div>
 <div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span>                    updateNodeViewsCallback?.Invoke();</div>
-<div class="line"><a id="l00210" name="l00210"></a><span class="lineno">  210</span>                    node.Dirty(ModificationScope.Graph);</div>
+<div class="line"><a id="l00210" name="l00210"></a><span class="lineno">  210</span>                    node.Dirty(<a class="code hl_enumeration" href="namespace_b_x_geometry_graph.html#a9ab4f878a5e24617ec879087afe97690">ModificationScope</a>.Graph);</div>
 <div class="line"><a id="l00211" name="l00211"></a><span class="lineno">  211</span>                });</div>
 <div class="line"><a id="l00212" name="l00212"></a><span class="lineno">  212</span>            });</div>
 <div class="line"><a id="l00213" name="l00213"></a><span class="lineno">  213</span>            <span class="keywordflow">if</span> (node is MultiJsonInternal.UnknownNodeType)</div>
@@ -326,14 +331,26 @@ $(function(){initNavTree('_property_drawer_utils_8cs_source.html',''); initResiz
 <div class="line"><a id="l00215" name="l00215"></a><span class="lineno">  215</span>            parentElement.Add(propertyRow);</div>
 <div class="line"><a id="l00216" name="l00216"></a><span class="lineno">  216</span>        }</div>
 <div class="line"><a id="l00217" name="l00217"></a><span class="lineno">  217</span>    }</div>
+</div>
 <div class="line"><a id="l00218" name="l00218"></a><span class="lineno">  218</span>}</div>
+<div class="ttc" id="aclass_b_x_geometry_graph_1_1_property_drawer_utils_html"><div class="ttname"><a href="class_b_x_geometry_graph_1_1_property_drawer_utils.html">BXGeometryGraph.PropertyDrawerUtils</a></div><div class="ttdef"><b>Definition</b> <a href="#l00010">PropertyDrawerUtils.cs:11</a></div></div>
+<div class="ttc" id="aclass_b_x_geometry_graph_1_1_property_drawer_utils_html_a3ff92b3762a6c96a2ee4b647a24fd741"><div class="ttname"><a href="class_b_x_geometry_graph_1_1_property_drawer_utils.html#a3ff92b3762a6c96a2ee4b647a24fd741">BXGeometryGraph.PropertyDrawerUtils.CreateLabel</a></div><div class="ttdeci">static Label CreateLabel(string text, int indentLevel=0, FontStyle fontStyle=FontStyle.Normal)</div><div class="ttdef"><b>Definition</b> <a href="#l00012">PropertyDrawerUtils.cs:12</a></div></div>
+<div class="ttc" id="aclass_b_x_geometry_graph_1_1_property_drawer_utils_html_aabb0c62458f0c24efa953b8c4a59f75c"><div class="ttname"><a href="class_b_x_geometry_graph_1_1_property_drawer_utils.html#aabb0c62458f0c24efa953b8c4a59f75c">BXGeometryGraph.PropertyDrawerUtils.CreateLabel</a></div><div class="ttdeci">static Label CreateLabel(string text, int indentLevel=0)</div><div class="ttdef"><b>Definition</b> <a href="#l00021">PropertyDrawerUtils.cs:21</a></div></div>
+<div class="ttc" id="ad3d12video_8idl_html_a74cabab55452d0313ee336ed25d57a1d"><div class="ttname"><a href="d3d12video_8idl.html#a74cabab55452d0313ee336ed25d57a1d">Precision</a></div><div class="ttdeci">D3D12_VIDEO_MOTION_ESTIMATOR_VECTOR_PRECISION Precision</div><div class="ttdef"><b>Definition</b> <a href="d3d12video_8idl_source.html#l00974">d3d12video.idl:974</a></div></div>
 <div class="ttc" id="anamespace_b_x_geometry_graph_html"><div class="ttname"><a href="namespace_b_x_geometry_graph.html">BXGeometryGraph</a></div><div class="ttdef"><b>Definition</b> <a href="_abstract_geometry_graph_data_extension_8cs_source.html#l00008">AbstractGeometryGraphDataExtension.cs:9</a></div></div>
+<div class="ttc" id="anamespace_b_x_geometry_graph_html_a4c77790176d1482a6bfa0aa319916f8b"><div class="ttname"><a href="namespace_b_x_geometry_graph.html#a4c77790176d1482a6bfa0aa319916f8b">BXGeometryGraph.PreviewMode</a></div><div class="ttdeci">PreviewMode</div><div class="ttdef"><b>Definition</b> <a href="_preview_mode_8cs_source.html#l00007">PreviewMode.cs:8</a></div></div>
+<div class="ttc" id="anamespace_b_x_geometry_graph_html_a80e030a9a2fa4f50e2eb310d9e51ffb4"><div class="ttname"><a href="namespace_b_x_geometry_graph.html#a80e030a9a2fa4f50e2eb310d9e51ffb4">BXGeometryGraph.Precision</a></div><div class="ttdeci">Precision</div><div class="ttdef"><b>Definition</b> <a href="_precision_8cs_source.html#l00009">Precision.cs:11</a></div></div>
+<div class="ttc" id="anamespace_b_x_geometry_graph_html_a80e030a9a2fa4f50e2eb310d9e51ffb4a66ba162102bbf6ae31b522aec561735e"><div class="ttname"><a href="namespace_b_x_geometry_graph.html#a80e030a9a2fa4f50e2eb310d9e51ffb4a66ba162102bbf6ae31b522aec561735e">BXGeometryGraph.Precision.Single</a></div><div class="ttdeci">@ Single</div><div class="ttdef"><b>Definition</b> <a href="_precision_8cs_source.html#l00013">Precision.cs:13</a></div></div>
+<div class="ttc" id="anamespace_b_x_geometry_graph_html_a80e030a9a2fa4f50e2eb310d9e51ffb4ac48615a1bc4197056d522af276aa5a85"><div class="ttname"><a href="namespace_b_x_geometry_graph.html#a80e030a9a2fa4f50e2eb310d9e51ffb4ac48615a1bc4197056d522af276aa5a85">BXGeometryGraph.Precision.Half</a></div><div class="ttdeci">@ Half</div><div class="ttdef"><b>Definition</b> <a href="_precision_8cs_source.html#l00014">Precision.cs:14</a></div></div>
+<div class="ttc" id="anamespace_b_x_geometry_graph_html_a80e030a9a2fa4f50e2eb310d9e51ffb4ac49484faf79e2388b580e49444d6ac11"><div class="ttname"><a href="namespace_b_x_geometry_graph.html#a80e030a9a2fa4f50e2eb310d9e51ffb4ac49484faf79e2388b580e49444d6ac11">BXGeometryGraph.Precision.Inherit</a></div><div class="ttdeci">@ Inherit</div><div class="ttdef"><b>Definition</b> <a href="_precision_8cs_source.html#l00012">Precision.cs:12</a></div></div>
+<div class="ttc" id="anamespace_b_x_geometry_graph_html_a9ab4f878a5e24617ec879087afe97690"><div class="ttname"><a href="namespace_b_x_geometry_graph.html#a9ab4f878a5e24617ec879087afe97690">BXGeometryGraph.ModificationScope</a></div><div class="ttdeci">ModificationScope</div><div class="ttdef"><b>Definition</b> <a href="_i_node_8cs_source.html#l00008">INode.cs:9</a></div></div>
+<div class="ttc" id="anamespace_key_code_html_aa3792cfa01da9472a286db0c1d0e023bae9ebd869b9a77352d6648183e1732ccb"><div class="ttname"><a href="namespace_key_code.html#aa3792cfa01da9472a286db0c1d0e023bae9ebd869b9a77352d6648183e1732ccb">KeyCode::T</a></div><div class="ttdeci">@ T</div><div class="ttdef"><b>Definition</b> <a href="_key_codes_8h_source.html#l00091">KeyCodes.h:91</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_f73a8b7d50989afdadf24d8fc7357a9a.html">FloowDream</a></li><li class="navelem"><a class="el" href="dir_1ba945c5ec581c9e331de81f300aff07.html">Assets</a></li><li class="navelem"><a class="el" href="dir_a57f4778d467e0a6236fa4788364df6c.html">Scripts</a></li><li class="navelem"><a class="el" href="dir_8b4148ef0ffda13d8a8272867298b61d.html">BXRenderPipeline</a></li><li class="navelem"><a class="el" href="dir_a8720bb293956aa0546773bed716ef7d.html">GeometryGraph</a></li><li class="navelem"><a class="el" href="dir_70308b049469fb202d64bde4a4db7180.html">Editor</a></li><li class="navelem"><a class="el" href="dir_aadc9f8f90e62700ff76d57bf008269a.html">Drawing</a></li><li class="navelem"><a class="el" href="dir_c4b455781121b012ffaf7585aeda33e6.html">Properties</a></li><li class="navelem"><b>PropertyDrawerUtils.cs</b></li>
+    <li class="navelem"><a class="el" href="dir_f73a8b7d50989afdadf24d8fc7357a9a.html">FloowDream</a></li><li class="navelem"><a class="el" href="dir_1ba945c5ec581c9e331de81f300aff07.html">Assets</a></li><li class="navelem"><a class="el" href="dir_a57f4778d467e0a6236fa4788364df6c.html">Scripts</a></li><li class="navelem"><a class="el" href="dir_8b4148ef0ffda13d8a8272867298b61d.html">BXRenderPipeline</a></li><li class="navelem"><a class="el" href="dir_a8720bb293956aa0546773bed716ef7d.html">GeometryGraph</a></li><li class="navelem"><a class="el" href="dir_70308b049469fb202d64bde4a4db7180.html">Editor</a></li><li class="navelem"><a class="el" href="dir_aadc9f8f90e62700ff76d57bf008269a.html">Drawing</a></li><li class="navelem"><a class="el" href="dir_c4b455781121b012ffaf7585aeda33e6.html">Properties</a></li><li class="navelem"><a class="el" href="_property_drawer_utils_8cs.html">PropertyDrawerUtils.cs</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
   </ul>
 </div>

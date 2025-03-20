@@ -108,6 +108,7 @@ $(function(){initNavTree('class_b_x_geometry_graph_1_1_stack_pool-1-g.html','');
 <div class="header">
   <div class="summary">
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="class_b_x_geometry_graph_1_1_stack_pool-1-g-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">BXGeometryGraph.StackPool&lt; T &gt; Class Template Reference</div></div>
 </div><!--header-->
@@ -117,8 +118,13 @@ $(function(){initNavTree('class_b_x_geometry_graph_1_1_stack_pool-1-g.html','');
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a53eab096db17c9f1f2d93aa1ab1b429a" id="r_a53eab096db17c9f1f2d93aa1ab1b429a"><td class="memItemLeft" align="right" valign="top">static Stack&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a53eab096db17c9f1f2d93aa1ab1b429a">Get</a> ()</td></tr>
 <tr class="separator:a53eab096db17c9f1f2d93aa1ab1b429a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af8fc46dceede34738d423c7744b0bda0" id="r_af8fc46dceede34738d423c7744b0bda0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af8fc46dceede34738d423c7744b0bda0">Release</a> (Stack&lt; T &gt; toRelease)</td></tr>
+<tr class="memitem:af8fc46dceede34738d423c7744b0bda0" id="r_af8fc46dceede34738d423c7744b0bda0"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af8fc46dceede34738d423c7744b0bda0">Release</a> (Stack&lt; T &gt; toRelease)</td></tr>
 <tr class="separator:af8fc46dceede34738d423c7744b0bda0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a5f055bb92b514bbf53c167a34a224b0e" id="r_a5f055bb92b514bbf53c167a34a224b0e"><td class="memItemLeft" align="right" valign="top">static readonly ObjectPool&lt; Stack&lt; T &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f055bb92b514bbf53c167a34a224b0e">k_StackPool</a> = new ObjectPool&lt;Stack&lt;T&gt;&gt;(() =&gt; new Stack&lt;T&gt;(), null, l =&gt; l.Clear())</td></tr>
+<tr class="separator:a5f055bb92b514bbf53c167a34a224b0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
@@ -161,7 +167,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void BXGeometryGraph.StackPool&lt; T &gt;.Release </td>
+          <td class="memname">static <a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXGeometryGraph.StackPool&lt; T &gt;.Release </td>
           <td>(</td>
           <td class="paramtype">Stack&lt; T &gt;</td>          <td class="paramname"><span class="paramname"><em>toRelease</em></span></td><td>)</td>
           <td></td>
@@ -175,6 +181,31 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="_stack_pool_8cs_source.html#l00018">18</a> of file <a class="el" href="_stack_pool_8cs_source.html">StackPool.cs</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a5f055bb92b514bbf53c167a34a224b0e" name="a5f055bb92b514bbf53c167a34a224b0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f055bb92b514bbf53c167a34a224b0e">&#9670;&#160;</a></span>k_StackPool</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly ObjectPool&lt;Stack&lt;T&gt; &gt; BXGeometryGraph.StackPool&lt; T &gt;.k_StackPool = new ObjectPool&lt;Stack&lt;T&gt;&gt;(() =&gt; new Stack&lt;T&gt;(), null, l =&gt; l.Clear())</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_stack_pool_8cs_source.html#l00011">11</a> of file <a class="el" href="_stack_pool_8cs_source.html">StackPool.cs</a>.</p>
 
 </div>
 </div>

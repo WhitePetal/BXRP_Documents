@@ -112,6 +112,8 @@ $(function(){initNavTree('interface_i_d3_d12_virtualization_guest_device.html','
   <div class="headertitle"><div class="title">ID3D12VirtualizationGuestDevice Interface Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>import &quot;<a class="el" href="d3d12_8idl_source.html">d3d12.idl</a>&quot;;</code></p>
 <div class="dynheader">
 Inheritance diagram for ID3D12VirtualizationGuestDevice:</div>
 <div class="dyncontent">
@@ -121,17 +123,63 @@ Inheritance diagram for ID3D12VirtualizationGuestDevice:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a179539baaa6ceb23d5ef61c2cafc5d89" id="r_a179539baaa6ceb23d5ef61c2cafc5d89"><td class="memItemLeft" align="right" valign="top"><a id="a179539baaa6ceb23d5ef61c2cafc5d89" name="a179539baaa6ceb23d5ef61c2cafc5d89"></a>
-HRESULT&#160;</td><td class="memItemRight" valign="bottom"><b>ShareWithHost</b> ([annotation(&quot;_In_&quot;)] <a class="el" href="interface_i_d3_d12_device_child.html">ID3D12DeviceChild</a> *pObject, [annotation(&quot;_Out_&quot;)] HANDLE *pHandle)</td></tr>
+<tr class="memitem:a179539baaa6ceb23d5ef61c2cafc5d89" id="r_a179539baaa6ceb23d5ef61c2cafc5d89"><td class="memItemLeft" align="right" valign="top"><a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a179539baaa6ceb23d5ef61c2cafc5d89">ShareWithHost</a> ([annotation(&quot;_In_&quot;)] <a class="el" href="interface_i_d3_d12_device_child.html">ID3D12DeviceChild</a> *pObject, [annotation(&quot;_Out_&quot;)] <a class="el" href="basetsd_8h.html#a2551e2c43e12d0ac4525d899cdf2c03b">HANDLE</a> *pHandle)</td></tr>
 <tr class="separator:a179539baaa6ceb23d5ef61c2cafc5d89"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa7397aad6a3e37c9090b104239393e4" id="r_afa7397aad6a3e37c9090b104239393e4"><td class="memItemLeft" align="right" valign="top"><a id="afa7397aad6a3e37c9090b104239393e4" name="afa7397aad6a3e37c9090b104239393e4"></a>
-HRESULT&#160;</td><td class="memItemRight" valign="bottom"><b>CreateFenceFd</b> ([annotation(&quot;_In_&quot;)] <a class="el" href="interface_i_d3_d12_fence.html">ID3D12Fence</a> *pFence, UINT64 FenceValue, [annotation(&quot;_Out_&quot;)] int *pFenceFd)</td></tr>
+<tr class="memitem:afa7397aad6a3e37c9090b104239393e4" id="r_afa7397aad6a3e37c9090b104239393e4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa7397aad6a3e37c9090b104239393e4">CreateFenceFd</a> ([annotation(&quot;_In_&quot;)] <a class="el" href="interface_i_d3_d12_fence.html">ID3D12Fence</a> *pFence, <a class="el" href="basetsd_8h.html#a95df6cdb32afc350ff070f2fe8a54a67">UINT64</a> FenceValue, [annotation(&quot;_Out_&quot;)] int *pFenceFd)</td></tr>
 <tr class="separator:afa7397aad6a3e37c9090b104239393e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
 <p class="definition">Definition at line <a class="el" href="d3d12_8idl_source.html#l06094">6094</a> of file <a class="el" href="d3d12_8idl_source.html">d3d12.idl</a>.</p>
-</div><hr/>The documentation for this interface was generated from the following file:<ul>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="afa7397aad6a3e37c9090b104239393e4" name="afa7397aad6a3e37c9090b104239393e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa7397aad6a3e37c9090b104239393e4">&#9670;&#160;</a></span>CreateFenceFd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> ID3D12VirtualizationGuestDevice::CreateFenceFd </td>
+          <td>(</td>
+          <td class="paramtype">[annotation(&quot;_In_&quot;)] <a class="el" href="interface_i_d3_d12_fence.html">ID3D12Fence</a> *</td>          <td class="paramname"><span class="paramname"><em>pFence</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#a95df6cdb32afc350ff070f2fe8a54a67">UINT64</a></td>          <td class="paramname"><span class="paramname"><em>FenceValue</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">[annotation(&quot;_Out_&quot;)] int *</td>          <td class="paramname"><span class="paramname"><em>pFenceFd</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a179539baaa6ceb23d5ef61c2cafc5d89" name="a179539baaa6ceb23d5ef61c2cafc5d89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a179539baaa6ceb23d5ef61c2cafc5d89">&#9670;&#160;</a></span>ShareWithHost()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> ID3D12VirtualizationGuestDevice::ShareWithHost </td>
+          <td>(</td>
+          <td class="paramtype">[annotation(&quot;_In_&quot;)] <a class="el" href="interface_i_d3_d12_device_child.html">ID3D12DeviceChild</a> *</td>          <td class="paramname"><span class="paramname"><em>pObject</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">[annotation(&quot;_Out_&quot;)] <a class="el" href="basetsd_8h.html#a2551e2c43e12d0ac4525d899cdf2c03b">HANDLE</a> *</td>          <td class="paramname"><span class="paramname"><em>pHandle</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this interface was generated from the following file:<ul>
 <li><a class="el" href="d3d12_8idl_source.html">d3d12.idl</a></li>
 </ul>
 </div><!-- contents -->

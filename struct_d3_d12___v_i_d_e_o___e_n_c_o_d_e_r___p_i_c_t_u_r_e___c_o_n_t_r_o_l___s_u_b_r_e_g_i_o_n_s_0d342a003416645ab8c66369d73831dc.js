@@ -1,0 +1,7 @@
+var struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___p_i_c_t_u_r_e___c_o_n_t_r_o_l___s_u_b_r_e_g_i_o_n_s_0d342a003416645ab8c66369d73831dc =
+[
+    [ "MaxBytesPerSlice", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___p_i_c_t_u_r_e___c_o_n_t_r_o_l___s_u_b_r_e_g_i_o_n_s_0d342a003416645ab8c66369d73831dc.html#ab91e03afab1e6707f0cf1c7f826a799c", null ],
+    [ "NumberOfCodingUnitsPerSlice", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___p_i_c_t_u_r_e___c_o_n_t_r_o_l___s_u_b_r_e_g_i_o_n_s_0d342a003416645ab8c66369d73831dc.html#a1bbacb868011abe0ccf12bc6b6cd97c0", null ],
+    [ "NumberOfRowsPerSlice", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___p_i_c_t_u_r_e___c_o_n_t_r_o_l___s_u_b_r_e_g_i_o_n_s_0d342a003416645ab8c66369d73831dc.html#a6d6c0ef4dd94aaf65d20378f19fe9bc7", null ],
+    [ "NumberOfSlicesPerFrame", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___p_i_c_t_u_r_e___c_o_n_t_r_o_l___s_u_b_r_e_g_i_o_n_s_0d342a003416645ab8c66369d73831dc.html#a98b38e03dfa2f41c21c82d00433db056", null ]
+];

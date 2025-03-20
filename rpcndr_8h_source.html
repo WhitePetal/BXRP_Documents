@@ -109,20 +109,20 @@ $(function(){initNavTree('rpcndr_8h_source.html',''); initResizable(true); });
   <div class="headertitle"><div class="title">rpcndr.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">// Copyright (c) Microsoft Corporation.</span></div>
+<a href="rpcndr_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">// Copyright (c) Microsoft Corporation.</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment">// Licensed under the MIT License.</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment">// Stub header to satisfy d3d12.h include</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;basetsd.h&quot;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;<a class="code" href="basetsd_8h.html">basetsd.h</a>&quot;</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#define __RPCNDR_H_VERSION__</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno"><a class="line" href="rpcndr_8h.html#a3732812c550f1c842eabf7da23cc7868">    9</a></span><span class="preprocessor">#define __RPCNDR_H_VERSION__</span></div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#ifdef CONST_VTABLE</span></div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#define CONST_VTBL const</span></div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#else</span></div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#define CONST_VTBL</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="rpcndr_8h.html#a1de3f35f552b4b5f1066f31d6ab436c9">   14</a></span><span class="preprocessor">#define CONST_VTBL</span></div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="comment">/* Macros for __uuidof template-based emulation */</span></div>
@@ -138,9 +138,9 @@ $(function(){initNavTree('rpcndr_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="keyword">extern</span> <span class="stringliteral">&quot;C++&quot;</span>                                                         {</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="preprocessor">#if __wsl_stub_uuidof_use_constexpr</span></div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    __extension__ <span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt; <span class="keyword">struct </span>__wsl_stub_uuidof_s;</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    __extension__ <span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt; <span class="keyword">constexpr</span> <span class="keyword">const</span> GUID &amp;__wsl_stub_uuidof();</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    __extension__ <span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt; <span class="keyword">constexpr</span> <span class="keyword">const</span> <a class="code hl_typedef" href="basetsd_8h.html#adeeeca59e0f70c6ead2556f5956fad15">GUID</a> &amp;__wsl_stub_uuidof();</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="preprocessor">#else</span></div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    __extension__ <span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt; <span class="keyword">const</span> GUID &amp;__wsl_stub_uuidof();</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    __extension__ <span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt; <span class="keyword">const</span> <a class="code hl_typedef" href="basetsd_8h.html#adeeeca59e0f70c6ead2556f5956fad15">GUID</a> &amp;__wsl_stub_uuidof();</div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>}</div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
@@ -185,14 +185,16 @@ $(function(){initNavTree('rpcndr_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span><span class="preprocessor">#define __uuidof(type) __wsl_stub_uuidof&lt;__typeof(type)&gt;()</span></div>
 <div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span><span class="preprocessor">#else</span></div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span><span class="preprocessor">#define __CRT_UUID_DECL(type, l, w1, w2, b1, b2, b3, b4, b5, b6, b7, b8)</span></div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno"><a class="line" href="rpcndr_8h.html#af41430442166d8bc4c57cc960ec54c95">   77</a></span><span class="preprocessor">#define __CRT_UUID_DECL(type, l, w1, w2, b1, b2, b3, b4, b5, b6, b7, b8)</span></div>
 <div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="abasetsd_8h_html"><div class="ttname"><a href="basetsd_8h.html">basetsd.h</a></div></div>
+<div class="ttc" id="abasetsd_8h_html_adeeeca59e0f70c6ead2556f5956fad15"><div class="ttname"><a href="basetsd_8h.html#adeeeca59e0f70c6ead2556f5956fad15">GUID</a></div><div class="ttdeci">struct _GUID GUID</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_f73a8b7d50989afdadf24d8fc7357a9a.html">FloowDream</a></li><li class="navelem"><a class="el" href="dir_1ba945c5ec581c9e331de81f300aff07.html">Assets</a></li><li class="navelem"><a class="el" href="dir_a57f4778d467e0a6236fa4788364df6c.html">Scripts</a></li><li class="navelem"><a class="el" href="dir_8b4148ef0ffda13d8a8272867298b61d.html">BXRenderPipeline</a></li><li class="navelem"><a class="el" href="dir_ae9a9254ea48b9e75fba492df295591c.html">XEngine</a></li><li class="navelem"><a class="el" href="dir_4eb682de226f4832c0a9db45af2b00b1.html">XEngine</a></li><li class="navelem"><a class="el" href="dir_ae3d7c5e45b917ca49b0624995dac051.html">external</a></li><li class="navelem"><a class="el" href="dir_2107fed38ae0f47ddf43e6fe2d887bfc.html">DirectX-Headers-main</a></li><li class="navelem"><a class="el" href="dir_531b0b6c8f75f86bddea49aefc510079.html">include</a></li><li class="navelem"><a class="el" href="dir_e74d398fdbead7d23918b4a2f8281c14.html">wsl</a></li><li class="navelem"><a class="el" href="dir_a8e6f6d5ae64510084f8ad1d797e1545.html">stubs</a></li><li class="navelem"><b>rpcndr.h</b></li>
+    <li class="navelem"><a class="el" href="dir_f73a8b7d50989afdadf24d8fc7357a9a.html">FloowDream</a></li><li class="navelem"><a class="el" href="dir_1ba945c5ec581c9e331de81f300aff07.html">Assets</a></li><li class="navelem"><a class="el" href="dir_a57f4778d467e0a6236fa4788364df6c.html">Scripts</a></li><li class="navelem"><a class="el" href="dir_8b4148ef0ffda13d8a8272867298b61d.html">BXRenderPipeline</a></li><li class="navelem"><a class="el" href="dir_ae9a9254ea48b9e75fba492df295591c.html">XEngine</a></li><li class="navelem"><a class="el" href="dir_4eb682de226f4832c0a9db45af2b00b1.html">XEngine</a></li><li class="navelem"><a class="el" href="dir_ae3d7c5e45b917ca49b0624995dac051.html">external</a></li><li class="navelem"><a class="el" href="dir_2107fed38ae0f47ddf43e6fe2d887bfc.html">DirectX-Headers-main</a></li><li class="navelem"><a class="el" href="dir_531b0b6c8f75f86bddea49aefc510079.html">include</a></li><li class="navelem"><a class="el" href="dir_e74d398fdbead7d23918b4a2f8281c14.html">wsl</a></li><li class="navelem"><a class="el" href="dir_a8e6f6d5ae64510084f8ad1d797e1545.html">stubs</a></li><li class="navelem"><a class="el" href="rpcndr_8h.html">rpcndr.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
   </ul>
 </div>

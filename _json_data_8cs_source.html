@@ -109,7 +109,7 @@ $(function(){initNavTree('_json_data_8cs_source.html',''); initResizable(true); 
   <div class="headertitle"><div class="title">JsonData.cs</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="keyword">using </span>System;</div>
+<a href="_json_data_8cs.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="keyword">using </span>System;</div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="keyword">using </span>System.Collections;</div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="keyword">using </span>System.Collections.Generic;</div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="keyword">using </span>UnityEngine;</div>
@@ -121,33 +121,36 @@ $(function(){initNavTree('_json_data_8cs_source.html',''); initResizable(true); 
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno"><a class="line" href="struct_b_x_geometry_graph_1_1_json_data-1-g.html">    9</a></span>    <span class="keyword">struct </span>JsonData&lt;T&gt; : ISerializationCallbackReceiver where T : <a class="code hl_class" href="class_b_x_geometry_graph_1_1_json_object.html">JsonObject</a></div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>    {</div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>        [NonSerialized]</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>        T m_Value;</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="struct_b_x_geometry_graph_1_1_json_data-1-g.html#a1f45d9099e08e2e7a1a0e5142c5e270e">   12</a></span>        T <a class="code hl_variable" href="struct_b_x_geometry_graph_1_1_json_data-1-g.html#a1f45d9099e08e2e7a1a0e5142c5e270e">m_Value</a>;</div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>        [SerializeField]</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>        <span class="keywordtype">string</span> m_Id;</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="struct_b_x_geometry_graph_1_1_json_data-1-g.html#ad84fa51dab7a6923e1034ac83e3b4c3a">   15</a></span>        <span class="keywordtype">string</span> <a class="code hl_variable" href="struct_b_x_geometry_graph_1_1_json_data-1-g.html#ad84fa51dab7a6923e1034ac83e3b4c3a">m_Id</a>;</div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>        <span class="keyword">public</span> T value =&gt; m_Value;</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="struct_b_x_geometry_graph_1_1_json_data-1-g.html#a5a098cccee6ec6bf09c979f2f2a7c5e4">   17</a></span>        <span class="keyword">public</span> T <a class="code hl_property" href="struct_b_x_geometry_graph_1_1_json_data-1-g.html#a5a098cccee6ec6bf09c979f2f2a7c5e4">value</a> =&gt; <a class="code hl_variable" href="struct_b_x_geometry_graph_1_1_json_data-1-g.html#a1f45d9099e08e2e7a1a0e5142c5e270e">m_Value</a>;</div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>        <span class="keyword">public</span> <span class="keywordtype">void</span> OnBeforeSerialize()</div>
+<div class="foldopen" id="foldopen00019" data-start="{" data-end="}">
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="struct_b_x_geometry_graph_1_1_json_data-1-g.html#a73ab7863c752d4f623c111ddb290a93b">   19</a></span>        <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code hl_function" href="struct_b_x_geometry_graph_1_1_json_data-1-g.html#a73ab7863c752d4f623c111ddb290a93b">OnBeforeSerialize</a>()</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>        {</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>            <span class="keywordflow">if</span> (MultiJsonInternal.isSerializing &amp;&amp; m_Value != <span class="keyword">null</span> &amp;&amp; MultiJsonInternal.serializedSet.Add(m_Id))</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="class_b_x_geometry_graph_1_1_multi_json_internal.html">MultiJsonInternal</a>.isSerializing &amp;&amp; <a class="code hl_variable" href="struct_b_x_geometry_graph_1_1_json_data-1-g.html#a1f45d9099e08e2e7a1a0e5142c5e270e">m_Value</a> != <span class="keyword">null</span> &amp;&amp; <a class="code hl_class" href="class_b_x_geometry_graph_1_1_multi_json_internal.html">MultiJsonInternal</a>.serializedSet.Add(<a class="code hl_variable" href="struct_b_x_geometry_graph_1_1_json_data-1-g.html#ad84fa51dab7a6923e1034ac83e3b4c3a">m_Id</a>))</div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>            {</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>                MultiJsonInternal.serializationQueue.Add(m_Value);</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>                <a class="code hl_class" href="class_b_x_geometry_graph_1_1_multi_json_internal.html">MultiJsonInternal</a>.serializationQueue.Add(<a class="code hl_variable" href="struct_b_x_geometry_graph_1_1_json_data-1-g.html#a1f45d9099e08e2e7a1a0e5142c5e270e">m_Value</a>);</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>            }</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>        }</div>
+</div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>        <span class="keyword">public</span> <span class="keywordtype">void</span> OnAfterDeserialize()</div>
+<div class="foldopen" id="foldopen00027" data-start="{" data-end="}">
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="struct_b_x_geometry_graph_1_1_json_data-1-g.html#a4b0e88c2cdf1b4771598b984821f7043">   27</a></span>        <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code hl_function" href="struct_b_x_geometry_graph_1_1_json_data-1-g.html#a4b0e88c2cdf1b4771598b984821f7043">OnAfterDeserialize</a>()</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>        {</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>            <span class="keywordflow">if</span> (MultiJsonInternal.isDeserializing)</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="class_b_x_geometry_graph_1_1_multi_json_internal.html">MultiJsonInternal</a>.isDeserializing)</div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>            {</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>                <span class="keywordflow">try</span></div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>                {</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>                    <span class="keywordflow">if</span> (MultiJsonInternal.valueMap.TryGetValue(m_Id, out var value))</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>                    <span class="keywordflow">if</span> (<a class="code hl_class" href="class_b_x_geometry_graph_1_1_multi_json_internal.html">MultiJsonInternal</a>.valueMap.TryGetValue(<a class="code hl_variable" href="struct_b_x_geometry_graph_1_1_json_data-1-g.html#ad84fa51dab7a6923e1034ac83e3b4c3a">m_Id</a>, out var <a class="code hl_property" href="struct_b_x_geometry_graph_1_1_json_data-1-g.html#a5a098cccee6ec6bf09c979f2f2a7c5e4">value</a>))</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>                    {</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>                        m_Value = value.CastTo&lt;T&gt;();</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>                        <a class="code hl_variable" href="struct_b_x_geometry_graph_1_1_json_data-1-g.html#a1f45d9099e08e2e7a1a0e5142c5e270e">m_Value</a> = <a class="code hl_property" href="struct_b_x_geometry_graph_1_1_json_data-1-g.html#a5a098cccee6ec6bf09c979f2f2a7c5e4">value</a>.CastTo&lt;T&gt;();</div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>                        <span class="comment">// cast may fail for unknown types, but we can still grab the id from the original UnknownType</span></div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>                        m_Id = value.objectId;</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>                        <a class="code hl_variable" href="struct_b_x_geometry_graph_1_1_json_data-1-g.html#ad84fa51dab7a6923e1034ac83e3b4c3a">m_Id</a> = <a class="code hl_property" href="struct_b_x_geometry_graph_1_1_json_data-1-g.html#a5a098cccee6ec6bf09c979f2f2a7c5e4">value</a>.objectId;</div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>                    }</div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>                    <span class="keywordflow">else</span></div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>                    {</div>
@@ -156,102 +159,149 @@ $(function(){initNavTree('_json_data_8cs_source.html',''); initResizable(true); 
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>                <span class="keywordflow">catch</span> (Exception e)</div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>                {</div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>                    <span class="comment">// TODO: Allow custom logging function</span></div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>                    <a class="code hl_class" href="class_debug.html">Debug</a>.LogException(e);</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>                    <a class="code hl_class" href="class_debug.html">Debug</a>.<a class="code hl_function" href="class_debug.html#a39d3183a70eb1abf47e340de31dc31c9">LogException</a>(e);</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>                }</div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>            }</div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>        }</div>
+</div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>        <span class="keyword">public</span> <span class="keyword">static</span> implicit <span class="keyword">operator</span> T(JsonData&lt;T&gt; jsonRef)</div>
+<div class="foldopen" id="foldopen00052" data-start="{" data-end="}">
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="struct_b_x_geometry_graph_1_1_json_data-1-g.html#ada6dea35c7714e807653150f66dd4d97">   52</a></span>        <span class="keyword">public</span> <span class="keyword">static</span> implicit <span class="keyword">operator</span> T(JsonData&lt;T&gt; jsonRef)</div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>        {</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>            <span class="keywordflow">return</span> jsonRef.m_Value;</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>            <span class="keywordflow">return</span> jsonRef.<a class="code hl_variable" href="struct_b_x_geometry_graph_1_1_json_data-1-g.html#a1f45d9099e08e2e7a1a0e5142c5e270e">m_Value</a>;</div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>        }</div>
+</div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>        <span class="keyword">public</span> <span class="keyword">static</span> implicit <span class="keyword">operator</span> JsonData&lt;T&gt;(T value)</div>
+<div class="foldopen" id="foldopen00057" data-start="{" data-end="}">
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="struct_b_x_geometry_graph_1_1_json_data-1-g.html#ac9071770f3ec7a28f3260a972657adb3">   57</a></span>        <span class="keyword">public</span> <span class="keyword">static</span> implicit <span class="keyword">operator</span> JsonData&lt;T&gt;(T <a class="code hl_property" href="struct_b_x_geometry_graph_1_1_json_data-1-g.html#a5a098cccee6ec6bf09c979f2f2a7c5e4">value</a>)</div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>        {</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>            <span class="keywordflow">return</span> <span class="keyword">new</span> JsonData&lt;T&gt; { m_Value = value, m_Id = value.objectId };</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>            <span class="keywordflow">return</span> <span class="keyword">new</span> JsonData&lt;T&gt; { <a class="code hl_variable" href="struct_b_x_geometry_graph_1_1_json_data-1-g.html#a1f45d9099e08e2e7a1a0e5142c5e270e">m_Value</a> = <a class="code hl_property" href="struct_b_x_geometry_graph_1_1_json_data-1-g.html#a5a098cccee6ec6bf09c979f2f2a7c5e4">value</a>, <a class="code hl_variable" href="struct_b_x_geometry_graph_1_1_json_data-1-g.html#ad84fa51dab7a6923e1034ac83e3b4c3a">m_Id</a> = value.objectId };</div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>        }</div>
+</div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>        <span class="keyword">public</span> <span class="keywordtype">bool</span> Equals(JsonData&lt;T&gt; other)</div>
+<div class="foldopen" id="foldopen00062" data-start="{" data-end="}">
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno"><a class="line" href="struct_b_x_geometry_graph_1_1_json_data-1-g.html#a38f7e91d36dbee915a86f8566775396e">   62</a></span>        <span class="keyword">public</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="struct_b_x_geometry_graph_1_1_json_data-1-g.html#a38f7e91d36dbee915a86f8566775396e">Equals</a>(JsonData&lt;T&gt; other)</div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>        {</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>            <span class="keywordflow">return</span> EqualityComparer&lt;T&gt;.Default.Equals(m_Value, other.m_Value);</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>            <span class="keywordflow">return</span> EqualityComparer&lt;T&gt;.Default.Equals(<a class="code hl_variable" href="struct_b_x_geometry_graph_1_1_json_data-1-g.html#a1f45d9099e08e2e7a1a0e5142c5e270e">m_Value</a>, other.<a class="code hl_variable" href="struct_b_x_geometry_graph_1_1_json_data-1-g.html#a1f45d9099e08e2e7a1a0e5142c5e270e">m_Value</a>);</div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>        }</div>
+</div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>        <span class="keyword">public</span> <span class="keywordtype">bool</span> Equals(T other)</div>
+<div class="foldopen" id="foldopen00067" data-start="{" data-end="}">
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno"><a class="line" href="struct_b_x_geometry_graph_1_1_json_data-1-g.html#a2da39f804880eb23b99bfc5a144f5142">   67</a></span>        <span class="keyword">public</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="struct_b_x_geometry_graph_1_1_json_data-1-g.html#a2da39f804880eb23b99bfc5a144f5142">Equals</a>(T other)</div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>        {</div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>            <span class="keywordflow">return</span> EqualityComparer&lt;T&gt;.Default.Equals(m_Value, other);</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>            <span class="keywordflow">return</span> EqualityComparer&lt;T&gt;.Default.Equals(<a class="code hl_variable" href="struct_b_x_geometry_graph_1_1_json_data-1-g.html#a1f45d9099e08e2e7a1a0e5142c5e270e">m_Value</a>, other);</div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>        }</div>
+</div>
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span> </div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>        <span class="keyword">public</span> <span class="keyword">override</span> <span class="keywordtype">bool</span> Equals(<span class="keywordtype">object</span> obj)</div>
+<div class="foldopen" id="foldopen00072" data-start="{" data-end="}">
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno"><a class="line" href="struct_b_x_geometry_graph_1_1_json_data-1-g.html#a05f7e092bcebd91a2de5fb6189348b7a">   72</a></span>        <span class="keyword">public</span> <span class="keyword">override</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="struct_b_x_geometry_graph_1_1_json_data-1-g.html#a05f7e092bcebd91a2de5fb6189348b7a">Equals</a>(<span class="keywordtype">object</span> obj)</div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>        {</div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>            <span class="keywordflow">return</span> obj is JsonData&lt;T&gt; other &amp;&amp; Equals(other) || obj is T otherValue &amp;&amp; Equals(otherValue);</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>            <span class="keywordflow">return</span> obj is JsonData&lt;T&gt; other &amp;&amp; <a class="code hl_function" href="struct_b_x_geometry_graph_1_1_json_data-1-g.html#a38f7e91d36dbee915a86f8566775396e">Equals</a>(other) || obj is T otherValue &amp;&amp; <a class="code hl_function" href="struct_b_x_geometry_graph_1_1_json_data-1-g.html#a38f7e91d36dbee915a86f8566775396e">Equals</a>(otherValue);</div>
 <div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>        }</div>
+</div>
 <div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span> </div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>        <span class="keyword">public</span> <span class="keyword">override</span> <span class="keywordtype">int</span> GetHashCode()</div>
+<div class="foldopen" id="foldopen00077" data-start="{" data-end="}">
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno"><a class="line" href="struct_b_x_geometry_graph_1_1_json_data-1-g.html#a898e5259322392b3072ee37f37e28315">   77</a></span>        <span class="keyword">public</span> <span class="keyword">override</span> <span class="keywordtype">int</span> <a class="code hl_function" href="struct_b_x_geometry_graph_1_1_json_data-1-g.html#a898e5259322392b3072ee37f37e28315">GetHashCode</a>()</div>
 <div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>        {</div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>            <span class="keywordflow">return</span> EqualityComparer&lt;T&gt;.Default.GetHashCode(m_Value);</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>            <span class="keywordflow">return</span> EqualityComparer&lt;T&gt;.Default.GetHashCode(<a class="code hl_variable" href="struct_b_x_geometry_graph_1_1_json_data-1-g.html#a1f45d9099e08e2e7a1a0e5142c5e270e">m_Value</a>);</div>
 <div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>        }</div>
+</div>
 <div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span> </div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>        <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">bool</span> operator ==(JsonData&lt;T&gt; left, JsonData&lt;T&gt; right)</div>
+<div class="foldopen" id="foldopen00082" data-start="{" data-end="}">
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno"><a class="line" href="struct_b_x_geometry_graph_1_1_json_data-1-g.html#a9bee8d03a493b67db02eb33241ce0a15">   82</a></span>        <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="d3dx12__core_8h.html#abaa7b9c9360889b3da29669bdf7103a6">operator ==</a>(JsonData&lt;T&gt; left, JsonData&lt;T&gt; right)</div>
 <div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>        {</div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>            <span class="keywordflow">return</span> left.value == right.value;</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>            <span class="keywordflow">return</span> left.value == right.<a class="code hl_property" href="struct_b_x_geometry_graph_1_1_json_data-1-g.html#a5a098cccee6ec6bf09c979f2f2a7c5e4">value</a>;</div>
 <div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>        }</div>
+</div>
 <div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span> </div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>        <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">bool</span> operator !=(JsonData&lt;T&gt; left, JsonData&lt;T&gt; right)</div>
+<div class="foldopen" id="foldopen00087" data-start="{" data-end="}">
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno"><a class="line" href="struct_b_x_geometry_graph_1_1_json_data-1-g.html#af788cd1b8b530fc79af2e66bce9cf9a8">   87</a></span>        <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="d3dx12__core_8h.html#a9db3eda2cb0b747ec337ec87a15d4b0a">operator !=</a>(JsonData&lt;T&gt; left, JsonData&lt;T&gt; right)</div>
 <div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>        {</div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>            <span class="keywordflow">return</span> left.value != right.value;</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>            <span class="keywordflow">return</span> left.value != right.<a class="code hl_property" href="struct_b_x_geometry_graph_1_1_json_data-1-g.html#a5a098cccee6ec6bf09c979f2f2a7c5e4">value</a>;</div>
 <div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>        }</div>
+</div>
 <div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span> </div>
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>        <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">bool</span> operator ==(JsonData&lt;T&gt; left, T right)</div>
+<div class="foldopen" id="foldopen00092" data-start="{" data-end="}">
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno"><a class="line" href="struct_b_x_geometry_graph_1_1_json_data-1-g.html#a46bf57e333412cae73160d08132fe904">   92</a></span>        <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="d3dx12__core_8h.html#abaa7b9c9360889b3da29669bdf7103a6">operator ==</a>(JsonData&lt;T&gt; left, T right)</div>
 <div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>        {</div>
 <div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>            <span class="keywordflow">return</span> left.value == right;</div>
 <div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>        }</div>
+</div>
 <div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span> </div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>        <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">bool</span> operator !=(JsonData&lt;T&gt; left, T right)</div>
+<div class="foldopen" id="foldopen00097" data-start="{" data-end="}">
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno"><a class="line" href="struct_b_x_geometry_graph_1_1_json_data-1-g.html#a0018c659958d8e89f0dc3706dafb68f8">   97</a></span>        <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="d3dx12__core_8h.html#a9db3eda2cb0b747ec337ec87a15d4b0a">operator !=</a>(JsonData&lt;T&gt; left, T right)</div>
 <div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>        {</div>
 <div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>            <span class="keywordflow">return</span> left.value != right;</div>
 <div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>        }</div>
+</div>
 <div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span> </div>
-<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>        <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">bool</span> operator ==(T left, JsonData&lt;T&gt; right)</div>
+<div class="foldopen" id="foldopen00102" data-start="{" data-end="}">
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno"><a class="line" href="struct_b_x_geometry_graph_1_1_json_data-1-g.html#ab987031230a3285bd3361cb6c99af2d9">  102</a></span>        <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="d3dx12__core_8h.html#abaa7b9c9360889b3da29669bdf7103a6">operator ==</a>(T left, JsonData&lt;T&gt; right)</div>
 <div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>        {</div>
-<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>            <span class="keywordflow">return</span> left == right.value;</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>            <span class="keywordflow">return</span> left == right.<a class="code hl_property" href="struct_b_x_geometry_graph_1_1_json_data-1-g.html#a5a098cccee6ec6bf09c979f2f2a7c5e4">value</a>;</div>
 <div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>        }</div>
+</div>
 <div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span> </div>
-<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>        <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">bool</span> operator !=(T left, JsonData&lt;T&gt; right)</div>
+<div class="foldopen" id="foldopen00107" data-start="{" data-end="}">
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno"><a class="line" href="struct_b_x_geometry_graph_1_1_json_data-1-g.html#a285967e72e4987eeea18534823b0343b">  107</a></span>        <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="d3dx12__core_8h.html#a9db3eda2cb0b747ec337ec87a15d4b0a">operator !=</a>(T left, JsonData&lt;T&gt; right)</div>
 <div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>        {</div>
-<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>            <span class="keywordflow">return</span> left != right.value;</div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>            <span class="keywordflow">return</span> left != right.<a class="code hl_property" href="struct_b_x_geometry_graph_1_1_json_data-1-g.html#a5a098cccee6ec6bf09c979f2f2a7c5e4">value</a>;</div>
 <div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>        }</div>
+</div>
 <div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span> </div>
-<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>        <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">bool</span> operator ==(JsonData&lt;T&gt; left, JsonRef&lt;T&gt; right)</div>
+<div class="foldopen" id="foldopen00112" data-start="{" data-end="}">
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno"><a class="line" href="struct_b_x_geometry_graph_1_1_json_data-1-g.html#a5f96e470ed2bd8f2b703ab587d1d95d4">  112</a></span>        <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="d3dx12__core_8h.html#abaa7b9c9360889b3da29669bdf7103a6">operator ==</a>(JsonData&lt;T&gt; left, JsonRef&lt;T&gt; right)</div>
 <div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>        {</div>
-<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>            <span class="keywordflow">return</span> left.value == right.value;</div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>            <span class="keywordflow">return</span> left.value == right.<a class="code hl_property" href="struct_b_x_geometry_graph_1_1_json_ref-1-g.html#ab12a8f3bce47d198bda69a6bec183c8f">value</a>;</div>
 <div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>        }</div>
+</div>
 <div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span> </div>
-<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>        <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">bool</span> operator !=(JsonData&lt;T&gt; left, JsonRef&lt;T&gt; right)</div>
+<div class="foldopen" id="foldopen00117" data-start="{" data-end="}">
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno"><a class="line" href="struct_b_x_geometry_graph_1_1_json_data-1-g.html#a2b68bd7d82351c8e0d460d281a411d27">  117</a></span>        <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="d3dx12__core_8h.html#a9db3eda2cb0b747ec337ec87a15d4b0a">operator !=</a>(JsonData&lt;T&gt; left, JsonRef&lt;T&gt; right)</div>
 <div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>        {</div>
-<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>            <span class="keywordflow">return</span> left.value != right.value;</div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>            <span class="keywordflow">return</span> left.value != right.<a class="code hl_property" href="struct_b_x_geometry_graph_1_1_json_ref-1-g.html#ab12a8f3bce47d198bda69a6bec183c8f">value</a>;</div>
 <div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>        }</div>
+</div>
 <div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span> </div>
-<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>        <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">bool</span> operator ==(JsonRef&lt;T&gt; left, JsonData&lt;T&gt; right)</div>
+<div class="foldopen" id="foldopen00122" data-start="{" data-end="}">
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno"><a class="line" href="struct_b_x_geometry_graph_1_1_json_data-1-g.html#ad21b885a1f0c5d27e4a6457641cbc7cc">  122</a></span>        <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="d3dx12__core_8h.html#abaa7b9c9360889b3da29669bdf7103a6">operator ==</a>(JsonRef&lt;T&gt; left, JsonData&lt;T&gt; right)</div>
 <div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>        {</div>
-<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>            <span class="keywordflow">return</span> left.value == right.value;</div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>            <span class="keywordflow">return</span> left.value == right.<a class="code hl_property" href="struct_b_x_geometry_graph_1_1_json_data-1-g.html#a5a098cccee6ec6bf09c979f2f2a7c5e4">value</a>;</div>
 <div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>        }</div>
+</div>
 <div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span> </div>
-<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>        <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">bool</span> operator !=(JsonRef&lt;T&gt; left, JsonData&lt;T&gt; right)</div>
+<div class="foldopen" id="foldopen00127" data-start="{" data-end="}">
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno"><a class="line" href="struct_b_x_geometry_graph_1_1_json_data-1-g.html#ade18c5814ab3b75d84fbe2c012d6b321">  127</a></span>        <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="d3dx12__core_8h.html#a9db3eda2cb0b747ec337ec87a15d4b0a">operator !=</a>(JsonRef&lt;T&gt; left, JsonData&lt;T&gt; right)</div>
 <div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>        {</div>
-<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>            <span class="keywordflow">return</span> left.value != right.value;</div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>            <span class="keywordflow">return</span> left.value != right.<a class="code hl_property" href="struct_b_x_geometry_graph_1_1_json_data-1-g.html#a5a098cccee6ec6bf09c979f2f2a7c5e4">value</a>;</div>
 <div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>        }</div>
+</div>
 <div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>    }</div>
 </div>
 <div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>}</div>
 <div class="ttc" id="aclass_b_x_geometry_graph_1_1_json_object_html"><div class="ttname"><a href="class_b_x_geometry_graph_1_1_json_object.html">BXGeometryGraph.JsonObject</a></div><div class="ttdef"><b>Definition</b> <a href="_json_object_8cs_source.html#l00013">JsonObject.cs:14</a></div></div>
+<div class="ttc" id="aclass_b_x_geometry_graph_1_1_multi_json_internal_html"><div class="ttname"><a href="class_b_x_geometry_graph_1_1_multi_json_internal.html">BXGeometryGraph.MultiJsonInternal</a></div><div class="ttdef"><b>Definition</b> <a href="_multi_json_internal_8cs_source.html#l00014">MultiJsonInternal.cs:15</a></div></div>
 <div class="ttc" id="aclass_debug_html"><div class="ttname"><a href="class_debug.html">Debug</a></div><div class="ttdef"><b>Definition</b> <a href="_debug_8h_source.html#l00009">Debug.h:10</a></div></div>
+<div class="ttc" id="aclass_debug_html_a39d3183a70eb1abf47e340de31dc31c9"><div class="ttname"><a href="class_debug.html#a39d3183a70eb1abf47e340de31dc31c9">Debug::LogException</a></div><div class="ttdeci">static void LogException(const std::string &amp;message)</div><div class="ttdef"><b>Definition</b> <a href="_debug_8cpp_source.html#l00117">Debug.cpp:117</a></div></div>
+<div class="ttc" id="ad3dx12__core_8h_html_a9db3eda2cb0b747ec337ec87a15d4b0a"><div class="ttname"><a href="d3dx12__core_8h.html#a9db3eda2cb0b747ec337ec87a15d4b0a">operator!=</a></div><div class="ttdeci">bool operator!=(const D3D12_VIEWPORT &amp;l, const D3D12_VIEWPORT &amp;r) noexcept</div><div class="ttdef"><b>Definition</b> <a href="d3dx12__core_8h_source.html#l00046">d3dx12_core.h:46</a></div></div>
+<div class="ttc" id="ad3dx12__core_8h_html_abaa7b9c9360889b3da29669bdf7103a6"><div class="ttname"><a href="d3dx12__core_8h.html#abaa7b9c9360889b3da29669bdf7103a6">operator==</a></div><div class="ttdeci">bool operator==(const D3D12_VIEWPORT &amp;l, const D3D12_VIEWPORT &amp;r) noexcept</div><div class="ttdef"><b>Definition</b> <a href="d3dx12__core_8h_source.html#l00039">d3dx12_core.h:39</a></div></div>
 <div class="ttc" id="anamespace_b_x_geometry_graph_html"><div class="ttname"><a href="namespace_b_x_geometry_graph.html">BXGeometryGraph</a></div><div class="ttdef"><b>Definition</b> <a href="_abstract_geometry_graph_data_extension_8cs_source.html#l00008">AbstractGeometryGraphDataExtension.cs:9</a></div></div>
+<div class="ttc" id="astruct_b_x_geometry_graph_1_1_json_data-1-g_html_a05f7e092bcebd91a2de5fb6189348b7a"><div class="ttname"><a href="struct_b_x_geometry_graph_1_1_json_data-1-g.html#a05f7e092bcebd91a2de5fb6189348b7a">BXGeometryGraph.JsonData-1-g.Equals</a></div><div class="ttdeci">override bool Equals(object obj)</div><div class="ttdef"><b>Definition</b> <a href="#l00072">JsonData.cs:72</a></div></div>
+<div class="ttc" id="astruct_b_x_geometry_graph_1_1_json_data-1-g_html_a1f45d9099e08e2e7a1a0e5142c5e270e"><div class="ttname"><a href="struct_b_x_geometry_graph_1_1_json_data-1-g.html#a1f45d9099e08e2e7a1a0e5142c5e270e">BXGeometryGraph.JsonData-1-g.m_Value</a></div><div class="ttdeci">T m_Value</div><div class="ttdef"><b>Definition</b> <a href="#l00012">JsonData.cs:12</a></div></div>
+<div class="ttc" id="astruct_b_x_geometry_graph_1_1_json_data-1-g_html_a2da39f804880eb23b99bfc5a144f5142"><div class="ttname"><a href="struct_b_x_geometry_graph_1_1_json_data-1-g.html#a2da39f804880eb23b99bfc5a144f5142">BXGeometryGraph.JsonData-1-g.Equals</a></div><div class="ttdeci">bool Equals(T other)</div><div class="ttdef"><b>Definition</b> <a href="#l00067">JsonData.cs:67</a></div></div>
+<div class="ttc" id="astruct_b_x_geometry_graph_1_1_json_data-1-g_html_a38f7e91d36dbee915a86f8566775396e"><div class="ttname"><a href="struct_b_x_geometry_graph_1_1_json_data-1-g.html#a38f7e91d36dbee915a86f8566775396e">BXGeometryGraph.JsonData-1-g.Equals</a></div><div class="ttdeci">bool Equals(JsonData&lt; T &gt; other)</div><div class="ttdef"><b>Definition</b> <a href="#l00062">JsonData.cs:62</a></div></div>
+<div class="ttc" id="astruct_b_x_geometry_graph_1_1_json_data-1-g_html_a4b0e88c2cdf1b4771598b984821f7043"><div class="ttname"><a href="struct_b_x_geometry_graph_1_1_json_data-1-g.html#a4b0e88c2cdf1b4771598b984821f7043">BXGeometryGraph.JsonData-1-g.OnAfterDeserialize</a></div><div class="ttdeci">void OnAfterDeserialize()</div><div class="ttdef"><b>Definition</b> <a href="#l00027">JsonData.cs:27</a></div></div>
+<div class="ttc" id="astruct_b_x_geometry_graph_1_1_json_data-1-g_html_a5a098cccee6ec6bf09c979f2f2a7c5e4"><div class="ttname"><a href="struct_b_x_geometry_graph_1_1_json_data-1-g.html#a5a098cccee6ec6bf09c979f2f2a7c5e4">BXGeometryGraph.JsonData-1-g.value</a></div><div class="ttdeci">T value</div><div class="ttdef"><b>Definition</b> <a href="#l00017">JsonData.cs:17</a></div></div>
+<div class="ttc" id="astruct_b_x_geometry_graph_1_1_json_data-1-g_html_a73ab7863c752d4f623c111ddb290a93b"><div class="ttname"><a href="struct_b_x_geometry_graph_1_1_json_data-1-g.html#a73ab7863c752d4f623c111ddb290a93b">BXGeometryGraph.JsonData-1-g.OnBeforeSerialize</a></div><div class="ttdeci">void OnBeforeSerialize()</div><div class="ttdef"><b>Definition</b> <a href="#l00019">JsonData.cs:19</a></div></div>
+<div class="ttc" id="astruct_b_x_geometry_graph_1_1_json_data-1-g_html_a898e5259322392b3072ee37f37e28315"><div class="ttname"><a href="struct_b_x_geometry_graph_1_1_json_data-1-g.html#a898e5259322392b3072ee37f37e28315">BXGeometryGraph.JsonData-1-g.GetHashCode</a></div><div class="ttdeci">override int GetHashCode()</div><div class="ttdef"><b>Definition</b> <a href="#l00077">JsonData.cs:77</a></div></div>
+<div class="ttc" id="astruct_b_x_geometry_graph_1_1_json_data-1-g_html_ad84fa51dab7a6923e1034ac83e3b4c3a"><div class="ttname"><a href="struct_b_x_geometry_graph_1_1_json_data-1-g.html#ad84fa51dab7a6923e1034ac83e3b4c3a">BXGeometryGraph.JsonData-1-g.m_Id</a></div><div class="ttdeci">string m_Id</div><div class="ttdef"><b>Definition</b> <a href="#l00015">JsonData.cs:15</a></div></div>
+<div class="ttc" id="astruct_b_x_geometry_graph_1_1_json_ref-1-g_html_ab12a8f3bce47d198bda69a6bec183c8f"><div class="ttname"><a href="struct_b_x_geometry_graph_1_1_json_ref-1-g.html#ab12a8f3bce47d198bda69a6bec183c8f">BXGeometryGraph.JsonRef-1-g.value</a></div><div class="ttdeci">T value</div><div class="ttdef"><b>Definition</b> <a href="_json_ref_8cs_source.html#l00017">JsonRef.cs:17</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_f73a8b7d50989afdadf24d8fc7357a9a.html">FloowDream</a></li><li class="navelem"><a class="el" href="dir_1ba945c5ec581c9e331de81f300aff07.html">Assets</a></li><li class="navelem"><a class="el" href="dir_a57f4778d467e0a6236fa4788364df6c.html">Scripts</a></li><li class="navelem"><a class="el" href="dir_8b4148ef0ffda13d8a8272867298b61d.html">BXRenderPipeline</a></li><li class="navelem"><a class="el" href="dir_a8720bb293956aa0546773bed716ef7d.html">GeometryGraph</a></li><li class="navelem"><a class="el" href="dir_70308b049469fb202d64bde4a4db7180.html">Editor</a></li><li class="navelem"><a class="el" href="dir_ab45184760c23e2a8c22834cbe50edec.html">Serialization</a></li><li class="navelem"><b>JsonData.cs</b></li>
+    <li class="navelem"><a class="el" href="dir_f73a8b7d50989afdadf24d8fc7357a9a.html">FloowDream</a></li><li class="navelem"><a class="el" href="dir_1ba945c5ec581c9e331de81f300aff07.html">Assets</a></li><li class="navelem"><a class="el" href="dir_a57f4778d467e0a6236fa4788364df6c.html">Scripts</a></li><li class="navelem"><a class="el" href="dir_8b4148ef0ffda13d8a8272867298b61d.html">BXRenderPipeline</a></li><li class="navelem"><a class="el" href="dir_a8720bb293956aa0546773bed716ef7d.html">GeometryGraph</a></li><li class="navelem"><a class="el" href="dir_70308b049469fb202d64bde4a4db7180.html">Editor</a></li><li class="navelem"><a class="el" href="dir_ab45184760c23e2a8c22834cbe50edec.html">Serialization</a></li><li class="navelem"><a class="el" href="_json_data_8cs.html">JsonData.cs</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
   </ul>
 </div>

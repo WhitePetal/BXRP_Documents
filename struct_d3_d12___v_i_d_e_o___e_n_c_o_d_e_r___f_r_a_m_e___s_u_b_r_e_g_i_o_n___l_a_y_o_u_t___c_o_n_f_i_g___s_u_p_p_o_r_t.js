@@ -1,0 +1,5 @@
+var struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___f_r_a_m_e___s_u_b_r_e_g_i_o_n___l_a_y_o_u_t___c_o_n_f_i_g___s_u_p_p_o_r_t =
+[
+    [ "DataSize", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___f_r_a_m_e___s_u_b_r_e_g_i_o_n___l_a_y_o_u_t___c_o_n_f_i_g___s_u_p_p_o_r_t.html#a7f089af91b7999420d0914fd4bbb7029", null ],
+    [ "pAV1Support", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___f_r_a_m_e___s_u_b_r_e_g_i_o_n___l_a_y_o_u_t___c_o_n_f_i_g___s_u_p_p_o_r_t.html#a7e40f97264517f7f25ed4c5d44c73bd2", null ]
+];

@@ -1,0 +1,27 @@
+var struct_i_d3_d12_video_device_vtbl =
+[
+    [ "_In_reads_", "struct_i_d3_d12_video_device_vtbl.html#a447cf426efc54589d70c6b3289a677b9", null ],
+    [ "_Inout_updates_bytes_", "struct_i_d3_d12_video_device_vtbl.html#ac263823d262686ac331a2efd3947e6c1", null ],
+    [ "HRESULT", "struct_i_d3_d12_video_device_vtbl.html#a7a757d772d418715b94b72a4be5f19a1", null ],
+    [ "HRESULT", "struct_i_d3_d12_video_device_vtbl.html#a39ff442e2631069e6b6a4599e4ca1358", null ],
+    [ "HRESULT", "struct_i_d3_d12_video_device_vtbl.html#ae87cc0c99714845b0400e3ef0132b61c", null ],
+    [ "HRESULT", "struct_i_d3_d12_video_device_vtbl.html#af9ba3df676dce95822355f95df02898a", null ],
+    [ "HRESULT", "struct_i_d3_d12_video_device_vtbl.html#a55bfcadcd1831c9fc6151cf5cca7e55d", null ],
+    [ "ULONG", "struct_i_d3_d12_video_device_vtbl.html#ac1c2792ce488f722516aca8764152c97", null ],
+    [ "ULONG", "struct_i_d3_d12_video_device_vtbl.html#a144c6cc379941709216deeac9948da00", null ],
+    [ "FeatureSupportDataSize", "struct_i_d3_d12_video_device_vtbl.html#a45d83b8d287f211208c8a724e5974c67", null ],
+    [ "FeatureVideo", "struct_i_d3_d12_video_device_vtbl.html#aa374ccc502932b586787a029e7d972e0", null ],
+    [ "NodeMask", "struct_i_d3_d12_video_device_vtbl.html#a80acab0a23dfa8d17a637eef9775db92", null ],
+    [ "NumInputStreamDescs", "struct_i_d3_d12_video_device_vtbl.html#ae6bbf07c8e797c0db88738371e2d02ba", null ],
+    [ "pDesc", "struct_i_d3_d12_video_device_vtbl.html#a990bdc8768265d270fc8faa20fc46294", null ],
+    [ "pOutputStreamDesc", "struct_i_d3_d12_video_device_vtbl.html#a63f63ac2d642ce15dd453c484133325e", null ],
+    [ "ppVideoDecoder", "struct_i_d3_d12_video_device_vtbl.html#ad3571108ca4334cfe11d12137b8b5594", null ],
+    [ "ppVideoDecoderHeap", "struct_i_d3_d12_video_device_vtbl.html#a3037a2e4734189cf0d2c82176150b8e4", null ],
+    [ "ppVideoProcessor", "struct_i_d3_d12_video_device_vtbl.html#a65eb7312d4817433d07196f8bd410558", null ],
+    [ "ppvObject", "struct_i_d3_d12_video_device_vtbl.html#a335b71691dba0563a2e6935ccbeff613", null ],
+    [ "pVideoDecoderHeapDesc", "struct_i_d3_d12_video_device_vtbl.html#a91abd105407de0777541388b79373600", null ],
+    [ "riid", "struct_i_d3_d12_video_device_vtbl.html#af4b707abbbabe5246353aa3778f3e77b", null ],
+    [ "riid", "struct_i_d3_d12_video_device_vtbl.html#ae0fed71b84abc42c501d6e2c324d7f34", null ],
+    [ "riid", "struct_i_d3_d12_video_device_vtbl.html#a6eea05219f15878d64db9b484b482eea", null ],
+    [ "riid", "struct_i_d3_d12_video_device_vtbl.html#a98d5c877e026b9980422a218c7becce1", null ]
+];

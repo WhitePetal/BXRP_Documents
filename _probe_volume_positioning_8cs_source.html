@@ -109,7 +109,7 @@ $(function(){initNavTree('_probe_volume_positioning_8cs_source.html',''); initRe
   <div class="headertitle"><div class="title">ProbeVolumePositioning.cs</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="keyword">using </span>System.Collections;</div>
+<a href="_probe_volume_positioning_8cs.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="keyword">using </span>System.Collections;</div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="keyword">using </span>System.Collections.Generic;</div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="keyword">using </span>UnityEngine;</div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
@@ -117,8 +117,8 @@ $(function(){initNavTree('_probe_volume_positioning_8cs_source.html',''); initRe
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span>{</div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>    <span class="keyword">internal</span> <span class="keyword">static</span> <span class="keyword">class </span>ProbeVolumePositioning </div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>    {</div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>        <span class="keyword">internal</span> <span class="keyword">static</span> Vector3[] m_Axes = <span class="keyword">new</span> Vector3[6];</div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>        <span class="keyword">internal</span> <span class="keyword">static</span> Vector3[] m_AABBCorners = <span class="keyword">new</span> Vector3[8];</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>        <span class="keyword">internal</span> <span class="keyword">static</span> <a class="code hl_enumvalue" href="namespace_b_x_geometry_graph.html#ad0e11e1489817712969f4f5edfebed4fa02b4dab58bbc49e0851fb3fd8df520cc">Vector3</a>[] m_Axes = <span class="keyword">new</span> <a class="code hl_enumvalue" href="namespace_b_x_geometry_graph.html#ad0e11e1489817712969f4f5edfebed4fa02b4dab58bbc49e0851fb3fd8df520cc">Vector3</a>[6];</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>        <span class="keyword">internal</span> <span class="keyword">static</span> <a class="code hl_enumvalue" href="namespace_b_x_geometry_graph.html#ad0e11e1489817712969f4f5edfebed4fa02b4dab58bbc49e0851fb3fd8df520cc">Vector3</a>[] m_AABBCorners = <span class="keyword">new</span> <a class="code hl_enumvalue" href="namespace_b_x_geometry_graph.html#ad0e11e1489817712969f4f5edfebed4fa02b4dab58bbc49e0851fb3fd8df520cc">Vector3</a>[8];</div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>        <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">bool</span> OBBIntersect(in ProbeReferenceVolume.Volume a, in ProbeReferenceVolume.Volume b)</div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>        {</div>
@@ -128,7 +128,7 @@ $(function(){initNavTree('_probe_volume_positioning_8cs_source.html',''); initRe
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>            var aRidus = aSize.sqrMagnitude;</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>            var bRidus = bSize.sqrMagnitude;</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>            <span class="keywordflow">if</span> (Vector3.SqrMagnitude(aCenter - bCenter) &gt; aRidus + bRidus)</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>            <span class="keywordflow">if</span> (<a class="code hl_enumvalue" href="namespace_b_x_geometry_graph.html#ad0e11e1489817712969f4f5edfebed4fa02b4dab58bbc49e0851fb3fd8df520cc">Vector3</a>.SqrMagnitude(aCenter - bCenter) &gt; aRidus + bRidus)</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>            m_Axes[0] = a.X.normalized;</div>
@@ -140,8 +140,8 @@ $(function(){initNavTree('_probe_volume_positioning_8cs_source.html',''); initRe
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>            <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = 0; i &lt; 6; ++i)</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>            {</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>                Vector2 aProj = ProjectOBB(in a, m_Axes[i]);</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>                Vector2 bProj = ProjectOBB(in b, m_Axes[i]);</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>                <a class="code hl_enumvalue" href="namespace_b_x_geometry_graph.html#ad0e11e1489817712969f4f5edfebed4fa1bebc5ae2822f8e361fb0ce57b5e09e2">Vector2</a> aProj = ProjectOBB(in a, m_Axes[i]);</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>                <a class="code hl_enumvalue" href="namespace_b_x_geometry_graph.html#ad0e11e1489817712969f4f5edfebed4fa1bebc5ae2822f8e361fb0ce57b5e09e2">Vector2</a> bProj = ProjectOBB(in b, m_Axes[i]);</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>                <span class="keywordflow">if</span> (aProj.y &lt; bProj.x || bProj.y &lt; aProj.x)</div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>                    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
@@ -158,7 +158,7 @@ $(function(){initNavTree('_probe_volume_positioning_8cs_source.html',''); initRe
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>            <span class="comment">// Project in OBB space</span></div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>            point -= obb.corner;</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>            point = <span class="keyword">new</span> Vector3(Vector3.Dot(point, obb.X), Vector3.Dot(point, obb.Y), Vector3.Dot(point, obb.Z));</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>            point = <span class="keyword">new</span> <a class="code hl_enumvalue" href="namespace_b_x_geometry_graph.html#ad0e11e1489817712969f4f5edfebed4fa02b4dab58bbc49e0851fb3fd8df520cc">Vector3</a>(<a class="code hl_enumvalue" href="namespace_b_x_geometry_graph.html#ad0e11e1489817712969f4f5edfebed4fa02b4dab58bbc49e0851fb3fd8df520cc">Vector3</a>.Dot(point, obb.X), <a class="code hl_enumvalue" href="namespace_b_x_geometry_graph.html#ad0e11e1489817712969f4f5edfebed4fa02b4dab58bbc49e0851fb3fd8df520cc">Vector3</a>.Dot(point, obb.Y), <a class="code hl_enumvalue" href="namespace_b_x_geometry_graph.html#ad0e11e1489817712969f4f5edfebed4fa02b4dab58bbc49e0851fb3fd8df520cc">Vector3</a>.Dot(point, obb.Z));</div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>            <span class="keywordflow">return</span> (0f &lt; point.x &amp;&amp; point.x &lt; lenX2) &amp;&amp; (0f &lt; point.y &amp;&amp; point.y &lt; lenY2) &amp;&amp; (0f &lt; point.z &amp;&amp; point.z &lt; lenZ2);</div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>        }</div>
@@ -171,15 +171,15 @@ $(function(){initNavTree('_probe_volume_positioning_8cs_source.html',''); initRe
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>            <span class="comment">// Perform complex OBB test</span></div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>            Vector3 boundsMin = b.min, boundsMax = b.max;</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>            m_AABBCorners[0] = <span class="keyword">new</span> Vector3(boundsMin.x, boundsMin.y, boundsMin.z);</div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>            m_AABBCorners[1] = <span class="keyword">new</span> Vector3(boundsMax.x, boundsMin.y, boundsMin.z);</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>            m_AABBCorners[2] = <span class="keyword">new</span> Vector3(boundsMax.x, boundsMax.y, boundsMin.z);</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>            m_AABBCorners[3] = <span class="keyword">new</span> Vector3(boundsMin.x, boundsMax.y, boundsMin.z);</div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>            m_AABBCorners[4] = <span class="keyword">new</span> Vector3(boundsMin.x, boundsMin.y, boundsMax.z);</div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>            m_AABBCorners[5] = <span class="keyword">new</span> Vector3(boundsMax.x, boundsMin.y, boundsMax.z);</div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>            m_AABBCorners[6] = <span class="keyword">new</span> Vector3(boundsMax.x, boundsMax.y, boundsMax.z);</div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>            m_AABBCorners[7] = <span class="keyword">new</span> Vector3(boundsMin.x, boundsMax.y, boundsMax.z);</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>            <a class="code hl_enumvalue" href="namespace_b_x_geometry_graph.html#ad0e11e1489817712969f4f5edfebed4fa02b4dab58bbc49e0851fb3fd8df520cc">Vector3</a> boundsMin = b.min, boundsMax = b.max;</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>            m_AABBCorners[0] = <span class="keyword">new</span> <a class="code hl_enumvalue" href="namespace_b_x_geometry_graph.html#ad0e11e1489817712969f4f5edfebed4fa02b4dab58bbc49e0851fb3fd8df520cc">Vector3</a>(boundsMin.x, boundsMin.y, boundsMin.z);</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>            m_AABBCorners[1] = <span class="keyword">new</span> <a class="code hl_enumvalue" href="namespace_b_x_geometry_graph.html#ad0e11e1489817712969f4f5edfebed4fa02b4dab58bbc49e0851fb3fd8df520cc">Vector3</a>(boundsMax.x, boundsMin.y, boundsMin.z);</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>            m_AABBCorners[2] = <span class="keyword">new</span> <a class="code hl_enumvalue" href="namespace_b_x_geometry_graph.html#ad0e11e1489817712969f4f5edfebed4fa02b4dab58bbc49e0851fb3fd8df520cc">Vector3</a>(boundsMax.x, boundsMax.y, boundsMin.z);</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>            m_AABBCorners[3] = <span class="keyword">new</span> <a class="code hl_enumvalue" href="namespace_b_x_geometry_graph.html#ad0e11e1489817712969f4f5edfebed4fa02b4dab58bbc49e0851fb3fd8df520cc">Vector3</a>(boundsMin.x, boundsMax.y, boundsMin.z);</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>            m_AABBCorners[4] = <span class="keyword">new</span> <a class="code hl_enumvalue" href="namespace_b_x_geometry_graph.html#ad0e11e1489817712969f4f5edfebed4fa02b4dab58bbc49e0851fb3fd8df520cc">Vector3</a>(boundsMin.x, boundsMin.y, boundsMax.z);</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>            m_AABBCorners[5] = <span class="keyword">new</span> <a class="code hl_enumvalue" href="namespace_b_x_geometry_graph.html#ad0e11e1489817712969f4f5edfebed4fa02b4dab58bbc49e0851fb3fd8df520cc">Vector3</a>(boundsMax.x, boundsMin.y, boundsMax.z);</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>            m_AABBCorners[6] = <span class="keyword">new</span> <a class="code hl_enumvalue" href="namespace_b_x_geometry_graph.html#ad0e11e1489817712969f4f5edfebed4fa02b4dab58bbc49e0851fb3fd8df520cc">Vector3</a>(boundsMax.x, boundsMax.y, boundsMax.z);</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>            m_AABBCorners[7] = <span class="keyword">new</span> <a class="code hl_enumvalue" href="namespace_b_x_geometry_graph.html#ad0e11e1489817712969f4f5edfebed4fa02b4dab58bbc49e0851fb3fd8df520cc">Vector3</a>(boundsMin.x, boundsMax.y, boundsMax.z);</div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span> </div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>            m_Axes[0] = a.X.normalized;</div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>            m_Axes[1] = a.Y.normalized;</div>
@@ -187,8 +187,8 @@ $(function(){initNavTree('_probe_volume_positioning_8cs_source.html',''); initRe
 <div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span> </div>
 <div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>            <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = 0; i &lt; 3; ++i)</div>
 <div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>            {</div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>                Vector2 aProj = ProjectOBB(in a, m_Axes[i]);</div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>                Vector2 bProj = ProjectAABB(in m_AABBCorners, m_Axes[i]);</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>                <a class="code hl_enumvalue" href="namespace_b_x_geometry_graph.html#ad0e11e1489817712969f4f5edfebed4fa1bebc5ae2822f8e361fb0ce57b5e09e2">Vector2</a> aProj = ProjectOBB(in a, m_Axes[i]);</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>                <a class="code hl_enumvalue" href="namespace_b_x_geometry_graph.html#ad0e11e1489817712969f4f5edfebed4fa1bebc5ae2822f8e361fb0ce57b5e09e2">Vector2</a> bProj = ProjectAABB(in m_AABBCorners, m_Axes[i]);</div>
 <div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span> </div>
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>                <span class="keywordflow">if</span> (aProj.y &lt; bProj.x || bProj.y &lt; aProj.x)</div>
 <div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>                    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
@@ -197,9 +197,9 @@ $(function(){initNavTree('_probe_volume_positioning_8cs_source.html',''); initRe
 <div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>        }</div>
 <div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span> </div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>        <span class="keyword">private</span> <span class="keyword">static</span> Vector2 ProjectOBB(in ProbeReferenceVolume.Volume a, Vector3 axis)</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>        <span class="keyword">private</span> <span class="keyword">static</span> <a class="code hl_enumvalue" href="namespace_b_x_geometry_graph.html#ad0e11e1489817712969f4f5edfebed4fa1bebc5ae2822f8e361fb0ce57b5e09e2">Vector2</a> ProjectOBB(in ProbeReferenceVolume.Volume a, Vector3 axis)</div>
 <div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>        {</div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>            <span class="keywordtype">float</span> min = Vector3.Dot(axis, a.corner);</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>            <span class="keywordtype">float</span> min = <a class="code hl_enumvalue" href="namespace_b_x_geometry_graph.html#ad0e11e1489817712969f4f5edfebed4fa02b4dab58bbc49e0851fb3fd8df520cc">Vector3</a>.Dot(axis, a.corner);</div>
 <div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>            <span class="keywordtype">float</span> max = min;</div>
 <div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span> </div>
 <div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>            <span class="keywordflow">for</span>(<span class="keywordtype">int</span> x = 0; x &lt; 2; ++x)</div>
@@ -208,8 +208,8 @@ $(function(){initNavTree('_probe_volume_positioning_8cs_source.html',''); initRe
 <div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>                {</div>
 <div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>                    <span class="keywordflow">for</span>(<span class="keywordtype">int</span> z = 0; z &lt; 2; ++z)</div>
 <div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>                    {</div>
-<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>                        Vector3 vert = a.corner + a.X * x + a.Y * y + a.Z * z;</div>
-<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>                        <span class="keywordtype">float</span> proj = Vector3.Dot(axis, vert);</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>                        <a class="code hl_enumvalue" href="namespace_b_x_geometry_graph.html#ad0e11e1489817712969f4f5edfebed4fa02b4dab58bbc49e0851fb3fd8df520cc">Vector3</a> vert = a.corner + a.X * x + a.Y * y + a.Z * z;</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>                        <span class="keywordtype">float</span> proj = <a class="code hl_enumvalue" href="namespace_b_x_geometry_graph.html#ad0e11e1489817712969f4f5edfebed4fa02b4dab58bbc49e0851fb3fd8df520cc">Vector3</a>.Dot(axis, vert);</div>
 <div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>                        <span class="keywordflow">if</span> (proj &lt; min)</div>
 <div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>                            min = proj;</div>
 <div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>                        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (proj &gt; max)</div>
@@ -218,34 +218,36 @@ $(function(){initNavTree('_probe_volume_positioning_8cs_source.html',''); initRe
 <div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>                }</div>
 <div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>            }</div>
 <div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span> </div>
-<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>            <span class="keywordflow">return</span> <span class="keyword">new</span> Vector2(min, max);</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>            <span class="keywordflow">return</span> <span class="keyword">new</span> <a class="code hl_enumvalue" href="namespace_b_x_geometry_graph.html#ad0e11e1489817712969f4f5edfebed4fa1bebc5ae2822f8e361fb0ce57b5e09e2">Vector2</a>(min, max);</div>
 <div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>        }</div>
 <div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span> </div>
-<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>        <span class="keyword">private</span> <span class="keyword">static</span> Vector2 ProjectAABB(in Vector3[] corners, Vector3 axis)</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>        <span class="keyword">private</span> <span class="keyword">static</span> <a class="code hl_enumvalue" href="namespace_b_x_geometry_graph.html#ad0e11e1489817712969f4f5edfebed4fa1bebc5ae2822f8e361fb0ce57b5e09e2">Vector2</a> ProjectAABB(in Vector3[] corners, Vector3 axis)</div>
 <div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>        {</div>
-<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>            <span class="keywordtype">float</span> min = Vector3.Dot(axis, corners[0]);</div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>            <span class="keywordtype">float</span> min = <a class="code hl_enumvalue" href="namespace_b_x_geometry_graph.html#ad0e11e1489817712969f4f5edfebed4fa02b4dab58bbc49e0851fb3fd8df520cc">Vector3</a>.Dot(axis, corners[0]);</div>
 <div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>            <span class="keywordtype">float</span> max = min;</div>
 <div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>            <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = 1; i &lt; 8; ++i)</div>
 <div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>            {</div>
-<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>                <span class="keywordtype">float</span> proj = Vector3.Dot(axis, corners[i]);</div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>                <span class="keywordtype">float</span> proj = <a class="code hl_enumvalue" href="namespace_b_x_geometry_graph.html#ad0e11e1489817712969f4f5edfebed4fa02b4dab58bbc49e0851fb3fd8df520cc">Vector3</a>.Dot(axis, corners[i]);</div>
 <div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>                <span class="keywordflow">if</span> (proj &lt; min)</div>
 <div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>                    min = proj;</div>
 <div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>                <span class="keywordflow">else</span> <span class="keywordflow">if</span> (proj &gt; max)</div>
 <div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>                    max = proj;</div>
 <div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>            }</div>
 <div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span> </div>
-<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>            <span class="keywordflow">return</span> <span class="keyword">new</span> Vector2(min, max);</div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>            <span class="keywordflow">return</span> <span class="keyword">new</span> <a class="code hl_enumvalue" href="namespace_b_x_geometry_graph.html#ad0e11e1489817712969f4f5edfebed4fa1bebc5ae2822f8e361fb0ce57b5e09e2">Vector2</a>(min, max);</div>
 <div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>        }</div>
 <div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>    }</div>
 <div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span> </div>
 <div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>}</div>
+<div class="ttc" id="anamespace_b_x_geometry_graph_html_ad0e11e1489817712969f4f5edfebed4fa02b4dab58bbc49e0851fb3fd8df520cc"><div class="ttname"><a href="namespace_b_x_geometry_graph.html#ad0e11e1489817712969f4f5edfebed4fa02b4dab58bbc49e0851fb3fd8df520cc">BXGeometryGraph.PropertyType.Vector3</a></div><div class="ttdeci">@ Vector3</div><div class="ttdef"><b>Definition</b> <a href="_property_type_8cs_source.html#l00019">PropertyType.cs:19</a></div></div>
+<div class="ttc" id="anamespace_b_x_geometry_graph_html_ad0e11e1489817712969f4f5edfebed4fa1bebc5ae2822f8e361fb0ce57b5e09e2"><div class="ttname"><a href="namespace_b_x_geometry_graph.html#ad0e11e1489817712969f4f5edfebed4fa1bebc5ae2822f8e361fb0ce57b5e09e2">BXGeometryGraph.PropertyType.Vector2</a></div><div class="ttdeci">@ Vector2</div><div class="ttdef"><b>Definition</b> <a href="_property_type_8cs_source.html#l00018">PropertyType.cs:18</a></div></div>
 <div class="ttc" id="anamespace_b_x_render_pipeline_html"><div class="ttname"><a href="namespace_b_x_render_pipeline.html">BXRenderPipeline</a></div><div class="ttdef"><b>Definition</b> <a href="_b_x_additional_light_data_8_types_8cs_source.html#l00006">BXAdditionalLightData.Types.cs:7</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_f73a8b7d50989afdadf24d8fc7357a9a.html">FloowDream</a></li><li class="navelem"><a class="el" href="dir_1ba945c5ec581c9e331de81f300aff07.html">Assets</a></li><li class="navelem"><a class="el" href="dir_a57f4778d467e0a6236fa4788364df6c.html">Scripts</a></li><li class="navelem"><a class="el" href="dir_8b4148ef0ffda13d8a8272867298b61d.html">BXRenderPipeline</a></li><li class="navelem"><a class="el" href="dir_adca635a4a56f63b57dcbe3faea75e30.html">ProbeVolumes</a></li><li class="navelem"><b>ProbeVolumePositioning.cs</b></li>
+    <li class="navelem"><a class="el" href="dir_f73a8b7d50989afdadf24d8fc7357a9a.html">FloowDream</a></li><li class="navelem"><a class="el" href="dir_1ba945c5ec581c9e331de81f300aff07.html">Assets</a></li><li class="navelem"><a class="el" href="dir_a57f4778d467e0a6236fa4788364df6c.html">Scripts</a></li><li class="navelem"><a class="el" href="dir_8b4148ef0ffda13d8a8272867298b61d.html">BXRenderPipeline</a></li><li class="navelem"><a class="el" href="dir_adca635a4a56f63b57dcbe3faea75e30.html">ProbeVolumes</a></li><li class="navelem"><a class="el" href="_probe_volume_positioning_8cs.html">ProbeVolumePositioning.cs</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
   </ul>
 </div>

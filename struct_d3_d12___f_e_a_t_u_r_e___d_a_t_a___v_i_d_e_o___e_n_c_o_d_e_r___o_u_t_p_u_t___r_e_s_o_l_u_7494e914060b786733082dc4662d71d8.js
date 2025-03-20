@@ -1,0 +1,6 @@
+var struct_d3_d12___f_e_a_t_u_r_e___d_a_t_a___v_i_d_e_o___e_n_c_o_d_e_r___o_u_t_p_u_t___r_e_s_o_l_u_7494e914060b786733082dc4662d71d8 =
+[
+    [ "Codec", "struct_d3_d12___f_e_a_t_u_r_e___d_a_t_a___v_i_d_e_o___e_n_c_o_d_e_r___o_u_t_p_u_t___r_e_s_o_l_u_7494e914060b786733082dc4662d71d8.html#abd6bf60bcc5c2c4b4d0058cc402b61e7", null ],
+    [ "NodeIndex", "struct_d3_d12___f_e_a_t_u_r_e___d_a_t_a___v_i_d_e_o___e_n_c_o_d_e_r___o_u_t_p_u_t___r_e_s_o_l_u_7494e914060b786733082dc4662d71d8.html#a9a2cb2f43bc48e05bb69e6f06b04c338", null ],
+    [ "ResolutionRatiosCount", "struct_d3_d12___f_e_a_t_u_r_e___d_a_t_a___v_i_d_e_o___e_n_c_o_d_e_r___o_u_t_p_u_t___r_e_s_o_l_u_7494e914060b786733082dc4662d71d8.html#a6b9ce089c4430d71c8969e1cc4851606", null ]
+];

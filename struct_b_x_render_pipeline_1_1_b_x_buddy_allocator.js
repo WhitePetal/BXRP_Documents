@@ -1,4 +1,32 @@
 var struct_b_x_render_pipeline_1_1_b_x_buddy_allocator =
 [
-    [ "Header", "struct_b_x_render_pipeline_1_1_b_x_buddy_allocator_1_1_header.html", null ]
+    [ "Header", "struct_b_x_render_pipeline_1_1_b_x_buddy_allocator_1_1_header.html", "struct_b_x_render_pipeline_1_1_b_x_buddy_allocator_1_1_header" ],
+    [ "BXBuddyAllocator", "struct_b_x_render_pipeline_1_1_b_x_buddy_allocator.html#a61890b06b6e2da2d5619ef7c5fab3113", null ],
+    [ "AlignForward", "struct_b_x_render_pipeline_1_1_b_x_buddy_allocator.html#ad37373a1dbfcc1a9f26406316e161db3", null ],
+    [ "AllocateRange< T >", "struct_b_x_render_pipeline_1_1_b_x_buddy_allocator.html#a16a3d8029417f5c4bd735e2ab15c17e3", null ],
+    [ "Dispose", "struct_b_x_render_pipeline_1_1_b_x_buddy_allocator.html#a888a2c9ae5ef6c69f87a49a95608995b", null ],
+    [ "Free", "struct_b_x_render_pipeline_1_1_b_x_buddy_allocator.html#a1d3231109233875665abb64e2f494e67", null ],
+    [ "FreeMaskIndices", "struct_b_x_render_pipeline_1_1_b_x_buddy_allocator.html#afe2accd92a01c0fba190e5025eadede6", null ],
+    [ "FreeMasks", "struct_b_x_render_pipeline_1_1_b_x_buddy_allocator.html#a8d566f100bf19f6cb6c59b492ba6cae2", null ],
+    [ "GetNativeArray< T >", "struct_b_x_render_pipeline_1_1_b_x_buddy_allocator.html#a1cffb355b56368441dc02038e269daee", null ],
+    [ "LevelLength", "struct_b_x_render_pipeline_1_1_b_x_buddy_allocator.html#a407916d4b094850d125a0b7e7dc065e1", null ],
+    [ "LevelLength64", "struct_b_x_render_pipeline_1_1_b_x_buddy_allocator.html#a48781b7a5f7472a977f143e19a6e14b3", null ],
+    [ "LevelOffset", "struct_b_x_render_pipeline_1_1_b_x_buddy_allocator.html#a4234cda17cac25660bf6f6908270715a", null ],
+    [ "LevelOffset64", "struct_b_x_render_pipeline_1_1_b_x_buddy_allocator.html#ad5f188cded6e5f3f1e4c7ef78d91dcf6", null ],
+    [ "Pow2", "struct_b_x_render_pipeline_1_1_b_x_buddy_allocator.html#ac7577aa0ec7a46be4377c525be66d8d7", null ],
+    [ "Pow2N", "struct_b_x_render_pipeline_1_1_b_x_buddy_allocator.html#a486ec9c59455193e895c4ab085156589", null ],
+    [ "PtrAdd", "struct_b_x_render_pipeline_1_1_b_x_buddy_allocator.html#ace9e35b3a1339b433152776a5f30da11", null ],
+    [ "TryAllocate", "struct_b_x_render_pipeline_1_1_b_x_buddy_allocator.html#a2995f78dbcc1899a4ded22a4500286da", null ],
+    [ "int", "struct_b_x_render_pipeline_1_1_b_x_buddy_allocator.html#a774fe6c4a03ace4f4424b531a629e34e", null ],
+    [ "int", "struct_b_x_render_pipeline_1_1_b_x_buddy_allocator.html#a774fe6c4a03ace4f4424b531a629e34e", null ],
+    [ "m_ActiveFreeMaskCounts", "struct_b_x_render_pipeline_1_1_b_x_buddy_allocator.html#a0e3ae7deadc3b035ebff362232137b6a", null ],
+    [ "m_Allocator", "struct_b_x_render_pipeline_1_1_b_x_buddy_allocator.html#a16d5be784f5edafbb9da50d807d450a9", null ],
+    [ "m_Data", "struct_b_x_render_pipeline_1_1_b_x_buddy_allocator.html#ae063179f94844246e15a33c9dc483564", null ],
+    [ "m_FreeMaskIndicesStorage", "struct_b_x_render_pipeline_1_1_b_x_buddy_allocator.html#ad9e0750d33c9578730d2076ff858e632", null ],
+    [ "m_FreeMasksStorage", "struct_b_x_render_pipeline_1_1_b_x_buddy_allocator.html#a0dc51d18b64d2f5f1b03a68e95eb596e", null ],
+    [ "freeMaskCounts", "struct_b_x_render_pipeline_1_1_b_x_buddy_allocator.html#a70d019cbbb6f427a5dba6e7c9ccce36f", null ],
+    [ "freeMaskIndicesStorage", "struct_b_x_render_pipeline_1_1_b_x_buddy_allocator.html#a2003f11fea0930cf4143dd2434d2cf7c", null ],
+    [ "freeMasksStorage", "struct_b_x_render_pipeline_1_1_b_x_buddy_allocator.html#a43e92aa98d38b3f197ee269c9459d268", null ],
+    [ "header", "struct_b_x_render_pipeline_1_1_b_x_buddy_allocator.html#a4a3fd4cd932f1c2d01aff755a58fb143", null ],
+    [ "levelCount", "struct_b_x_render_pipeline_1_1_b_x_buddy_allocator.html#ae08390265dffb87a7e3dd683d2a1dd93", null ]
 ];

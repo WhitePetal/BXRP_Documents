@@ -1,0 +1,5 @@
+var struct_d3_d12___r_a_y_t_r_a_c_i_n_g___a_c_c_e_l_e_r_a_t_i_o_n___s_t_r_u_c_t_u_r_e___p_o_s_t_b_u_f37ab590fc596de330cce5a90efd238d =
+[
+    [ "NumBottomLevelAccelerationStructurePointers", "struct_d3_d12___r_a_y_t_r_a_c_i_n_g___a_c_c_e_l_e_r_a_t_i_o_n___s_t_r_u_c_t_u_r_e___p_o_s_t_b_u_f37ab590fc596de330cce5a90efd238d.html#ac364a413f74febb966e5b69d68714e9d", null ],
+    [ "SerializedSizeInBytes", "struct_d3_d12___r_a_y_t_r_a_c_i_n_g___a_c_c_e_l_e_r_a_t_i_o_n___s_t_r_u_c_t_u_r_e___p_o_s_t_b_u_f37ab590fc596de330cce5a90efd238d.html#a244e4c11258fd5a7f3934584c7cc3740", null ]
+];

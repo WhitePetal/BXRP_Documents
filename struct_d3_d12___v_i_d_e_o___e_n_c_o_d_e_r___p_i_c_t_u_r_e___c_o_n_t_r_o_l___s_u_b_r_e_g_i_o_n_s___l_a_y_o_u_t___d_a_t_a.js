@@ -1,0 +1,7 @@
+var struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___p_i_c_t_u_r_e___c_o_n_t_r_o_l___s_u_b_r_e_g_i_o_n_s___l_a_y_o_u_t___d_a_t_a =
+[
+    [ "DataSize", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___p_i_c_t_u_r_e___c_o_n_t_r_o_l___s_u_b_r_e_g_i_o_n_s___l_a_y_o_u_t___d_a_t_a.html#a2a5e71cb3f8a19fa3c54aebd9dc4ecea", null ],
+    [ "pSlicesPartition_H264", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___p_i_c_t_u_r_e___c_o_n_t_r_o_l___s_u_b_r_e_g_i_o_n_s___l_a_y_o_u_t___d_a_t_a.html#ace249bf414a0c0683bae1afeb870c246", null ],
+    [ "pSlicesPartition_HEVC", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___p_i_c_t_u_r_e___c_o_n_t_r_o_l___s_u_b_r_e_g_i_o_n_s___l_a_y_o_u_t___d_a_t_a.html#a3b3fbe4e304aaae544e44eaa237b16a2", null ],
+    [ "pTilesPartition_AV1", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___p_i_c_t_u_r_e___c_o_n_t_r_o_l___s_u_b_r_e_g_i_o_n_s___l_a_y_o_u_t___d_a_t_a.html#aea4d9d86688499b5a67dff8380074261", null ]
+];

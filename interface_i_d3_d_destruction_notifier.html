@@ -112,6 +112,8 @@ $(function(){initNavTree('interface_i_d3_d_destruction_notifier.html',''); initR
   <div class="headertitle"><div class="title">ID3DDestructionNotifier Interface Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>import &quot;<a class="el" href="d3dcommon_8idl_source.html">d3dcommon.idl</a>&quot;;</code></p>
 <div class="dynheader">
 Inheritance diagram for ID3DDestructionNotifier:</div>
 <div class="dyncontent">
@@ -121,17 +123,59 @@ Inheritance diagram for ID3DDestructionNotifier:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a3894d2e06520132d60244ff3be3da18c" id="r_a3894d2e06520132d60244ff3be3da18c"><td class="memItemLeft" align="right" valign="top"><a id="a3894d2e06520132d60244ff3be3da18c" name="a3894d2e06520132d60244ff3be3da18c"></a>
-HRESULT&#160;</td><td class="memItemRight" valign="bottom"><b>RegisterDestructionCallback</b> ([annotation(&quot;_In_&quot;)] PFN_DESTRUCTION_CALLBACK callbackFn, [annotation(&quot;_In_&quot;)] void *pData, [annotation(&quot;_Out_&quot;)] UINT *pCallbackID)</td></tr>
+<tr class="memitem:a3894d2e06520132d60244ff3be3da18c" id="r_a3894d2e06520132d60244ff3be3da18c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3894d2e06520132d60244ff3be3da18c">RegisterDestructionCallback</a> ([annotation(&quot;_In_&quot;)] <a class="el" href="d3dcommon_8idl.html#af9f0f4b3be4a59b49a56b4d8eb2e1381">PFN_DESTRUCTION_CALLBACK</a> callbackFn, [annotation(&quot;_In_&quot;)] <a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> *pData, [annotation(&quot;_Out_&quot;)] <a class="el" href="basetsd_8h.html#a2e2c38961834f28c06e17e074eb00bc7">UINT</a> *pCallbackID)</td></tr>
 <tr class="separator:a3894d2e06520132d60244ff3be3da18c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a567d81b0e19051960efb895277d827" id="r_a3a567d81b0e19051960efb895277d827"><td class="memItemLeft" align="right" valign="top"><a id="a3a567d81b0e19051960efb895277d827" name="a3a567d81b0e19051960efb895277d827"></a>
-HRESULT&#160;</td><td class="memItemRight" valign="bottom"><b>UnregisterDestructionCallback</b> ([annotation(&quot;_In_&quot;)] UINT callbackID)</td></tr>
+<tr class="memitem:a3a567d81b0e19051960efb895277d827" id="r_a3a567d81b0e19051960efb895277d827"><td class="memItemLeft" align="right" valign="top"><a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a567d81b0e19051960efb895277d827">UnregisterDestructionCallback</a> ([annotation(&quot;_In_&quot;)] <a class="el" href="basetsd_8h.html#a2e2c38961834f28c06e17e074eb00bc7">UINT</a> callbackID)</td></tr>
 <tr class="separator:a3a567d81b0e19051960efb895277d827"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
 <p class="definition">Definition at line <a class="el" href="d3dcommon_8idl_source.html#l00405">405</a> of file <a class="el" href="d3dcommon_8idl_source.html">d3dcommon.idl</a>.</p>
-</div><hr/>The documentation for this interface was generated from the following file:<ul>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a3894d2e06520132d60244ff3be3da18c" name="a3894d2e06520132d60244ff3be3da18c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3894d2e06520132d60244ff3be3da18c">&#9670;&#160;</a></span>RegisterDestructionCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> ID3DDestructionNotifier::RegisterDestructionCallback </td>
+          <td>(</td>
+          <td class="paramtype">[annotation(&quot;_In_&quot;)] <a class="el" href="d3dcommon_8idl.html#af9f0f4b3be4a59b49a56b4d8eb2e1381">PFN_DESTRUCTION_CALLBACK</a></td>          <td class="paramname"><span class="paramname"><em>callbackFn</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">[annotation(&quot;_In_&quot;)] <a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> *</td>          <td class="paramname"><span class="paramname"><em>pData</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">[annotation(&quot;_Out_&quot;)] <a class="el" href="basetsd_8h.html#a2e2c38961834f28c06e17e074eb00bc7">UINT</a> *</td>          <td class="paramname"><span class="paramname"><em>pCallbackID</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3a567d81b0e19051960efb895277d827" name="a3a567d81b0e19051960efb895277d827"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a567d81b0e19051960efb895277d827">&#9670;&#160;</a></span>UnregisterDestructionCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> ID3DDestructionNotifier::UnregisterDestructionCallback </td>
+          <td>(</td>
+          <td class="paramtype">[annotation(&quot;_In_&quot;)] <a class="el" href="basetsd_8h.html#a2e2c38961834f28c06e17e074eb00bc7">UINT</a></td>          <td class="paramname"><span class="paramname"><em>callbackID</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this interface was generated from the following file:<ul>
 <li><a class="el" href="d3dcommon_8idl_source.html">d3dcommon.idl</a></li>
 </ul>
 </div><!-- contents -->

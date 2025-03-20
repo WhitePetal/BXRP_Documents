@@ -107,7 +107,10 @@ $(function(){initNavTree('classnv__helpers__dx12_1_1_ray_tracing_pipeline_genera
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classnv__helpers__dx12_1_1_ray_tracing_pipeline_generator-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">nv_helpers_dx12::RayTracingPipelineGenerator Class Reference</div></div>
 </div><!--header-->
@@ -118,25 +121,67 @@ $(function(){initNavTree('classnv__helpers__dx12_1_1_ray_tracing_pipeline_genera
 
 <p><code>#include &lt;<a class="el" href="_raytracing_pipeline_generator_8h_source.html">RaytracingPipelineGenerator.h</a>&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structnv__helpers__dx12_1_1_ray_tracing_pipeline_generator_1_1_hit_group.html">HitGroup</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structnv__helpers__dx12_1_1_ray_tracing_pipeline_generator_1_1_library.html">Library</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Storage for DXIL libraries and their exported symbols.  <a href="structnv__helpers__dx12_1_1_ray_tracing_pipeline_generator_1_1_library.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structnv__helpers__dx12_1_1_ray_tracing_pipeline_generator_1_1_root_signature_association.html">RootSignatureAssociation</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Storage for the association between shaders and root signatures.  <a href="structnv__helpers__dx12_1_1_ray_tracing_pipeline_generator_1_1_root_signature_association.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a4faf17e7f037304b8860f93dbca03700" id="r_a4faf17e7f037304b8860f93dbca03700"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4faf17e7f037304b8860f93dbca03700">RayTracingPipelineGenerator</a> (ID3D12Device5 *device)</td></tr>
+<tr class="memitem:a4faf17e7f037304b8860f93dbca03700" id="r_a4faf17e7f037304b8860f93dbca03700"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4faf17e7f037304b8860f93dbca03700">RayTracingPipelineGenerator</a> (<a class="el" href="d3d12_8h.html#ad88deb8a621c6f48c18fed30e523a41d">ID3D12Device5</a> *device)</td></tr>
 <tr class="separator:a4faf17e7f037304b8860f93dbca03700"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a5da922c1681a49dfdd73ca1a535f58" id="r_a8a5da922c1681a49dfdd73ca1a535f58"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a5da922c1681a49dfdd73ca1a535f58">AddLibrary</a> (<a class="el" href="struct_i_dxc_blob.html">IDxcBlob</a> *dxilLibrary, const std::vector&lt; std::wstring &gt; &amp;symbolExports)</td></tr>
+<tr class="memitem:ae30d3a6fbf67229f38a04b38d0dd4b7a" id="r_ae30d3a6fbf67229f38a04b38d0dd4b7a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae30d3a6fbf67229f38a04b38d0dd4b7a">~RayTracingPipelineGenerator</a> ()</td></tr>
+<tr class="separator:ae30d3a6fbf67229f38a04b38d0dd4b7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a5da922c1681a49dfdd73ca1a535f58" id="r_a8a5da922c1681a49dfdd73ca1a535f58"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a5da922c1681a49dfdd73ca1a535f58">AddLibrary</a> (<a class="el" href="struct_i_dxc_blob.html">IDxcBlob</a> *dxilLibrary, const std::vector&lt; std::wstring &gt; &amp;symbolExports)</td></tr>
 <tr class="separator:a8a5da922c1681a49dfdd73ca1a535f58"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afffeb37c3b24fa1fd9992c1b5e6cad38" id="r_afffeb37c3b24fa1fd9992c1b5e6cad38"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afffeb37c3b24fa1fd9992c1b5e6cad38">AddHitGroup</a> (const std::wstring &amp;hitGroupName, const std::wstring &amp;closestHitSymbol, const std::wstring &amp;anyHitSymbol=L&quot;&quot;, const std::wstring &amp;intersectionSymbol=L&quot;&quot;)</td></tr>
+<tr class="memitem:afffeb37c3b24fa1fd9992c1b5e6cad38" id="r_afffeb37c3b24fa1fd9992c1b5e6cad38"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afffeb37c3b24fa1fd9992c1b5e6cad38">AddHitGroup</a> (const std::wstring &amp;hitGroupName, const std::wstring &amp;closestHitSymbol, const std::wstring &amp;anyHitSymbol=L&quot;&quot;, const std::wstring &amp;intersectionSymbol=L&quot;&quot;)</td></tr>
 <tr class="separator:afffeb37c3b24fa1fd9992c1b5e6cad38"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7a09f6a35cdbce090e516355912cd8e" id="r_ab7a09f6a35cdbce090e516355912cd8e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7a09f6a35cdbce090e516355912cd8e">AddRootSignatureAssociation</a> (ID3D12RootSignature *rootSignature, const std::vector&lt; std::wstring &gt; &amp;symbols)</td></tr>
+<tr class="memitem:ab7a09f6a35cdbce090e516355912cd8e" id="r_ab7a09f6a35cdbce090e516355912cd8e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7a09f6a35cdbce090e516355912cd8e">AddRootSignatureAssociation</a> (<a class="el" href="d3d12_8h.html#af17387e0768c42e8ca99d17973486c66">ID3D12RootSignature</a> *rootSignature, const std::vector&lt; std::wstring &gt; &amp;symbols)</td></tr>
 <tr class="separator:ab7a09f6a35cdbce090e516355912cd8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a26c95369e685b6ce61b06e5072baf1d1" id="r_a26c95369e685b6ce61b06e5072baf1d1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a26c95369e685b6ce61b06e5072baf1d1">SetMaxPayloadSize</a> (UINT sizeInBytes)</td></tr>
+<tr class="memitem:a26c95369e685b6ce61b06e5072baf1d1" id="r_a26c95369e685b6ce61b06e5072baf1d1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a26c95369e685b6ce61b06e5072baf1d1">SetMaxPayloadSize</a> (<a class="el" href="basetsd_8h.html#a2e2c38961834f28c06e17e074eb00bc7">UINT</a> sizeInBytes)</td></tr>
 <tr class="separator:a26c95369e685b6ce61b06e5072baf1d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a86959da2d80f34ad2bc63a555ff19827" id="r_a86959da2d80f34ad2bc63a555ff19827"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a86959da2d80f34ad2bc63a555ff19827">SetMaxAttributeSize</a> (UINT sizeInBytes)</td></tr>
+<tr class="memitem:a86959da2d80f34ad2bc63a555ff19827" id="r_a86959da2d80f34ad2bc63a555ff19827"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a86959da2d80f34ad2bc63a555ff19827">SetMaxAttributeSize</a> (<a class="el" href="basetsd_8h.html#a2e2c38961834f28c06e17e074eb00bc7">UINT</a> sizeInBytes)</td></tr>
 <tr class="separator:a86959da2d80f34ad2bc63a555ff19827"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5d69cfbed2dc08ab9038dd2431aae3b6" id="r_a5d69cfbed2dc08ab9038dd2431aae3b6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d69cfbed2dc08ab9038dd2431aae3b6">SetMaxRecursionDepth</a> (UINT maxDepth)</td></tr>
+<tr class="memitem:a5d69cfbed2dc08ab9038dd2431aae3b6" id="r_a5d69cfbed2dc08ab9038dd2431aae3b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d69cfbed2dc08ab9038dd2431aae3b6">SetMaxRecursionDepth</a> (<a class="el" href="basetsd_8h.html#a2e2c38961834f28c06e17e074eb00bc7">UINT</a> maxDepth)</td></tr>
 <tr class="separator:a5d69cfbed2dc08ab9038dd2431aae3b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a82b0460f1bb4506e2f983af14781d58b" id="r_a82b0460f1bb4506e2f983af14781d58b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_i_d3_d12_state_object.html">ID3D12StateObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a82b0460f1bb4506e2f983af14781d58b">Generate</a> ()</td></tr>
 <tr class="memdesc:a82b0460f1bb4506e2f983af14781d58b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compiles the raytracing state object.  <br /></td></tr>
 <tr class="separator:a82b0460f1bb4506e2f983af14781d58b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a7d25ba784e644a1d0bdbf45b390d8353" id="r_a7d25ba784e644a1d0bdbf45b390d8353"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d25ba784e644a1d0bdbf45b390d8353">CreateDummyRootSignatures</a> ()</td></tr>
+<tr class="separator:a7d25ba784e644a1d0bdbf45b390d8353"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2cc447975e56d619e5b2fa7f3adbc75d" id="r_a2cc447975e56d619e5b2fa7f3adbc75d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2cc447975e56d619e5b2fa7f3adbc75d">BuildShaderExportList</a> (std::vector&lt; std::wstring &gt; &amp;exportedSymbols)</td></tr>
+<tr class="separator:a2cc447975e56d619e5b2fa7f3adbc75d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a7855dc1af10a4c36894028acafbf4d73" id="r_a7855dc1af10a4c36894028acafbf4d73"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structnv__helpers__dx12_1_1_ray_tracing_pipeline_generator_1_1_library.html">Library</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7855dc1af10a4c36894028acafbf4d73">m_libraries</a> = {}</td></tr>
+<tr class="separator:a7855dc1af10a4c36894028acafbf4d73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8b3564de57970b989d0661428d9d5cd" id="r_ad8b3564de57970b989d0661428d9d5cd"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structnv__helpers__dx12_1_1_ray_tracing_pipeline_generator_1_1_hit_group.html">HitGroup</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8b3564de57970b989d0661428d9d5cd">m_hitGroups</a> = {}</td></tr>
+<tr class="separator:ad8b3564de57970b989d0661428d9d5cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9026fc3432e0619f559a3c3d1967b2f" id="r_ae9026fc3432e0619f559a3c3d1967b2f"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structnv__helpers__dx12_1_1_ray_tracing_pipeline_generator_1_1_root_signature_association.html">RootSignatureAssociation</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9026fc3432e0619f559a3c3d1967b2f">m_rootSignatureAssociations</a> = {}</td></tr>
+<tr class="separator:ae9026fc3432e0619f559a3c3d1967b2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6da582dca3c70901e47c0852beaa239" id="r_ab6da582dca3c70901e47c0852beaa239"><td class="memItemLeft" align="right" valign="top"><a class="el" href="basetsd_8h.html#a2e2c38961834f28c06e17e074eb00bc7">UINT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab6da582dca3c70901e47c0852beaa239">m_maxPayLoadSizeInBytes</a> = 0</td></tr>
+<tr class="separator:ab6da582dca3c70901e47c0852beaa239"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f0958fa25ecc8a6662bc7adf05c28b1" id="r_a1f0958fa25ecc8a6662bc7adf05c28b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="basetsd_8h.html#a2e2c38961834f28c06e17e074eb00bc7">UINT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f0958fa25ecc8a6662bc7adf05c28b1">m_maxAttributeSizeInBytes</a> = 2 * sizeof(float)</td></tr>
+<tr class="separator:a1f0958fa25ecc8a6662bc7adf05c28b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94cef8dd0473054f1652227ac7cc187e" id="r_a94cef8dd0473054f1652227ac7cc187e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="basetsd_8h.html#a2e2c38961834f28c06e17e074eb00bc7">UINT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94cef8dd0473054f1652227ac7cc187e">m_maxRecursionDepth</a> = 1</td></tr>
+<tr class="memdesc:a94cef8dd0473054f1652227ac7cc187e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum recursion depth, initialized to 1 to at least allow tracing primary rays.  <br /></td></tr>
+<tr class="separator:a94cef8dd0473054f1652227ac7cc187e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71b9e37782c574c633502ed1490ff464" id="r_a71b9e37782c574c633502ed1490ff464"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12_8h.html#ad88deb8a621c6f48c18fed30e523a41d">ID3D12Device5</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71b9e37782c574c633502ed1490ff464">m_device</a></td></tr>
+<tr class="separator:a71b9e37782c574c633502ed1490ff464"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63dc5ceffc99a9211151c6b28db886cf" id="r_a63dc5ceffc99a9211151c6b28db886cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12_8h.html#af17387e0768c42e8ca99d17973486c66">ID3D12RootSignature</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a63dc5ceffc99a9211151c6b28db886cf">m_dummyLocalRootSignature</a></td></tr>
+<tr class="separator:a63dc5ceffc99a9211151c6b28db886cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a831a5288da79abbd84f18caf77896c3b" id="r_a831a5288da79abbd84f18caf77896c3b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12_8h.html#af17387e0768c42e8ca99d17973486c66">ID3D12RootSignature</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a831a5288da79abbd84f18caf77896c3b">m_dummyGlobalRootSignature</a></td></tr>
+<tr class="separator:a831a5288da79abbd84f18caf77896c3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Helper class to create raytracing pipelines. </p>
@@ -152,7 +197,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">nv_helpers_dx12::RayTracingPipelineGenerator::RayTracingPipelineGenerator </td>
           <td>(</td>
-          <td class="paramtype">ID3D12Device5 *</td>          <td class="paramname"><span class="paramname"><em>device</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="d3d12_8h.html#ad88deb8a621c6f48c18fed30e523a41d">ID3D12Device5</a> *</td>          <td class="paramname"><span class="paramname"><em>device</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -190,7 +235,7 @@ Public Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void nv_helpers_dx12::RayTracingPipelineGenerator::AddHitGroup </td>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> nv_helpers_dx12::RayTracingPipelineGenerator::AddHitGroup </td>
           <td>(</td>
           <td class="paramtype">const std::wstring &amp;</td>          <td class="paramname"><span class="paramname"><em>hitGroupName</em></span>, </td>
         </tr>
@@ -228,7 +273,7 @@ Public Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void nv_helpers_dx12::RayTracingPipelineGenerator::AddLibrary </td>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> nv_helpers_dx12::RayTracingPipelineGenerator::AddLibrary </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="struct_i_dxc_blob.html">IDxcBlob</a> *</td>          <td class="paramname"><span class="paramname"><em>dxilLibrary</em></span>, </td>
         </tr>
@@ -252,9 +297,9 @@ Public Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void nv_helpers_dx12::RayTracingPipelineGenerator::AddRootSignatureAssociation </td>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> nv_helpers_dx12::RayTracingPipelineGenerator::AddRootSignatureAssociation </td>
           <td>(</td>
-          <td class="paramtype">ID3D12RootSignature *</td>          <td class="paramname"><span class="paramname"><em>rootSignature</em></span>, </td>
+          <td class="paramtype"><a class="el" href="d3d12_8h.html#af17387e0768c42e8ca99d17973486c66">ID3D12RootSignature</a> *</td>          <td class="paramname"><span class="paramname"><em>rootSignature</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -266,6 +311,62 @@ Public Member Functions</h2></td></tr>
 <p>The shaders and hit groups may have various root signatures. This call associates a root signature to one or more symbols. All imported symbols must be associated to one root signature. </p>
 
 <p class="definition">Definition at line <a class="el" href="_raytracing_pipeline_generator_8cpp_source.html#l00106">106</a> of file <a class="el" href="_raytracing_pipeline_generator_8cpp_source.html">RaytracingPipelineGenerator.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a2cc447975e56d619e5b2fa7f3adbc75d" name="a2cc447975e56d619e5b2fa7f3adbc75d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2cc447975e56d619e5b2fa7f3adbc75d">&#9670;&#160;</a></span>BuildShaderExportList()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> nv_helpers_dx12::RayTracingPipelineGenerator::BuildShaderExportList </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; std::wstring &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>exportedSymbols</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Build a list containing the export symbols for the ray generation shaders, miss shaders, and hit group names </p>
+
+<p class="definition">Definition at line <a class="el" href="_raytracing_pipeline_generator_8cpp_source.html#l00351">351</a> of file <a class="el" href="_raytracing_pipeline_generator_8cpp_source.html">RaytracingPipelineGenerator.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a7d25ba784e644a1d0bdbf45b390d8353" name="a7d25ba784e644a1d0bdbf45b390d8353"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d25ba784e644a1d0bdbf45b390d8353">&#9670;&#160;</a></span>CreateDummyRootSignatures()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> nv_helpers_dx12::RayTracingPipelineGenerator::CreateDummyRootSignatures </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>The pipeline creation requires having at least one empty global and local root signatures, so we systematically create both </p>
+
+<p class="definition">Definition at line <a class="el" href="_raytracing_pipeline_generator_8cpp_source.html#l00297">297</a> of file <a class="el" href="_raytracing_pipeline_generator_8cpp_source.html">RaytracingPipelineGenerator.cpp</a>.</p>
 
 </div>
 </div>
@@ -297,9 +398,9 @@ Public Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void nv_helpers_dx12::RayTracingPipelineGenerator::SetMaxAttributeSize </td>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> nv_helpers_dx12::RayTracingPipelineGenerator::SetMaxAttributeSize </td>
           <td>(</td>
-          <td class="paramtype">UINT</td>          <td class="paramname"><span class="paramname"><em>sizeInBytes</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#a2e2c38961834f28c06e17e074eb00bc7">UINT</a></td>          <td class="paramname"><span class="paramname"><em>sizeInBytes</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -317,9 +418,9 @@ Public Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void nv_helpers_dx12::RayTracingPipelineGenerator::SetMaxPayloadSize </td>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> nv_helpers_dx12::RayTracingPipelineGenerator::SetMaxPayloadSize </td>
           <td>(</td>
-          <td class="paramtype">UINT</td>          <td class="paramname"><span class="paramname"><em>sizeInBytes</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#a2e2c38961834f28c06e17e074eb00bc7">UINT</a></td>          <td class="paramname"><span class="paramname"><em>sizeInBytes</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -337,9 +438,9 @@ Public Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void nv_helpers_dx12::RayTracingPipelineGenerator::SetMaxRecursionDepth </td>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> nv_helpers_dx12::RayTracingPipelineGenerator::SetMaxRecursionDepth </td>
           <td>(</td>
-          <td class="paramtype">UINT</td>          <td class="paramname"><span class="paramname"><em>maxDepth</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#a2e2c38961834f28c06e17e074eb00bc7">UINT</a></td>          <td class="paramname"><span class="paramname"><em>maxDepth</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -347,6 +448,226 @@ Public Member Functions</h2></td></tr>
 <p>Upon hitting a surface, a closest hit shader can issue a new TraceRay call. This parameter indicates the maximum level of recursion. Note that this depth should be kept as low as possible, typically 2, to allow hit shaders to trace shadow rays. Recursive ray tracing algorithms must be flattened to a loop in the ray generation program for best performance. </p>
 
 <p class="definition">Definition at line <a class="el" href="_raytracing_pipeline_generator_8cpp_source.html#l00139">139</a> of file <a class="el" href="_raytracing_pipeline_generator_8cpp_source.html">RaytracingPipelineGenerator.cpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a71b9e37782c574c633502ed1490ff464" name="a71b9e37782c574c633502ed1490ff464"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71b9e37782c574c633502ed1490ff464">&#9670;&#160;</a></span>m_device</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12_8h.html#ad88deb8a621c6f48c18fed30e523a41d">ID3D12Device5</a>* nv_helpers_dx12::RayTracingPipelineGenerator::m_device</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_raytracing_pipeline_generator_8h_source.html#l00192">192</a> of file <a class="el" href="_raytracing_pipeline_generator_8h_source.html">RaytracingPipelineGenerator.h</a>.</p>
+
+</div>
+</div>
+<a id="a831a5288da79abbd84f18caf77896c3b" name="a831a5288da79abbd84f18caf77896c3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a831a5288da79abbd84f18caf77896c3b">&#9670;&#160;</a></span>m_dummyGlobalRootSignature</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12_8h.html#af17387e0768c42e8ca99d17973486c66">ID3D12RootSignature</a>* nv_helpers_dx12::RayTracingPipelineGenerator::m_dummyGlobalRootSignature</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_raytracing_pipeline_generator_8h_source.html#l00194">194</a> of file <a class="el" href="_raytracing_pipeline_generator_8h_source.html">RaytracingPipelineGenerator.h</a>.</p>
+
+</div>
+</div>
+<a id="a63dc5ceffc99a9211151c6b28db886cf" name="a63dc5ceffc99a9211151c6b28db886cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63dc5ceffc99a9211151c6b28db886cf">&#9670;&#160;</a></span>m_dummyLocalRootSignature</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12_8h.html#af17387e0768c42e8ca99d17973486c66">ID3D12RootSignature</a>* nv_helpers_dx12::RayTracingPipelineGenerator::m_dummyLocalRootSignature</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_raytracing_pipeline_generator_8h_source.html#l00193">193</a> of file <a class="el" href="_raytracing_pipeline_generator_8h_source.html">RaytracingPipelineGenerator.h</a>.</p>
+
+</div>
+</div>
+<a id="ad8b3564de57970b989d0661428d9d5cd" name="ad8b3564de57970b989d0661428d9d5cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8b3564de57970b989d0661428d9d5cd">&#9670;&#160;</a></span>m_hitGroups</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="structnv__helpers__dx12_1_1_ray_tracing_pipeline_generator_1_1_hit_group.html">HitGroup</a>&gt; nv_helpers_dx12::RayTracingPipelineGenerator::m_hitGroups = {}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_raytracing_pipeline_generator_8h_source.html#l00182">182</a> of file <a class="el" href="_raytracing_pipeline_generator_8h_source.html">RaytracingPipelineGenerator.h</a>.</p>
+
+</div>
+</div>
+<a id="a7855dc1af10a4c36894028acafbf4d73" name="a7855dc1af10a4c36894028acafbf4d73"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7855dc1af10a4c36894028acafbf4d73">&#9670;&#160;</a></span>m_libraries</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="structnv__helpers__dx12_1_1_ray_tracing_pipeline_generator_1_1_library.html">Library</a>&gt; nv_helpers_dx12::RayTracingPipelineGenerator::m_libraries = {}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_raytracing_pipeline_generator_8h_source.html#l00181">181</a> of file <a class="el" href="_raytracing_pipeline_generator_8h_source.html">RaytracingPipelineGenerator.h</a>.</p>
+
+</div>
+</div>
+<a id="a1f0958fa25ecc8a6662bc7adf05c28b1" name="a1f0958fa25ecc8a6662bc7adf05c28b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f0958fa25ecc8a6662bc7adf05c28b1">&#9670;&#160;</a></span>m_maxAttributeSizeInBytes</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="basetsd_8h.html#a2e2c38961834f28c06e17e074eb00bc7">UINT</a> nv_helpers_dx12::RayTracingPipelineGenerator::m_maxAttributeSizeInBytes = 2 * sizeof(float)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Attribute size, initialized to 2 for the barycentric coordinates used by the built-in triangle intersection shader </p>
+
+<p class="definition">Definition at line <a class="el" href="_raytracing_pipeline_generator_8h_source.html#l00188">188</a> of file <a class="el" href="_raytracing_pipeline_generator_8h_source.html">RaytracingPipelineGenerator.h</a>.</p>
+
+</div>
+</div>
+<a id="ab6da582dca3c70901e47c0852beaa239" name="ab6da582dca3c70901e47c0852beaa239"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6da582dca3c70901e47c0852beaa239">&#9670;&#160;</a></span>m_maxPayLoadSizeInBytes</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="basetsd_8h.html#a2e2c38961834f28c06e17e074eb00bc7">UINT</a> nv_helpers_dx12::RayTracingPipelineGenerator::m_maxPayLoadSizeInBytes = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_raytracing_pipeline_generator_8h_source.html#l00185">185</a> of file <a class="el" href="_raytracing_pipeline_generator_8h_source.html">RaytracingPipelineGenerator.h</a>.</p>
+
+</div>
+</div>
+<a id="a94cef8dd0473054f1652227ac7cc187e" name="a94cef8dd0473054f1652227ac7cc187e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94cef8dd0473054f1652227ac7cc187e">&#9670;&#160;</a></span>m_maxRecursionDepth</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="basetsd_8h.html#a2e2c38961834f28c06e17e074eb00bc7">UINT</a> nv_helpers_dx12::RayTracingPipelineGenerator::m_maxRecursionDepth = 1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Maximum recursion depth, initialized to 1 to at least allow tracing primary rays. </p>
+
+<p class="definition">Definition at line <a class="el" href="_raytracing_pipeline_generator_8h_source.html#l00190">190</a> of file <a class="el" href="_raytracing_pipeline_generator_8h_source.html">RaytracingPipelineGenerator.h</a>.</p>
+
+</div>
+</div>
+<a id="ae9026fc3432e0619f559a3c3d1967b2f" name="ae9026fc3432e0619f559a3c3d1967b2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9026fc3432e0619f559a3c3d1967b2f">&#9670;&#160;</a></span>m_rootSignatureAssociations</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="structnv__helpers__dx12_1_1_ray_tracing_pipeline_generator_1_1_root_signature_association.html">RootSignatureAssociation</a>&gt; nv_helpers_dx12::RayTracingPipelineGenerator::m_rootSignatureAssociations = {}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_raytracing_pipeline_generator_8h_source.html#l00183">183</a> of file <a class="el" href="_raytracing_pipeline_generator_8h_source.html">RaytracingPipelineGenerator.h</a>.</p>
 
 </div>
 </div>
@@ -359,7 +680,7 @@ Public Member Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>nv_helpers_dx12</b></li><li class="navelem"><a class="el" href="classnv__helpers__dx12_1_1_ray_tracing_pipeline_generator.html">RayTracingPipelineGenerator</a></li>
+    <li class="navelem"><a class="el" href="namespacenv__helpers__dx12.html">nv_helpers_dx12</a></li><li class="navelem"><a class="el" href="classnv__helpers__dx12_1_1_ray_tracing_pipeline_generator.html">RayTracingPipelineGenerator</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
   </ul>
 </div>

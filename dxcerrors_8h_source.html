@@ -109,7 +109,7 @@ $(function(){initNavTree('dxcerrors_8h_source.html',''); initResizable(true); })
   <div class="headertitle"><div class="title">dxcerrors.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
+<a href="dxcerrors_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment">//                                                                           //</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment">// dxcerror.h                                                                //</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment">// Copyright (C) Microsoft Corporation. All rights reserved.                 //</span></div>
@@ -123,27 +123,30 @@ $(function(){initNavTree('dxcerrors_8h_source.html',''); initResizable(true); })
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#define __DXC_ERRORS__</span></div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#ifndef FACILITY_GRAPHICS</span></div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#define FACILITY_GRAPHICS 36</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="dxcerrors_8h.html#ace3d282999397a97eb1d995d8ada2415">   16</a></span><span class="preprocessor">#define FACILITY_GRAPHICS 36</span></div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#define DXC_EXCEPTION_CODE(name, status)                                       \</span></div>
+<div class="foldopen" id="foldopen00019" data-start="" data-end="">
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="dxcerrors_8h.html#a36f53a3203f907fb018aaeb4f36bbdd4">   19</a></span><span class="preprocessor">#define DXC_EXCEPTION_CODE(name, status)                                       \</span></div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">  static constexpr DWORD EXCEPTION_##name =                                    \</span></div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">      (0xc0000000u | (FACILITY_GRAPHICS &lt;&lt; 16) |                               \</span></div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="preprocessor">       (0xff00u | (status &amp; 0xffu)));</span></div>
+</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>DXC_EXCEPTION_CODE(LOAD_LIBRARY_FAILED, 0x00u)</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>DXC_EXCEPTION_CODE(NO_HMODULE, 0x01u)</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>DXC_EXCEPTION_CODE(GET_PROC_FAILED, 0x02u)</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><a class="code hl_define" href="dxcerrors_8h.html#a36f53a3203f907fb018aaeb4f36bbdd4">DXC_EXCEPTION_CODE</a>(LOAD_LIBRARY_FAILED, 0x00u)</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><a class="code hl_define" href="dxcerrors_8h.html#a36f53a3203f907fb018aaeb4f36bbdd4">DXC_EXCEPTION_CODE</a>(NO_HMODULE, 0x01u)</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><a class="code hl_define" href="dxcerrors_8h.html#a36f53a3203f907fb018aaeb4f36bbdd4">DXC_EXCEPTION_CODE</a>(GET_PROC_FAILED, 0x02u)</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="preprocessor">#undef DXC_EXCEPTION_CODE</span></div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="adxcerrors_8h_html_a36f53a3203f907fb018aaeb4f36bbdd4"><div class="ttname"><a href="dxcerrors_8h.html#a36f53a3203f907fb018aaeb4f36bbdd4">DXC_EXCEPTION_CODE</a></div><div class="ttdeci">#define DXC_EXCEPTION_CODE(name, status)</div><div class="ttdef"><b>Definition</b> <a href="#l00019">dxcerrors.h:19</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_f73a8b7d50989afdadf24d8fc7357a9a.html">FloowDream</a></li><li class="navelem"><a class="el" href="dir_1ba945c5ec581c9e331de81f300aff07.html">Assets</a></li><li class="navelem"><a class="el" href="dir_a57f4778d467e0a6236fa4788364df6c.html">Scripts</a></li><li class="navelem"><a class="el" href="dir_8b4148ef0ffda13d8a8272867298b61d.html">BXRenderPipeline</a></li><li class="navelem"><a class="el" href="dir_ae9a9254ea48b9e75fba492df295591c.html">XEngine</a></li><li class="navelem"><a class="el" href="dir_4eb682de226f4832c0a9db45af2b00b1.html">XEngine</a></li><li class="navelem"><a class="el" href="dir_f17165e32cd07625ace7bc4d97577de6.html">dxc_2025_02_20</a></li><li class="navelem"><a class="el" href="dir_a8443f70dadf3564c0ac8332036fe44f.html">inc</a></li><li class="navelem"><b>dxcerrors.h</b></li>
+    <li class="navelem"><a class="el" href="dir_f73a8b7d50989afdadf24d8fc7357a9a.html">FloowDream</a></li><li class="navelem"><a class="el" href="dir_1ba945c5ec581c9e331de81f300aff07.html">Assets</a></li><li class="navelem"><a class="el" href="dir_a57f4778d467e0a6236fa4788364df6c.html">Scripts</a></li><li class="navelem"><a class="el" href="dir_8b4148ef0ffda13d8a8272867298b61d.html">BXRenderPipeline</a></li><li class="navelem"><a class="el" href="dir_ae9a9254ea48b9e75fba492df295591c.html">XEngine</a></li><li class="navelem"><a class="el" href="dir_4eb682de226f4832c0a9db45af2b00b1.html">XEngine</a></li><li class="navelem"><a class="el" href="dir_f17165e32cd07625ace7bc4d97577de6.html">dxc_2025_02_20</a></li><li class="navelem"><a class="el" href="dir_a8443f70dadf3564c0ac8332036fe44f.html">inc</a></li><li class="navelem"><a class="el" href="dxcerrors_8h.html">dxcerrors.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
   </ul>
 </div>

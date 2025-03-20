@@ -112,6 +112,8 @@ $(function(){initNavTree('struct_i_dxc_diagnostic.html',''); initResizable(true)
   <div class="headertitle"><div class="title">IDxcDiagnostic Struct Reference<span class="mlabels"><span class="mlabel abstract">abstract</span></span></div></div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &lt;<a class="el" href="dxcisense_8h_source.html">dxcisense.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for IDxcDiagnostic:</div>
 <div class="dyncontent">
@@ -121,38 +123,272 @@ Inheritance diagram for IDxcDiagnostic:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a16b6aa29ec4843fe389ce12dd8513f66" id="r_a16b6aa29ec4843fe389ce12dd8513f66"><td class="memItemLeft" align="right" valign="top"><a id="a16b6aa29ec4843fe389ce12dd8513f66" name="a16b6aa29ec4843fe389ce12dd8513f66"></a>
-virtual HRESULT STDMETHODCALLTYPE&#160;</td><td class="memItemRight" valign="bottom"><b>FormatDiagnostic</b> (DxcDiagnosticDisplayOptions options, _Outptr_result_maybenull_ LPSTR *pResult)=0</td></tr>
+<tr class="memitem:a16b6aa29ec4843fe389ce12dd8513f66" id="r_a16b6aa29ec4843fe389ce12dd8513f66"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a16b6aa29ec4843fe389ce12dd8513f66">FormatDiagnostic</a> (<a class="el" href="dxcisense_8h.html#a58709861fd24cf0330e65e09cc8d146a">DxcDiagnosticDisplayOptions</a> options, <a class="el" href="basetsd_8h.html#a39d32bc998d476cf2fd0e727f3b34efa">_Outptr_result_maybenull_</a> <a class="el" href="basetsd_8h.html#ab86fb75422caa5f8b878b39f8677acd7">LPSTR</a> *pResult)=0</td></tr>
 <tr class="separator:a16b6aa29ec4843fe389ce12dd8513f66"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a06bfdde872e6a1808906a08d69b1876c" id="r_a06bfdde872e6a1808906a08d69b1876c"><td class="memItemLeft" align="right" valign="top"><a id="a06bfdde872e6a1808906a08d69b1876c" name="a06bfdde872e6a1808906a08d69b1876c"></a>
-virtual HRESULT STDMETHODCALLTYPE&#160;</td><td class="memItemRight" valign="bottom"><b>GetSeverity</b> (_Out_ DxcDiagnosticSeverity *pResult)=0</td></tr>
+<tr class="memitem:a06bfdde872e6a1808906a08d69b1876c" id="r_a06bfdde872e6a1808906a08d69b1876c"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06bfdde872e6a1808906a08d69b1876c">GetSeverity</a> (<a class="el" href="basetsd_8h.html#a9c50bd6a6ca6e0be76a0f3a79379b90e">_Out_</a> <a class="el" href="dxcisense_8h.html#aa2894ec847f931174d664c2580fd5174">DxcDiagnosticSeverity</a> *pResult)=0</td></tr>
 <tr class="separator:a06bfdde872e6a1808906a08d69b1876c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a60408b95fadc6439ffdf0074dfe688c2" id="r_a60408b95fadc6439ffdf0074dfe688c2"><td class="memItemLeft" align="right" valign="top"><a id="a60408b95fadc6439ffdf0074dfe688c2" name="a60408b95fadc6439ffdf0074dfe688c2"></a>
-virtual HRESULT STDMETHODCALLTYPE&#160;</td><td class="memItemRight" valign="bottom"><b>GetLocation</b> (_Outptr_result_nullonfailure_ IDxcSourceLocation **pResult)=0</td></tr>
+<tr class="memitem:a60408b95fadc6439ffdf0074dfe688c2" id="r_a60408b95fadc6439ffdf0074dfe688c2"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60408b95fadc6439ffdf0074dfe688c2">GetLocation</a> (<a class="el" href="basetsd_8h.html#aefd700d380594ed885381bbabefcc398">_Outptr_result_nullonfailure_</a> IDxcSourceLocation **pResult)=0</td></tr>
 <tr class="separator:a60408b95fadc6439ffdf0074dfe688c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab00bb9f291c6f050b1023e23c9264953" id="r_ab00bb9f291c6f050b1023e23c9264953"><td class="memItemLeft" align="right" valign="top"><a id="ab00bb9f291c6f050b1023e23c9264953" name="ab00bb9f291c6f050b1023e23c9264953"></a>
-virtual HRESULT STDMETHODCALLTYPE&#160;</td><td class="memItemRight" valign="bottom"><b>GetSpelling</b> (_Outptr_result_maybenull_ LPSTR *pResult)=0</td></tr>
+<tr class="memitem:ab00bb9f291c6f050b1023e23c9264953" id="r_ab00bb9f291c6f050b1023e23c9264953"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab00bb9f291c6f050b1023e23c9264953">GetSpelling</a> (<a class="el" href="basetsd_8h.html#a39d32bc998d476cf2fd0e727f3b34efa">_Outptr_result_maybenull_</a> <a class="el" href="basetsd_8h.html#ab86fb75422caa5f8b878b39f8677acd7">LPSTR</a> *pResult)=0</td></tr>
 <tr class="separator:ab00bb9f291c6f050b1023e23c9264953"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b7f60e0c956a642b5abd5019b211fb6" id="r_a4b7f60e0c956a642b5abd5019b211fb6"><td class="memItemLeft" align="right" valign="top"><a id="a4b7f60e0c956a642b5abd5019b211fb6" name="a4b7f60e0c956a642b5abd5019b211fb6"></a>
-virtual HRESULT STDMETHODCALLTYPE&#160;</td><td class="memItemRight" valign="bottom"><b>GetCategoryText</b> (_Outptr_result_maybenull_ LPSTR *pResult)=0</td></tr>
+<tr class="memitem:a4b7f60e0c956a642b5abd5019b211fb6" id="r_a4b7f60e0c956a642b5abd5019b211fb6"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b7f60e0c956a642b5abd5019b211fb6">GetCategoryText</a> (<a class="el" href="basetsd_8h.html#a39d32bc998d476cf2fd0e727f3b34efa">_Outptr_result_maybenull_</a> <a class="el" href="basetsd_8h.html#ab86fb75422caa5f8b878b39f8677acd7">LPSTR</a> *pResult)=0</td></tr>
 <tr class="separator:a4b7f60e0c956a642b5abd5019b211fb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa2f09f91a4469aaeb45ea93ce09ec66d" id="r_aa2f09f91a4469aaeb45ea93ce09ec66d"><td class="memItemLeft" align="right" valign="top"><a id="aa2f09f91a4469aaeb45ea93ce09ec66d" name="aa2f09f91a4469aaeb45ea93ce09ec66d"></a>
-virtual HRESULT STDMETHODCALLTYPE&#160;</td><td class="memItemRight" valign="bottom"><b>GetNumRanges</b> (_Out_ unsigned *pResult)=0</td></tr>
+<tr class="memitem:aa2f09f91a4469aaeb45ea93ce09ec66d" id="r_aa2f09f91a4469aaeb45ea93ce09ec66d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2f09f91a4469aaeb45ea93ce09ec66d">GetNumRanges</a> (<a class="el" href="basetsd_8h.html#a9c50bd6a6ca6e0be76a0f3a79379b90e">_Out_</a> unsigned *pResult)=0</td></tr>
 <tr class="separator:aa2f09f91a4469aaeb45ea93ce09ec66d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a11be599e86a0a2f9e2e035c43164f1f5" id="r_a11be599e86a0a2f9e2e035c43164f1f5"><td class="memItemLeft" align="right" valign="top"><a id="a11be599e86a0a2f9e2e035c43164f1f5" name="a11be599e86a0a2f9e2e035c43164f1f5"></a>
-virtual HRESULT STDMETHODCALLTYPE&#160;</td><td class="memItemRight" valign="bottom"><b>GetRangeAt</b> (unsigned index, _Outptr_result_nullonfailure_ <a class="el" href="struct_i_dxc_source_range.html">IDxcSourceRange</a> **pResult)=0</td></tr>
+<tr class="memitem:a11be599e86a0a2f9e2e035c43164f1f5" id="r_a11be599e86a0a2f9e2e035c43164f1f5"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11be599e86a0a2f9e2e035c43164f1f5">GetRangeAt</a> (unsigned index, <a class="el" href="basetsd_8h.html#aefd700d380594ed885381bbabefcc398">_Outptr_result_nullonfailure_</a> <a class="el" href="struct_i_dxc_source_range.html">IDxcSourceRange</a> **pResult)=0</td></tr>
 <tr class="separator:a11be599e86a0a2f9e2e035c43164f1f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c705d12f6b77ba4f5d2649162f59d87" id="r_a7c705d12f6b77ba4f5d2649162f59d87"><td class="memItemLeft" align="right" valign="top"><a id="a7c705d12f6b77ba4f5d2649162f59d87" name="a7c705d12f6b77ba4f5d2649162f59d87"></a>
-virtual HRESULT STDMETHODCALLTYPE&#160;</td><td class="memItemRight" valign="bottom"><b>GetNumFixIts</b> (_Out_ unsigned *pResult)=0</td></tr>
+<tr class="memitem:a7c705d12f6b77ba4f5d2649162f59d87" id="r_a7c705d12f6b77ba4f5d2649162f59d87"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c705d12f6b77ba4f5d2649162f59d87">GetNumFixIts</a> (<a class="el" href="basetsd_8h.html#a9c50bd6a6ca6e0be76a0f3a79379b90e">_Out_</a> unsigned *pResult)=0</td></tr>
 <tr class="separator:a7c705d12f6b77ba4f5d2649162f59d87"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4120a120970cf94f0771509a48004f21" id="r_a4120a120970cf94f0771509a48004f21"><td class="memItemLeft" align="right" valign="top"><a id="a4120a120970cf94f0771509a48004f21" name="a4120a120970cf94f0771509a48004f21"></a>
-virtual HRESULT STDMETHODCALLTYPE&#160;</td><td class="memItemRight" valign="bottom"><b>GetFixItAt</b> (unsigned index, _Outptr_result_nullonfailure_ <a class="el" href="struct_i_dxc_source_range.html">IDxcSourceRange</a> **pReplacementRange, _Outptr_result_maybenull_ LPSTR *pText)=0</td></tr>
+<tr class="memitem:a4120a120970cf94f0771509a48004f21" id="r_a4120a120970cf94f0771509a48004f21"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4120a120970cf94f0771509a48004f21">GetFixItAt</a> (unsigned index, <a class="el" href="basetsd_8h.html#aefd700d380594ed885381bbabefcc398">_Outptr_result_nullonfailure_</a> <a class="el" href="struct_i_dxc_source_range.html">IDxcSourceRange</a> **pReplacementRange, <a class="el" href="basetsd_8h.html#a39d32bc998d476cf2fd0e727f3b34efa">_Outptr_result_maybenull_</a> <a class="el" href="basetsd_8h.html#ab86fb75422caa5f8b878b39f8677acd7">LPSTR</a> *pText)=0</td></tr>
 <tr class="separator:a4120a120970cf94f0771509a48004f21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
 <p class="definition">Definition at line <a class="el" href="dxcisense_8h_source.html#l00732">732</a> of file <a class="el" href="dxcisense_8h_source.html">dxcisense.h</a>.</p>
-</div><hr/>The documentation for this struct was generated from the following file:<ul>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a16b6aa29ec4843fe389ce12dd8513f66" name="a16b6aa29ec4843fe389ce12dd8513f66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16b6aa29ec4843fe389ce12dd8513f66">&#9670;&#160;</a></span>FormatDiagnostic()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a> IDxcDiagnostic::FormatDiagnostic </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="dxcisense_8h.html#a58709861fd24cf0330e65e09cc8d146a">DxcDiagnosticDisplayOptions</a></td>          <td class="paramname"><span class="paramname"><em>options</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#a39d32bc998d476cf2fd0e727f3b34efa">_Outptr_result_maybenull_</a> <a class="el" href="basetsd_8h.html#ab86fb75422caa5f8b878b39f8677acd7">LPSTR</a> *</td>          <td class="paramname"><span class="paramname"><em>pResult</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4b7f60e0c956a642b5abd5019b211fb6" name="a4b7f60e0c956a642b5abd5019b211fb6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b7f60e0c956a642b5abd5019b211fb6">&#9670;&#160;</a></span>GetCategoryText()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a> IDxcDiagnostic::GetCategoryText </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#a39d32bc998d476cf2fd0e727f3b34efa">_Outptr_result_maybenull_</a> <a class="el" href="basetsd_8h.html#ab86fb75422caa5f8b878b39f8677acd7">LPSTR</a> *</td>          <td class="paramname"><span class="paramname"><em>pResult</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4120a120970cf94f0771509a48004f21" name="a4120a120970cf94f0771509a48004f21"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4120a120970cf94f0771509a48004f21">&#9670;&#160;</a></span>GetFixItAt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a> IDxcDiagnostic::GetFixItAt </td>
+          <td>(</td>
+          <td class="paramtype">unsigned</td>          <td class="paramname"><span class="paramname"><em>index</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#aefd700d380594ed885381bbabefcc398">_Outptr_result_nullonfailure_</a> <a class="el" href="struct_i_dxc_source_range.html">IDxcSourceRange</a> **</td>          <td class="paramname"><span class="paramname"><em>pReplacementRange</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#a39d32bc998d476cf2fd0e727f3b34efa">_Outptr_result_maybenull_</a> <a class="el" href="basetsd_8h.html#ab86fb75422caa5f8b878b39f8677acd7">LPSTR</a> *</td>          <td class="paramname"><span class="paramname"><em>pText</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a60408b95fadc6439ffdf0074dfe688c2" name="a60408b95fadc6439ffdf0074dfe688c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60408b95fadc6439ffdf0074dfe688c2">&#9670;&#160;</a></span>GetLocation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a> IDxcDiagnostic::GetLocation </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#aefd700d380594ed885381bbabefcc398">_Outptr_result_nullonfailure_</a> IDxcSourceLocation **</td>          <td class="paramname"><span class="paramname"><em>pResult</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7c705d12f6b77ba4f5d2649162f59d87" name="a7c705d12f6b77ba4f5d2649162f59d87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c705d12f6b77ba4f5d2649162f59d87">&#9670;&#160;</a></span>GetNumFixIts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a> IDxcDiagnostic::GetNumFixIts </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#a9c50bd6a6ca6e0be76a0f3a79379b90e">_Out_</a> unsigned *</td>          <td class="paramname"><span class="paramname"><em>pResult</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa2f09f91a4469aaeb45ea93ce09ec66d" name="aa2f09f91a4469aaeb45ea93ce09ec66d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2f09f91a4469aaeb45ea93ce09ec66d">&#9670;&#160;</a></span>GetNumRanges()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a> IDxcDiagnostic::GetNumRanges </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#a9c50bd6a6ca6e0be76a0f3a79379b90e">_Out_</a> unsigned *</td>          <td class="paramname"><span class="paramname"><em>pResult</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a11be599e86a0a2f9e2e035c43164f1f5" name="a11be599e86a0a2f9e2e035c43164f1f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11be599e86a0a2f9e2e035c43164f1f5">&#9670;&#160;</a></span>GetRangeAt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a> IDxcDiagnostic::GetRangeAt </td>
+          <td>(</td>
+          <td class="paramtype">unsigned</td>          <td class="paramname"><span class="paramname"><em>index</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#aefd700d380594ed885381bbabefcc398">_Outptr_result_nullonfailure_</a> <a class="el" href="struct_i_dxc_source_range.html">IDxcSourceRange</a> **</td>          <td class="paramname"><span class="paramname"><em>pResult</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a06bfdde872e6a1808906a08d69b1876c" name="a06bfdde872e6a1808906a08d69b1876c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06bfdde872e6a1808906a08d69b1876c">&#9670;&#160;</a></span>GetSeverity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a> IDxcDiagnostic::GetSeverity </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#a9c50bd6a6ca6e0be76a0f3a79379b90e">_Out_</a> <a class="el" href="dxcisense_8h.html#aa2894ec847f931174d664c2580fd5174">DxcDiagnosticSeverity</a> *</td>          <td class="paramname"><span class="paramname"><em>pResult</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab00bb9f291c6f050b1023e23c9264953" name="ab00bb9f291c6f050b1023e23c9264953"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab00bb9f291c6f050b1023e23c9264953">&#9670;&#160;</a></span>GetSpelling()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a> IDxcDiagnostic::GetSpelling </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#a39d32bc998d476cf2fd0e727f3b34efa">_Outptr_result_maybenull_</a> <a class="el" href="basetsd_8h.html#ab86fb75422caa5f8b878b39f8677acd7">LPSTR</a> *</td>          <td class="paramname"><span class="paramname"><em>pResult</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this struct was generated from the following file:<ul>
 <li><a class="el" href="dxcisense_8h_source.html">dxcisense.h</a></li>
 </ul>
 </div><!-- contents -->

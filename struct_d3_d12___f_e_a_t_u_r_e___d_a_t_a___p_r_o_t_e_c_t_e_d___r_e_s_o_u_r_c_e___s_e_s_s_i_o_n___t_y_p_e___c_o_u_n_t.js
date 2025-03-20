@@ -1,0 +1,5 @@
+var struct_d3_d12___f_e_a_t_u_r_e___d_a_t_a___p_r_o_t_e_c_t_e_d___r_e_s_o_u_r_c_e___s_e_s_s_i_o_n___t_y_p_e___c_o_u_n_t =
+[
+    [ "Count", "struct_d3_d12___f_e_a_t_u_r_e___d_a_t_a___p_r_o_t_e_c_t_e_d___r_e_s_o_u_r_c_e___s_e_s_s_i_o_n___t_y_p_e___c_o_u_n_t.html#a9cc20648c690ed7f8ce923a5ccb31fc4", null ],
+    [ "NodeIndex", "struct_d3_d12___f_e_a_t_u_r_e___d_a_t_a___p_r_o_t_e_c_t_e_d___r_e_s_o_u_r_c_e___s_e_s_s_i_o_n___t_y_p_e___c_o_u_n_t.html#af8014f1ed09df2b98987d85efb1ffc2a", null ]
+];

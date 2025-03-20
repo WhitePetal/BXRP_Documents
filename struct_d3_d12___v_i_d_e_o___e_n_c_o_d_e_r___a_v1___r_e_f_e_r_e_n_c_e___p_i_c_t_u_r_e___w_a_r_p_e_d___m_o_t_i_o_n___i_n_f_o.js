@@ -1,0 +1,6 @@
+var struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___a_v1___r_e_f_e_r_e_n_c_e___p_i_c_t_u_r_e___w_a_r_p_e_d___m_o_t_i_o_n___i_n_f_o =
+[
+    [ "InvalidAffineSet", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___a_v1___r_e_f_e_r_e_n_c_e___p_i_c_t_u_r_e___w_a_r_p_e_d___m_o_t_i_o_n___i_n_f_o.html#a7211ffe7600005173cbae6c2bd863bc0", null ],
+    [ "TransformationMatrix", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___a_v1___r_e_f_e_r_e_n_c_e___p_i_c_t_u_r_e___w_a_r_p_e_d___m_o_t_i_o_n___i_n_f_o.html#aeb815ec0a7fa8744c82e03c25339efb7", null ],
+    [ "TransformationType", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___a_v1___r_e_f_e_r_e_n_c_e___p_i_c_t_u_r_e___w_a_r_p_e_d___m_o_t_i_o_n___i_n_f_o.html#a9d1ab0eda134acbf66df516bcde10ad8", null ]
+];

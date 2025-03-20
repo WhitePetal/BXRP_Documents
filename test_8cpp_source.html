@@ -109,59 +109,78 @@ $(function(){initNavTree('test_8cpp_source.html',''); initResizable(true); });
   <div class="headertitle"><div class="title">test.cpp</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">// Copyright (c) Microsoft Corporation.</span></div>
+<a href="test_8cpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">// Copyright (c) Microsoft Corporation.</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment">// Licensed under the MIT License.</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;wsl/winadapter.h&gt;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;<a class="code" href="winadapter_8h.html">wsl/winadapter.h</a>&gt;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;directx/d3d12.h&gt;</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;directx/d3d12video.h&gt;</span></div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;directx/dxcore.h&gt;</span></div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &lt;directx/d3dx12.h&gt;</span></div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;dxguids/dxguids.h&quot;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;<a class="code" href="d3d12_8h.html">directx/d3d12.h</a>&gt;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;<a class="code" href="d3d12video_8h.html">directx/d3d12video.h</a>&gt;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;<a class="code" href="dxcore_8h.html">directx/dxcore.h</a>&gt;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &lt;<a class="code" href="d3dx12_8h.html">directx/d3dx12.h</a>&gt;</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;<a class="code" href="dxguids_8h.html">dxguids/dxguids.h</a>&quot;</span></div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#ifdef __MINGW32__</span></div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>STDAPI</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><a class="code hl_define" href="basetsd_8h.html#a3079b16e4227333f592c32ce353a696a">STDAPI</a></div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>DXCoreCreateAdapterFactory(</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    REFIID riid,</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    _COM_Outptr_ <span class="keywordtype">void</span>** ppvFactory</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    <a class="code hl_define" href="basetsd_8h.html#a1246040d86d82dd9e6151a67b4ca3f89">REFIID</a> riid,</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    <a class="code hl_define" href="basetsd_8h.html#aa206bd7c9b619a3bec843bc3c5360687">_COM_Outptr_</a> <span class="keywordtype">void</span>** ppvFactory</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>) {</div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>}</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="keywordtype">int</span> check_uuid_linkage() {</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>   <span class="keyword">auto</span> uuid_i_unknown = IID_IUnknown;</div>
+<div class="foldopen" id="foldopen00022" data-start="{" data-end="}">
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="test_8cpp.html#ac13e7afbc362cd05e9f59bafc51888bb">   22</a></span><span class="keywordtype">int</span> <a class="code hl_function" href="test_8cpp.html#ac13e7afbc362cd05e9f59bafc51888bb">check_uuid_linkage</a>() {</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>   <span class="keyword">auto</span> uuid_i_unknown = <a class="code hl_variable" href="unknwnbase_8h.html#a305325099227760ce231e5dc297996a3">IID_IUnknown</a>;</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>   <span class="keywordflow">return</span> <span class="keyword">sizeof</span>(uuid_i_unknown);</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>}</div>
+</div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="keywordtype">int</span> main()</div>
+<div class="foldopen" id="foldopen00027" data-start="{" data-end="}">
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="test_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">   27</a></span><span class="keywordtype">int</span> <a class="code hl_function" href="test_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>()</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>{</div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    IDXCoreAdapter *adapter = <span class="keyword">nullptr</span>;</div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    <a class="code hl_interface" href="interface_i_d3_d12_device.html">ID3D12Device</a> *device = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    check_uuid_linkage();</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    <a class="code hl_function" href="test_8cpp.html#ac13e7afbc362cd05e9f59bafc51888bb">check_uuid_linkage</a>();</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    {</div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>        IDXCoreAdapterFactory *factory = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>        <span class="keywordflow">if</span> (FAILED(DXCoreCreateAdapterFactory(&amp;factory)))</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>        <span class="keywordflow">if</span> (<a class="code hl_define" href="basetsd_8h.html#aaf71f8ef65478dbd871fd111685333ee">FAILED</a>(DXCoreCreateAdapterFactory(&amp;factory)))</div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>            <span class="keywordflow">return</span> -1;</div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>        IDXCoreAdapterList *list = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>        <span class="keywordflow">if</span> (FAILED(factory-&gt;CreateAdapterList(1, &amp;DXCORE_ADAPTER_ATTRIBUTE_D3D12_CORE_COMPUTE, &amp;list)))</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>        <span class="keywordflow">if</span> (<a class="code hl_define" href="basetsd_8h.html#aaf71f8ef65478dbd871fd111685333ee">FAILED</a>(factory-&gt;CreateAdapterList(1, &amp;DXCORE_ADAPTER_ATTRIBUTE_D3D12_CORE_COMPUTE, &amp;list)))</div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>            <span class="keywordflow">return</span> -1;</div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>        </div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>        <span class="keywordflow">if</span> (FAILED(list-&gt;GetAdapter(0, &amp;adapter)))</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>        <span class="keywordflow">if</span> (<a class="code hl_define" href="basetsd_8h.html#aaf71f8ef65478dbd871fd111685333ee">FAILED</a>(list-&gt;GetAdapter(0, &amp;adapter)))</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>            <span class="keywordflow">return</span> -1;</div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    }</div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    <span class="keywordflow">return</span> D3D12CreateDevice(adapter, D3D_FEATURE_LEVEL_11_0, IID_PPV_ARGS(&amp;device));</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="d3d12_8idl.html#a6bac8f514a36a5bb26649ef61b4fd2be">D3D12CreateDevice</a>(adapter, <a class="code hl_enumvalue" href="d3dcommon_8h.html#a0f50a7ff750d026b8ce1927b5fb4e612ad799c69dff9fa9f113ce3d9be70316cc">D3D_FEATURE_LEVEL_11_0</a>, IID_PPV_ARGS(&amp;device));</div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>}</div>
+</div>
+<div class="ttc" id="abasetsd_8h_html_a1246040d86d82dd9e6151a67b4ca3f89"><div class="ttname"><a href="basetsd_8h.html#a1246040d86d82dd9e6151a67b4ca3f89">REFIID</a></div><div class="ttdeci">#define REFIID</div><div class="ttdef"><b>Definition</b> <a href="basetsd_8h_source.html#l00147">basetsd.h:147</a></div></div>
+<div class="ttc" id="abasetsd_8h_html_a3079b16e4227333f592c32ce353a696a"><div class="ttname"><a href="basetsd_8h.html#a3079b16e4227333f592c32ce353a696a">STDAPI</a></div><div class="ttdeci">#define STDAPI</div><div class="ttdef"><b>Definition</b> <a href="basetsd_8h_source.html#l00218">basetsd.h:218</a></div></div>
+<div class="ttc" id="abasetsd_8h_html_aa206bd7c9b619a3bec843bc3c5360687"><div class="ttname"><a href="basetsd_8h.html#aa206bd7c9b619a3bec843bc3c5360687">_COM_Outptr_</a></div><div class="ttdeci">#define _COM_Outptr_</div><div class="ttdef"><b>Definition</b> <a href="basetsd_8h_source.html#l00167">basetsd.h:167</a></div></div>
+<div class="ttc" id="abasetsd_8h_html_aaf71f8ef65478dbd871fd111685333ee"><div class="ttname"><a href="basetsd_8h.html#aaf71f8ef65478dbd871fd111685333ee">FAILED</a></div><div class="ttdeci">#define FAILED(hr)</div><div class="ttdef"><b>Definition</b> <a href="basetsd_8h_source.html#l00265">basetsd.h:265</a></div></div>
+<div class="ttc" id="ad3d12_8h_html"><div class="ttname"><a href="d3d12_8h.html">d3d12.h</a></div></div>
+<div class="ttc" id="ad3d12_8idl_html_a6bac8f514a36a5bb26649ef61b4fd2be"><div class="ttname"><a href="d3d12_8idl.html#a6bac8f514a36a5bb26649ef61b4fd2be">D3D12CreateDevice</a></div><div class="ttdeci">HRESULT WINAPI D3D12CreateDevice(_In_opt_ IUnknown *pAdapter, D3D_FEATURE_LEVEL MinimumFeatureLevel, _In_ REFIID riid, _COM_Outptr_opt_ void **ppDevice)</div></div>
+<div class="ttc" id="ad3d12video_8h_html"><div class="ttname"><a href="d3d12video_8h.html">d3d12video.h</a></div></div>
+<div class="ttc" id="ad3dcommon_8h_html_a0f50a7ff750d026b8ce1927b5fb4e612ad799c69dff9fa9f113ce3d9be70316cc"><div class="ttname"><a href="d3dcommon_8h.html#a0f50a7ff750d026b8ce1927b5fb4e612ad799c69dff9fa9f113ce3d9be70316cc">D3D_FEATURE_LEVEL_11_0</a></div><div class="ttdeci">@ D3D_FEATURE_LEVEL_11_0</div><div class="ttdef"><b>Definition</b> <a href="d3dcommon_8h_source.html#l00103">d3dcommon.h:103</a></div></div>
+<div class="ttc" id="ad3dx12_8h_html"><div class="ttname"><a href="d3dx12_8h.html">d3dx12.h</a></div></div>
+<div class="ttc" id="adxcore_8h_html"><div class="ttname"><a href="dxcore_8h.html">dxcore.h</a></div></div>
+<div class="ttc" id="adxguids_8h_html"><div class="ttname"><a href="dxguids_8h.html">dxguids.h</a></div></div>
 <div class="ttc" id="ainterface_i_d3_d12_device_html"><div class="ttname"><a href="interface_i_d3_d12_device.html">ID3D12Device</a></div><div class="ttdef"><b>Definition</b> <a href="d3d12_8idl_source.html#l03787">d3d12.idl:3789</a></div></div>
+<div class="ttc" id="atest_8cpp_html_ac13e7afbc362cd05e9f59bafc51888bb"><div class="ttname"><a href="test_8cpp.html#ac13e7afbc362cd05e9f59bafc51888bb">check_uuid_linkage</a></div><div class="ttdeci">int check_uuid_linkage()</div><div class="ttdef"><b>Definition</b> <a href="#l00022">test.cpp:22</a></div></div>
+<div class="ttc" id="atest_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="test_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition</b> <a href="#l00027">test.cpp:27</a></div></div>
+<div class="ttc" id="aunknwnbase_8h_html_a305325099227760ce231e5dc297996a3"><div class="ttname"><a href="unknwnbase_8h.html#a305325099227760ce231e5dc297996a3">IID_IUnknown</a></div><div class="ttdeci">EXTERN_C const IID IID_IUnknown</div><div class="ttdef"><b>Definition</b> <a href="unknwnbase_8h_source.html#l00057">unknwnbase.h:57</a></div></div>
+<div class="ttc" id="awinadapter_8h_html"><div class="ttname"><a href="winadapter_8h.html">winadapter.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_f73a8b7d50989afdadf24d8fc7357a9a.html">FloowDream</a></li><li class="navelem"><a class="el" href="dir_1ba945c5ec581c9e331de81f300aff07.html">Assets</a></li><li class="navelem"><a class="el" href="dir_a57f4778d467e0a6236fa4788364df6c.html">Scripts</a></li><li class="navelem"><a class="el" href="dir_8b4148ef0ffda13d8a8272867298b61d.html">BXRenderPipeline</a></li><li class="navelem"><a class="el" href="dir_ae9a9254ea48b9e75fba492df295591c.html">XEngine</a></li><li class="navelem"><a class="el" href="dir_4eb682de226f4832c0a9db45af2b00b1.html">XEngine</a></li><li class="navelem"><a class="el" href="dir_ae3d7c5e45b917ca49b0624995dac051.html">external</a></li><li class="navelem"><a class="el" href="dir_2107fed38ae0f47ddf43e6fe2d887bfc.html">DirectX-Headers-main</a></li><li class="navelem"><a class="el" href="dir_77ca63cf4393a6b496b0afed458adf7e.html">test</a></li><li class="navelem"><b>test.cpp</b></li>
+    <li class="navelem"><a class="el" href="dir_f73a8b7d50989afdadf24d8fc7357a9a.html">FloowDream</a></li><li class="navelem"><a class="el" href="dir_1ba945c5ec581c9e331de81f300aff07.html">Assets</a></li><li class="navelem"><a class="el" href="dir_a57f4778d467e0a6236fa4788364df6c.html">Scripts</a></li><li class="navelem"><a class="el" href="dir_8b4148ef0ffda13d8a8272867298b61d.html">BXRenderPipeline</a></li><li class="navelem"><a class="el" href="dir_ae9a9254ea48b9e75fba492df295591c.html">XEngine</a></li><li class="navelem"><a class="el" href="dir_4eb682de226f4832c0a9db45af2b00b1.html">XEngine</a></li><li class="navelem"><a class="el" href="dir_ae3d7c5e45b917ca49b0624995dac051.html">external</a></li><li class="navelem"><a class="el" href="dir_2107fed38ae0f47ddf43e6fe2d887bfc.html">DirectX-Headers-main</a></li><li class="navelem"><a class="el" href="dir_77ca63cf4393a6b496b0afed458adf7e.html">test</a></li><li class="navelem"><a class="el" href="test_8cpp.html">test.cpp</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
   </ul>
 </div>

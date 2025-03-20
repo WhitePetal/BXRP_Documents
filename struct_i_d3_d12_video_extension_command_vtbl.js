@@ -1,0 +1,25 @@
+var struct_i_d3_d12_video_extension_command_vtbl =
+[
+    [ "_In_reads_bytes_opt_", "struct_i_d3_d12_video_extension_command_vtbl.html#aec26d7eae181a3e73b3965b91c17692e", null ],
+    [ "D3D12_VIDEO_EXTENSION_COMMAND_DESC", "struct_i_d3_d12_video_extension_command_vtbl.html#aa64ac180647e40a8a5296b5141ba5585", null ],
+    [ "HRESULT", "struct_i_d3_d12_video_extension_command_vtbl.html#a61410da144d78f4c505678eb7dc54c1c", null ],
+    [ "HRESULT", "struct_i_d3_d12_video_extension_command_vtbl.html#a3ab16d848c81651c1fe6140163be76b5", null ],
+    [ "HRESULT", "struct_i_d3_d12_video_extension_command_vtbl.html#aa38fd3e4992ade8dbc778b85d629d04d", null ],
+    [ "HRESULT", "struct_i_d3_d12_video_extension_command_vtbl.html#a663e1d2149ceebb32fc964cc3b5a9ce1", null ],
+    [ "HRESULT", "struct_i_d3_d12_video_extension_command_vtbl.html#aa65da2665eec6381b3b081f37c1c21e4", null ],
+    [ "HRESULT", "struct_i_d3_d12_video_extension_command_vtbl.html#abbae73b4bd6d16baeae46e5a0556a4a2", null ],
+    [ "HRESULT", "struct_i_d3_d12_video_extension_command_vtbl.html#a9ed8ffebb6842660314222de8205bd3f", null ],
+    [ "ULONG", "struct_i_d3_d12_video_extension_command_vtbl.html#a760c4264f4c0998d6c21882786538098", null ],
+    [ "ULONG", "struct_i_d3_d12_video_extension_command_vtbl.html#adff9a99b49de55b77dd3a97a54539335", null ],
+    [ "DataSize", "struct_i_d3_d12_video_extension_command_vtbl.html#a1ae7c2d511354e85279b19d9174f32d3", null ],
+    [ "guid", "struct_i_d3_d12_video_extension_command_vtbl.html#a3f30f6bc3575b10f69eeb8be860bc331", null ],
+    [ "Name", "struct_i_d3_d12_video_extension_command_vtbl.html#ae8a4a898bc3ca933e701c8217c6cdb0b", null ],
+    [ "pData", "struct_i_d3_d12_video_extension_command_vtbl.html#a25a7fe74322b0bf87cb20d5546d316bc", null ],
+    [ "pData", "struct_i_d3_d12_video_extension_command_vtbl.html#a6f0694dd28c06f7b0dd042d82e04c462", null ],
+    [ "pDataSize", "struct_i_d3_d12_video_extension_command_vtbl.html#a7b133a1e72ff220783fdd1f00d62fafb", null ],
+    [ "ppProtectedSession", "struct_i_d3_d12_video_extension_command_vtbl.html#a96a6f2ef2d349971a5f2ab4210a1a439", null ],
+    [ "ppvDevice", "struct_i_d3_d12_video_extension_command_vtbl.html#a942dacf38bbc3b6046bcda44bf8ee6ed", null ],
+    [ "ppvObject", "struct_i_d3_d12_video_extension_command_vtbl.html#a07dffd0e864df4cd8ab594414747eca3", null ],
+    [ "riid", "struct_i_d3_d12_video_extension_command_vtbl.html#a3a39bf3e7eda5484d85c6b6b3b19b10a", null ],
+    [ "riid", "struct_i_d3_d12_video_extension_command_vtbl.html#a3a39bf3e7eda5484d85c6b6b3b19b10a", null ]
+];

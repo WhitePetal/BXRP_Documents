@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['large_5finteger_0',['LARGE_INTEGER',['../basetsd_8h.html#a9bf80943e02f031c99d510a40a6d52e6',1,'basetsd.h']]],
+  ['long_1',['LONG',['../basetsd_8h.html#a27ec6163192f1e1e72d87421379ea3d4',1,'basetsd.h']]],
+  ['long64_2',['LONG64',['../basetsd_8h.html#a47b9c5183236eb45a8f6a36617898bc9',1,'basetsd.h']]],
+  ['long_5fptr_3',['LONG_PTR',['../basetsd_8h.html#a87b4a026e989b3e2f06328a32c53c223',1,'basetsd.h']]],
+  ['longlong_4',['LONGLONG',['../basetsd_8h.html#a4fd2a7c0ad52aff1f2270c3961c61384',1,'basetsd.h']]],
+  ['lpcstr_5',['LPCSTR',['../basetsd_8h.html#adbea528b1294c9a1dfda3dfa33ff1472',1,'basetsd.h']]],
+  ['lpctstr_6',['LPCTSTR',['../basetsd_8h.html#af323b2e27ac7e987b9f2eb194dc356f3',1,'basetsd.h']]],
+  ['lpcvoid_7',['LPCVOID',['../basetsd_8h.html#ae091006405d8d309b7e2e8900a1da20b',1,'basetsd.h']]],
+  ['lpcwstr_8',['LPCWSTR',['../basetsd_8h.html#a2f0472e602f968177b22f13814fc1bd5',1,'basetsd.h']]],
+  ['lpd3d10blob_9',['LPD3D10BLOB',['../d3dcommon_8h.html#ad0ab26afded5a0b5162cb3ce7579f6f4',1,'LPD3D10BLOB:&#160;d3dcommon.h'],['../d3dcommon_8idl.html#ad0ab26afded5a0b5162cb3ce7579f6f4',1,'LPD3D10BLOB:&#160;d3dcommon.idl']]],
+  ['lpd3d12functionparameterreflection_10',['LPD3D12FUNCTIONPARAMETERREFLECTION',['../dxc__2025__02__20_2inc_2d3d12shader_8h.html#a6d3d186a1f908234365673f52ba84ca0',1,'LPD3D12FUNCTIONPARAMETERREFLECTION:&#160;d3d12shader.h'],['../external_2_direct_x-_headers-main_2include_2directx_2d3d12shader_8h.html#a6d3d186a1f908234365673f52ba84ca0',1,'LPD3D12FUNCTIONPARAMETERREFLECTION:&#160;d3d12shader.h']]],
+  ['lpd3d12functionreflection_11',['LPD3D12FUNCTIONREFLECTION',['../dxc__2025__02__20_2inc_2d3d12shader_8h.html#aada9c780c2047eb3c2474938da16d27e',1,'LPD3D12FUNCTIONREFLECTION:&#160;d3d12shader.h'],['../external_2_direct_x-_headers-main_2include_2directx_2d3d12shader_8h.html#aada9c780c2047eb3c2474938da16d27e',1,'LPD3D12FUNCTIONREFLECTION:&#160;d3d12shader.h']]],
+  ['lpd3d12libraryreflection_12',['LPD3D12LIBRARYREFLECTION',['../dxc__2025__02__20_2inc_2d3d12shader_8h.html#ae42e98d48c06e6a4ff6f9e8ce10585e3',1,'LPD3D12LIBRARYREFLECTION:&#160;d3d12shader.h'],['../external_2_direct_x-_headers-main_2include_2directx_2d3d12shader_8h.html#ae42e98d48c06e6a4ff6f9e8ce10585e3',1,'LPD3D12LIBRARYREFLECTION:&#160;d3d12shader.h']]],
+  ['lpd3d12shaderreflection_13',['LPD3D12SHADERREFLECTION',['../dxc__2025__02__20_2inc_2d3d12shader_8h.html#ab7d42dc5f4f9102d088007adaf3d1986',1,'LPD3D12SHADERREFLECTION:&#160;d3d12shader.h'],['../external_2_direct_x-_headers-main_2include_2directx_2d3d12shader_8h.html#ab7d42dc5f4f9102d088007adaf3d1986',1,'LPD3D12SHADERREFLECTION:&#160;d3d12shader.h']]],
+  ['lpd3d12shaderreflectionconstantbuffer_14',['LPD3D12SHADERREFLECTIONCONSTANTBUFFER',['../dxc__2025__02__20_2inc_2d3d12shader_8h.html#a3fa1ba7422e26b324f2c7f7be60849ba',1,'LPD3D12SHADERREFLECTIONCONSTANTBUFFER:&#160;d3d12shader.h'],['../external_2_direct_x-_headers-main_2include_2directx_2d3d12shader_8h.html#a3fa1ba7422e26b324f2c7f7be60849ba',1,'LPD3D12SHADERREFLECTIONCONSTANTBUFFER:&#160;d3d12shader.h']]],
+  ['lpd3d12shaderreflectiontype_15',['LPD3D12SHADERREFLECTIONTYPE',['../dxc__2025__02__20_2inc_2d3d12shader_8h.html#ab4ae196651b6cded1abf500f2057e544',1,'LPD3D12SHADERREFLECTIONTYPE:&#160;d3d12shader.h'],['../external_2_direct_x-_headers-main_2include_2directx_2d3d12shader_8h.html#ab4ae196651b6cded1abf500f2057e544',1,'LPD3D12SHADERREFLECTIONTYPE:&#160;d3d12shader.h']]],
+  ['lpd3d12shaderreflectionvariable_16',['LPD3D12SHADERREFLECTIONVARIABLE',['../dxc__2025__02__20_2inc_2d3d12shader_8h.html#a3b38a7bea4ee568a50d87576fc5f8cb1',1,'LPD3D12SHADERREFLECTIONVARIABLE:&#160;d3d12shader.h'],['../external_2_direct_x-_headers-main_2include_2directx_2d3d12shader_8h.html#a3b38a7bea4ee568a50d87576fc5f8cb1',1,'LPD3D12SHADERREFLECTIONVARIABLE:&#160;d3d12shader.h']]],
+  ['lpd3d_5fshader_5fmacro_17',['LPD3D_SHADER_MACRO',['../d3dcommon_8h.html#a70928bd154f3489f71b7ef97486d6093',1,'d3dcommon.h']]],
+  ['lpd3dblob_18',['LPD3DBLOB',['../d3dcommon_8h.html#ace92a26ecec3c21f2e180e0342c0ea4a',1,'LPD3DBLOB:&#160;d3dcommon.h'],['../d3dcommon_8idl.html#ace92a26ecec3c21f2e180e0342c0ea4a',1,'LPD3DBLOB:&#160;d3dcommon.idl']]],
+  ['lpd3dinclude_19',['LPD3DINCLUDE',['../d3dcommon_8h.html#ab3cde1385c5b135f7829401b798d5826',1,'LPD3DINCLUDE:&#160;d3dcommon.h'],['../d3dcommon_8idl.html#ab3cde1385c5b135f7829401b798d5826',1,'LPD3DINCLUDE:&#160;d3dcommon.idl']]],
+  ['lpstr_20',['LPSTR',['../basetsd_8h.html#ab86fb75422caa5f8b878b39f8677acd7',1,'basetsd.h']]],
+  ['lpunknown_21',['LPUNKNOWN',['../unknwnbase_8h.html#a972b366bb125606b028958811ec76a5b',1,'unknwnbase.h']]],
+  ['lpvoid_22',['LPVOID',['../basetsd_8h.html#a7573f92a7eaec2f75696c6a57c114e74',1,'basetsd.h']]],
+  ['lpwstr_23',['LPWSTR',['../basetsd_8h.html#aae0d53c84322f7eee3824aac2d50be09',1,'basetsd.h']]],
+  ['luid_24',['LUID',['../d3d12_8idl.html#a6a5d16142ef14cae0b6d782d0ba56e89',1,'LUID:&#160;d3d12.idl'],['../basetsd_8h.html#af67c5da5faf702fa0c3b49afdc926358',1,'LUID:&#160;basetsd.h']]]
+];

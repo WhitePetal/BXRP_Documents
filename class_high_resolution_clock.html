@@ -108,16 +108,21 @@ $(function(){initNavTree('class_high_resolution_clock.html',''); initResizable(t
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_high_resolution_clock-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">HighResolutionClock Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &lt;<a class="el" href="_high_resolution_clock_8h_source.html">HighResolutionClock.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a0f896cb5704aa8221ce99ad4556c4295" id="r_a0f896cb5704aa8221ce99ad4556c4295"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f896cb5704aa8221ce99ad4556c4295">Tick</a> ()</td></tr>
+<tr class="memitem:a5d152f0a26a933691b8840e5f63210ae" id="r_a5d152f0a26a933691b8840e5f63210ae"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d152f0a26a933691b8840e5f63210ae">HighResolutionClock</a> ()</td></tr>
+<tr class="separator:a5d152f0a26a933691b8840e5f63210ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f896cb5704aa8221ce99ad4556c4295" id="r_a0f896cb5704aa8221ce99ad4556c4295"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f896cb5704aa8221ce99ad4556c4295">Tick</a> ()</td></tr>
 <tr class="separator:a0f896cb5704aa8221ce99ad4556c4295"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a84ea090b6227039ca52b2e69a1697602" id="r_a84ea090b6227039ca52b2e69a1697602"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84ea090b6227039ca52b2e69a1697602">Reset</a> ()</td></tr>
+<tr class="memitem:a84ea090b6227039ca52b2e69a1697602" id="r_a84ea090b6227039ca52b2e69a1697602"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84ea090b6227039ca52b2e69a1697602">Reset</a> ()</td></tr>
 <tr class="separator:a84ea090b6227039ca52b2e69a1697602"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a913a49a752cd6c785906d91de90d5b3c" id="r_a913a49a752cd6c785906d91de90d5b3c"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a913a49a752cd6c785906d91de90d5b3c">GetDeltaNanoseconds</a> () const</td></tr>
 <tr class="separator:a913a49a752cd6c785906d91de90d5b3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -135,6 +140,15 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a6e555af730eaf177230fc1e7f5a7a0f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab01a0fc4cd993653307be87c791fb9f7" id="r_ab01a0fc4cd993653307be87c791fb9f7"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab01a0fc4cd993653307be87c791fb9f7">GetTotalSeconds</a> () const</td></tr>
 <tr class="separator:ab01a0fc4cd993653307be87c791fb9f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:aae972b54ccea8f3ef873a925b93a12e5" id="r_aae972b54ccea8f3ef873a925b93a12e5"><td class="memItemLeft" align="right" valign="top">std::chrono::high_resolution_clock::time_point&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae972b54ccea8f3ef873a925b93a12e5">m_T0</a></td></tr>
+<tr class="separator:aae972b54ccea8f3ef873a925b93a12e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1954d8f9937bcec90146688041d62a02" id="r_a1954d8f9937bcec90146688041d62a02"><td class="memItemLeft" align="right" valign="top">std::chrono::high_resolution_clock::duration&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1954d8f9937bcec90146688041d62a02">m_DeltaTime</a></td></tr>
+<tr class="separator:a1954d8f9937bcec90146688041d62a02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d8f89f426289eee69bc406cad2a93c3" id="r_a1d8f89f426289eee69bc406cad2a93c3"><td class="memItemLeft" align="right" valign="top">std::chrono::high_resolution_clock::duration&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d8f89f426289eee69bc406cad2a93c3">m_TotalTime</a></td></tr>
+<tr class="separator:a1d8f89f426289eee69bc406cad2a93c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
@@ -319,7 +333,7 @@ Public Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void HighResolutionClock::Reset </td>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> HighResolutionClock::Reset </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -338,7 +352,7 @@ Public Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void HighResolutionClock::Tick </td>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> HighResolutionClock::Tick </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -347,6 +361,79 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="_high_resolution_clock_8cpp_source.html#l00008">8</a> of file <a class="el" href="_high_resolution_clock_8cpp_source.html">HighResolutionClock.cpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a1954d8f9937bcec90146688041d62a02" name="a1954d8f9937bcec90146688041d62a02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1954d8f9937bcec90146688041d62a02">&#9670;&#160;</a></span>m_DeltaTime</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::chrono::high_resolution_clock::duration HighResolutionClock::m_DeltaTime</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_high_resolution_clock_8h_source.html#l00026">26</a> of file <a class="el" href="_high_resolution_clock_8h_source.html">HighResolutionClock.h</a>.</p>
+
+</div>
+</div>
+<a id="aae972b54ccea8f3ef873a925b93a12e5" name="aae972b54ccea8f3ef873a925b93a12e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae972b54ccea8f3ef873a925b93a12e5">&#9670;&#160;</a></span>m_T0</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::chrono::high_resolution_clock::time_point HighResolutionClock::m_T0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_high_resolution_clock_8h_source.html#l00025">25</a> of file <a class="el" href="_high_resolution_clock_8h_source.html">HighResolutionClock.h</a>.</p>
+
+</div>
+</div>
+<a id="a1d8f89f426289eee69bc406cad2a93c3" name="a1d8f89f426289eee69bc406cad2a93c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d8f89f426289eee69bc406cad2a93c3">&#9670;&#160;</a></span>m_TotalTime</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::chrono::high_resolution_clock::duration HighResolutionClock::m_TotalTime</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_high_resolution_clock_8h_source.html#l00027">27</a> of file <a class="el" href="_high_resolution_clock_8h_source.html">HighResolutionClock.h</a>.</p>
 
 </div>
 </div>

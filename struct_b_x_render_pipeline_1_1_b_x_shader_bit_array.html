@@ -109,6 +109,9 @@ $(function(){initNavTree('struct_b_x_render_pipeline_1_1_b_x_shader_bit_array.ht
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#properties">Properties</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="struct_b_x_render_pipeline_1_1_b_x_shader_bit_array-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">BXRenderPipeline.BXShaderBitArray Struct Reference</div></div>
 </div><!--header-->
@@ -116,9 +119,9 @@ $(function(){initNavTree('struct_b_x_render_pipeline_1_1_b_x_shader_bit_array.ht
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a4ac8c4a7b3d452197187a2a7a81dec86" id="r_a4ac8c4a7b3d452197187a2a7a81dec86"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ac8c4a7b3d452197187a2a7a81dec86">Resize</a> (int bitCount)</td></tr>
+<tr class="memitem:a4ac8c4a7b3d452197187a2a7a81dec86" id="r_a4ac8c4a7b3d452197187a2a7a81dec86"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ac8c4a7b3d452197187a2a7a81dec86">Resize</a> (int bitCount)</td></tr>
 <tr class="separator:a4ac8c4a7b3d452197187a2a7a81dec86"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a982b891eaedb6b39dc84bab6a0d0ee8c" id="r_a982b891eaedb6b39dc84bab6a0d0ee8c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a982b891eaedb6b39dc84bab6a0d0ee8c">Clear</a> ()</td></tr>
+<tr class="memitem:a982b891eaedb6b39dc84bab6a0d0ee8c" id="r_a982b891eaedb6b39dc84bab6a0d0ee8c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a982b891eaedb6b39dc84bab6a0d0ee8c">Clear</a> ()</td></tr>
 <tr class="separator:a982b891eaedb6b39dc84bab6a0d0ee8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae22d3dccef0941b25eed384052567bbb" id="r_ae22d3dccef0941b25eed384052567bbb"><td class="memItemLeft" align="right" valign="top">override string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae22d3dccef0941b25eed384052567bbb">ToString</a> ()</td></tr>
 <tr class="separator:ae22d3dccef0941b25eed384052567bbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -133,6 +136,25 @@ Properties</h2></td></tr>
 <tr class="separator:a3b274ab87812d144a46684b60d0975c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae70b1b6edcfa5cb99b404c2c82385d16" id="r_ae70b1b6edcfa5cb99b404c2c82385d16"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae70b1b6edcfa5cb99b404c2c82385d16">this[int index]</a><code> [get, set]</code></td></tr>
 <tr class="separator:ae70b1b6edcfa5cb99b404c2c82385d16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:aef9bc4e17f811826cbdf06a752c62982" id="r_aef9bc4e17f811826cbdf06a752c62982"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef9bc4e17f811826cbdf06a752c62982">GetElementIndexAndBitOffset</a> (int index, out int elemIndex, out int bitOffset)</td></tr>
+<tr class="separator:aef9bc4e17f811826cbdf06a752c62982"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a06bd2a156852a1e1df6512fe72153ea7" id="r_a06bd2a156852a1e1df6512fe72153ea7"><td class="memItemLeft" align="right" valign="top">float[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06bd2a156852a1e1df6512fe72153ea7">m_Data</a></td></tr>
+<tr class="separator:a06bd2a156852a1e1df6512fe72153ea7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a6284d4162e3cca85188bb153888b3b24" id="r_a6284d4162e3cca85188bb153888b3b24"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6284d4162e3cca85188bb153888b3b24">k_BitsPerElement</a> = 32</td></tr>
+<tr class="separator:a6284d4162e3cca85188bb153888b3b24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a142d84f4016fdd1aa61639b322025de5" id="r_a142d84f4016fdd1aa61639b322025de5"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a142d84f4016fdd1aa61639b322025de5">k_ElementShift</a> = 5</td></tr>
+<tr class="separator:a142d84f4016fdd1aa61639b322025de5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab260ff73ba2070cebbf483a1de207fe" id="r_aab260ff73ba2070cebbf483a1de207fe"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab260ff73ba2070cebbf483a1de207fe">k_ElementMask</a> = (1 &lt;&lt; <a class="el" href="#a142d84f4016fdd1aa61639b322025de5">k_ElementShift</a>) - 1</td></tr>
+<tr class="separator:aab260ff73ba2070cebbf483a1de207fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
@@ -145,7 +167,7 @@ Properties</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void BXRenderPipeline.BXShaderBitArray.Clear </td>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXRenderPipeline.BXShaderBitArray.Clear </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -157,6 +179,42 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="aef9bc4e17f811826cbdf06a752c62982" name="aef9bc4e17f811826cbdf06a752c62982"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef9bc4e17f811826cbdf06a752c62982">&#9670;&#160;</a></span>GetElementIndexAndBitOffset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXRenderPipeline.BXShaderBitArray.GetElementIndexAndBitOffset </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>index</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out int</td>          <td class="paramname"><span class="paramname"><em>elemIndex</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out int</td>          <td class="paramname"><span class="paramname"><em>bitOffset</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_b_x_shader_bit_array_8cs_source.html#l00042">42</a> of file <a class="el" href="_b_x_shader_bit_array_8cs_source.html">BXShaderBitArray.cs</a>.</p>
+
+</div>
+</div>
 <a id="a4ac8c4a7b3d452197187a2a7a81dec86" name="a4ac8c4a7b3d452197187a2a7a81dec86"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4ac8c4a7b3d452197187a2a7a81dec86">&#9670;&#160;</a></span>Resize()</h2>
 
@@ -164,7 +222,7 @@ Properties</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void BXRenderPipeline.BXShaderBitArray.Resize </td>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXRenderPipeline.BXShaderBitArray.Resize </td>
           <td>(</td>
           <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>bitCount</em></span></td><td>)</td>
           <td></td>
@@ -192,6 +250,103 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="_b_x_shader_bit_array_8cs_source.html#l00080">80</a> of file <a class="el" href="_b_x_shader_bit_array_8cs_source.html">BXShaderBitArray.cs</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a6284d4162e3cca85188bb153888b3b24" name="a6284d4162e3cca85188bb153888b3b24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6284d4162e3cca85188bb153888b3b24">&#9670;&#160;</a></span>k_BitsPerElement</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int BXRenderPipeline.BXShaderBitArray.k_BitsPerElement = 32</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_b_x_shader_bit_array_8cs_source.html#l00010">10</a> of file <a class="el" href="_b_x_shader_bit_array_8cs_source.html">BXShaderBitArray.cs</a>.</p>
+
+</div>
+</div>
+<a id="aab260ff73ba2070cebbf483a1de207fe" name="aab260ff73ba2070cebbf483a1de207fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab260ff73ba2070cebbf483a1de207fe">&#9670;&#160;</a></span>k_ElementMask</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int BXRenderPipeline.BXShaderBitArray.k_ElementMask = (1 &lt;&lt; <a class="el" href="#a142d84f4016fdd1aa61639b322025de5">k_ElementShift</a>) - 1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_b_x_shader_bit_array_8cs_source.html#l00012">12</a> of file <a class="el" href="_b_x_shader_bit_array_8cs_source.html">BXShaderBitArray.cs</a>.</p>
+
+</div>
+</div>
+<a id="a142d84f4016fdd1aa61639b322025de5" name="a142d84f4016fdd1aa61639b322025de5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a142d84f4016fdd1aa61639b322025de5">&#9670;&#160;</a></span>k_ElementShift</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int BXRenderPipeline.BXShaderBitArray.k_ElementShift = 5</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_b_x_shader_bit_array_8cs_source.html#l00011">11</a> of file <a class="el" href="_b_x_shader_bit_array_8cs_source.html">BXShaderBitArray.cs</a>.</p>
+
+</div>
+</div>
+<a id="a06bd2a156852a1e1df6512fe72153ea7" name="a06bd2a156852a1e1df6512fe72153ea7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06bd2a156852a1e1df6512fe72153ea7">&#9670;&#160;</a></span>m_Data</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float [] BXRenderPipeline.BXShaderBitArray.m_Data</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_b_x_shader_bit_array_8cs_source.html#l00014">14</a> of file <a class="el" href="_b_x_shader_bit_array_8cs_source.html">BXShaderBitArray.cs</a>.</p>
 
 </div>
 </div>

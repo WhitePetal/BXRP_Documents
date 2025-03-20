@@ -1,0 +1,5 @@
+var struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___c_o_d_e_c___c_o_n_f_i_g_u_r_a_t_i_o_n___s_u_p_p_o_r_t___h264 =
+[
+    [ "DisableDeblockingFilterSupportedModes", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___c_o_d_e_c___c_o_n_f_i_g_u_r_a_t_i_o_n___s_u_p_p_o_r_t___h264.html#ac4eeb1cdfb44ce64ebe35abb1ee02a9a", null ],
+    [ "SupportFlags", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___c_o_d_e_c___c_o_n_f_i_g_u_r_a_t_i_o_n___s_u_p_p_o_r_t___h264.html#ae51f5cbf15b280d8c7a43e79e2794431", null ]
+];

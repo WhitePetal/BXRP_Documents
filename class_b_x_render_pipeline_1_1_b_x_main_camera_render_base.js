@@ -1,0 +1,22 @@
+var class_b_x_render_pipeline_1_1_b_x_main_camera_render_base =
+[
+    [ "Dispose", "class_b_x_render_pipeline_1_1_b_x_main_camera_render_base.html#ae96e634a5c6086a934c495b83b0edfbb", null ],
+    [ "camera", "class_b_x_render_pipeline_1_1_b_x_main_camera_render_base.html#aee620563cbf305346771d479f2d880c7", null ],
+    [ "commandBuffer", "class_b_x_render_pipeline_1_1_b_x_main_camera_render_base.html#ab18f015331745dd1d50010f145630409", null ],
+    [ "commandBufferName", "class_b_x_render_pipeline_1_1_b_x_main_camera_render_base.html#aff0bc827db9862075d73b00de04d323e", null ],
+    [ "commonSettings", "class_b_x_render_pipeline_1_1_b_x_main_camera_render_base.html#aa4b9f21d681b12c4e2cc4a9548c4706b", null ],
+    [ "context", "class_b_x_render_pipeline_1_1_b_x_main_camera_render_base.html#add4c9a692c4d865b11339618d578ecfb", null ],
+    [ "cullingResults", "class_b_x_render_pipeline_1_1_b_x_main_camera_render_base.html#a5a75be979ede67b4dc4e2a63dc059b4c", null ],
+    [ "filterSettings_opaue", "class_b_x_render_pipeline_1_1_b_x_main_camera_render_base.html#a8a870f8c87b54ad9e0638144d77539b6", null ],
+    [ "filterSettings_transparent", "class_b_x_render_pipeline_1_1_b_x_main_camera_render_base.html#a5362b4f85120404d05330dccc2c03707", null ],
+    [ "fullLightPerObjectFlags", "class_b_x_render_pipeline_1_1_b_x_main_camera_render_base.html#aa3d457dd5497bb72cf2491027ed09003", null ],
+    [ "height", "class_b_x_render_pipeline_1_1_b_x_main_camera_render_base.html#a4daaceb70c86e135804770d07005f9ba", null ],
+    [ "height_screen", "class_b_x_render_pipeline_1_1_b_x_main_camera_render_base.html#af9f206a50272df8fdc5cdb7958091f83", null ],
+    [ "maxShadowDistance", "class_b_x_render_pipeline_1_1_b_x_main_camera_render_base.html#aabf45031f5b9274cb895f79ab80ae51d", null ],
+    [ "postProcessMat", "class_b_x_render_pipeline_1_1_b_x_main_camera_render_base.html#a1cd688ee039495eccb3d6602fb258352", null ],
+    [ "SampleName", "class_b_x_render_pipeline_1_1_b_x_main_camera_render_base.html#a608dba735dc20099ed64992438b14a76", null ],
+    [ "viewToWorldMatrix", "class_b_x_render_pipeline_1_1_b_x_main_camera_render_base.html#a241bb4d2bf4c9cc078789b52726f2177", null ],
+    [ "width", "class_b_x_render_pipeline_1_1_b_x_main_camera_render_base.html#acf8a7a8cccd5edbeccd0c52ea35f94cc", null ],
+    [ "width_screen", "class_b_x_render_pipeline_1_1_b_x_main_camera_render_base.html#a8757973490131c0fd9bb816713714776", null ],
+    [ "worldToViewMatrix", "class_b_x_render_pipeline_1_1_b_x_main_camera_render_base.html#a53658e5be89a7ec940bda33caa9ac046", null ]
+];

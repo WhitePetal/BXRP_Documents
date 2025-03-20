@@ -1,4 +1,32 @@
 var searchData=
 [
-  ['bakingset_0',['bakingSet',['../class_b_x_render_pipeline_1_1_probe_volume_per_scene_data.html#abec060b343ae35ec9cbb2d77143ff0bb',1,'BXRenderPipeline::ProbeVolumePerSceneData']]]
+  ['activeblocks_0',['activeBlocks',['../class_b_x_geometry_graph_1_1_target_active_block_context.html#a2e3dca407a2d9b9a45a29754c09dff28',1,'BXGeometryGraph::TargetActiveBlockContext']]],
+  ['activeindex_1',['activeIndex',['../class_b_x_geometry_graph_1_1_color_manager.html#a387e28f593fc726ead1a9e686e775832',1,'BXGeometryGraph::ColorManager']]],
+  ['activeprovider_2',['activeProvider',['../class_b_x_geometry_graph_1_1_color_manager.html#af316f0fcd20e0517d4480d58cfdfa16e',1,'BXGeometryGraph::ColorManager']]],
+  ['activeprovidername_3',['activeProviderName',['../class_b_x_geometry_graph_1_1_color_manager.html#ac40cbc905d6ef48b1c2a3ad4dc4aa944',1,'BXGeometryGraph::ColorManager']]],
+  ['activestate_4',['activeState',['../class_b_x_geometry_graph_1_1_abstract_geometry_node.html#a6731e262996449759348273cd88d4715',1,'BXGeometryGraph::AbstractGeometryNode']]],
+  ['activesupportscustom_5',['activeSupportsCustom',['../class_b_x_geometry_graph_1_1_color_manager.html#aec2bc95ae539954e9f50c627ce5e546b',1,'BXGeometryGraph::ColorManager']]],
+  ['activetargets_6',['activeTargets',['../class_b_x_geometry_graph_1_1_graph_data.html#a3b174408c08310d4d7647949bacf8ef5',1,'BXGeometryGraph::GraphData']]],
+  ['addactionsource_7',['addActionSource',['../class_b_x_geometry_graph_1_1_add_item_to_category_action.html#ae0a1a41ddb0b8a24470cfc3fcb61d5a2',1,'BXGeometryGraph::AddItemToCategoryAction']]],
+  ['addcategoryaction_8',['addCategoryAction',['../class_b_x_geometry_graph_1_1_blackboard_view_model.html#a47ec493c299793a850803c146d69c01f',1,'BXGeometryGraph::BlackboardViewModel']]],
+  ['addedcategoires_9',['addedCategoires',['../class_b_x_geometry_graph_1_1_graph_data.html#ab859fd92b1e08ce84a0854eb72861c87',1,'BXGeometryGraph::GraphData']]],
+  ['addededges_10',['addedEdges',['../class_b_x_geometry_graph_1_1_graph_data.html#a6f4996e92c4c600feb92beb5a363338d',1,'BXGeometryGraph::GraphData']]],
+  ['addedgroups_11',['addedGroups',['../class_b_x_geometry_graph_1_1_graph_data.html#a3030835b29a3ef66c2cbae524dacd74b',1,'BXGeometryGraph::GraphData']]],
+  ['addedinputs_12',['addedInputs',['../class_b_x_geometry_graph_1_1_graph_data.html#abaa3db1970f1b21e4cf9b14c043146d6',1,'BXGeometryGraph::GraphData']]],
+  ['addednodes_13',['addedNodes',['../class_b_x_geometry_graph_1_1_graph_data.html#a737b2e1bf2c39ef8d0d6c7a543653d4e',1,'BXGeometryGraph::GraphData']]],
+  ['addedstickynotes_14',['addedStickyNotes',['../class_b_x_geometry_graph_1_1_graph_data.html#afe6523b5531f3446778c9d837de4bab0',1,'BXGeometryGraph::GraphData']]],
+  ['addinputactiontype_15',['addInputActionType',['../class_b_x_geometry_graph_1_1_add_geometry_input_action.html#a6795cc23f4ac661dacf520e84b2eeab2',1,'BXGeometryGraph::AddGeometryInputAction']]],
+  ['additemrequested_16',['addItemRequested',['../class_b_x_geometry_graph_1_1_g_g_blackboard.html#a0e5e5d9a308127ad3d18656135d71ef8',1,'BXGeometryGraph::GGBlackboard']]],
+  ['allchildren_17',['allChildren',['../class_b_x_geometry_graph_1_1_g_g_controller.html#adcc20c06c03e1b8a23c857f4963bf174',1,'BXGeometryGraph::GGController']]],
+  ['allowedinlayergraph_18',['allowedInLayerGraph',['../class_b_x_geometry_graph_1_1_abstract_geometry_node.html#a378833e2bf9572abfeeb5c5ca3de2e49',1,'BXGeometryGraph::AbstractGeometryNode']]],
+  ['allowedinmaingraph_19',['allowedInMainGraph',['../class_b_x_geometry_graph_1_1_geometry_dropdown.html#acda5edc4ff2c12c3ee69155256a07390',1,'BXGeometryGraph.GeometryDropdown.allowedInMainGraph'],['../class_b_x_geometry_graph_1_1_geometry_input.html#a9fe5bdf3035460c82071161463c345ef',1,'BXGeometryGraph.GeometryInput.allowedInMainGraph'],['../class_b_x_geometry_graph_1_1_abstract_geometry_node.html#a8c4d29eea0d1f37baa5b477550e921a5',1,'BXGeometryGraph.AbstractGeometryNode.allowedInMainGraph'],['../class_b_x_geometry_graph_1_1_dropdown_node.html#a127aae63e44a5ac3244253d08140f008',1,'BXGeometryGraph.DropdownNode.allowedInMainGraph']]],
+  ['allowedinsubgraph_20',['allowedInSubGraph',['../class_b_x_geometry_graph_1_1_geometry_input.html#a3db3d3d1ea4a27336295dddd41b7643c',1,'BXGeometryGraph.GeometryInput.allowedInSubGraph'],['../class_b_x_geometry_graph_1_1_abstract_geometry_node.html#a0ce98f1941393d77e283726f2818a0d7',1,'BXGeometryGraph.AbstractGeometryNode.allowedInSubGraph'],['../class_b_x_geometry_graph_1_1_sub_graph_node.html#aa8f828aee72a25a93181a55f3cc9f182',1,'BXGeometryGraph.SubGraphNode.allowedInSubGraph']]],
+  ['allowednodeversions_21',['allowedNodeVersions',['../class_b_x_geometry_graph_1_1_abstract_geometry_node.html#acf36aaa9975bed250a6f9a4e8c76ba9f',1,'BXGeometryGraph::AbstractGeometryNode']]],
+  ['allpotentialtargets_22',['allPotentialTargets',['../class_b_x_geometry_graph_1_1_graph_data.html#a77d18c9a4fa750d7861e54d8fb9f0cec',1,'BXGeometryGraph::GraphData']]],
+  ['asset_23',['asset',['../class_b_x_geometry_graph_1_1_sub_graph_node.html#abdc637a584a49f876b3b780047205889',1,'BXGeometryGraph::SubGraphNode']]],
+  ['assetguid_24',['assetGuid',['../class_b_x_geometry_graph_1_1_graph_data.html#a2c6c43b85b8187bd97c55c8be8d45944',1,'BXGeometryGraph::GraphData']]],
+  ['assetname_25',['assetName',['../class_b_x_geometry_graph_1_1_geometry_graph_edit_window.html#ab7b609d5d9c87302becbe73c832f20f8',1,'BXGeometryGraph.GeometryGraphEditWindow.assetName'],['../class_b_x_geometry_graph_1_1_graph_editor_view.html#a48938cc9a6e4be43c35886998719cd47',1,'BXGeometryGraph.GraphEditorView.assetName']]],
+  ['atlasrt_26',['atlasRT',['../struct_b_x_render_pipeline_1_1_b_x_reflection_probe_manager.html#a0b6771650c94e5c8267770a8a59bed15',1,'BXRenderPipeline::BXReflectionProbeManager']]],
+  ['atlasrthandle_27',['atlasRTHandle',['../struct_b_x_render_pipeline_1_1_b_x_reflection_probe_manager.html#ade2d11197a76a7afc50f66b8c8f659e7',1,'BXRenderPipeline::BXReflectionProbeManager']]],
+  ['atlasuvrects_28',['atlasUVRects',['../class_b_x_render_pipeline_1_1_b_x_light_cookie_1_1_light_cookie_shader_data.html#a5325df9dcb54ea6d171136afb4fabed8',1,'BXRenderPipeline::BXLightCookie::LightCookieShaderData']]]
 ];

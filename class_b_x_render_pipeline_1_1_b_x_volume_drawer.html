@@ -107,14 +107,179 @@ $(function(){initNavTree('class_b_x_render_pipeline_1_1_b_x_volume_drawer.html',
 
 <div class="header">
   <div class="summary">
+<a href="#pri-static-methods">Static Private Member Functions</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="class_b_x_render_pipeline_1_1_b_x_volume_drawer-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">BXRenderPipeline.BXVolumeDrawer Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-methods" name="pri-static-methods"></a>
+Static Private Member Functions</h2></td></tr>
+<tr class="memitem:adcadf77cd03b208b433ef4d49a4135ea" id="r_adcadf77cd03b208b433ef4d49a4135ea"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adcadf77cd03b208b433ef4d49a4135ea">InitVolumeGizmosCallbacs</a> ()</td></tr>
+<tr class="separator:adcadf77cd03b208b433ef4d49a4135ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98942e3c41d5df0f68ed7264ab68aa31" id="r_a98942e3c41d5df0f68ed7264ab68aa31"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98942e3c41d5df0f68ed7264ab68aa31">onDrawGizmos</a> (IVolume src, GizmoType gizmoType)</td></tr>
+<tr class="separator:a98942e3c41d5df0f68ed7264ab68aa31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae251dd00d1cc93e22d950bf8db6b06b1" id="r_ae251dd00d1cc93e22d950bf8db6b06b1"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae251dd00d1cc93e22d950bf8db6b06b1">DrawBlendDistanceBox</a> (BoxCollider c, float blendDistance)</td></tr>
+<tr class="separator:ae251dd00d1cc93e22d950bf8db6b06b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ea5345a5195370b07d05e556308ef19" id="r_a0ea5345a5195370b07d05e556308ef19"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ea5345a5195370b07d05e556308ef19">DrawBlendDistanceSphere</a> (SphereCollider c, float blendDistance)</td></tr>
+<tr class="separator:a0ea5345a5195370b07d05e556308ef19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a4fdcd77b25e51f2e39795e86624c3c59" id="r_a4fdcd77b25e51f2e39795e86624c3c59"><td class="memItemLeft" align="right" valign="top">static readonly Dictionary&lt; Type, IVolumeAdditionalGizmo &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4fdcd77b25e51f2e39795e86624c3c59">s_AdditionalGizmoCallbacks</a> = new ()</td></tr>
+<tr class="separator:a4fdcd77b25e51f2e39795e86624c3c59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
 <p class="definition">Definition at line <a class="el" href="_b_x_volume_drawer_8cs_source.html#l00012">12</a> of file <a class="el" href="_b_x_volume_drawer_8cs_source.html">BXVolumeDrawer.cs</a>.</p>
-</div><hr/>The documentation for this class was generated from the following file:<ul>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="ae251dd00d1cc93e22d950bf8db6b06b1" name="ae251dd00d1cc93e22d950bf8db6b06b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae251dd00d1cc93e22d950bf8db6b06b1">&#9670;&#160;</a></span>DrawBlendDistanceBox()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXRenderPipeline.BXVolumeDrawer.DrawBlendDistanceBox </td>
+          <td>(</td>
+          <td class="paramtype">BoxCollider</td>          <td class="paramname"><span class="paramname"><em>c</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>blendDistance</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_b_x_volume_drawer_8cs_source.html#l00116">116</a> of file <a class="el" href="_b_x_volume_drawer_8cs_source.html">BXVolumeDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="a0ea5345a5195370b07d05e556308ef19" name="a0ea5345a5195370b07d05e556308ef19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ea5345a5195370b07d05e556308ef19">&#9670;&#160;</a></span>DrawBlendDistanceSphere()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXRenderPipeline.BXVolumeDrawer.DrawBlendDistanceSphere </td>
+          <td>(</td>
+          <td class="paramtype">SphereCollider</td>          <td class="paramname"><span class="paramname"><em>c</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>blendDistance</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_b_x_volume_drawer_8cs_source.html#l00133">133</a> of file <a class="el" href="_b_x_volume_drawer_8cs_source.html">BXVolumeDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="adcadf77cd03b208b433ef4d49a4135ea" name="adcadf77cd03b208b433ef4d49a4135ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adcadf77cd03b208b433ef4d49a4135ea">&#9670;&#160;</a></span>InitVolumeGizmosCallbacs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXRenderPipeline.BXVolumeDrawer.InitVolumeGizmosCallbacs </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_b_x_volume_drawer_8cs_source.html#l00017">17</a> of file <a class="el" href="_b_x_volume_drawer_8cs_source.html">BXVolumeDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="a98942e3c41d5df0f68ed7264ab68aa31" name="a98942e3c41d5df0f68ed7264ab68aa31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98942e3c41d5df0f68ed7264ab68aa31">&#9670;&#160;</a></span>onDrawGizmos()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXRenderPipeline.BXVolumeDrawer.onDrawGizmos </td>
+          <td>(</td>
+          <td class="paramtype">IVolume</td>          <td class="paramname"><span class="paramname"><em>src</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GizmoType</td>          <td class="paramname"><span class="paramname"><em>gizmoType</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_b_x_volume_drawer_8cs_source.html#l00030">30</a> of file <a class="el" href="_b_x_volume_drawer_8cs_source.html">BXVolumeDrawer.cs</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a4fdcd77b25e51f2e39795e86624c3c59" name="a4fdcd77b25e51f2e39795e86624c3c59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4fdcd77b25e51f2e39795e86624c3c59">&#9670;&#160;</a></span>s_AdditionalGizmoCallbacks</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly Dictionary&lt;Type, IVolumeAdditionalGizmo&gt; BXRenderPipeline.BXVolumeDrawer.s_AdditionalGizmoCallbacks = new ()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_b_x_volume_drawer_8cs_source.html#l00014">14</a> of file <a class="el" href="_b_x_volume_drawer_8cs_source.html">BXVolumeDrawer.cs</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="_b_x_volume_drawer_8cs_source.html">BXVolumeDrawer.cs</a></li>
 </ul>
 </div><!-- contents -->

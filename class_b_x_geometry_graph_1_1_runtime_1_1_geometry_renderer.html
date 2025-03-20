@@ -107,9 +107,13 @@ $(function(){initNavTree('class_b_x_geometry_graph_1_1_runtime_1_1_geometry_rend
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="class_b_x_geometry_graph_1_1_runtime_1_1_geometry_renderer-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">BXGeometryGraph.Runtime.GeometryRenderer Class Reference</div></div>
 </div><!--header-->
@@ -121,13 +125,18 @@ Inheritance diagram for BXGeometryGraph.Runtime.GeometryRenderer:</div>
   <img src="class_b_x_geometry_graph_1_1_runtime_1_1_geometry_renderer.png" alt=""/>
  </div></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_b_x_geometry_graph_1_1_runtime_1_1_geometry_renderer_1_1_packed_matrix.html">PackedMatrix</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aba5fd9776e8443f55d78f90f16ee2d94" id="r_aba5fd9776e8443f55d78f90f16ee2d94"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba5fd9776e8443f55d78f90f16ee2d94">Render</a> (CommandBuffer cmd)</td></tr>
+<tr class="memitem:aba5fd9776e8443f55d78f90f16ee2d94" id="r_aba5fd9776e8443f55d78f90f16ee2d94"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba5fd9776e8443f55d78f90f16ee2d94">Render</a> (CommandBuffer cmd)</td></tr>
 <tr class="separator:aba5fd9776e8443f55d78f90f16ee2d94"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ea7033c3e4cdc2b159e8da4f8ed27cf" id="r_a7ea7033c3e4cdc2b159e8da4f8ed27cf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ea7033c3e4cdc2b159e8da4f8ed27cf">Schedule</a> ()</td></tr>
+<tr class="memitem:a7ea7033c3e4cdc2b159e8da4f8ed27cf" id="r_a7ea7033c3e4cdc2b159e8da4f8ed27cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ea7033c3e4cdc2b159e8da4f8ed27cf">Schedule</a> ()</td></tr>
 <tr class="separator:a7ea7033c3e4cdc2b159e8da4f8ed27cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7773e58f2a4081a3a0c55dd8de65c065" id="r_a7773e58f2a4081a3a0c55dd8de65c065"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7773e58f2a4081a3a0c55dd8de65c065">Compelete</a> ()</td></tr>
+<tr class="memitem:a7773e58f2a4081a3a0c55dd8de65c065" id="r_a7773e58f2a4081a3a0c55dd8de65c065"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7773e58f2a4081a3a0c55dd8de65c065">Compelete</a> ()</td></tr>
 <tr class="separator:a7773e58f2a4081a3a0c55dd8de65c065"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add3494f5a87c60f3f4d03627a5ca8583" id="r_add3494f5a87c60f3f4d03627a5ca8583"><td class="memItemLeft" align="right" valign="top">unsafe JobHandle&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add3494f5a87c60f3f4d03627a5ca8583">OnPerformCulling</a> (BatchRendererGroup rendererGroup, BatchCullingContext cullingContext, BatchCullingOutput cullingOutput, IntPtr userContext)</td></tr>
 <tr class="separator:add3494f5a87c60f3f4d03627a5ca8583"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -143,11 +152,158 @@ Public Attributes</h2></td></tr>
 Properties</h2></td></tr>
 <tr class="memitem:a85b62a5b6a8327a6d8907c49d9ff8a76" id="r_a85b62a5b6a8327a6d8907c49d9ff8a76"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_b_x_geometry_graph_1_1_runtime_1_1_geometry_s_o.html">GeometrySO</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a85b62a5b6a8327a6d8907c49d9ff8a76">geometrySO</a><code> [get]</code></td></tr>
 <tr class="separator:a85b62a5b6a8327a6d8907c49d9ff8a76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:ab5bed8b4e90aeb05f03348cfc16521cc" id="r_ab5bed8b4e90aeb05f03348cfc16521cc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5bed8b4e90aeb05f03348cfc16521cc">InitGeometrySO</a> ()</td></tr>
+<tr class="separator:ab5bed8b4e90aeb05f03348cfc16521cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2bc189cda6d510ffa04cc0e668ee1d7f" id="r_a2bc189cda6d510ffa04cc0e668ee1d7f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2bc189cda6d510ffa04cc0e668ee1d7f">Awake</a> ()</td></tr>
+<tr class="separator:a2bc189cda6d510ffa04cc0e668ee1d7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1a5a3b8e5af8b7b1aed39f10a02483b" id="r_af1a5a3b8e5af8b7b1aed39f10a02483b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1a5a3b8e5af8b7b1aed39f10a02483b">Update</a> ()</td></tr>
+<tr class="separator:af1a5a3b8e5af8b7b1aed39f10a02483b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa5694e565cd83f26918fef89e7cf6ca" id="r_afa5694e565cd83f26918fef89e7cf6ca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa5694e565cd83f26918fef89e7cf6ca">LateUpdate</a> ()</td></tr>
+<tr class="separator:afa5694e565cd83f26918fef89e7cf6ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49703c66f4e97f94361df63e24994d29" id="r_a49703c66f4e97f94361df63e24994d29"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49703c66f4e97f94361df63e24994d29">OnDestroy</a> ()</td></tr>
+<tr class="separator:a49703c66f4e97f94361df63e24994d29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4821825a23abf30c633b1a50e277752" id="r_aa4821825a23abf30c633b1a50e277752"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4821825a23abf30c633b1a50e277752">AllocateInstanceDataBuffer</a> ()</td></tr>
+<tr class="separator:aa4821825a23abf30c633b1a50e277752"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac70b4f21f3d9022a8e5a6d2efb2c3506" id="r_ac70b4f21f3d9022a8e5a6d2efb2c3506"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac70b4f21f3d9022a8e5a6d2efb2c3506">BufferCountForInstances</a> (int bytesPerInstance, int numInstances, int extraBytes=0)</td></tr>
+<tr class="separator:ac70b4f21f3d9022a8e5a6d2efb2c3506"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3abad5851b268debe570d3642e3333e1" id="r_a3abad5851b268debe570d3642e3333e1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3abad5851b268debe570d3642e3333e1">PopulateInstanceDataBuffer</a> ()</td></tr>
+<tr class="separator:a3abad5851b268debe570d3642e3333e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:ad05e72330be301f2a02853b1bce89496" id="r_ad05e72330be301f2a02853b1bce89496"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_b_x_geometry_graph_1_1_runtime_1_1_geometry_s_o.html">GeometrySO</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad05e72330be301f2a02853b1bce89496">sharedGeometrySO</a></td></tr>
+<tr class="separator:ad05e72330be301f2a02853b1bce89496"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3eb781a9096daa1606b33ab0c4f5eaa8" id="r_a3eb781a9096daa1606b33ab0c4f5eaa8"><td class="memItemLeft" align="right" valign="top">Material&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3eb781a9096daa1606b33ab0c4f5eaa8">material</a></td></tr>
+<tr class="separator:a3eb781a9096daa1606b33ab0c4f5eaa8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78773a83768c5d854edcd4e48e8e6025" id="r_a78773a83768c5d854edcd4e48e8e6025"><td class="memItemLeft" align="right" valign="top">JobHandle&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78773a83768c5d854edcd4e48e8e6025">jobHandle</a></td></tr>
+<tr class="separator:a78773a83768c5d854edcd4e48e8e6025"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2cbaa490823f3c816d9abec7bc836c90" id="r_a2cbaa490823f3c816d9abec7bc836c90"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2cbaa490823f3c816d9abec7bc836c90">init</a></td></tr>
+<tr class="separator:a2cbaa490823f3c816d9abec7bc836c90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad48d85dd08ac992ce317f84e06edd177" id="r_ad48d85dd08ac992ce317f84e06edd177"><td class="memItemLeft" align="right" valign="top">List&lt; Mesh &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad48d85dd08ac992ce317f84e06edd177">meshes</a></td></tr>
+<tr class="separator:ad48d85dd08ac992ce317f84e06edd177"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a506d508b320de21188ff6edc639eeef7" id="r_a506d508b320de21188ff6edc639eeef7"><td class="memItemLeft" align="right" valign="top">BatchRendererGroup&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a506d508b320de21188ff6edc639eeef7">m_BRG</a></td></tr>
+<tr class="separator:a506d508b320de21188ff6edc639eeef7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1626a938f9feecbe748b0e04d4f42438" id="r_a1626a938f9feecbe748b0e04d4f42438"><td class="memItemLeft" align="right" valign="top">BatchMeshID&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1626a938f9feecbe748b0e04d4f42438">m_MeshID</a></td></tr>
+<tr class="separator:a1626a938f9feecbe748b0e04d4f42438"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3babb151782abda7e80778993d66995" id="r_ab3babb151782abda7e80778993d66995"><td class="memItemLeft" align="right" valign="top">BatchMaterialID&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3babb151782abda7e80778993d66995">m_MaterialID</a></td></tr>
+<tr class="separator:ab3babb151782abda7e80778993d66995"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fae29d7e1e4eef21727ce9c21b5b8eb" id="r_a3fae29d7e1e4eef21727ce9c21b5b8eb"><td class="memItemLeft" align="right" valign="top">GraphicsBuffer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3fae29d7e1e4eef21727ce9c21b5b8eb">m_InstanceData</a></td></tr>
+<tr class="separator:a3fae29d7e1e4eef21727ce9c21b5b8eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4b0362a231affd757fe319150088802" id="r_ae4b0362a231affd757fe319150088802"><td class="memItemLeft" align="right" valign="top">BatchID&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4b0362a231affd757fe319150088802">m_BatchID</a></td></tr>
+<tr class="separator:ae4b0362a231affd757fe319150088802"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a73df5330c9bd58f0960dd8a90901dab3" id="r_a73df5330c9bd58f0960dd8a90901dab3"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73df5330c9bd58f0960dd8a90901dab3">kSizeOfMatrix</a> = sizeof(float) * 4 * 4</td></tr>
+<tr class="separator:a73df5330c9bd58f0960dd8a90901dab3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3b7be9f9bcfbc3f382082ebe29453ce" id="r_ab3b7be9f9bcfbc3f382082ebe29453ce"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3b7be9f9bcfbc3f382082ebe29453ce">kSizeOfPackedMatrix</a> = sizeof(float) * 4 * 3</td></tr>
+<tr class="separator:ab3b7be9f9bcfbc3f382082ebe29453ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14d3f41daa9b6e31b912de3867c68bf5" id="r_a14d3f41daa9b6e31b912de3867c68bf5"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14d3f41daa9b6e31b912de3867c68bf5">kSizeOfFloat4</a> = sizeof(float) * 4</td></tr>
+<tr class="separator:a14d3f41daa9b6e31b912de3867c68bf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9034012142c20ac65497031a8f863816" id="r_a9034012142c20ac65497031a8f863816"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9034012142c20ac65497031a8f863816">kBytesPerInstance</a> = (<a class="el" href="#ab3b7be9f9bcfbc3f382082ebe29453ce">kSizeOfPackedMatrix</a> * 2) + <a class="el" href="#a14d3f41daa9b6e31b912de3867c68bf5">kSizeOfFloat4</a></td></tr>
+<tr class="separator:a9034012142c20ac65497031a8f863816"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11040d849ca6db0fea9b091766010ac9" id="r_a11040d849ca6db0fea9b091766010ac9"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11040d849ca6db0fea9b091766010ac9">kExtraBytes</a> = <a class="el" href="#a73df5330c9bd58f0960dd8a90901dab3">kSizeOfMatrix</a> * 2</td></tr>
+<tr class="separator:a11040d849ca6db0fea9b091766010ac9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a468299e53b1c1b88638ff3075f7fdccc" id="r_a468299e53b1c1b88638ff3075f7fdccc"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a468299e53b1c1b88638ff3075f7fdccc">kNumInstances</a> = 3</td></tr>
+<tr class="separator:a468299e53b1c1b88638ff3075f7fdccc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
 <p class="definition">Definition at line <a class="el" href="_geometry_renderer_8cs_source.html#l00015">15</a> of file <a class="el" href="_geometry_renderer_8cs_source.html">GeometryRenderer.cs</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="aa4821825a23abf30c633b1a50e277752" name="aa4821825a23abf30c633b1a50e277752"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4821825a23abf30c633b1a50e277752">&#9670;&#160;</a></span>AllocateInstanceDataBuffer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXGeometryGraph.Runtime.GeometryRenderer.AllocateInstanceDataBuffer </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_renderer_8cs_source.html#l00250">250</a> of file <a class="el" href="_geometry_renderer_8cs_source.html">GeometryRenderer.cs</a>.</p>
+
+</div>
+</div>
+<a id="a2bc189cda6d510ffa04cc0e668ee1d7f" name="a2bc189cda6d510ffa04cc0e668ee1d7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2bc189cda6d510ffa04cc0e668ee1d7f">&#9670;&#160;</a></span>Awake()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXGeometryGraph.Runtime.GeometryRenderer.Awake </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_renderer_8cs_source.html#l00103">103</a> of file <a class="el" href="_geometry_renderer_8cs_source.html">GeometryRenderer.cs</a>.</p>
+
+</div>
+</div>
+<a id="ac70b4f21f3d9022a8e5a6d2efb2c3506" name="ac70b4f21f3d9022a8e5a6d2efb2c3506"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac70b4f21f3d9022a8e5a6d2efb2c3506">&#9670;&#160;</a></span>BufferCountForInstances()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BXGeometryGraph.Runtime.GeometryRenderer.BufferCountForInstances </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>bytesPerInstance</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>numInstances</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>extraBytes</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_renderer_8cs_source.html#l00257">257</a> of file <a class="el" href="_geometry_renderer_8cs_source.html">GeometryRenderer.cs</a>.</p>
+
+</div>
+</div>
 <a id="a7773e58f2a4081a3a0c55dd8de65c065" name="a7773e58f2a4081a3a0c55dd8de65c065"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7773e58f2a4081a3a0c55dd8de65c065">&#9670;&#160;</a></span>Compelete()</h2>
 
@@ -155,7 +311,7 @@ Properties</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void BXGeometryGraph.Runtime.GeometryRenderer.Compelete </td>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXGeometryGraph.Runtime.GeometryRenderer.Compelete </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -164,6 +320,87 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="_geometry_renderer_8cs_source.html#l00164">164</a> of file <a class="el" href="_geometry_renderer_8cs_source.html">GeometryRenderer.cs</a>.</p>
+
+</div>
+</div>
+<a id="ab5bed8b4e90aeb05f03348cfc16521cc" name="ab5bed8b4e90aeb05f03348cfc16521cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5bed8b4e90aeb05f03348cfc16521cc">&#9670;&#160;</a></span>InitGeometrySO()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXGeometryGraph.Runtime.GeometryRenderer.InitGeometrySO </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_renderer_8cs_source.html#l00095">95</a> of file <a class="el" href="_geometry_renderer_8cs_source.html">GeometryRenderer.cs</a>.</p>
+
+</div>
+</div>
+<a id="afa5694e565cd83f26918fef89e7cf6ca" name="afa5694e565cd83f26918fef89e7cf6ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa5694e565cd83f26918fef89e7cf6ca">&#9670;&#160;</a></span>LateUpdate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXGeometryGraph.Runtime.GeometryRenderer.LateUpdate </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_renderer_8cs_source.html#l00132">132</a> of file <a class="el" href="_geometry_renderer_8cs_source.html">GeometryRenderer.cs</a>.</p>
+
+</div>
+</div>
+<a id="a49703c66f4e97f94361df63e24994d29" name="a49703c66f4e97f94361df63e24994d29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49703c66f4e97f94361df63e24994d29">&#9670;&#160;</a></span>OnDestroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXGeometryGraph.Runtime.GeometryRenderer.OnDestroy </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_renderer_8cs_source.html#l00240">240</a> of file <a class="el" href="_geometry_renderer_8cs_source.html">GeometryRenderer.cs</a>.</p>
 
 </div>
 </div>
@@ -200,6 +437,33 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="a3abad5851b268debe570d3642e3333e1" name="a3abad5851b268debe570d3642e3333e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3abad5851b268debe570d3642e3333e1">&#9670;&#160;</a></span>PopulateInstanceDataBuffer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXGeometryGraph.Runtime.GeometryRenderer.PopulateInstanceDataBuffer </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_renderer_8cs_source.html#l00266">266</a> of file <a class="el" href="_geometry_renderer_8cs_source.html">GeometryRenderer.cs</a>.</p>
+
+</div>
+</div>
 <a id="aba5fd9776e8443f55d78f90f16ee2d94" name="aba5fd9776e8443f55d78f90f16ee2d94"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aba5fd9776e8443f55d78f90f16ee2d94">&#9670;&#160;</a></span>Render()</h2>
 
@@ -207,7 +471,7 @@ Properties</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void BXGeometryGraph.Runtime.GeometryRenderer.Render </td>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXGeometryGraph.Runtime.GeometryRenderer.Render </td>
           <td>(</td>
           <td class="paramtype">CommandBuffer</td>          <td class="paramname"><span class="paramname"><em>cmd</em></span></td><td>)</td>
           <td></td>
@@ -226,7 +490,7 @@ Properties</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void BXGeometryGraph.Runtime.GeometryRenderer.Schedule </td>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXGeometryGraph.Runtime.GeometryRenderer.Schedule </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -235,6 +499,33 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="_geometry_renderer_8cs_source.html#l00158">158</a> of file <a class="el" href="_geometry_renderer_8cs_source.html">GeometryRenderer.cs</a>.</p>
+
+</div>
+</div>
+<a id="af1a5a3b8e5af8b7b1aed39f10a02483b" name="af1a5a3b8e5af8b7b1aed39f10a02483b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1a5a3b8e5af8b7b1aed39f10a02483b">&#9670;&#160;</a></span>Update()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXGeometryGraph.Runtime.GeometryRenderer.Update </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_renderer_8cs_source.html#l00124">124</a> of file <a class="el" href="_geometry_renderer_8cs_source.html">GeometryRenderer.cs</a>.</p>
 
 </div>
 </div>
@@ -252,6 +543,390 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="_geometry_renderer_8cs_source.html#l00025">25</a> of file <a class="el" href="_geometry_renderer_8cs_source.html">GeometryRenderer.cs</a>.</p>
+
+</div>
+</div>
+<a id="a2cbaa490823f3c816d9abec7bc836c90" name="a2cbaa490823f3c816d9abec7bc836c90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2cbaa490823f3c816d9abec7bc836c90">&#9670;&#160;</a></span>init</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool BXGeometryGraph.Runtime.GeometryRenderer.init</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_renderer_8cs_source.html#l00031">31</a> of file <a class="el" href="_geometry_renderer_8cs_source.html">GeometryRenderer.cs</a>.</p>
+
+</div>
+</div>
+<a id="a78773a83768c5d854edcd4e48e8e6025" name="a78773a83768c5d854edcd4e48e8e6025"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78773a83768c5d854edcd4e48e8e6025">&#9670;&#160;</a></span>jobHandle</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">JobHandle BXGeometryGraph.Runtime.GeometryRenderer.jobHandle</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_renderer_8cs_source.html#l00029">29</a> of file <a class="el" href="_geometry_renderer_8cs_source.html">GeometryRenderer.cs</a>.</p>
+
+</div>
+</div>
+<a id="a9034012142c20ac65497031a8f863816" name="a9034012142c20ac65497031a8f863816"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9034012142c20ac65497031a8f863816">&#9670;&#160;</a></span>kBytesPerInstance</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int BXGeometryGraph.Runtime.GeometryRenderer.kBytesPerInstance = (<a class="el" href="#ab3b7be9f9bcfbc3f382082ebe29453ce">kSizeOfPackedMatrix</a> * 2) + <a class="el" href="#a14d3f41daa9b6e31b912de3867c68bf5">kSizeOfFloat4</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_renderer_8cs_source.html#l00045">45</a> of file <a class="el" href="_geometry_renderer_8cs_source.html">GeometryRenderer.cs</a>.</p>
+
+</div>
+</div>
+<a id="a11040d849ca6db0fea9b091766010ac9" name="a11040d849ca6db0fea9b091766010ac9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11040d849ca6db0fea9b091766010ac9">&#9670;&#160;</a></span>kExtraBytes</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int BXGeometryGraph.Runtime.GeometryRenderer.kExtraBytes = <a class="el" href="#a73df5330c9bd58f0960dd8a90901dab3">kSizeOfMatrix</a> * 2</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_renderer_8cs_source.html#l00046">46</a> of file <a class="el" href="_geometry_renderer_8cs_source.html">GeometryRenderer.cs</a>.</p>
+
+</div>
+</div>
+<a id="a468299e53b1c1b88638ff3075f7fdccc" name="a468299e53b1c1b88638ff3075f7fdccc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a468299e53b1c1b88638ff3075f7fdccc">&#9670;&#160;</a></span>kNumInstances</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int BXGeometryGraph.Runtime.GeometryRenderer.kNumInstances = 3</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_renderer_8cs_source.html#l00047">47</a> of file <a class="el" href="_geometry_renderer_8cs_source.html">GeometryRenderer.cs</a>.</p>
+
+</div>
+</div>
+<a id="a14d3f41daa9b6e31b912de3867c68bf5" name="a14d3f41daa9b6e31b912de3867c68bf5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14d3f41daa9b6e31b912de3867c68bf5">&#9670;&#160;</a></span>kSizeOfFloat4</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int BXGeometryGraph.Runtime.GeometryRenderer.kSizeOfFloat4 = sizeof(float) * 4</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_renderer_8cs_source.html#l00044">44</a> of file <a class="el" href="_geometry_renderer_8cs_source.html">GeometryRenderer.cs</a>.</p>
+
+</div>
+</div>
+<a id="a73df5330c9bd58f0960dd8a90901dab3" name="a73df5330c9bd58f0960dd8a90901dab3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73df5330c9bd58f0960dd8a90901dab3">&#9670;&#160;</a></span>kSizeOfMatrix</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int BXGeometryGraph.Runtime.GeometryRenderer.kSizeOfMatrix = sizeof(float) * 4 * 4</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_renderer_8cs_source.html#l00042">42</a> of file <a class="el" href="_geometry_renderer_8cs_source.html">GeometryRenderer.cs</a>.</p>
+
+</div>
+</div>
+<a id="ab3b7be9f9bcfbc3f382082ebe29453ce" name="ab3b7be9f9bcfbc3f382082ebe29453ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3b7be9f9bcfbc3f382082ebe29453ce">&#9670;&#160;</a></span>kSizeOfPackedMatrix</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int BXGeometryGraph.Runtime.GeometryRenderer.kSizeOfPackedMatrix = sizeof(float) * 4 * 3</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_renderer_8cs_source.html#l00043">43</a> of file <a class="el" href="_geometry_renderer_8cs_source.html">GeometryRenderer.cs</a>.</p>
+
+</div>
+</div>
+<a id="ae4b0362a231affd757fe319150088802" name="ae4b0362a231affd757fe319150088802"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4b0362a231affd757fe319150088802">&#9670;&#160;</a></span>m_BatchID</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">BatchID BXGeometryGraph.Runtime.GeometryRenderer.m_BatchID</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_renderer_8cs_source.html#l00039">39</a> of file <a class="el" href="_geometry_renderer_8cs_source.html">GeometryRenderer.cs</a>.</p>
+
+</div>
+</div>
+<a id="a506d508b320de21188ff6edc639eeef7" name="a506d508b320de21188ff6edc639eeef7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a506d508b320de21188ff6edc639eeef7">&#9670;&#160;</a></span>m_BRG</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">BatchRendererGroup BXGeometryGraph.Runtime.GeometryRenderer.m_BRG</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_renderer_8cs_source.html#l00035">35</a> of file <a class="el" href="_geometry_renderer_8cs_source.html">GeometryRenderer.cs</a>.</p>
+
+</div>
+</div>
+<a id="a3fae29d7e1e4eef21727ce9c21b5b8eb" name="a3fae29d7e1e4eef21727ce9c21b5b8eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3fae29d7e1e4eef21727ce9c21b5b8eb">&#9670;&#160;</a></span>m_InstanceData</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GraphicsBuffer BXGeometryGraph.Runtime.GeometryRenderer.m_InstanceData</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_renderer_8cs_source.html#l00038">38</a> of file <a class="el" href="_geometry_renderer_8cs_source.html">GeometryRenderer.cs</a>.</p>
+
+</div>
+</div>
+<a id="ab3babb151782abda7e80778993d66995" name="ab3babb151782abda7e80778993d66995"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3babb151782abda7e80778993d66995">&#9670;&#160;</a></span>m_MaterialID</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">BatchMaterialID BXGeometryGraph.Runtime.GeometryRenderer.m_MaterialID</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_renderer_8cs_source.html#l00037">37</a> of file <a class="el" href="_geometry_renderer_8cs_source.html">GeometryRenderer.cs</a>.</p>
+
+</div>
+</div>
+<a id="a1626a938f9feecbe748b0e04d4f42438" name="a1626a938f9feecbe748b0e04d4f42438"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1626a938f9feecbe748b0e04d4f42438">&#9670;&#160;</a></span>m_MeshID</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">BatchMeshID BXGeometryGraph.Runtime.GeometryRenderer.m_MeshID</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_renderer_8cs_source.html#l00036">36</a> of file <a class="el" href="_geometry_renderer_8cs_source.html">GeometryRenderer.cs</a>.</p>
+
+</div>
+</div>
+<a id="a3eb781a9096daa1606b33ab0c4f5eaa8" name="a3eb781a9096daa1606b33ab0c4f5eaa8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3eb781a9096daa1606b33ab0c4f5eaa8">&#9670;&#160;</a></span>material</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Material BXGeometryGraph.Runtime.GeometryRenderer.material</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_renderer_8cs_source.html#l00021">21</a> of file <a class="el" href="_geometry_renderer_8cs_source.html">GeometryRenderer.cs</a>.</p>
+
+</div>
+</div>
+<a id="ad48d85dd08ac992ce317f84e06edd177" name="ad48d85dd08ac992ce317f84e06edd177"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad48d85dd08ac992ce317f84e06edd177">&#9670;&#160;</a></span>meshes</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;Mesh&gt; BXGeometryGraph.Runtime.GeometryRenderer.meshes</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_renderer_8cs_source.html#l00033">33</a> of file <a class="el" href="_geometry_renderer_8cs_source.html">GeometryRenderer.cs</a>.</p>
+
+</div>
+</div>
+<a id="ad05e72330be301f2a02853b1bce89496" name="ad05e72330be301f2a02853b1bce89496"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad05e72330be301f2a02853b1bce89496">&#9670;&#160;</a></span>sharedGeometrySO</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_b_x_geometry_graph_1_1_runtime_1_1_geometry_s_o.html">GeometrySO</a> BXGeometryGraph.Runtime.GeometryRenderer.sharedGeometrySO</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_renderer_8cs_source.html#l00018">18</a> of file <a class="el" href="_geometry_renderer_8cs_source.html">GeometryRenderer.cs</a>.</p>
 
 </div>
 </div>

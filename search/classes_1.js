@@ -16,8 +16,10 @@ var searchData=
   ['adjustimplements_3c_20nil_2c_20bases_2e_2e_2e_20_3e_13',['AdjustImplements&lt; Nil, Bases... &gt;',['../struct_microsoft_1_1_w_r_l_1_1_details_1_1_adjust_implements_3_01_nil_00_01_bases_8_8_8_01_4.html',1,'Microsoft::WRL::Details']]],
   ['adjustimplements_3c_3e_14',['AdjustImplements&lt;&gt;',['../struct_microsoft_1_1_w_r_l_1_1_details_1_1_adjust_implements_3_4.html',1,'Microsoft::WRL::Details']]],
   ['allocation_15',['Allocation',['../struct_upload_buffer_1_1_allocation.html',1,'UploadBuffer']]],
-  ['application_16',['Application',['../class_application.html',1,'']]],
-  ['apvdefinitions_17',['APVDefinitions',['../class_b_x_render_pipeline_1_1_a_p_v_definitions.html',1,'BXRenderPipeline']]],
-  ['arithmeticselector_18',['ArithmeticSelector',['../classvk_1_1util_1_1_arithmetic_selector.html',1,'vk::util']]],
-  ['atlassettings_19',['AtlasSettings',['../struct_b_x_render_pipeline_1_1_b_x_render_common_settings_1_1_atlas_settings.html',1,'BXRenderPipeline::BXRenderCommonSettings']]]
+  ['analyticsdata_16',['AnalyticsData',['../struct_b_x_geometry_graph_1_1_geometry_graph_analytics_1_1_analytics_data.html',1,'BXGeometryGraph::GeometryGraphAnalytics']]],
+  ['application_17',['Application',['../class_application.html',1,'']]],
+  ['apvdefinitions_18',['APVDefinitions',['../class_b_x_render_pipeline_1_1_a_p_v_definitions.html',1,'BXRenderPipeline']]],
+  ['arithmeticselector_19',['ArithmeticSelector',['../classvk_1_1util_1_1_arithmetic_selector.html',1,'vk::util']]],
+  ['assetreference_20',['AssetReference',['../class_b_x_geometry_graph_1_1_sub_graph_node_1_1_asset_reference.html',1,'BXGeometryGraph::SubGraphNode']]],
+  ['atlassettings_21',['AtlasSettings',['../struct_b_x_render_pipeline_1_1_b_x_render_common_settings_1_1_atlas_settings.html',1,'BXRenderPipeline::BXRenderCommonSettings']]]
 ];

@@ -107,7 +107,9 @@ $(function(){initNavTree('classnv__helpers__dx12_1_1_top_level_a_s_generator.htm
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classnv__helpers__dx12_1_1_top_level_a_s_generator-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">nv_helpers_dx12::TopLevelASGenerator Class Reference</div></div>
 </div><!--header-->
@@ -118,14 +120,38 @@ $(function(){initNavTree('classnv__helpers__dx12_1_1_top_level_a_s_generator.htm
 
 <p><code>#include &lt;<a class="el" href="_top_level_a_s_generator_8h_source.html">TopLevelASGenerator.h</a>&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structnv__helpers__dx12_1_1_top_level_a_s_generator_1_1_instance.html">Instance</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper struct storing the instance data.  <a href="structnv__helpers__dx12_1_1_top_level_a_s_generator_1_1_instance.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a49fad4715154d7bf2494fa2027456f66" id="r_a49fad4715154d7bf2494fa2027456f66"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49fad4715154d7bf2494fa2027456f66">AddInstance</a> (<a class="el" href="interface_i_d3_d12_resource.html">ID3D12Resource</a> *bottomLevelAS, const DirectX::XMMATRIX &amp;transform, UINT instanceID, UINT hitGroupIndex)</td></tr>
+<tr class="memitem:a49fad4715154d7bf2494fa2027456f66" id="r_a49fad4715154d7bf2494fa2027456f66"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49fad4715154d7bf2494fa2027456f66">AddInstance</a> (<a class="el" href="interface_i_d3_d12_resource.html">ID3D12Resource</a> *bottomLevelAS, const DirectX::XMMATRIX &amp;transform, <a class="el" href="basetsd_8h.html#a2e2c38961834f28c06e17e074eb00bc7">UINT</a> instanceID, <a class="el" href="basetsd_8h.html#a2e2c38961834f28c06e17e074eb00bc7">UINT</a> hitGroupIndex)</td></tr>
 <tr class="separator:a49fad4715154d7bf2494fa2027456f66"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c3b67b6e8832d48b486b508c60e445f" id="r_a2c3b67b6e8832d48b486b508c60e445f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c3b67b6e8832d48b486b508c60e445f">ComputeASBufferSizes</a> (ID3D12Device5 *device, bool allowUpdate, UINT64 *scratchSizeInBytes, UINT64 *resultSizeInBytes, UINT64 *descriptorsSizeInBytes)</td></tr>
+<tr class="memitem:a2c3b67b6e8832d48b486b508c60e445f" id="r_a2c3b67b6e8832d48b486b508c60e445f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c3b67b6e8832d48b486b508c60e445f">ComputeASBufferSizes</a> (<a class="el" href="d3d12_8h.html#ad88deb8a621c6f48c18fed30e523a41d">ID3D12Device5</a> *device, bool allowUpdate, <a class="el" href="basetsd_8h.html#a95df6cdb32afc350ff070f2fe8a54a67">UINT64</a> *scratchSizeInBytes, <a class="el" href="basetsd_8h.html#a95df6cdb32afc350ff070f2fe8a54a67">UINT64</a> *resultSizeInBytes, <a class="el" href="basetsd_8h.html#a95df6cdb32afc350ff070f2fe8a54a67">UINT64</a> *descriptorsSizeInBytes)</td></tr>
 <tr class="separator:a2c3b67b6e8832d48b486b508c60e445f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd92722c51ea4e385eb31f0b6ef24ea3" id="r_abd92722c51ea4e385eb31f0b6ef24ea3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd92722c51ea4e385eb31f0b6ef24ea3">Generate</a> (ID3D12GraphicsCommandList4 *commandList, <a class="el" href="interface_i_d3_d12_resource.html">ID3D12Resource</a> *scratchBuffer, <a class="el" href="interface_i_d3_d12_resource.html">ID3D12Resource</a> *resultBuffer, <a class="el" href="interface_i_d3_d12_resource.html">ID3D12Resource</a> *descriptorsBuffer, bool updateOnly=false, <a class="el" href="interface_i_d3_d12_resource.html">ID3D12Resource</a> *previousResult=nullptr)</td></tr>
+<tr class="memitem:abd92722c51ea4e385eb31f0b6ef24ea3" id="r_abd92722c51ea4e385eb31f0b6ef24ea3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd92722c51ea4e385eb31f0b6ef24ea3">Generate</a> (<a class="el" href="d3d12_8h.html#a47fe09edc0b4bd6037e6d09d8d3262f1">ID3D12GraphicsCommandList4</a> *commandList, <a class="el" href="interface_i_d3_d12_resource.html">ID3D12Resource</a> *scratchBuffer, <a class="el" href="interface_i_d3_d12_resource.html">ID3D12Resource</a> *resultBuffer, <a class="el" href="interface_i_d3_d12_resource.html">ID3D12Resource</a> *descriptorsBuffer, bool updateOnly=false, <a class="el" href="interface_i_d3_d12_resource.html">ID3D12Resource</a> *previousResult=nullptr)</td></tr>
 <tr class="separator:abd92722c51ea4e385eb31f0b6ef24ea3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:adb19b05bf5ad5c234ed63063b9c0a223" id="r_adb19b05bf5ad5c234ed63063b9c0a223"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12_8idl.html#a2d9c484dec4629ce3fde7334caab2d68">D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAGS</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb19b05bf5ad5c234ed63063b9c0a223">m_flags</a></td></tr>
+<tr class="memdesc:adb19b05bf5ad5c234ed63063b9c0a223"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construction flags, indicating whether the AS supports iterative updates.  <br /></td></tr>
+<tr class="separator:adb19b05bf5ad5c234ed63063b9c0a223"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25b3a2f53adf8833e97f772d3ee48978" id="r_a25b3a2f53adf8833e97f772d3ee48978"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structnv__helpers__dx12_1_1_top_level_a_s_generator_1_1_instance.html">Instance</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25b3a2f53adf8833e97f772d3ee48978">m_instances</a></td></tr>
+<tr class="memdesc:a25b3a2f53adf8833e97f772d3ee48978"><td class="mdescLeft">&#160;</td><td class="mdescRight">Instances contained in the top-level AS.  <br /></td></tr>
+<tr class="separator:a25b3a2f53adf8833e97f772d3ee48978"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f2da815565ae2e060b602752975da1a" id="r_a0f2da815565ae2e060b602752975da1a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="basetsd_8h.html#a95df6cdb32afc350ff070f2fe8a54a67">UINT64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f2da815565ae2e060b602752975da1a">m_scratchSizeInBytes</a></td></tr>
+<tr class="memdesc:a0f2da815565ae2e060b602752975da1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Size of the temporary memory used by the TLAS builder.  <br /></td></tr>
+<tr class="separator:a0f2da815565ae2e060b602752975da1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add635ff3c2908cb2153e0d6ef0cc5b10" id="r_add635ff3c2908cb2153e0d6ef0cc5b10"><td class="memItemLeft" align="right" valign="top"><a class="el" href="basetsd_8h.html#a95df6cdb32afc350ff070f2fe8a54a67">UINT64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add635ff3c2908cb2153e0d6ef0cc5b10">m_instanceDescsSizeInBytes</a></td></tr>
+<tr class="memdesc:add635ff3c2908cb2153e0d6ef0cc5b10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Size of the buffer containing the instance descriptors.  <br /></td></tr>
+<tr class="separator:add635ff3c2908cb2153e0d6ef0cc5b10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aededbe1353337b6aec8aff7b1ecfc876" id="r_aededbe1353337b6aec8aff7b1ecfc876"><td class="memItemLeft" align="right" valign="top"><a class="el" href="basetsd_8h.html#a95df6cdb32afc350ff070f2fe8a54a67">UINT64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aededbe1353337b6aec8aff7b1ecfc876">m_resultSizeInBytes</a></td></tr>
+<tr class="memdesc:aededbe1353337b6aec8aff7b1ecfc876"><td class="mdescLeft">&#160;</td><td class="mdescRight">Size of the buffer containing the TLAS.  <br /></td></tr>
+<tr class="separator:aededbe1353337b6aec8aff7b1ecfc876"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Helper class to generate top-level acceleration structures for raytracing. </p>
@@ -139,7 +165,7 @@ Public Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void nv_helpers_dx12::TopLevelASGenerator::AddInstance </td>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> nv_helpers_dx12::TopLevelASGenerator::AddInstance </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="interface_i_d3_d12_resource.html">ID3D12Resource</a> *</td>          <td class="paramname"><span class="paramname"><em>bottomLevelAS</em></span>, </td>
         </tr>
@@ -151,21 +177,21 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">UINT</td>          <td class="paramname"><span class="paramname"><em>instanceID</em></span>, </td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#a2e2c38961834f28c06e17e074eb00bc7">UINT</a></td>          <td class="paramname"><span class="paramname"><em>instanceID</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">UINT</td>          <td class="paramname"><span class="paramname"><em>hitGroupIndex</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#a2e2c38961834f28c06e17e074eb00bc7">UINT</a></td>          <td class="paramname"><span class="paramname"><em>hitGroupIndex</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Add an instance to the top-level acceleration structure. The instance is represented by a bottom-level AS, a transform, an instance ID and the index of the hit group indicating which shaders are executed upon hitting any geometry within the instance </p>
+<p>Add an instance to the top-level acceleration structure. The instance is represented by a bottom-level AS, a transform, an instance <a class="el" href="d3d12sdklayers_8h.html#adf12c3bc5be81348494fc5573662da5e">ID</a> and the index of the hit group indicating which shaders are executed upon hitting any geometry within the instance </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">transform</td><td>Bottom-level acceleration structure containing the actual geometric data of the instance  </td></tr>
     <tr><td class="paramname">instanceID</td><td>Transform matrix to apply to the instance, allowing the same bottom-level AS to be used at several world-space positions  </td></tr>
-    <tr><td class="paramname">hitGroupIndex</td><td>Instance ID, which can be used in the shaders to identify this specific instance Hit group index, corresponding the the index of the hit group in the Shader Binding Table that will be invocated upon hitting the geometry </td></tr>
+    <tr><td class="paramname">hitGroupIndex</td><td><a class="el" href="structnv__helpers__dx12_1_1_top_level_a_s_generator_1_1_instance.html" title="Helper struct storing the instance data.">Instance</a> <a class="el" href="d3d12sdklayers_8h.html#adf12c3bc5be81348494fc5573662da5e">ID</a>, which can be used in the shaders to identify this specific instance Hit group index, corresponding the the index of the hit group in the Shader Binding Table that will be invocated upon hitting the geometry </td></tr>
   </table>
   </dd>
 </dl>
@@ -181,9 +207,9 @@ Public Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void nv_helpers_dx12::TopLevelASGenerator::ComputeASBufferSizes </td>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> nv_helpers_dx12::TopLevelASGenerator::ComputeASBufferSizes </td>
           <td>(</td>
-          <td class="paramtype">ID3D12Device5 *</td>          <td class="paramname"><span class="paramname"><em>device</em></span>, </td>
+          <td class="paramtype"><a class="el" href="d3d12_8h.html#ad88deb8a621c6f48c18fed30e523a41d">ID3D12Device5</a> *</td>          <td class="paramname"><span class="paramname"><em>device</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -193,17 +219,17 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">UINT64 *</td>          <td class="paramname"><span class="paramname"><em>scratchSizeInBytes</em></span>, </td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#a95df6cdb32afc350ff070f2fe8a54a67">UINT64</a> *</td>          <td class="paramname"><span class="paramname"><em>scratchSizeInBytes</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">UINT64 *</td>          <td class="paramname"><span class="paramname"><em>resultSizeInBytes</em></span>, </td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#a95df6cdb32afc350ff070f2fe8a54a67">UINT64</a> *</td>          <td class="paramname"><span class="paramname"><em>resultSizeInBytes</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">UINT64 *</td>          <td class="paramname"><span class="paramname"><em>descriptorsSizeInBytes</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#a95df6cdb32afc350ff070f2fe8a54a67">UINT64</a> *</td>          <td class="paramname"><span class="paramname"><em>descriptorsSizeInBytes</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -229,9 +255,9 @@ Public Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void nv_helpers_dx12::TopLevelASGenerator::Generate </td>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> nv_helpers_dx12::TopLevelASGenerator::Generate </td>
           <td>(</td>
-          <td class="paramtype">ID3D12GraphicsCommandList4 *</td>          <td class="paramname"><span class="paramname"><em>commandList</em></span>, </td>
+          <td class="paramtype"><a class="el" href="d3d12_8h.html#a47fe09edc0b4bd6037e6d09d8d3262f1">ID3D12GraphicsCommandList4</a> *</td>          <td class="paramname"><span class="paramname"><em>commandList</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -276,6 +302,137 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="adb19b05bf5ad5c234ed63063b9c0a223" name="adb19b05bf5ad5c234ed63063b9c0a223"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb19b05bf5ad5c234ed63063b9c0a223">&#9670;&#160;</a></span>m_flags</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12_8idl.html#a2d9c484dec4629ce3fde7334caab2d68">D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAGS</a> nv_helpers_dx12::TopLevelASGenerator::m_flags</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Construction flags, indicating whether the AS supports iterative updates. </p>
+
+<p class="definition">Definition at line <a class="el" href="_top_level_a_s_generator_8h_source.html#l00150">150</a> of file <a class="el" href="_top_level_a_s_generator_8h_source.html">TopLevelASGenerator.h</a>.</p>
+
+</div>
+</div>
+<a id="add635ff3c2908cb2153e0d6ef0cc5b10" name="add635ff3c2908cb2153e0d6ef0cc5b10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add635ff3c2908cb2153e0d6ef0cc5b10">&#9670;&#160;</a></span>m_instanceDescsSizeInBytes</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="basetsd_8h.html#a95df6cdb32afc350ff070f2fe8a54a67">UINT64</a> nv_helpers_dx12::TopLevelASGenerator::m_instanceDescsSizeInBytes</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Size of the buffer containing the instance descriptors. </p>
+
+<p class="definition">Definition at line <a class="el" href="_top_level_a_s_generator_8h_source.html#l00157">157</a> of file <a class="el" href="_top_level_a_s_generator_8h_source.html">TopLevelASGenerator.h</a>.</p>
+
+</div>
+</div>
+<a id="a25b3a2f53adf8833e97f772d3ee48978" name="a25b3a2f53adf8833e97f772d3ee48978"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25b3a2f53adf8833e97f772d3ee48978">&#9670;&#160;</a></span>m_instances</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="structnv__helpers__dx12_1_1_top_level_a_s_generator_1_1_instance.html">Instance</a>&gt; nv_helpers_dx12::TopLevelASGenerator::m_instances</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Instances contained in the top-level AS. </p>
+
+<p class="definition">Definition at line <a class="el" href="_top_level_a_s_generator_8h_source.html#l00152">152</a> of file <a class="el" href="_top_level_a_s_generator_8h_source.html">TopLevelASGenerator.h</a>.</p>
+
+</div>
+</div>
+<a id="aededbe1353337b6aec8aff7b1ecfc876" name="aededbe1353337b6aec8aff7b1ecfc876"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aededbe1353337b6aec8aff7b1ecfc876">&#9670;&#160;</a></span>m_resultSizeInBytes</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="basetsd_8h.html#a95df6cdb32afc350ff070f2fe8a54a67">UINT64</a> nv_helpers_dx12::TopLevelASGenerator::m_resultSizeInBytes</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Size of the buffer containing the TLAS. </p>
+
+<p class="definition">Definition at line <a class="el" href="_top_level_a_s_generator_8h_source.html#l00159">159</a> of file <a class="el" href="_top_level_a_s_generator_8h_source.html">TopLevelASGenerator.h</a>.</p>
+
+</div>
+</div>
+<a id="a0f2da815565ae2e060b602752975da1a" name="a0f2da815565ae2e060b602752975da1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f2da815565ae2e060b602752975da1a">&#9670;&#160;</a></span>m_scratchSizeInBytes</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="basetsd_8h.html#a95df6cdb32afc350ff070f2fe8a54a67">UINT64</a> nv_helpers_dx12::TopLevelASGenerator::m_scratchSizeInBytes</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Size of the temporary memory used by the TLAS builder. </p>
+
+<p class="definition">Definition at line <a class="el" href="_top_level_a_s_generator_8h_source.html#l00155">155</a> of file <a class="el" href="_top_level_a_s_generator_8h_source.html">TopLevelASGenerator.h</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li><a class="el" href="_top_level_a_s_generator_8h_source.html">TopLevelASGenerator.h</a></li>
 <li><a class="el" href="_top_level_a_s_generator_8cpp_source.html">TopLevelASGenerator.cpp</a></li>
@@ -285,7 +442,7 @@ Public Member Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>nv_helpers_dx12</b></li><li class="navelem"><a class="el" href="classnv__helpers__dx12_1_1_top_level_a_s_generator.html">TopLevelASGenerator</a></li>
+    <li class="navelem"><a class="el" href="namespacenv__helpers__dx12.html">nv_helpers_dx12</a></li><li class="navelem"><a class="el" href="classnv__helpers__dx12_1_1_top_level_a_s_generator.html">TopLevelASGenerator</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
   </ul>
 </div>

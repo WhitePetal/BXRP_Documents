@@ -1,15 +1,31 @@
 var class_descriptor_allocator_page =
 [
-    [ "FreeBlockInfo", "struct_descriptor_allocator_page_1_1_free_block_info.html", null ],
+    [ "FreeBlockInfo", "struct_descriptor_allocator_page_1_1_free_block_info.html", "struct_descriptor_allocator_page_1_1_free_block_info" ],
     [ "StaleDescriptorInfo", "struct_descriptor_allocator_page_1_1_stale_descriptor_info.html", "struct_descriptor_allocator_page_1_1_stale_descriptor_info" ],
     [ "FreeListByOffset", "class_descriptor_allocator_page.html#a68798424c3fb890e77ad5d1c20e63ea2", null ],
     [ "FreeListBySize", "class_descriptor_allocator_page.html#a402920cd053a1c5c0300e12e8941153b", null ],
+    [ "OffsetType", "class_descriptor_allocator_page.html#adbeb71fcb0e4b239836414244218e99d", null ],
+    [ "SizeType", "class_descriptor_allocator_page.html#ae303b2e57d89e8673abf39c7a73dc836", null ],
+    [ "StaleDescriptorQueue", "class_descriptor_allocator_page.html#a8d5a85fb70438ebd035fab284ece8f0b", null ],
+    [ "DescriptorAllocatorPage", "class_descriptor_allocator_page.html#ac74aeae273e3e2932954818c03107967", null ],
+    [ "~DescriptorAllocatorPage", "class_descriptor_allocator_page.html#ae701ff2f8079bd0b94c211efb7ed45f3", null ],
     [ "AddNewBlock", "class_descriptor_allocator_page.html#a2e9ad237b8e21484b7a030de64fa440e", null ],
     [ "Allocate", "class_descriptor_allocator_page.html#aee6c4b7f99c39323bff9524f8c8c21ac", null ],
     [ "ComputeOffset", "class_descriptor_allocator_page.html#ae7a34ea1774ce4ead57f4801de88e76a", null ],
     [ "Free", "class_descriptor_allocator_page.html#ad1a404245cc2bce15bd8122ac3358a3f", null ],
     [ "FreeBlock", "class_descriptor_allocator_page.html#a86c7af0676cafd0b590d4797f09ae58f", null ],
+    [ "GetHeapType", "class_descriptor_allocator_page.html#a9820d602288a5a098f161bc6e7deda29", null ],
     [ "HasSpace", "class_descriptor_allocator_page.html#ac47d725d6ba560893edb27db6a74b5ac", null ],
     [ "NumFreeHandles", "class_descriptor_allocator_page.html#a69fc818ca62ba99158178464d1a38c1e", null ],
-    [ "ReleaseStaleDescriptors", "class_descriptor_allocator_page.html#a2d33bd5729254697fcf667b93e549480", null ]
+    [ "ReleaseStaleDescriptors", "class_descriptor_allocator_page.html#a2d33bd5729254697fcf667b93e549480", null ],
+    [ "m_AllocationMutex", "class_descriptor_allocator_page.html#a5fe749671e87986e2ad6927992faf9fb", null ],
+    [ "m_BaseDescriptor", "class_descriptor_allocator_page.html#a6ceb60f552a98d4ef521cffa246513b3", null ],
+    [ "m_DescriptorHandleIncrementSize", "class_descriptor_allocator_page.html#af1ccb2917c68dbd3a03e9ebedf96228b", null ],
+    [ "m_DescriptorHeap", "class_descriptor_allocator_page.html#a0e9cadff80e6978be2c6e7f0454fa0b2", null ],
+    [ "m_FreeListByOffset", "class_descriptor_allocator_page.html#a1eacc54db587b5afdf64a2bac3771527", null ],
+    [ "m_FreeListBySize", "class_descriptor_allocator_page.html#ae7e60f454d96104747896272fb1ed2c6", null ],
+    [ "m_HeapType", "class_descriptor_allocator_page.html#ab092afaa90f28275c699ca4fdb4ce52d", null ],
+    [ "m_NumDescriptorsInHeap", "class_descriptor_allocator_page.html#adf5d5e6e5929d0d577bad1db57e1b956", null ],
+    [ "m_NumFreeHandles", "class_descriptor_allocator_page.html#a02ea9fa0134d70b57473957c5262eb06", null ],
+    [ "m_StaleDescriptors", "class_descriptor_allocator_page.html#afaf6d70b5422386ef5e64bf99351cfc4", null ]
 ];

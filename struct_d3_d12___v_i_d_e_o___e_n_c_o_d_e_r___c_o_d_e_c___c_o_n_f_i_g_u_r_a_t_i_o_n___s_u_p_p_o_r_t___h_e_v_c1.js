@@ -1,0 +1,18 @@
+var struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___c_o_d_e_c___c_o_n_f_i_g_u_r_a_t_i_o_n___s_u_p_p_o_r_t___h_e_v_c1 =
+[
+    [ "allowed_cb_qp_offset_list_values", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___c_o_d_e_c___c_o_n_f_i_g_u_r_a_t_i_o_n___s_u_p_p_o_r_t___h_e_v_c1.html#a7f8611f1c5bd44c728ded0047b2602cd", null ],
+    [ "allowed_chroma_qp_offset_list_len_minus1_values", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___c_o_d_e_c___c_o_n_f_i_g_u_r_a_t_i_o_n___s_u_p_p_o_r_t___h_e_v_c1.html#a6616671d043e2beaa0ffdbc5231cba2c", null ],
+    [ "allowed_cr_qp_offset_list_values", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___c_o_d_e_c___c_o_n_f_i_g_u_r_a_t_i_o_n___s_u_p_p_o_r_t___h_e_v_c1.html#afea991cc50d8ac0bbf5ad27e54e88f76", null ],
+    [ "allowed_diff_cu_chroma_qp_offset_depth_values", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___c_o_d_e_c___c_o_n_f_i_g_u_r_a_t_i_o_n___s_u_p_p_o_r_t___h_e_v_c1.html#aa7b89d27ce3f72de55a48081cfeb3cd0", null ],
+    [ "allowed_log2_max_transform_skip_block_size_minus2_values", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___c_o_d_e_c___c_o_n_f_i_g_u_r_a_t_i_o_n___s_u_p_p_o_r_t___h_e_v_c1.html#a0493c1d369b28c91971a1fdb58eb1fb4", null ],
+    [ "allowed_log2_sao_offset_scale_chroma_values", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___c_o_d_e_c___c_o_n_f_i_g_u_r_a_t_i_o_n___s_u_p_p_o_r_t___h_e_v_c1.html#a2eb9a29db522ab78907b2afe0a93e0c9", null ],
+    [ "allowed_log2_sao_offset_scale_luma_values", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___c_o_d_e_c___c_o_n_f_i_g_u_r_a_t_i_o_n___s_u_p_p_o_r_t___h_e_v_c1.html#ac6dd47a007628a0423be98fc1e69efda", null ],
+    [ "max_transform_hierarchy_depth_inter", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___c_o_d_e_c___c_o_n_f_i_g_u_r_a_t_i_o_n___s_u_p_p_o_r_t___h_e_v_c1.html#ac2f948cb49fa2f5456c8f7076a251887", null ],
+    [ "max_transform_hierarchy_depth_intra", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___c_o_d_e_c___c_o_n_f_i_g_u_r_a_t_i_o_n___s_u_p_p_o_r_t___h_e_v_c1.html#a563675b176834fdbab7e775d7de51bff", null ],
+    [ "MaxLumaCodingUnitSize", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___c_o_d_e_c___c_o_n_f_i_g_u_r_a_t_i_o_n___s_u_p_p_o_r_t___h_e_v_c1.html#ae997a3efccb5349c8f597bc823854b83", null ],
+    [ "MaxLumaTransformUnitSize", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___c_o_d_e_c___c_o_n_f_i_g_u_r_a_t_i_o_n___s_u_p_p_o_r_t___h_e_v_c1.html#a9a5a795e6e0b8099ac261298c2810565", null ],
+    [ "MinLumaCodingUnitSize", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___c_o_d_e_c___c_o_n_f_i_g_u_r_a_t_i_o_n___s_u_p_p_o_r_t___h_e_v_c1.html#af3ebef2e4018a215ff12758ff8d5d87c", null ],
+    [ "MinLumaTransformUnitSize", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___c_o_d_e_c___c_o_n_f_i_g_u_r_a_t_i_o_n___s_u_p_p_o_r_t___h_e_v_c1.html#ad931362dedc89d373030bd39f5338dc9", null ],
+    [ "SupportFlags", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___c_o_d_e_c___c_o_n_f_i_g_u_r_a_t_i_o_n___s_u_p_p_o_r_t___h_e_v_c1.html#a17ca978e12001148c394f4411e69137d", null ],
+    [ "SupportFlags1", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___c_o_d_e_c___c_o_n_f_i_g_u_r_a_t_i_o_n___s_u_p_p_o_r_t___h_e_v_c1.html#a8f0dd2ea81c38bc704583b20d5fd01ec", null ]
+];

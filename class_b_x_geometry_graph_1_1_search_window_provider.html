@@ -110,6 +110,9 @@ $(function(){initNavTree('class_b_x_geometry_graph_1_1_search_window_provider.ht
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="class_b_x_geometry_graph_1_1_search_window_provider-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">BXGeometryGraph.SearchWindowProvider Class Reference</div></div>
 </div><!--header-->
@@ -126,11 +129,11 @@ Inheritance diagram for BXGeometryGraph.SearchWindowProvider:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a68f3be4d12a91433a668f0b59b8f4115" id="r_a68f3be4d12a91433a668f0b59b8f4115"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a68f3be4d12a91433a668f0b59b8f4115">Initialize</a> (EditorWindow editorWindow, <a class="el" href="class_b_x_geometry_graph_1_1_graph_data.html">GraphData</a> graph, GraphView graphView)</td></tr>
+<tr class="memitem:a68f3be4d12a91433a668f0b59b8f4115" id="r_a68f3be4d12a91433a668f0b59b8f4115"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a68f3be4d12a91433a668f0b59b8f4115">Initialize</a> (EditorWindow editorWindow, <a class="el" href="class_b_x_geometry_graph_1_1_graph_data.html">GraphData</a> graph, GraphView graphView)</td></tr>
 <tr class="separator:a68f3be4d12a91433a668f0b59b8f4115"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f42ce242eb41f4d5513e2a435dc07dd" id="r_a4f42ce242eb41f4d5513e2a435dc07dd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f42ce242eb41f4d5513e2a435dc07dd">Dispose</a> ()</td></tr>
+<tr class="memitem:a4f42ce242eb41f4d5513e2a435dc07dd" id="r_a4f42ce242eb41f4d5513e2a435dc07dd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f42ce242eb41f4d5513e2a435dc07dd">Dispose</a> ()</td></tr>
 <tr class="separator:a4f42ce242eb41f4d5513e2a435dc07dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2cb5d2cfbd1fe8c467ffc3d9c281f8ad" id="r_a2cb5d2cfbd1fe8c467ffc3d9c281f8ad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2cb5d2cfbd1fe8c467ffc3d9c281f8ad">GenerateNodeEntries</a> ()</td></tr>
+<tr class="memitem:a2cb5d2cfbd1fe8c467ffc3d9c281f8ad" id="r_a2cb5d2cfbd1fe8c467ffc3d9c281f8ad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2cb5d2cfbd1fe8c467ffc3d9c281f8ad">GenerateNodeEntries</a> ()</td></tr>
 <tr class="separator:a2cb5d2cfbd1fe8c467ffc3d9c281f8ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
@@ -146,17 +149,74 @@ Properties</h2></td></tr>
 <tr class="separator:a96932cd3f6ea9da77b7276a133e9e320"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a006ffda5a2d93880a6d39a9bbeb1ee" id="r_a1a006ffda5a2d93880a6d39a9bbeb1ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_b_x_geometry_graph_1_1_slot_reference.html">SlotReference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a006ffda5a2d93880a6d39a9bbeb1ee">targetSlotReference</a><code> [get, set]</code></td></tr>
 <tr class="separator:a1a006ffda5a2d93880a6d39a9bbeb1ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19aff2ed260ae090dbb04cc1663dd2ab" id="r_a19aff2ed260ae090dbb04cc1663dd2ab"><td class="memItemLeft" align="right" valign="top">Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a19aff2ed260ae090dbb04cc1663dd2ab">targetPosition</a><code> [get, set]</code></td></tr>
+<tr class="memitem:a19aff2ed260ae090dbb04cc1663dd2ab" id="r_a19aff2ed260ae090dbb04cc1663dd2ab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_b_x_geometry_graph.html#ad0e11e1489817712969f4f5edfebed4fa1bebc5ae2822f8e361fb0ce57b5e09e2">Vector2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a19aff2ed260ae090dbb04cc1663dd2ab">targetPosition</a><code> [get, set]</code></td></tr>
 <tr class="separator:a19aff2ed260ae090dbb04cc1663dd2ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aef1622fac6da6b846fd0c74787f977c3" id="r_aef1622fac6da6b846fd0c74787f977c3"><td class="memItemLeft" align="right" valign="top">VisualElement&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef1622fac6da6b846fd0c74787f977c3">target</a><code> [get, set]</code></td></tr>
 <tr class="separator:aef1622fac6da6b846fd0c74787f977c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad4343996346d2eb1618d82f48c876ef2" id="r_ad4343996346d2eb1618d82f48c876ef2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4343996346d2eb1618d82f48c876ef2">regenerateEntries</a><code> [get, set]</code></td></tr>
 <tr class="separator:ad4343996346d2eb1618d82f48c876ef2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a74a96a3c9cde1917435397694bb4300a" id="r_a74a96a3c9cde1917435397694bb4300a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74a96a3c9cde1917435397694bb4300a">SortEntries</a> (List&lt; NodeEntry &gt; nodeEntries)</td></tr>
+<tr class="separator:a74a96a3c9cde1917435397694bb4300a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8dd6dac24971126506a336ad01b8c37" id="r_ab8dd6dac24971126506a336ad01b8c37"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8dd6dac24971126506a336ad01b8c37">AddEntries</a> (<a class="el" href="class_b_x_geometry_graph_1_1_abstract_geometry_node.html">AbstractGeometryNode</a> node, string[] title, List&lt; NodeEntry &gt; addNodeEntries)</td></tr>
+<tr class="separator:ab8dd6dac24971126506a336ad01b8c37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a80b8f954cc46e50216ba6e654b730da8" id="r_a80b8f954cc46e50216ba6e654b730da8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_b_x_geometry_graph.html#a9466fcbff5f8689cb0a15bbaf3d04316">GeometryStageCapability</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a80b8f954cc46e50216ba6e654b730da8">m_ConnectedSlotCapability</a></td></tr>
+<tr class="separator:a80b8f954cc46e50216ba6e654b730da8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06d152775a8b54ac3c660e3ae709c6bd" id="r_a06d152775a8b54ac3c660e3ae709c6bd"><td class="memItemLeft" align="right" valign="top">List&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06d152775a8b54ac3c660e3ae709c6bd">m_Ids</a></td></tr>
+<tr class="separator:a06d152775a8b54ac3c660e3ae709c6bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27406283b97a55111d41f7168d04b98f" id="r_a27406283b97a55111d41f7168d04b98f"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_b_x_geometry_graph_1_1_geometry_slot.html">GeometrySlot</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a27406283b97a55111d41f7168d04b98f">m_Slots</a> = new List&lt;<a class="el" href="class_b_x_geometry_graph_1_1_geometry_slot.html">GeometrySlot</a>&gt;()</td></tr>
+<tr class="separator:a27406283b97a55111d41f7168d04b98f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a58599b0cc754ce2c87735addc9d45220" id="r_a58599b0cc754ce2c87735addc9d45220"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a58599b0cc754ce2c87735addc9d45220">k_HiddenFolderName</a> = &quot;Hidden&quot;</td></tr>
+<tr class="separator:a58599b0cc754ce2c87735addc9d45220"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
 <p class="definition">Definition at line <a class="el" href="_search_window_provider_8cs_source.html#l00023">23</a> of file <a class="el" href="_search_window_provider_8cs_source.html">SearchWindowProvider.cs</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="ab8dd6dac24971126506a336ad01b8c37" name="ab8dd6dac24971126506a336ad01b8c37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8dd6dac24971126506a336ad01b8c37">&#9670;&#160;</a></span>AddEntries()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXGeometryGraph.SearchWindowProvider.AddEntries </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_b_x_geometry_graph_1_1_abstract_geometry_node.html">AbstractGeometryNode</a></td>          <td class="paramname"><span class="paramname"><em>node</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string[]</td>          <td class="paramname"><span class="paramname"><em>title</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">List&lt; NodeEntry &gt;</td>          <td class="paramname"><span class="paramname"><em>addNodeEntries</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_search_window_provider_8cs_source.html#l00281">281</a> of file <a class="el" href="_search_window_provider_8cs_source.html">SearchWindowProvider.cs</a>.</p>
+
+</div>
+</div>
 <a id="a4f42ce242eb41f4d5513e2a435dc07dd" name="a4f42ce242eb41f4d5513e2a435dc07dd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4f42ce242eb41f4d5513e2a435dc07dd">&#9670;&#160;</a></span>Dispose()</h2>
 
@@ -164,7 +224,7 @@ Properties</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void BXGeometryGraph.SearchWindowProvider.Dispose </td>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXGeometryGraph.SearchWindowProvider.Dispose </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -183,7 +243,7 @@ Properties</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void BXGeometryGraph.SearchWindowProvider.GenerateNodeEntries </td>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXGeometryGraph.SearchWindowProvider.GenerateNodeEntries </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -202,7 +262,7 @@ Properties</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void BXGeometryGraph.SearchWindowProvider.Initialize </td>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXGeometryGraph.SearchWindowProvider.Initialize </td>
           <td>(</td>
           <td class="paramtype">EditorWindow</td>          <td class="paramname"><span class="paramname"><em>editorWindow</em></span>, </td>
         </tr>
@@ -223,6 +283,33 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="a74a96a3c9cde1917435397694bb4300a" name="a74a96a3c9cde1917435397694bb4300a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74a96a3c9cde1917435397694bb4300a">&#9670;&#160;</a></span>SortEntries()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXGeometryGraph.SearchWindowProvider.SortEntries </td>
+          <td>(</td>
+          <td class="paramtype">List&lt; NodeEntry &gt;</td>          <td class="paramname"><span class="paramname"><em>nodeEntries</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_search_window_provider_8cs_source.html#l00249">249</a> of file <a class="el" href="_search_window_provider_8cs_source.html">SearchWindowProvider.cs</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="a76465aaf8d36ec6e22ce34e8264875ab" name="a76465aaf8d36ec6e22ce34e8264875ab"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a76465aaf8d36ec6e22ce34e8264875ab">&#9670;&#160;</a></span>currentNodeEntries</h2>
@@ -237,6 +324,102 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="_search_window_provider_8cs_source.html#l00029">29</a> of file <a class="el" href="_search_window_provider_8cs_source.html">SearchWindowProvider.cs</a>.</p>
+
+</div>
+</div>
+<a id="a58599b0cc754ce2c87735addc9d45220" name="a58599b0cc754ce2c87735addc9d45220"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58599b0cc754ce2c87735addc9d45220">&#9670;&#160;</a></span>k_HiddenFolderName</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string BXGeometryGraph.SearchWindowProvider.k_HiddenFolderName = &quot;Hidden&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_search_window_provider_8cs_source.html#l00036">36</a> of file <a class="el" href="_search_window_provider_8cs_source.html">SearchWindowProvider.cs</a>.</p>
+
+</div>
+</div>
+<a id="a80b8f954cc46e50216ba6e654b730da8" name="a80b8f954cc46e50216ba6e654b730da8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80b8f954cc46e50216ba6e654b730da8">&#9670;&#160;</a></span>m_ConnectedSlotCapability</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_b_x_geometry_graph.html#a9466fcbff5f8689cb0a15bbaf3d04316">GeometryStageCapability</a> BXGeometryGraph.SearchWindowProvider.m_ConnectedSlotCapability</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_search_window_provider_8cs_source.html#l00037">37</a> of file <a class="el" href="_search_window_provider_8cs_source.html">SearchWindowProvider.cs</a>.</p>
+
+</div>
+</div>
+<a id="a06d152775a8b54ac3c660e3ae709c6bd" name="a06d152775a8b54ac3c660e3ae709c6bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06d152775a8b54ac3c660e3ae709c6bd">&#9670;&#160;</a></span>m_Ids</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;int&gt; BXGeometryGraph.SearchWindowProvider.m_Ids</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_search_window_provider_8cs_source.html#l00069">69</a> of file <a class="el" href="_search_window_provider_8cs_source.html">SearchWindowProvider.cs</a>.</p>
+
+</div>
+</div>
+<a id="a27406283b97a55111d41f7168d04b98f" name="a27406283b97a55111d41f7168d04b98f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27406283b97a55111d41f7168d04b98f">&#9670;&#160;</a></span>m_Slots</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="class_b_x_geometry_graph_1_1_geometry_slot.html">GeometrySlot</a>&gt; BXGeometryGraph.SearchWindowProvider.m_Slots = new List&lt;<a class="el" href="class_b_x_geometry_graph_1_1_geometry_slot.html">GeometrySlot</a>&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_search_window_provider_8cs_source.html#l00070">70</a> of file <a class="el" href="_search_window_provider_8cs_source.html">SearchWindowProvider.cs</a>.</p>
 
 </div>
 </div>
@@ -347,7 +530,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Vector2 BXGeometryGraph.SearchWindowProvider.targetPosition</td>
+          <td class="memname"><a class="el" href="namespace_b_x_geometry_graph.html#ad0e11e1489817712969f4f5edfebed4fa1bebc5ae2822f8e361fb0ce57b5e09e2">Vector2</a> BXGeometryGraph.SearchWindowProvider.targetPosition</td>
         </tr>
       </table>
   </td>

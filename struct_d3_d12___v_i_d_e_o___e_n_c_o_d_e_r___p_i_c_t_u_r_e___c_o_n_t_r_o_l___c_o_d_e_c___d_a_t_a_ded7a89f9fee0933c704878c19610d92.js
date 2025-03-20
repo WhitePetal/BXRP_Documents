@@ -1,0 +1,6 @@
+var struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___p_i_c_t_u_r_e___c_o_n_t_r_o_l___c_o_d_e_c___d_a_t_a_ded7a89f9fee0933c704878c19610d92 =
+[
+    [ "abs_diff_pic_num_minus1", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___p_i_c_t_u_r_e___c_o_n_t_r_o_l___c_o_d_e_c___d_a_t_a_ded7a89f9fee0933c704878c19610d92.html#a3617b47a8d28d7adac510047dc0ab513", null ],
+    [ "long_term_pic_num", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___p_i_c_t_u_r_e___c_o_n_t_r_o_l___c_o_d_e_c___d_a_t_a_ded7a89f9fee0933c704878c19610d92.html#a1031ef22ef4fec1dc5591ef6ca885f2b", null ],
+    [ "modification_of_pic_nums_idc", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___p_i_c_t_u_r_e___c_o_n_t_r_o_l___c_o_d_e_c___d_a_t_a_ded7a89f9fee0933c704878c19610d92.html#ad91d4358f9d4f7600160b9cabac29f20", null ]
+];

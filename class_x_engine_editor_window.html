@@ -108,6 +108,8 @@ $(function(){initNavTree('class_x_engine_editor_window.html',''); initResizable(
 <div class="header">
   <div class="summary">
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="class_x_engine_editor_window-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">XEngineEditorWindow Class Reference</div></div>
 </div><!--header-->
@@ -121,13 +123,79 @@ Inheritance diagram for XEngineEditorWindow:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a585ed139c8c1336bf3ba66d406e95337" id="r_a585ed139c8c1336bf3ba66d406e95337"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a585ed139c8c1336bf3ba66d406e95337">ShowWindow</a> ()</td></tr>
+<tr class="memitem:a585ed139c8c1336bf3ba66d406e95337" id="r_a585ed139c8c1336bf3ba66d406e95337"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a585ed139c8c1336bf3ba66d406e95337">ShowWindow</a> ()</td></tr>
 <tr class="separator:a585ed139c8c1336bf3ba66d406e95337"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:ac1643d5106c61f75ca30ea5ee32808a9" id="r_ac1643d5106c61f75ca30ea5ee32808a9"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac1643d5106c61f75ca30ea5ee32808a9">StartXEngine</a> (IntPtr parentHWnd, [MarshalAs(UnmanagedType.LPWStr)]string workDir)</td></tr>
+<tr class="separator:ac1643d5106c61f75ca30ea5ee32808a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d6a4c285a5b916d9a56cd3708a50dc1" id="r_a2d6a4c285a5b916d9a56cd3708a50dc1"><td class="memItemLeft" align="right" valign="top">static IntPtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d6a4c285a5b916d9a56cd3708a50dc1">GetActiveWindow</a> ()</td></tr>
+<tr class="separator:a2d6a4c285a5b916d9a56cd3708a50dc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f2612fbd1db1c44d100fd006b97e770" id="r_a8f2612fbd1db1c44d100fd006b97e770"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f2612fbd1db1c44d100fd006b97e770">OnGUI</a> ()</td></tr>
+<tr class="separator:a8f2612fbd1db1c44d100fd006b97e770"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a902d402b0020f60864d7c32d50027b1d" id="r_a902d402b0020f60864d7c32d50027b1d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_x_engine_editor_window.html">XEngineEditorWindow</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a902d402b0020f60864d7c32d50027b1d">wnd</a></td></tr>
+<tr class="separator:a902d402b0020f60864d7c32d50027b1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
 <p class="definition">Definition at line <a class="el" href="_x_engine_editor_window_8cs_source.html#l00008">8</a> of file <a class="el" href="_x_engine_editor_window_8cs_source.html">XEngineEditorWindow.cs</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a2d6a4c285a5b916d9a56cd3708a50dc1" name="a2d6a4c285a5b916d9a56cd3708a50dc1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d6a4c285a5b916d9a56cd3708a50dc1">&#9670;&#160;</a></span>GetActiveWindow()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static IntPtr XEngineEditorWindow.GetActiveWindow </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8f2612fbd1db1c44d100fd006b97e770" name="a8f2612fbd1db1c44d100fd006b97e770"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f2612fbd1db1c44d100fd006b97e770">&#9670;&#160;</a></span>OnGUI()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> XEngineEditorWindow.OnGUI </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_x_engine_editor_window_8cs_source.html#l00024">24</a> of file <a class="el" href="_x_engine_editor_window_8cs_source.html">XEngineEditorWindow.cs</a>.</p>
+
+</div>
+</div>
 <a id="a585ed139c8c1336bf3ba66d406e95337" name="a585ed139c8c1336bf3ba66d406e95337"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a585ed139c8c1336bf3ba66d406e95337">&#9670;&#160;</a></span>ShowWindow()</h2>
 
@@ -138,7 +206,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void XEngineEditorWindow.ShowWindow </td>
+          <td class="memname">static <a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> XEngineEditorWindow.ShowWindow </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -152,6 +220,60 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="_x_engine_editor_window_8cs_source.html#l00019">19</a> of file <a class="el" href="_x_engine_editor_window_8cs_source.html">XEngineEditorWindow.cs</a>.</p>
+
+</div>
+</div>
+<a id="ac1643d5106c61f75ca30ea5ee32808a9" name="ac1643d5106c61f75ca30ea5ee32808a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1643d5106c61f75ca30ea5ee32808a9">&#9670;&#160;</a></span>StartXEngine()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> XEngineEditorWindow.StartXEngine </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr</td>          <td class="paramname"><span class="paramname"><em>parentHWnd</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">[MarshalAs(UnmanagedType.LPWStr)] string</td>          <td class="paramname"><span class="paramname"><em>workDir</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a902d402b0020f60864d7c32d50027b1d" name="a902d402b0020f60864d7c32d50027b1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a902d402b0020f60864d7c32d50027b1d">&#9670;&#160;</a></span>wnd</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_x_engine_editor_window.html">XEngineEditorWindow</a> XEngineEditorWindow.wnd</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_x_engine_editor_window_8cs_source.html#l00016">16</a> of file <a class="el" href="_x_engine_editor_window_8cs_source.html">XEngineEditorWindow.cs</a>.</p>
 
 </div>
 </div>

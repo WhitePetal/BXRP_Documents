@@ -114,6 +114,8 @@ $(function(){initNavTree('dir_2107fed38ae0f47ddf43e6fe2d887bfc.html',''); initRe
 Directories</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top"><span class="iconfclosed"></span>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dir_428b5cb5dd7f53c2ed0a9a6b82237e02.html">googletest</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top"><span class="iconfclosed"></span>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dir_531b0b6c8f75f86bddea49aefc510079.html">include</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top"><span class="iconfclosed"></span>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dir_b9bcdfa6f73071c6930d073e83c55d27.html">src</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top"><span class="iconfclosed"></span>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dir_77ca63cf4393a6b496b0afed458adf7e.html">test</a></td></tr>
@@ -127,7 +129,7 @@ Directories</h2></td></tr>
 Directory Structure</h1>
 <ul>
 <li><code>/</code>: Build files are available here for quick integration. CMake is provided, and can be referenced either via <code>subdirectory()</code> or after installation to a system location. Meson is also available for inclusion as a subproject/wrap.</li>
-<li><code>/include/directx</code>: These files are the core headers for using D3D12, plus <a class="el" href="d3dx12_8h_source.html">d3dx12.h</a>, which is a helper and does not cross the boundaries of the D3D12 API.</li>
+<li><code>/include/directx</code>: These files are the core headers for using D3D12, plus <a class="el" href="d3dx12_8h.html">d3dx12.h</a>, which is a helper and does not cross the boundaries of the D3D12 API.</li>
 <li><code>/include/wsl</code>: These files are provided as a shim to be able to include the D3D12 headers from a Linux build environment, without requiring the rest of the Windows SDK.</li>
 <li><code>/include/dxguids</code>: This header allows an application to use <code>uuidof&lt;T&gt;()</code> consistently between Windows and WSL, instead of <code>__uuidof()</code>.</li>
 <li><code>/src/dxguids.cpp</code>: This cpp file can be used as a replacement for linking against <code>dxguid.lib</code> on Windows, and as a convenient translation unit to define GUIDs without multiple definitions for WSL.</li>
@@ -145,11 +147,11 @@ Use on WSL</h1>
 <tr class="markdownTableHead">
 <th class="markdownTableHeadNone">Type   </th><th class="markdownTableHeadNone">Reason    </th></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><code>LONG</code>/<code>ULONG</code>   </td><td class="markdownTableBodyNone">On 64-bit Windows, a <code>long</code> is 4 bytes, but on Linux it is typically 8 bytes. The D3D12 ABI for WSL uses <code>long</code> and therefore these should be 8 bytes.    </td></tr>
+<td class="markdownTableBodyNone"><code><a class="el" href="basetsd_8h.html#a27ec6163192f1e1e72d87421379ea3d4">LONG</a></code>/<code><a class="el" href="basetsd_8h.html#ac35fa651076b85bda3f7fe75d4d593f9">ULONG</a></code>   </td><td class="markdownTableBodyNone">On 64-bit Windows, a <code>long</code> is 4 bytes, but on Linux it is typically 8 bytes. The D3D12 ABI for WSL uses <code>long</code> and therefore these should be 8 bytes.    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><code>WCHAR</code>/<code>WCSTR</code>   </td><td class="markdownTableBodyNone">On Windows, a <code>wchar_t</code> is 2 bytes, but on Linux it is typically 4 bytes. The D3D12 ABI for WSL uses the native 4-byte <code>wchar_t</code>, to enable applications and the runtime to use the system C library to perform string manipulation.   </td></tr>
+<td class="markdownTableBodyNone"><code><a class="el" href="basetsd_8h.html#aad61bc3eae1804d8784adebdce0721d3">WCHAR</a></code>/<code>WCSTR</code>   </td><td class="markdownTableBodyNone">On Windows, a <code>wchar_t</code> is 2 bytes, but on Linux it is typically 4 bytes. The D3D12 ABI for WSL uses the native 4-byte <code>wchar_t</code>, to enable applications and the runtime to use the system C library to perform string manipulation.   </td></tr>
 </table>
-<p>Additionally, APIs taking <code>HANDLE</code> (<code>void*</code>) for Win32 types should instead use <code>reinterpret_cast&lt;HANDLE&gt;(fd)</code> for an appropriate type of file descriptor. For <code>ID3D12Fence::SetEventOnCompletion</code> this should be an <code>eventfd</code>, and for shared resources will be an opaque fd.</p>
+<p>Additionally, APIs taking <code><a class="el" href="basetsd_8h.html#a2551e2c43e12d0ac4525d899cdf2c03b">HANDLE</a></code> (<code>void*</code>) for Win32 types should instead use <code>reinterpret_cast&lt;<a class="el" href="basetsd_8h.html#a2551e2c43e12d0ac4525d899cdf2c03b">HANDLE</a>&gt;(fd)</code> for an appropriate type of file descriptor. For <code>ID3D12Fence::SetEventOnCompletion</code> this should be an <code>eventfd</code>, and for shared resources will be an opaque fd.</p>
 <h1><a class="anchor" id="autotoc_md17"></a>
 Ways to consume</h1>
 <p>There are various ways to consume the headers in this project:</p>
@@ -174,7 +176,7 @@ Contributing</h1>
 <p>This project has adopted the <a href="https://opensource.microsoft.com/codeofconduct/">Microsoft Open Source Code of Conduct</a>. For more information see the <a href="https://opensource.microsoft.com/codeofconduct/faq/">Code of Conduct FAQ</a> or contact <a href="#" onclick="location.href='mai'+'lto:'+'ope'+'nc'+'ode'+'@m'+'icr'+'os'+'oft'+'.c'+'om'; return false;">opencode@microsoft.com</a> with any additional questions or comments.</p>
 <h1><a class="anchor" id="autotoc_md19"></a>
 Trademarks</h1>
-<p>This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft trademarks or logos is subject to and must follow <a href="https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general">Microsoft's Trademark &amp; Brand Guidelines</a>. Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship. Any use of third-party trademarks or logos are subject to those third-party's policies. </p>
+<p>This project may contain trademarks or logos for projects, products, or services. Authorized use of <a class="el" href="namespace_microsoft.html">Microsoft</a> trademarks or logos is subject to and must follow <a href="https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general">Microsoft's Trademark &amp; Brand Guidelines</a>. Use of <a class="el" href="namespace_microsoft.html">Microsoft</a> trademarks or logos in modified versions of this project must not cause confusion or imply <a class="el" href="namespace_microsoft.html">Microsoft</a> sponsorship. Any use of third-party trademarks or logos are subject to those third-party's policies. </p>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

@@ -110,11 +110,14 @@ $(function(){initNavTree('class_engine.html',''); initResizable(true); });
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="#friends">Friends</a> &#124;
 <a href="class_engine-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">Engine Class Reference<span class="mlabels"><span class="mlabel abstract">abstract</span></span></div></div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &lt;<a class="el" href="_engine_8h_source.html">Engine.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for Engine:</div>
 <div class="dyncontent">
@@ -129,15 +132,15 @@ Inheritance diagram for Engine:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a3455f6e9fbe7580bf4818eaf5fa98734" id="r_a3455f6e9fbe7580bf4818eaf5fa98734"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3455f6e9fbe7580bf4818eaf5fa98734">Engine</a> (const std::wstring &amp;name, int width, int height, bool vSync, bool raster)</td></tr>
 <tr class="separator:a3455f6e9fbe7580bf4818eaf5fa98734"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ef7030a089ecb30bbfcb9e43094717a" id="r_a8ef7030a089ecb30bbfcb9e43094717a"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ef7030a089ecb30bbfcb9e43094717a">~Engine</a> ()</td></tr>
+<tr class="separator:a8ef7030a089ecb30bbfcb9e43094717a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a11baa1640d1f89e3cf8d1887a9621032" id="r_a11baa1640d1f89e3cf8d1887a9621032"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11baa1640d1f89e3cf8d1887a9621032">Initialize</a> ()</td></tr>
 <tr class="separator:a11baa1640d1f89e3cf8d1887a9621032"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7bd7a5550550d04a2a7653106d9561bf" id="r_a7bd7a5550550d04a2a7653106d9561bf"><td class="memItemLeft" align="right" valign="top"><a id="a7bd7a5550550d04a2a7653106d9561bf" name="a7bd7a5550550d04a2a7653106d9561bf"></a>
-virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>LoadContent</b> ()=0</td></tr>
+<tr class="memitem:a7bd7a5550550d04a2a7653106d9561bf" id="r_a7bd7a5550550d04a2a7653106d9561bf"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7bd7a5550550d04a2a7653106d9561bf">LoadContent</a> ()=0</td></tr>
 <tr class="separator:a7bd7a5550550d04a2a7653106d9561bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a13e65be5f249804381440ef8e74384a9" id="r_a13e65be5f249804381440ef8e74384a9"><td class="memItemLeft" align="right" valign="top"><a id="a13e65be5f249804381440ef8e74384a9" name="a13e65be5f249804381440ef8e74384a9"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>UnloadContent</b> ()=0</td></tr>
+<tr class="memitem:a13e65be5f249804381440ef8e74384a9" id="r_a13e65be5f249804381440ef8e74384a9"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a13e65be5f249804381440ef8e74384a9">UnloadContent</a> ()=0</td></tr>
 <tr class="separator:a13e65be5f249804381440ef8e74384a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaa92f059235842e9dfa81e89dc717d0a" id="r_aaa92f059235842e9dfa81e89dc717d0a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa92f059235842e9dfa81e89dc717d0a">Destroy</a> ()</td></tr>
+<tr class="memitem:aaa92f059235842e9dfa81e89dc717d0a" id="r_aaa92f059235842e9dfa81e89dc717d0a"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa92f059235842e9dfa81e89dc717d0a">Destroy</a> ()</td></tr>
 <tr class="separator:aaa92f059235842e9dfa81e89dc717d0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c4cfb2f2a7d7a74d65b0f31aee5b608" id="r_a6c4cfb2f2a7d7a74d65b0f31aee5b608"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c4cfb2f2a7d7a74d65b0f31aee5b608">GetWidth</a> ()</td></tr>
 <tr class="separator:a6c4cfb2f2a7d7a74d65b0f31aee5b608"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -153,48 +156,48 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>UnloadContent
 <tr class="separator:ad5001d9a6ba73353d438c1db21ab89f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae92c13fd3cd11846f83811ddb6de1609" id="r_ae92c13fd3cd11846f83811ddb6de1609"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="class_camera.html">Camera</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae92c13fd3cd11846f83811ddb6de1609">GetCamera</a> ()</td></tr>
 <tr class="separator:ae92c13fd3cd11846f83811ddb6de1609"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2f96ef2d8a4b60f0f7ccd739774532af" id="r_a2f96ef2d8a4b60f0f7ccd739774532af"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f96ef2d8a4b60f0f7ccd739774532af">TransitionResource</a> (<a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; <a class="el" href="interface_i_d3_d12_graphics_command_list2.html">ID3D12GraphicsCommandList2</a> &gt; commandList, <a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; <a class="el" href="interface_i_d3_d12_resource.html">ID3D12Resource</a> &gt; resource, D3D12_RESOURCE_STATES beforeState, D3D12_RESOURCE_STATES afterState)</td></tr>
+<tr class="memitem:a2f96ef2d8a4b60f0f7ccd739774532af" id="r_a2f96ef2d8a4b60f0f7ccd739774532af"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f96ef2d8a4b60f0f7ccd739774532af">TransitionResource</a> (<a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; <a class="el" href="interface_i_d3_d12_graphics_command_list2.html">ID3D12GraphicsCommandList2</a> &gt; commandList, <a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; <a class="el" href="interface_i_d3_d12_resource.html">ID3D12Resource</a> &gt; resource, <a class="el" href="d3d12_8idl.html#a21843522197dd2f5c18b795079f11211">D3D12_RESOURCE_STATES</a> beforeState, <a class="el" href="d3d12_8idl.html#a21843522197dd2f5c18b795079f11211">D3D12_RESOURCE_STATES</a> afterState)</td></tr>
 <tr class="memdesc:a2f96ef2d8a4b60f0f7ccd739774532af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transition a resource.  <br /></td></tr>
 <tr class="separator:a2f96ef2d8a4b60f0f7ccd739774532af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa53231f2f9c4e7aa519767438459e280" id="r_aa53231f2f9c4e7aa519767438459e280"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa53231f2f9c4e7aa519767438459e280">ClearRTV</a> (<a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; <a class="el" href="interface_i_d3_d12_graphics_command_list2.html">ID3D12GraphicsCommandList2</a> &gt; commandList, <a class="el" href="struct_d3_d12___c_p_u___d_e_s_c_r_i_p_t_o_r___h_a_n_d_l_e.html">D3D12_CPU_DESCRIPTOR_HANDLE</a> rtv, FLOAT *clearColor)</td></tr>
+<tr class="memitem:aa53231f2f9c4e7aa519767438459e280" id="r_aa53231f2f9c4e7aa519767438459e280"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa53231f2f9c4e7aa519767438459e280">ClearRTV</a> (<a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; <a class="el" href="interface_i_d3_d12_graphics_command_list2.html">ID3D12GraphicsCommandList2</a> &gt; commandList, <a class="el" href="struct_d3_d12___c_p_u___d_e_s_c_r_i_p_t_o_r___h_a_n_d_l_e.html">D3D12_CPU_DESCRIPTOR_HANDLE</a> rtv, <a class="el" href="basetsd_8h.html#a8d06b04c04132c6f7c0fcb08c6167455">FLOAT</a> *clearColor)</td></tr>
 <tr class="memdesc:aa53231f2f9c4e7aa519767438459e280"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear a render target view.  <br /></td></tr>
 <tr class="separator:aa53231f2f9c4e7aa519767438459e280"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a64e39c98f58063a21625b5d5028bf979" id="r_a64e39c98f58063a21625b5d5028bf979"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64e39c98f58063a21625b5d5028bf979">UpdateBufferResource</a> (<a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; <a class="el" href="interface_i_d3_d12_graphics_command_list2.html">ID3D12GraphicsCommandList2</a> &gt; commandList, <a class="el" href="interface_i_d3_d12_resource.html">ID3D12Resource</a> **pDestinationResource, <a class="el" href="interface_i_d3_d12_resource.html">ID3D12Resource</a> **pIntermediateResource, size_t numElements, size_t elementSize, const void *bufferData, D3D12_RESOURCE_FLAGS flags=D3D12_RESOURCE_FLAG_NONE)</td></tr>
+<tr class="memitem:a64e39c98f58063a21625b5d5028bf979" id="r_a64e39c98f58063a21625b5d5028bf979"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64e39c98f58063a21625b5d5028bf979">UpdateBufferResource</a> (<a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; <a class="el" href="interface_i_d3_d12_graphics_command_list2.html">ID3D12GraphicsCommandList2</a> &gt; commandList, <a class="el" href="interface_i_d3_d12_resource.html">ID3D12Resource</a> **pDestinationResource, <a class="el" href="interface_i_d3_d12_resource.html">ID3D12Resource</a> **pIntermediateResource, size_t numElements, size_t elementSize, const <a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> *bufferData, <a class="el" href="d3d12_8idl.html#a6b39131a2c1f6a2d37c4e993830531e4">D3D12_RESOURCE_FLAGS</a> flags=<a class="el" href="d3d12_8idl.html#a6b39131a2c1f6a2d37c4e993830531e4a4a457205402c583cb3a0540947f864c7">D3D12_RESOURCE_FLAG_NONE</a>)</td></tr>
 <tr class="memdesc:a64e39c98f58063a21625b5d5028bf979"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a GPU buffer.  <br /></td></tr>
 <tr class="separator:a64e39c98f58063a21625b5d5028bf979"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a44dbce76d6d8bcea2b449687022e8b0d" id="r_a44dbce76d6d8bcea2b449687022e8b0d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44dbce76d6d8bcea2b449687022e8b0d">ResizeDepthBuffer</a> (int width, int height)</td></tr>
+<tr class="memitem:a44dbce76d6d8bcea2b449687022e8b0d" id="r_a44dbce76d6d8bcea2b449687022e8b0d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44dbce76d6d8bcea2b449687022e8b0d">ResizeDepthBuffer</a> (int width, int height)</td></tr>
 <tr class="separator:a44dbce76d6d8bcea2b449687022e8b0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac687d1d8d32c407385da5ea7b9d9f12f" id="r_ac687d1d8d32c407385da5ea7b9d9f12f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac687d1d8d32c407385da5ea7b9d9f12f">OnUpdate</a> (<a class="el" href="class_update_event_args.html">UpdateEventArgs</a> &amp;e)</td></tr>
+<tr class="memitem:ac687d1d8d32c407385da5ea7b9d9f12f" id="r_ac687d1d8d32c407385da5ea7b9d9f12f"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac687d1d8d32c407385da5ea7b9d9f12f">OnUpdate</a> (<a class="el" href="class_update_event_args.html">UpdateEventArgs</a> &amp;e)</td></tr>
 <tr class="memdesc:ac687d1d8d32c407385da5ea7b9d9f12f"><td class="mdescLeft">&#160;</td><td class="mdescRight">update game logic frame  <br /></td></tr>
 <tr class="separator:ac687d1d8d32c407385da5ea7b9d9f12f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7b91643fa2510b81b55f20ac1426ca35" id="r_a7b91643fa2510b81b55f20ac1426ca35"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b91643fa2510b81b55f20ac1426ca35">OnRender</a> (<a class="el" href="class_render_event_args.html">RenderEventArgs</a> &amp;e)</td></tr>
+<tr class="memitem:a7b91643fa2510b81b55f20ac1426ca35" id="r_a7b91643fa2510b81b55f20ac1426ca35"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b91643fa2510b81b55f20ac1426ca35">OnRender</a> (<a class="el" href="class_render_event_args.html">RenderEventArgs</a> &amp;e)</td></tr>
 <tr class="memdesc:a7b91643fa2510b81b55f20ac1426ca35"><td class="mdescLeft">&#160;</td><td class="mdescRight">update render frame  <br /></td></tr>
 <tr class="separator:a7b91643fa2510b81b55f20ac1426ca35"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa02d053d13d720df34dcb5615d6bd2d5" id="r_aa02d053d13d720df34dcb5615d6bd2d5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa02d053d13d720df34dcb5615d6bd2d5">OnKeyboardDown</a> (<a class="el" href="class_key_event_args.html">KeyEventArgs</a> &amp;e)</td></tr>
+<tr class="memitem:aa02d053d13d720df34dcb5615d6bd2d5" id="r_aa02d053d13d720df34dcb5615d6bd2d5"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa02d053d13d720df34dcb5615d6bd2d5">OnKeyboardDown</a> (<a class="el" href="class_key_event_args.html">KeyEventArgs</a> &amp;e)</td></tr>
 <tr class="memdesc:aa02d053d13d720df34dcb5615d6bd2d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invoked by the registered window when a key is pressed while the window has focus.  <br /></td></tr>
 <tr class="separator:aa02d053d13d720df34dcb5615d6bd2d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac1fe62559de2d7ad03b74c7fcd4a13a9" id="r_ac1fe62559de2d7ad03b74c7fcd4a13a9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac1fe62559de2d7ad03b74c7fcd4a13a9">OnKeyboardUp</a> (<a class="el" href="class_key_event_args.html">KeyEventArgs</a> &amp;e)</td></tr>
+<tr class="memitem:ac1fe62559de2d7ad03b74c7fcd4a13a9" id="r_ac1fe62559de2d7ad03b74c7fcd4a13a9"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac1fe62559de2d7ad03b74c7fcd4a13a9">OnKeyboardUp</a> (<a class="el" href="class_key_event_args.html">KeyEventArgs</a> &amp;e)</td></tr>
 <tr class="memdesc:ac1fe62559de2d7ad03b74c7fcd4a13a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invoked when a key on the keyboard is released.  <br /></td></tr>
 <tr class="separator:ac1fe62559de2d7ad03b74c7fcd4a13a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ad15239702a324a4cc54671bd87d85b" id="r_a4ad15239702a324a4cc54671bd87d85b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ad15239702a324a4cc54671bd87d85b">OnMouseMoved</a> (<a class="el" href="class_mouse_motion_event_args.html">MouseMotionEventArgs</a> &amp;e)</td></tr>
+<tr class="memitem:a4ad15239702a324a4cc54671bd87d85b" id="r_a4ad15239702a324a4cc54671bd87d85b"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ad15239702a324a4cc54671bd87d85b">OnMouseMoved</a> (<a class="el" href="class_mouse_motion_event_args.html">MouseMotionEventArgs</a> &amp;e)</td></tr>
 <tr class="memdesc:a4ad15239702a324a4cc54671bd87d85b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invoked when the mouse is moved over the registered window.  <br /></td></tr>
 <tr class="separator:a4ad15239702a324a4cc54671bd87d85b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac1855c4f2289228f4a20b01c3f9494cb" id="r_ac1855c4f2289228f4a20b01c3f9494cb"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac1855c4f2289228f4a20b01c3f9494cb">OnMouseButtonDown</a> (<a class="el" href="class_mouse_button_event_args.html">MouseButtonEventArgs</a> &amp;e)</td></tr>
+<tr class="memitem:ac1855c4f2289228f4a20b01c3f9494cb" id="r_ac1855c4f2289228f4a20b01c3f9494cb"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac1855c4f2289228f4a20b01c3f9494cb">OnMouseButtonDown</a> (<a class="el" href="class_mouse_button_event_args.html">MouseButtonEventArgs</a> &amp;e)</td></tr>
 <tr class="memdesc:ac1855c4f2289228f4a20b01c3f9494cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invoked when the mouse button is pressed over the registered window.  <br /></td></tr>
 <tr class="separator:ac1855c4f2289228f4a20b01c3f9494cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad209f460c28d65f10ef990676e3c7687" id="r_ad209f460c28d65f10ef990676e3c7687"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad209f460c28d65f10ef990676e3c7687">OnMouseButtonUp</a> (<a class="el" href="class_mouse_button_event_args.html">MouseButtonEventArgs</a> &amp;e)</td></tr>
+<tr class="memitem:ad209f460c28d65f10ef990676e3c7687" id="r_ad209f460c28d65f10ef990676e3c7687"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad209f460c28d65f10ef990676e3c7687">OnMouseButtonUp</a> (<a class="el" href="class_mouse_button_event_args.html">MouseButtonEventArgs</a> &amp;e)</td></tr>
 <tr class="memdesc:ad209f460c28d65f10ef990676e3c7687"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invoked when the mouse button is released over the registered window.  <br /></td></tr>
 <tr class="separator:ad209f460c28d65f10ef990676e3c7687"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7436de15cc531dfc066583b80f41cdf" id="r_aa7436de15cc531dfc066583b80f41cdf"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7436de15cc531dfc066583b80f41cdf">OnMouseWheel</a> (<a class="el" href="class_mouse_wheel_event_args.html">MouseWheelEventArgs</a> &amp;e)</td></tr>
+<tr class="memitem:aa7436de15cc531dfc066583b80f41cdf" id="r_aa7436de15cc531dfc066583b80f41cdf"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7436de15cc531dfc066583b80f41cdf">OnMouseWheel</a> (<a class="el" href="class_mouse_wheel_event_args.html">MouseWheelEventArgs</a> &amp;e)</td></tr>
 <tr class="memdesc:aa7436de15cc531dfc066583b80f41cdf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invoked when the mouse wheel is scrolled while the registered window.  <br /></td></tr>
 <tr class="separator:aa7436de15cc531dfc066583b80f41cdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7799a3c4e2e7d8ff022583522f9ca0d0" id="r_a7799a3c4e2e7d8ff022583522f9ca0d0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7799a3c4e2e7d8ff022583522f9ca0d0">OnResize</a> (<a class="el" href="class_resize_event_args.html">ResizeEventArgs</a> &amp;e)</td></tr>
+<tr class="memitem:a7799a3c4e2e7d8ff022583522f9ca0d0" id="r_a7799a3c4e2e7d8ff022583522f9ca0d0"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7799a3c4e2e7d8ff022583522f9ca0d0">OnResize</a> (<a class="el" href="class_resize_event_args.html">ResizeEventArgs</a> &amp;e)</td></tr>
 <tr class="memdesc:a7799a3c4e2e7d8ff022583522f9ca0d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invoked when the attached window is resized.  <br /></td></tr>
 <tr class="separator:a7799a3c4e2e7d8ff022583522f9ca0d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d926a08ebfb399893f4c4fa73334314" id="r_a2d926a08ebfb399893f4c4fa73334314"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d926a08ebfb399893f4c4fa73334314">OnWindowDestroy</a> ()</td></tr>
+<tr class="memitem:a2d926a08ebfb399893f4c4fa73334314" id="r_a2d926a08ebfb399893f4c4fa73334314"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d926a08ebfb399893f4c4fa73334314">OnWindowDestroy</a> ()</td></tr>
 <tr class="memdesc:a2d926a08ebfb399893f4c4fa73334314"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invoked when the registered window instance is destroyed.  <br /></td></tr>
 <tr class="separator:a2d926a08ebfb399893f4c4fa73334314"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -226,6 +229,13 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a900e3be0e14255264569b29f48e389d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e35a6cd273c92b1f472b630e3f1713e" id="r_a6e35a6cd273c92b1f472b630e3f1713e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e35a6cd273c92b1f472b630e3f1713e">m_Raster</a> = true</td></tr>
 <tr class="separator:a6e35a6cd273c92b1f472b630e3f1713e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a82c0f5358b8cf0b891da02978956c7fd" id="r_a82c0f5358b8cf0b891da02978956c7fd"><td class="memItemLeft" align="right" valign="top">std::wstring&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a82c0f5358b8cf0b891da02978956c7fd">m_Name</a></td></tr>
+<tr class="separator:a82c0f5358b8cf0b891da02978956c7fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a705cfac18ced8cea9c52c16b5030dcb0" id="r_a705cfac18ced8cea9c52c16b5030dcb0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a705cfac18ced8cea9c52c16b5030dcb0">m_vSync</a></td></tr>
+<tr class="separator:a705cfac18ced8cea9c52c16b5030dcb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="friends" name="friends"></a>
 Friends</h2></td></tr>
@@ -309,7 +319,7 @@ Friends</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void Engine::ClearRTV </td>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> Engine::ClearRTV </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; <a class="el" href="interface_i_d3_d12_graphics_command_list2.html">ID3D12GraphicsCommandList2</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>commandList</em></span>, </td>
         </tr>
@@ -321,7 +331,7 @@ Friends</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">FLOAT *</td>          <td class="paramname"><span class="paramname"><em>clearColor</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#a8d06b04c04132c6f7c0fcb08c6167455">FLOAT</a> *</td>          <td class="paramname"><span class="paramname"><em>clearColor</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -350,7 +360,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Engine::Destroy </td>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> Engine::Destroy </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -527,6 +537,33 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="a7bd7a5550550d04a2a7653106d9561bf" name="a7bd7a5550550d04a2a7653106d9561bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7bd7a5550550d04a2a7653106d9561bf">&#9670;&#160;</a></span>LoadContent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool Engine::LoadContent </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="class_sample_scene.html#aca64cc1cb790d220c8a808e0b007673e">SampleScene</a>.</p>
+
+</div>
+</div>
 <a id="aa02d053d13d720df34dcb5615d6bd2d5" name="aa02d053d13d720df34dcb5615d6bd2d5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa02d053d13d720df34dcb5615d6bd2d5">&#9670;&#160;</a></span>OnKeyboardDown()</h2>
 
@@ -537,7 +574,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Engine::OnKeyboardDown </td>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> Engine::OnKeyboardDown </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_key_event_args.html">KeyEventArgs</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>e</em></span></td><td>)</td>
           <td></td>
@@ -574,7 +611,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Engine::OnKeyboardUp </td>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> Engine::OnKeyboardUp </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_key_event_args.html">KeyEventArgs</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>e</em></span></td><td>)</td>
           <td></td>
@@ -609,7 +646,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Engine::OnMouseButtonDown </td>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> Engine::OnMouseButtonDown </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_mouse_button_event_args.html">MouseButtonEventArgs</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>e</em></span></td><td>)</td>
           <td></td>
@@ -644,7 +681,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Engine::OnMouseButtonUp </td>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> Engine::OnMouseButtonUp </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_mouse_button_event_args.html">MouseButtonEventArgs</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>e</em></span></td><td>)</td>
           <td></td>
@@ -679,7 +716,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Engine::OnMouseMoved </td>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> Engine::OnMouseMoved </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_mouse_motion_event_args.html">MouseMotionEventArgs</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>e</em></span></td><td>)</td>
           <td></td>
@@ -714,7 +751,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Engine::OnMouseWheel </td>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> Engine::OnMouseWheel </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_mouse_wheel_event_args.html">MouseWheelEventArgs</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>e</em></span></td><td>)</td>
           <td></td>
@@ -751,7 +788,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Engine::OnRender </td>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> Engine::OnRender </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_render_event_args.html">RenderEventArgs</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>e</em></span></td><td>)</td>
           <td></td>
@@ -788,7 +825,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Engine::OnResize </td>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> Engine::OnResize </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_resize_event_args.html">ResizeEventArgs</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>e</em></span></td><td>)</td>
           <td></td>
@@ -825,7 +862,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Engine::OnUpdate </td>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> Engine::OnUpdate </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_update_event_args.html">UpdateEventArgs</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>e</em></span></td><td>)</td>
           <td></td>
@@ -862,7 +899,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Engine::OnWindowDestroy </td>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> Engine::OnWindowDestroy </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -891,7 +928,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Engine::ResizeDepthBuffer </td>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> Engine::ResizeDepthBuffer </td>
           <td>(</td>
           <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>width</em></span>, </td>
         </tr>
@@ -919,7 +956,7 @@ Friends</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void Engine::TransitionResource </td>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> Engine::TransitionResource </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; <a class="el" href="interface_i_d3_d12_graphics_command_list2.html">ID3D12GraphicsCommandList2</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>commandList</em></span>, </td>
         </tr>
@@ -931,12 +968,12 @@ Friends</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">D3D12_RESOURCE_STATES</td>          <td class="paramname"><span class="paramname"><em>beforeState</em></span>, </td>
+          <td class="paramtype"><a class="el" href="d3d12_8idl.html#a21843522197dd2f5c18b795079f11211">D3D12_RESOURCE_STATES</a></td>          <td class="paramname"><span class="paramname"><em>beforeState</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">D3D12_RESOURCE_STATES</td>          <td class="paramname"><span class="paramname"><em>afterState</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="d3d12_8idl.html#a21843522197dd2f5c18b795079f11211">D3D12_RESOURCE_STATES</a></td>          <td class="paramname"><span class="paramname"><em>afterState</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -956,6 +993,33 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="a13e65be5f249804381440ef8e74384a9" name="a13e65be5f249804381440ef8e74384a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13e65be5f249804381440ef8e74384a9">&#9670;&#160;</a></span>UnloadContent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> Engine::UnloadContent </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="class_sample_scene.html#adc60e040aa11804ee20ac0ae00c949fa">SampleScene</a>.</p>
+
+</div>
+</div>
 <a id="a64e39c98f58063a21625b5d5028bf979" name="a64e39c98f58063a21625b5d5028bf979"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a64e39c98f58063a21625b5d5028bf979">&#9670;&#160;</a></span>UpdateBufferResource()</h2>
 
@@ -963,7 +1027,7 @@ Friends</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void Engine::UpdateBufferResource </td>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> Engine::UpdateBufferResource </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; <a class="el" href="interface_i_d3_d12_graphics_command_list2.html">ID3D12GraphicsCommandList2</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>commandList</em></span>, </td>
         </tr>
@@ -990,12 +1054,12 @@ Friends</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const void *</td>          <td class="paramname"><span class="paramname"><em>bufferData</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> *</td>          <td class="paramname"><span class="paramname"><em>bufferData</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">D3D12_RESOURCE_FLAGS</td>          <td class="paramname"><span class="paramname"><em>flags</em></span><span class="paramdefsep"> = </span><span class="paramdefval">D3D12_RESOURCE_FLAG_NONE</span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="d3d12_8idl.html#a6b39131a2c1f6a2d37c4e993830531e4">D3D12_RESOURCE_FLAGS</a></td>          <td class="paramname"><span class="paramname"><em>flags</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="d3d12_8idl.html#a6b39131a2c1f6a2d37c4e993830531e4a4a457205402c583cb3a0540947f864c7">D3D12_RESOURCE_FLAG_NONE</a></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1236,6 +1300,30 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="a82c0f5358b8cf0b891da02978956c7fd" name="a82c0f5358b8cf0b891da02978956c7fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82c0f5358b8cf0b891da02978956c7fd">&#9670;&#160;</a></span>m_Name</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::wstring Engine::m_Name</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_engine_8h_source.html#l00187">187</a> of file <a class="el" href="_engine_8h_source.html">Engine.h</a>.</p>
+
+</div>
+</div>
 <a id="aea90f843220ca1494cad0c8d997bc8d8" name="aea90f843220ca1494cad0c8d997bc8d8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aea90f843220ca1494cad0c8d997bc8d8">&#9670;&#160;</a></span>m_pWindow</h2>
 
@@ -1329,6 +1417,30 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="_engine_8h_source.html#l00177">177</a> of file <a class="el" href="_engine_8h_source.html">Engine.h</a>.</p>
+
+</div>
+</div>
+<a id="a705cfac18ced8cea9c52c16b5030dcb0" name="a705cfac18ced8cea9c52c16b5030dcb0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a705cfac18ced8cea9c52c16b5030dcb0">&#9670;&#160;</a></span>m_vSync</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Engine::m_vSync</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_engine_8h_source.html#l00188">188</a> of file <a class="el" href="_engine_8h_source.html">Engine.h</a>.</p>
 
 </div>
 </div>

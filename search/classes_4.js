@@ -631,7 +631,8 @@ var searchData=
   ['dxgi_5frational_628',['DXGI_RATIONAL',['../struct_d_x_g_i___r_a_t_i_o_n_a_l.html',1,'']]],
   ['dxgi_5fsample_5fdesc_629',['DXGI_SAMPLE_DESC',['../struct_d_x_g_i___s_a_m_p_l_e___d_e_s_c.html',1,'']]],
   ['dynamicarray_2d1_2dg_630',['DynamicArray-1-g',['../class_b_x_render_pipeline_1_1_dynamic_array-1-g.html',1,'BXRenderPipeline']]],
-  ['dynamicdimensionmatrix_631',['DynamicDimensionMatrix',['../struct_b_x_geometry_graph_1_1_code_function_node_1_1_dynamic_dimension_matrix.html',1,'BXGeometryGraph::CodeFunctionNode']]],
-  ['dynamicdimensionvector_632',['DynamicDimensionVector',['../struct_b_x_geometry_graph_1_1_code_function_node_1_1_dynamic_dimension_vector.html',1,'BXGeometryGraph::CodeFunctionNode']]],
-  ['dynamicvectorgeometryslot_633',['DynamicVectorGeometrySlot',['../class_b_x_geometry_graph_1_1_dynamic_vector_geometry_slot.html',1,'BXGeometryGraph']]]
+  ['dynamicarrayextensions_631',['DynamicArrayExtensions',['../class_b_x_render_pipeline_1_1_dynamic_array_extensions.html',1,'BXRenderPipeline']]],
+  ['dynamicdimensionmatrix_632',['DynamicDimensionMatrix',['../struct_b_x_geometry_graph_1_1_code_function_node_1_1_dynamic_dimension_matrix.html',1,'BXGeometryGraph::CodeFunctionNode']]],
+  ['dynamicdimensionvector_633',['DynamicDimensionVector',['../struct_b_x_geometry_graph_1_1_code_function_node_1_1_dynamic_dimension_vector.html',1,'BXGeometryGraph::CodeFunctionNode']]],
+  ['dynamicvectorgeometryslot_634',['DynamicVectorGeometrySlot',['../class_b_x_geometry_graph_1_1_dynamic_vector_geometry_slot.html',1,'BXGeometryGraph']]]
 ];

@@ -1,0 +1,5 @@
+var struct_d3_d12___s_e_r_i_a_l_i_z_e_d___d_a_t_a___d_r_i_v_e_r___m_a_t_c_h_i_n_g___i_d_e_n_t_i_f_i_e_r =
+[
+    [ "DriverOpaqueGUID", "struct_d3_d12___s_e_r_i_a_l_i_z_e_d___d_a_t_a___d_r_i_v_e_r___m_a_t_c_h_i_n_g___i_d_e_n_t_i_f_i_e_r.html#a9f10110e8c632def0b3672c6cb47e906", null ],
+    [ "DriverOpaqueVersioningData", "struct_d3_d12___s_e_r_i_a_l_i_z_e_d___d_a_t_a___d_r_i_v_e_r___m_a_t_c_h_i_n_g___i_d_e_n_t_i_f_i_e_r.html#ab3b792dd4569cd0f65bfd2ea74d05b90", null ]
+];

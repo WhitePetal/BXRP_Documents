@@ -1,0 +1,9 @@
+var struct_microsoft_1_1_w_r_l_1_1_details_1_1_implements_helper_3_01_implements_marker_3_01_i0_01_4_00_01_t_interfaces_8_8_8_01_4 =
+[
+    [ "BaseType", "struct_microsoft_1_1_w_r_l_1_1_details_1_1_implements_helper_3_01_implements_marker_3_01_i0_01_4_00_01_t_interfaces_8_8_8_01_4.html#aac1913046ed5672f907aa7ba831560b1", null ],
+    [ "CurrentType", "struct_microsoft_1_1_w_r_l_1_1_details_1_1_implements_helper_3_01_implements_marker_3_01_i0_01_4_00_01_t_interfaces_8_8_8_01_4.html#a206da7581d8fdfd6cbde21c994c8ffb9", null ],
+    [ "CanCastTo", "struct_microsoft_1_1_w_r_l_1_1_details_1_1_implements_helper_3_01_implements_marker_3_01_i0_01_4_00_01_t_interfaces_8_8_8_01_4.html#a69a45a2f67a02ca95132b7e00f43ecba", null ],
+    [ "CastToUnknown", "struct_microsoft_1_1_w_r_l_1_1_details_1_1_implements_helper_3_01_implements_marker_3_01_i0_01_4_00_01_t_interfaces_8_8_8_01_4.html#a7bed98b83a6ecde7d4afff511748ab9b", null ],
+    [ "ImplementsHelper", "struct_microsoft_1_1_w_r_l_1_1_details_1_1_implements_helper_3_01_implements_marker_3_01_i0_01_4_00_01_t_interfaces_8_8_8_01_4.html#a4fe25d41ac80b6f2369567334a77342d", null ],
+    [ "RuntimeClassBase", "struct_microsoft_1_1_w_r_l_1_1_details_1_1_implements_helper_3_01_implements_marker_3_01_i0_01_4_00_01_t_interfaces_8_8_8_01_4.html#aba1abcb5123d8cc389b0d51f241856ce", null ]
+];

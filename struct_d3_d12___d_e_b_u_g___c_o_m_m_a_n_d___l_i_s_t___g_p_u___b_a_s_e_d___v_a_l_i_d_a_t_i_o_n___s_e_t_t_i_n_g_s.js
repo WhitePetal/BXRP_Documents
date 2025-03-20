@@ -1,0 +1,4 @@
+var struct_d3_d12___d_e_b_u_g___c_o_m_m_a_n_d___l_i_s_t___g_p_u___b_a_s_e_d___v_a_l_i_d_a_t_i_o_n___s_e_t_t_i_n_g_s =
+[
+    [ "ShaderPatchMode", "struct_d3_d12___d_e_b_u_g___c_o_m_m_a_n_d___l_i_s_t___g_p_u___b_a_s_e_d___v_a_l_i_d_a_t_i_o_n___s_e_t_t_i_n_g_s.html#a144d78b5b4484b2980f3f0275447ca55", null ]
+];

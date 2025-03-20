@@ -1,0 +1,5 @@
+var searchData=
+[
+  ['tchar_0',['TCHAR',['../basetsd_8h.html#a03bdb8ce5895c7e261aadc2529637546',1,'basetsd.h']]],
+  ['type_1',['Type',['../struct_microsoft_1_1_w_r_l_1_1_details_1_1_mark_implements_3_01_i0_00_01false_01_4.html#a99dac9da72b4881ce8ae7ae0c5c3a2a4',1,'Microsoft::WRL::Details::MarkImplements&lt; I0, false &gt;::Type'],['../struct_microsoft_1_1_w_r_l_1_1_details_1_1_mark_implements_3_01_i0_00_01true_01_4.html#aa794083b0bed8681ca6c424cc765ff67',1,'Microsoft::WRL::Details::MarkImplements&lt; I0, true &gt;::Type'],['../struct_microsoft_1_1_w_r_l_1_1_details_1_1_adjust_implements_3_01_i0_00_01_bases_8_8_8_01_4.html#a68155fa39394640995fb79185da75ca3',1,'Microsoft::WRL::Details::AdjustImplements&lt; I0, Bases... &gt;::Type'],['../struct_microsoft_1_1_w_r_l_1_1_details_1_1_adjust_implements_3_01_nil_00_01_bases_8_8_8_01_4.html#a669d68e276db4a2dcb324bb2af236f94',1,'Microsoft::WRL::Details::AdjustImplements&lt; Nil, Bases... &gt;::Type'],['../struct_microsoft_1_1_w_r_l_1_1_details_1_1_adjust_implements_3_4.html#a6edd9b1f79c26602f5911a8d87c8b918',1,'Microsoft::WRL::Details::AdjustImplements&lt;&gt;::Type']]]
+];

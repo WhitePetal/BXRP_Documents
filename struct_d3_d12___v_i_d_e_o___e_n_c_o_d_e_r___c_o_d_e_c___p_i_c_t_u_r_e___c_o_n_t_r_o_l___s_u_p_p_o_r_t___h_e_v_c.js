@@ -1,0 +1,8 @@
+var struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___c_o_d_e_c___p_i_c_t_u_r_e___c_o_n_t_r_o_l___s_u_p_p_o_r_t___h_e_v_c =
+[
+    [ "MaxDPBCapacity", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___c_o_d_e_c___p_i_c_t_u_r_e___c_o_n_t_r_o_l___s_u_p_p_o_r_t___h_e_v_c.html#ae7d30060a13cb19d0ee4f99c19394fc4", null ],
+    [ "MaxL0ReferencesForB", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___c_o_d_e_c___p_i_c_t_u_r_e___c_o_n_t_r_o_l___s_u_p_p_o_r_t___h_e_v_c.html#a7d71723a49b261bde9d991dc40c2f4a0", null ],
+    [ "MaxL0ReferencesForP", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___c_o_d_e_c___p_i_c_t_u_r_e___c_o_n_t_r_o_l___s_u_p_p_o_r_t___h_e_v_c.html#a32d7e71166322b604e52afd3643703b5", null ],
+    [ "MaxL1ReferencesForB", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___c_o_d_e_c___p_i_c_t_u_r_e___c_o_n_t_r_o_l___s_u_p_p_o_r_t___h_e_v_c.html#ad5142b8a2b5fb4180182ab81ffbb6daa", null ],
+    [ "MaxLongTermReferences", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___c_o_d_e_c___p_i_c_t_u_r_e___c_o_n_t_r_o_l___s_u_p_p_o_r_t___h_e_v_c.html#a3e12c63edd4fdf374368f548d3c67f6f", null ]
+];

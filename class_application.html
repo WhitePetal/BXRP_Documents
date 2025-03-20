@@ -112,15 +112,20 @@ $(function(){initNavTree('class_application.html',''); initResizable(true); });
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-static-attribs">Static Protected Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="#friends">Friends</a> &#124;
 <a href="class_application-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">Application Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &lt;<a class="el" href="_application_8h_source.html">Application.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a17cf1ea4552d26a1c20f7d98d793d41d" id="r_a17cf1ea4552d26a1c20f7d98d793d41d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17cf1ea4552d26a1c20f7d98d793d41d">Initialize</a> ()</td></tr>
+<tr class="memitem:a17cf1ea4552d26a1c20f7d98d793d41d" id="r_a17cf1ea4552d26a1c20f7d98d793d41d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17cf1ea4552d26a1c20f7d98d793d41d">Initialize</a> ()</td></tr>
 <tr class="separator:a17cf1ea4552d26a1c20f7d98d793d41d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5299ad435da6a937885e1b1999d0033b" id="r_a5299ad435da6a937885e1b1999d0033b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5299ad435da6a937885e1b1999d0033b">IsTeraingSupported</a> () const</td></tr>
 <tr class="memdesc:a5299ad435da6a937885e1b1999d0033b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check to see if VSync-off is supported.  <br /></td></tr>
@@ -128,10 +133,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9a20820725f68a9c17172855ac233e11" id="r_a9a20820725f68a9c17172855ac233e11"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="class_window.html">Window</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a20820725f68a9c17172855ac233e11">CreateRenderWindow</a> (const std::wstring &amp;windowName, int clientWidth, int clientHeight, bool vSync=true)</td></tr>
 <tr class="memdesc:a9a20820725f68a9c17172855ac233e11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a new DX12 render window instance.  <br /></td></tr>
 <tr class="separator:a9a20820725f68a9c17172855ac233e11"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa07cf822ae192b8f8e2ec40e162d228d" id="r_aa07cf822ae192b8f8e2ec40e162d228d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa07cf822ae192b8f8e2ec40e162d228d">DestroyWindow</a> (const std::wstring &amp;windowName)</td></tr>
+<tr class="memitem:aa07cf822ae192b8f8e2ec40e162d228d" id="r_aa07cf822ae192b8f8e2ec40e162d228d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa07cf822ae192b8f8e2ec40e162d228d">DestroyWindow</a> (const std::wstring &amp;windowName)</td></tr>
 <tr class="memdesc:aa07cf822ae192b8f8e2ec40e162d228d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy a window given the window name.  <br /></td></tr>
 <tr class="separator:aa07cf822ae192b8f8e2ec40e162d228d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92a7c25398695d3705e838e79da324ce" id="r_a92a7c25398695d3705e838e79da324ce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a92a7c25398695d3705e838e79da324ce">DestroyWindow</a> (std::shared_ptr&lt; <a class="el" href="class_window.html">Window</a> &gt; window)</td></tr>
+<tr class="memitem:a92a7c25398695d3705e838e79da324ce" id="r_a92a7c25398695d3705e838e79da324ce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a92a7c25398695d3705e838e79da324ce">DestroyWindow</a> (std::shared_ptr&lt; <a class="el" href="class_window.html">Window</a> &gt; window)</td></tr>
 <tr class="memdesc:a92a7c25398695d3705e838e79da324ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy a windo given the reference.  <br /></td></tr>
 <tr class="separator:a92a7c25398695d3705e838e79da324ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8bacb5acb592e62e101e867dbf50ad63" id="r_a8bacb5acb592e62e101e867dbf50ad63"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="class_window.html">Window</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8bacb5acb592e62e101e867dbf50ad63">GetWindowByName</a> (const std::wstring &amp;windowName)</td></tr>
@@ -140,61 +145,63 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a11433057fa04b7370b43ff700ff56c36" id="r_a11433057fa04b7370b43ff700ff56c36"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11433057fa04b7370b43ff700ff56c36">Run</a> (std::shared_ptr&lt; <a class="el" href="class_engine.html">Engine</a> &gt; pEngine)</td></tr>
 <tr class="memdesc:a11433057fa04b7370b43ff700ff56c36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run the application loop and message pump.  <br /></td></tr>
 <tr class="separator:a11433057fa04b7370b43ff700ff56c36"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab9282563d1e6bcdbb0719c7697983ce4" id="r_ab9282563d1e6bcdbb0719c7697983ce4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9282563d1e6bcdbb0719c7697983ce4">Quit</a> (int exitCode=0)</td></tr>
+<tr class="memitem:ab9282563d1e6bcdbb0719c7697983ce4" id="r_ab9282563d1e6bcdbb0719c7697983ce4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9282563d1e6bcdbb0719c7697983ce4">Quit</a> (int exitCode=0)</td></tr>
 <tr class="memdesc:ab9282563d1e6bcdbb0719c7697983ce4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Request to quit the application and close all window.  <br /></td></tr>
 <tr class="separator:ab9282563d1e6bcdbb0719c7697983ce4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb123f2bff72ba50f82b7e3ba4111e01" id="r_aeb123f2bff72ba50f82b7e3ba4111e01"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; ID3D12Device5 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb123f2bff72ba50f82b7e3ba4111e01">GetDevice</a> () const</td></tr>
+<tr class="memitem:aeb123f2bff72ba50f82b7e3ba4111e01" id="r_aeb123f2bff72ba50f82b7e3ba4111e01"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; <a class="el" href="d3d12_8h.html#ad88deb8a621c6f48c18fed30e523a41d">ID3D12Device5</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb123f2bff72ba50f82b7e3ba4111e01">GetDevice</a> () const</td></tr>
 <tr class="memdesc:aeb123f2bff72ba50f82b7e3ba4111e01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the DX12 device.  <br /></td></tr>
 <tr class="separator:aeb123f2bff72ba50f82b7e3ba4111e01"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6fa3ecbee14100e6a8ec3171d3452a67" id="r_a6fa3ecbee14100e6a8ec3171d3452a67"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="class_command_queue.html">CommandQueue</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6fa3ecbee14100e6a8ec3171d3452a67">GetCommandQueue</a> (D3D12_COMMAND_LIST_TYPE type=D3D12_COMMAND_LIST_TYPE_DIRECT) const</td></tr>
+<tr class="memitem:a6fa3ecbee14100e6a8ec3171d3452a67" id="r_a6fa3ecbee14100e6a8ec3171d3452a67"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="class_command_queue.html">CommandQueue</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6fa3ecbee14100e6a8ec3171d3452a67">GetCommandQueue</a> (<a class="el" href="d3d12_8idl.html#a58071dee5aa123a722f372cc643c7333">D3D12_COMMAND_LIST_TYPE</a> type=<a class="el" href="d3d12_8idl.html#a58071dee5aa123a722f372cc643c7333a8a72cc5f588340f2625253afffdc5eba">D3D12_COMMAND_LIST_TYPE_DIRECT</a>) const</td></tr>
 <tr class="memdesc:a6fa3ecbee14100e6a8ec3171d3452a67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a command queue.  <br /></td></tr>
 <tr class="separator:a6fa3ecbee14100e6a8ec3171d3452a67"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a47230b8f5deaa8f44bcd5677a1e2c551" id="r_a47230b8f5deaa8f44bcd5677a1e2c551"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47230b8f5deaa8f44bcd5677a1e2c551">Flush</a> ()</td></tr>
+<tr class="memitem:a47230b8f5deaa8f44bcd5677a1e2c551" id="r_a47230b8f5deaa8f44bcd5677a1e2c551"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47230b8f5deaa8f44bcd5677a1e2c551">Flush</a> ()</td></tr>
 <tr class="memdesc:a47230b8f5deaa8f44bcd5677a1e2c551"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flush all command queues.  <br /></td></tr>
 <tr class="separator:a47230b8f5deaa8f44bcd5677a1e2c551"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a934a3f12bd891662086520ddbe31e73f" id="r_a934a3f12bd891662086520ddbe31e73f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; <a class="el" href="interface_i_d3_d12_descriptor_heap.html">ID3D12DescriptorHeap</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a934a3f12bd891662086520ddbe31e73f">CreateDescriptorHeap</a> (UINT numDescriptors, D3D12_DESCRIPTOR_HEAP_TYPE type)</td></tr>
+<tr class="memitem:a934a3f12bd891662086520ddbe31e73f" id="r_a934a3f12bd891662086520ddbe31e73f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; <a class="el" href="interface_i_d3_d12_descriptor_heap.html">ID3D12DescriptorHeap</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a934a3f12bd891662086520ddbe31e73f">CreateDescriptorHeap</a> (<a class="el" href="basetsd_8h.html#a2e2c38961834f28c06e17e074eb00bc7">UINT</a> numDescriptors, <a class="el" href="d3d12_8idl.html#ad48f91971eb4cc5f27213d96cefae504">D3D12_DESCRIPTOR_HEAP_TYPE</a> type)</td></tr>
 <tr class="memdesc:a934a3f12bd891662086520ddbe31e73f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the descriptor heap.  <br /></td></tr>
 <tr class="separator:a934a3f12bd891662086520ddbe31e73f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac53e81442871d48730caefeba635870c" id="r_ac53e81442871d48730caefeba635870c"><td class="memItemLeft" align="right" valign="top">UINT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac53e81442871d48730caefeba635870c">GetDescriptorHandleIncrementSize</a> (D3D12_DESCRIPTOR_HEAP_TYPE type)</td></tr>
+<tr class="memitem:ac53e81442871d48730caefeba635870c" id="r_ac53e81442871d48730caefeba635870c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="basetsd_8h.html#a2e2c38961834f28c06e17e074eb00bc7">UINT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac53e81442871d48730caefeba635870c">GetDescriptorHandleIncrementSize</a> (<a class="el" href="d3d12_8idl.html#ad48f91971eb4cc5f27213d96cefae504">D3D12_DESCRIPTOR_HEAP_TYPE</a> type)</td></tr>
 <tr class="memdesc:ac53e81442871d48730caefeba635870c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the descriptor increment size.  <br /></td></tr>
 <tr class="separator:ac53e81442871d48730caefeba635870c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad002ae39c4cc630d9f8fe4bcfba86898" id="r_ad002ae39c4cc630d9f8fe4bcfba86898"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad002ae39c4cc630d9f8fe4bcfba86898">IsParentWnd</a> (HWND wnd)</td></tr>
+<tr class="memitem:ad002ae39c4cc630d9f8fe4bcfba86898" id="r_ad002ae39c4cc630d9f8fe4bcfba86898"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad002ae39c4cc630d9f8fe4bcfba86898">IsParentWnd</a> (<a class="el" href="basetsd_8h.html#a937ee85fd6801aee1e6813d824431cbb">HWND</a> wnd)</td></tr>
 <tr class="separator:ad002ae39c4cc630d9f8fe4bcfba86898"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:adda81600b29c682b98f6b68ec264100d" id="r_adda81600b29c682b98f6b68ec264100d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adda81600b29c682b98f6b68ec264100d">Create</a> (HINSTANCE hInst, HWND parentWnd=nullptr)</td></tr>
+<tr class="memitem:adda81600b29c682b98f6b68ec264100d" id="r_adda81600b29c682b98f6b68ec264100d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adda81600b29c682b98f6b68ec264100d">Create</a> (HINSTANCE hInst, <a class="el" href="basetsd_8h.html#a937ee85fd6801aee1e6813d824431cbb">HWND</a> parentWnd=nullptr)</td></tr>
 <tr class="memdesc:adda81600b29c682b98f6b68ec264100d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create the application singleton with the application instance handle.  <br /></td></tr>
 <tr class="separator:adda81600b29c682b98f6b68ec264100d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afc5cf60be3126b7c87e080028951e2eb" id="r_afc5cf60be3126b7c87e080028951e2eb"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc5cf60be3126b7c87e080028951e2eb">Destroy</a> ()</td></tr>
+<tr class="memitem:afc5cf60be3126b7c87e080028951e2eb" id="r_afc5cf60be3126b7c87e080028951e2eb"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc5cf60be3126b7c87e080028951e2eb">Destroy</a> ()</td></tr>
 <tr class="memdesc:afc5cf60be3126b7c87e080028951e2eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy the application instance and all windows created by application instance.  <br /></td></tr>
 <tr class="separator:afc5cf60be3126b7c87e080028951e2eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e845f48480d75705a2264c8f16a8e87" id="r_a2e845f48480d75705a2264c8f16a8e87"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_application.html">Application</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e845f48480d75705a2264c8f16a8e87">Get</a> ()</td></tr>
 <tr class="memdesc:a2e845f48480d75705a2264c8f16a8e87"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the application singleton.  <br /></td></tr>
 <tr class="separator:a2e845f48480d75705a2264c8f16a8e87"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a505120897efbec34b9f40745988f33de" id="r_a505120897efbec34b9f40745988f33de"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a505120897efbec34b9f40745988f33de">RemoveWindow</a> (HWND hWnd)</td></tr>
+<tr class="memitem:a505120897efbec34b9f40745988f33de" id="r_a505120897efbec34b9f40745988f33de"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a505120897efbec34b9f40745988f33de">RemoveWindow</a> (<a class="el" href="basetsd_8h.html#a937ee85fd6801aee1e6813d824431cbb">HWND</a> hWnd)</td></tr>
 <tr class="separator:a505120897efbec34b9f40745988f33de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2dd87c54372d2356ff96c257c8f40994" id="r_a2dd87c54372d2356ff96c257c8f40994"><td class="memItemLeft" align="right" valign="top">static WindowPtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2dd87c54372d2356ff96c257c8f40994">Find</a> (HWND hwnd)</td></tr>
+<tr class="memitem:a2dd87c54372d2356ff96c257c8f40994" id="r_a2dd87c54372d2356ff96c257c8f40994"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="_application_8h.html#a1924281774a2d1f826b6d003a7d9c91d">WindowPtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2dd87c54372d2356ff96c257c8f40994">Find</a> (<a class="el" href="basetsd_8h.html#a937ee85fd6801aee1e6813d824431cbb">HWND</a> hwnd)</td></tr>
 <tr class="separator:a2dd87c54372d2356ff96c257c8f40994"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec99feade2646069bf6189d4f4213d16" id="r_aec99feade2646069bf6189d4f4213d16"><td class="memItemLeft" align="right" valign="top">static uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec99feade2646069bf6189d4f4213d16">GetFrameCount</a> ()</td></tr>
 <tr class="separator:aec99feade2646069bf6189d4f4213d16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:a0a7617fcd1f5d8947c79010988dc97f5" id="r_a0a7617fcd1f5d8947c79010988dc97f5"><td class="memItemLeft" align="right" valign="top">static WindowMap&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a7617fcd1f5d8947c79010988dc97f5">gs_Windows</a></td></tr>
+<tr class="memitem:a0a7617fcd1f5d8947c79010988dc97f5" id="r_a0a7617fcd1f5d8947c79010988dc97f5"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="_application_8h.html#a8a836054c40b086e4843aac3feba6616">WindowMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a7617fcd1f5d8947c79010988dc97f5">gs_Windows</a></td></tr>
 <tr class="separator:a0a7617fcd1f5d8947c79010988dc97f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a30c6658b1d927e53bb1c13b29a3d0c8d" id="r_a30c6658b1d927e53bb1c13b29a3d0c8d"><td class="memItemLeft" align="right" valign="top">static WindowNameMap&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30c6658b1d927e53bb1c13b29a3d0c8d">gs_WindowByName</a></td></tr>
+<tr class="memitem:a30c6658b1d927e53bb1c13b29a3d0c8d" id="r_a30c6658b1d927e53bb1c13b29a3d0c8d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="_application_8h.html#a259d5c8d23d1e5e9fd4e6b88903d1e23">WindowNameMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30c6658b1d927e53bb1c13b29a3d0c8d">gs_WindowByName</a></td></tr>
 <tr class="separator:a30c6658b1d927e53bb1c13b29a3d0c8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:adb29b88dc9f17d0629b639114809dd3d" id="r_adb29b88dc9f17d0629b639114809dd3d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb29b88dc9f17d0629b639114809dd3d">Application</a> (HINSTANCE hInst, HWND parentWnd=nullptr)</td></tr>
+<tr class="memitem:adb29b88dc9f17d0629b639114809dd3d" id="r_adb29b88dc9f17d0629b639114809dd3d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb29b88dc9f17d0629b639114809dd3d">Application</a> (HINSTANCE hInst, <a class="el" href="basetsd_8h.html#a937ee85fd6801aee1e6813d824431cbb">HWND</a> parentWnd=nullptr)</td></tr>
 <tr class="memdesc:adb29b88dc9f17d0629b639114809dd3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create an application instance.  <br /></td></tr>
 <tr class="separator:adb29b88dc9f17d0629b639114809dd3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a748bca84fefb9c12661cfaa2f623748d" id="r_a748bca84fefb9c12661cfaa2f623748d"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a748bca84fefb9c12661cfaa2f623748d">~Application</a> ()</td></tr>
+<tr class="separator:a748bca84fefb9c12661cfaa2f623748d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ffc517e3f60f36d7d4ced1705ec38cb" id="r_a3ffc517e3f60f36d7d4ced1705ec38cb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; IDXGIAdapter4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ffc517e3f60f36d7d4ced1705ec38cb">GetAdapter</a> (bool useWarp)</td></tr>
 <tr class="memdesc:a3ffc517e3f60f36d7d4ced1705ec38cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the adapter.  <br /></td></tr>
 <tr class="separator:a3ffc517e3f60f36d7d4ced1705ec38cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff6a7bdb8a270525ff050c5b5704ab95" id="r_aff6a7bdb8a270525ff050c5b5704ab95"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; ID3D12Device5 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff6a7bdb8a270525ff050c5b5704ab95">CreateDevice</a> (<a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; IDXGIAdapter4 &gt; adapter)</td></tr>
+<tr class="memitem:aff6a7bdb8a270525ff050c5b5704ab95" id="r_aff6a7bdb8a270525ff050c5b5704ab95"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; <a class="el" href="d3d12_8h.html#ad88deb8a621c6f48c18fed30e523a41d">ID3D12Device5</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff6a7bdb8a270525ff050c5b5704ab95">CreateDevice</a> (<a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; IDXGIAdapter4 &gt; adapter)</td></tr>
 <tr class="memdesc:aff6a7bdb8a270525ff050c5b5704ab95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create the device object.  <br /></td></tr>
 <tr class="separator:aff6a7bdb8a270525ff050c5b5704ab95"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a757136d265fa0fe2610090c346d3e905" id="r_a757136d265fa0fe2610090c346d3e905"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a757136d265fa0fe2610090c346d3e905">CheckTearingSupport</a> ()</td></tr>
@@ -208,9 +215,45 @@ Static Protected Attributes</h2></td></tr>
 <tr class="memitem:af043145d3998a75a0b5e2333e277324d" id="r_af043145d3998a75a0b5e2333e277324d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_application.html">Application</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af043145d3998a75a0b5e2333e277324d">gs_pSingelton</a> = nullptr</td></tr>
 <tr class="separator:af043145d3998a75a0b5e2333e277324d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:affaef8655bbc5bd46bb040c87af169ce" id="r_affaef8655bbc5bd46bb040c87af169ce"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#affaef8655bbc5bd46bb040c87af169ce">Application</a> (const <a class="el" href="class_application.html">Application</a> &amp;copy)=delete</td></tr>
+<tr class="separator:affaef8655bbc5bd46bb040c87af169ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abae098df9b44712ce0f54fc76d6f4139" id="r_abae098df9b44712ce0f54fc76d6f4139"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_application.html">Application</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abae098df9b44712ce0f54fc76d6f4139">operator=</a> (const <a class="el" href="class_application.html">Application</a> &amp;other)=delete</td></tr>
+<tr class="separator:abae098df9b44712ce0f54fc76d6f4139"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a3bae822aaed8a430bfc6c45678135563" id="r_a3bae822aaed8a430bfc6c45678135563"><td class="memItemLeft" align="right" valign="top">HINSTANCE&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3bae822aaed8a430bfc6c45678135563">m_hInstance</a></td></tr>
+<tr class="memdesc:a3bae822aaed8a430bfc6c45678135563"><td class="mdescLeft">&#160;</td><td class="mdescRight">The application instance handle that this application was created with.  <br /></td></tr>
+<tr class="separator:a3bae822aaed8a430bfc6c45678135563"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a940fe02ffbf4ca3160dbfb1b6dcf6ab8" id="r_a940fe02ffbf4ca3160dbfb1b6dcf6ab8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="basetsd_8h.html#a937ee85fd6801aee1e6813d824431cbb">HWND</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a940fe02ffbf4ca3160dbfb1b6dcf6ab8">m_ParentWnd</a></td></tr>
+<tr class="separator:a940fe02ffbf4ca3160dbfb1b6dcf6ab8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad20c1d414ab8c39eab9bb8e365115148" id="r_ad20c1d414ab8c39eab9bb8e365115148"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; IDXGIAdapter4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad20c1d414ab8c39eab9bb8e365115148">m_dxgiAdapter</a></td></tr>
+<tr class="separator:ad20c1d414ab8c39eab9bb8e365115148"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af381b0c799df456a4880ab6362c65c54" id="r_af381b0c799df456a4880ab6362c65c54"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; IDXGIFactory4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af381b0c799df456a4880ab6362c65c54">m_dxgiFactory</a></td></tr>
+<tr class="separator:af381b0c799df456a4880ab6362c65c54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3678fbbbe9764a216754f517fa1c07f7" id="r_a3678fbbbe9764a216754f517fa1c07f7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; <a class="el" href="d3d12_8h.html#ad88deb8a621c6f48c18fed30e523a41d">ID3D12Device5</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3678fbbbe9764a216754f517fa1c07f7">m_d3d12Device</a></td></tr>
+<tr class="separator:a3678fbbbe9764a216754f517fa1c07f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8bbb27b37286b5b86866f50e1ae6be81" id="r_a8bbb27b37286b5b86866f50e1ae6be81"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="class_command_queue.html">CommandQueue</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8bbb27b37286b5b86866f50e1ae6be81">m_DirectCommandQueue</a></td></tr>
+<tr class="separator:a8bbb27b37286b5b86866f50e1ae6be81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1aa4ead3ee8a2c4f34e3c601624a5c5" id="r_ae1aa4ead3ee8a2c4f34e3c601624a5c5"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="class_command_queue.html">CommandQueue</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1aa4ead3ee8a2c4f34e3c601624a5c5">m_ComputeCommandQueue</a></td></tr>
+<tr class="separator:ae1aa4ead3ee8a2c4f34e3c601624a5c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04e6f5d31940cae0a405c9af05990859" id="r_a04e6f5d31940cae0a405c9af05990859"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="class_command_queue.html">CommandQueue</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04e6f5d31940cae0a405c9af05990859">m_CopyCommandQueue</a></td></tr>
+<tr class="separator:a04e6f5d31940cae0a405c9af05990859"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab97a536beabe441682379a1d2977be5a" id="r_ab97a536beabe441682379a1d2977be5a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab97a536beabe441682379a1d2977be5a">m_TeraingSupported</a></td></tr>
+<tr class="separator:ab97a536beabe441682379a1d2977be5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a099578b78b270dfdef47bf9bcca772ff" id="r_a099578b78b270dfdef47bf9bcca772ff"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a099578b78b270dfdef47bf9bcca772ff">m_RaytracingSupported</a></td></tr>
+<tr class="separator:a099578b78b270dfdef47bf9bcca772ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a4ccfd709763be2aea814db65355581c3" id="r_a4ccfd709763be2aea814db65355581c3"><td class="memItemLeft" align="right" valign="top">static uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ccfd709763be2aea814db65355581c3">s_FrameCount</a> = 0</td></tr>
+<tr class="separator:a4ccfd709763be2aea814db65355581c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="friends" name="friends"></a>
 Friends</h2></td></tr>
-<tr class="memitem:ac996a0edf7f6d6736f7f2920665a453d" id="r_ac996a0edf7f6d6736f7f2920665a453d"><td class="memItemLeft" align="right" valign="top">LRESULT CALLBACK&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac996a0edf7f6d6736f7f2920665a453d">WndProc</a> (HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam)</td></tr>
+<tr class="memitem:ac996a0edf7f6d6736f7f2920665a453d" id="r_ac996a0edf7f6d6736f7f2920665a453d"><td class="memItemLeft" align="right" valign="top">LRESULT CALLBACK&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac996a0edf7f6d6736f7f2920665a453d">WndProc</a> (<a class="el" href="basetsd_8h.html#a937ee85fd6801aee1e6813d824431cbb">HWND</a> hwnd, <a class="el" href="basetsd_8h.html#a2e2c38961834f28c06e17e074eb00bc7">UINT</a> message, WPARAM wParam, LPARAM lParam)</td></tr>
 <tr class="separator:ac996a0edf7f6d6736f7f2920665a453d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -218,7 +261,7 @@ Friends</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="_application_8h_source.html#l00024">24</a> of file <a class="el" href="_application_8h_source.html">Application.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="adb29b88dc9f17d0629b639114809dd3d" name="adb29b88dc9f17d0629b639114809dd3d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adb29b88dc9f17d0629b639114809dd3d">&#9670;&#160;</a></span>Application()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#adb29b88dc9f17d0629b639114809dd3d">&#9670;&#160;</a></span>Application() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -234,7 +277,7 @@ Friends</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">HWND</td>          <td class="paramname"><span class="paramname"><em>parentWnd</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#a937ee85fd6801aee1e6813d824431cbb">HWND</a></td>          <td class="paramname"><span class="paramname"><em>parentWnd</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -280,6 +323,31 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="_application_8cpp_source.html#l00428">428</a> of file <a class="el" href="_application_8cpp_source.html">Application.cpp</a>.</p>
+
+</div>
+</div>
+<a id="affaef8655bbc5bd46bb040c87af169ce" name="affaef8655bbc5bd46bb040c87af169ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#affaef8655bbc5bd46bb040c87af169ce">&#9670;&#160;</a></span>Application() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Application::Application </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_application.html">Application</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>copy</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span><span class="mlabel delete">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -351,14 +419,14 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Application::Create </td>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> Application::Create </td>
           <td>(</td>
           <td class="paramtype">HINSTANCE</td>          <td class="paramname"><span class="paramname"><em>hInst</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">HWND</td>          <td class="paramname"><span class="paramname"><em>parentWnd</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#a937ee85fd6801aee1e6813d824431cbb">HWND</a></td>          <td class="paramname"><span class="paramname"><em>parentWnd</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -389,12 +457,12 @@ Friends</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; <a class="el" href="interface_i_d3_d12_descriptor_heap.html">ID3D12DescriptorHeap</a> &gt; Application::CreateDescriptorHeap </td>
           <td>(</td>
-          <td class="paramtype">UINT</td>          <td class="paramname"><span class="paramname"><em>numDescriptors</em></span>, </td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#a2e2c38961834f28c06e17e074eb00bc7">UINT</a></td>          <td class="paramname"><span class="paramname"><em>numDescriptors</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">D3D12_DESCRIPTOR_HEAP_TYPE</td>          <td class="paramname"><span class="paramname"><em>type</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="d3d12_8idl.html#ad48f91971eb4cc5f27213d96cefae504">D3D12_DESCRIPTOR_HEAP_TYPE</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -423,7 +491,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; ID3D12Device5 &gt; Application::CreateDevice </td>
+          <td class="memname"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; <a class="el" href="d3d12_8h.html#ad88deb8a621c6f48c18fed30e523a41d">ID3D12Device5</a> &gt; Application::CreateDevice </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; IDXGIAdapter4 &gt;</td>          <td class="paramname"><span class="paramname"><em>adapter</em></span></td><td>)</td>
           <td></td>
@@ -504,7 +572,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Application::Destroy </td>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> Application::Destroy </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -530,7 +598,7 @@ Friends</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void Application::DestroyWindow </td>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> Application::DestroyWindow </td>
           <td>(</td>
           <td class="paramtype">const std::wstring &amp;</td>          <td class="paramname"><span class="paramname"><em>windowName</em></span></td><td>)</td>
           <td></td>
@@ -557,7 +625,7 @@ Friends</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void Application::DestroyWindow </td>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> Application::DestroyWindow </td>
           <td>(</td>
           <td class="paramtype">std::shared_ptr&lt; <a class="el" href="class_window.html">Window</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>window</em></span></td><td>)</td>
           <td></td>
@@ -587,9 +655,9 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">WindowPtr Application::Find </td>
+          <td class="memname"><a class="el" href="_application_8h.html#a1924281774a2d1f826b6d003a7d9c91d">WindowPtr</a> Application::Find </td>
           <td>(</td>
-          <td class="paramtype">HWND</td>          <td class="paramname"><span class="paramname"><em>hwnd</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#a937ee85fd6801aee1e6813d824431cbb">HWND</a></td>          <td class="paramname"><span class="paramname"><em>hwnd</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -611,7 +679,7 @@ Friends</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void Application::Flush </td>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> Application::Flush </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -700,7 +768,7 @@ Friends</h2></td></tr>
         <tr>
           <td class="memname">std::shared_ptr&lt; <a class="el" href="class_command_queue.html">CommandQueue</a> &gt; Application::GetCommandQueue </td>
           <td>(</td>
-          <td class="paramtype">D3D12_COMMAND_LIST_TYPE</td>          <td class="paramname"><span class="paramname"><em>type</em></span><span class="paramdefsep"> = </span><span class="paramdefval">D3D12_COMMAND_LIST_TYPE_DIRECT</span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="d3d12_8idl.html#a58071dee5aa123a722f372cc643c7333">D3D12_COMMAND_LIST_TYPE</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="d3d12_8idl.html#a58071dee5aa123a722f372cc643c7333a8a72cc5f588340f2625253afffdc5eba">D3D12_COMMAND_LIST_TYPE_DIRECT</a></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -726,9 +794,9 @@ Friends</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">UINT Application::GetDescriptorHandleIncrementSize </td>
+          <td class="memname"><a class="el" href="basetsd_8h.html#a2e2c38961834f28c06e17e074eb00bc7">UINT</a> Application::GetDescriptorHandleIncrementSize </td>
           <td>(</td>
-          <td class="paramtype">D3D12_DESCRIPTOR_HEAP_TYPE</td>          <td class="paramname"><span class="paramname"><em>type</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="d3d12_8idl.html#ad48f91971eb4cc5f27213d96cefae504">D3D12_DESCRIPTOR_HEAP_TYPE</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -754,7 +822,7 @@ Friends</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; ID3D12Device5 &gt; Application::GetDevice </td>
+          <td class="memname"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt; <a class="el" href="d3d12_8h.html#ad88deb8a621c6f48c18fed30e523a41d">ID3D12Device5</a> &gt; Application::GetDevice </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -831,7 +899,7 @@ Friends</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void Application::Initialize </td>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> Application::Initialize </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -852,7 +920,7 @@ Friends</h2></td></tr>
         <tr>
           <td class="memname">bool Application::IsParentWnd </td>
           <td>(</td>
-          <td class="paramtype">HWND</td>          <td class="paramname"><span class="paramname"><em>wnd</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#a937ee85fd6801aee1e6813d824431cbb">HWND</a></td>          <td class="paramname"><span class="paramname"><em>wnd</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -884,6 +952,31 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="abae098df9b44712ce0f54fc76d6f4139" name="abae098df9b44712ce0f54fc76d6f4139"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abae098df9b44712ce0f54fc76d6f4139">&#9670;&#160;</a></span>operator=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_application.html">Application</a> &amp; Application::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_application.html">Application</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span><span class="mlabel delete">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ab9282563d1e6bcdbb0719c7697983ce4" name="ab9282563d1e6bcdbb0719c7697983ce4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab9282563d1e6bcdbb0719c7697983ce4">&#9670;&#160;</a></span>Quit()</h2>
 
@@ -891,7 +984,7 @@ Friends</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void Application::Quit </td>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> Application::Quit </td>
           <td>(</td>
           <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>exitCode</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0</span></td><td>)</td>
           <td></td>
@@ -921,9 +1014,9 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Application::RemoveWindow </td>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> Application::RemoveWindow </td>
           <td>(</td>
-          <td class="paramtype">HWND</td>          <td class="paramname"><span class="paramname"><em>hWnd</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#a937ee85fd6801aee1e6813d824431cbb">HWND</a></td>          <td class="paramname"><span class="paramname"><em>hWnd</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -979,12 +1072,12 @@ Friends</h2></td></tr>
         <tr>
           <td class="memname">LRESULT CALLBACK WndProc </td>
           <td>(</td>
-          <td class="paramtype">HWND</td>          <td class="paramname"><span class="paramname"><em>hwnd</em></span>, </td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#a937ee85fd6801aee1e6813d824431cbb">HWND</a></td>          <td class="paramname"><span class="paramname"><em>hwnd</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">UINT</td>          <td class="paramname"><span class="paramname"><em>message</em></span>, </td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#a2e2c38961834f28c06e17e074eb00bc7">UINT</a></td>          <td class="paramname"><span class="paramname"><em>message</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1043,7 +1136,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">WindowNameMap Application::gs_WindowByName</td>
+          <td class="memname"><a class="el" href="_application_8h.html#a259d5c8d23d1e5e9fd4e6b88903d1e23">WindowNameMap</a> Application::gs_WindowByName</td>
         </tr>
       </table>
   </td>
@@ -1067,7 +1160,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">WindowMap Application::gs_Windows</td>
+          <td class="memname"><a class="el" href="_application_8h.html#a8a836054c40b086e4843aac3feba6616">WindowMap</a> Application::gs_Windows</td>
         </tr>
       </table>
   </td>
@@ -1078,6 +1171,272 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="_application_8h_source.html#l00134">134</a> of file <a class="el" href="_application_8h_source.html">Application.h</a>.</p>
+
+</div>
+</div>
+<a id="ae1aa4ead3ee8a2c4f34e3c601624a5c5" name="ae1aa4ead3ee8a2c4f34e3c601624a5c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1aa4ead3ee8a2c4f34e3c601624a5c5">&#9670;&#160;</a></span>m_ComputeCommandQueue</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt;<a class="el" href="class_command_queue.html">CommandQueue</a>&gt; Application::m_ComputeCommandQueue</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_application_8h_source.html#l00187">187</a> of file <a class="el" href="_application_8h_source.html">Application.h</a>.</p>
+
+</div>
+</div>
+<a id="a04e6f5d31940cae0a405c9af05990859" name="a04e6f5d31940cae0a405c9af05990859"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04e6f5d31940cae0a405c9af05990859">&#9670;&#160;</a></span>m_CopyCommandQueue</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt;<a class="el" href="class_command_queue.html">CommandQueue</a>&gt; Application::m_CopyCommandQueue</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_application_8h_source.html#l00188">188</a> of file <a class="el" href="_application_8h_source.html">Application.h</a>.</p>
+
+</div>
+</div>
+<a id="a3678fbbbe9764a216754f517fa1c07f7" name="a3678fbbbe9764a216754f517fa1c07f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3678fbbbe9764a216754f517fa1c07f7">&#9670;&#160;</a></span>m_d3d12Device</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt;<a class="el" href="d3d12_8h.html#ad88deb8a621c6f48c18fed30e523a41d">ID3D12Device5</a>&gt; Application::m_d3d12Device</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_application_8h_source.html#l00184">184</a> of file <a class="el" href="_application_8h_source.html">Application.h</a>.</p>
+
+</div>
+</div>
+<a id="a8bbb27b37286b5b86866f50e1ae6be81" name="a8bbb27b37286b5b86866f50e1ae6be81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8bbb27b37286b5b86866f50e1ae6be81">&#9670;&#160;</a></span>m_DirectCommandQueue</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt;<a class="el" href="class_command_queue.html">CommandQueue</a>&gt; Application::m_DirectCommandQueue</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_application_8h_source.html#l00186">186</a> of file <a class="el" href="_application_8h_source.html">Application.h</a>.</p>
+
+</div>
+</div>
+<a id="ad20c1d414ab8c39eab9bb8e365115148" name="ad20c1d414ab8c39eab9bb8e365115148"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad20c1d414ab8c39eab9bb8e365115148">&#9670;&#160;</a></span>m_dxgiAdapter</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt;IDXGIAdapter4&gt; Application::m_dxgiAdapter</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_application_8h_source.html#l00182">182</a> of file <a class="el" href="_application_8h_source.html">Application.h</a>.</p>
+
+</div>
+</div>
+<a id="af381b0c799df456a4880ab6362c65c54" name="af381b0c799df456a4880ab6362c65c54"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af381b0c799df456a4880ab6362c65c54">&#9670;&#160;</a></span>m_dxgiFactory</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_com_ptr.html">ComPtr</a>&lt;IDXGIFactory4&gt; Application::m_dxgiFactory</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_application_8h_source.html#l00183">183</a> of file <a class="el" href="_application_8h_source.html">Application.h</a>.</p>
+
+</div>
+</div>
+<a id="a3bae822aaed8a430bfc6c45678135563" name="a3bae822aaed8a430bfc6c45678135563"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3bae822aaed8a430bfc6c45678135563">&#9670;&#160;</a></span>m_hInstance</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">HINSTANCE Application::m_hInstance</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The application instance handle that this application was created with. </p>
+
+<p class="definition">Definition at line <a class="el" href="_application_8h_source.html#l00178">178</a> of file <a class="el" href="_application_8h_source.html">Application.h</a>.</p>
+
+</div>
+</div>
+<a id="a940fe02ffbf4ca3160dbfb1b6dcf6ab8" name="a940fe02ffbf4ca3160dbfb1b6dcf6ab8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a940fe02ffbf4ca3160dbfb1b6dcf6ab8">&#9670;&#160;</a></span>m_ParentWnd</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="basetsd_8h.html#a937ee85fd6801aee1e6813d824431cbb">HWND</a> Application::m_ParentWnd</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_application_8h_source.html#l00180">180</a> of file <a class="el" href="_application_8h_source.html">Application.h</a>.</p>
+
+</div>
+</div>
+<a id="a099578b78b270dfdef47bf9bcca772ff" name="a099578b78b270dfdef47bf9bcca772ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a099578b78b270dfdef47bf9bcca772ff">&#9670;&#160;</a></span>m_RaytracingSupported</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Application::m_RaytracingSupported</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_application_8h_source.html#l00191">191</a> of file <a class="el" href="_application_8h_source.html">Application.h</a>.</p>
+
+</div>
+</div>
+<a id="ab97a536beabe441682379a1d2977be5a" name="ab97a536beabe441682379a1d2977be5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab97a536beabe441682379a1d2977be5a">&#9670;&#160;</a></span>m_TeraingSupported</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Application::m_TeraingSupported</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_application_8h_source.html#l00190">190</a> of file <a class="el" href="_application_8h_source.html">Application.h</a>.</p>
+
+</div>
+</div>
+<a id="a4ccfd709763be2aea814db65355581c3" name="a4ccfd709763be2aea814db65355581c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ccfd709763be2aea814db65355581c3">&#9670;&#160;</a></span>s_FrameCount</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint64_t Application::s_FrameCount = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_application_8h_source.html#l00193">193</a> of file <a class="el" href="_application_8h_source.html">Application.h</a>.</p>
 
 </div>
 </div>

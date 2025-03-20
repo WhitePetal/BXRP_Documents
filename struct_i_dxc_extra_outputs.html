@@ -126,17 +126,16 @@ Inheritance diagram for IDxcExtraOutputs:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a50b950e89376fcf95f4fde2229f68090" id="r_a50b950e89376fcf95f4fde2229f68090"><td class="memItemLeft" align="right" valign="top"><a id="a50b950e89376fcf95f4fde2229f68090" name="a50b950e89376fcf95f4fde2229f68090"></a>
-virtual UINT32 STDMETHODCALLTYPE&#160;</td><td class="memItemRight" valign="bottom"><b>GetOutputCount</b> ()=0</td></tr>
-<tr class="memdesc:a50b950e89376fcf95f4fde2229f68090"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the number of outputs available. <br /></td></tr>
+<tr class="memitem:a50b950e89376fcf95f4fde2229f68090" id="r_a50b950e89376fcf95f4fde2229f68090"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="basetsd_8h.html#adfe04a44baaebba6143c3a23507ff85b">UINT32</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50b950e89376fcf95f4fde2229f68090">GetOutputCount</a> ()=0</td></tr>
+<tr class="memdesc:a50b950e89376fcf95f4fde2229f68090"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the number of outputs available.  <br /></td></tr>
 <tr class="separator:a50b950e89376fcf95f4fde2229f68090"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac3d6b9f7758a68e2619f1dde30f1ed8e" id="r_ac3d6b9f7758a68e2619f1dde30f1ed8e"><td class="memItemLeft" align="right" valign="top">virtual HRESULT STDMETHODCALLTYPE&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3d6b9f7758a68e2619f1dde30f1ed8e">GetOutput</a> (_In_ UINT32 uIndex, _In_ REFIID iid, _COM_Outptr_opt_result_maybenull_ void **ppvObject, _COM_Outptr_opt_result_maybenull_ <a class="el" href="struct_i_dxc_blob_wide.html">IDxcBlobWide</a> **ppOutputType, _COM_Outptr_opt_result_maybenull_ <a class="el" href="struct_i_dxc_blob_wide.html">IDxcBlobWide</a> **ppOutputName)=0</td></tr>
+<tr class="memitem:ac3d6b9f7758a68e2619f1dde30f1ed8e" id="r_ac3d6b9f7758a68e2619f1dde30f1ed8e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3d6b9f7758a68e2619f1dde30f1ed8e">GetOutput</a> (<a class="el" href="basetsd_8h.html#aa74f89aa7d942f4a79ea12d7c9b763ef">_In_</a> <a class="el" href="basetsd_8h.html#adfe04a44baaebba6143c3a23507ff85b">UINT32</a> uIndex, <a class="el" href="basetsd_8h.html#aa74f89aa7d942f4a79ea12d7c9b763ef">_In_</a> <a class="el" href="basetsd_8h.html#a1246040d86d82dd9e6151a67b4ca3f89">REFIID</a> iid, <a class="el" href="basetsd_8h.html#a09bb24bdc826c8043f1a681361d9bbce">_COM_Outptr_opt_result_maybenull_</a> <a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> **ppvObject, <a class="el" href="basetsd_8h.html#a09bb24bdc826c8043f1a681361d9bbce">_COM_Outptr_opt_result_maybenull_</a> <a class="el" href="struct_i_dxc_blob_wide.html">IDxcBlobWide</a> **ppOutputType, <a class="el" href="basetsd_8h.html#a09bb24bdc826c8043f1a681361d9bbce">_COM_Outptr_opt_result_maybenull_</a> <a class="el" href="struct_i_dxc_blob_wide.html">IDxcBlobWide</a> **ppOutputName)=0</td></tr>
 <tr class="memdesc:ac3d6b9f7758a68e2619f1dde30f1ed8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the specified output.  <br /></td></tr>
 <tr class="separator:ac3d6b9f7758a68e2619f1dde30f1ed8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Additional outputs from a DXC operation. </p>
-<p>This can be used to obtain outputs that don't have an explicit DXC_OUT_KIND. Use DXC_OUT_EXTRA_OUTPUTS to obtain instances of this. </p>
+<p>This can be used to obtain outputs that don't have an explicit <a class="el" href="dxcapi_8h.html#a0bb3d5554274516853fc0baeb66ff19c" title="Specifies the kind of output to retrieve from a IDxcResult.">DXC_OUT_KIND</a>. Use DXC_OUT_EXTRA_OUTPUTS to obtain instances of this. </p>
 
 <p class="definition">Definition at line <a class="el" href="dxcapi_8h_source.html#l00804">804</a> of file <a class="el" href="dxcapi_8h_source.html">dxcapi.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
@@ -150,29 +149,29 @@ virtual UINT32 STDMETHODCALLTYPE&#160;</td><td class="memItemRight" valign="bott
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual HRESULT STDMETHODCALLTYPE IDxcExtraOutputs::GetOutput </td>
+          <td class="memname">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a> IDxcExtraOutputs::GetOutput </td>
           <td>(</td>
-          <td class="paramtype">_In_ UINT32</td>          <td class="paramname"><span class="paramname"><em>uIndex</em></span>, </td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#aa74f89aa7d942f4a79ea12d7c9b763ef">_In_</a> <a class="el" href="basetsd_8h.html#adfe04a44baaebba6143c3a23507ff85b">UINT32</a></td>          <td class="paramname"><span class="paramname"><em>uIndex</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">_In_ REFIID</td>          <td class="paramname"><span class="paramname"><em>iid</em></span>, </td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#aa74f89aa7d942f4a79ea12d7c9b763ef">_In_</a> <a class="el" href="basetsd_8h.html#a1246040d86d82dd9e6151a67b4ca3f89">REFIID</a></td>          <td class="paramname"><span class="paramname"><em>iid</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">_COM_Outptr_opt_result_maybenull_ void **</td>          <td class="paramname"><span class="paramname"><em>ppvObject</em></span>, </td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#a09bb24bdc826c8043f1a681361d9bbce">_COM_Outptr_opt_result_maybenull_</a> <a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> **</td>          <td class="paramname"><span class="paramname"><em>ppvObject</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">_COM_Outptr_opt_result_maybenull_ <a class="el" href="struct_i_dxc_blob_wide.html">IDxcBlobWide</a> **</td>          <td class="paramname"><span class="paramname"><em>ppOutputType</em></span>, </td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#a09bb24bdc826c8043f1a681361d9bbce">_COM_Outptr_opt_result_maybenull_</a> <a class="el" href="struct_i_dxc_blob_wide.html">IDxcBlobWide</a> **</td>          <td class="paramname"><span class="paramname"><em>ppOutputType</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">_COM_Outptr_opt_result_maybenull_ <a class="el" href="struct_i_dxc_blob_wide.html">IDxcBlobWide</a> **</td>          <td class="paramname"><span class="paramname"><em>ppOutputName</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#a09bb24bdc826c8043f1a681361d9bbce">_COM_Outptr_opt_result_maybenull_</a> <a class="el" href="struct_i_dxc_blob_wide.html">IDxcBlobWide</a> **</td>          <td class="paramname"><span class="paramname"><em>ppOutputName</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -186,13 +185,40 @@ virtual UINT32 STDMETHODCALLTYPE&#160;</td><td class="memItemRight" valign="bott
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">uIndex</td><td>The index of the output to retrieve.</td></tr>
-    <tr><td class="paramname">iid</td><td>The interface ID of the output interface.</td></tr>
+    <tr><td class="paramname">iid</td><td>The interface <a class="el" href="d3d12sdklayers_8h.html#adf12c3bc5be81348494fc5573662da5e">ID</a> of the output interface.</td></tr>
     <tr><td class="paramname">ppvObject</td><td>Optional address of the pointer that receives a pointer to the output if there is one.</td></tr>
     <tr><td class="paramname">ppOutputType</td><td>Optional address of the pointer that receives the output type name blob if there is one.</td></tr>
     <tr><td class="paramname">ppOutputName</td><td>Optional address of the pointer that receives the output name blob if there is one. </td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a50b950e89376fcf95f4fde2229f68090" name="a50b950e89376fcf95f4fde2229f68090"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50b950e89376fcf95f4fde2229f68090">&#9670;&#160;</a></span>GetOutputCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="basetsd_8h.html#adfe04a44baaebba6143c3a23507ff85b">UINT32</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a> IDxcExtraOutputs::GetOutputCount </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retrieves the number of outputs available. </p>
 
 </div>
 </div>

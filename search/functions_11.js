@@ -1,5 +1,11 @@
 var searchData=
 [
-  ['transitionresource_0',['TransitionResource',['../class_engine.html#a2f96ef2d8a4b60f0f7ccd739774532af',1,'Engine']]],
-  ['trygetrendercommonsettings_1',['TryGetRenderCommonSettings',['../class_b_x_render_pipeline_1_1_b_x_render_pipeline.html#a2ff49dcbb1732b9e996eaacead9e86b6',1,'BXRenderPipeline::BXRenderPipeline']]]
+  ['queryhighestfeaturelevel_0',['QueryHighestFeatureLevel',['../class_c_d3_d_x12_feature_support.html#a2a29fda91d12f769df5e7522024d21c7',1,'CD3DX12FeatureSupport']]],
+  ['queryhighestrootsignatureversion_1',['QueryHighestRootSignatureVersion',['../class_c_d3_d_x12_feature_support.html#a8b3abd19d3d47a2901c16a4a903f338a',1,'CD3DX12FeatureSupport']]],
+  ['queryhighestshadermodel_2',['QueryHighestShaderModel',['../class_c_d3_d_x12_feature_support.html#ac84a821229559bd712c83130ade16de0',1,'CD3DX12FeatureSupport']]],
+  ['queryinterface_3',['QueryInterface',['../class_mock_device.html#acbff36ff63402fb90f4d564ee383899b',1,'MockDevice::QueryInterface()'],['../class_microsoft_1_1_w_r_l_1_1_details_1_1_runtime_class_impl.html#ab5e1133b4b86fbfb4ba8bc75b7e6a863',1,'Microsoft::WRL::Details::RuntimeClassImpl::QueryInterface()']]],
+  ['querymetacommand_4',['QueryMetaCommand',['../class_c_d3_d_x12_feature_support.html#ab6468edc5f55b02e8be03cf318280269',1,'CD3DX12FeatureSupport']]],
+  ['queryprotectedresourcesessiontypes_5',['QueryProtectedResourceSessionTypes',['../class_c_d3_d_x12_feature_support.html#a7c060b1297e8153a805c6a5361f44c91',1,'CD3DX12FeatureSupport']]],
+  ['quicksort_3c_20t_20_3e_6',['QuickSort&lt; T &gt;',['../class_b_x_render_pipeline_1_1_dynamic_array_extensions.html#a661ca0d841559593cd553032ff467f58',1,'BXRenderPipeline.DynamicArrayExtensions.QuickSort&lt; T &gt;(Span&lt; T &gt; data, int left, int right)'],['../class_b_x_render_pipeline_1_1_dynamic_array_extensions.html#a0cafd4bfd6341498230516f6f59f1fcd',1,'BXRenderPipeline.DynamicArrayExtensions.QuickSort&lt; T &gt;(Span&lt; T &gt; data, int left, int right, DynamicArray&lt; T &gt;.SortComparer comparer)'],['../class_b_x_render_pipeline_1_1_dynamic_array_extensions.html#a8310e0311d28c800a290bcc165092c49',1,'BXRenderPipeline.DynamicArrayExtensions.QuickSort&lt; T &gt;(this DynamicArray&lt; T &gt; array)'],['../class_b_x_render_pipeline_1_1_dynamic_array_extensions.html#afdbcd5c52a7f3c91aff669aa0303c5ca',1,'BXRenderPipeline.DynamicArrayExtensions.QuickSort&lt; T &gt;(this DynamicArray&lt; T &gt; array, DynamicArray&lt; T &gt;.SortComparer comparer)']]],
+  ['quit_7',['Quit',['../class_application.html#ab9282563d1e6bcdbb0719c7697983ce4',1,'Application']]]
 ];

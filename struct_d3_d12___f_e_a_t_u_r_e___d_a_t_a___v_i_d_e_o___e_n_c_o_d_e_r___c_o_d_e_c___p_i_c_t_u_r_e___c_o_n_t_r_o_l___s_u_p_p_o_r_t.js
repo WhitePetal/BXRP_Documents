@@ -1,0 +1,8 @@
+var struct_d3_d12___f_e_a_t_u_r_e___d_a_t_a___v_i_d_e_o___e_n_c_o_d_e_r___c_o_d_e_c___p_i_c_t_u_r_e___c_o_n_t_r_o_l___s_u_p_p_o_r_t =
+[
+    [ "Codec", "struct_d3_d12___f_e_a_t_u_r_e___d_a_t_a___v_i_d_e_o___e_n_c_o_d_e_r___c_o_d_e_c___p_i_c_t_u_r_e___c_o_n_t_r_o_l___s_u_p_p_o_r_t.html#a7d34d5d7e0984f5858f1800c54731921", null ],
+    [ "IsSupported", "struct_d3_d12___f_e_a_t_u_r_e___d_a_t_a___v_i_d_e_o___e_n_c_o_d_e_r___c_o_d_e_c___p_i_c_t_u_r_e___c_o_n_t_r_o_l___s_u_p_p_o_r_t.html#a34fc9948193a06a2a369ac4dc25e29e0", null ],
+    [ "NodeIndex", "struct_d3_d12___f_e_a_t_u_r_e___d_a_t_a___v_i_d_e_o___e_n_c_o_d_e_r___c_o_d_e_c___p_i_c_t_u_r_e___c_o_n_t_r_o_l___s_u_p_p_o_r_t.html#a38bc12810088554820616359b4d23a3f", null ],
+    [ "PictureSupport", "struct_d3_d12___f_e_a_t_u_r_e___d_a_t_a___v_i_d_e_o___e_n_c_o_d_e_r___c_o_d_e_c___p_i_c_t_u_r_e___c_o_n_t_r_o_l___s_u_p_p_o_r_t.html#aead3c6cf61442b5acab6dd66586aa1b1", null ],
+    [ "Profile", "struct_d3_d12___f_e_a_t_u_r_e___d_a_t_a___v_i_d_e_o___e_n_c_o_d_e_r___c_o_d_e_c___p_i_c_t_u_r_e___c_o_n_t_r_o_l___s_u_p_p_o_r_t.html#abf6ebb8664a701be3b5c5637ea94ea2e", null ]
+];

@@ -1,0 +1,15 @@
+var struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___a_v1___f_r_a_m_e___s_u_b_r_e_g_i_o_n___l_a_y_o_u_t___c_o_n_f_i_g___s_u_p_p_o_r_t =
+[
+    [ "MaxTileArea", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___a_v1___f_r_a_m_e___s_u_b_r_e_g_i_o_n___l_a_y_o_u_t___c_o_n_f_i_g___s_u_p_p_o_r_t.html#a31612bdcace7c75246c41ae696c6bca3", null ],
+    [ "MaxTileCols", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___a_v1___f_r_a_m_e___s_u_b_r_e_g_i_o_n___l_a_y_o_u_t___c_o_n_f_i_g___s_u_p_p_o_r_t.html#a43cd9a3e54ace13f80ac1ffe3d9fb39f", null ],
+    [ "MaxTileRows", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___a_v1___f_r_a_m_e___s_u_b_r_e_g_i_o_n___l_a_y_o_u_t___c_o_n_f_i_g___s_u_p_p_o_r_t.html#a35ebdadbd5043bc1191bffd23f0a9f2a", null ],
+    [ "MaxTileWidth", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___a_v1___f_r_a_m_e___s_u_b_r_e_g_i_o_n___l_a_y_o_u_t___c_o_n_f_i_g___s_u_p_p_o_r_t.html#a359f87ae8b37ea8d07e68a18d94bd8cf", null ],
+    [ "MinTileArea", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___a_v1___f_r_a_m_e___s_u_b_r_e_g_i_o_n___l_a_y_o_u_t___c_o_n_f_i_g___s_u_p_p_o_r_t.html#a4987fafb7b6303e7c591ca5eae0b3398", null ],
+    [ "MinTileCols", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___a_v1___f_r_a_m_e___s_u_b_r_e_g_i_o_n___l_a_y_o_u_t___c_o_n_f_i_g___s_u_p_p_o_r_t.html#a608caac72417e8191c06d84c1698f198", null ],
+    [ "MinTileRows", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___a_v1___f_r_a_m_e___s_u_b_r_e_g_i_o_n___l_a_y_o_u_t___c_o_n_f_i_g___s_u_p_p_o_r_t.html#ae459b7e1a56591cacb36a00dd203accf", null ],
+    [ "MinTileWidth", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___a_v1___f_r_a_m_e___s_u_b_r_e_g_i_o_n___l_a_y_o_u_t___c_o_n_f_i_g___s_u_p_p_o_r_t.html#a282a891f7ec9c601f70195dff286d970", null ],
+    [ "TilesConfiguration", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___a_v1___f_r_a_m_e___s_u_b_r_e_g_i_o_n___l_a_y_o_u_t___c_o_n_f_i_g___s_u_p_p_o_r_t.html#ad98aa45e4a2dcd1cb90e3b8f3d798806", null ],
+    [ "TileSizeBytesMinus1", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___a_v1___f_r_a_m_e___s_u_b_r_e_g_i_o_n___l_a_y_o_u_t___c_o_n_f_i_g___s_u_p_p_o_r_t.html#aed9a6985085870c388c61109df4bac42", null ],
+    [ "Use128SuperBlocks", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___a_v1___f_r_a_m_e___s_u_b_r_e_g_i_o_n___l_a_y_o_u_t___c_o_n_f_i_g___s_u_p_p_o_r_t.html#aeb440d451032d9f1d95e34f4f7a211f0", null ],
+    [ "ValidationFlags", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___a_v1___f_r_a_m_e___s_u_b_r_e_g_i_o_n___l_a_y_o_u_t___c_o_n_f_i_g___s_u_p_p_o_r_t.html#a1cfa24d8fa2f6c6edc41e4abd2b36094", null ]
+];

@@ -109,6 +109,9 @@ $(function(){initNavTree('class_b_x_geometry_graph_1_1_pooled_hash_set-1-g.html'
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="class_b_x_geometry_graph_1_1_pooled_hash_set-1-g-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">BXGeometryGraph.PooledHashSet&lt; T &gt; Class Template Reference</div></div>
 </div><!--header-->
@@ -122,13 +125,28 @@ Inheritance diagram for BXGeometryGraph.PooledHashSet&lt; T &gt;:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a1d786f230d52c4e71819cef44e22985c" id="r_a1d786f230d52c4e71819cef44e22985c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d786f230d52c4e71819cef44e22985c">Dispose</a> ()</td></tr>
+<tr class="memitem:a1d786f230d52c4e71819cef44e22985c" id="r_a1d786f230d52c4e71819cef44e22985c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d786f230d52c4e71819cef44e22985c">Dispose</a> ()</td></tr>
 <tr class="separator:a1d786f230d52c4e71819cef44e22985c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:ad6e8a10ffca04b776d2ddad589bb7b4a" id="r_ad6e8a10ffca04b776d2ddad589bb7b4a"><td class="memItemLeft" align="right" valign="top">static PooledHashSet&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad6e8a10ffca04b776d2ddad589bb7b4a">Get</a> ()</td></tr>
+<tr class="memitem:ad6e8a10ffca04b776d2ddad589bb7b4a" id="r_ad6e8a10ffca04b776d2ddad589bb7b4a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="#a6b1df431ee9664c3f734de483deec85d">PooledHashSet</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad6e8a10ffca04b776d2ddad589bb7b4a">Get</a> ()</td></tr>
 <tr class="separator:ad6e8a10ffca04b776d2ddad589bb7b4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a6b1df431ee9664c3f734de483deec85d" id="r_a6b1df431ee9664c3f734de483deec85d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b1df431ee9664c3f734de483deec85d">PooledHashSet</a> ()</td></tr>
+<tr class="separator:a6b1df431ee9664c3f734de483deec85d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a35c4f4f559512ea8033f7ebff3c346fd" id="r_a35c4f4f559512ea8033f7ebff3c346fd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a35c4f4f559512ea8033f7ebff3c346fd">m_Active</a></td></tr>
+<tr class="separator:a35c4f4f559512ea8033f7ebff3c346fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a3f396d26a6ef58bcbeeedd896a985c65" id="r_a3f396d26a6ef58bcbeeedd896a985c65"><td class="memItemLeft" align="right" valign="top">static Stack&lt; <a class="el" href="#a6b1df431ee9664c3f734de483deec85d">PooledHashSet</a>&lt; T &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f396d26a6ef58bcbeeedd896a985c65">s_Pool</a> = new Stack&lt;<a class="el" href="#a6b1df431ee9664c3f734de483deec85d">PooledHashSet</a>&lt;T&gt;&gt;()</td></tr>
+<tr class="separator:a3f396d26a6ef58bcbeeedd896a985c65"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
@@ -141,7 +159,7 @@ Static Public Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void BXGeometryGraph.PooledHashSet&lt; T &gt;.Dispose </td>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXGeometryGraph.PooledHashSet&lt; T &gt;.Dispose </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -163,7 +181,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static PooledHashSet&lt; T &gt; BXGeometryGraph.PooledHashSet&lt; T &gt;.Get </td>
+          <td class="memname">static <a class="el" href="#a6b1df431ee9664c3f734de483deec85d">PooledHashSet</a>&lt; T &gt; BXGeometryGraph.PooledHashSet&lt; T &gt;.Get </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -177,6 +195,82 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="_pooled_hash_set_8cs_source.html#l00019">19</a> of file <a class="el" href="_pooled_hash_set_8cs_source.html">PooledHashSet.cs</a>.</p>
+
+</div>
+</div>
+<a id="a6b1df431ee9664c3f734de483deec85d" name="a6b1df431ee9664c3f734de483deec85d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b1df431ee9664c3f734de483deec85d">&#9670;&#160;</a></span>PooledHashSet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">BXGeometryGraph.PooledHashSet&lt; T &gt;.PooledHashSet </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_pooled_hash_set_8cs_source.html#l00014">14</a> of file <a class="el" href="_pooled_hash_set_8cs_source.html">PooledHashSet.cs</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a35c4f4f559512ea8033f7ebff3c346fd" name="a35c4f4f559512ea8033f7ebff3c346fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35c4f4f559512ea8033f7ebff3c346fd">&#9670;&#160;</a></span>m_Active</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool BXGeometryGraph.PooledHashSet&lt; T &gt;.m_Active</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_pooled_hash_set_8cs_source.html#l00012">12</a> of file <a class="el" href="_pooled_hash_set_8cs_source.html">PooledHashSet.cs</a>.</p>
+
+</div>
+</div>
+<a id="a3f396d26a6ef58bcbeeedd896a985c65" name="a3f396d26a6ef58bcbeeedd896a985c65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f396d26a6ef58bcbeeedd896a985c65">&#9670;&#160;</a></span>s_Pool</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Stack&lt;<a class="el" href="#a6b1df431ee9664c3f734de483deec85d">PooledHashSet</a>&lt;T&gt; &gt; BXGeometryGraph.PooledHashSet&lt; T &gt;.s_Pool = new Stack&lt;<a class="el" href="#a6b1df431ee9664c3f734de483deec85d">PooledHashSet</a>&lt;T&gt;&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_pooled_hash_set_8cs_source.html#l00011">11</a> of file <a class="el" href="_pooled_hash_set_8cs_source.html">PooledHashSet.cs</a>.</p>
 
 </div>
 </div>

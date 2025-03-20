@@ -126,10 +126,10 @@ Inheritance diagram for IDxcLinker:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ae83f00abc14b20429ef3d9b6e83f350f" id="r_ae83f00abc14b20429ef3d9b6e83f350f"><td class="memItemLeft" align="right" valign="top">virtual HRESULT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae83f00abc14b20429ef3d9b6e83f350f">RegisterLibrary</a> (_In_opt_ LPCWSTR pLibName, _In_ <a class="el" href="struct_i_dxc_blob.html">IDxcBlob</a> *pLib)=0</td></tr>
+<tr class="memitem:ae83f00abc14b20429ef3d9b6e83f350f" id="r_ae83f00abc14b20429ef3d9b6e83f350f"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae83f00abc14b20429ef3d9b6e83f350f">RegisterLibrary</a> (<a class="el" href="basetsd_8h.html#ab1211e050847ff847e95d7a9e20d9654">_In_opt_</a> <a class="el" href="basetsd_8h.html#a2f0472e602f968177b22f13814fc1bd5">LPCWSTR</a> pLibName, <a class="el" href="basetsd_8h.html#aa74f89aa7d942f4a79ea12d7c9b763ef">_In_</a> <a class="el" href="struct_i_dxc_blob.html">IDxcBlob</a> *pLib)=0</td></tr>
 <tr class="memdesc:ae83f00abc14b20429ef3d9b6e83f350f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a library with name to reference it later.  <br /></td></tr>
 <tr class="separator:ae83f00abc14b20429ef3d9b6e83f350f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf0200084d767756e708b617a77b0333" id="r_aaf0200084d767756e708b617a77b0333"><td class="memItemLeft" align="right" valign="top">virtual HRESULT STDMETHODCALLTYPE&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf0200084d767756e708b617a77b0333">Link</a> (_In_opt_ LPCWSTR pEntryName, _In_ LPCWSTR pTargetProfile, _In_count_(libCount) const LPCWSTR *pLibNames, _In_ UINT32 libCount, _In_opt_count_(argCount) const LPCWSTR *pArguments, _In_ UINT32 argCount, _COM_Outptr_ IDxcOperationResult **ppResult)=0</td></tr>
+<tr class="memitem:aaf0200084d767756e708b617a77b0333" id="r_aaf0200084d767756e708b617a77b0333"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf0200084d767756e708b617a77b0333">Link</a> (<a class="el" href="basetsd_8h.html#ab1211e050847ff847e95d7a9e20d9654">_In_opt_</a> <a class="el" href="basetsd_8h.html#a2f0472e602f968177b22f13814fc1bd5">LPCWSTR</a> pEntryName, <a class="el" href="basetsd_8h.html#aa74f89aa7d942f4a79ea12d7c9b763ef">_In_</a> <a class="el" href="basetsd_8h.html#a2f0472e602f968177b22f13814fc1bd5">LPCWSTR</a> pTargetProfile, <a class="el" href="basetsd_8h.html#a81ee03ca54fbc106f81c776f94e87144">_In_count_</a>(libCount) const <a class="el" href="basetsd_8h.html#a2f0472e602f968177b22f13814fc1bd5">LPCWSTR</a> *pLibNames, <a class="el" href="basetsd_8h.html#aa74f89aa7d942f4a79ea12d7c9b763ef">_In_</a> <a class="el" href="basetsd_8h.html#adfe04a44baaebba6143c3a23507ff85b">UINT32</a> libCount, <a class="el" href="basetsd_8h.html#a2889ebd1414fce751052949162b0fba1">_In_opt_count_</a>(argCount) const <a class="el" href="basetsd_8h.html#a2f0472e602f968177b22f13814fc1bd5">LPCWSTR</a> *pArguments, <a class="el" href="basetsd_8h.html#aa74f89aa7d942f4a79ea12d7c9b763ef">_In_</a> <a class="el" href="basetsd_8h.html#adfe04a44baaebba6143c3a23507ff85b">UINT32</a> argCount, <a class="el" href="basetsd_8h.html#aa206bd7c9b619a3bec843bc3c5360687">_COM_Outptr_</a> IDxcOperationResult **ppResult)=0</td></tr>
 <tr class="memdesc:aaf0200084d767756e708b617a77b0333"><td class="mdescLeft">&#160;</td><td class="mdescRight">Links the shader and produces a shader blob that the Direct3D runtime can use.  <br /></td></tr>
 <tr class="separator:aaf0200084d767756e708b617a77b0333"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -149,39 +149,39 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual HRESULT STDMETHODCALLTYPE IDxcLinker::Link </td>
+          <td class="memname">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a> IDxcLinker::Link </td>
           <td>(</td>
-          <td class="paramtype">_In_opt_ LPCWSTR</td>          <td class="paramname"><span class="paramname"><em>pEntryName</em></span>, </td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#ab1211e050847ff847e95d7a9e20d9654">_In_opt_</a> <a class="el" href="basetsd_8h.html#a2f0472e602f968177b22f13814fc1bd5">LPCWSTR</a></td>          <td class="paramname"><span class="paramname"><em>pEntryName</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">_In_ LPCWSTR</td>          <td class="paramname"><span class="paramname"><em>pTargetProfile</em></span>, </td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#aa74f89aa7d942f4a79ea12d7c9b763ef">_In_</a> <a class="el" href="basetsd_8h.html#a2f0472e602f968177b22f13814fc1bd5">LPCWSTR</a></td>          <td class="paramname"><span class="paramname"><em>pTargetProfile</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">_In_count_(libCount) const LPCWSTR *</td>          <td class="paramname"><span class="paramname"><em>pLibNames</em></span>, </td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#a81ee03ca54fbc106f81c776f94e87144">_In_count_</a>(libCount) const <a class="el" href="basetsd_8h.html#a2f0472e602f968177b22f13814fc1bd5">LPCWSTR</a> *</td>          <td class="paramname"><span class="paramname"><em>pLibNames</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">_In_ UINT32</td>          <td class="paramname"><span class="paramname"><em>libCount</em></span>, </td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#aa74f89aa7d942f4a79ea12d7c9b763ef">_In_</a> <a class="el" href="basetsd_8h.html#adfe04a44baaebba6143c3a23507ff85b">UINT32</a></td>          <td class="paramname"><span class="paramname"><em>libCount</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">_In_opt_count_(argCount) const LPCWSTR *</td>          <td class="paramname"><span class="paramname"><em>pArguments</em></span>, </td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#a2889ebd1414fce751052949162b0fba1">_In_opt_count_</a>(argCount) const <a class="el" href="basetsd_8h.html#a2f0472e602f968177b22f13814fc1bd5">LPCWSTR</a> *</td>          <td class="paramname"><span class="paramname"><em>pArguments</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">_In_ UINT32</td>          <td class="paramname"><span class="paramname"><em>argCount</em></span>, </td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#aa74f89aa7d942f4a79ea12d7c9b763ef">_In_</a> <a class="el" href="basetsd_8h.html#adfe04a44baaebba6143c3a23507ff85b">UINT32</a></td>          <td class="paramname"><span class="paramname"><em>argCount</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">_COM_Outptr_ IDxcOperationResult **</td>          <td class="paramname"><span class="paramname"><em>ppResult</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#aa206bd7c9b619a3bec843bc3c5360687">_COM_Outptr_</a> IDxcOperationResult **</td>          <td class="paramname"><span class="paramname"><em>ppResult</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -217,14 +217,14 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual HRESULT IDxcLinker::RegisterLibrary </td>
+          <td class="memname">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> IDxcLinker::RegisterLibrary </td>
           <td>(</td>
-          <td class="paramtype">_In_opt_ LPCWSTR</td>          <td class="paramname"><span class="paramname"><em>pLibName</em></span>, </td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#ab1211e050847ff847e95d7a9e20d9654">_In_opt_</a> <a class="el" href="basetsd_8h.html#a2f0472e602f968177b22f13814fc1bd5">LPCWSTR</a></td>          <td class="paramname"><span class="paramname"><em>pLibName</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">_In_ <a class="el" href="struct_i_dxc_blob.html">IDxcBlob</a> *</td>          <td class="paramname"><span class="paramname"><em>pLib</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#aa74f89aa7d942f4a79ea12d7c9b763ef">_In_</a> <a class="el" href="struct_i_dxc_blob.html">IDxcBlob</a> *</td>          <td class="paramname"><span class="paramname"><em>pLib</em></span>&#160;)</td>
         </tr>
       </table>
   </td>

@@ -1,0 +1,46 @@
+var _slot_value_8cs =
+[
+    [ "BXGeometryGraph.SlotValueHelper", "class_b_x_geometry_graph_1_1_slot_value_helper.html", "class_b_x_geometry_graph_1_1_slot_value_helper" ],
+    [ "BXGeometryGraph.ConcreteSlotValueType", "namespace_b_x_geometry_graph.html#a6d82e0edaaaccacedc7528793fe41a5c", [
+      [ "BXGeometryGraph.ConcreteSlotValueType.SamplerState", "namespace_b_x_geometry_graph.html#a6d82e0edaaaccacedc7528793fe41a5ca7cbedaaf994e33f0a870b9a5e8624ef5", null ],
+      [ "BXGeometryGraph.ConcreteSlotValueType.Matrix4", "namespace_b_x_geometry_graph.html#a6d82e0edaaaccacedc7528793fe41a5ca218021da9a8517e946ebfd95e097e1d3", null ],
+      [ "BXGeometryGraph.ConcreteSlotValueType.Matrix3", "namespace_b_x_geometry_graph.html#a6d82e0edaaaccacedc7528793fe41a5ca68f96af9f098301f98ee01187c9e8700", null ],
+      [ "BXGeometryGraph.ConcreteSlotValueType.Matrix2", "namespace_b_x_geometry_graph.html#a6d82e0edaaaccacedc7528793fe41a5cabb0157417bfa7edf8606c39ca7a0a503", null ],
+      [ "BXGeometryGraph.ConcreteSlotValueType.Texture2D", "namespace_b_x_geometry_graph.html#a6d82e0edaaaccacedc7528793fe41a5caa6e2bae752d3bf4e34cb392bca789995", null ],
+      [ "BXGeometryGraph.ConcreteSlotValueType.Texture2DArray", "namespace_b_x_geometry_graph.html#a6d82e0edaaaccacedc7528793fe41a5ca5452f0008bbc07c796bb4ac7d284928d", null ],
+      [ "BXGeometryGraph.ConcreteSlotValueType.Texture3D", "namespace_b_x_geometry_graph.html#a6d82e0edaaaccacedc7528793fe41a5ca89c915587e16bcf8963be7cf41a0d9fd", null ],
+      [ "BXGeometryGraph.ConcreteSlotValueType.Cubemap", "namespace_b_x_geometry_graph.html#a6d82e0edaaaccacedc7528793fe41a5ca29b142520cd0349c9f7375be4aa848c0", null ],
+      [ "BXGeometryGraph.ConcreteSlotValueType.Gradient", "namespace_b_x_geometry_graph.html#a6d82e0edaaaccacedc7528793fe41a5ca5e59525cb7d1d1cd93be0b9f36e9d09a", null ],
+      [ "BXGeometryGraph.ConcreteSlotValueType.Vector4", "namespace_b_x_geometry_graph.html#a6d82e0edaaaccacedc7528793fe41a5cacf637ffa2663b40ae52857aa0bdb1ec3", null ],
+      [ "BXGeometryGraph.ConcreteSlotValueType.Vector3", "namespace_b_x_geometry_graph.html#a6d82e0edaaaccacedc7528793fe41a5ca02b4dab58bbc49e0851fb3fd8df520cc", null ],
+      [ "BXGeometryGraph.ConcreteSlotValueType.Vector2", "namespace_b_x_geometry_graph.html#a6d82e0edaaaccacedc7528793fe41a5ca1bebc5ae2822f8e361fb0ce57b5e09e2", null ],
+      [ "BXGeometryGraph.ConcreteSlotValueType.Vector1", "namespace_b_x_geometry_graph.html#a6d82e0edaaaccacedc7528793fe41a5ca87fb37b8b9ead728e2a8c505bd61e821", null ],
+      [ "BXGeometryGraph.ConcreteSlotValueType.Boolean", "namespace_b_x_geometry_graph.html#a6d82e0edaaaccacedc7528793fe41a5ca27226c864bac7454a8504f8edb15d95b", null ],
+      [ "BXGeometryGraph.ConcreteSlotValueType.VirtualTexture", "namespace_b_x_geometry_graph.html#a6d82e0edaaaccacedc7528793fe41a5ca77ff8f8453b3c2114a3f518067f7e307", null ],
+      [ "BXGeometryGraph.ConcreteSlotValueType.PropertyConnectionState", "namespace_b_x_geometry_graph.html#a6d82e0edaaaccacedc7528793fe41a5ca26cbc801d0f93de7c514aaed27e3768e", null ],
+      [ "BXGeometryGraph.ConcreteSlotValueType.Geometry", "namespace_b_x_geometry_graph.html#a6d82e0edaaaccacedc7528793fe41a5cad9c6333623e6357515fcbf17be806273", null ]
+    ] ],
+    [ "BXGeometryGraph.SlotValueType", "namespace_b_x_geometry_graph.html#a76994cea51d244202a44aee78578d1d5", [
+      [ "BXGeometryGraph.SlotValueType.SamplerState", "namespace_b_x_geometry_graph.html#a76994cea51d244202a44aee78578d1d5a7cbedaaf994e33f0a870b9a5e8624ef5", null ],
+      [ "BXGeometryGraph.SlotValueType.DynamicMatrix", "namespace_b_x_geometry_graph.html#a76994cea51d244202a44aee78578d1d5afca2525439cf389bc4dae9d50bbb962b", null ],
+      [ "BXGeometryGraph.SlotValueType.Matrix4", "namespace_b_x_geometry_graph.html#a76994cea51d244202a44aee78578d1d5a218021da9a8517e946ebfd95e097e1d3", null ],
+      [ "BXGeometryGraph.SlotValueType.Matrix3", "namespace_b_x_geometry_graph.html#a76994cea51d244202a44aee78578d1d5a68f96af9f098301f98ee01187c9e8700", null ],
+      [ "BXGeometryGraph.SlotValueType.Matrix2", "namespace_b_x_geometry_graph.html#a76994cea51d244202a44aee78578d1d5abb0157417bfa7edf8606c39ca7a0a503", null ],
+      [ "BXGeometryGraph.SlotValueType.Texture2D", "namespace_b_x_geometry_graph.html#a76994cea51d244202a44aee78578d1d5aa6e2bae752d3bf4e34cb392bca789995", null ],
+      [ "BXGeometryGraph.SlotValueType.Texture2DArray", "namespace_b_x_geometry_graph.html#a76994cea51d244202a44aee78578d1d5a5452f0008bbc07c796bb4ac7d284928d", null ],
+      [ "BXGeometryGraph.SlotValueType.Texture3D", "namespace_b_x_geometry_graph.html#a76994cea51d244202a44aee78578d1d5a89c915587e16bcf8963be7cf41a0d9fd", null ],
+      [ "BXGeometryGraph.SlotValueType.Cubemap", "namespace_b_x_geometry_graph.html#a76994cea51d244202a44aee78578d1d5a29b142520cd0349c9f7375be4aa848c0", null ],
+      [ "BXGeometryGraph.SlotValueType.Gradient", "namespace_b_x_geometry_graph.html#a76994cea51d244202a44aee78578d1d5a5e59525cb7d1d1cd93be0b9f36e9d09a", null ],
+      [ "BXGeometryGraph.SlotValueType.DynamicVector", "namespace_b_x_geometry_graph.html#a76994cea51d244202a44aee78578d1d5ac4f850bd4e240b9a1a12db38563c8e9e", null ],
+      [ "BXGeometryGraph.SlotValueType.Vector4", "namespace_b_x_geometry_graph.html#a76994cea51d244202a44aee78578d1d5acf637ffa2663b40ae52857aa0bdb1ec3", null ],
+      [ "BXGeometryGraph.SlotValueType.Vector3", "namespace_b_x_geometry_graph.html#a76994cea51d244202a44aee78578d1d5a02b4dab58bbc49e0851fb3fd8df520cc", null ],
+      [ "BXGeometryGraph.SlotValueType.Vector2", "namespace_b_x_geometry_graph.html#a76994cea51d244202a44aee78578d1d5a1bebc5ae2822f8e361fb0ce57b5e09e2", null ],
+      [ "BXGeometryGraph.SlotValueType.Vector1", "namespace_b_x_geometry_graph.html#a76994cea51d244202a44aee78578d1d5a87fb37b8b9ead728e2a8c505bd61e821", null ],
+      [ "BXGeometryGraph.SlotValueType.Integer1", "namespace_b_x_geometry_graph.html#a76994cea51d244202a44aee78578d1d5aeb70b9dc51f70acc91b4d984ef81570e", null ],
+      [ "BXGeometryGraph.SlotValueType.Dynamic", "namespace_b_x_geometry_graph.html#a76994cea51d244202a44aee78578d1d5a971fd8cc345d8bd9f92e9f7d88fdf20c", null ],
+      [ "BXGeometryGraph.SlotValueType.Boolean", "namespace_b_x_geometry_graph.html#a76994cea51d244202a44aee78578d1d5a27226c864bac7454a8504f8edb15d95b", null ],
+      [ "BXGeometryGraph.SlotValueType.VirtualTexture", "namespace_b_x_geometry_graph.html#a76994cea51d244202a44aee78578d1d5a77ff8f8453b3c2114a3f518067f7e307", null ],
+      [ "BXGeometryGraph.SlotValueType.PropertyConnectionState", "namespace_b_x_geometry_graph.html#a76994cea51d244202a44aee78578d1d5a26cbc801d0f93de7c514aaed27e3768e", null ],
+      [ "BXGeometryGraph.SlotValueType.Geometry", "namespace_b_x_geometry_graph.html#a76994cea51d244202a44aee78578d1d5ad9c6333623e6357515fcbf17be806273", null ]
+    ] ]
+];

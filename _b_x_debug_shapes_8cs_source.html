@@ -109,16 +109,18 @@ $(function(){initNavTree('_b_x_debug_shapes_8cs_source.html',''); initResizable(
   <div class="headertitle"><div class="title">BXDebugShapes.cs</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="keyword">using </span>System.Collections;</div>
+<a href="_b_x_debug_shapes_8cs.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="keyword">using </span>System.Collections;</div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="keyword">using </span>System.Collections.Generic;</div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="keyword">using </span>UnityEngine;</div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_b_x_render_pipeline.html">BXRenderPipeline</a></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span>{</div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">class </span>BXDebugShapes</div>
+<div class="foldopen" id="foldopen00007" data-start="{" data-end="};">
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno"><a class="line" href="class_b_x_render_pipeline_1_1_b_x_debug_shapes.html">    7</a></span>    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">class </span><a class="code hl_class" href="class_b_x_render_pipeline_1_1_b_x_debug_shapes.html">BXDebugShapes</a></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>    {</div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>        <span class="comment">// This code has been grabbed from http://wiki.unity3d.com/index.php/ProceduralPrimitives</span></div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>        <span class="keyword">private</span> <span class="keyword">static</span> <span class="keywordtype">void</span> BuildSphere(ref Mesh outputMesh, <span class="keywordtype">float</span> radius, uint longSubdiv, uint latSubdiv)</div>
+<div class="foldopen" id="foldopen00010" data-start="{" data-end="}">
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="class_b_x_render_pipeline_1_1_b_x_debug_shapes.html#a87810294706860c173b28598181005fc">   10</a></span>        <span class="keyword">private</span> <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_b_x_render_pipeline_1_1_b_x_debug_shapes.html#a87810294706860c173b28598181005fc">BuildSphere</a>(ref Mesh outputMesh, <span class="keywordtype">float</span> radius, uint longSubdiv, uint latSubdiv)</div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>        {</div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>            <span class="comment">// Make sure it is empty before pushing anything to it</span></div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>            outputMesh.Clear();</div>
@@ -214,21 +216,29 @@ $(function(){initNavTree('_b_x_debug_shapes_8cs_source.html',''); initResizable(
 <div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span> </div>
 <div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>            outputMesh.RecalculateBounds();</div>
 <div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>        }</div>
-<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>        <span class="keyword">public</span> <span class="keyword">static</span> Mesh BuildCustomSphereMesh(<span class="keywordtype">float</span> radius, uint longSubdiv, uint latSubdiv)</div>
+</div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span></div>
+<div class="foldopen" id="foldopen00120" data-start="{" data-end="}">
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno"><a class="line" href="class_b_x_render_pipeline_1_1_b_x_debug_shapes.html#a3f548f96cd63933fdbd1b85e6e55ca75">  120</a></span>        <span class="keyword">public</span> <span class="keyword">static</span> Mesh <a class="code hl_function" href="class_b_x_render_pipeline_1_1_b_x_debug_shapes.html#a3f548f96cd63933fdbd1b85e6e55ca75">BuildCustomSphereMesh</a>(<span class="keywordtype">float</span> radius, uint longSubdiv, uint latSubdiv)</div>
 <div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>        {</div>
 <div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>            Mesh sphereMesh = <span class="keyword">new</span> Mesh();</div>
-<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>            BuildSphere(ref sphereMesh, radius, longSubdiv, latSubdiv);</div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>            <a class="code hl_function" href="class_b_x_render_pipeline_1_1_b_x_debug_shapes.html#a87810294706860c173b28598181005fc">BuildSphere</a>(ref sphereMesh, radius, longSubdiv, latSubdiv);</div>
 <div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>            <span class="keywordflow">return</span> sphereMesh;</div>
 <div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>        }</div>
+</div>
 <div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>    }</div>
+</div>
 <div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>}</div>
+<div class="ttc" id="aclass_b_x_render_pipeline_1_1_b_x_debug_shapes_html"><div class="ttname"><a href="class_b_x_render_pipeline_1_1_b_x_debug_shapes.html">BXRenderPipeline.BXDebugShapes</a></div><div class="ttdef"><b>Definition</b> <a href="#l00007">BXDebugShapes.cs:8</a></div></div>
+<div class="ttc" id="aclass_b_x_render_pipeline_1_1_b_x_debug_shapes_html_a3f548f96cd63933fdbd1b85e6e55ca75"><div class="ttname"><a href="class_b_x_render_pipeline_1_1_b_x_debug_shapes.html#a3f548f96cd63933fdbd1b85e6e55ca75">BXRenderPipeline.BXDebugShapes.BuildCustomSphereMesh</a></div><div class="ttdeci">static Mesh BuildCustomSphereMesh(float radius, uint longSubdiv, uint latSubdiv)</div><div class="ttdoc">Build a custom Sphere Mesh.</div><div class="ttdef"><b>Definition</b> <a href="#l00120">BXDebugShapes.cs:120</a></div></div>
+<div class="ttc" id="aclass_b_x_render_pipeline_1_1_b_x_debug_shapes_html_a87810294706860c173b28598181005fc"><div class="ttname"><a href="class_b_x_render_pipeline_1_1_b_x_debug_shapes.html#a87810294706860c173b28598181005fc">BXRenderPipeline.BXDebugShapes.BuildSphere</a></div><div class="ttdeci">static void BuildSphere(ref Mesh outputMesh, float radius, uint longSubdiv, uint latSubdiv)</div><div class="ttdef"><b>Definition</b> <a href="#l00010">BXDebugShapes.cs:10</a></div></div>
 <div class="ttc" id="anamespace_b_x_render_pipeline_html"><div class="ttname"><a href="namespace_b_x_render_pipeline.html">BXRenderPipeline</a></div><div class="ttdef"><b>Definition</b> <a href="_b_x_additional_light_data_8_types_8cs_source.html#l00006">BXAdditionalLightData.Types.cs:7</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_f73a8b7d50989afdadf24d8fc7357a9a.html">FloowDream</a></li><li class="navelem"><a class="el" href="dir_1ba945c5ec581c9e331de81f300aff07.html">Assets</a></li><li class="navelem"><a class="el" href="dir_a57f4778d467e0a6236fa4788364df6c.html">Scripts</a></li><li class="navelem"><a class="el" href="dir_8b4148ef0ffda13d8a8272867298b61d.html">BXRenderPipeline</a></li><li class="navelem"><b>BXDebugShapes.cs</b></li>
+    <li class="navelem"><a class="el" href="dir_f73a8b7d50989afdadf24d8fc7357a9a.html">FloowDream</a></li><li class="navelem"><a class="el" href="dir_1ba945c5ec581c9e331de81f300aff07.html">Assets</a></li><li class="navelem"><a class="el" href="dir_a57f4778d467e0a6236fa4788364df6c.html">Scripts</a></li><li class="navelem"><a class="el" href="dir_8b4148ef0ffda13d8a8272867298b61d.html">BXRenderPipeline</a></li><li class="navelem"><a class="el" href="_b_x_debug_shapes_8cs.html">BXDebugShapes.cs</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
   </ul>
 </div>

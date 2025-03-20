@@ -111,6 +111,9 @@ $(function(){initNavTree('class_b_x_geometry_graph_1_1_geometry_slot.html',''); 
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#properties">Properties</a> &#124;
+<a href="#pri-static-methods">Static Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="class_b_x_geometry_graph_1_1_geometry_slot-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">BXGeometryGraph.GeometrySlot Class Reference<span class="mlabels"><span class="mlabel abstract">abstract</span></span></div></div>
 </div><!--header-->
@@ -149,75 +152,76 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aa849faa0fd1985dd983e2c43bfecce56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75cf7dc6c9aa303230b0ccc4cd6eb95c" id="r_a75cf7dc6c9aa303230b0ccc4cd6eb95c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75cf7dc6c9aa303230b0ccc4cd6eb95c">IsCompatibleStageWith</a> (<a class="el" href="class_b_x_geometry_graph_1_1_geometry_slot.html">GeometrySlot</a> otherSlot)</td></tr>
 <tr class="separator:a75cf7dc6c9aa303230b0ccc4cd6eb95c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7dc2d05124d969e8eaf9670412e98b0" id="r_ab7dc2d05124d969e8eaf9670412e98b0"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7dc2d05124d969e8eaf9670412e98b0">GetDefaultValue</a> (GenerationMode generationMode, ConcretePrecision concretePrecision)</td></tr>
+<tr class="memitem:ab7dc2d05124d969e8eaf9670412e98b0" id="r_ab7dc2d05124d969e8eaf9670412e98b0"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7dc2d05124d969e8eaf9670412e98b0">GetDefaultValue</a> (<a class="el" href="namespace_b_x_geometry_graph.html#af29f8a48dc8aff884b2b3939a36ac9d2">GenerationMode</a> generationMode, <a class="el" href="namespace_b_x_geometry_graph.html#a680af4771f5f4897b538c6858b19ef1f">ConcretePrecision</a> concretePrecision)</td></tr>
 <tr class="separator:ab7dc2d05124d969e8eaf9670412e98b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa6ae5c41acd097330eb7a247b532893c" id="r_aa6ae5c41acd097330eb7a247b532893c"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6ae5c41acd097330eb7a247b532893c">GetIntDefaultValue</a> ()</td></tr>
 <tr class="separator:aa6ae5c41acd097330eb7a247b532893c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff3d22067cf058b2ef3ae9223155beda" id="r_aff3d22067cf058b2ef3ae9223155beda"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff3d22067cf058b2ef3ae9223155beda">GetFloatDefaultValue</a> ()</td></tr>
 <tr class="separator:aff3d22067cf058b2ef3ae9223155beda"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a528de5de84903592100b4792c05d2a9c" id="r_a528de5de84903592100b4792c05d2a9c"><td class="memItemLeft" align="right" valign="top">virtual Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a528de5de84903592100b4792c05d2a9c">GetVector3DefaultValue</a> ()</td></tr>
+<tr class="memitem:a528de5de84903592100b4792c05d2a9c" id="r_a528de5de84903592100b4792c05d2a9c"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespace_b_x_geometry_graph.html#ad0e11e1489817712969f4f5edfebed4fa02b4dab58bbc49e0851fb3fd8df520cc">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a528de5de84903592100b4792c05d2a9c">GetVector3DefaultValue</a> ()</td></tr>
 <tr class="separator:a528de5de84903592100b4792c05d2a9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a639e7e8e5f2c20ae4aeb8dff52f7adfb" id="r_a639e7e8e5f2c20ae4aeb8dff52f7adfb"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a639e7e8e5f2c20ae4aeb8dff52f7adfb">GetBooleanDefaultValue</a> ()</td></tr>
 <tr class="separator:a639e7e8e5f2c20ae4aeb8dff52f7adfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1073c702ac3e8ac139b272fe50fd41c1" id="r_a1073c702ac3e8ac139b272fe50fd41c1"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1073c702ac3e8ac139b272fe50fd41c1">GetDefaultValue</a> (GenerationMode generationMode)</td></tr>
+<tr class="memitem:a1073c702ac3e8ac139b272fe50fd41c1" id="r_a1073c702ac3e8ac139b272fe50fd41c1"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1073c702ac3e8ac139b272fe50fd41c1">GetDefaultValue</a> (<a class="el" href="namespace_b_x_geometry_graph.html#af29f8a48dc8aff884b2b3939a36ac9d2">GenerationMode</a> generationMode)</td></tr>
 <tr class="separator:a1073c702ac3e8ac139b272fe50fd41c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a602ff0e313df5fd897da7873fa589a55" id="r_a602ff0e313df5fd897da7873fa589a55"><td class="memItemLeft" align="right" valign="top"><a id="a602ff0e313df5fd897da7873fa589a55" name="a602ff0e313df5fd897da7873fa589a55"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>AddDefaultProperty</b> (<a class="el" href="class_b_x_geometry_graph_1_1_property_collector.html">PropertyCollector</a> properties, GenerationMode generationMode)</td></tr>
+<tr class="memitem:a602ff0e313df5fd897da7873fa589a55" id="r_a602ff0e313df5fd897da7873fa589a55"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a602ff0e313df5fd897da7873fa589a55">AddDefaultProperty</a> (<a class="el" href="class_b_x_geometry_graph_1_1_property_collector.html">PropertyCollector</a> properties, <a class="el" href="namespace_b_x_geometry_graph.html#af29f8a48dc8aff884b2b3939a36ac9d2">GenerationMode</a> generationMode)</td></tr>
 <tr class="separator:a602ff0e313df5fd897da7873fa589a55"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90760c75ccb7708e4d189f2c1018966e" id="r_a90760c75ccb7708e4d189f2c1018966e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90760c75ccb7708e4d189f2c1018966e">GetPreviewProperties</a> (List&lt; <a class="el" href="struct_b_x_geometry_graph_1_1_preview_property.html">PreviewProperty</a> &gt; properties, string name)</td></tr>
+<tr class="memitem:a90760c75ccb7708e4d189f2c1018966e" id="r_a90760c75ccb7708e4d189f2c1018966e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90760c75ccb7708e4d189f2c1018966e">GetPreviewProperties</a> (List&lt; <a class="el" href="struct_b_x_geometry_graph_1_1_preview_property.html">PreviewProperty</a> &gt; properties, string name)</td></tr>
 <tr class="separator:a90760c75ccb7708e4d189f2c1018966e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e3b38c6387f160108b520bd90642060" id="r_a3e3b38c6387f160108b520bd90642060"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e3b38c6387f160108b520bd90642060">AppendHLSLParameterDeclaration</a> (<a class="el" href="class_b_x_geometry_graph_1_1_shader_string_builder.html">ShaderStringBuilder</a> sb, string paramName)</td></tr>
+<tr class="memitem:a3e3b38c6387f160108b520bd90642060" id="r_a3e3b38c6387f160108b520bd90642060"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e3b38c6387f160108b520bd90642060">AppendHLSLParameterDeclaration</a> (<a class="el" href="class_b_x_geometry_graph_1_1_shader_string_builder.html">ShaderStringBuilder</a> sb, string paramName)</td></tr>
 <tr class="separator:a3e3b38c6387f160108b520bd90642060"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5e8bc0862210e6f15b0ee6a4dd7e1717" id="r_a5e8bc0862210e6f15b0ee6a4dd7e1717"><td class="memItemLeft" align="right" valign="top"><a id="a5e8bc0862210e6f15b0ee6a4dd7e1717" name="a5e8bc0862210e6f15b0ee6a4dd7e1717"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>CopyValuesFrom</b> (<a class="el" href="class_b_x_geometry_graph_1_1_geometry_slot.html">GeometrySlot</a> foundSlot)</td></tr>
+<tr class="memitem:a5e8bc0862210e6f15b0ee6a4dd7e1717" id="r_a5e8bc0862210e6f15b0ee6a4dd7e1717"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e8bc0862210e6f15b0ee6a4dd7e1717">CopyValuesFrom</a> (<a class="el" href="class_b_x_geometry_graph_1_1_geometry_slot.html">GeometrySlot</a> foundSlot)</td></tr>
 <tr class="separator:a5e8bc0862210e6f15b0ee6a4dd7e1717"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a509aa88e7c32a4fe2536de90cb6eab08" id="r_a509aa88e7c32a4fe2536de90cb6eab08"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a509aa88e7c32a4fe2536de90cb6eab08">Equals</a> (<a class="el" href="class_b_x_geometry_graph_1_1_geometry_slot.html">GeometrySlot</a> other)</td></tr>
 <tr class="separator:a509aa88e7c32a4fe2536de90cb6eab08"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afced747f8400bf0fac6d46b1f1d17321" id="r_afced747f8400bf0fac6d46b1f1d17321"><td class="memItemLeft" align="right" valign="top">override bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afced747f8400bf0fac6d46b1f1d17321">Equals</a> (object obj)</td></tr>
+<tr class="memitem:afced747f8400bf0fac6d46b1f1d17321" id="r_afced747f8400bf0fac6d46b1f1d17321"><td class="memItemLeft" align="right" valign="top">override bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afced747f8400bf0fac6d46b1f1d17321">Equals</a> (<a class="el" href="d3d12_8idl.html#ad03408aabe16bb53c780fae6cf3910f9">object</a> obj)</td></tr>
 <tr class="separator:afced747f8400bf0fac6d46b1f1d17321"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf0dff889d1b11ac335f3c52f52ad767" id="r_abf0dff889d1b11ac335f3c52f52ad767"><td class="memItemLeft" align="right" valign="top">override int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf0dff889d1b11ac335f3c52f52ad767">GetHashCode</a> ()</td></tr>
 <tr class="separator:abf0dff889d1b11ac335f3c52f52ad767"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0a71cae68637974b1fb0e990dd53ca2" id="r_ab0a71cae68637974b1fb0e990dd53ca2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0a71cae68637974b1fb0e990dd53ca2">Dispose</a> ()</td></tr>
+<tr class="memitem:ab0a71cae68637974b1fb0e990dd53ca2" id="r_ab0a71cae68637974b1fb0e990dd53ca2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0a71cae68637974b1fb0e990dd53ca2">Dispose</a> ()</td></tr>
 <tr class="separator:ab0a71cae68637974b1fb0e990dd53ca2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac5d2aba5937b5a43c6eda3877a0ff21f" id="r_ac5d2aba5937b5a43c6eda3877a0ff21f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac5d2aba5937b5a43c6eda3877a0ff21f">CopyDefaultValue</a> (<a class="el" href="class_b_x_geometry_graph_1_1_geometry_slot.html">GeometrySlot</a> other)</td></tr>
+<tr class="memitem:ac5d2aba5937b5a43c6eda3877a0ff21f" id="r_ac5d2aba5937b5a43c6eda3877a0ff21f"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac5d2aba5937b5a43c6eda3877a0ff21f">CopyDefaultValue</a> (<a class="el" href="class_b_x_geometry_graph_1_1_geometry_slot.html">GeometrySlot</a> other)</td></tr>
 <tr class="separator:ac5d2aba5937b5a43c6eda3877a0ff21f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_b_x_geometry_graph_1_1_json_object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_class_b_x_geometry_graph_1_1_json_object')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_b_x_geometry_graph_1_1_json_object.html">BXGeometryGraph.JsonObject</a></td></tr>
+<tr class="memitem:a443aa96d0929e8965cafa753a39bf666 inherit pub_methods_class_b_x_geometry_graph_1_1_json_object" id="r_a443aa96d0929e8965cafa753a39bf666"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_x_geometry_graph_1_1_json_object.html#a443aa96d0929e8965cafa753a39bf666">JsonObject</a> ()</td></tr>
+<tr class="separator:a443aa96d0929e8965cafa753a39bf666 inherit pub_methods_class_b_x_geometry_graph_1_1_json_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a053a2e2cbcb2593a95cb99e70abcf2 inherit pub_methods_class_b_x_geometry_graph_1_1_json_object" id="r_a5a053a2e2cbcb2593a95cb99e70abcf2"><td class="memItemLeft" align="right" valign="top">virtual T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_x_geometry_graph_1_1_json_object.html#a5a053a2e2cbcb2593a95cb99e70abcf2">CastTo&lt; T &gt;</a> ()</td></tr>
 <tr class="separator:a5a053a2e2cbcb2593a95cb99e70abcf2 inherit pub_methods_class_b_x_geometry_graph_1_1_json_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb5d9f3fda1b156b03ea9a120ab34694 inherit pub_methods_class_b_x_geometry_graph_1_1_json_object" id="r_abb5d9f3fda1b156b03ea9a120ab34694"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_x_geometry_graph_1_1_json_object.html#abb5d9f3fda1b156b03ea9a120ab34694">Serialize</a> ()</td></tr>
 <tr class="separator:abb5d9f3fda1b156b03ea9a120ab34694 inherit pub_methods_class_b_x_geometry_graph_1_1_json_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3662f6e72abd7931bd1a4bf872c7ab5f inherit pub_methods_class_b_x_geometry_graph_1_1_json_object" id="r_a3662f6e72abd7931bd1a4bf872c7ab5f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_x_geometry_graph_1_1_json_object.html#a3662f6e72abd7931bd1a4bf872c7ab5f">Deserailize</a> (string typeInfo, string jsonData)</td></tr>
+<tr class="memitem:a3662f6e72abd7931bd1a4bf872c7ab5f inherit pub_methods_class_b_x_geometry_graph_1_1_json_object" id="r_a3662f6e72abd7931bd1a4bf872c7ab5f"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_x_geometry_graph_1_1_json_object.html#a3662f6e72abd7931bd1a4bf872c7ab5f">Deserailize</a> (string typeInfo, string jsonData)</td></tr>
 <tr class="separator:a3662f6e72abd7931bd1a4bf872c7ab5f inherit pub_methods_class_b_x_geometry_graph_1_1_json_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a034c0568cb50d060cc6028d4f1f951b3 inherit pub_methods_class_b_x_geometry_graph_1_1_json_object" id="r_a034c0568cb50d060cc6028d4f1f951b3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_x_geometry_graph_1_1_json_object.html#a034c0568cb50d060cc6028d4f1f951b3">OnBeforeSerialize</a> ()</td></tr>
+<tr class="memitem:a034c0568cb50d060cc6028d4f1f951b3 inherit pub_methods_class_b_x_geometry_graph_1_1_json_object" id="r_a034c0568cb50d060cc6028d4f1f951b3"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_x_geometry_graph_1_1_json_object.html#a034c0568cb50d060cc6028d4f1f951b3">OnBeforeSerialize</a> ()</td></tr>
 <tr class="separator:a034c0568cb50d060cc6028d4f1f951b3 inherit pub_methods_class_b_x_geometry_graph_1_1_json_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a189fb521abfd4ca1ad776a215f6033c8 inherit pub_methods_class_b_x_geometry_graph_1_1_json_object" id="r_a189fb521abfd4ca1ad776a215f6033c8"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_x_geometry_graph_1_1_json_object.html#a189fb521abfd4ca1ad776a215f6033c8">OnBeforeDeserialize</a> ()</td></tr>
+<tr class="memitem:a189fb521abfd4ca1ad776a215f6033c8 inherit pub_methods_class_b_x_geometry_graph_1_1_json_object" id="r_a189fb521abfd4ca1ad776a215f6033c8"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_x_geometry_graph_1_1_json_object.html#a189fb521abfd4ca1ad776a215f6033c8">OnBeforeDeserialize</a> ()</td></tr>
 <tr class="separator:a189fb521abfd4ca1ad776a215f6033c8 inherit pub_methods_class_b_x_geometry_graph_1_1_json_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a39c4879b2287e29281e7c95f0812c7bc inherit pub_methods_class_b_x_geometry_graph_1_1_json_object" id="r_a39c4879b2287e29281e7c95f0812c7bc"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_x_geometry_graph_1_1_json_object.html#a39c4879b2287e29281e7c95f0812c7bc">OnAfterDeserialize</a> ()</td></tr>
+<tr class="memitem:a39c4879b2287e29281e7c95f0812c7bc inherit pub_methods_class_b_x_geometry_graph_1_1_json_object" id="r_a39c4879b2287e29281e7c95f0812c7bc"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_x_geometry_graph_1_1_json_object.html#a39c4879b2287e29281e7c95f0812c7bc">OnAfterDeserialize</a> ()</td></tr>
 <tr class="separator:a39c4879b2287e29281e7c95f0812c7bc inherit pub_methods_class_b_x_geometry_graph_1_1_json_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa1b11ce390e1c42e780f08330a72870e inherit pub_methods_class_b_x_geometry_graph_1_1_json_object" id="r_aa1b11ce390e1c42e780f08330a72870e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_x_geometry_graph_1_1_json_object.html#aa1b11ce390e1c42e780f08330a72870e">OnAfterDeserialize</a> (string json)</td></tr>
+<tr class="memitem:aa1b11ce390e1c42e780f08330a72870e inherit pub_methods_class_b_x_geometry_graph_1_1_json_object" id="r_aa1b11ce390e1c42e780f08330a72870e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_x_geometry_graph_1_1_json_object.html#aa1b11ce390e1c42e780f08330a72870e">OnAfterDeserialize</a> (string json)</td></tr>
 <tr class="separator:aa1b11ce390e1c42e780f08330a72870e inherit pub_methods_class_b_x_geometry_graph_1_1_json_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab333541ecf7c2b7db784477a6da7ab92 inherit pub_methods_class_b_x_geometry_graph_1_1_json_object" id="r_ab333541ecf7c2b7db784477a6da7ab92"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_x_geometry_graph_1_1_json_object.html#ab333541ecf7c2b7db784477a6da7ab92">OnAfterMultiDeserialize</a> (string json)</td></tr>
+<tr class="memitem:ab333541ecf7c2b7db784477a6da7ab92 inherit pub_methods_class_b_x_geometry_graph_1_1_json_object" id="r_ab333541ecf7c2b7db784477a6da7ab92"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_x_geometry_graph_1_1_json_object.html#ab333541ecf7c2b7db784477a6da7ab92">OnAfterMultiDeserialize</a> (string json)</td></tr>
 <tr class="separator:ab333541ecf7c2b7db784477a6da7ab92 inherit pub_methods_class_b_x_geometry_graph_1_1_json_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:ac7d08771a2376b4c650ad2d94e6d42b2" id="r_ac7d08771a2376b4c650ad2d94e6d42b2"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_b_x_geometry_graph_1_1_geometry_slot.html">GeometrySlot</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7d08771a2376b4c650ad2d94e6d42b2">CreateGeometrySlot</a> (SlotValueType type, int slotId, string displayName, string geometryOutputName, SlotType slotType, Vector4 defaultValue, GeometryStageCapability geometryStageCapability=GeometryStageCapability.All, bool hidden=false)</td></tr>
+<tr class="memitem:ac7d08771a2376b4c650ad2d94e6d42b2" id="r_ac7d08771a2376b4c650ad2d94e6d42b2"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_b_x_geometry_graph_1_1_geometry_slot.html">GeometrySlot</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7d08771a2376b4c650ad2d94e6d42b2">CreateGeometrySlot</a> (<a class="el" href="namespace_b_x_geometry_graph.html#a76994cea51d244202a44aee78578d1d5">SlotValueType</a> type, int slotId, string <a class="el" href="#a1636ef47dd21a467f65b0a076a54e490">displayName</a>, string <a class="el" href="#a2c793cc4c641c6276b59fed7a2e964c1">geometryOutputName</a>, <a class="el" href="namespace_b_x_geometry_graph.html#a0b9a157933dbf2cbd98b8ac97a70508a">SlotType</a> <a class="el" href="#a430492051d4510423b04130a6a6e1673">slotType</a>, <a class="el" href="namespace_b_x_geometry_graph.html#ad0e11e1489817712969f4f5edfebed4facf637ffa2663b40ae52857aa0bdb1ec3">Vector4</a> defaultValue, <a class="el" href="namespace_b_x_geometry_graph.html#a9466fcbff5f8689cb0a15bbaf3d04316">GeometryStageCapability</a> geometryStageCapability=<a class="el" href="namespace_b_x_geometry_graph.html#a9466fcbff5f8689cb0a15bbaf3d04316ab1c94ca2fbc3e78fc30069c8d0f01680">GeometryStageCapability.All</a>, bool <a class="el" href="#ac5cde3e298ae77c2fa15c8f73df53953">hidden</a>=false)</td></tr>
 <tr class="separator:ac7d08771a2376b4c650ad2d94e6d42b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a8f6bab5054ef429b64c20da5bdb73ed9" id="r_a8f6bab5054ef429b64c20da5bdb73ed9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f6bab5054ef429b64c20da5bdb73ed9">GeometrySlot</a> (int slotId, string displayName, string geometryOutputName, SlotType slotType, GeometryStageCapability stageCapability=GeometryStageCapability.All, bool hidden=false)</td></tr>
+<tr class="memitem:ab3d5bd030bdf7e599b97b9c45f508bbb" id="r_ab3d5bd030bdf7e599b97b9c45f508bbb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3d5bd030bdf7e599b97b9c45f508bbb">GeometrySlot</a> ()</td></tr>
+<tr class="separator:ab3d5bd030bdf7e599b97b9c45f508bbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f6bab5054ef429b64c20da5bdb73ed9" id="r_a8f6bab5054ef429b64c20da5bdb73ed9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f6bab5054ef429b64c20da5bdb73ed9">GeometrySlot</a> (int slotId, string <a class="el" href="#a1636ef47dd21a467f65b0a076a54e490">displayName</a>, string <a class="el" href="#a2c793cc4c641c6276b59fed7a2e964c1">geometryOutputName</a>, <a class="el" href="namespace_b_x_geometry_graph.html#a0b9a157933dbf2cbd98b8ac97a70508a">SlotType</a> <a class="el" href="#a430492051d4510423b04130a6a6e1673">slotType</a>, <a class="el" href="namespace_b_x_geometry_graph.html#a9466fcbff5f8689cb0a15bbaf3d04316">GeometryStageCapability</a> <a class="el" href="#ac7efda723efe8a44881ed814551a60db">stageCapability</a>=<a class="el" href="namespace_b_x_geometry_graph.html#a9466fcbff5f8689cb0a15bbaf3d04316ab1c94ca2fbc3e78fc30069c8d0f01680">GeometryStageCapability.All</a>, bool <a class="el" href="#ac5cde3e298ae77c2fa15c8f73df53953">hidden</a>=false)</td></tr>
 <tr class="separator:a8f6bab5054ef429b64c20da5bdb73ed9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92b1993bbec2db4519908c51090e0ac6" id="r_a92b1993bbec2db4519908c51090e0ac6"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a92b1993bbec2db4519908c51090e0ac6">ConcreteSlotValueAsVariable</a> ()</td></tr>
 <tr class="separator:a92b1993bbec2db4519908c51090e0ac6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_class_b_x_geometry_graph_1_1_json_object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_class_b_x_geometry_graph_1_1_json_object')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_b_x_geometry_graph_1_1_json_object.html">BXGeometryGraph.JsonObject</a></td></tr>
-<tr class="memitem:ab58d9a8d39249c94ae5f896f6d4491de inherit pro_methods_class_b_x_geometry_graph_1_1_json_object" id="r_ab58d9a8d39249c94ae5f896f6d4491de"><td class="memItemLeft" align="right" valign="top">
-delegate void&#160;</td><td class="memItemRight" valign="bottom"><b>VersionChange</b> (int newVersion)</td></tr>
+<tr class="memitem:ab58d9a8d39249c94ae5f896f6d4491de inherit pro_methods_class_b_x_geometry_graph_1_1_json_object" id="r_ab58d9a8d39249c94ae5f896f6d4491de"><td class="memItemLeft" align="right" valign="top">delegate <a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_x_geometry_graph_1_1_json_object.html#ab58d9a8d39249c94ae5f896f6d4491de">VersionChange</a> (int newVersion)</td></tr>
 <tr class="separator:ab58d9a8d39249c94ae5f896f6d4491de inherit pro_methods_class_b_x_geometry_graph_1_1_json_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:ac7efda723efe8a44881ed814551a60db" id="r_ac7efda723efe8a44881ed814551a60db"><td class="memItemLeft" align="right" valign="top">GeometryStageCapability&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7efda723efe8a44881ed814551a60db">stageCapability</a><code> [get, set]</code></td></tr>
+<tr class="memitem:ac7efda723efe8a44881ed814551a60db" id="r_ac7efda723efe8a44881ed814551a60db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_b_x_geometry_graph.html#a9466fcbff5f8689cb0a15bbaf3d04316">GeometryStageCapability</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7efda723efe8a44881ed814551a60db">stageCapability</a><code> [get, set]</code></td></tr>
 <tr class="separator:ac7efda723efe8a44881ed814551a60db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1636ef47dd21a467f65b0a076a54e490" id="r_a1636ef47dd21a467f65b0a076a54e490"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1636ef47dd21a467f65b0a076a54e490">displayName</a><code> [get, set]</code></td></tr>
 <tr class="separator:a1636ef47dd21a467f65b0a076a54e490"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -233,15 +237,15 @@ Properties</h2></td></tr>
 <tr class="separator:acc0086e967a928d1d6960eeeea120826"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5eaf9a00bbe27bf70f8c13afcfc43ce9" id="r_a5eaf9a00bbe27bf70f8c13afcfc43ce9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5eaf9a00bbe27bf70f8c13afcfc43ce9">isOutputSlot</a><code> [get]</code></td></tr>
 <tr class="separator:a5eaf9a00bbe27bf70f8c13afcfc43ce9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a430492051d4510423b04130a6a6e1673" id="r_a430492051d4510423b04130a6a6e1673"><td class="memItemLeft" align="right" valign="top">SlotType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a430492051d4510423b04130a6a6e1673">slotType</a><code> [get]</code></td></tr>
+<tr class="memitem:a430492051d4510423b04130a6a6e1673" id="r_a430492051d4510423b04130a6a6e1673"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_b_x_geometry_graph.html#a0b9a157933dbf2cbd98b8ac97a70508a">SlotType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a430492051d4510423b04130a6a6e1673">slotType</a><code> [get]</code></td></tr>
 <tr class="separator:a430492051d4510423b04130a6a6e1673"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6c3d0fd40e87f41f77075c3704b2b59" id="r_ad6c3d0fd40e87f41f77075c3704b2b59"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad6c3d0fd40e87f41f77075c3704b2b59">isConnected</a><code> [get]</code></td></tr>
 <tr class="separator:ad6c3d0fd40e87f41f77075c3704b2b59"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac0fa53f975f7a67abaa126199882899f" id="r_ac0fa53f975f7a67abaa126199882899f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac0fa53f975f7a67abaa126199882899f">isDefaultValue</a><code> [get]</code></td></tr>
 <tr class="separator:ac0fa53f975f7a67abaa126199882899f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f15459cde21ac6da7747f6577f3b26c" id="r_a1f15459cde21ac6da7747f6577f3b26c"><td class="memItemLeft" align="right" valign="top">SlotValueType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f15459cde21ac6da7747f6577f3b26c">valueType</a><code> [get]</code></td></tr>
+<tr class="memitem:a1f15459cde21ac6da7747f6577f3b26c" id="r_a1f15459cde21ac6da7747f6577f3b26c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_b_x_geometry_graph.html#a76994cea51d244202a44aee78578d1d5">SlotValueType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f15459cde21ac6da7747f6577f3b26c">valueType</a><code> [get]</code></td></tr>
 <tr class="separator:a1f15459cde21ac6da7747f6577f3b26c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a313f9c386c4a3777f1bd3f760defc6" id="r_a4a313f9c386c4a3777f1bd3f760defc6"><td class="memItemLeft" align="right" valign="top">ConcreteSlotValueType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a313f9c386c4a3777f1bd3f760defc6">concreteValueType</a><code> [get]</code></td></tr>
+<tr class="memitem:a4a313f9c386c4a3777f1bd3f760defc6" id="r_a4a313f9c386c4a3777f1bd3f760defc6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_b_x_geometry_graph.html#a6d82e0edaaaccacedc7528793fe41a5c">ConcreteSlotValueType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a313f9c386c4a3777f1bd3f760defc6">concreteValueType</a><code> [get]</code></td></tr>
 <tr class="separator:a4a313f9c386c4a3777f1bd3f760defc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2c793cc4c641c6276b59fed7a2e964c1" id="r_a2c793cc4c641c6276b59fed7a2e964c1"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c793cc4c641c6276b59fed7a2e964c1">geometryOutputName</a><code> [get, set]</code></td></tr>
 <tr class="separator:a2c793cc4c641c6276b59fed7a2e964c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -257,6 +261,33 @@ Properties</h2></td></tr>
 <tr class="memitem:a958a229d15437848ce7e3c5333eec7c8 inherit properties_class_b_x_geometry_graph_1_1_json_object" id="r_a958a229d15437848ce7e3c5333eec7c8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_x_geometry_graph_1_1_json_object.html#a958a229d15437848ce7e3c5333eec7c8">objectIdIsEmpty</a><code> [get]</code></td></tr>
 <tr class="separator:a958a229d15437848ce7e3c5333eec7c8 inherit properties_class_b_x_geometry_graph_1_1_json_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-methods" name="pri-static-methods"></a>
+Static Private Member Functions</h2></td></tr>
+<tr class="memitem:a672ea4a262e69d208acc03b34551ae2c" id="r_a672ea4a262e69d208acc03b34551ae2c"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a672ea4a262e69d208acc03b34551ae2c">ConcreteSlotValueTypeAsString</a> (<a class="el" href="namespace_b_x_geometry_graph.html#a6d82e0edaaaccacedc7528793fe41a5c">ConcreteSlotValueType</a> type)</td></tr>
+<tr class="separator:a672ea4a262e69d208acc03b34551ae2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a362599c397195428155db303caeeda2f" id="r_a362599c397195428155db303caeeda2f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a362599c397195428155db303caeeda2f">m_Id</a></td></tr>
+<tr class="separator:a362599c397195428155db303caeeda2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63e3b96071b20a7f6ca79ea340b1b938" id="r_a63e3b96071b20a7f6ca79ea340b1b938"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a63e3b96071b20a7f6ca79ea340b1b938">m_DisplayName</a> = <a class="el" href="#a6e0e374c597beef4e7c028e857c04e93">k_NotInit</a></td></tr>
+<tr class="separator:a63e3b96071b20a7f6ca79ea340b1b938"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbacd097dbba9d0cee32f40381c7807d" id="r_abbacd097dbba9d0cee32f40381c7807d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_b_x_geometry_graph.html#a0b9a157933dbf2cbd98b8ac97a70508a">SlotType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abbacd097dbba9d0cee32f40381c7807d">m_SlotType</a> = <a class="el" href="namespace_b_x_geometry_graph.html#a0b9a157933dbf2cbd98b8ac97a70508aa324118a6721dd6b8a9b9f4e327df2bf5">SlotType.Input</a></td></tr>
+<tr class="separator:abbacd097dbba9d0cee32f40381c7807d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e257c9812df11213b94f154c003498a" id="r_a1e257c9812df11213b94f154c003498a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e257c9812df11213b94f154c003498a">m_Hidden</a></td></tr>
+<tr class="separator:a1e257c9812df11213b94f154c003498a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15bcd7c74e0af8037a0b338bdf947737" id="r_a15bcd7c74e0af8037a0b338bdf947737"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a15bcd7c74e0af8037a0b338bdf947737">m_GeometryOutputName</a></td></tr>
+<tr class="separator:a15bcd7c74e0af8037a0b338bdf947737"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f7696837544c60aaacd96382d6a6f3d" id="r_a1f7696837544c60aaacd96382d6a6f3d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_b_x_geometry_graph.html#a9466fcbff5f8689cb0a15bbaf3d04316">GeometryStageCapability</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f7696837544c60aaacd96382d6a6f3d">m_StageCapability</a></td></tr>
+<tr class="separator:a1f7696837544c60aaacd96382d6a6f3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a672cb9ca58b55fd57a0ff81bfffeebf5" id="r_a672cb9ca58b55fd57a0ff81bfffeebf5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a672cb9ca58b55fd57a0ff81bfffeebf5">m_HasError</a></td></tr>
+<tr class="separator:a672cb9ca58b55fd57a0ff81bfffeebf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a6e0e374c597beef4e7c028e857c04e93" id="r_a6e0e374c597beef4e7c028e857c04e93"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e0e374c597beef4e7c028e857c04e93">k_NotInit</a> = &quot;Not Initilaized&quot;</td></tr>
+<tr class="separator:a6e0e374c597beef4e7c028e857c04e93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pub_static_attribs_class_b_x_geometry_graph_1_1_json_object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_attribs_class_b_x_geometry_graph_1_1_json_object')"><img src="closed.png" alt="-"/>&#160;Static Public Attributes inherited from <a class="el" href="class_b_x_geometry_graph_1_1_json_object.html">BXGeometryGraph.JsonObject</a></td></tr>
@@ -265,7 +296,7 @@ Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pro_attribs_class_b_x_geometry_graph_1_1_json_object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_class_b_x_geometry_graph_1_1_json_object')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_b_x_geometry_graph_1_1_json_object.html">BXGeometryGraph.JsonObject</a></td></tr>
 <tr class="memitem:aed488a9b56f58496505ffa94896ab2ab inherit pro_attribs_class_b_x_geometry_graph_1_1_json_object" id="r_aed488a9b56f58496505ffa94896ab2ab"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_x_geometry_graph_1_1_json_object.html#aed488a9b56f58496505ffa94896ab2ab">m_GGVersion</a> = 0</td></tr>
 <tr class="separator:aed488a9b56f58496505ffa94896ab2ab inherit pro_attribs_class_b_x_geometry_graph_1_1_json_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00a9f47e1a45eadd6e8a544f0fbc99ee inherit pro_attribs_class_b_x_geometry_graph_1_1_json_object" id="r_a00a9f47e1a45eadd6e8a544f0fbc99ee"><td class="memItemLeft" align="right" valign="top">VersionChange&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_x_geometry_graph_1_1_json_object.html#a00a9f47e1a45eadd6e8a544f0fbc99ee">onBeforeVersionChange</a></td></tr>
+<tr class="memitem:a00a9f47e1a45eadd6e8a544f0fbc99ee inherit pro_attribs_class_b_x_geometry_graph_1_1_json_object" id="r_a00a9f47e1a45eadd6e8a544f0fbc99ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_b_x_geometry_graph_1_1_json_object.html#ab58d9a8d39249c94ae5f896f6d4491de">VersionChange</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_x_geometry_graph_1_1_json_object.html#a00a9f47e1a45eadd6e8a544f0fbc99ee">onBeforeVersionChange</a></td></tr>
 <tr class="separator:a00a9f47e1a45eadd6e8a544f0fbc99ee inherit pro_attribs_class_b_x_geometry_graph_1_1_json_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6727353de14992acc28682061e21fc34 inherit pro_attribs_class_b_x_geometry_graph_1_1_json_object" id="r_a6727353de14992acc28682061e21fc34"><td class="memItemLeft" align="right" valign="top">Action&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_b_x_geometry_graph_1_1_json_object.html#a6727353de14992acc28682061e21fc34">onAfterVersionChange</a></td></tr>
 <tr class="separator:a6727353de14992acc28682061e21fc34 inherit pro_attribs_class_b_x_geometry_graph_1_1_json_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -328,12 +359,12 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">SlotType</td>          <td class="paramname"><span class="paramname"><em>slotType</em></span>, </td>
+          <td class="paramtype"><a class="el" href="namespace_b_x_geometry_graph.html#a0b9a157933dbf2cbd98b8ac97a70508a">SlotType</a></td>          <td class="paramname"><span class="paramname"><em>slotType</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">GeometryStageCapability</td>          <td class="paramname"><span class="paramname"><em>stageCapability</em></span><span class="paramdefsep"> = </span><span class="paramdefval">GeometryStageCapability::All</span>, </td>
+          <td class="paramtype"><a class="el" href="namespace_b_x_geometry_graph.html#a9466fcbff5f8689cb0a15bbaf3d04316">GeometryStageCapability</a></td>          <td class="paramname"><span class="paramname"><em>stageCapability</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="namespace_b_x_geometry_graph.html#a9466fcbff5f8689cb0a15bbaf3d04316ab1c94ca2fbc3e78fc30069c8d0f01680">GeometryStageCapability::All</a></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -353,6 +384,35 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a602ff0e313df5fd897da7873fa589a55" name="a602ff0e313df5fd897da7873fa589a55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a602ff0e313df5fd897da7873fa589a55">&#9670;&#160;</a></span>AddDefaultProperty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXGeometryGraph.GeometrySlot.AddDefaultProperty </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_b_x_geometry_graph_1_1_property_collector.html">PropertyCollector</a></td>          <td class="paramname"><span class="paramname"><em>properties</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_b_x_geometry_graph.html#af29f8a48dc8aff884b2b3939a36ac9d2">GenerationMode</a></td>          <td class="paramname"><span class="paramname"><em>generationMode</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel abstract">abstract</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a3e3b38c6387f160108b520bd90642060" name="a3e3b38c6387f160108b520bd90642060"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3e3b38c6387f160108b520bd90642060">&#9670;&#160;</a></span>AppendHLSLParameterDeclaration()</h2>
 
@@ -363,7 +423,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void BXGeometryGraph.GeometrySlot.AppendHLSLParameterDeclaration </td>
+          <td class="memname">virtual <a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXGeometryGraph.GeometrySlot.AppendHLSLParameterDeclaration </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_b_x_geometry_graph_1_1_shader_string_builder.html">ShaderStringBuilder</a></td>          <td class="paramname"><span class="paramname"><em>sb</em></span>, </td>
         </tr>
@@ -407,7 +467,36 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Reimplemented in <a class="el" href="class_b_x_geometry_graph_1_1_color_geometry_slot.html#a82a34a49897e69a114b05a7f7c66a4b3">BXGeometryGraph.ColorGeometrySlot</a>, <a class="el" href="class_b_x_geometry_graph_1_1_dynamic_vector_geometry_slot.html#abf2acb1c01be0d35ee56a7ee678d73b0">BXGeometryGraph.DynamicVectorGeometrySlot</a>, <a class="el" href="class_b_x_geometry_graph_1_1_integer1_geometry_slot.html#a9e499a0356672640a3700416cd358320">BXGeometryGraph.Integer1GeometrySlot</a>, <a class="el" href="class_b_x_geometry_graph_1_1_vector1_geometry_slot.html#ab2bb3dac3d1d641e130c3867a4d6127d">BXGeometryGraph.Vector1GeometrySlot</a>, <a class="el" href="class_b_x_geometry_graph_1_1_vector2_geometry_slot.html#aa33bec80bd57810d6b75c0eea7ef3cef">BXGeometryGraph.Vector2GeometrySlot</a>, <a class="el" href="class_b_x_geometry_graph_1_1_vector3_geometry_slot.html#aafd5aa5c49292f2bc3ff11bcd1d95ea9">BXGeometryGraph.Vector3GeometrySlot</a>, and <a class="el" href="class_b_x_geometry_graph_1_1_vector4_geometry_slot.html#a966ca99cb0e541e9b3ccc88ae7f21da7">BXGeometryGraph.Vector4GeometrySlot</a>.</p>
+
 <p class="definition">Definition at line <a class="el" href="_geometry_slot_8cs_source.html#l00348">348</a> of file <a class="el" href="_geometry_slot_8cs_source.html">GeometrySlot.cs</a>.</p>
+
+</div>
+</div>
+<a id="a672ea4a262e69d208acc03b34551ae2c" name="a672ea4a262e69d208acc03b34551ae2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a672ea4a262e69d208acc03b34551ae2c">&#9670;&#160;</a></span>ConcreteSlotValueTypeAsString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static string BXGeometryGraph.GeometrySlot.ConcreteSlotValueTypeAsString </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_b_x_geometry_graph.html#a6d82e0edaaaccacedc7528793fe41a5c">ConcreteSlotValueType</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_slot_8cs_source.html#l00096">96</a> of file <a class="el" href="_geometry_slot_8cs_source.html">GeometrySlot.cs</a>.</p>
 
 </div>
 </div>
@@ -421,7 +510,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void BXGeometryGraph.GeometrySlot.CopyDefaultValue </td>
+          <td class="memname">virtual <a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXGeometryGraph.GeometrySlot.CopyDefaultValue </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_b_x_geometry_graph_1_1_geometry_slot.html">GeometrySlot</a></td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
           <td></td>
@@ -434,7 +523,34 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Reimplemented in <a class="el" href="class_b_x_geometry_graph_1_1_dynamic_vector_geometry_slot.html#a3879ce68a9a2a8c9469c1326c6f1d59f">BXGeometryGraph.DynamicVectorGeometrySlot</a>, <a class="el" href="class_b_x_geometry_graph_1_1_geometry_geometry_slot.html#a77fe521b552b18c350ab3d0b1e5dcb0f">BXGeometryGraph.GeometryGeometrySlot</a>, <a class="el" href="class_b_x_geometry_graph_1_1_integer1_geometry_slot.html#ab4e032e1a3e28a4ebb83d4b0d3794b71">BXGeometryGraph.Integer1GeometrySlot</a>, <a class="el" href="class_b_x_geometry_graph_1_1_vector1_geometry_slot.html#a0060779c0beca8d7a4a545a4395d924f">BXGeometryGraph.Vector1GeometrySlot</a>, <a class="el" href="class_b_x_geometry_graph_1_1_vector2_geometry_slot.html#a7a0f2de2f9e04adf8336e0671c374e11">BXGeometryGraph.Vector2GeometrySlot</a>, <a class="el" href="class_b_x_geometry_graph_1_1_vector3_geometry_slot.html#a533b50013964129bf1ab90bb7f1b65ac">BXGeometryGraph.Vector3GeometrySlot</a>, and <a class="el" href="class_b_x_geometry_graph_1_1_vector4_geometry_slot.html#a9b19541c5ccef4a7b549c8dc049c1db2">BXGeometryGraph.Vector4GeometrySlot</a>.</p>
+
 <p class="definition">Definition at line <a class="el" href="_geometry_slot_8cs_source.html#l00399">399</a> of file <a class="el" href="_geometry_slot_8cs_source.html">GeometrySlot.cs</a>.</p>
+
+</div>
+</div>
+<a id="a5e8bc0862210e6f15b0ee6a4dd7e1717" name="a5e8bc0862210e6f15b0ee6a4dd7e1717"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e8bc0862210e6f15b0ee6a4dd7e1717">&#9670;&#160;</a></span>CopyValuesFrom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXGeometryGraph.GeometrySlot.CopyValuesFrom </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_b_x_geometry_graph_1_1_geometry_slot.html">GeometrySlot</a></td>          <td class="paramname"><span class="paramname"><em>foundSlot</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel abstract">abstract</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -450,7 +566,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">static <a class="el" href="class_b_x_geometry_graph_1_1_geometry_slot.html">GeometrySlot</a> BXGeometryGraph.GeometrySlot.CreateGeometrySlot </td>
           <td>(</td>
-          <td class="paramtype">SlotValueType</td>          <td class="paramname"><span class="paramname"><em>type</em></span>, </td>
+          <td class="paramtype"><a class="el" href="namespace_b_x_geometry_graph.html#a76994cea51d244202a44aee78578d1d5">SlotValueType</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -470,17 +586,17 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">SlotType</td>          <td class="paramname"><span class="paramname"><em>slotType</em></span>, </td>
+          <td class="paramtype"><a class="el" href="namespace_b_x_geometry_graph.html#a0b9a157933dbf2cbd98b8ac97a70508a">SlotType</a></td>          <td class="paramname"><span class="paramname"><em>slotType</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">Vector4</td>          <td class="paramname"><span class="paramname"><em>defaultValue</em></span>, </td>
+          <td class="paramtype"><a class="el" href="namespace_b_x_geometry_graph.html#ad0e11e1489817712969f4f5edfebed4facf637ffa2663b40ae52857aa0bdb1ec3">Vector4</a></td>          <td class="paramname"><span class="paramname"><em>defaultValue</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">GeometryStageCapability</td>          <td class="paramname"><span class="paramname"><em>geometryStageCapability</em></span><span class="paramdefsep"> = </span><span class="paramdefval">GeometryStageCapability::All</span>, </td>
+          <td class="paramtype"><a class="el" href="namespace_b_x_geometry_graph.html#a9466fcbff5f8689cb0a15bbaf3d04316">GeometryStageCapability</a></td>          <td class="paramname"><span class="paramname"><em>geometryStageCapability</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="namespace_b_x_geometry_graph.html#a9466fcbff5f8689cb0a15bbaf3d04316ab1c94ca2fbc3e78fc30069c8d0f01680">GeometryStageCapability::All</a></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -506,7 +622,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void BXGeometryGraph.GeometrySlot.Dispose </td>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXGeometryGraph.GeometrySlot.Dispose </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -546,7 +662,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">override bool BXGeometryGraph.GeometrySlot.Equals </td>
           <td>(</td>
-          <td class="paramtype">object</td>          <td class="paramname"><span class="paramname"><em>obj</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="d3d12_8idl.html#ad03408aabe16bb53c780fae6cf3910f9">object</a></td>          <td class="paramname"><span class="paramname"><em>obj</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -595,7 +711,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">virtual string BXGeometryGraph.GeometrySlot.GetDefaultValue </td>
           <td>(</td>
-          <td class="paramtype">GenerationMode</td>          <td class="paramname"><span class="paramname"><em>generationMode</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="namespace_b_x_geometry_graph.html#af29f8a48dc8aff884b2b3939a36ac9d2">GenerationMode</a></td>          <td class="paramname"><span class="paramname"><em>generationMode</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -605,6 +721,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="class_b_x_geometry_graph_1_1_geometry_geometry_slot.html#a0819fb50dba2ebb24d2d86762626bcd1">BXGeometryGraph.GeometryGeometrySlot</a>.</p>
 
 <p class="definition">Definition at line <a class="el" href="_geometry_slot_8cs_source.html#l00336">336</a> of file <a class="el" href="_geometry_slot_8cs_source.html">GeometrySlot.cs</a>.</p>
 
@@ -619,12 +737,12 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">string BXGeometryGraph.GeometrySlot.GetDefaultValue </td>
           <td>(</td>
-          <td class="paramtype">GenerationMode</td>          <td class="paramname"><span class="paramname"><em>generationMode</em></span>, </td>
+          <td class="paramtype"><a class="el" href="namespace_b_x_geometry_graph.html#af29f8a48dc8aff884b2b3939a36ac9d2">GenerationMode</a></td>          <td class="paramname"><span class="paramname"><em>generationMode</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">ConcretePrecision</td>          <td class="paramname"><span class="paramname"><em>concretePrecision</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="namespace_b_x_geometry_graph.html#a680af4771f5f4897b538c6858b19ef1f">ConcretePrecision</a></td>          <td class="paramname"><span class="paramname"><em>concretePrecision</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -655,6 +773,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="class_b_x_geometry_graph_1_1_integer1_geometry_slot.html#a8178f62f8c79d7a40ce275295a975626">BXGeometryGraph.Integer1GeometrySlot</a>, and <a class="el" href="class_b_x_geometry_graph_1_1_vector1_geometry_slot.html#a4ae7d1fe6ee2528e3a205f54299b3344">BXGeometryGraph.Vector1GeometrySlot</a>.</p>
 
 <p class="definition">Definition at line <a class="el" href="_geometry_slot_8cs_source.html#l00323">323</a> of file <a class="el" href="_geometry_slot_8cs_source.html">GeometrySlot.cs</a>.</p>
 
@@ -702,6 +822,8 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Reimplemented in <a class="el" href="class_b_x_geometry_graph_1_1_integer1_geometry_slot.html#aaa65ef86956fdb7476cedc0a989ebbef">BXGeometryGraph.Integer1GeometrySlot</a>, and <a class="el" href="class_b_x_geometry_graph_1_1_vector1_geometry_slot.html#a08f247643f986b43ea758c8633d12245">BXGeometryGraph.Vector1GeometrySlot</a>.</p>
+
 <p class="definition">Definition at line <a class="el" href="_geometry_slot_8cs_source.html#l00319">319</a> of file <a class="el" href="_geometry_slot_8cs_source.html">GeometrySlot.cs</a>.</p>
 
 </div>
@@ -716,7 +838,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void BXGeometryGraph.GeometrySlot.GetPreviewProperties </td>
+          <td class="memname">virtual <a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXGeometryGraph.GeometrySlot.GetPreviewProperties </td>
           <td>(</td>
           <td class="paramtype">List&lt; <a class="el" href="struct_b_x_geometry_graph_1_1_preview_property.html">PreviewProperty</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>properties</em></span>, </td>
         </tr>
@@ -733,6 +855,8 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Reimplemented in <a class="el" href="class_b_x_geometry_graph_1_1_color_geometry_slot.html#a565913abe2310022b4e5e57651e9aff0">BXGeometryGraph.ColorGeometrySlot</a>, <a class="el" href="class_b_x_geometry_graph_1_1_dynamic_vector_geometry_slot.html#a851f089470309625640002f048715469">BXGeometryGraph.DynamicVectorGeometrySlot</a>, <a class="el" href="class_b_x_geometry_graph_1_1_integer1_geometry_slot.html#a67bf54aa6c5bff0c15fc78039077556f">BXGeometryGraph.Integer1GeometrySlot</a>, <a class="el" href="class_b_x_geometry_graph_1_1_vector1_geometry_slot.html#aa314a038ac4e4c0800d5fc0715a685d2">BXGeometryGraph.Vector1GeometrySlot</a>, <a class="el" href="class_b_x_geometry_graph_1_1_vector2_geometry_slot.html#ad3f1c20b0da6edb51472a67ecec6621a">BXGeometryGraph.Vector2GeometrySlot</a>, <a class="el" href="class_b_x_geometry_graph_1_1_vector3_geometry_slot.html#a91675a1d6b8f73d407ec41376187ad46">BXGeometryGraph.Vector3GeometrySlot</a>, and <a class="el" href="class_b_x_geometry_graph_1_1_vector4_geometry_slot.html#a689ccaaf1435f907aa9d4937efcc12d6">BXGeometryGraph.Vector4GeometrySlot</a>.</p>
+
 <p class="definition">Definition at line <a class="el" href="_geometry_slot_8cs_source.html#l00355">355</a> of file <a class="el" href="_geometry_slot_8cs_source.html">GeometrySlot.cs</a>.</p>
 
 </div>
@@ -747,7 +871,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual Vector3 BXGeometryGraph.GeometrySlot.GetVector3DefaultValue </td>
+          <td class="memname">virtual <a class="el" href="namespace_b_x_geometry_graph.html#ad0e11e1489817712969f4f5edfebed4fa02b4dab58bbc49e0851fb3fd8df520cc">Vector3</a> BXGeometryGraph.GeometrySlot.GetVector3DefaultValue </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -759,6 +883,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="class_b_x_geometry_graph_1_1_vector3_geometry_slot.html#a6381966d295f63bacd7b1f6a5038109d">BXGeometryGraph.Vector3GeometrySlot</a>.</p>
 
 <p class="definition">Definition at line <a class="el" href="_geometry_slot_8cs_source.html#l00327">327</a> of file <a class="el" href="_geometry_slot_8cs_source.html">GeometrySlot.cs</a>.</p>
 
@@ -786,6 +912,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="class_b_x_geometry_graph_1_1_color_geometry_slot.html#a3529189ab970d9c5898f036bf616f498">BXGeometryGraph.ColorGeometrySlot</a>, <a class="el" href="class_b_x_geometry_graph_1_1_dynamic_vector_geometry_slot.html#a0f10203856920b70745246a3721fddff">BXGeometryGraph.DynamicVectorGeometrySlot</a>, <a class="el" href="class_b_x_geometry_graph_1_1_geometry_geometry_slot.html#a5ac5ee9e08087362b862f65a1af8e814">BXGeometryGraph.GeometryGeometrySlot</a>, <a class="el" href="class_b_x_geometry_graph_1_1_integer1_geometry_slot.html#a5385caec08341cab97e1932c05df231d">BXGeometryGraph.Integer1GeometrySlot</a>, <a class="el" href="class_b_x_geometry_graph_1_1_vector1_geometry_slot.html#a36fd07d1c1b241f502af2c064d4bbc08">BXGeometryGraph.Vector1GeometrySlot</a>, <a class="el" href="class_b_x_geometry_graph_1_1_vector2_geometry_slot.html#a4d9706480ad09d471bae99498c373f4e">BXGeometryGraph.Vector2GeometrySlot</a>, <a class="el" href="class_b_x_geometry_graph_1_1_vector3_geometry_slot.html#a0164e0ec961959c3e3dcf3186bcc6fb0">BXGeometryGraph.Vector3GeometrySlot</a>, and <a class="el" href="class_b_x_geometry_graph_1_1_vector4_geometry_slot.html#aed7218dc54b9a75148d228e0b0597b1d">BXGeometryGraph.Vector4GeometrySlot</a>.</p>
 
 <p class="definition">Definition at line <a class="el" href="_geometry_slot_8cs_source.html#l00091">91</a> of file <a class="el" href="_geometry_slot_8cs_source.html">GeometrySlot.cs</a>.</p>
 
@@ -905,6 +1033,199 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a6e0e374c597beef4e7c028e857c04e93" name="a6e0e374c597beef4e7c028e857c04e93"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e0e374c597beef4e7c028e857c04e93">&#9670;&#160;</a></span>k_NotInit</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string BXGeometryGraph.GeometrySlot.k_NotInit = &quot;Not Initilaized&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_slot_8cs_source.html#l00014">14</a> of file <a class="el" href="_geometry_slot_8cs_source.html">GeometrySlot.cs</a>.</p>
+
+</div>
+</div>
+<a id="a63e3b96071b20a7f6ca79ea340b1b938" name="a63e3b96071b20a7f6ca79ea340b1b938"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63e3b96071b20a7f6ca79ea340b1b938">&#9670;&#160;</a></span>m_DisplayName</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string BXGeometryGraph.GeometrySlot.m_DisplayName = <a class="el" href="#a6e0e374c597beef4e7c028e857c04e93">k_NotInit</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_slot_8cs_source.html#l00020">20</a> of file <a class="el" href="_geometry_slot_8cs_source.html">GeometrySlot.cs</a>.</p>
+
+</div>
+</div>
+<a id="a15bcd7c74e0af8037a0b338bdf947737" name="a15bcd7c74e0af8037a0b338bdf947737"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15bcd7c74e0af8037a0b338bdf947737">&#9670;&#160;</a></span>m_GeometryOutputName</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string BXGeometryGraph.GeometrySlot.m_GeometryOutputName</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_slot_8cs_source.html#l00029">29</a> of file <a class="el" href="_geometry_slot_8cs_source.html">GeometrySlot.cs</a>.</p>
+
+</div>
+</div>
+<a id="a672cb9ca58b55fd57a0ff81bfffeebf5" name="a672cb9ca58b55fd57a0ff81bfffeebf5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a672cb9ca58b55fd57a0ff81bfffeebf5">&#9670;&#160;</a></span>m_HasError</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool BXGeometryGraph.GeometrySlot.m_HasError</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_slot_8cs_source.html#l00034">34</a> of file <a class="el" href="_geometry_slot_8cs_source.html">GeometrySlot.cs</a>.</p>
+
+</div>
+</div>
+<a id="a1e257c9812df11213b94f154c003498a" name="a1e257c9812df11213b94f154c003498a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e257c9812df11213b94f154c003498a">&#9670;&#160;</a></span>m_Hidden</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool BXGeometryGraph.GeometrySlot.m_Hidden</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_slot_8cs_source.html#l00026">26</a> of file <a class="el" href="_geometry_slot_8cs_source.html">GeometrySlot.cs</a>.</p>
+
+</div>
+</div>
+<a id="a362599c397195428155db303caeeda2f" name="a362599c397195428155db303caeeda2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a362599c397195428155db303caeeda2f">&#9670;&#160;</a></span>m_Id</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BXGeometryGraph.GeometrySlot.m_Id</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_slot_8cs_source.html#l00017">17</a> of file <a class="el" href="_geometry_slot_8cs_source.html">GeometrySlot.cs</a>.</p>
+
+</div>
+</div>
+<a id="abbacd097dbba9d0cee32f40381c7807d" name="abbacd097dbba9d0cee32f40381c7807d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abbacd097dbba9d0cee32f40381c7807d">&#9670;&#160;</a></span>m_SlotType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_b_x_geometry_graph.html#a0b9a157933dbf2cbd98b8ac97a70508a">SlotType</a> BXGeometryGraph.GeometrySlot.m_SlotType = <a class="el" href="namespace_b_x_geometry_graph.html#a0b9a157933dbf2cbd98b8ac97a70508aa324118a6721dd6b8a9b9f4e327df2bf5">SlotType.Input</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_slot_8cs_source.html#l00023">23</a> of file <a class="el" href="_geometry_slot_8cs_source.html">GeometrySlot.cs</a>.</p>
+
+</div>
+</div>
+<a id="a1f7696837544c60aaacd96382d6a6f3d" name="a1f7696837544c60aaacd96382d6a6f3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f7696837544c60aaacd96382d6a6f3d">&#9670;&#160;</a></span>m_StageCapability</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_b_x_geometry_graph.html#a9466fcbff5f8689cb0a15bbaf3d04316">GeometryStageCapability</a> BXGeometryGraph.GeometrySlot.m_StageCapability</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_slot_8cs_source.html#l00032">32</a> of file <a class="el" href="_geometry_slot_8cs_source.html">GeometrySlot.cs</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Property Documentation</h2>
 <a id="a4a313f9c386c4a3777f1bd3f760defc6" name="a4a313f9c386c4a3777f1bd3f760defc6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4a313f9c386c4a3777f1bd3f760defc6">&#9670;&#160;</a></span>concreteValueType</h2>
@@ -916,7 +1237,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">ConcreteSlotValueType BXGeometryGraph.GeometrySlot.concreteValueType</td>
+          <td class="memname"><a class="el" href="namespace_b_x_geometry_graph.html#a6d82e0edaaaccacedc7528793fe41a5c">ConcreteSlotValueType</a> BXGeometryGraph.GeometrySlot.concreteValueType</td>
         </tr>
       </table>
   </td>
@@ -1204,7 +1525,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">SlotType BXGeometryGraph.GeometrySlot.slotType</td>
+          <td class="memname"><a class="el" href="namespace_b_x_geometry_graph.html#a0b9a157933dbf2cbd98b8ac97a70508a">SlotType</a> BXGeometryGraph.GeometrySlot.slotType</td>
         </tr>
       </table>
   </td>
@@ -1228,7 +1549,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">GeometryStageCapability BXGeometryGraph.GeometrySlot.stageCapability</td>
+          <td class="memname"><a class="el" href="namespace_b_x_geometry_graph.html#a9466fcbff5f8689cb0a15bbaf3d04316">GeometryStageCapability</a> BXGeometryGraph.GeometrySlot.stageCapability</td>
         </tr>
       </table>
   </td>
@@ -1252,7 +1573,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">SlotValueType BXGeometryGraph.GeometrySlot.valueType</td>
+          <td class="memname"><a class="el" href="namespace_b_x_geometry_graph.html#a76994cea51d244202a44aee78578d1d5">SlotValueType</a> BXGeometryGraph.GeometrySlot.valueType</td>
         </tr>
       </table>
   </td>

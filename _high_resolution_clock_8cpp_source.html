@@ -109,72 +109,109 @@ $(function(){initNavTree('_high_resolution_clock_8cpp_source.html',''); initResi
   <div class="headertitle"><div class="title">HighResolutionClock.cpp</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#include &lt;HighResolutionClock.h&gt;</span></div>
+<a href="_high_resolution_clock_8cpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#include &lt;<a class="code" href="_high_resolution_clock_8h.html">HighResolutionClock.h</a>&gt;</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span>HighResolutionClock::HighResolutionClock() : m_DeltaTime(0), m_TotalTime(0)</div>
+<div class="foldopen" id="foldopen00003" data-start="{" data-end="}">
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno"><a class="line" href="class_high_resolution_clock.html#a5d152f0a26a933691b8840e5f63210ae">    3</a></span><a class="code hl_function" href="class_high_resolution_clock.html#a5d152f0a26a933691b8840e5f63210ae">HighResolutionClock::HighResolutionClock</a>() : <a class="code hl_variable" href="class_high_resolution_clock.html#a1954d8f9937bcec90146688041d62a02">m_DeltaTime</a>(0), <a class="code hl_variable" href="class_high_resolution_clock.html#a1d8f89f426289eee69bc406cad2a93c3">m_TotalTime</a>(0)</div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span>{</div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span>    m_T0 = std::chrono::high_resolution_clock::now();</div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span>    <a class="code hl_variable" href="class_high_resolution_clock.html#aae972b54ccea8f3ef873a925b93a12e5">m_T0</a> = std::chrono::high_resolution_clock::now();</div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span>}</div>
+</div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keywordtype">void</span> HighResolutionClock::Tick()</div>
+<div class="foldopen" id="foldopen00008" data-start="{" data-end="}">
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno"><a class="line" href="class_high_resolution_clock.html#a0f896cb5704aa8221ce99ad4556c4295">    8</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="class_high_resolution_clock.html#a0f896cb5704aa8221ce99ad4556c4295">HighResolutionClock::Tick</a>()</div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>{</div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>    <span class="keyword">auto</span> t1 = std::chrono::high_resolution_clock::now();</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>    m_DeltaTime = t1 - m_T0;</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>    m_TotalTime += m_DeltaTime;</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    m_T0 = t1;</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>    <a class="code hl_variable" href="class_high_resolution_clock.html#a1954d8f9937bcec90146688041d62a02">m_DeltaTime</a> = t1 - <a class="code hl_variable" href="class_high_resolution_clock.html#aae972b54ccea8f3ef873a925b93a12e5">m_T0</a>;</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>    <a class="code hl_variable" href="class_high_resolution_clock.html#a1d8f89f426289eee69bc406cad2a93c3">m_TotalTime</a> += <a class="code hl_variable" href="class_high_resolution_clock.html#a1954d8f9937bcec90146688041d62a02">m_DeltaTime</a>;</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    <a class="code hl_variable" href="class_high_resolution_clock.html#aae972b54ccea8f3ef873a925b93a12e5">m_T0</a> = t1;</div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>}</div>
+</div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keywordtype">void</span> HighResolutionClock::Reset()</div>
+<div class="foldopen" id="foldopen00016" data-start="{" data-end="}">
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="class_high_resolution_clock.html#a84ea090b6227039ca52b2e69a1697602">   16</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="class_high_resolution_clock.html#a84ea090b6227039ca52b2e69a1697602">HighResolutionClock::Reset</a>()</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>{</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    m_T0 = std::chrono::high_resolution_clock::now();</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    m_DeltaTime = std::chrono::high_resolution_clock::duration(0);</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    m_TotalTime = std::chrono::high_resolution_clock::duration(0);</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <a class="code hl_variable" href="class_high_resolution_clock.html#aae972b54ccea8f3ef873a925b93a12e5">m_T0</a> = std::chrono::high_resolution_clock::now();</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <a class="code hl_variable" href="class_high_resolution_clock.html#a1954d8f9937bcec90146688041d62a02">m_DeltaTime</a> = std::chrono::high_resolution_clock::duration(0);</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    <a class="code hl_variable" href="class_high_resolution_clock.html#a1d8f89f426289eee69bc406cad2a93c3">m_TotalTime</a> = std::chrono::high_resolution_clock::duration(0);</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>}</div>
+</div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="keywordtype">double</span> HighResolutionClock::GetDeltaNanoseconds()<span class="keyword"> const</span></div>
+<div class="foldopen" id="foldopen00023" data-start="{" data-end="}">
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="class_high_resolution_clock.html#a913a49a752cd6c785906d91de90d5b3c">   23</a></span><span class="keywordtype">double</span> <a class="code hl_function" href="class_high_resolution_clock.html#a913a49a752cd6c785906d91de90d5b3c">HighResolutionClock::GetDeltaNanoseconds</a>()<span class="keyword"> const</span></div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="keyword"></span>{</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <span class="keywordflow">return</span> m_DeltaTime.count() * 1.0;</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="class_high_resolution_clock.html#a1954d8f9937bcec90146688041d62a02">m_DeltaTime</a>.count() * 1.0;</div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>}</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="keywordtype">double</span> HighResolutionClock::GetDeltaMicroseconds()<span class="keyword"> const</span></div>
+</div>
+<div class="foldopen" id="foldopen00027" data-start="{" data-end="}">
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="class_high_resolution_clock.html#a85cbb319fa84281901b6b3e36f8ed001">   27</a></span><span class="keywordtype">double</span> <a class="code hl_function" href="class_high_resolution_clock.html#a85cbb319fa84281901b6b3e36f8ed001">HighResolutionClock::GetDeltaMicroseconds</a>()<span class="keyword"> const</span></div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="keyword"></span>{</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    <span class="keywordflow">return</span> m_DeltaTime.count() * 1e-3;</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="class_high_resolution_clock.html#a1954d8f9937bcec90146688041d62a02">m_DeltaTime</a>.count() * 1e-3;</div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>}</div>
+</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="keywordtype">double</span> HighResolutionClock::GetDeltaMilliseconds()<span class="keyword"> const</span></div>
+<div class="foldopen" id="foldopen00032" data-start="{" data-end="}">
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="class_high_resolution_clock.html#a260f179d9e311ec65a6e8bd154d3ed30">   32</a></span><span class="keywordtype">double</span> <a class="code hl_function" href="class_high_resolution_clock.html#a260f179d9e311ec65a6e8bd154d3ed30">HighResolutionClock::GetDeltaMilliseconds</a>()<span class="keyword"> const</span></div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="keyword"></span>{</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    <span class="keywordflow">return</span> m_DeltaTime.count() * 1e-6;</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="class_high_resolution_clock.html#a1954d8f9937bcec90146688041d62a02">m_DeltaTime</a>.count() * 1e-6;</div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>}</div>
+</div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="keywordtype">double</span> HighResolutionClock::GetDeltaSeconds()<span class="keyword"> const</span></div>
+<div class="foldopen" id="foldopen00037" data-start="{" data-end="}">
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="class_high_resolution_clock.html#a6a14c3977d2899abc1350c39a77c7e59">   37</a></span><span class="keywordtype">double</span> <a class="code hl_function" href="class_high_resolution_clock.html#a6a14c3977d2899abc1350c39a77c7e59">HighResolutionClock::GetDeltaSeconds</a>()<span class="keyword"> const</span></div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="keyword"></span>{</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <span class="keywordflow">return</span> m_DeltaTime.count() * 1e-9;</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="class_high_resolution_clock.html#a1954d8f9937bcec90146688041d62a02">m_DeltaTime</a>.count() * 1e-9;</div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>}</div>
+</div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="keywordtype">double</span> HighResolutionClock::GetTotalNanoseconds()<span class="keyword"> const</span></div>
+<div class="foldopen" id="foldopen00042" data-start="{" data-end="}">
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="class_high_resolution_clock.html#a1951c2c02895b6f74aec4b362d14a495">   42</a></span><span class="keywordtype">double</span> <a class="code hl_function" href="class_high_resolution_clock.html#a1951c2c02895b6f74aec4b362d14a495">HighResolutionClock::GetTotalNanoseconds</a>()<span class="keyword"> const</span></div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="keyword"></span>{</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <span class="keywordflow">return</span> m_TotalTime.count() * 1.0;</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="class_high_resolution_clock.html#a1d8f89f426289eee69bc406cad2a93c3">m_TotalTime</a>.count() * 1.0;</div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>}</div>
+</div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="keywordtype">double</span> HighResolutionClock::GetTotalMicroseconds()<span class="keyword"> const</span></div>
+<div class="foldopen" id="foldopen00047" data-start="{" data-end="}">
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="class_high_resolution_clock.html#a7153c1ee041d640cd534b653c9f2def7">   47</a></span><span class="keywordtype">double</span> <a class="code hl_function" href="class_high_resolution_clock.html#a7153c1ee041d640cd534b653c9f2def7">HighResolutionClock::GetTotalMicroseconds</a>()<span class="keyword"> const</span></div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="keyword"></span>{</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    <span class="keywordflow">return</span> m_TotalTime.count() * 1e-3;</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="class_high_resolution_clock.html#a1d8f89f426289eee69bc406cad2a93c3">m_TotalTime</a>.count() * 1e-3;</div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>}</div>
+</div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="keywordtype">double</span> HighResolutionClock::GetTotalMilliseconds()<span class="keyword"> const</span></div>
+<div class="foldopen" id="foldopen00052" data-start="{" data-end="}">
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="class_high_resolution_clock.html#a6e555af730eaf177230fc1e7f5a7a0f9">   52</a></span><span class="keywordtype">double</span> <a class="code hl_function" href="class_high_resolution_clock.html#a6e555af730eaf177230fc1e7f5a7a0f9">HighResolutionClock::GetTotalMilliseconds</a>()<span class="keyword"> const</span></div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="keyword"></span>{</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    <span class="keywordflow">return</span> m_TotalTime.count() * 1e-6;</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="class_high_resolution_clock.html#a1d8f89f426289eee69bc406cad2a93c3">m_TotalTime</a>.count() * 1e-6;</div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>}</div>
+</div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="keywordtype">double</span> HighResolutionClock::GetTotalSeconds()<span class="keyword"> const</span></div>
+<div class="foldopen" id="foldopen00057" data-start="{" data-end="}">
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="class_high_resolution_clock.html#ab01a0fc4cd993653307be87c791fb9f7">   57</a></span><span class="keywordtype">double</span> <a class="code hl_function" href="class_high_resolution_clock.html#ab01a0fc4cd993653307be87c791fb9f7">HighResolutionClock::GetTotalSeconds</a>()<span class="keyword"> const</span></div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="keyword"></span>{</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    <span class="keywordflow">return</span> m_TotalTime.count() * 1e-9;</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="class_high_resolution_clock.html#a1d8f89f426289eee69bc406cad2a93c3">m_TotalTime</a>.count() * 1e-9;</div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>}</div>
+</div>
+<div class="ttc" id="a_high_resolution_clock_8h_html"><div class="ttname"><a href="_high_resolution_clock_8h.html">HighResolutionClock.h</a></div></div>
+<div class="ttc" id="aclass_high_resolution_clock_html_a0f896cb5704aa8221ce99ad4556c4295"><div class="ttname"><a href="class_high_resolution_clock.html#a0f896cb5704aa8221ce99ad4556c4295">HighResolutionClock::Tick</a></div><div class="ttdeci">void Tick()</div><div class="ttdef"><b>Definition</b> <a href="#l00008">HighResolutionClock.cpp:8</a></div></div>
+<div class="ttc" id="aclass_high_resolution_clock_html_a1951c2c02895b6f74aec4b362d14a495"><div class="ttname"><a href="class_high_resolution_clock.html#a1951c2c02895b6f74aec4b362d14a495">HighResolutionClock::GetTotalNanoseconds</a></div><div class="ttdeci">double GetTotalNanoseconds() const</div><div class="ttdef"><b>Definition</b> <a href="#l00042">HighResolutionClock.cpp:42</a></div></div>
+<div class="ttc" id="aclass_high_resolution_clock_html_a1954d8f9937bcec90146688041d62a02"><div class="ttname"><a href="class_high_resolution_clock.html#a1954d8f9937bcec90146688041d62a02">HighResolutionClock::m_DeltaTime</a></div><div class="ttdeci">std::chrono::high_resolution_clock::duration m_DeltaTime</div><div class="ttdef"><b>Definition</b> <a href="_high_resolution_clock_8h_source.html#l00026">HighResolutionClock.h:26</a></div></div>
+<div class="ttc" id="aclass_high_resolution_clock_html_a1d8f89f426289eee69bc406cad2a93c3"><div class="ttname"><a href="class_high_resolution_clock.html#a1d8f89f426289eee69bc406cad2a93c3">HighResolutionClock::m_TotalTime</a></div><div class="ttdeci">std::chrono::high_resolution_clock::duration m_TotalTime</div><div class="ttdef"><b>Definition</b> <a href="_high_resolution_clock_8h_source.html#l00027">HighResolutionClock.h:27</a></div></div>
+<div class="ttc" id="aclass_high_resolution_clock_html_a260f179d9e311ec65a6e8bd154d3ed30"><div class="ttname"><a href="class_high_resolution_clock.html#a260f179d9e311ec65a6e8bd154d3ed30">HighResolutionClock::GetDeltaMilliseconds</a></div><div class="ttdeci">double GetDeltaMilliseconds() const</div><div class="ttdef"><b>Definition</b> <a href="#l00032">HighResolutionClock.cpp:32</a></div></div>
+<div class="ttc" id="aclass_high_resolution_clock_html_a5d152f0a26a933691b8840e5f63210ae"><div class="ttname"><a href="class_high_resolution_clock.html#a5d152f0a26a933691b8840e5f63210ae">HighResolutionClock::HighResolutionClock</a></div><div class="ttdeci">HighResolutionClock()</div><div class="ttdef"><b>Definition</b> <a href="#l00003">HighResolutionClock.cpp:3</a></div></div>
+<div class="ttc" id="aclass_high_resolution_clock_html_a6a14c3977d2899abc1350c39a77c7e59"><div class="ttname"><a href="class_high_resolution_clock.html#a6a14c3977d2899abc1350c39a77c7e59">HighResolutionClock::GetDeltaSeconds</a></div><div class="ttdeci">double GetDeltaSeconds() const</div><div class="ttdef"><b>Definition</b> <a href="#l00037">HighResolutionClock.cpp:37</a></div></div>
+<div class="ttc" id="aclass_high_resolution_clock_html_a6e555af730eaf177230fc1e7f5a7a0f9"><div class="ttname"><a href="class_high_resolution_clock.html#a6e555af730eaf177230fc1e7f5a7a0f9">HighResolutionClock::GetTotalMilliseconds</a></div><div class="ttdeci">double GetTotalMilliseconds() const</div><div class="ttdef"><b>Definition</b> <a href="#l00052">HighResolutionClock.cpp:52</a></div></div>
+<div class="ttc" id="aclass_high_resolution_clock_html_a7153c1ee041d640cd534b653c9f2def7"><div class="ttname"><a href="class_high_resolution_clock.html#a7153c1ee041d640cd534b653c9f2def7">HighResolutionClock::GetTotalMicroseconds</a></div><div class="ttdeci">double GetTotalMicroseconds() const</div><div class="ttdef"><b>Definition</b> <a href="#l00047">HighResolutionClock.cpp:47</a></div></div>
+<div class="ttc" id="aclass_high_resolution_clock_html_a84ea090b6227039ca52b2e69a1697602"><div class="ttname"><a href="class_high_resolution_clock.html#a84ea090b6227039ca52b2e69a1697602">HighResolutionClock::Reset</a></div><div class="ttdeci">void Reset()</div><div class="ttdef"><b>Definition</b> <a href="#l00016">HighResolutionClock.cpp:16</a></div></div>
+<div class="ttc" id="aclass_high_resolution_clock_html_a85cbb319fa84281901b6b3e36f8ed001"><div class="ttname"><a href="class_high_resolution_clock.html#a85cbb319fa84281901b6b3e36f8ed001">HighResolutionClock::GetDeltaMicroseconds</a></div><div class="ttdeci">double GetDeltaMicroseconds() const</div><div class="ttdef"><b>Definition</b> <a href="#l00027">HighResolutionClock.cpp:27</a></div></div>
+<div class="ttc" id="aclass_high_resolution_clock_html_a913a49a752cd6c785906d91de90d5b3c"><div class="ttname"><a href="class_high_resolution_clock.html#a913a49a752cd6c785906d91de90d5b3c">HighResolutionClock::GetDeltaNanoseconds</a></div><div class="ttdeci">double GetDeltaNanoseconds() const</div><div class="ttdef"><b>Definition</b> <a href="#l00023">HighResolutionClock.cpp:23</a></div></div>
+<div class="ttc" id="aclass_high_resolution_clock_html_aae972b54ccea8f3ef873a925b93a12e5"><div class="ttname"><a href="class_high_resolution_clock.html#aae972b54ccea8f3ef873a925b93a12e5">HighResolutionClock::m_T0</a></div><div class="ttdeci">std::chrono::high_resolution_clock::time_point m_T0</div><div class="ttdef"><b>Definition</b> <a href="_high_resolution_clock_8h_source.html#l00025">HighResolutionClock.h:25</a></div></div>
+<div class="ttc" id="aclass_high_resolution_clock_html_ab01a0fc4cd993653307be87c791fb9f7"><div class="ttname"><a href="class_high_resolution_clock.html#ab01a0fc4cd993653307be87c791fb9f7">HighResolutionClock::GetTotalSeconds</a></div><div class="ttdeci">double GetTotalSeconds() const</div><div class="ttdef"><b>Definition</b> <a href="#l00057">HighResolutionClock.cpp:57</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_f73a8b7d50989afdadf24d8fc7357a9a.html">FloowDream</a></li><li class="navelem"><a class="el" href="dir_1ba945c5ec581c9e331de81f300aff07.html">Assets</a></li><li class="navelem"><a class="el" href="dir_a57f4778d467e0a6236fa4788364df6c.html">Scripts</a></li><li class="navelem"><a class="el" href="dir_8b4148ef0ffda13d8a8272867298b61d.html">BXRenderPipeline</a></li><li class="navelem"><a class="el" href="dir_ae9a9254ea48b9e75fba492df295591c.html">XEngine</a></li><li class="navelem"><a class="el" href="dir_4eb682de226f4832c0a9db45af2b00b1.html">XEngine</a></li><li class="navelem"><a class="el" href="dir_efdf2d33feec7a5a4ff17a9033575a69.html">src</a></li><li class="navelem"><b>HighResolutionClock.cpp</b></li>
+    <li class="navelem"><a class="el" href="dir_f73a8b7d50989afdadf24d8fc7357a9a.html">FloowDream</a></li><li class="navelem"><a class="el" href="dir_1ba945c5ec581c9e331de81f300aff07.html">Assets</a></li><li class="navelem"><a class="el" href="dir_a57f4778d467e0a6236fa4788364df6c.html">Scripts</a></li><li class="navelem"><a class="el" href="dir_8b4148ef0ffda13d8a8272867298b61d.html">BXRenderPipeline</a></li><li class="navelem"><a class="el" href="dir_ae9a9254ea48b9e75fba492df295591c.html">XEngine</a></li><li class="navelem"><a class="el" href="dir_4eb682de226f4832c0a9db45af2b00b1.html">XEngine</a></li><li class="navelem"><a class="el" href="dir_efdf2d33feec7a5a4ff17a9033575a69.html">src</a></li><li class="navelem"><a class="el" href="_high_resolution_clock_8cpp.html">HighResolutionClock.cpp</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
   </ul>
 </div>

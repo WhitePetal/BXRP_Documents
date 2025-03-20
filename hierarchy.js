@@ -26,9 +26,14 @@ var hierarchy =
     [ "Microsoft::WRL::Details::AdjustImplements< Nil, Bases... >", "struct_microsoft_1_1_w_r_l_1_1_details_1_1_adjust_implements_3_01_nil_00_01_bases_8_8_8_01_4.html", null ],
     [ "Microsoft::WRL::Details::AdjustImplements<>", "struct_microsoft_1_1_w_r_l_1_1_details_1_1_adjust_implements_3_4.html", null ],
     [ "UploadBuffer::Allocation", "struct_upload_buffer_1_1_allocation.html", null ],
+    [ "BXGeometryGraph.GeometryGraphAnalytics.AnalyticsData", "struct_b_x_geometry_graph_1_1_geometry_graph_analytics_1_1_analytics_data.html", null ],
     [ "Application", "class_application.html", null ],
     [ "BXRenderPipeline.APVDefinitions", "class_b_x_render_pipeline_1_1_a_p_v_definitions.html", null ],
     [ "vk::util::ArithmeticSelector< ComponentType >", "classvk_1_1util_1_1_arithmetic_selector.html", null ],
+    [ "AssetPostprocessor", null, [
+      [ "BXGeometryGraph.NodeClassCache.PostProcessor", "class_b_x_geometry_graph_1_1_node_class_cache_1_1_post_processor.html", null ]
+    ] ],
+    [ "BXGeometryGraph.SubGraphNode.AssetReference", "class_b_x_geometry_graph_1_1_sub_graph_node_1_1_asset_reference.html", null ],
     [ "BXRenderPipeline.BXRenderCommonSettings.AtlasSettings", "struct_b_x_render_pipeline_1_1_b_x_render_common_settings_1_1_atlas_settings.html", null ],
     [ "Attribute", null, [
       [ "BXGeometryGraph.BlackboardInputInfo", "class_b_x_geometry_graph_1_1_blackboard_input_info.html", null ],
@@ -61,17 +66,26 @@ var hierarchy =
     [ "base", null, [
       [ "Microsoft::WRL::Details::Selector< base, disciminator >", "struct_microsoft_1_1_w_r_l_1_1_details_1_1_selector.html", null ]
     ] ],
+    [ "BXRenderPipeline.BXClusterCullBase.BaseShaderProperties", "class_b_x_render_pipeline_1_1_b_x_cluster_cull_base_1_1_base_shader_properties.html", null ],
+    [ "BXRenderPipeline.BXHiZModuleBase.BaseShaderProperties", "class_b_x_render_pipeline_1_1_b_x_hi_z_module_base_1_1_base_shader_properties.html", null ],
+    [ "BXRenderPipeline.BXLightsBase.BaseShaderProperties", "class_b_x_render_pipeline_1_1_b_x_lights_base_1_1_base_shader_properties.html", null ],
     [ "BXGeometryGraph.BlackboardGeometryInputFactory", "class_b_x_geometry_graph_1_1_blackboard_geometry_input_factory.html", null ],
     [ "BXGeometryGraph.BlackboardGeometryInputOrder", "struct_b_x_geometry_graph_1_1_blackboard_geometry_input_order.html", null ],
     [ "BXGeometryGraph.BlackboardGroupInfo", "class_b_x_geometry_graph_1_1_blackboard_group_info.html", null ],
+    [ "BXGeometryGraph.BlackboardUtils", "class_b_x_geometry_graph_1_1_blackboard_utils.html", null ],
     [ "BXGeometryGraph.CodeFunctionNode.Boolean", "struct_b_x_geometry_graph_1_1_code_function_node_1_1_boolean.html", null ],
     [ "Microsoft::WRL::Details::BoolStruct", "struct_microsoft_1_1_w_r_l_1_1_details_1_1_bool_struct.html", null ],
     [ "nv_helpers_dx12::BottomLevelASGenerator", "classnv__helpers__dx12_1_1_bottom_level_a_s_generator.html", null ],
     [ "BRG.BRG_Container", "class_b_r_g_1_1_b_r_g___container.html", null ],
     [ "BXRenderPipeline.ProbeBrickPool.BrickChunkAlloc", "struct_b_x_render_pipeline_1_1_probe_brick_pool_1_1_brick_chunk_alloc.html", null ],
     [ "BXRenderPipeline.BuddyAllocation", "struct_b_x_render_pipeline_1_1_buddy_allocation.html", null ],
+    [ "BXRenderPipeline.BXDebugShapes", "class_b_x_render_pipeline_1_1_b_x_debug_shapes.html", null ],
+    [ "BXRenderPipeline.BXRenderPipelineGraphicsSettingsExtensions", "class_b_x_render_pipeline_1_1_b_x_render_pipeline_graphics_settings_extensions.html", null ],
     [ "BXRenderPipeline.BXRenderSettings", "class_b_x_render_pipeline_1_1_b_x_render_settings.html", null ],
     [ "BXRenderPipeline.BXShaderBitArray", "struct_b_x_render_pipeline_1_1_b_x_shader_bit_array.html", null ],
+    [ "BXRenderPipeline.BXShaderPropertyIDs", "class_b_x_render_pipeline_1_1_b_x_shader_property_i_ds.html", null ],
+    [ "BXRenderPipeline.BXSpaceFillingCurves", "class_b_x_render_pipeline_1_1_b_x_space_filling_curves.html", null ],
+    [ "BXRenderPipeline.BXUtils", "class_b_x_render_pipeline_1_1_b_x_utils.html", null ],
     [ "BXRenderPipeline.BXVolumeDrawer", "class_b_x_render_pipeline_1_1_b_x_volume_drawer.html", null ],
     [ "BXRenderPipeline.BXVolumeManager", "class_b_x_render_pipeline_1_1_b_x_volume_manager.html", null ],
     [ "C0", null, [
@@ -79,6 +93,7 @@ var hierarchy =
         [ "Microsoft::WRL::Details::ImplementsHelper< ChainInterfaces< C0, C1, C2, C3, C4, C5, C6, C7, C8, C9 >, TInterfaces... >", "struct_microsoft_1_1_w_r_l_1_1_details_1_1_implements_helper_3_01_chain_interfaces_3_01_c0_00_0196a89ff441b350ef10169d2780c85ed3.html", null ]
       ] ]
     ] ],
+    [ "BXRenderPipeline.BXReflectionProbeManager.CacheProbe", "struct_b_x_render_pipeline_1_1_b_x_reflection_probe_manager_1_1_cache_probe.html", null ],
     [ "CD3DX12_DEFAULT", "struct_c_d3_d_x12___d_e_f_a_u_l_t.html", null ],
     [ "CD3DX12_NODE_HELPER_BASE", "class_c_d3_d_x12___n_o_d_e___h_e_l_p_e_r___b_a_s_e.html", [
       [ "CD3DX12_BROADCASTING_LAUNCH_NODE_OVERRIDES", "class_c_d3_d_x12___b_r_o_a_d_c_a_s_t_i_n_g___l_a_u_n_c_h___n_o_d_e___o_v_e_r_r_i_d_e_s.html", null ],
@@ -106,7 +121,9 @@ var hierarchy =
     [ "BXGeometryGraph.CodeFunctionNode.ColorRGBA", "struct_b_x_geometry_graph_1_1_code_function_node_1_1_color_r_g_b_a.html", null ],
     [ "BXRenderPipeline.BXPhysicsLightSetting.ColorSystem", "struct_b_x_render_pipeline_1_1_b_x_physics_light_setting_1_1_color_system.html", null ],
     [ "BXRenderPipeline.BXPhysicsLightSetting.ColorWaveLengthElement", "struct_b_x_render_pipeline_1_1_b_x_physics_light_setting_1_1_color_wave_length_element.html", null ],
+    [ "CommandQueue::CommandAllocatorEntry", "struct_command_queue_1_1_command_allocator_entry.html", null ],
     [ "CommandQueue", "class_command_queue.html", null ],
+    [ "BXGeometryGraph.CompatibilityExtensions", "class_b_x_geometry_graph_1_1_compatibility_extensions.html", null ],
     [ "Microsoft::WRL::ComPtr< T >", "class_microsoft_1_1_w_r_l_1_1_com_ptr.html", null ],
     [ "Microsoft::WRL::Details::ComPtrRefBase< T >", "class_microsoft_1_1_w_r_l_1_1_details_1_1_com_ptr_ref_base.html", [
       [ "Microsoft::WRL::Details::ComPtrRef< T >", "class_microsoft_1_1_w_r_l_1_1_details_1_1_com_ptr_ref.html", null ]
@@ -114,6 +131,11 @@ var hierarchy =
     [ "BXGeometryGraph.ContextData", "class_b_x_geometry_graph_1_1_context_data.html", null ],
     [ "vk::util::ConversionSelector< SourceType, TargetType >", "classvk_1_1util_1_1_conversion_selector.html", null ],
     [ "vk::khr::CooperativeMatrix< ComponentType, scope, rows, columns, use >", "classvk_1_1khr_1_1_cooperative_matrix.html", null ],
+    [ "BXGeometryGraph.CreateGeometryGraph", "class_b_x_geometry_graph_1_1_create_geometry_graph.html", null ],
+    [ "BXGeometryGraph.Runtime.mesh_primitive_cuboid.CuboidConfig", "struct_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid_1_1_cuboid_config.html", null ],
+    [ "BXRenderPipeline.BXHiZManagerComputeShader.CullingObjectData", "struct_b_x_render_pipeline_1_1_b_x_hi_z_manager_compute_shader_1_1_culling_object_data.html", null ],
+    [ "BXRenderPipeline.BXHiZManagerJobSystem.CullingObjectData", "struct_b_x_render_pipeline_1_1_b_x_hi_z_manager_job_system_1_1_culling_object_data.html", null ],
+    [ "BXRenderPipeline.BXHiZManagerPixelShader.CullingObjectData", "struct_b_x_render_pipeline_1_1_b_x_hi_z_manager_pixel_shader_1_1_culling_object_data.html", null ],
     [ "D3D12_AUTO_BREADCRUMB_NODE", "struct_d3_d12___a_u_t_o___b_r_e_a_d_c_r_u_m_b___n_o_d_e.html", null ],
     [ "D3D12_AUTO_BREADCRUMB_NODE1", "struct_d3_d12___a_u_t_o___b_r_e_a_d_c_r_u_m_b___n_o_d_e1.html", null ],
     [ "D3D12_BARRIER_GROUP", "struct_d3_d12___b_a_r_r_i_e_r___g_r_o_u_p.html", null ],
@@ -222,7 +244,9 @@ var hierarchy =
     [ "D3D12_FEATURE_DATA_PLACED_RESOURCE_SUPPORT_INFO", "struct_d3_d12___f_e_a_t_u_r_e___d_a_t_a___p_l_a_c_e_d___r_e_s_o_u_r_c_e___s_u_p_p_o_r_t___i_n_f_o.html", null ],
     [ "D3D12_FEATURE_DATA_PREDICATION", "struct_d3_d12___f_e_a_t_u_r_e___d_a_t_a___p_r_e_d_i_c_a_t_i_o_n.html", null ],
     [ "D3D12_FEATURE_DATA_PROTECTED_RESOURCE_SESSION_TYPE_COUNT", "struct_d3_d12___f_e_a_t_u_r_e___d_a_t_a___p_r_o_t_e_c_t_e_d___r_e_s_o_u_r_c_e___s_e_s_s_i_o_n___t_y_p_e___c_o_u_n_t.html", null ],
-    [ "D3D12_FEATURE_DATA_PROTECTED_RESOURCE_SESSION_TYPES", "struct_d3_d12___f_e_a_t_u_r_e___d_a_t_a___p_r_o_t_e_c_t_e_d___r_e_s_o_u_r_c_e___s_e_s_s_i_o_n___t_y_p_e_s.html", null ],
+    [ "D3D12_FEATURE_DATA_PROTECTED_RESOURCE_SESSION_TYPES", "struct_d3_d12___f_e_a_t_u_r_e___d_a_t_a___p_r_o_t_e_c_t_e_d___r_e_s_o_u_r_c_e___s_e_s_s_i_o_n___t_y_p_e_s.html", [
+      [ "CD3DX12FeatureSupport::ProtectedResourceSessionTypesLocal", "struct_c_d3_d_x12_feature_support_1_1_protected_resource_session_types_local.html", null ]
+    ] ],
     [ "D3D12_FEATURE_DATA_QUERY_META_COMMAND", "struct_d3_d12___f_e_a_t_u_r_e___d_a_t_a___q_u_e_r_y___m_e_t_a___c_o_m_m_a_n_d.html", null ],
     [ "D3D12_FEATURE_DATA_ROOT_SIGNATURE", "struct_d3_d12___f_e_a_t_u_r_e___d_a_t_a___r_o_o_t___s_i_g_n_a_t_u_r_e.html", null ],
     [ "D3D12_FEATURE_DATA_SERIALIZATION", "struct_d3_d12___f_e_a_t_u_r_e___d_a_t_a___s_e_r_i_a_l_i_z_a_t_i_o_n.html", null ],
@@ -416,7 +440,9 @@ var hierarchy =
     [ "D3D12_SHADER_RESOURCE_VIEW_DESC", "struct_d3_d12___s_h_a_d_e_r___r_e_s_o_u_r_c_e___v_i_e_w___d_e_s_c.html", null ],
     [ "D3D12_SO_DECLARATION_ENTRY", "struct_d3_d12___s_o___d_e_c_l_a_r_a_t_i_o_n___e_n_t_r_y.html", null ],
     [ "D3D12_STATE_OBJECT_DESC", "struct_d3_d12___s_t_a_t_e___o_b_j_e_c_t___d_e_s_c.html", null ],
-    [ "D3D12_STATE_SUBOBJECT", "struct_d3_d12___s_t_a_t_e___s_u_b_o_b_j_e_c_t.html", null ],
+    [ "D3D12_STATE_SUBOBJECT", "struct_d3_d12___s_t_a_t_e___s_u_b_o_b_j_e_c_t.html", [
+      [ "CD3DX12_STATE_OBJECT_DESC::SUBOBJECT_WRAPPER", "struct_c_d3_d_x12___s_t_a_t_e___o_b_j_e_c_t___d_e_s_c_1_1_s_u_b_o_b_j_e_c_t___w_r_a_p_p_e_r.html", null ]
+    ] ],
     [ "D3D12_STATIC_SAMPLER_DESC", "struct_d3_d12___s_t_a_t_i_c___s_a_m_p_l_e_r___d_e_s_c.html", [
       [ "CD3DX12_STATIC_SAMPLER_DESC", "struct_c_d3_d_x12___s_t_a_t_i_c___s_a_m_p_l_e_r___d_e_s_c.html", null ]
     ] ],
@@ -832,6 +858,7 @@ var hierarchy =
     [ "DXGI_RATIONAL", "struct_d_x_g_i___r_a_t_i_o_n_a_l.html", null ],
     [ "DXGI_SAMPLE_DESC", "struct_d_x_g_i___s_a_m_p_l_e___d_e_s_c.html", null ],
     [ "BXRenderPipeline.DynamicArray< T >", "class_b_x_render_pipeline_1_1_dynamic_array-1-g.html", null ],
+    [ "BXRenderPipeline.DynamicArrayExtensions", "class_b_x_render_pipeline_1_1_dynamic_array_extensions.html", null ],
     [ "BXGeometryGraph.CodeFunctionNode.DynamicDimensionMatrix", "struct_b_x_geometry_graph_1_1_code_function_node_1_1_dynamic_dimension_matrix.html", null ],
     [ "BXGeometryGraph.CodeFunctionNode.DynamicDimensionVector", "struct_b_x_geometry_graph_1_1_code_function_node_1_1_dynamic_dimension_vector.html", null ],
     [ "Editor", null, [
@@ -842,6 +869,9 @@ var hierarchy =
     [ "EditorWindow", null, [
       [ "BXGeometryGraph.GeometryGraphEditWindow", "class_b_x_geometry_graph_1_1_geometry_graph_edit_window.html", null ],
       [ "XEngineEditorWindow", "class_x_engine_editor_window.html", null ]
+    ] ],
+    [ "Element", null, [
+      [ "BXRenderPipeline.BXVolumeComponentProvider.VolumeComponentElement", "class_b_x_render_pipeline_1_1_b_x_volume_component_provider_1_1_volume_component_element.html", null ]
     ] ],
     [ "std::enable_shared_from_this", null, [
       [ "Camera", "class_camera.html", null ],
@@ -877,6 +907,8 @@ var hierarchy =
     [ "BXRenderPipeline.ProbeReferenceVolume.ExtraDataActionInput", "struct_b_x_render_pipeline_1_1_probe_reference_volume_1_1_extra_data_action_input.html", null ],
     [ "BXGeometryGraph.FakeJsonObject", "class_b_x_geometry_graph_1_1_fake_json_object.html", null ],
     [ "BXGeometryGraph.FieldDescriptor", "class_b_x_geometry_graph_1_1_field_descriptor.html", null ],
+    [ "BXGeometryGraph.FieldExtensions", "class_b_x_geometry_graph_1_1_field_extensions.html", null ],
+    [ "BXGeometryGraph.FileUtilities", "class_b_x_geometry_graph_1_1_file_utilities.html", null ],
     [ "BXGeometryGraph.FloatingWindowsLayout", "class_b_x_geometry_graph_1_1_floating_windows_layout.html", null ],
     [ "D3D12_PROPERTY_LAYOUT_FORMAT_TABLE::FORMAT_DETAIL", "struct_d3_d12___p_r_o_p_e_r_t_y___l_a_y_o_u_t___f_o_r_m_a_t___t_a_b_l_e_1_1_f_o_r_m_a_t___d_e_t_a_i_l.html", null ],
     [ "DescriptorAllocatorPage::FreeBlockInfo", "struct_descriptor_allocator_page_1_1_free_block_info.html", null ],
@@ -884,11 +916,17 @@ var hierarchy =
     [ "BXGeometryGraph.FunctionPair", "struct_b_x_geometry_graph_1_1_function_pair.html", null ],
     [ "BXGeometryGraph.FunctionRegistry", "class_b_x_geometry_graph_1_1_function_registry.html", null ],
     [ "BXGeometryGraph.FunctionSource", "class_b_x_geometry_graph_1_1_function_source.html", null ],
+    [ "BXGeometryGraph.GenerationModeExtensions", "class_b_x_geometry_graph_1_1_generation_mode_extensions.html", null ],
     [ "BXGeometryGraph.GenerationResults", "class_b_x_geometry_graph_1_1_generation_results.html", null ],
     [ "BXGeometryGraph.Generator", "class_b_x_geometry_graph_1_1_generator.html", null ],
     [ "BXGeometryGraph.CodeFunctionNode.Geometry", "struct_b_x_geometry_graph_1_1_code_function_node_1_1_geometry.html", null ],
     [ "BXGeometryGraph.BlockFields.GeometryDescription", "struct_b_x_geometry_graph_1_1_block_fields_1_1_geometry_description.html", null ],
+    [ "BXGeometryGraph.GeometryGraphAnalytics", "class_b_x_geometry_graph_1_1_geometry_graph_analytics.html", null ],
+    [ "BXGeometryGraph.GeometryGraphPreferences", "class_b_x_geometry_graph_1_1_geometry_graph_preferences.html", null ],
     [ "BXGeometryGraph.GeometryGraphRequirements", "struct_b_x_geometry_graph_1_1_geometry_graph_requirements.html", null ],
+    [ "BXGeometryGraph.GeometryGraphShortcuts", "class_b_x_geometry_graph_1_1_geometry_graph_shortcuts.html", null ],
+    [ "BXGeometryGraph.GeometryPortExtensions", "class_b_x_geometry_graph_1_1_geometry_port_extensions.html", null ],
+    [ "BXGeometryGraph.GeometryStageExtensions", "class_b_x_geometry_graph_1_1_geometry_stage_extensions.html", null ],
     [ "BXGeometryGraph.GeometryUtil", "class_b_x_geometry_graph_1_1_geometry_util.html", null ],
     [ "BXGeometryGraph.GGController", "class_b_x_geometry_graph_1_1_g_g_controller.html", [
       [ "BXGeometryGraph.GGController< T >", "class_b_x_geometry_graph_1_1_g_g_controller-1-g.html", [
@@ -902,7 +940,9 @@ var hierarchy =
     [ "BXGeometryGraph.GGControllerChangedEvent", "struct_b_x_geometry_graph_1_1_g_g_controller_changed_event.html", null ],
     [ "BXGeometryGraph.GGControllerEvent", "class_b_x_geometry_graph_1_1_g_g_controller_event.html", null ],
     [ "BXGeometryGraph.CodeFunctionNode.Gradient", "struct_b_x_geometry_graph_1_1_code_function_node_1_1_gradient.html", null ],
+    [ "BXGeometryGraph.GraphData.GraphConcretization", "class_b_x_geometry_graph_1_1_graph_data_1_1_graph_concretization.html", null ],
     [ "BXGeometryGraph.GraphDataReadOnly", "struct_b_x_geometry_graph_1_1_graph_data_read_only.html", null ],
+    [ "BXGeometryGraph.GraphData.GraphDataUtils", "class_b_x_geometry_graph_1_1_graph_data_1_1_graph_data_utils.html", null ],
     [ "GraphElement", null, [
       [ "BXGeometryGraph.GGBlackboardCategory", "class_b_x_geometry_graph_1_1_g_g_blackboard_category.html", null ],
       [ "BXGeometryGraph.GGBlackboardField", "class_b_x_geometry_graph_1_1_g_g_blackboard_field.html", null ],
@@ -913,18 +953,23 @@ var hierarchy =
       [ "BXGeometryGraph.StickyNote", "class_b_x_geometry_graph_1_1_sticky_note.html", null ]
     ] ],
     [ "BXGeometryGraph.GraphInputData", "struct_b_x_geometry_graph_1_1_graph_input_data.html", null ],
+    [ "BXGeometryGraph.GraphData.GraphSetup", "class_b_x_geometry_graph_1_1_graph_data_1_1_graph_setup.html", null ],
+    [ "BXGeometryGraph.GraphData.GraphValidation", "class_b_x_geometry_graph_1_1_graph_data_1_1_graph_validation.html", null ],
     [ "GraphView", null, [
       [ "BXGeometryGraph.GeometryGraphView", "class_b_x_geometry_graph_1_1_geometry_graph_view.html", null ]
     ] ],
+    [ "BXGeometryGraph.GraphViewExtensions", "class_b_x_geometry_graph_1_1_graph_view_extensions.html", null ],
     [ "Group", null, [
       [ "BXGeometryGraph.GeometryGroup", "class_b_x_geometry_graph_1_1_geometry_group.html", null ]
     ] ],
+    [ "BXGeometryGraph.GuidEncoder", "class_b_x_geometry_graph_1_1_guid_encoder.html", null ],
     [ "HashSet", null, [
       [ "BXGeometryGraph.PooledHashSet< T >", "class_b_x_geometry_graph_1_1_pooled_hash_set-1-g.html", null ]
     ] ],
     [ "BXRenderPipeline.BXBuddyAllocator.Header", "struct_b_x_render_pipeline_1_1_b_x_buddy_allocator_1_1_header.html", null ],
     [ "BXRenderPipeline.HierachyCreateMenus", "class_b_x_render_pipeline_1_1_hierachy_create_menus.html", null ],
     [ "HighResolutionClock", "class_high_resolution_clock.html", null ],
+    [ "nv_helpers_dx12::RayTracingPipelineGenerator::HitGroup", "structnv__helpers__dx12_1_1_ray_tracing_pipeline_generator_1_1_hit_group.html", null ],
     [ "I0", null, [
       [ "Microsoft::WRL::Details::Selector< I0, ImplementsHelper< ImplementsMarker< I0 >, TInterfaces... > >", "struct_microsoft_1_1_w_r_l_1_1_details_1_1_selector.html", [
         [ "Microsoft::WRL::Details::ImplementsHelper< ImplementsMarker< I0 >, TInterfaces... >", "struct_microsoft_1_1_w_r_l_1_1_details_1_1_implements_helper_3_01_implements_marker_3_01_i0_01_4_00_01_t_interfaces_8_8_8_01_4.html", null ]
@@ -938,7 +983,9 @@ var hierarchy =
     [ "IComparable", null, [
       [ "BXGeometryGraph.Edge", "class_b_x_geometry_graph_1_1_edge.html", null ],
       [ "BXGeometryGraph.GGBlackboardCategory", "class_b_x_geometry_graph_1_1_g_g_blackboard_category.html", null ],
-      [ "BXGeometryGraph.SlotReference", "struct_b_x_geometry_graph_1_1_slot_reference.html", null ]
+      [ "BXGeometryGraph.SlotReference", "struct_b_x_geometry_graph_1_1_slot_reference.html", null ],
+      [ "BXRenderPipeline.BXVolumeComponentProvider.PathNode", "class_b_x_render_pipeline_1_1_b_x_volume_component_provider_1_1_path_node.html", null ],
+      [ "BXRenderPipeline.ProbeVolumeScratchBufferPool.ScratchBufferPool", "class_b_x_render_pipeline_1_1_probe_volume_scratch_buffer_pool_1_1_scratch_buffer_pool.html", null ]
     ] ],
     [ "BXGeometryGraph.IConditional", "interface_b_x_geometry_graph_1_1_i_conditional.html", null ],
     [ "BXGeometryGraph.IControl", "interface_b_x_geometry_graph_1_1_i_control.html", [
@@ -1119,6 +1166,7 @@ var hierarchy =
         [ "BXRenderPipeline.BXClusterCullJobSystem", "class_b_x_render_pipeline_1_1_b_x_cluster_cull_job_system.html", null ]
       ] ],
       [ "BXRenderPipeline.BXLightCookie", "class_b_x_render_pipeline_1_1_b_x_light_cookie.html", null ],
+      [ "BXRenderPipeline.BXLightCookie.LightCookieShaderData", "class_b_x_render_pipeline_1_1_b_x_light_cookie_1_1_light_cookie_shader_data.html", null ],
       [ "BXRenderPipeline.BXLightsBase", "class_b_x_render_pipeline_1_1_b_x_lights_base.html", [
         [ "BXRenderPipelineDeferred.BXLightsDeferred", "class_b_x_render_pipeline_deferred_1_1_b_x_lights_deferred.html", null ],
         [ "BXRenderPipelineForward.BXLights", "class_b_x_render_pipeline_forward_1_1_b_x_lights.html", null ]
@@ -1273,7 +1321,21 @@ var hierarchy =
     ] ],
     [ "IJob", null, [
       [ "BXGeometryGraph.Runtime.GeometryData.CopyPointsToGeometryJob", "struct_b_x_geometry_graph_1_1_runtime_1_1_geometry_data_1_1_copy_points_to_geometry_job.html", null ],
-      [ "BXGeometryGraph.Runtime.MeshData.CopyToGeometryJob", "struct_b_x_geometry_graph_1_1_runtime_1_1_mesh_data_1_1_copy_to_geometry_job.html", null ]
+      [ "BXGeometryGraph.Runtime.MeshData.CopyToGeometryJob", "struct_b_x_geometry_graph_1_1_runtime_1_1_mesh_data_1_1_copy_to_geometry_job.html", null ],
+      [ "BXGeometryGraph.Runtime.SetPositionJob.SetPointsPosition", "struct_b_x_geometry_graph_1_1_runtime_1_1_set_position_job_1_1_set_points_position.html", null ],
+      [ "BXGeometryGraph.Runtime.mesh_primitive_cuboid.create_cuboid_mesh_job", "struct_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid_1_1create__cuboid__mesh__job.html", null ],
+      [ "BXGeometryGraph.Runtime.mesh_primitive_grid.create_grid_mesh_job", "struct_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__grid_1_1create__grid__mesh__job.html", null ],
+      [ "BXGeometryGraph.Runtime.mesh_primitive_line.create_line_mesh_job", "struct_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__line_1_1create__line__mesh__job.html", null ]
+    ] ],
+    [ "IJobFor", null, [
+      [ "BXRenderPipeline.BXClusterCullJobSystem.LightMinMaxZJob", "struct_b_x_render_pipeline_1_1_b_x_cluster_cull_job_system_1_1_light_min_max_z_job.html", null ],
+      [ "BXRenderPipeline.BXClusterCullJobSystem.ReflectionProbeMinMaxZJob", "struct_b_x_render_pipeline_1_1_b_x_cluster_cull_job_system_1_1_reflection_probe_min_max_z_job.html", null ],
+      [ "BXRenderPipeline.BXClusterCullJobSystem.TileRangeExpansionJob", "struct_b_x_render_pipeline_1_1_b_x_cluster_cull_job_system_1_1_tile_range_expansion_job.html", null ],
+      [ "BXRenderPipeline.BXClusterCullJobSystem.TillingJob", "struct_b_x_render_pipeline_1_1_b_x_cluster_cull_job_system_1_1_tilling_job.html", null ],
+      [ "BXRenderPipeline.BXClusterCullJobSystem.ZBinningJob", "struct_b_x_render_pipeline_1_1_b_x_cluster_cull_job_system_1_1_z_binning_job.html", null ]
+    ] ],
+    [ "IJobParallelFor", null, [
+      [ "BXRenderPipeline.BXHiZManagerJobSystem.HizCullJob", "struct_b_x_render_pipeline_1_1_b_x_hi_z_manager_job_system_1_1_hiz_cull_job.html", null ]
     ] ],
     [ "BXGeometryGraph.IMasterNode", "interface_b_x_geometry_graph_1_1_i_master_node.html", null ],
     [ "BXGeometryGraph.IMayObsolete", "interface_b_x_geometry_graph_1_1_i_may_obsolete.html", null ],
@@ -1287,6 +1349,7 @@ var hierarchy =
     [ "Microsoft::WRL::Details::ImplementsHelper< TInterfaces >", "struct_microsoft_1_1_w_r_l_1_1_details_1_1_implements_helper.html", null ],
     [ "Microsoft::WRL::Details::ImplementsHelper<>", "struct_microsoft_1_1_w_r_l_1_1_details_1_1_implements_helper_3_4.html", null ],
     [ "Microsoft::WRL::Details::ImplementsMarker< T >", "struct_microsoft_1_1_w_r_l_1_1_details_1_1_implements_marker.html", null ],
+    [ "BXRenderPipeline.BXClusterCullJobSystem.InclusiveRange", "struct_b_x_render_pipeline_1_1_b_x_cluster_cull_job_system_1_1_inclusive_range.html", null ],
     [ "BXRenderPipeline.ProbeBrickIndex.IndirectionEntryUpdateInfo", "struct_b_x_render_pipeline_1_1_probe_brick_index_1_1_indirection_entry_update_info.html", null ],
     [ "BXGeometryGraph.Runtime.GeometrySO.InnerData", "class_b_x_geometry_graph_1_1_runtime_1_1_geometry_s_o_1_1_inner_data.html", null ],
     [ "BXGeometryGraph.INodeModificationListener", "interface_b_x_geometry_graph_1_1_i_node_modification_listener.html", [
@@ -1294,7 +1357,9 @@ var hierarchy =
       [ "BXGeometryGraph.ToggleControlView", "class_b_x_geometry_graph_1_1_toggle_control_view.html", null ]
     ] ],
     [ "BXGeometryGraph.GenerationUtils.PackedEntry.Input", "struct_b_x_geometry_graph_1_1_generation_utils_1_1_packed_entry_1_1_input.html", null ],
+    [ "BXRenderPipeline.LightTransport.InputExtraction", "class_b_x_render_pipeline_1_1_light_transport_1_1_input_extraction.html", null ],
     [ "BXGeometryGraph.InspectorPreviewData", "class_b_x_geometry_graph_1_1_inspector_preview_data.html", null ],
+    [ "nv_helpers_dx12::TopLevelASGenerator::Instance", "structnv__helpers__dx12_1_1_top_level_a_s_generator_1_1_instance.html", null ],
     [ "Microsoft::WRL::Details::InterfaceTraits< I0 >", "struct_microsoft_1_1_w_r_l_1_1_details_1_1_interface_traits.html", null ],
     [ "Microsoft::WRL::Details::InterfaceTraits< Nil >", "struct_microsoft_1_1_w_r_l_1_1_details_1_1_interface_traits_3_01_nil_01_4.html", null ],
     [ "BXGeometryGraph.IOnAssetEnabled", "interface_b_x_geometry_graph_1_1_i_on_asset_enabled.html", [
@@ -1556,10 +1621,15 @@ var hierarchy =
       [ "BXRenderPipeline.BXRenderSettingsVolume", "class_b_x_render_pipeline_1_1_b_x_render_settings_volume.html", null ]
     ] ],
     [ "BXGeometryGraph.SerializationHelper.JSONSerializedElement", "struct_b_x_geometry_graph_1_1_serialization_helper_1_1_j_s_o_n_serialized_element.html", null ],
+    [ "BXGeometryGraph.GeometryGraphPreferences.Keys", "class_b_x_geometry_graph_1_1_geometry_graph_preferences_1_1_keys.html", null ],
     [ "BXGeometryGraph.LegacyShaderPropertyData", "class_b_x_geometry_graph_1_1_legacy_shader_property_data.html", null ],
+    [ "nv_helpers_dx12::RayTracingPipelineGenerator::Library", "structnv__helpers__dx12_1_1_ray_tracing_pipeline_generator_1_1_library.html", null ],
+    [ "BXRenderPipeline.BXLightCookie.LightCookieMapping", "struct_b_x_render_pipeline_1_1_b_x_light_cookie_1_1_light_cookie_mapping.html", null ],
+    [ "ftLightmaps.LightmapAdditionalData", "structft_lightmaps_1_1_lightmap_additional_data.html", null ],
     [ "List", null, [
       [ "BXGeometryGraph.PooledList< T >", "class_b_x_geometry_graph_1_1_pooled_list-1-g.html", null ]
     ] ],
+    [ "BXGeometryGraph.ListUtilities", "class_b_x_geometry_graph_1_1_list_utilities.html", null ],
     [ "LogQueue", "class_log_queue.html", null ],
     [ "Manipulator", null, [
       [ "BXGeometryGraph.ElementResizer", "class_b_x_geometry_graph_1_1_element_resizer.html", null ]
@@ -1573,7 +1643,11 @@ var hierarchy =
     ] ],
     [ "BXGeometryGraph.CodeFunctionNode.Matrix2x2", "struct_b_x_geometry_graph_1_1_code_function_node_1_1_matrix2x2.html", null ],
     [ "BXGeometryGraph.CodeFunctionNode.Matrix3x3", "struct_b_x_geometry_graph_1_1_code_function_node_1_1_matrix3x3.html", null ],
+    [ "BXGeometryGraph.MayRequireGeometryExtensions", "class_b_x_geometry_graph_1_1_may_require_geometry_extensions.html", null ],
     [ "BXGeometryGraph.CodeFunctionNode.Mesh", "struct_b_x_geometry_graph_1_1_code_function_node_1_1_mesh.html", null ],
+    [ "BXGeometryGraph.Runtime.mesh_primitive_cuboid", "class_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__cuboid.html", null ],
+    [ "BXGeometryGraph.Runtime.mesh_primitive_grid", "class_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__grid.html", null ],
+    [ "BXGeometryGraph.Runtime.mesh_primitive_line", "class_b_x_geometry_graph_1_1_runtime_1_1mesh__primitive__line.html", null ],
     [ "MessageBox", null, [
       [ "BXRenderPipeline.RuntimeDebugShadersMessageBox", "class_b_x_render_pipeline_1_1_runtime_debug_shaders_message_box.html", null ]
     ] ],
@@ -1606,7 +1680,9 @@ var hierarchy =
       [ "VolumeTestScene2", "class_volume_test_scene2.html", null ],
       [ "ftLightmapsStorage", "classft_lightmaps_storage.html", null ]
     ] ],
+    [ "BXGeometryGraph.MultiJson", "class_b_x_geometry_graph_1_1_multi_json.html", null ],
     [ "BXGeometryGraph.MultiJsonEntry", "struct_b_x_geometry_graph_1_1_multi_json_entry.html", null ],
+    [ "BXGeometryGraph.MultiJsonInternal", "class_b_x_geometry_graph_1_1_multi_json_internal.html", null ],
     [ "Microsoft::WRL::Details::Nil", "class_microsoft_1_1_w_r_l_1_1_details_1_1_nil.html", null ],
     [ "Node", null, [
       [ "BXGeometryGraph.GeometryNodeView", "class_b_x_geometry_graph_1_1_geometry_node_view.html", null ],
@@ -1614,12 +1690,19 @@ var hierarchy =
         [ "BXGeometryGraph.RedirectNodeView", "class_b_x_geometry_graph_1_1_redirect_node_view.html", null ]
       ] ]
     ] ],
+    [ "BXGeometryGraph.NodeExtensions", "class_b_x_geometry_graph_1_1_node_extensions.html", null ],
+    [ "BXRenderPipeline.ProbeVolumePerSceneData.ObsoleteSerializablePerScenarioDataItem", "struct_b_x_render_pipeline_1_1_probe_volume_per_scene_data_1_1_obsolete_serializable_per_scenario_data_item.html", null ],
+    [ "BXGeometryGraph.GraphData.OldGraphDataReadConcretePrecision", "class_b_x_geometry_graph_1_1_graph_data_1_1_old_graph_data_read_concrete_precision.html", null ],
+    [ "BXGeometryGraph.GenerationUtils.PackedEntry", "struct_b_x_geometry_graph_1_1_generation_utils_1_1_packed_entry.html", null ],
+    [ "BXGeometryGraph.Runtime.GeometryRenderer.PackedMatrix", "struct_b_x_geometry_graph_1_1_runtime_1_1_geometry_renderer_1_1_packed_matrix.html", null ],
+    [ "UploadBuffer::Page", "struct_upload_buffer_1_1_page.html", null ],
     [ "BXGeometryGraph.ParentGroupChange", "struct_b_x_geometry_graph_1_1_parent_group_change.html", null ],
     [ "BXGeometryGraph.PassDescriptor", "struct_b_x_geometry_graph_1_1_pass_descriptor.html", null ],
     [ "BXRenderPipeline.ProbeReferenceVolume.CellData.PerScenarioData", "struct_b_x_render_pipeline_1_1_probe_reference_volume_1_1_cell_data_1_1_per_scenario_data.html", null ],
     [ "Port", null, [
       [ "BXGeometryGraph.GeometryPort", "class_b_x_geometry_graph_1_1_geometry_port.html", null ]
     ] ],
+    [ "BXGeometryGraph.GraphData.PotentialTarget", "class_b_x_geometry_graph_1_1_graph_data_1_1_potential_target.html", null ],
     [ "BXGeometryGraph.PreviewGeometryData", "class_b_x_geometry_graph_1_1_preview_geometry_data.html", null ],
     [ "BXGeometryGraph.PreviewNode", "class_b_x_geometry_graph_1_1_preview_node.html", null ],
     [ "BXGeometryGraph.PreviewProperty", "struct_b_x_geometry_graph_1_1_preview_property.html", null ],
@@ -1628,9 +1711,12 @@ var hierarchy =
     [ "BXRenderPipeline.ProbeVolumeSystemParameters", "struct_b_x_render_pipeline_1_1_probe_volume_system_parameters.html", null ],
     [ "BXGeometryGraph.PropertyCollector", "class_b_x_geometry_graph_1_1_property_collector.html", null ],
     [ "BXGeometryGraph.CodeFunctionNode.PropertyConnectionState", "struct_b_x_geometry_graph_1_1_code_function_node_1_1_property_connection_state.html", null ],
+    [ "BXGeometryGraph.PropertyDrawerUtils", "class_b_x_geometry_graph_1_1_property_drawer_utils.html", null ],
     [ "BXRenderPipeline.DynamicArray< T >.RangeEnumerable", "struct_b_x_render_pipeline_1_1_dynamic_array-1-g_1_1_range_enumerable.html", null ],
     [ "BXRenderPipeline.DynamicArray< T >.RangeEnumerable.RangeIterator", "struct_b_x_render_pipeline_1_1_dynamic_array-1-g_1_1_range_enumerable_1_1_range_iterator.html", null ],
     [ "nv_helpers_dx12::RayTracingPipelineGenerator", "classnv__helpers__dx12_1_1_ray_tracing_pipeline_generator.html", null ],
+    [ "BXRenderPipeline.BXRenderPipelineResourcesEditorUtils.Reloader", "struct_b_x_render_pipeline_1_1_b_x_render_pipeline_resources_editor_utils_1_1_reloader.html", null ],
+    [ "BXRenderPipeline.ProbeReferenceVolume.RenderFragmentationOverlayPassData", "class_b_x_render_pipeline_1_1_probe_reference_volume_1_1_render_fragmentation_overlay_pass_data.html", null ],
     [ "BXRenderPipeline.RenderingLayerMask", "struct_b_x_render_pipeline_1_1_rendering_layer_mask.html", null ],
     [ "RenderPipeline", null, [
       [ "BXRenderPipeline.BXRenderPipeline", "class_b_x_render_pipeline_1_1_b_x_render_pipeline.html", null ]
@@ -1638,7 +1724,9 @@ var hierarchy =
     [ "RenderPipelineAsset", null, [
       [ "BXRenderPipeline.BXRenderPipelineAsset", "class_b_x_render_pipeline_1_1_b_x_render_pipeline_asset.html", null ]
     ] ],
+    [ "BXGeometryGraph.RenderPipelineChangedCallback", "class_b_x_geometry_graph_1_1_render_pipeline_changed_callback.html", null ],
     [ "BXRenderPipeline.LightTransport.IProbeIntegrator.Result", "struct_b_x_render_pipeline_1_1_light_transport_1_1_i_probe_integrator_1_1_result.html", null ],
+    [ "nv_helpers_dx12::RayTracingPipelineGenerator::RootSignatureAssociation", "structnv__helpers__dx12_1_1_ray_tracing_pipeline_generator_1_1_root_signature_association.html", null ],
     [ "nv_helpers_dx12::RootSignatureGenerator", "classnv__helpers__dx12_1_1_root_signature_generator.html", null ],
     [ "Microsoft::WRL::Details::RuntimeClassBase", "class_microsoft_1_1_w_r_l_1_1_details_1_1_runtime_class_base.html", [
       [ "Microsoft::WRL::Details::RuntimeClassImpl< TInterfaces... >", "class_microsoft_1_1_w_r_l_1_1_details_1_1_runtime_class_impl.html", null ],
@@ -1646,6 +1734,7 @@ var hierarchy =
     ] ],
     [ "BXRenderPipeline.ProbeReferenceVolume.RuntimeResources", "struct_b_x_render_pipeline_1_1_probe_reference_volume_1_1_runtime_resources.html", null ],
     [ "BXGeometryGraph.CodeFunctionNode.SamplerState", "struct_b_x_geometry_graph_1_1_code_function_node_1_1_sampler_state.html", null ],
+    [ "nv_helpers_dx12::ShaderBindingTableGenerator::SBTEntry", "structnv__helpers__dx12_1_1_shader_binding_table_generator_1_1_s_b_t_entry.html", null ],
     [ "ScriptableObject", null, [
       [ "BXGeometryGraph.Geometry", "class_b_x_geometry_graph_1_1_geometry.html", null ],
       [ "BXGeometryGraph.GeometryGraphMetadata", "class_b_x_geometry_graph_1_1_geometry_graph_metadata.html", null ],
@@ -1682,11 +1771,21 @@ var hierarchy =
     ] ],
     [ "BXGeometryGraph.SerializableTexture", "class_b_x_geometry_graph_1_1_serializable_texture.html", null ],
     [ "BXGeometryGraph.SerializableUserColor", "class_b_x_geometry_graph_1_1_serializable_user_color.html", null ],
+    [ "BXGeometryGraph.SerializationExtensions", "class_b_x_geometry_graph_1_1_serialization_extensions.html", null ],
+    [ "BXGeometryGraph.SerializationHelper", "class_b_x_geometry_graph_1_1_serialization_helper.html", null ],
+    [ "BXRenderPipeline.ProbeVolumeBakingSet.SerializedPerSceneCellList", "struct_b_x_render_pipeline_1_1_probe_volume_baking_set_1_1_serialized_per_scene_cell_list.html", null ],
+    [ "BXGeometryGraph.MultiJsonInternal.UnknownGeometrySlotType.SerializerHelper", "class_b_x_geometry_graph_1_1_multi_json_internal_1_1_unknown_geometry_slot_type_1_1_serializer_helper.html", null ],
     [ "nv_helpers_dx12::ShaderBindingTableGenerator", "classnv__helpers__dx12_1_1_shader_binding_table_generator.html", null ],
+    [ "BXRenderPipeline.BXReflectionProbeManager.ShaderProperties", "class_b_x_render_pipeline_1_1_b_x_reflection_probe_manager_1_1_shader_properties.html", null ],
+    [ "BXRenderPipeline.BXShadows.ShaderProperties", "class_b_x_render_pipeline_1_1_b_x_shadows_1_1_shader_properties.html", null ],
     [ "BXGeometryGraph.ShaderStringMapping", "struct_b_x_geometry_graph_1_1_shader_string_mapping.html", null ],
+    [ "BXRenderPipeline.BXShadows.ShadowedDirectionalLight", "struct_b_x_render_pipeline_1_1_b_x_shadows_1_1_shadowed_directional_light.html", null ],
+    [ "BXRenderPipeline.BXShadows.ShadowedOtherLight", "struct_b_x_render_pipeline_1_1_b_x_shadows_1_1_shadowed_other_light.html", null ],
     [ "BXGeometryGraph.SlotCapability", "class_b_x_geometry_graph_1_1_slot_capability.html", null ],
     [ "BXGeometryGraph.SlotDependencyInfo", "class_b_x_geometry_graph_1_1_slot_dependency_info.html", null ],
     [ "BXGeometryGraph.SlotDependencyPair", "class_b_x_geometry_graph_1_1_slot_dependency_pair.html", null ],
+    [ "BXGeometryGraph.SlotValueHelper", "class_b_x_geometry_graph_1_1_slot_value_helper.html", null ],
+    [ "BXGeometryGraph.SlotValueTypeUtil", "class_b_x_geometry_graph_1_1_slot_value_type_util.html", null ],
     [ "BXRenderPipeline.BXPhysicsLightSetting.SpectralLuminousEfficacyFuncEelment", "struct_b_x_render_pipeline_1_1_b_x_physics_light_setting_1_1_spectral_luminous_efficacy_func_eelment.html", null ],
     [ "StackNode", null, [
       [ "BXGeometryGraph.ContextView", "class_b_x_geometry_graph_1_1_context_view.html", null ]
@@ -1694,7 +1793,11 @@ var hierarchy =
     [ "BXGeometryGraph.StackPool< T >", "class_b_x_geometry_graph_1_1_stack_pool-1-g.html", null ],
     [ "DescriptorAllocatorPage::StaleDescriptorInfo", "struct_descriptor_allocator_page_1_1_stale_descriptor_info.html", null ],
     [ "BXRenderPipeline.ProbeVolumeStreamableAsset.StreamableCellDesc", "struct_b_x_render_pipeline_1_1_probe_volume_streamable_asset_1_1_streamable_cell_desc.html", null ],
+    [ "CD3DX12_STATE_OBJECT_DESC::StringContainer< CStr, StdStr >", "class_c_d3_d_x12___s_t_a_t_e___o_b_j_e_c_t___d_e_s_c_1_1_string_container.html", null ],
     [ "BXGeometryGraph.PreviewProperty.StructData", "struct_b_x_geometry_graph_1_1_preview_property_1_1_struct_data.html", null ],
+    [ "BXRenderPipeline.BXVolumeComponentEditor.Styles", "class_b_x_render_pipeline_1_1_b_x_volume_component_editor_1_1_styles.html", null ],
+    [ "BXGeometryGraph.SubGraphNode.SubGraphAssetReference", "class_b_x_geometry_graph_1_1_sub_graph_node_1_1_sub_graph_asset_reference.html", null ],
+    [ "BXGeometryGraph.SubGraphNode.SubGraphHelper", "class_b_x_geometry_graph_1_1_sub_graph_node_1_1_sub_graph_helper.html", null ],
     [ "CD3DX12_STATE_OBJECT_DESC::SUBOBJECT_HELPER_BASE", "class_c_d3_d_x12___s_t_a_t_e___o_b_j_e_c_t___d_e_s_c_1_1_s_u_b_o_b_j_e_c_t___h_e_l_p_e_r___b_a_s_e.html", [
       [ "CD3DX12_BLEND_SUBOBJECT", "class_c_d3_d_x12___b_l_e_n_d___s_u_b_o_b_j_e_c_t.html", null ],
       [ "CD3DX12_DEPTH_STENCIL1_SUBOBJECT", "class_c_d3_d_x12___d_e_p_t_h___s_t_e_n_c_i_l1___s_u_b_o_b_j_e_c_t.html", null ],
@@ -1737,12 +1840,14 @@ var hierarchy =
     [ "BXGeometryGraph.CodeFunctionNode.Texture2D", "struct_b_x_geometry_graph_1_1_code_function_node_1_1_texture2_d.html", null ],
     [ "BXGeometryGraph.CodeFunctionNode.Texture2DArray", "struct_b_x_geometry_graph_1_1_code_function_node_1_1_texture2_d_array.html", null ],
     [ "BXGeometryGraph.CodeFunctionNode.Texture3D", "struct_b_x_geometry_graph_1_1_code_function_node_1_1_texture3_d.html", null ],
+    [ "BXGeometryGraph.SerializableTexture.TextureHelper", "class_b_x_geometry_graph_1_1_serializable_texture_1_1_texture_helper.html", null ],
     [ "BXGeometryGraph.PropertyCollector.TextureInfo", "struct_b_x_geometry_graph_1_1_property_collector_1_1_texture_info.html", null ],
     [ "BXGeometryGraph.ToggleData", "struct_b_x_geometry_graph_1_1_toggle_data.html", null ],
     [ "TokenNode", null, [
       [ "BXGeometryGraph.PropertyNodeView", "class_b_x_geometry_graph_1_1_property_node_view.html", null ]
     ] ],
     [ "nv_helpers_dx12::TopLevelASGenerator", "classnv__helpers__dx12_1_1_top_level_a_s_generator.html", null ],
+    [ "BXGeometryGraph.TrickleDownEnum", "class_b_x_geometry_graph_1_1_trickle_down_enum.html", null ],
     [ "Microsoft::WRL::Details::Type< I0,... >", "struct_microsoft_1_1_w_r_l_1_1_details_1_1_adjust_implements.html", [
       [ "Microsoft::WRL::Details::Implements< I0, TInterfaces >", "struct_microsoft_1_1_w_r_l_1_1_details_1_1_implements.html", null ]
     ] ],
@@ -1759,11 +1864,15 @@ var hierarchy =
       [ "Microsoft::WRL::Details::Selector< typename AdjustImplements< TInterfaces... >::Type, ImplementsHelper< ImplementsMarker< I0 >, TInterfaces... > >", "struct_microsoft_1_1_w_r_l_1_1_details_1_1_selector.html", null ]
     ] ],
     [ "BXGeometryGraph.SerializationHelper.TypeSerializationInfo", "struct_b_x_geometry_graph_1_1_serialization_helper_1_1_type_serialization_info.html", null ],
+    [ "CD3DX12_BROADCASTING_LAUNCH_NODE_OVERRIDES::UINT3", "struct_c_d3_d_x12___b_r_o_a_d_c_a_s_t_i_n_g___l_a_u_n_c_h___n_o_d_e___o_v_e_r_r_i_d_e_s_1_1_u_i_n_t3.html", null ],
+    [ "CD3DX12_COALESCING_LAUNCH_NODE_OVERRIDES::UINT3", "struct_c_d3_d_x12___c_o_a_l_e_s_c_i_n_g___l_a_u_n_c_h___n_o_d_e___o_v_e_r_r_i_d_e_s_1_1_u_i_n_t3.html", null ],
+    [ "BXGeometryGraph.UIUtilities", "class_b_x_geometry_graph_1_1_u_i_utilities.html", null ],
     [ "UploadBuffer", "class_upload_buffer.html", null ],
     [ "BXGeometryGraph.UserViewSettings", "class_b_x_geometry_graph_1_1_user_view_settings.html", null ],
     [ "UxmlFactory", null, [
       [ "BXGeometryGraph.ResizableElementFactory", "class_b_x_geometry_graph_1_1_resizable_element_factory.html", null ]
     ] ],
+    [ "BXGeometryGraph.ValueUtilities", "class_b_x_geometry_graph_1_1_value_utilities.html", null ],
     [ "BXGeometryGraph.CodeFunctionNode.Vector1", "struct_b_x_geometry_graph_1_1_code_function_node_1_1_vector1.html", null ],
     [ "VertexPosColor", "struct_vertex_pos_color.html", null ],
     [ "VisualElement", null, [
@@ -1786,5 +1895,7 @@ var hierarchy =
     ] ],
     [ "Window", "class_window.html", [
       [ "MakeWindow", "struct_make_window.html", null ]
-    ] ]
+    ] ],
+    [ "BXRenderPipeline.BXLightCookie.WorkMemory", "class_b_x_render_pipeline_1_1_b_x_light_cookie_1_1_work_memory.html", null ],
+    [ "BXRenderPipeline.BXLightCookie.WorkSlice< T >", "struct_b_x_render_pipeline_1_1_b_x_light_cookie_1_1_work_slice-1-g.html", null ]
 ];

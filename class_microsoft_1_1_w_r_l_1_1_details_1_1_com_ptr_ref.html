@@ -108,10 +108,13 @@ $(function(){initNavTree('class_microsoft_1_1_w_r_l_1_1_details_1_1_com_ptr_ref.
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-types">Private Types</a> &#124;
 <a href="class_microsoft_1_1_w_r_l_1_1_details_1_1_com_ptr_ref-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">Microsoft::WRL::Details::ComPtrRef&lt; T &gt; Class Template Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &lt;<a class="el" href="wrladapter_8h_source.html">wrladapter.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for Microsoft::WRL::Details::ComPtrRef&lt; T &gt;:</div>
 <div class="dyncontent">
@@ -124,7 +127,7 @@ Inheritance diagram for Microsoft::WRL::Details::ComPtrRef&lt; T &gt;:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a95d0386d915fb80d83c19b09f4bf7c92" id="r_a95d0386d915fb80d83c19b09f4bf7c92"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a95d0386d915fb80d83c19b09f4bf7c92">ComPtrRef</a> (_In_opt_ T *ptr)  throw ()</td></tr>
+<tr class="memitem:a95d0386d915fb80d83c19b09f4bf7c92" id="r_a95d0386d915fb80d83c19b09f4bf7c92"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a95d0386d915fb80d83c19b09f4bf7c92">ComPtrRef</a> (<a class="el" href="basetsd_8h.html#ab1211e050847ff847e95d7a9e20d9654">_In_opt_</a> T *ptr)  throw ()</td></tr>
 <tr class="separator:a95d0386d915fb80d83c19b09f4bf7c92"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa0db5ca9096b2ddf8c86c0cfbb724925" id="r_aa0db5ca9096b2ddf8c86c0cfbb724925"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0db5ca9096b2ddf8c86c0cfbb724925">operator void **</a> () const  throw ()</td></tr>
 <tr class="separator:aa0db5ca9096b2ddf8c86c0cfbb724925"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -132,15 +135,22 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a81801fd2793de970ca1c06734bfbb18d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0ed9a83f578a229970a652019f821fe" id="r_ab0ed9a83f578a229970a652019f821fe"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0ed9a83f578a229970a652019f821fe">operator InterfaceType **</a> ()  throw ()</td></tr>
 <tr class="separator:ab0ed9a83f578a229970a652019f821fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa406aafc440c99c2b5a581cc636b590a" id="r_aa406aafc440c99c2b5a581cc636b590a"><td class="memItemLeft" align="right" valign="top">InterfaceType *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa406aafc440c99c2b5a581cc636b590a">operator*</a> ()  throw ()</td></tr>
+<tr class="memitem:aa406aafc440c99c2b5a581cc636b590a" id="r_aa406aafc440c99c2b5a581cc636b590a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a5854725ae8686bac464a5935e4ed27f9">InterfaceType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa406aafc440c99c2b5a581cc636b590a">operator*</a> ()  throw ()</td></tr>
 <tr class="separator:aa406aafc440c99c2b5a581cc636b590a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade6343ff3b94e338e66deef165b78f81" id="r_ade6343ff3b94e338e66deef165b78f81"><td class="memItemLeft" align="right" valign="top">InterfaceType *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade6343ff3b94e338e66deef165b78f81">GetAddressOf</a> () const  throw ()</td></tr>
+<tr class="memitem:ade6343ff3b94e338e66deef165b78f81" id="r_ade6343ff3b94e338e66deef165b78f81"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a5854725ae8686bac464a5935e4ed27f9">InterfaceType</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade6343ff3b94e338e66deef165b78f81">GetAddressOf</a> () const  throw ()</td></tr>
 <tr class="separator:ade6343ff3b94e338e66deef165b78f81"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0470804ed80aebedea3d845c73325d24" id="r_a0470804ed80aebedea3d845c73325d24"><td class="memItemLeft" align="right" valign="top">InterfaceType **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0470804ed80aebedea3d845c73325d24">ReleaseAndGetAddressOf</a> ()  throw ()</td></tr>
+<tr class="memitem:a0470804ed80aebedea3d845c73325d24" id="r_a0470804ed80aebedea3d845c73325d24"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a5854725ae8686bac464a5935e4ed27f9">InterfaceType</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0470804ed80aebedea3d845c73325d24">ReleaseAndGetAddressOf</a> ()  throw ()</td></tr>
 <tr class="separator:a0470804ed80aebedea3d845c73325d24"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_microsoft_1_1_w_r_l_1_1_details_1_1_com_ptr_ref_base"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_class_microsoft_1_1_w_r_l_1_1_details_1_1_com_ptr_ref_base')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_microsoft_1_1_w_r_l_1_1_details_1_1_com_ptr_ref_base.html">Microsoft::WRL::Details::ComPtrRefBase&lt; T &gt;</a></td></tr>
 <tr class="memitem:a849361503169c02ce2ff34d65fa18886 inherit pub_methods_class_microsoft_1_1_w_r_l_1_1_details_1_1_com_ptr_ref_base" id="r_a849361503169c02ce2ff34d65fa18886"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_details_1_1_com_ptr_ref_base.html#a849361503169c02ce2ff34d65fa18886">operator IUnknown **</a> () const  throw ()</td></tr>
 <tr class="separator:a849361503169c02ce2ff34d65fa18886 inherit pub_methods_class_microsoft_1_1_w_r_l_1_1_details_1_1_com_ptr_ref_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-types" name="pri-types"></a>
+Private Types</h2></td></tr>
+<tr class="memitem:aa0a54ea41efdf21cb1e1a4478a056523" id="r_aa0a54ea41efdf21cb1e1a4478a056523"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0a54ea41efdf21cb1e1a4478a056523">Super</a> = <a class="el" href="class_microsoft_1_1_w_r_l_1_1_details_1_1_com_ptr_ref_base.html">Details::ComPtrRefBase</a>&lt;T&gt;</td></tr>
+<tr class="separator:aa0a54ea41efdf21cb1e1a4478a056523"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5854725ae8686bac464a5935e4ed27f9" id="r_a5854725ae8686bac464a5935e4ed27f9"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5854725ae8686bac464a5935e4ed27f9">InterfaceType</a> = typename <a class="el" href="class_microsoft_1_1_w_r_l_1_1_details_1_1_com_ptr_ref_base.html#a61c8dafb953faecce5d18ba7b6f15979">Super::InterfaceType</a></td></tr>
+<tr class="separator:a5854725ae8686bac464a5935e4ed27f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -155,7 +165,60 @@ Additional Inherited Members</h2></td></tr>
 <div class="textblock"><div class="compoundTemplParams">template&lt;typename T&gt;<br />
 class Microsoft::WRL::Details::ComPtrRef&lt; T &gt;</div>
 <p class="definition">Definition at line <a class="el" href="wrladapter_8h_source.html#l00050">50</a> of file <a class="el" href="wrladapter_8h_source.html">wrladapter.h</a>.</p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="a5854725ae8686bac464a5935e4ed27f9" name="a5854725ae8686bac464a5935e4ed27f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5854725ae8686bac464a5935e4ed27f9">&#9670;&#160;</a></span>InterfaceType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="class_microsoft_1_1_w_r_l_1_1_details_1_1_com_ptr_ref.html">Microsoft::WRL::Details::ComPtrRef</a>&lt; T &gt;::InterfaceType = typename <a class="el" href="class_microsoft_1_1_w_r_l_1_1_details_1_1_com_ptr_ref_base.html#a61c8dafb953faecce5d18ba7b6f15979">Super::InterfaceType</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="wrladapter_8h_source.html#l00053">53</a> of file <a class="el" href="wrladapter_8h_source.html">wrladapter.h</a>.</p>
+
+</div>
+</div>
+<a id="aa0a54ea41efdf21cb1e1a4478a056523" name="aa0a54ea41efdf21cb1e1a4478a056523"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0a54ea41efdf21cb1e1a4478a056523">&#9670;&#160;</a></span>Super</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="class_microsoft_1_1_w_r_l_1_1_details_1_1_com_ptr_ref.html">Microsoft::WRL::Details::ComPtrRef</a>&lt; T &gt;::Super = <a class="el" href="class_microsoft_1_1_w_r_l_1_1_details_1_1_com_ptr_ref_base.html">Details::ComPtrRefBase</a>&lt;T&gt;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="wrladapter_8h_source.html#l00052">52</a> of file <a class="el" href="wrladapter_8h_source.html">wrladapter.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a95d0386d915fb80d83c19b09f4bf7c92" name="a95d0386d915fb80d83c19b09f4bf7c92"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a95d0386d915fb80d83c19b09f4bf7c92">&#9670;&#160;</a></span>ComPtrRef()</h2>
 
@@ -167,7 +230,7 @@ template&lt;typename T&gt; </div>
         <tr>
           <td class="memname"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_details_1_1_com_ptr_ref.html">Microsoft::WRL::Details::ComPtrRef</a>&lt; T &gt;::ComPtrRef </td>
           <td>(</td>
-          <td class="paramtype">_In_opt_ T *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#ab1211e050847ff847e95d7a9e20d9654">_In_opt_</a> T *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span></td><td>)</td>
           <td></td>
         </tr>
         <tr>
@@ -190,7 +253,7 @@ template&lt;typename T&gt; </div>
 template&lt;typename T&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">InterfaceType *const  * <a class="el" href="class_microsoft_1_1_w_r_l_1_1_details_1_1_com_ptr_ref.html">Microsoft::WRL::Details::ComPtrRef</a>&lt; T &gt;::GetAddressOf </td>
+          <td class="memname"><a class="el" href="#a5854725ae8686bac464a5935e4ed27f9">InterfaceType</a> *const  * <a class="el" href="class_microsoft_1_1_w_r_l_1_1_details_1_1_com_ptr_ref.html">Microsoft::WRL::Details::ComPtrRef</a>&lt; T &gt;::GetAddressOf </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -214,7 +277,7 @@ template&lt;typename T&gt; </div>
 template&lt;typename T&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_details_1_1_com_ptr_ref.html">Microsoft::WRL::Details::ComPtrRef</a>&lt; T &gt;::operator InterfaceType ** </td>
+          <td class="memname"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_details_1_1_com_ptr_ref.html">Microsoft::WRL::Details::ComPtrRef</a>&lt; T &gt;::operator <a class="el" href="#a5854725ae8686bac464a5935e4ed27f9">InterfaceType</a> ** </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -262,7 +325,7 @@ template&lt;typename T&gt; </div>
 template&lt;typename T&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_details_1_1_com_ptr_ref.html">Microsoft::WRL::Details::ComPtrRef</a>&lt; T &gt;::operator void ** </td>
+          <td class="memname"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_details_1_1_com_ptr_ref.html">Microsoft::WRL::Details::ComPtrRef</a>&lt; T &gt;::operator <a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> ** </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -286,7 +349,7 @@ template&lt;typename T&gt; </div>
 template&lt;typename T&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">InterfaceType * <a class="el" href="class_microsoft_1_1_w_r_l_1_1_details_1_1_com_ptr_ref.html">Microsoft::WRL::Details::ComPtrRef</a>&lt; T &gt;::operator* </td>
+          <td class="memname"><a class="el" href="#a5854725ae8686bac464a5935e4ed27f9">InterfaceType</a> * <a class="el" href="class_microsoft_1_1_w_r_l_1_1_details_1_1_com_ptr_ref.html">Microsoft::WRL::Details::ComPtrRef</a>&lt; T &gt;::operator* </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -310,7 +373,7 @@ template&lt;typename T&gt; </div>
 template&lt;typename T&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">InterfaceType ** <a class="el" href="class_microsoft_1_1_w_r_l_1_1_details_1_1_com_ptr_ref.html">Microsoft::WRL::Details::ComPtrRef</a>&lt; T &gt;::ReleaseAndGetAddressOf </td>
+          <td class="memname"><a class="el" href="#a5854725ae8686bac464a5935e4ed27f9">InterfaceType</a> ** <a class="el" href="class_microsoft_1_1_w_r_l_1_1_details_1_1_com_ptr_ref.html">Microsoft::WRL::Details::ComPtrRef</a>&lt; T &gt;::ReleaseAndGetAddressOf </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -333,7 +396,7 @@ template&lt;typename T&gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>Microsoft</b></li><li class="navelem"><b>WRL</b></li><li class="navelem"><b>Details</b></li><li class="navelem"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_details_1_1_com_ptr_ref.html">ComPtrRef</a></li>
+    <li class="navelem"><a class="el" href="namespace_microsoft.html">Microsoft</a></li><li class="navelem"><a class="el" href="namespace_microsoft_1_1_w_r_l.html">WRL</a></li><li class="navelem"><a class="el" href="namespace_microsoft_1_1_w_r_l_1_1_details.html">Details</a></li><li class="navelem"><a class="el" href="class_microsoft_1_1_w_r_l_1_1_details_1_1_com_ptr_ref.html">ComPtrRef</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
   </ul>
 </div>

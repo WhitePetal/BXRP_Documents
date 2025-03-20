@@ -109,7 +109,7 @@ $(function(){initNavTree('_boolean_slot_control_view_8cs_source.html',''); initR
   <div class="headertitle"><div class="title">BooleanSlotControlView.cs</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="keyword">using </span>System.Collections;</div>
+<a href="_boolean_slot_control_view_8cs.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="keyword">using </span>System.Collections;</div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="keyword">using </span>System.Collections.Generic;</div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="keyword">using </span>UnityEngine;</div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="keyword">using </span>UnityEngine.UIElements;</div>
@@ -126,7 +126,7 @@ $(function(){initNavTree('_boolean_slot_control_view_8cs_source.html',''); initR
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>            m_Slot = slot;</div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>            var toogleField = <span class="keyword">new</span> Toggle() { value = m_Slot.value };</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>            toogleField.OnToggleChanged(OnChangeToggle);</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>            Add(toogleField);</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>            <a class="code hl_enumvalue" href="namespace_key_code.html#aa3792cfa01da9472a286db0c1d0e023bacca34c4c5f5eabf42b38bdeec83ae400">Add</a>(toogleField);</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>        }</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>        <span class="keywordtype">void</span> OnChangeToggle(ChangeEvent&lt;bool&gt; evt)</div>
@@ -135,18 +135,20 @@ $(function(){initNavTree('_boolean_slot_control_view_8cs_source.html',''); initR
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>            {</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>                m_Slot.owner.owner.owner.RegisterCompleteObjectUndo(<span class="stringliteral">&quot;Toggle Change&quot;</span>);</div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>                m_Slot.value = evt.newValue;</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>                m_Slot.owner.Dirty(ModificationScope.Node);</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>                m_Slot.owner.Dirty(<a class="code hl_enumeration" href="namespace_b_x_geometry_graph.html#a9ab4f878a5e24617ec879087afe97690">ModificationScope</a>.Node);</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>            }</div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>        }</div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    }</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>}</div>
 <div class="ttc" id="anamespace_b_x_geometry_graph_html"><div class="ttname"><a href="namespace_b_x_geometry_graph.html">BXGeometryGraph</a></div><div class="ttdef"><b>Definition</b> <a href="_abstract_geometry_graph_data_extension_8cs_source.html#l00008">AbstractGeometryGraphDataExtension.cs:9</a></div></div>
+<div class="ttc" id="anamespace_b_x_geometry_graph_html_a9ab4f878a5e24617ec879087afe97690"><div class="ttname"><a href="namespace_b_x_geometry_graph.html#a9ab4f878a5e24617ec879087afe97690">BXGeometryGraph.ModificationScope</a></div><div class="ttdeci">ModificationScope</div><div class="ttdef"><b>Definition</b> <a href="_i_node_8cs_source.html#l00008">INode.cs:9</a></div></div>
+<div class="ttc" id="anamespace_key_code_html_aa3792cfa01da9472a286db0c1d0e023bacca34c4c5f5eabf42b38bdeec83ae400"><div class="ttname"><a href="namespace_key_code.html#aa3792cfa01da9472a286db0c1d0e023bacca34c4c5f5eabf42b38bdeec83ae400">KeyCode::Add</a></div><div class="ttdeci">@ Add</div><div class="ttdef"><b>Definition</b> <a href="_key_codes_8h_source.html#l00114">KeyCodes.h:114</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_f73a8b7d50989afdadf24d8fc7357a9a.html">FloowDream</a></li><li class="navelem"><a class="el" href="dir_1ba945c5ec581c9e331de81f300aff07.html">Assets</a></li><li class="navelem"><a class="el" href="dir_a57f4778d467e0a6236fa4788364df6c.html">Scripts</a></li><li class="navelem"><a class="el" href="dir_8b4148ef0ffda13d8a8272867298b61d.html">BXRenderPipeline</a></li><li class="navelem"><a class="el" href="dir_a8720bb293956aa0546773bed716ef7d.html">GeometryGraph</a></li><li class="navelem"><a class="el" href="dir_70308b049469fb202d64bde4a4db7180.html">Editor</a></li><li class="navelem"><a class="el" href="dir_aadc9f8f90e62700ff76d57bf008269a.html">Drawing</a></li><li class="navelem"><a class="el" href="dir_bae2a70e165430c05428cecfb2b52886.html">Slots</a></li><li class="navelem"><b>BooleanSlotControlView.cs</b></li>
+    <li class="navelem"><a class="el" href="dir_f73a8b7d50989afdadf24d8fc7357a9a.html">FloowDream</a></li><li class="navelem"><a class="el" href="dir_1ba945c5ec581c9e331de81f300aff07.html">Assets</a></li><li class="navelem"><a class="el" href="dir_a57f4778d467e0a6236fa4788364df6c.html">Scripts</a></li><li class="navelem"><a class="el" href="dir_8b4148ef0ffda13d8a8272867298b61d.html">BXRenderPipeline</a></li><li class="navelem"><a class="el" href="dir_a8720bb293956aa0546773bed716ef7d.html">GeometryGraph</a></li><li class="navelem"><a class="el" href="dir_70308b049469fb202d64bde4a4db7180.html">Editor</a></li><li class="navelem"><a class="el" href="dir_aadc9f8f90e62700ff76d57bf008269a.html">Drawing</a></li><li class="navelem"><a class="el" href="dir_bae2a70e165430c05428cecfb2b52886.html">Slots</a></li><li class="navelem"><a class="el" href="_boolean_slot_control_view_8cs.html">BooleanSlotControlView.cs</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
   </ul>
 </div>

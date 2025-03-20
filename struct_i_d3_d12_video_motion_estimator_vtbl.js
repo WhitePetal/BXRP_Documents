@@ -1,0 +1,25 @@
+var struct_i_d3_d12_video_motion_estimator_vtbl =
+[
+    [ "_In_reads_bytes_opt_", "struct_i_d3_d12_video_motion_estimator_vtbl.html#a52c9dfb6a23a2ba7afc02a559882c6c9", null ],
+    [ "D3D12_VIDEO_MOTION_ESTIMATOR_DESC", "struct_i_d3_d12_video_motion_estimator_vtbl.html#a31711b61bc6d87c459dcb9e74be77d61", null ],
+    [ "HRESULT", "struct_i_d3_d12_video_motion_estimator_vtbl.html#ad4c9ad3b728c7040997d778bb1adc2a2", null ],
+    [ "HRESULT", "struct_i_d3_d12_video_motion_estimator_vtbl.html#aa407fa6945a21503354735ad1ddf255f", null ],
+    [ "HRESULT", "struct_i_d3_d12_video_motion_estimator_vtbl.html#a4334d3c56cebf0a362c36d2817538b82", null ],
+    [ "HRESULT", "struct_i_d3_d12_video_motion_estimator_vtbl.html#ace1acbcbf4b81b67de749b126e6cdbaf", null ],
+    [ "HRESULT", "struct_i_d3_d12_video_motion_estimator_vtbl.html#aabd7f6382d5ffa71c0e5f843538d1f8b", null ],
+    [ "HRESULT", "struct_i_d3_d12_video_motion_estimator_vtbl.html#a3793620ff6d147d6070d3cf242f1076d", null ],
+    [ "HRESULT", "struct_i_d3_d12_video_motion_estimator_vtbl.html#ae9f27245c54e9df7ce098975b60d7b4d", null ],
+    [ "ULONG", "struct_i_d3_d12_video_motion_estimator_vtbl.html#a9506676db1485f76e8e0f34c2818846a", null ],
+    [ "ULONG", "struct_i_d3_d12_video_motion_estimator_vtbl.html#afc71062756aa8f1b4a3906c5cf97159a", null ],
+    [ "DataSize", "struct_i_d3_d12_video_motion_estimator_vtbl.html#acd32754580dde5f236e431d18cfdf0a0", null ],
+    [ "guid", "struct_i_d3_d12_video_motion_estimator_vtbl.html#a39c8f067526f5b12e9f391965f706d75", null ],
+    [ "Name", "struct_i_d3_d12_video_motion_estimator_vtbl.html#ab548096402de57ddd85e470eb6a0644f", null ],
+    [ "pData", "struct_i_d3_d12_video_motion_estimator_vtbl.html#ab0836b5e8a4a47e288e073dda8d08170", null ],
+    [ "pData", "struct_i_d3_d12_video_motion_estimator_vtbl.html#a9a46379fad8726627163c60644383e22", null ],
+    [ "pDataSize", "struct_i_d3_d12_video_motion_estimator_vtbl.html#a24715159e8b5886dba3cf21e8333805f", null ],
+    [ "ppProtectedSession", "struct_i_d3_d12_video_motion_estimator_vtbl.html#a739c29080c6cb349915b0a7933727787", null ],
+    [ "ppvDevice", "struct_i_d3_d12_video_motion_estimator_vtbl.html#a7f59f17baf8c2eea9eb44c37634c5976", null ],
+    [ "ppvObject", "struct_i_d3_d12_video_motion_estimator_vtbl.html#a3346c08f048a450d25b4af38bcec3481", null ],
+    [ "riid", "struct_i_d3_d12_video_motion_estimator_vtbl.html#ab3e0b1e6a98e14f619cb1b8c13a05d2c", null ],
+    [ "riid", "struct_i_d3_d12_video_motion_estimator_vtbl.html#ab3e0b1e6a98e14f619cb1b8c13a05d2c", null ]
+];

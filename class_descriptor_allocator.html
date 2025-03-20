@@ -108,26 +108,83 @@ $(function(){initNavTree('class_descriptor_allocator.html',''); initResizable(tr
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-types">Private Types</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_descriptor_allocator-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">DescriptorAllocator Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &lt;<a class="el" href="_descriptor_allocator_8h_source.html">DescriptorAllocator.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:af6cd2f17b0aa7d8bced3a62d7638effe" id="r_af6cd2f17b0aa7d8bced3a62d7638effe"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6cd2f17b0aa7d8bced3a62d7638effe">DescriptorAllocator</a> (D3D12_DESCRIPTOR_HEAP_TYPE type, uint32_t numDescriptorsPerHeap=256)</td></tr>
+<tr class="memitem:af6cd2f17b0aa7d8bced3a62d7638effe" id="r_af6cd2f17b0aa7d8bced3a62d7638effe"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6cd2f17b0aa7d8bced3a62d7638effe">DescriptorAllocator</a> (<a class="el" href="d3d12_8idl.html#ad48f91971eb4cc5f27213d96cefae504">D3D12_DESCRIPTOR_HEAP_TYPE</a> type, uint32_t numDescriptorsPerHeap=256)</td></tr>
 <tr class="separator:af6cd2f17b0aa7d8bced3a62d7638effe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e837e6b4c60d0b803fd361a89666a13" id="r_a0e837e6b4c60d0b803fd361a89666a13"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e837e6b4c60d0b803fd361a89666a13">~DescriptorAllocator</a> ()</td></tr>
+<tr class="separator:a0e837e6b4c60d0b803fd361a89666a13"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54b05e2d35f257fef97b0c0bb19ebd3e" id="r_a54b05e2d35f257fef97b0c0bb19ebd3e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_descriptor_allocation.html">DescriptorAllocation</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a54b05e2d35f257fef97b0c0bb19ebd3e">Allocate</a> (uint32_t numDescriptors=1)</td></tr>
 <tr class="memdesc:a54b05e2d35f257fef97b0c0bb19ebd3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate a number of contiguous descriptors from a GPU visible descriptor heap.  <br /></td></tr>
 <tr class="separator:a54b05e2d35f257fef97b0c0bb19ebd3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a129033a56e3149f7c8c062101614d99e" id="r_a129033a56e3149f7c8c062101614d99e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a129033a56e3149f7c8c062101614d99e">ReleaseStaleDescriptors</a> (uint64_t frameNumber)</td></tr>
+<tr class="memitem:a129033a56e3149f7c8c062101614d99e" id="r_a129033a56e3149f7c8c062101614d99e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a129033a56e3149f7c8c062101614d99e">ReleaseStaleDescriptors</a> (uint64_t frameNumber)</td></tr>
 <tr class="memdesc:a129033a56e3149f7c8c062101614d99e"><td class="mdescLeft">&#160;</td><td class="mdescRight">When the frame has completed, the stale descriptors can be released.  <br /></td></tr>
 <tr class="separator:a129033a56e3149f7c8c062101614d99e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-types" name="pri-types"></a>
+Private Types</h2></td></tr>
+<tr class="memitem:aa102fe0c9bd701b819fc7e6d988f6a09" id="r_aa102fe0c9bd701b819fc7e6d988f6a09"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa102fe0c9bd701b819fc7e6d988f6a09">DescriptorHeapPool</a> = std::vector&lt;std::shared_ptr&lt;<a class="el" href="class_descriptor_allocator_page.html">DescriptorAllocatorPage</a>&gt;&gt;</td></tr>
+<tr class="separator:aa102fe0c9bd701b819fc7e6d988f6a09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a769729bce60ccca0d9b7cc0e893e620c" id="r_a769729bce60ccca0d9b7cc0e893e620c"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="class_descriptor_allocator_page.html">DescriptorAllocatorPage</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a769729bce60ccca0d9b7cc0e893e620c">CreateAllocatorPage</a> ()</td></tr>
+<tr class="memdesc:a769729bce60ccca0d9b7cc0e893e620c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a new heap with a specific number of descriptors.  <br /></td></tr>
+<tr class="separator:a769729bce60ccca0d9b7cc0e893e620c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:aa0c32503f72437436644a8ee1efd48b8" id="r_aa0c32503f72437436644a8ee1efd48b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12_8idl.html#ad48f91971eb4cc5f27213d96cefae504">D3D12_DESCRIPTOR_HEAP_TYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0c32503f72437436644a8ee1efd48b8">m_HeapType</a></td></tr>
+<tr class="separator:aa0c32503f72437436644a8ee1efd48b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a595f77c6c5568b789638bf438c5e2fad" id="r_a595f77c6c5568b789638bf438c5e2fad"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a595f77c6c5568b789638bf438c5e2fad">m_NumDescriptorsPerHeap</a></td></tr>
+<tr class="separator:a595f77c6c5568b789638bf438c5e2fad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a566e48fb238a58dfd58941015832d9dc" id="r_a566e48fb238a58dfd58941015832d9dc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#aa102fe0c9bd701b819fc7e6d988f6a09">DescriptorHeapPool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a566e48fb238a58dfd58941015832d9dc">m_HeapPool</a></td></tr>
+<tr class="separator:a566e48fb238a58dfd58941015832d9dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa98457aec74d74a485650655e2f5b195" id="r_aa98457aec74d74a485650655e2f5b195"><td class="memItemLeft" align="right" valign="top">std::set&lt; size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa98457aec74d74a485650655e2f5b195">m_AvailableHeaps</a></td></tr>
+<tr class="memdesc:aa98457aec74d74a485650655e2f5b195"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indices of the available heaps in the heap pool.  <br /></td></tr>
+<tr class="separator:aa98457aec74d74a485650655e2f5b195"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af28ab07e91f45a66959a21f6854817fb" id="r_af28ab07e91f45a66959a21f6854817fb"><td class="memItemLeft" align="right" valign="top">std::mutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af28ab07e91f45a66959a21f6854817fb">m_AllocationMutex</a></td></tr>
+<tr class="separator:af28ab07e91f45a66959a21f6854817fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
 <p class="definition">Definition at line <a class="el" href="_descriptor_allocator_8h_source.html#l00015">15</a> of file <a class="el" href="_descriptor_allocator_8h_source.html">DescriptorAllocator.h</a>.</p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="aa102fe0c9bd701b819fc7e6d988f6a09" name="aa102fe0c9bd701b819fc7e6d988f6a09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa102fe0c9bd701b819fc7e6d988f6a09">&#9670;&#160;</a></span>DescriptorHeapPool</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#aa102fe0c9bd701b819fc7e6d988f6a09">DescriptorAllocator::DescriptorHeapPool</a> = std::vector&lt;std::shared_ptr&lt;<a class="el" href="class_descriptor_allocator_page.html">DescriptorAllocatorPage</a>&gt;&gt;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_descriptor_allocator_8h_source.html#l00038">38</a> of file <a class="el" href="_descriptor_allocator_8h_source.html">DescriptorAllocator.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="af6cd2f17b0aa7d8bced3a62d7638effe" name="af6cd2f17b0aa7d8bced3a62d7638effe"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af6cd2f17b0aa7d8bced3a62d7638effe">&#9670;&#160;</a></span>DescriptorAllocator()</h2>
 
@@ -137,7 +194,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">DescriptorAllocator::DescriptorAllocator </td>
           <td>(</td>
-          <td class="paramtype">D3D12_DESCRIPTOR_HEAP_TYPE</td>          <td class="paramname"><span class="paramname"><em>type</em></span>, </td>
+          <td class="paramtype"><a class="el" href="d3d12_8idl.html#ad48f91971eb4cc5f27213d96cefae504">D3D12_DESCRIPTOR_HEAP_TYPE</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -148,6 +205,31 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="_descriptor_allocator_8cpp_source.html#l00004">4</a> of file <a class="el" href="_descriptor_allocator_8cpp_source.html">DescriptorAllocator.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a0e837e6b4c60d0b803fd361a89666a13" name="a0e837e6b4c60d0b803fd361a89666a13"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e837e6b4c60d0b803fd361a89666a13">&#9670;&#160;</a></span>~DescriptorAllocator()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual DescriptorAllocator::~DescriptorAllocator </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -180,6 +262,36 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a769729bce60ccca0d9b7cc0e893e620c" name="a769729bce60ccca0d9b7cc0e893e620c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a769729bce60ccca0d9b7cc0e893e620c">&#9670;&#160;</a></span>CreateAllocatorPage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="class_descriptor_allocator_page.html">DescriptorAllocatorPage</a> &gt; DescriptorAllocator::CreateAllocatorPage </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create a new heap with a specific number of descriptors. </p>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="_descriptor_allocator_8cpp_source.html#l00011">11</a> of file <a class="el" href="_descriptor_allocator_8cpp_source.html">DescriptorAllocator.cpp</a>.</p>
+
+</div>
+</div>
 <a id="a129033a56e3149f7c8c062101614d99e" name="a129033a56e3149f7c8c062101614d99e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a129033a56e3149f7c8c062101614d99e">&#9670;&#160;</a></span>ReleaseStaleDescriptors()</h2>
 
@@ -187,7 +299,7 @@ Public Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void DescriptorAllocator::ReleaseStaleDescriptors </td>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> DescriptorAllocator::ReleaseStaleDescriptors </td>
           <td>(</td>
           <td class="paramtype">uint64_t</td>          <td class="paramname"><span class="paramname"><em>frameNumber</em></span></td><td>)</td>
           <td></td>
@@ -204,6 +316,129 @@ Public Member Functions</h2></td></tr>
 </dl>
 
 <p class="definition">Definition at line <a class="el" href="_descriptor_allocator_8cpp_source.html#l00056">56</a> of file <a class="el" href="_descriptor_allocator_8cpp_source.html">DescriptorAllocator.cpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="af28ab07e91f45a66959a21f6854817fb" name="af28ab07e91f45a66959a21f6854817fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af28ab07e91f45a66959a21f6854817fb">&#9670;&#160;</a></span>m_AllocationMutex</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::mutex DescriptorAllocator::m_AllocationMutex</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_descriptor_allocator_8h_source.html#l00056">56</a> of file <a class="el" href="_descriptor_allocator_8h_source.html">DescriptorAllocator.h</a>.</p>
+
+</div>
+</div>
+<a id="aa98457aec74d74a485650655e2f5b195" name="aa98457aec74d74a485650655e2f5b195"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa98457aec74d74a485650655e2f5b195">&#9670;&#160;</a></span>m_AvailableHeaps</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::set&lt;size_t&gt; DescriptorAllocator::m_AvailableHeaps</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Indices of the available heaps in the heap pool. </p>
+
+<p class="definition">Definition at line <a class="el" href="_descriptor_allocator_8h_source.html#l00054">54</a> of file <a class="el" href="_descriptor_allocator_8h_source.html">DescriptorAllocator.h</a>.</p>
+
+</div>
+</div>
+<a id="a566e48fb238a58dfd58941015832d9dc" name="a566e48fb238a58dfd58941015832d9dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a566e48fb238a58dfd58941015832d9dc">&#9670;&#160;</a></span>m_HeapPool</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#aa102fe0c9bd701b819fc7e6d988f6a09">DescriptorHeapPool</a> DescriptorAllocator::m_HeapPool</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_descriptor_allocator_8h_source.html#l00049">49</a> of file <a class="el" href="_descriptor_allocator_8h_source.html">DescriptorAllocator.h</a>.</p>
+
+</div>
+</div>
+<a id="aa0c32503f72437436644a8ee1efd48b8" name="aa0c32503f72437436644a8ee1efd48b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0c32503f72437436644a8ee1efd48b8">&#9670;&#160;</a></span>m_HeapType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12_8idl.html#ad48f91971eb4cc5f27213d96cefae504">D3D12_DESCRIPTOR_HEAP_TYPE</a> DescriptorAllocator::m_HeapType</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_descriptor_allocator_8h_source.html#l00046">46</a> of file <a class="el" href="_descriptor_allocator_8h_source.html">DescriptorAllocator.h</a>.</p>
+
+</div>
+</div>
+<a id="a595f77c6c5568b789638bf438c5e2fad" name="a595f77c6c5568b789638bf438c5e2fad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a595f77c6c5568b789638bf438c5e2fad">&#9670;&#160;</a></span>m_NumDescriptorsPerHeap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t DescriptorAllocator::m_NumDescriptorsPerHeap</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_descriptor_allocator_8h_source.html#l00047">47</a> of file <a class="el" href="_descriptor_allocator_8h_source.html">DescriptorAllocator.h</a>.</p>
 
 </div>
 </div>

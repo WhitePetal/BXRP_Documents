@@ -1,0 +1,8 @@
+var struct_d3_d12___r_e_n_d_e_r___p_a_s_s___e_n_d_i_n_g___a_c_c_e_s_s___r_e_s_o_l_v_e___s_u_b_r_e_s_o_u_r_c_e___p_a_r_a_m_e_t_e_r_s =
+[
+    [ "DstSubresource", "struct_d3_d12___r_e_n_d_e_r___p_a_s_s___e_n_d_i_n_g___a_c_c_e_s_s___r_e_s_o_l_v_e___s_u_b_r_e_s_o_u_r_c_e___p_a_r_a_m_e_t_e_r_s.html#a8e4acc38297b729c28649484e5eebfd7", null ],
+    [ "DstX", "struct_d3_d12___r_e_n_d_e_r___p_a_s_s___e_n_d_i_n_g___a_c_c_e_s_s___r_e_s_o_l_v_e___s_u_b_r_e_s_o_u_r_c_e___p_a_r_a_m_e_t_e_r_s.html#a4f39bd7355464d8f727bca8ad73a7bdd", null ],
+    [ "DstY", "struct_d3_d12___r_e_n_d_e_r___p_a_s_s___e_n_d_i_n_g___a_c_c_e_s_s___r_e_s_o_l_v_e___s_u_b_r_e_s_o_u_r_c_e___p_a_r_a_m_e_t_e_r_s.html#a21210c45e018e06f931b8958ed3ff138", null ],
+    [ "SrcRect", "struct_d3_d12___r_e_n_d_e_r___p_a_s_s___e_n_d_i_n_g___a_c_c_e_s_s___r_e_s_o_l_v_e___s_u_b_r_e_s_o_u_r_c_e___p_a_r_a_m_e_t_e_r_s.html#a905601859467581de453b20fdfaa0328", null ],
+    [ "SrcSubresource", "struct_d3_d12___r_e_n_d_e_r___p_a_s_s___e_n_d_i_n_g___a_c_c_e_s_s___r_e_s_o_l_v_e___s_u_b_r_e_s_o_u_r_c_e___p_a_r_a_m_e_t_e_r_s.html#a40b42a80054529eea3b6afe4b55451f0", null ]
+];

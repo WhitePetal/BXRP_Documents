@@ -1,0 +1,25 @@
+var struct_i_d3_d12_video_motion_vector_heap_vtbl =
+[
+    [ "_In_reads_bytes_opt_", "struct_i_d3_d12_video_motion_vector_heap_vtbl.html#adca7234cee5ab1c87d1b9ef2f25e53b9", null ],
+    [ "D3D12_VIDEO_MOTION_VECTOR_HEAP_DESC", "struct_i_d3_d12_video_motion_vector_heap_vtbl.html#a0db8d3a804e1c156c8ad62b922f6955e", null ],
+    [ "HRESULT", "struct_i_d3_d12_video_motion_vector_heap_vtbl.html#af91ecb8c2cf991bcf341bd00738f9a5a", null ],
+    [ "HRESULT", "struct_i_d3_d12_video_motion_vector_heap_vtbl.html#ad3f236987d292cdd82ebad0fe30dac09", null ],
+    [ "HRESULT", "struct_i_d3_d12_video_motion_vector_heap_vtbl.html#a162014289cc512487a161e2414e3575b", null ],
+    [ "HRESULT", "struct_i_d3_d12_video_motion_vector_heap_vtbl.html#a2f26e9dcb3dd3cf2b8726ae085d94aeb", null ],
+    [ "HRESULT", "struct_i_d3_d12_video_motion_vector_heap_vtbl.html#a235775c78e9ba0d6d72e7369c3b6b1ce", null ],
+    [ "HRESULT", "struct_i_d3_d12_video_motion_vector_heap_vtbl.html#a0b17a0d6aef168e7fff04b2493e5ab32", null ],
+    [ "HRESULT", "struct_i_d3_d12_video_motion_vector_heap_vtbl.html#a0bd166bf5bd43986ecdc703b08314a31", null ],
+    [ "ULONG", "struct_i_d3_d12_video_motion_vector_heap_vtbl.html#a76a09d022a25b1da5cc5cb7675bb1f53", null ],
+    [ "ULONG", "struct_i_d3_d12_video_motion_vector_heap_vtbl.html#ad63550131765014ef1e1898afe0d331c", null ],
+    [ "DataSize", "struct_i_d3_d12_video_motion_vector_heap_vtbl.html#a14b09d153adc98b13b457dbec8b6f12a", null ],
+    [ "guid", "struct_i_d3_d12_video_motion_vector_heap_vtbl.html#a7620899daef4c98fd06c78be634b224d", null ],
+    [ "Name", "struct_i_d3_d12_video_motion_vector_heap_vtbl.html#aae67ba48ecf54b3c758c6202e9672935", null ],
+    [ "pData", "struct_i_d3_d12_video_motion_vector_heap_vtbl.html#a7dc8366960c7d16f68f30cb4e15abf3a", null ],
+    [ "pData", "struct_i_d3_d12_video_motion_vector_heap_vtbl.html#a7234cd3b652b6a18f0ae8456b21631c2", null ],
+    [ "pDataSize", "struct_i_d3_d12_video_motion_vector_heap_vtbl.html#a9ac88a4ba2172b00ddeaf11b399b3f72", null ],
+    [ "ppProtectedSession", "struct_i_d3_d12_video_motion_vector_heap_vtbl.html#a94e9928337d7911a22c75bb8abf71ff3", null ],
+    [ "ppvDevice", "struct_i_d3_d12_video_motion_vector_heap_vtbl.html#a6b5c335cd126c527282179300b45ade1", null ],
+    [ "ppvObject", "struct_i_d3_d12_video_motion_vector_heap_vtbl.html#af72d06a0d70f148acf6f8041e59870aa", null ],
+    [ "riid", "struct_i_d3_d12_video_motion_vector_heap_vtbl.html#a7328bef2f9940e4f177593707ad4e817", null ],
+    [ "riid", "struct_i_d3_d12_video_motion_vector_heap_vtbl.html#a7328bef2f9940e4f177593707ad4e817", null ]
+];

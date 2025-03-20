@@ -1,0 +1,8 @@
+var struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___r_e_f_e_r_e_n_c_e___p_i_c_t_u_r_e___d_e_s_c_r_i_p_t_o_r___h_e_v_c =
+[
+    [ "IsLongTermReference", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___r_e_f_e_r_e_n_c_e___p_i_c_t_u_r_e___d_e_s_c_r_i_p_t_o_r___h_e_v_c.html#afb7787b4d9fff260b5db8eec30a62820", null ],
+    [ "IsRefUsedByCurrentPic", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___r_e_f_e_r_e_n_c_e___p_i_c_t_u_r_e___d_e_s_c_r_i_p_t_o_r___h_e_v_c.html#a757cb3fde99ea81451eaed59c97321d4", null ],
+    [ "PictureOrderCountNumber", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___r_e_f_e_r_e_n_c_e___p_i_c_t_u_r_e___d_e_s_c_r_i_p_t_o_r___h_e_v_c.html#a97631a30adbd16b6c551e5f9c5d309d2", null ],
+    [ "ReconstructedPictureResourceIndex", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___r_e_f_e_r_e_n_c_e___p_i_c_t_u_r_e___d_e_s_c_r_i_p_t_o_r___h_e_v_c.html#ab3f066676aa8dbeb2fece74818bafafd", null ],
+    [ "TemporalLayerIndex", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___r_e_f_e_r_e_n_c_e___p_i_c_t_u_r_e___d_e_s_c_r_i_p_t_o_r___h_e_v_c.html#aff59edaf4e787e581c7e9609fb6b8949", null ]
+];

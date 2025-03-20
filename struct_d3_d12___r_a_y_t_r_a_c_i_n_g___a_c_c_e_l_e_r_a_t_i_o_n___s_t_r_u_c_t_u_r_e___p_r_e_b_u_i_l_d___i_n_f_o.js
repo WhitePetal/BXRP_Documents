@@ -1,0 +1,6 @@
+var struct_d3_d12___r_a_y_t_r_a_c_i_n_g___a_c_c_e_l_e_r_a_t_i_o_n___s_t_r_u_c_t_u_r_e___p_r_e_b_u_i_l_d___i_n_f_o =
+[
+    [ "ResultDataMaxSizeInBytes", "struct_d3_d12___r_a_y_t_r_a_c_i_n_g___a_c_c_e_l_e_r_a_t_i_o_n___s_t_r_u_c_t_u_r_e___p_r_e_b_u_i_l_d___i_n_f_o.html#a52fd20754f31f66d5eaaf1648ac7dba3", null ],
+    [ "ScratchDataSizeInBytes", "struct_d3_d12___r_a_y_t_r_a_c_i_n_g___a_c_c_e_l_e_r_a_t_i_o_n___s_t_r_u_c_t_u_r_e___p_r_e_b_u_i_l_d___i_n_f_o.html#a3fee4abefdbc730fd5bd1265c90d8045", null ],
+    [ "UpdateScratchDataSizeInBytes", "struct_d3_d12___r_a_y_t_r_a_c_i_n_g___a_c_c_e_l_e_r_a_t_i_o_n___s_t_r_u_c_t_u_r_e___p_r_e_b_u_i_l_d___i_n_f_o.html#aefd6e4cc73b080cbcf51c8c007975ea6", null ]
+];

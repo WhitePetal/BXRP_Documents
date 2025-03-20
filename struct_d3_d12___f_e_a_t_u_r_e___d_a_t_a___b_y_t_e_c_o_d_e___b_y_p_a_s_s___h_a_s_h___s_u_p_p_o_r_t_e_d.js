@@ -1,0 +1,4 @@
+var struct_d3_d12___f_e_a_t_u_r_e___d_a_t_a___b_y_t_e_c_o_d_e___b_y_p_a_s_s___h_a_s_h___s_u_p_p_o_r_t_e_d =
+[
+    [ "Supported", "struct_d3_d12___f_e_a_t_u_r_e___d_a_t_a___b_y_t_e_c_o_d_e___b_y_p_a_s_s___h_a_s_h___s_u_p_p_o_r_t_e_d.html#ade1e457c654e97befe63cccd090c6511", null ]
+];

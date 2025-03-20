@@ -109,6 +109,8 @@ $(function(){initNavTree('class_b_x_geometry_graph_1_1_search_window_adapter.htm
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#properties">Properties</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_b_x_geometry_graph_1_1_search_window_adapter-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">BXGeometryGraph.SearchWindowAdapter Class Reference</div></div>
 </div><!--header-->
@@ -131,6 +133,18 @@ Public Member Functions</h2></td></tr>
 Properties</h2></td></tr>
 <tr class="memitem:ae7b2e204ebffc6008d18392302041e38" id="r_ae7b2e204ebffc6008d18392302041e38"><td class="memItemLeft" align="right" valign="top">override bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae7b2e204ebffc6008d18392302041e38">HasDetailsPanel</a><code> [get]</code></td></tr>
 <tr class="separator:ae7b2e204ebffc6008d18392302041e38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:af36502a892804bfeead885c8779c49e1" id="r_af36502a892804bfeead885c8779c49e1"><td class="memItemLeft" align="right" valign="top">SearcherItem&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af36502a892804bfeead885c8779c49e1">GetFirstChildItem</a> (SearcherItem item)</td></tr>
+<tr class="separator:af36502a892804bfeead885c8779c49e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28a2038816e1e8ec333af4912dbd7dc0" id="r_a28a2038816e1e8ec333af4912dbd7dc0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a28a2038816e1e8ec333af4912dbd7dc0">ComputeScoreForMatch</a> (string[] queryTerms, SearcherItem matchItem)</td></tr>
+<tr class="separator:a28a2038816e1e8ec333af4912dbd7dc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a7b805b6d010dac2fc30626903fee3d25" id="r_a7b805b6d010dac2fc30626903fee3d25"><td class="memItemLeft" align="right" valign="top">readonly VisualTreeAsset&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b805b6d010dac2fc30626903fee3d25">m_DefaultItemTemplate</a></td></tr>
+<tr class="separator:a7b805b6d010dac2fc30626903fee3d25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
@@ -156,6 +170,64 @@ Properties</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a28a2038816e1e8ec333af4912dbd7dc0" name="a28a2038816e1e8ec333af4912dbd7dc0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28a2038816e1e8ec333af4912dbd7dc0">&#9670;&#160;</a></span>ComputeScoreForMatch()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BXGeometryGraph.SearchWindowAdapter.ComputeScoreForMatch </td>
+          <td>(</td>
+          <td class="paramtype">string[]</td>          <td class="paramname"><span class="paramname"><em>queryTerms</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">SearcherItem</td>          <td class="paramname"><span class="paramname"><em>matchItem</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_search_window_adapter_8cs_source.html#l00040">40</a> of file <a class="el" href="_search_window_adapter_8cs_source.html">SearchWindowAdapter.cs</a>.</p>
+
+</div>
+</div>
+<a id="af36502a892804bfeead885c8779c49e1" name="af36502a892804bfeead885c8779c49e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af36502a892804bfeead885c8779c49e1">&#9670;&#160;</a></span>GetFirstChildItem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">SearcherItem BXGeometryGraph.SearchWindowAdapter.GetFirstChildItem </td>
+          <td>(</td>
+          <td class="paramtype">SearcherItem</td>          <td class="paramname"><span class="paramname"><em>item</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_search_window_adapter_8cs_source.html#l00021">21</a> of file <a class="el" href="_search_window_adapter_8cs_source.html">SearchWindowAdapter.cs</a>.</p>
+
+</div>
+</div>
 <a id="a09ce2cf1e15d2b1a018434f5298d0b07" name="a09ce2cf1e15d2b1a018434f5298d0b07"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a09ce2cf1e15d2b1a018434f5298d0b07">&#9670;&#160;</a></span>OnSearchResultsFilter()</h2>
 
@@ -176,6 +248,31 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="_search_window_adapter_8cs_source.html#l00090">90</a> of file <a class="el" href="_search_window_adapter_8cs_source.html">SearchWindowAdapter.cs</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a7b805b6d010dac2fc30626903fee3d25" name="a7b805b6d010dac2fc30626903fee3d25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b805b6d010dac2fc30626903fee3d25">&#9670;&#160;</a></span>m_DefaultItemTemplate</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly VisualTreeAsset BXGeometryGraph.SearchWindowAdapter.m_DefaultItemTemplate</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_search_window_adapter_8cs_source.html#l00013">13</a> of file <a class="el" href="_search_window_adapter_8cs_source.html">SearchWindowAdapter.cs</a>.</p>
 
 </div>
 </div>

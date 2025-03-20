@@ -1,0 +1,5 @@
+var struct_d3_d12___f_e_a_t_u_r_e___d_a_t_a___g_p_u___v_i_r_t_u_a_l___a_d_d_r_e_s_s___s_u_p_p_o_r_t =
+[
+    [ "MaxGPUVirtualAddressBitsPerProcess", "struct_d3_d12___f_e_a_t_u_r_e___d_a_t_a___g_p_u___v_i_r_t_u_a_l___a_d_d_r_e_s_s___s_u_p_p_o_r_t.html#a89260cbe9106430faad4f1913983bb14", null ],
+    [ "MaxGPUVirtualAddressBitsPerResource", "struct_d3_d12___f_e_a_t_u_r_e___d_a_t_a___g_p_u___v_i_r_t_u_a_l___a_d_d_r_e_s_s___s_u_p_p_o_r_t.html#ac0d19954355026278e488e14fa2cfce0", null ]
+];

@@ -112,6 +112,8 @@ $(function(){initNavTree('struct_i_dxc_index.html',''); initResizable(true); });
   <div class="headertitle"><div class="title">IDxcIndex Struct Reference<span class="mlabels"><span class="mlabel abstract">abstract</span></span></div></div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &lt;<a class="el" href="dxcisense_8h_source.html">dxcisense.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for IDxcIndex:</div>
 <div class="dyncontent">
@@ -121,20 +123,122 @@ Inheritance diagram for IDxcIndex:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a6fe4ea632c49cca9a84e7b6f263d03d4" id="r_a6fe4ea632c49cca9a84e7b6f263d03d4"><td class="memItemLeft" align="right" valign="top"><a id="a6fe4ea632c49cca9a84e7b6f263d03d4" name="a6fe4ea632c49cca9a84e7b6f263d03d4"></a>
-virtual HRESULT STDMETHODCALLTYPE&#160;</td><td class="memItemRight" valign="bottom"><b>SetGlobalOptions</b> (DxcGlobalOptions options)=0</td></tr>
+<tr class="memitem:a6fe4ea632c49cca9a84e7b6f263d03d4" id="r_a6fe4ea632c49cca9a84e7b6f263d03d4"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6fe4ea632c49cca9a84e7b6f263d03d4">SetGlobalOptions</a> (<a class="el" href="dxcisense_8h.html#a15ed29fe62a5ee481713eb6daf75ec73">DxcGlobalOptions</a> options)=0</td></tr>
 <tr class="separator:a6fe4ea632c49cca9a84e7b6f263d03d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf71ad0d3384e4d12f4d37cc72681691" id="r_aaf71ad0d3384e4d12f4d37cc72681691"><td class="memItemLeft" align="right" valign="top"><a id="aaf71ad0d3384e4d12f4d37cc72681691" name="aaf71ad0d3384e4d12f4d37cc72681691"></a>
-virtual HRESULT STDMETHODCALLTYPE&#160;</td><td class="memItemRight" valign="bottom"><b>GetGlobalOptions</b> (_Out_ DxcGlobalOptions *options)=0</td></tr>
+<tr class="memitem:aaf71ad0d3384e4d12f4d37cc72681691" id="r_aaf71ad0d3384e4d12f4d37cc72681691"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf71ad0d3384e4d12f4d37cc72681691">GetGlobalOptions</a> (<a class="el" href="basetsd_8h.html#a9c50bd6a6ca6e0be76a0f3a79379b90e">_Out_</a> <a class="el" href="dxcisense_8h.html#a15ed29fe62a5ee481713eb6daf75ec73">DxcGlobalOptions</a> *options)=0</td></tr>
 <tr class="separator:aaf71ad0d3384e4d12f4d37cc72681691"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e920c74e6139e26259aaee48a73430d" id="r_a0e920c74e6139e26259aaee48a73430d"><td class="memItemLeft" align="right" valign="top"><a id="a0e920c74e6139e26259aaee48a73430d" name="a0e920c74e6139e26259aaee48a73430d"></a>
-virtual HRESULT STDMETHODCALLTYPE&#160;</td><td class="memItemRight" valign="bottom"><b>ParseTranslationUnit</b> (_In_z_ const char *source_filename, _In_count_(num_command_line_args) const char *const *command_line_args, int num_command_line_args, _In_count_(num_unsaved_files) <a class="el" href="struct_i_dxc_unsaved_file.html">IDxcUnsavedFile</a> **unsaved_files, unsigned num_unsaved_files, DxcTranslationUnitFlags options, _Out_ IDxcTranslationUnit **pTranslationUnit)=0</td></tr>
+<tr class="memitem:a0e920c74e6139e26259aaee48a73430d" id="r_a0e920c74e6139e26259aaee48a73430d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e920c74e6139e26259aaee48a73430d">ParseTranslationUnit</a> (<a class="el" href="basetsd_8h.html#a445adb5c0468d0aeaaaeb006ac4bbf7f">_In_z_</a> const char *source_filename, <a class="el" href="basetsd_8h.html#a81ee03ca54fbc106f81c776f94e87144">_In_count_</a>(num_command_line_args) const char *const *command_line_args, int num_command_line_args, <a class="el" href="basetsd_8h.html#a81ee03ca54fbc106f81c776f94e87144">_In_count_</a>(num_unsaved_files) <a class="el" href="struct_i_dxc_unsaved_file.html">IDxcUnsavedFile</a> **unsaved_files, unsigned num_unsaved_files, <a class="el" href="dxcisense_8h.html#a52e7329fc9d9358bc55ab445239ccfee">DxcTranslationUnitFlags</a> options, <a class="el" href="basetsd_8h.html#a9c50bd6a6ca6e0be76a0f3a79379b90e">_Out_</a> IDxcTranslationUnit **pTranslationUnit)=0</td></tr>
 <tr class="separator:a0e920c74e6139e26259aaee48a73430d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
 <p class="definition">Definition at line <a class="el" href="dxcisense_8h_source.html#l00797">797</a> of file <a class="el" href="dxcisense_8h_source.html">dxcisense.h</a>.</p>
-</div><hr/>The documentation for this struct was generated from the following file:<ul>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="aaf71ad0d3384e4d12f4d37cc72681691" name="aaf71ad0d3384e4d12f4d37cc72681691"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf71ad0d3384e4d12f4d37cc72681691">&#9670;&#160;</a></span>GetGlobalOptions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a> IDxcIndex::GetGlobalOptions </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#a9c50bd6a6ca6e0be76a0f3a79379b90e">_Out_</a> <a class="el" href="dxcisense_8h.html#a15ed29fe62a5ee481713eb6daf75ec73">DxcGlobalOptions</a> *</td>          <td class="paramname"><span class="paramname"><em>options</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0e920c74e6139e26259aaee48a73430d" name="a0e920c74e6139e26259aaee48a73430d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e920c74e6139e26259aaee48a73430d">&#9670;&#160;</a></span>ParseTranslationUnit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a> IDxcIndex::ParseTranslationUnit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#a445adb5c0468d0aeaaaeb006ac4bbf7f">_In_z_</a> const char *</td>          <td class="paramname"><span class="paramname"><em>source_filename</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#a81ee03ca54fbc106f81c776f94e87144">_In_count_</a>(num_command_line_args) const char *const *</td>          <td class="paramname"><span class="paramname"><em>command_line_args</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>num_command_line_args</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#a81ee03ca54fbc106f81c776f94e87144">_In_count_</a>(num_unsaved_files) <a class="el" href="struct_i_dxc_unsaved_file.html">IDxcUnsavedFile</a> **</td>          <td class="paramname"><span class="paramname"><em>unsaved_files</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned</td>          <td class="paramname"><span class="paramname"><em>num_unsaved_files</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="dxcisense_8h.html#a52e7329fc9d9358bc55ab445239ccfee">DxcTranslationUnitFlags</a></td>          <td class="paramname"><span class="paramname"><em>options</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="basetsd_8h.html#a9c50bd6a6ca6e0be76a0f3a79379b90e">_Out_</a> IDxcTranslationUnit **</td>          <td class="paramname"><span class="paramname"><em>pTranslationUnit</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6fe4ea632c49cca9a84e7b6f263d03d4" name="a6fe4ea632c49cca9a84e7b6f263d03d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fe4ea632c49cca9a84e7b6f263d03d4">&#9670;&#160;</a></span>SetGlobalOptions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="basetsd_8h.html#aadfb999193e5cd72033f6c39036a4359">HRESULT</a> <a class="el" href="basetsd_8h.html#a7fa3bfe673d450a88ec109d2837882ab">STDMETHODCALLTYPE</a> IDxcIndex::SetGlobalOptions </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="dxcisense_8h.html#a15ed29fe62a5ee481713eb6daf75ec73">DxcGlobalOptions</a></td>          <td class="paramname"><span class="paramname"><em>options</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this struct was generated from the following file:<ul>
 <li><a class="el" href="dxcisense_8h_source.html">dxcisense.h</a></li>
 </ul>
 </div><!-- contents -->

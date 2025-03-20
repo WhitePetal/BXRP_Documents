@@ -109,6 +109,11 @@ $(function(){initNavTree('class_b_x_geometry_graph_1_1_geometry_input_property_d
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#properties">Properties</a> &#124;
+<a href="#pri-types">Private Types</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-static-methods">Static Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="class_b_x_geometry_graph_1_1_geometry_input_property_drawer-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">BXGeometryGraph.GeometryInputPropertyDrawer Class Reference</div></div>
 </div><!--header-->
@@ -125,11 +130,13 @@ Inheritance diagram for BXGeometryGraph.GeometryInputPropertyDrawer:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a77a498eb207c9ea7d50d51183ab88071" id="r_a77a498eb207c9ea7d50d51183ab88071"><td class="memItemLeft" align="right" valign="top">VisualElement&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77a498eb207c9ea7d50d51183ab88071">DrawProperty</a> (PropertyInfo propertyInfo, object actualObject, <a class="el" href="class_b_x_geometry_graph_1_1_inspectable_attribute.html">InspectableAttribute</a> attribute)</td></tr>
+<tr class="memitem:aee6a573ce857e6b28e9c5df2afd89848" id="r_aee6a573ce857e6b28e9c5df2afd89848"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee6a573ce857e6b28e9c5df2afd89848">GeometryInputPropertyDrawer</a> ()</td></tr>
+<tr class="separator:aee6a573ce857e6b28e9c5df2afd89848"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77a498eb207c9ea7d50d51183ab88071" id="r_a77a498eb207c9ea7d50d51183ab88071"><td class="memItemLeft" align="right" valign="top">VisualElement&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77a498eb207c9ea7d50d51183ab88071">DrawProperty</a> (PropertyInfo propertyInfo, <a class="el" href="d3d12_8idl.html#ad03408aabe16bb53c780fae6cf3910f9">object</a> actualObject, <a class="el" href="class_b_x_geometry_graph_1_1_inspectable_attribute.html">InspectableAttribute</a> attribute)</td></tr>
 <tr class="separator:a77a498eb207c9ea7d50d51183ab88071"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e55ad0522a6b43583039038e51d080d" id="r_a2e55ad0522a6b43583039038e51d080d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e55ad0522a6b43583039038e51d080d">ResetReferenceName</a> ()</td></tr>
+<tr class="memitem:a2e55ad0522a6b43583039038e51d080d" id="r_a2e55ad0522a6b43583039038e51d080d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e55ad0522a6b43583039038e51d080d">ResetReferenceName</a> ()</td></tr>
 <tr class="separator:a2e55ad0522a6b43583039038e51d080d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a88cb1adff8384a0ffb58e51f280a80b3" id="r_a88cb1adff8384a0ffb58e51f280a80b3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88cb1adff8384a0ffb58e51f280a80b3">UpgradeDefaultReferenceName</a> ()</td></tr>
+<tr class="memitem:a88cb1adff8384a0ffb58e51f280a80b3" id="r_a88cb1adff8384a0ffb58e51f280a80b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88cb1adff8384a0ffb58e51f280a80b3">UpgradeDefaultReferenceName</a> ()</td></tr>
 <tr class="separator:a88cb1adff8384a0ffb58e51f280a80b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58b446521fee4877fad5b58ec1536be2" id="r_a58b446521fee4877fad5b58ec1536be2"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a58b446521fee4877fad5b58ec1536be2">GetDuplicateSafeEnumDisplayName</a> (int id, string name)</td></tr>
 <tr class="separator:a58b446521fee4877fad5b58ec1536be2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -140,13 +147,205 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
+<tr class="memitem:a0cad0061ec5ed7f81bf8d45e2824c085" id="r_a0cad0061ec5ed7f81bf8d45e2824c085"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_b_x_geometry_graph_1_1_geometry_input_view_model.html">GeometryInputViewModel</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0cad0061ec5ed7f81bf8d45e2824c085">ViewModel</a><code> [get]</code></td></tr>
+<tr class="separator:a0cad0061ec5ed7f81bf8d45e2824c085"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0700b8f4f9416e23872735cf982e53eb" id="r_a0700b8f4f9416e23872735cf982e53eb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0700b8f4f9416e23872735cf982e53eb">isSubGraph</a><code> [get, set]</code></td></tr>
+<tr class="separator:a0700b8f4f9416e23872735cf982e53eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeed4384d9259db322fb67ab8d09a3001" id="r_aeed4384d9259db322fb67ab8d09a3001"><td class="memItemLeft" align="right" valign="top">Action&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeed4384d9259db322fb67ab8d09a3001">inspectorUpdateDelegate</a><code> [get, set]</code></td></tr>
 <tr class="separator:aeed4384d9259db322fb67ab8d09a3001"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-types" name="pri-types"></a>
+Private Types</h2></td></tr>
+<tr class="memitem:a03b78c9dc8d2bf64f9a3020f16746f75" id="r_a03b78c9dc8d2bf64f9a3020f16746f75"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03b78c9dc8d2bf64f9a3020f16746f75">FloatTypeForUI</a> { <a class="el" href="#a03b78c9dc8d2bf64f9a3020f16746f75a7a1920d61156abc05a60135aefe8bc67">Default</a> = FloatType.Default
+, <a class="el" href="#a03b78c9dc8d2bf64f9a3020f16746f75aa0faef0851b4294c06f2b94bb1cb2044">Integer</a> = FloatType.Integer
+, <a class="el" href="#a03b78c9dc8d2bf64f9a3020f16746f75a2d9b9a764fb0be4be10e1b2fce63f561">Slider</a> = FloatType.Slider
+ }</td></tr>
+<tr class="separator:a03b78c9dc8d2bf64f9a3020f16746f75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:af398f353daf70f99a1f4c66b4f482055" id="r_af398f353daf70f99a1f4c66b4f482055"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> IPropertyDrawer.&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af398f353daf70f99a1f4c66b4f482055">DisposePropertyDrawer</a> ()</td></tr>
+<tr class="separator:af398f353daf70f99a1f4c66b4f482055"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f0994aaaf8ed75d9a5e8fa82710a628" id="r_a2f0994aaaf8ed75d9a5e8fa82710a628"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f0994aaaf8ed75d9a5e8fa82710a628">BuildPropertyNameLabel</a> (<a class="el" href="class_b_x_geometry_graph_1_1_property_sheet.html">PropertySheet</a> propertySheet)</td></tr>
+<tr class="separator:a2f0994aaaf8ed75d9a5e8fa82710a628"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8664cd9be52e327cd8464050f31ca160" id="r_a8664cd9be52e327cd8464050f31ca160"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8664cd9be52e327cd8464050f31ca160">BuildExposedField</a> (<a class="el" href="class_b_x_geometry_graph_1_1_property_sheet.html">PropertySheet</a> propertySheet)</td></tr>
+<tr class="separator:a8664cd9be52e327cd8464050f31ca160"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c8d3ec75f3fe42604f0e20122f38970" id="r_a3c8d3ec75f3fe42604f0e20122f38970"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c8d3ec75f3fe42604f0e20122f38970">BuildCustomBindingField</a> (<a class="el" href="class_b_x_geometry_graph_1_1_property_sheet.html">PropertySheet</a> propertySheet, <a class="el" href="class_b_x_geometry_graph_1_1_geometry_input.html">GeometryInput</a> property)</td></tr>
+<tr class="separator:a3c8d3ec75f3fe42604f0e20122f38970"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a023d53457bc9ed8a7588c67e67adcd" id="r_a4a023d53457bc9ed8a7588c67e67adcd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a023d53457bc9ed8a7588c67e67adcd">UpdateEnableState</a> ()</td></tr>
+<tr class="separator:a4a023d53457bc9ed8a7588c67e67adcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7db1d094662f86e9ada8973af20c124d" id="r_a7db1d094662f86e9ada8973af20c124d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7db1d094662f86e9ada8973af20c124d">BuildDisplayNameField</a> (<a class="el" href="class_b_x_geometry_graph_1_1_property_sheet.html">PropertySheet</a> propertySheet)</td></tr>
+<tr class="separator:a7db1d094662f86e9ada8973af20c124d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b562d37705ee7d4a72fdc1714909b41" id="r_a5b562d37705ee7d4a72fdc1714909b41"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5b562d37705ee7d4a72fdc1714909b41">BuildReferenceNameField</a> (<a class="el" href="class_b_x_geometry_graph_1_1_property_sheet.html">PropertySheet</a> propertySheet)</td></tr>
+<tr class="separator:a5b562d37705ee7d4a72fdc1714909b41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4272f9e8b5514fd5390c537f84a80a85" id="r_a4272f9e8b5514fd5390c537f84a80a85"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4272f9e8b5514fd5390c537f84a80a85">AddGeometryInputOptionsToContextMenu</a> (<a class="el" href="class_b_x_geometry_graph_1_1_geometry_input.html">GeometryInput</a> <a class="el" href="#a5e21bf2e1ef1310974196331ea5bdf26">geometryInput</a>, ContextualMenuPopulateEvent evt)</td></tr>
+<tr class="separator:a4272f9e8b5514fd5390c537f84a80a85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3034bcee689f618df4bbce4485375a1c" id="r_a3034bcee689f618df4bbce4485375a1c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3034bcee689f618df4bbce4485375a1c">BuildPropertyFields</a> (<a class="el" href="class_b_x_geometry_graph_1_1_property_sheet.html">PropertySheet</a> propertySheet)</td></tr>
+<tr class="separator:a3034bcee689f618df4bbce4485375a1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a360376375ea081c4e4b0f9c15ebb62b9" id="r_a360376375ea081c4e4b0f9c15ebb62b9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a360376375ea081c4e4b0f9c15ebb62b9">BuildHLSLDeclarationOverrideFields</a> (<a class="el" href="class_b_x_geometry_graph_1_1_property_sheet.html">PropertySheet</a> propertySheet, <a class="el" href="class_b_x_geometry_graph_1_1_abstract_geometry_property.html">AbstractGeometryProperty</a> property)</td></tr>
+<tr class="separator:a360376375ea081c4e4b0f9c15ebb62b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81446d3c6607418fb2531a2a53628c67" id="r_a81446d3c6607418fb2531a2a53628c67"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a81446d3c6607418fb2531a2a53628c67">BuildPrecisionField</a> (<a class="el" href="class_b_x_geometry_graph_1_1_property_sheet.html">PropertySheet</a> propertySheet, <a class="el" href="class_b_x_geometry_graph_1_1_abstract_geometry_property.html">AbstractGeometryProperty</a> property)</td></tr>
+<tr class="separator:a81446d3c6607418fb2531a2a53628c67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae45694acbd0bd51310595c5b9ff2d3f" id="r_aae45694acbd0bd51310595c5b9ff2d3f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae45694acbd0bd51310595c5b9ff2d3f">HandleVector1GeometryProperty</a> (<a class="el" href="class_b_x_geometry_graph_1_1_property_sheet.html">PropertySheet</a> propertySheet, <a class="el" href="class_b_x_geometry_graph_1_1_vector1_geometry_property.html">Vector1GeometryProperty</a> vector1ShaderProperty)</td></tr>
+<tr class="separator:aae45694acbd0bd51310595c5b9ff2d3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fad93799fb8fb03e228f7e80936e87d" id="r_a0fad93799fb8fb03e228f7e80936e87d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0fad93799fb8fb03e228f7e80936e87d">HandleVector2GeometryProperty</a> (<a class="el" href="class_b_x_geometry_graph_1_1_property_sheet.html">PropertySheet</a> propertySheet, <a class="el" href="class_b_x_geometry_graph_1_1_vector2_geometry_property.html">Vector2GeometryProperty</a> vector2ShaderProperty)</td></tr>
+<tr class="separator:a0fad93799fb8fb03e228f7e80936e87d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae495ac34e8cea098d1a978b3afab19f0" id="r_ae495ac34e8cea098d1a978b3afab19f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae495ac34e8cea098d1a978b3afab19f0">HandleVector3GeometryProperty</a> (<a class="el" href="class_b_x_geometry_graph_1_1_property_sheet.html">PropertySheet</a> propertySheet, <a class="el" href="class_b_x_geometry_graph_1_1_vector3_geometry_property.html">Vector3GeometryProperty</a> vector3ShaderProperty)</td></tr>
+<tr class="separator:ae495ac34e8cea098d1a978b3afab19f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f8594c0d0aec2a697125746ef408092" id="r_a4f8594c0d0aec2a697125746ef408092"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f8594c0d0aec2a697125746ef408092">HandleVector4GeometryProperty</a> (<a class="el" href="class_b_x_geometry_graph_1_1_property_sheet.html">PropertySheet</a> propertySheet, <a class="el" href="class_b_x_geometry_graph_1_1_vector4_geometry_property.html">Vector4GeometryProperty</a> vector4Property)</td></tr>
+<tr class="separator:a4f8594c0d0aec2a697125746ef408092"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d4ee3b38a994c9695a6025eef9df137" id="r_a3d4ee3b38a994c9695a6025eef9df137"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d4ee3b38a994c9695a6025eef9df137">HandleColorProperty</a> (<a class="el" href="class_b_x_geometry_graph_1_1_property_sheet.html">PropertySheet</a> propertySheet, <a class="el" href="class_b_x_geometry_graph_1_1_color_geometry_property.html">ColorGeometryProperty</a> colorProperty)</td></tr>
+<tr class="separator:a3d4ee3b38a994c9695a6025eef9df137"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a251a3150aa20099c11db191f10445c0a" id="r_a251a3150aa20099c11db191f10445c0a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a251a3150aa20099c11db191f10445c0a">BuildKeywordFields</a> (<a class="el" href="class_b_x_geometry_graph_1_1_property_sheet.html">PropertySheet</a> propertySheet, <a class="el" href="class_b_x_geometry_graph_1_1_geometry_input.html">GeometryInput</a> shaderInput)</td></tr>
+<tr class="separator:a251a3150aa20099c11db191f10445c0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11cdcc3bb577723a3a5988679cbeb9a7" id="r_a11cdcc3bb577723a3a5988679cbeb9a7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11cdcc3bb577723a3a5988679cbeb9a7">BuildBooleanKeywordField</a> (<a class="el" href="class_b_x_geometry_graph_1_1_property_sheet.html">PropertySheet</a> propertySheet, <a class="el" href="class_b_x_geometry_graph_1_1_shader_keyword.html">ShaderKeyword</a> keyword)</td></tr>
+<tr class="separator:a11cdcc3bb577723a3a5988679cbeb9a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38829a2b6c7ce47e1aeeee9eeb4fac28" id="r_a38829a2b6c7ce47e1aeeee9eeb4fac28"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38829a2b6c7ce47e1aeeee9eeb4fac28">BuildEnumKeywordField</a> (<a class="el" href="class_b_x_geometry_graph_1_1_property_sheet.html">PropertySheet</a> propertySheet, <a class="el" href="class_b_x_geometry_graph_1_1_shader_keyword.html">ShaderKeyword</a> keyword)</td></tr>
+<tr class="separator:a38829a2b6c7ce47e1aeeee9eeb4fac28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04bcaa08dab0e269c8e4f5016b40fdaf" id="r_a04bcaa08dab0e269c8e4f5016b40fdaf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04bcaa08dab0e269c8e4f5016b40fdaf">OnKeywordGUIHandler</a> ()</td></tr>
+<tr class="separator:a04bcaa08dab0e269c8e4f5016b40fdaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58359539c9cb88eb6b2c7675beb70653" id="r_a58359539c9cb88eb6b2c7675beb70653"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a58359539c9cb88eb6b2c7675beb70653">KeywordAddCallbacks</a> ()</td></tr>
+<tr class="separator:a58359539c9cb88eb6b2c7675beb70653"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bf48659d2ad4e4ac9dc6b3c3d13c140" id="r_a5bf48659d2ad4e4ac9dc6b3c3d13c140"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5bf48659d2ad4e4ac9dc6b3c3d13c140">KeywordSelectEntry</a> (ReorderableList list)</td></tr>
+<tr class="separator:a5bf48659d2ad4e4ac9dc6b3c3d13c140"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44c040b20fc3652dd614d974cfab7824" id="r_a44c040b20fc3652dd614d974cfab7824"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44c040b20fc3652dd614d974cfab7824">GetFirstUnusedKeywordID</a> ()</td></tr>
+<tr class="separator:a44c040b20fc3652dd614d974cfab7824"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3083efdab8b130c60821f5e291857f2d" id="r_a3083efdab8b130c60821f5e291857f2d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3083efdab8b130c60821f5e291857f2d">KeywordAddEntry</a> (ReorderableList list)</td></tr>
+<tr class="separator:a3083efdab8b130c60821f5e291857f2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ab9d4b644008f4a180ee9d6448d57a6" id="r_a0ab9d4b644008f4a180ee9d6448d57a6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ab9d4b644008f4a180ee9d6448d57a6">KeywordRemoveEntry</a> (ReorderableList list)</td></tr>
+<tr class="separator:a0ab9d4b644008f4a180ee9d6448d57a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a10cc155d9b9952873b10599048cb42" id="r_a9a10cc155d9b9952873b10599048cb42"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a10cc155d9b9952873b10599048cb42">KeywordReorderEntries</a> (ReorderableList list)</td></tr>
+<tr class="separator:a9a10cc155d9b9952873b10599048cb42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba508ddc7dfd026f5e3d4909f7138839" id="r_aba508ddc7dfd026f5e3d4909f7138839"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba508ddc7dfd026f5e3d4909f7138839">GetDuplicateSafeEnumNames</a> (int id, string name, out string displayName, out string referenceName)</td></tr>
+<tr class="separator:aba508ddc7dfd026f5e3d4909f7138839"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29c898ac8011207ff96a561d74887f90" id="r_a29c898ac8011207ff96a561d74887f90"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29c898ac8011207ff96a561d74887f90">GetSanitizedDisplayName</a> (string name)</td></tr>
+<tr class="separator:a29c898ac8011207ff96a561d74887f90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab90b0b7b82c1e1ce5a84ddab556f916f" id="r_ab90b0b7b82c1e1ce5a84ddab556f916f"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab90b0b7b82c1e1ce5a84ddab556f916f">GetSanitizedReferenceName</a> (string name)</td></tr>
+<tr class="separator:ab90b0b7b82c1e1ce5a84ddab556f916f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac20f3da6c7a073222ad00779e6568b70" id="r_ac20f3da6c7a073222ad00779e6568b70"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac20f3da6c7a073222ad00779e6568b70">FindDuplicateKeywordReferenceNameIndex</a> (int id, string referenceName)</td></tr>
+<tr class="separator:ac20f3da6c7a073222ad00779e6568b70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb1dde1a2746fdabebe518be24355661" id="r_adb1dde1a2746fdabebe518be24355661"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb1dde1a2746fdabebe518be24355661">BuildDropdownFields</a> (<a class="el" href="class_b_x_geometry_graph_1_1_property_sheet.html">PropertySheet</a> propertySheet, <a class="el" href="class_b_x_geometry_graph_1_1_geometry_input.html">GeometryInput</a> <a class="el" href="#a5e21bf2e1ef1310974196331ea5bdf26">geometryInput</a>)</td></tr>
+<tr class="separator:adb1dde1a2746fdabebe518be24355661"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf611b3e0110cd3e4bcdff2d4d435172" id="r_aaf611b3e0110cd3e4bcdff2d4d435172"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf611b3e0110cd3e4bcdff2d4d435172">BuildDropdownField</a> (<a class="el" href="class_b_x_geometry_graph_1_1_property_sheet.html">PropertySheet</a> propertySheet, <a class="el" href="class_b_x_geometry_graph_1_1_geometry_dropdown.html">GeometryDropdown</a> dropdown)</td></tr>
+<tr class="separator:aaf611b3e0110cd3e4bcdff2d4d435172"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42762370137df5bb4e189ba8dd4f1fc5" id="r_a42762370137df5bb4e189ba8dd4f1fc5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42762370137df5bb4e189ba8dd4f1fc5">OnDropdownGUIHandler</a> ()</td></tr>
+<tr class="separator:a42762370137df5bb4e189ba8dd4f1fc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab968e2cd47a6e28ba6af8ec90120a0a6" id="r_ab968e2cd47a6e28ba6af8ec90120a0a6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab968e2cd47a6e28ba6af8ec90120a0a6">DropdownAddCallbacks</a> ()</td></tr>
+<tr class="separator:ab968e2cd47a6e28ba6af8ec90120a0a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25b016b2d481d849fabeedc9b0b3862e" id="r_a25b016b2d481d849fabeedc9b0b3862e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25b016b2d481d849fabeedc9b0b3862e">DropdownSelectEntry</a> (ReorderableList list)</td></tr>
+<tr class="separator:a25b016b2d481d849fabeedc9b0b3862e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75701d410831ccca096e9e961dec3792" id="r_a75701d410831ccca096e9e961dec3792"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75701d410831ccca096e9e961dec3792">GetFirstUnusedDropdownID</a> ()</td></tr>
+<tr class="separator:a75701d410831ccca096e9e961dec3792"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af51b2577ff8fb96bce8b535c2c3e4a6b" id="r_af51b2577ff8fb96bce8b535c2c3e4a6b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af51b2577ff8fb96bce8b535c2c3e4a6b">DropdownAddEntry</a> (ReorderableList list)</td></tr>
+<tr class="separator:af51b2577ff8fb96bce8b535c2c3e4a6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0168b9e4fdd25239a660823cebe9b61a" id="r_a0168b9e4fdd25239a660823cebe9b61a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0168b9e4fdd25239a660823cebe9b61a">DropdownRemoveEntry</a> (ReorderableList list)</td></tr>
+<tr class="separator:a0168b9e4fdd25239a660823cebe9b61a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68d1b85cd87f6ed26c6c248c26b86656" id="r_a68d1b85cd87f6ed26c6c248c26b86656"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a68d1b85cd87f6ed26c6c248c26b86656">DropdownReorderEntries</a> (ReorderableList list)</td></tr>
+<tr class="separator:a68d1b85cd87f6ed26c6c248c26b86656"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d2c230308af2cbc98590defbbf8af6e" id="r_a1d2c230308af2cbc98590defbbf8af6e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d2c230308af2cbc98590defbbf8af6e">FindDuplicateDropdownDisplayNameIndex</a> (int id, string displayName)</td></tr>
+<tr class="separator:a1d2c230308af2cbc98590defbbf8af6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-methods" name="pri-static-methods"></a>
+Static Private Member Functions</h2></td></tr>
+<tr class="memitem:ad53466a07f55342291df104d8ff75559" id="r_ad53466a07f55342291df104d8ff75559"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad53466a07f55342291df104d8ff75559">AddPropertyRowToSheet</a> (<a class="el" href="class_b_x_geometry_graph_1_1_property_sheet.html">PropertySheet</a> propertySheet, VisualElement control, string labelName)</td></tr>
+<tr class="separator:ad53466a07f55342291df104d8ff75559"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a528f2338885de50bf36d21780358db7d" id="r_a528f2338885de50bf36d21780358db7d"><td class="memItemLeft" align="right" valign="top">ReorderableList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a528f2338885de50bf36d21780358db7d">m_KeywordReorderableList</a></td></tr>
+<tr class="separator:a528f2338885de50bf36d21780358db7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10644c7f77ff8326332e706457aa11fa" id="r_a10644c7f77ff8326332e706457aa11fa"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10644c7f77ff8326332e706457aa11fa">m_KeywordSelectedIndex</a></td></tr>
+<tr class="separator:a10644c7f77ff8326332e706457aa11fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a948f3e82cb1e5d90c0257f16343834a1" id="r_a948f3e82cb1e5d90c0257f16343834a1"><td class="memItemLeft" align="right" valign="top">ReorderableList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a948f3e82cb1e5d90c0257f16343834a1">m_DropdownReorderableList</a></td></tr>
+<tr class="separator:a948f3e82cb1e5d90c0257f16343834a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1f091c01475782ceb7b16bec7e8ae39" id="r_aa1f091c01475782ceb7b16bec7e8ae39"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_b_x_geometry_graph_1_1_geometry_dropdown.html">GeometryDropdown</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1f091c01475782ceb7b16bec7e8ae39">m_Dropdown</a></td></tr>
+<tr class="separator:aa1f091c01475782ceb7b16bec7e8ae39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac11956a3b4df5eba061a94274b1b4585" id="r_ac11956a3b4df5eba061a94274b1b4585"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac11956a3b4df5eba061a94274b1b4585">m_DropdownId</a></td></tr>
+<tr class="separator:ac11956a3b4df5eba061a94274b1b4585"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2e332593446333149debbb544de2e9d" id="r_af2e332593446333149debbb544de2e9d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af2e332593446333149debbb544de2e9d">m_DropdownSelectedIndex</a></td></tr>
+<tr class="separator:af2e332593446333149debbb544de2e9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf927b2c0bb3776800e9b19c9033962f" id="r_aaf927b2c0bb3776800e9b19c9033962f"><td class="memItemLeft" align="right" valign="top">TextField&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf927b2c0bb3776800e9b19c9033962f">m_DisplayNameField</a></td></tr>
+<tr class="separator:aaf927b2c0bb3776800e9b19c9033962f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5886998e7c5a771727e7b378c5b13b47" id="r_a5886998e7c5a771727e7b378c5b13b47"><td class="memItemLeft" align="right" valign="top">TextField&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5886998e7c5a771727e7b378c5b13b47">m_CustomSlotLabelField</a></td></tr>
+<tr class="separator:a5886998e7c5a771727e7b378c5b13b47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbaf0cba8485c5841af01d6108d50ef1" id="r_afbaf0cba8485c5841af01d6108d50ef1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_b_x_geometry_graph_1_1_text_property_drawer.html">TextPropertyDrawer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afbaf0cba8485c5841af01d6108d50ef1">m_ReferenceNameDrawer</a></td></tr>
+<tr class="separator:afbaf0cba8485c5841af01d6108d50ef1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5e19d694f2d2f08448137370810d6a2" id="r_af5e19d694f2d2f08448137370810d6a2"><td class="memItemLeft" align="right" valign="top">TextField&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af5e19d694f2d2f08448137370810d6a2">m_ReferenceNameField</a></td></tr>
+<tr class="separator:af5e19d694f2d2f08448137370810d6a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e21bf2e1ef1310974196331ea5bdf26" id="r_a5e21bf2e1ef1310974196331ea5bdf26"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_b_x_geometry_graph_1_1_geometry_input.html">GeometryInput</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e21bf2e1ef1310974196331ea5bdf26">geometryInput</a></td></tr>
+<tr class="separator:a5e21bf2e1ef1310974196331ea5bdf26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e8d7893f94ab7d593e238ffd2e789ed" id="r_a5e8d7893f94ab7d593e238ffd2e789ed"><td class="memItemLeft" align="right" valign="top">Toggle&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e8d7893f94ab7d593e238ffd2e789ed">exposedToggle</a></td></tr>
+<tr class="separator:a5e8d7893f94ab7d593e238ffd2e789ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9907cb910993a32af52e1d1148d73c7" id="r_af9907cb910993a32af52e1d1148d73c7"><td class="memItemLeft" align="right" valign="top">VisualElement&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9907cb910993a32af52e1d1148d73c7">keywordScopeField</a></td></tr>
+<tr class="separator:af9907cb910993a32af52e1d1148d73c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1158902929373c10a053f92fd0decfc2" id="r_a1158902929373c10a053f92fd0decfc2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_b_x_geometry_graph_1_1_geometry_input_view_model.html">GeometryInputViewModel</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1158902929373c10a053f92fd0decfc2">m_ViewModel</a></td></tr>
+<tr class="separator:a1158902929373c10a053f92fd0decfc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b3131e6c30f50a256f1a2a8eec23947" id="r_a4b3131e6c30f50a256f1a2a8eec23947"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_b_x_geometry_graph_1_1_graph_data.html">GraphData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b3131e6c30f50a256f1a2a8eec23947">graphData</a></td></tr>
+<tr class="separator:a4b3131e6c30f50a256f1a2a8eec23947"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d6a1389e3ac8f7bf5a2ab562580d473" id="r_a0d6a1389e3ac8f7bf5a2ab562580d473"><td class="memItemLeft" align="right" valign="top">ChangeExposedFieldCallback&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d6a1389e3ac8f7bf5a2ab562580d473">_exposedFieldChangedCallback</a></td></tr>
+<tr class="separator:a0d6a1389e3ac8f7bf5a2ab562580d473"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a064171c183775cf4fe5e334059a4b455" id="r_a064171c183775cf4fe5e334059a4b455"><td class="memItemLeft" align="right" valign="top">Action&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a064171c183775cf4fe5e334059a4b455">_precisionChangedCallback</a></td></tr>
+<tr class="separator:a064171c183775cf4fe5e334059a4b455"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbf020140e976f1b52f2941e8a62e749" id="r_acbf020140e976f1b52f2941e8a62e749"><td class="memItemLeft" align="right" valign="top">Action&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acbf020140e976f1b52f2941e8a62e749">_keywordChangedCallback</a></td></tr>
+<tr class="separator:acbf020140e976f1b52f2941e8a62e749"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55bb07ee4a33cdf9e2751af3311175b4" id="r_a55bb07ee4a33cdf9e2751af3311175b4"><td class="memItemLeft" align="right" valign="top">Action&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a55bb07ee4a33cdf9e2751af3311175b4">_dropdownChangedCallback</a></td></tr>
+<tr class="separator:a55bb07ee4a33cdf9e2751af3311175b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad53b03e34b4d0af65e346bd6f8d7fad" id="r_aad53b03e34b4d0af65e346bd6f8d7fad"><td class="memItemLeft" align="right" valign="top">Action&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad53b03e34b4d0af65e346bd6f8d7fad">_displayNameChangedCallback</a></td></tr>
+<tr class="separator:aad53b03e34b4d0af65e346bd6f8d7fad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac036aaa050d8dfd93d48a8e2c6c5659a" id="r_ac036aaa050d8dfd93d48a8e2c6c5659a"><td class="memItemLeft" align="right" valign="top">Action&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac036aaa050d8dfd93d48a8e2c6c5659a">_referenceNameChangedCallback</a></td></tr>
+<tr class="separator:ac036aaa050d8dfd93d48a8e2c6c5659a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8b188a743c83898289bc1ed4b21058d" id="r_ae8b188a743c83898289bc1ed4b21058d"><td class="memItemLeft" align="right" valign="top">ChangeValueCallback&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae8b188a743c83898289bc1ed4b21058d">_changeValueCallback</a></td></tr>
+<tr class="separator:ae8b188a743c83898289bc1ed4b21058d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12445660dd781432dba8587dc6949229" id="r_a12445660dd781432dba8587dc6949229"><td class="memItemLeft" align="right" valign="top">PreChangeValueCallback&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12445660dd781432dba8587dc6949229">_preChangeValueCallback</a></td></tr>
+<tr class="separator:a12445660dd781432dba8587dc6949229"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f8723c294ac60f5832c690fca29f9ed" id="r_a2f8723c294ac60f5832c690fca29f9ed"><td class="memItemLeft" align="right" valign="top">PostChangeValueCallback&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f8723c294ac60f5832c690fca29f9ed">_postChangeValueCallback</a></td></tr>
+<tr class="separator:a2f8723c294ac60f5832c690fca29f9ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72b2dec93bc15ea633c581b4b2aa5754" id="r_a72b2dec93bc15ea633c581b4b2aa5754"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a72b2dec93bc15ea633c581b4b2aa5754">isCurrentPropertyGlobal</a></td></tr>
+<tr class="separator:a72b2dec93bc15ea633c581b4b2aa5754"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a252d108f4c22265b42b5e3e67fe7944a" id="r_a252d108f4c22265b42b5e3e67fe7944a"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a252d108f4c22265b42b5e3e67fe7944a">m_DisplayNameDisallowedPattern</a> = &quot;[^\\w_ ]&quot;</td></tr>
+<tr class="separator:a252d108f4c22265b42b5e3e67fe7944a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c11e4ec040dc48171a19418c147301d" id="r_a1c11e4ec040dc48171a19418c147301d"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c11e4ec040dc48171a19418c147301d">m_ReferenceNameDisallowedPattern</a> = @&quot;(?:[^A-Za-z_0-9_])&quot;</td></tr>
+<tr class="separator:a1c11e4ec040dc48171a19418c147301d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5dbb32ed92bde0a571d05ae0c984a61" id="r_ad5dbb32ed92bde0a571d05ae0c984a61"><td class="memItemLeft" align="right" valign="top">static string[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5dbb32ed92bde0a571d05ae0c984a61">allHLSLDeclarationStrings</a></td></tr>
+<tr class="separator:ad5dbb32ed92bde0a571d05ae0c984a61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
 <p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l00016">16</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a03b78c9dc8d2bf64f9a3020f16746f75" name="a03b78c9dc8d2bf64f9a3020f16746f75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03b78c9dc8d2bf64f9a3020f16746f75">&#9670;&#160;</a></span>FloatTypeForUI</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceenum.html">enum</a> <a class="el" href="#a03b78c9dc8d2bf64f9a3020f16746f75">BXGeometryGraph.GeometryInputPropertyDrawer.FloatTypeForUI</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a03b78c9dc8d2bf64f9a3020f16746f75a7a1920d61156abc05a60135aefe8bc67" name="a03b78c9dc8d2bf64f9a3020f16746f75a7a1920d61156abc05a60135aefe8bc67"></a>Default&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a03b78c9dc8d2bf64f9a3020f16746f75aa0faef0851b4294c06f2b94bb1cb2044" name="a03b78c9dc8d2bf64f9a3020f16746f75aa0faef0851b4294c06f2b94bb1cb2044"></a>Integer&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a03b78c9dc8d2bf64f9a3020f16746f75a2d9b9a764fb0be4be10e1b2fce63f561" name="a03b78c9dc8d2bf64f9a3020f16746f75a2d9b9a764fb0be4be10e1b2fce63f561"></a>Slider&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l00675">675</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aee6a573ce857e6b28e9c5df2afd89848" name="aee6a573ce857e6b28e9c5df2afd89848"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aee6a573ce857e6b28e9c5df2afd89848">&#9670;&#160;</a></span>GeometryInputPropertyDrawer()</h2>
 
@@ -167,6 +366,485 @@ Properties</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a4272f9e8b5514fd5390c537f84a80a85" name="a4272f9e8b5514fd5390c537f84a80a85"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4272f9e8b5514fd5390c537f84a80a85">&#9670;&#160;</a></span>AddGeometryInputOptionsToContextMenu()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXGeometryGraph.GeometryInputPropertyDrawer.AddGeometryInputOptionsToContextMenu </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_b_x_geometry_graph_1_1_geometry_input.html">GeometryInput</a></td>          <td class="paramname"><span class="paramname"><em>geometryInput</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ContextualMenuPopulateEvent</td>          <td class="paramname"><span class="paramname"><em>evt</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l00348">348</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="ad53466a07f55342291df104d8ff75559" name="ad53466a07f55342291df104d8ff75559"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad53466a07f55342291df104d8ff75559">&#9670;&#160;</a></span>AddPropertyRowToSheet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXGeometryGraph.GeometryInputPropertyDrawer.AddPropertyRowToSheet </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_b_x_geometry_graph_1_1_property_sheet.html">PropertySheet</a></td>          <td class="paramname"><span class="paramname"><em>propertySheet</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">VisualElement</td>          <td class="paramname"><span class="paramname"><em>control</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>labelName</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l00904">904</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="a11cdcc3bb577723a3a5988679cbeb9a7" name="a11cdcc3bb577723a3a5988679cbeb9a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11cdcc3bb577723a3a5988679cbeb9a7">&#9670;&#160;</a></span>BuildBooleanKeywordField()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXGeometryGraph.GeometryInputPropertyDrawer.BuildBooleanKeywordField </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_b_x_geometry_graph_1_1_property_sheet.html">PropertySheet</a></td>          <td class="paramname"><span class="paramname"><em>propertySheet</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_b_x_geometry_graph_1_1_shader_keyword.html">ShaderKeyword</a></td>          <td class="paramname"><span class="paramname"><em>keyword</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l00856">856</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="a3c8d3ec75f3fe42604f0e20122f38970" name="a3c8d3ec75f3fe42604f0e20122f38970"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c8d3ec75f3fe42604f0e20122f38970">&#9670;&#160;</a></span>BuildCustomBindingField()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXGeometryGraph.GeometryInputPropertyDrawer.BuildCustomBindingField </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_b_x_geometry_graph_1_1_property_sheet.html">PropertySheet</a></td>          <td class="paramname"><span class="paramname"><em>propertySheet</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_b_x_geometry_graph_1_1_geometry_input.html">GeometryInput</a></td>          <td class="paramname"><span class="paramname"><em>property</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l00191">191</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="a7db1d094662f86e9ada8973af20c124d" name="a7db1d094662f86e9ada8973af20c124d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7db1d094662f86e9ada8973af20c124d">&#9670;&#160;</a></span>BuildDisplayNameField()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXGeometryGraph.GeometryInputPropertyDrawer.BuildDisplayNameField </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_b_x_geometry_graph_1_1_property_sheet.html">PropertySheet</a></td>          <td class="paramname"><span class="paramname"><em>propertySheet</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l00264">264</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="aaf611b3e0110cd3e4bcdff2d4d435172" name="aaf611b3e0110cd3e4bcdff2d4d435172"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf611b3e0110cd3e4bcdff2d4d435172">&#9670;&#160;</a></span>BuildDropdownField()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXGeometryGraph.GeometryInputPropertyDrawer.BuildDropdownField </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_b_x_geometry_graph_1_1_property_sheet.html">PropertySheet</a></td>          <td class="paramname"><span class="paramname"><em>propertySheet</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_b_x_geometry_graph_1_1_geometry_dropdown.html">GeometryDropdown</a></td>          <td class="paramname"><span class="paramname"><em>dropdown</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l01157">1157</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="adb1dde1a2746fdabebe518be24355661" name="adb1dde1a2746fdabebe518be24355661"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb1dde1a2746fdabebe518be24355661">&#9670;&#160;</a></span>BuildDropdownFields()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXGeometryGraph.GeometryInputPropertyDrawer.BuildDropdownFields </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_b_x_geometry_graph_1_1_property_sheet.html">PropertySheet</a></td>          <td class="paramname"><span class="paramname"><em>propertySheet</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_b_x_geometry_graph_1_1_geometry_input.html">GeometryInput</a></td>          <td class="paramname"><span class="paramname"><em>geometryInput</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l01147">1147</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="a38829a2b6c7ce47e1aeeee9eeb4fac28" name="a38829a2b6c7ce47e1aeeee9eeb4fac28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38829a2b6c7ce47e1aeeee9eeb4fac28">&#9670;&#160;</a></span>BuildEnumKeywordField()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXGeometryGraph.GeometryInputPropertyDrawer.BuildEnumKeywordField </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_b_x_geometry_graph_1_1_property_sheet.html">PropertySheet</a></td>          <td class="paramname"><span class="paramname"><em>propertySheet</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_b_x_geometry_graph_1_1_shader_keyword.html">ShaderKeyword</a></td>          <td class="paramname"><span class="paramname"><em>keyword</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l00877">877</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="a8664cd9be52e327cd8464050f31ca160" name="a8664cd9be52e327cd8464050f31ca160"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8664cd9be52e327cd8464050f31ca160">&#9670;&#160;</a></span>BuildExposedField()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXGeometryGraph.GeometryInputPropertyDrawer.BuildExposedField </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_b_x_geometry_graph_1_1_property_sheet.html">PropertySheet</a></td>          <td class="paramname"><span class="paramname"><em>propertySheet</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l00171">171</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="a360376375ea081c4e4b0f9c15ebb62b9" name="a360376375ea081c4e4b0f9c15ebb62b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a360376375ea081c4e4b0f9c15ebb62b9">&#9670;&#160;</a></span>BuildHLSLDeclarationOverrideFields()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXGeometryGraph.GeometryInputPropertyDrawer.BuildHLSLDeclarationOverrideFields </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_b_x_geometry_graph_1_1_property_sheet.html">PropertySheet</a></td>          <td class="paramname"><span class="paramname"><em>propertySheet</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_b_x_geometry_graph_1_1_abstract_geometry_property.html">AbstractGeometryProperty</a></td>          <td class="paramname"><span class="paramname"><em>property</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l00489">489</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="a251a3150aa20099c11db191f10445c0a" name="a251a3150aa20099c11db191f10445c0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a251a3150aa20099c11db191f10445c0a">&#9670;&#160;</a></span>BuildKeywordFields()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXGeometryGraph.GeometryInputPropertyDrawer.BuildKeywordFields </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_b_x_geometry_graph_1_1_property_sheet.html">PropertySheet</a></td>          <td class="paramname"><span class="paramname"><em>propertySheet</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_b_x_geometry_graph_1_1_geometry_input.html">GeometryInput</a></td>          <td class="paramname"><span class="paramname"><em>shaderInput</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l00774">774</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="a81446d3c6607418fb2531a2a53628c67" name="a81446d3c6607418fb2531a2a53628c67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81446d3c6607418fb2531a2a53628c67">&#9670;&#160;</a></span>BuildPrecisionField()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXGeometryGraph.GeometryInputPropertyDrawer.BuildPrecisionField </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_b_x_geometry_graph_1_1_property_sheet.html">PropertySheet</a></td>          <td class="paramname"><span class="paramname"><em>propertySheet</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_b_x_geometry_graph_1_1_abstract_geometry_property.html">AbstractGeometryProperty</a></td>          <td class="paramname"><span class="paramname"><em>property</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l00537">537</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="a3034bcee689f618df4bbce4485375a1c" name="a3034bcee689f618df4bbce4485375a1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3034bcee689f618df4bbce4485375a1c">&#9670;&#160;</a></span>BuildPropertyFields()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXGeometryGraph.GeometryInputPropertyDrawer.BuildPropertyFields </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_b_x_geometry_graph_1_1_property_sheet.html">PropertySheet</a></td>          <td class="paramname"><span class="paramname"><em>propertySheet</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l00382">382</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="a2f0994aaaf8ed75d9a5e8fa82710a628" name="a2f0994aaaf8ed75d9a5e8fa82710a628"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f0994aaaf8ed75d9a5e8fa82710a628">&#9670;&#160;</a></span>BuildPropertyNameLabel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXGeometryGraph.GeometryInputPropertyDrawer.BuildPropertyNameLabel </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_b_x_geometry_graph_1_1_property_sheet.html">PropertySheet</a></td>          <td class="paramname"><span class="paramname"><em>propertySheet</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l00158">158</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="a5b562d37705ee7d4a72fdc1714909b41" name="a5b562d37705ee7d4a72fdc1714909b41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b562d37705ee7d4a72fdc1714909b41">&#9670;&#160;</a></span>BuildReferenceNameField()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXGeometryGraph.GeometryInputPropertyDrawer.BuildReferenceNameField </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_b_x_geometry_graph_1_1_property_sheet.html">PropertySheet</a></td>          <td class="paramname"><span class="paramname"><em>propertySheet</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l00298">298</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="af398f353daf70f99a1f4c66b4f482055" name="af398f353daf70f99a1f4c66b4f482055"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af398f353daf70f99a1f4c66b4f482055">&#9670;&#160;</a></span>DisposePropertyDrawer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> IPropertyDrawer. BXGeometryGraph.GeometryInputPropertyDrawer.DisposePropertyDrawer </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="interface_b_x_geometry_graph_1_1_i_property_drawer.html#a451ed8225a99e77731176af9dd55d28b">BXGeometryGraph.IPropertyDrawer</a>.</p>
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l00156">156</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
 <a id="a77a498eb207c9ea7d50d51183ab88071" name="a77a498eb207c9ea7d50d51183ab88071"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a77a498eb207c9ea7d50d51183ab88071">&#9670;&#160;</a></span>DrawProperty()</h2>
 
@@ -181,7 +859,7 @@ Properties</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">object</td>          <td class="paramname"><span class="paramname"><em>actualObject</em></span>, </td>
+          <td class="paramtype"><a class="el" href="d3d12_8idl.html#ad03408aabe16bb53c780fae6cf3910f9">object</a></td>          <td class="paramname"><span class="paramname"><em>actualObject</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -191,9 +869,206 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="interface_b_x_geometry_graph_1_1_i_property_drawer.html">BXGeometryGraph.IPropertyDrawer</a>.</p>
+<p>Implements <a class="el" href="interface_b_x_geometry_graph_1_1_i_property_drawer.html#a9b9fdb3dd489e498c83a78d188fedb3e">BXGeometryGraph.IPropertyDrawer</a>.</p>
 
 <p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l00139">139</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="ab968e2cd47a6e28ba6af8ec90120a0a6" name="ab968e2cd47a6e28ba6af8ec90120a0a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab968e2cd47a6e28ba6af8ec90120a0a6">&#9670;&#160;</a></span>DropdownAddCallbacks()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXGeometryGraph.GeometryInputPropertyDrawer.DropdownAddCallbacks </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l01202">1202</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="af51b2577ff8fb96bce8b535c2c3e4a6b" name="af51b2577ff8fb96bce8b535c2c3e4a6b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af51b2577ff8fb96bce8b535c2c3e4a6b">&#9670;&#160;</a></span>DropdownAddEntry()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXGeometryGraph.GeometryInputPropertyDrawer.DropdownAddEntry </td>
+          <td>(</td>
+          <td class="paramtype">ReorderableList</td>          <td class="paramname"><span class="paramname"><em>list</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l01293">1293</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="a0168b9e4fdd25239a660823cebe9b61a" name="a0168b9e4fdd25239a660823cebe9b61a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0168b9e4fdd25239a660823cebe9b61a">&#9670;&#160;</a></span>DropdownRemoveEntry()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXGeometryGraph.GeometryInputPropertyDrawer.DropdownRemoveEntry </td>
+          <td>(</td>
+          <td class="paramtype">ReorderableList</td>          <td class="paramname"><span class="paramname"><em>list</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l01313">1313</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="a68d1b85cd87f6ed26c6c248c26b86656" name="a68d1b85cd87f6ed26c6c248c26b86656"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68d1b85cd87f6ed26c6c248c26b86656">&#9670;&#160;</a></span>DropdownReorderEntries()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXGeometryGraph.GeometryInputPropertyDrawer.DropdownReorderEntries </td>
+          <td>(</td>
+          <td class="paramtype">ReorderableList</td>          <td class="paramname"><span class="paramname"><em>list</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l01334">1334</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="a25b016b2d481d849fabeedc9b0b3862e" name="a25b016b2d481d849fabeedc9b0b3862e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25b016b2d481d849fabeedc9b0b3862e">&#9670;&#160;</a></span>DropdownSelectEntry()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXGeometryGraph.GeometryInputPropertyDrawer.DropdownSelectEntry </td>
+          <td>(</td>
+          <td class="paramtype">ReorderableList</td>          <td class="paramname"><span class="paramname"><em>list</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l01269">1269</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="a1d2c230308af2cbc98590defbbf8af6e" name="a1d2c230308af2cbc98590defbbf8af6e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d2c230308af2cbc98590defbbf8af6e">&#9670;&#160;</a></span>FindDuplicateDropdownDisplayNameIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BXGeometryGraph.GeometryInputPropertyDrawer.FindDuplicateDropdownDisplayNameIndex </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>id</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>displayName</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l01348">1348</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="ac20f3da6c7a073222ad00779e6568b70" name="ac20f3da6c7a073222ad00779e6568b70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac20f3da6c7a073222ad00779e6568b70">&#9670;&#160;</a></span>FindDuplicateKeywordReferenceNameIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BXGeometryGraph.GeometryInputPropertyDrawer.FindDuplicateKeywordReferenceNameIndex </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>id</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>referenceName</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l01139">1139</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
 
 </div>
 </div>
@@ -243,6 +1118,47 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="aba508ddc7dfd026f5e3d4909f7138839" name="aba508ddc7dfd026f5e3d4909f7138839"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba508ddc7dfd026f5e3d4909f7138839">&#9670;&#160;</a></span>GetDuplicateSafeEnumNames()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXGeometryGraph.GeometryInputPropertyDrawer.GetDuplicateSafeEnumNames </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>id</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out string</td>          <td class="paramname"><span class="paramname"><em>displayName</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out string</td>          <td class="paramname"><span class="paramname"><em>referenceName</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l01101">1101</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
 <a id="a756eb1e424a4504e13a11d3f53fc385c" name="a756eb1e424a4504e13a11d3f53fc385c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a756eb1e424a4504e13a11d3f53fc385c">&#9670;&#160;</a></span>GetDuplicateSafeReferenceName()</h2>
 
@@ -266,6 +1182,458 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="a75701d410831ccca096e9e961dec3792" name="a75701d410831ccca096e9e961dec3792"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75701d410831ccca096e9e961dec3792">&#9670;&#160;</a></span>GetFirstUnusedDropdownID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BXGeometryGraph.GeometryInputPropertyDrawer.GetFirstUnusedDropdownID </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l01274">1274</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="a44c040b20fc3652dd614d974cfab7824" name="a44c040b20fc3652dd614d974cfab7824"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44c040b20fc3652dd614d974cfab7824">&#9670;&#160;</a></span>GetFirstUnusedKeywordID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BXGeometryGraph.GeometryInputPropertyDrawer.GetFirstUnusedKeywordID </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l01016">1016</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="a29c898ac8011207ff96a561d74887f90" name="a29c898ac8011207ff96a561d74887f90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29c898ac8011207ff96a561d74887f90">&#9670;&#160;</a></span>GetSanitizedDisplayName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string BXGeometryGraph.GeometryInputPropertyDrawer.GetSanitizedDisplayName </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>name</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l01118">1118</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="ab90b0b7b82c1e1ce5a84ddab556f916f" name="ab90b0b7b82c1e1ce5a84ddab556f916f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab90b0b7b82c1e1ce5a84ddab556f916f">&#9670;&#160;</a></span>GetSanitizedReferenceName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string BXGeometryGraph.GeometryInputPropertyDrawer.GetSanitizedReferenceName </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>name</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l01133">1133</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="a3d4ee3b38a994c9695a6025eef9df137" name="a3d4ee3b38a994c9695a6025eef9df137"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d4ee3b38a994c9695a6025eef9df137">&#9670;&#160;</a></span>HandleColorProperty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXGeometryGraph.GeometryInputPropertyDrawer.HandleColorProperty </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_b_x_geometry_graph_1_1_property_sheet.html">PropertySheet</a></td>          <td class="paramname"><span class="paramname"><em>propertySheet</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_b_x_geometry_graph_1_1_color_geometry_property.html">ColorGeometryProperty</a></td>          <td class="paramname"><span class="paramname"><em>colorProperty</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l00716">716</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="aae45694acbd0bd51310595c5b9ff2d3f" name="aae45694acbd0bd51310595c5b9ff2d3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae45694acbd0bd51310595c5b9ff2d3f">&#9670;&#160;</a></span>HandleVector1GeometryProperty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXGeometryGraph.GeometryInputPropertyDrawer.HandleVector1GeometryProperty </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_b_x_geometry_graph_1_1_property_sheet.html">PropertySheet</a></td>          <td class="paramname"><span class="paramname"><em>propertySheet</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_b_x_geometry_graph_1_1_vector1_geometry_property.html">Vector1GeometryProperty</a></td>          <td class="paramname"><span class="paramname"><em>vector1ShaderProperty</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l00558">558</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="a0fad93799fb8fb03e228f7e80936e87d" name="a0fad93799fb8fb03e228f7e80936e87d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0fad93799fb8fb03e228f7e80936e87d">&#9670;&#160;</a></span>HandleVector2GeometryProperty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXGeometryGraph.GeometryInputPropertyDrawer.HandleVector2GeometryProperty </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_b_x_geometry_graph_1_1_property_sheet.html">PropertySheet</a></td>          <td class="paramname"><span class="paramname"><em>propertySheet</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_b_x_geometry_graph_1_1_vector2_geometry_property.html">Vector2GeometryProperty</a></td>          <td class="paramname"><span class="paramname"><em>vector2ShaderProperty</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l00677">677</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="ae495ac34e8cea098d1a978b3afab19f0" name="ae495ac34e8cea098d1a978b3afab19f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae495ac34e8cea098d1a978b3afab19f0">&#9670;&#160;</a></span>HandleVector3GeometryProperty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXGeometryGraph.GeometryInputPropertyDrawer.HandleVector3GeometryProperty </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_b_x_geometry_graph_1_1_property_sheet.html">PropertySheet</a></td>          <td class="paramname"><span class="paramname"><em>propertySheet</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_b_x_geometry_graph_1_1_vector3_geometry_property.html">Vector3GeometryProperty</a></td>          <td class="paramname"><span class="paramname"><em>vector3ShaderProperty</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l00690">690</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="a4f8594c0d0aec2a697125746ef408092" name="a4f8594c0d0aec2a697125746ef408092"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f8594c0d0aec2a697125746ef408092">&#9670;&#160;</a></span>HandleVector4GeometryProperty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXGeometryGraph.GeometryInputPropertyDrawer.HandleVector4GeometryProperty </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_b_x_geometry_graph_1_1_property_sheet.html">PropertySheet</a></td>          <td class="paramname"><span class="paramname"><em>propertySheet</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_b_x_geometry_graph_1_1_vector4_geometry_property.html">Vector4GeometryProperty</a></td>          <td class="paramname"><span class="paramname"><em>vector4Property</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l00703">703</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="a58359539c9cb88eb6b2c7675beb70653" name="a58359539c9cb88eb6b2c7675beb70653"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58359539c9cb88eb6b2c7675beb70653">&#9670;&#160;</a></span>KeywordAddCallbacks()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXGeometryGraph.GeometryInputPropertyDrawer.KeywordAddCallbacks </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l00935">935</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="a3083efdab8b130c60821f5e291857f2d" name="a3083efdab8b130c60821f5e291857f2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3083efdab8b130c60821f5e291857f2d">&#9670;&#160;</a></span>KeywordAddEntry()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXGeometryGraph.GeometryInputPropertyDrawer.KeywordAddEntry </td>
+          <td>(</td>
+          <td class="paramtype">ReorderableList</td>          <td class="paramname"><span class="paramname"><em>list</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l01039">1039</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="a0ab9d4b644008f4a180ee9d6448d57a6" name="a0ab9d4b644008f4a180ee9d6448d57a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ab9d4b644008f4a180ee9d6448d57a6">&#9670;&#160;</a></span>KeywordRemoveEntry()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXGeometryGraph.GeometryInputPropertyDrawer.KeywordRemoveEntry </td>
+          <td>(</td>
+          <td class="paramtype">ReorderableList</td>          <td class="paramname"><span class="paramname"><em>list</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l01064">1064</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="a9a10cc155d9b9952873b10599048cb42" name="a9a10cc155d9b9952873b10599048cb42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a10cc155d9b9952873b10599048cb42">&#9670;&#160;</a></span>KeywordReorderEntries()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXGeometryGraph.GeometryInputPropertyDrawer.KeywordReorderEntries </td>
+          <td>(</td>
+          <td class="paramtype">ReorderableList</td>          <td class="paramname"><span class="paramname"><em>list</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l01087">1087</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="a5bf48659d2ad4e4ac9dc6b3c3d13c140" name="a5bf48659d2ad4e4ac9dc6b3c3d13c140"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5bf48659d2ad4e4ac9dc6b3c3d13c140">&#9670;&#160;</a></span>KeywordSelectEntry()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXGeometryGraph.GeometryInputPropertyDrawer.KeywordSelectEntry </td>
+          <td>(</td>
+          <td class="paramtype">ReorderableList</td>          <td class="paramname"><span class="paramname"><em>list</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l01010">1010</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="a42762370137df5bb4e189ba8dd4f1fc5" name="a42762370137df5bb4e189ba8dd4f1fc5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42762370137df5bb4e189ba8dd4f1fc5">&#9670;&#160;</a></span>OnDropdownGUIHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXGeometryGraph.GeometryInputPropertyDrawer.OnDropdownGUIHandler </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l01179">1179</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="a04bcaa08dab0e269c8e4f5016b40fdaf" name="a04bcaa08dab0e269c8e4f5016b40fdaf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04bcaa08dab0e269c8e4f5016b40fdaf">&#9670;&#160;</a></span>OnKeywordGUIHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXGeometryGraph.GeometryInputPropertyDrawer.OnKeywordGUIHandler </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l00913">913</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
 <a id="a2e55ad0522a6b43583039038e51d080d" name="a2e55ad0522a6b43583039038e51d080d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2e55ad0522a6b43583039038e51d080d">&#9670;&#160;</a></span>ResetReferenceName()</h2>
 
@@ -273,7 +1641,7 @@ Properties</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void BXGeometryGraph.GeometryInputPropertyDrawer.ResetReferenceName </td>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXGeometryGraph.GeometryInputPropertyDrawer.ResetReferenceName </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -285,6 +1653,33 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="a4a023d53457bc9ed8a7588c67e67adcd" name="a4a023d53457bc9ed8a7588c67e67adcd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a023d53457bc9ed8a7588c67e67adcd">&#9670;&#160;</a></span>UpdateEnableState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXGeometryGraph.GeometryInputPropertyDrawer.UpdateEnableState </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l00242">242</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
 <a id="a88cb1adff8384a0ffb58e51f280a80b3" name="a88cb1adff8384a0ffb58e51f280a80b3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a88cb1adff8384a0ffb58e51f280a80b3">&#9670;&#160;</a></span>UpgradeDefaultReferenceName()</h2>
 
@@ -292,7 +1687,7 @@ Properties</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void BXGeometryGraph.GeometryInputPropertyDrawer.UpgradeDefaultReferenceName </td>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXGeometryGraph.GeometryInputPropertyDrawer.UpgradeDefaultReferenceName </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -301,6 +1696,686 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l00372">372</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="ae8b188a743c83898289bc1ed4b21058d" name="ae8b188a743c83898289bc1ed4b21058d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8b188a743c83898289bc1ed4b21058d">&#9670;&#160;</a></span>_changeValueCallback</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ChangeValueCallback BXGeometryGraph.GeometryInputPropertyDrawer._changeValueCallback</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l00078">78</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="aad53b03e34b4d0af65e346bd6f8d7fad" name="aad53b03e34b4d0af65e346bd6f8d7fad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad53b03e34b4d0af65e346bd6f8d7fad">&#9670;&#160;</a></span>_displayNameChangedCallback</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Action&lt;string&gt; BXGeometryGraph.GeometryInputPropertyDrawer._displayNameChangedCallback</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l00076">76</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="a55bb07ee4a33cdf9e2751af3311175b4" name="a55bb07ee4a33cdf9e2751af3311175b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55bb07ee4a33cdf9e2751af3311175b4">&#9670;&#160;</a></span>_dropdownChangedCallback</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Action BXGeometryGraph.GeometryInputPropertyDrawer._dropdownChangedCallback</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l00075">75</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="a0d6a1389e3ac8f7bf5a2ab562580d473" name="a0d6a1389e3ac8f7bf5a2ab562580d473"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d6a1389e3ac8f7bf5a2ab562580d473">&#9670;&#160;</a></span>_exposedFieldChangedCallback</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ChangeExposedFieldCallback BXGeometryGraph.GeometryInputPropertyDrawer._exposedFieldChangedCallback</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l00072">72</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="acbf020140e976f1b52f2941e8a62e749" name="acbf020140e976f1b52f2941e8a62e749"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acbf020140e976f1b52f2941e8a62e749">&#9670;&#160;</a></span>_keywordChangedCallback</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Action BXGeometryGraph.GeometryInputPropertyDrawer._keywordChangedCallback</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l00074">74</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="a2f8723c294ac60f5832c690fca29f9ed" name="a2f8723c294ac60f5832c690fca29f9ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f8723c294ac60f5832c690fca29f9ed">&#9670;&#160;</a></span>_postChangeValueCallback</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">PostChangeValueCallback BXGeometryGraph.GeometryInputPropertyDrawer._postChangeValueCallback</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l00080">80</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="a12445660dd781432dba8587dc6949229" name="a12445660dd781432dba8587dc6949229"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12445660dd781432dba8587dc6949229">&#9670;&#160;</a></span>_preChangeValueCallback</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">PreChangeValueCallback BXGeometryGraph.GeometryInputPropertyDrawer._preChangeValueCallback</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l00079">79</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="a064171c183775cf4fe5e334059a4b455" name="a064171c183775cf4fe5e334059a4b455"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a064171c183775cf4fe5e334059a4b455">&#9670;&#160;</a></span>_precisionChangedCallback</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Action BXGeometryGraph.GeometryInputPropertyDrawer._precisionChangedCallback</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l00073">73</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="ac036aaa050d8dfd93d48a8e2c6c5659a" name="ac036aaa050d8dfd93d48a8e2c6c5659a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac036aaa050d8dfd93d48a8e2c6c5659a">&#9670;&#160;</a></span>_referenceNameChangedCallback</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Action&lt;string&gt; BXGeometryGraph.GeometryInputPropertyDrawer._referenceNameChangedCallback</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l00077">77</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="ad5dbb32ed92bde0a571d05ae0c984a61" name="ad5dbb32ed92bde0a571d05ae0c984a61"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5dbb32ed92bde0a571d05ae0c984a61">&#9670;&#160;</a></span>allHLSLDeclarationStrings</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string [] BXGeometryGraph.GeometryInputPropertyDrawer.allHLSLDeclarationStrings</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> <span class="keywordtype">string</span>[]</div>
+<div class="line">        {</div>
+<div class="line">            <span class="stringliteral">&quot;Do Not Declare&quot;</span>,       </div>
+<div class="line">            <span class="stringliteral">&quot;Global&quot;</span>,               </div>
+<div class="line">            <span class="stringliteral">&quot;Per Material&quot;</span>,         </div>
+<div class="line">            <span class="stringliteral">&quot;Hybrid Per Instance&quot;</span>,  </div>
+<div class="line">        }</div>
+</div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l00481">481</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="a5e8d7893f94ab7d593e238ffd2e789ed" name="a5e8d7893f94ab7d593e238ffd2e789ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e8d7893f94ab7d593e238ffd2e789ed">&#9670;&#160;</a></span>exposedToggle</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Toggle BXGeometryGraph.GeometryInputPropertyDrawer.exposedToggle</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l00053">53</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="a5e21bf2e1ef1310974196331ea5bdf26" name="a5e21bf2e1ef1310974196331ea5bdf26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e21bf2e1ef1310974196331ea5bdf26">&#9670;&#160;</a></span>geometryInput</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_b_x_geometry_graph_1_1_geometry_input.html">GeometryInput</a> BXGeometryGraph.GeometryInputPropertyDrawer.geometryInput</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l00051">51</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="a4b3131e6c30f50a256f1a2a8eec23947" name="a4b3131e6c30f50a256f1a2a8eec23947"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b3131e6c30f50a256f1a2a8eec23947">&#9670;&#160;</a></span>graphData</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_b_x_geometry_graph_1_1_graph_data.html">GraphData</a> BXGeometryGraph.GeometryInputPropertyDrawer.graphData</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l00070">70</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="a72b2dec93bc15ea633c581b4b2aa5754" name="a72b2dec93bc15ea633c581b4b2aa5754"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72b2dec93bc15ea633c581b4b2aa5754">&#9670;&#160;</a></span>isCurrentPropertyGlobal</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool BXGeometryGraph.GeometryInputPropertyDrawer.isCurrentPropertyGlobal</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l00381">381</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="af9907cb910993a32af52e1d1148d73c7" name="af9907cb910993a32af52e1d1148d73c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9907cb910993a32af52e1d1148d73c7">&#9670;&#160;</a></span>keywordScopeField</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">VisualElement BXGeometryGraph.GeometryInputPropertyDrawer.keywordScopeField</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l00054">54</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="a5886998e7c5a771727e7b378c5b13b47" name="a5886998e7c5a771727e7b378c5b13b47"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5886998e7c5a771727e7b378c5b13b47">&#9670;&#160;</a></span>m_CustomSlotLabelField</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TextField BXGeometryGraph.GeometryInputPropertyDrawer.m_CustomSlotLabelField</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l00045">45</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="a252d108f4c22265b42b5e3e67fe7944a" name="a252d108f4c22265b42b5e3e67fe7944a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a252d108f4c22265b42b5e3e67fe7944a">&#9670;&#160;</a></span>m_DisplayNameDisallowedPattern</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string BXGeometryGraph.GeometryInputPropertyDrawer.m_DisplayNameDisallowedPattern = &quot;[^\\w_ ]&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l00059">59</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="aaf927b2c0bb3776800e9b19c9033962f" name="aaf927b2c0bb3776800e9b19c9033962f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf927b2c0bb3776800e9b19c9033962f">&#9670;&#160;</a></span>m_DisplayNameField</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TextField BXGeometryGraph.GeometryInputPropertyDrawer.m_DisplayNameField</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l00043">43</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="aa1f091c01475782ceb7b16bec7e8ae39" name="aa1f091c01475782ceb7b16bec7e8ae39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1f091c01475782ceb7b16bec7e8ae39">&#9670;&#160;</a></span>m_Dropdown</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_b_x_geometry_graph_1_1_geometry_dropdown.html">GeometryDropdown</a> BXGeometryGraph.GeometryInputPropertyDrawer.m_Dropdown</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l00029">29</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="ac11956a3b4df5eba061a94274b1b4585" name="ac11956a3b4df5eba061a94274b1b4585"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac11956a3b4df5eba061a94274b1b4585">&#9670;&#160;</a></span>m_DropdownId</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BXGeometryGraph.GeometryInputPropertyDrawer.m_DropdownId</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l00030">30</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="a948f3e82cb1e5d90c0257f16343834a1" name="a948f3e82cb1e5d90c0257f16343834a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a948f3e82cb1e5d90c0257f16343834a1">&#9670;&#160;</a></span>m_DropdownReorderableList</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ReorderableList BXGeometryGraph.GeometryInputPropertyDrawer.m_DropdownReorderableList</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l00028">28</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="af2e332593446333149debbb544de2e9d" name="af2e332593446333149debbb544de2e9d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2e332593446333149debbb544de2e9d">&#9670;&#160;</a></span>m_DropdownSelectedIndex</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BXGeometryGraph.GeometryInputPropertyDrawer.m_DropdownSelectedIndex</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l00031">31</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="a528f2338885de50bf36d21780358db7d" name="a528f2338885de50bf36d21780358db7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a528f2338885de50bf36d21780358db7d">&#9670;&#160;</a></span>m_KeywordReorderableList</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ReorderableList BXGeometryGraph.GeometryInputPropertyDrawer.m_KeywordReorderableList</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l00024">24</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="a10644c7f77ff8326332e706457aa11fa" name="a10644c7f77ff8326332e706457aa11fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10644c7f77ff8326332e706457aa11fa">&#9670;&#160;</a></span>m_KeywordSelectedIndex</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BXGeometryGraph.GeometryInputPropertyDrawer.m_KeywordSelectedIndex</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l00025">25</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="a1c11e4ec040dc48171a19418c147301d" name="a1c11e4ec040dc48171a19418c147301d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c11e4ec040dc48171a19418c147301d">&#9670;&#160;</a></span>m_ReferenceNameDisallowedPattern</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string BXGeometryGraph.GeometryInputPropertyDrawer.m_ReferenceNameDisallowedPattern = @&quot;(?:[^A-Za-z_0-9_])&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l00060">60</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="afbaf0cba8485c5841af01d6108d50ef1" name="afbaf0cba8485c5841af01d6108d50ef1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afbaf0cba8485c5841af01d6108d50ef1">&#9670;&#160;</a></span>m_ReferenceNameDrawer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_b_x_geometry_graph_1_1_text_property_drawer.html">TextPropertyDrawer</a> BXGeometryGraph.GeometryInputPropertyDrawer.m_ReferenceNameDrawer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l00048">48</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="af5e19d694f2d2f08448137370810d6a2" name="af5e19d694f2d2f08448137370810d6a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5e19d694f2d2f08448137370810d6a2">&#9670;&#160;</a></span>m_ReferenceNameField</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TextField BXGeometryGraph.GeometryInputPropertyDrawer.m_ReferenceNameField</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l00049">49</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="a1158902929373c10a053f92fd0decfc2" name="a1158902929373c10a053f92fd0decfc2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1158902929373c10a053f92fd0decfc2">&#9670;&#160;</a></span>m_ViewModel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_b_x_geometry_graph_1_1_geometry_input_view_model.html">GeometryInputViewModel</a> BXGeometryGraph.GeometryInputPropertyDrawer.m_ViewModel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l00056">56</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
 
 </div>
 </div>
@@ -325,9 +2400,57 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="interface_b_x_geometry_graph_1_1_i_property_drawer.html">BXGeometryGraph.IPropertyDrawer</a>.</p>
+<p>Implements <a class="el" href="interface_b_x_geometry_graph_1_1_i_property_drawer.html#a25c4ff0e8fd03e9c5d15dfb317d8512b">BXGeometryGraph.IPropertyDrawer</a>.</p>
 
 <p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l00137">137</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="a0700b8f4f9416e23872735cf982e53eb" name="a0700b8f4f9416e23872735cf982e53eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0700b8f4f9416e23872735cf982e53eb">&#9670;&#160;</a></span>isSubGraph</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool BXGeometryGraph.GeometryInputPropertyDrawer.isSubGraph</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span><span class="mlabel set">set</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l00071">71</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
+
+</div>
+</div>
+<a id="a0cad0061ec5ed7f81bf8d45e2824c085" name="a0cad0061ec5ed7f81bf8d45e2824c085"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0cad0061ec5ed7f81bf8d45e2824c085">&#9670;&#160;</a></span>ViewModel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_b_x_geometry_graph_1_1_geometry_input_view_model.html">GeometryInputViewModel</a> BXGeometryGraph.GeometryInputPropertyDrawer.ViewModel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_geometry_input_property_drawer_8cs_source.html#l00057">57</a> of file <a class="el" href="_geometry_input_property_drawer_8cs_source.html">GeometryInputPropertyDrawer.cs</a>.</p>
 
 </div>
 </div>

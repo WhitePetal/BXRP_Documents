@@ -109,7 +109,7 @@ $(function(){initNavTree('_draw_state_8cs_source.html',''); initResizable(true);
   <div class="headertitle"><div class="title">DrawState.cs</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="keyword">using </span>System;</div>
+<a href="_draw_state_8cs.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="keyword">using </span>System;</div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="keyword">using </span>System.Collections;</div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="keyword">using </span>System.Collections.Generic;</div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="keyword">using </span>UnityEngine;</div>
@@ -121,33 +121,41 @@ $(function(){initNavTree('_draw_state_8cs_source.html',''); initResizable(true);
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno"><a class="line" href="struct_b_x_geometry_graph_1_1_draw_state.html">    9</a></span>    <span class="keyword">public</span> <span class="keyword">struct </span><a class="code hl_struct" href="struct_b_x_geometry_graph_1_1_draw_state.html">DrawState</a></div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>    {</div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>        [SerializeField]</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>        <span class="keyword">private</span> <span class="keywordtype">bool</span> m_Expanded;</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="struct_b_x_geometry_graph_1_1_draw_state.html#a27c8f5a303d4e424c3bd171fdac57dd2">   12</a></span>        <span class="keyword">private</span> <span class="keywordtype">bool</span> <a class="code hl_variable" href="struct_b_x_geometry_graph_1_1_draw_state.html#a27c8f5a303d4e424c3bd171fdac57dd2">m_Expanded</a>;</div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>        [SerializeField]</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>        <span class="keyword">private</span> Rect m_Position;</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="struct_b_x_geometry_graph_1_1_draw_state.html#a229215021d5e0bfa0b77910b77f55e9e">   15</a></span>        <span class="keyword">private</span> Rect <a class="code hl_variable" href="struct_b_x_geometry_graph_1_1_draw_state.html#a229215021d5e0bfa0b77910b77f55e9e">m_Position</a>;</div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>        <span class="keyword">public</span> <span class="keywordtype">bool</span> expanded</div>
+<div class="foldopen" id="foldopen00017" data-start="{" data-end="};">
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="struct_b_x_geometry_graph_1_1_draw_state.html#a68c27e46d0e86a45ef9d5fe1b1050de6">   17</a></span>        <span class="keyword">public</span> <span class="keywordtype">bool</span> <a class="code hl_property" href="struct_b_x_geometry_graph_1_1_draw_state.html#a68c27e46d0e86a45ef9d5fe1b1050de6">expanded</a></div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>        {</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>            <span class="keyword">get</span> { <span class="keywordflow">return</span> m_Expanded; }</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>            <span class="keyword">set</span> { m_Expanded = value; }</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>            <span class="keyword">get</span> { <span class="keywordflow">return</span> <a class="code hl_variable" href="struct_b_x_geometry_graph_1_1_draw_state.html#a27c8f5a303d4e424c3bd171fdac57dd2">m_Expanded</a>; }</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>            <span class="keyword">set</span> { <a class="code hl_variable" href="struct_b_x_geometry_graph_1_1_draw_state.html#a27c8f5a303d4e424c3bd171fdac57dd2">m_Expanded</a> = value; }</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>        }</div>
+</div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>        <span class="keyword">public</span> Rect position</div>
+<div class="foldopen" id="foldopen00023" data-start="{" data-end="};">
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="struct_b_x_geometry_graph_1_1_draw_state.html#af9e7fdce3476a87b0a31d07842535fa9">   23</a></span>        <span class="keyword">public</span> Rect <a class="code hl_property" href="struct_b_x_geometry_graph_1_1_draw_state.html#af9e7fdce3476a87b0a31d07842535fa9">position</a></div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>        {</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>            <span class="keyword">get</span> { <span class="keywordflow">return</span> m_Position; }</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>            <span class="keyword">set</span> { m_Position = value; }</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>            <span class="keyword">get</span> { <span class="keywordflow">return</span> <a class="code hl_variable" href="struct_b_x_geometry_graph_1_1_draw_state.html#a229215021d5e0bfa0b77910b77f55e9e">m_Position</a>; }</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>            <span class="keyword">set</span> { <a class="code hl_variable" href="struct_b_x_geometry_graph_1_1_draw_state.html#a229215021d5e0bfa0b77910b77f55e9e">m_Position</a> = value; }</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>        }</div>
+</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    }</div>
 </div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>}</div>
 <div class="ttc" id="anamespace_b_x_geometry_graph_html"><div class="ttname"><a href="namespace_b_x_geometry_graph.html">BXGeometryGraph</a></div><div class="ttdef"><b>Definition</b> <a href="_abstract_geometry_graph_data_extension_8cs_source.html#l00008">AbstractGeometryGraphDataExtension.cs:9</a></div></div>
 <div class="ttc" id="astruct_b_x_geometry_graph_1_1_draw_state_html"><div class="ttname"><a href="struct_b_x_geometry_graph_1_1_draw_state.html">BXGeometryGraph.DrawState</a></div><div class="ttdef"><b>Definition</b> <a href="#l00009">DrawState.cs:10</a></div></div>
+<div class="ttc" id="astruct_b_x_geometry_graph_1_1_draw_state_html_a229215021d5e0bfa0b77910b77f55e9e"><div class="ttname"><a href="struct_b_x_geometry_graph_1_1_draw_state.html#a229215021d5e0bfa0b77910b77f55e9e">BXGeometryGraph.DrawState.m_Position</a></div><div class="ttdeci">Rect m_Position</div><div class="ttdef"><b>Definition</b> <a href="#l00015">DrawState.cs:15</a></div></div>
+<div class="ttc" id="astruct_b_x_geometry_graph_1_1_draw_state_html_a27c8f5a303d4e424c3bd171fdac57dd2"><div class="ttname"><a href="struct_b_x_geometry_graph_1_1_draw_state.html#a27c8f5a303d4e424c3bd171fdac57dd2">BXGeometryGraph.DrawState.m_Expanded</a></div><div class="ttdeci">bool m_Expanded</div><div class="ttdef"><b>Definition</b> <a href="#l00012">DrawState.cs:12</a></div></div>
+<div class="ttc" id="astruct_b_x_geometry_graph_1_1_draw_state_html_a68c27e46d0e86a45ef9d5fe1b1050de6"><div class="ttname"><a href="struct_b_x_geometry_graph_1_1_draw_state.html#a68c27e46d0e86a45ef9d5fe1b1050de6">BXGeometryGraph.DrawState.expanded</a></div><div class="ttdeci">bool expanded</div><div class="ttdef"><b>Definition</b> <a href="#l00017">DrawState.cs:18</a></div></div>
+<div class="ttc" id="astruct_b_x_geometry_graph_1_1_draw_state_html_af9e7fdce3476a87b0a31d07842535fa9"><div class="ttname"><a href="struct_b_x_geometry_graph_1_1_draw_state.html#af9e7fdce3476a87b0a31d07842535fa9">BXGeometryGraph.DrawState.position</a></div><div class="ttdeci">Rect position</div><div class="ttdef"><b>Definition</b> <a href="#l00023">DrawState.cs:24</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_f73a8b7d50989afdadf24d8fc7357a9a.html">FloowDream</a></li><li class="navelem"><a class="el" href="dir_1ba945c5ec581c9e331de81f300aff07.html">Assets</a></li><li class="navelem"><a class="el" href="dir_a57f4778d467e0a6236fa4788364df6c.html">Scripts</a></li><li class="navelem"><a class="el" href="dir_8b4148ef0ffda13d8a8272867298b61d.html">BXRenderPipeline</a></li><li class="navelem"><a class="el" href="dir_a8720bb293956aa0546773bed716ef7d.html">GeometryGraph</a></li><li class="navelem"><a class="el" href="dir_70308b049469fb202d64bde4a4db7180.html">Editor</a></li><li class="navelem"><b>DrawState.cs</b></li>
+    <li class="navelem"><a class="el" href="dir_f73a8b7d50989afdadf24d8fc7357a9a.html">FloowDream</a></li><li class="navelem"><a class="el" href="dir_1ba945c5ec581c9e331de81f300aff07.html">Assets</a></li><li class="navelem"><a class="el" href="dir_a57f4778d467e0a6236fa4788364df6c.html">Scripts</a></li><li class="navelem"><a class="el" href="dir_8b4148ef0ffda13d8a8272867298b61d.html">BXRenderPipeline</a></li><li class="navelem"><a class="el" href="dir_a8720bb293956aa0546773bed716ef7d.html">GeometryGraph</a></li><li class="navelem"><a class="el" href="dir_70308b049469fb202d64bde4a4db7180.html">Editor</a></li><li class="navelem"><a class="el" href="_draw_state_8cs.html">DrawState.cs</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
   </ul>
 </div>

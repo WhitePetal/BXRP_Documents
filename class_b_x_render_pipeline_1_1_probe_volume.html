@@ -109,6 +109,9 @@ $(function(){initNavTree('class_b_x_render_pipeline_1_1_probe_volume.html',''); 
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pri-types">Private Types</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_b_x_render_pipeline_1_1_probe_volume-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">BXRenderPipeline.ProbeVolume Class Reference</div></div>
 </div><!--header-->
@@ -164,6 +167,25 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ac77724f509f0169479ada54f6f6b1719" id="r_ac77724f509f0169479ada54f6f6b1719"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac77724f509f0169479ada54f6f6b1719">globalVolume</a> = false</td></tr>
 <tr class="memdesc:ac77724f509f0169479ada54f6f6b1719"><td class="mdescLeft">&#160;</td><td class="mdescRight">If is a global bolume.  <br /></td></tr>
 <tr class="separator:ac77724f509f0169479ada54f6f6b1719"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-types" name="pri-types"></a>
+Private Types</h2></td></tr>
+<tr class="memitem:a4c935655ab04fb65288ba9a4a0048536" id="r_a4c935655ab04fb65288ba9a4a0048536"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c935655ab04fb65288ba9a4a0048536">Version</a> { <a class="el" href="#a4c935655ab04fb65288ba9a4a0048536a4f2a91e15af2631ff9424564b8a45fb2">Initial</a>
+, <a class="el" href="#a4c935655ab04fb65288ba9a4a0048536aa9de29b1ddc0eecb369c3b79f95f522c">LocalMode</a>
+, <a class="el" href="#a4c935655ab04fb65288ba9a4a0048536a5d8fde3f9d29ec1bf6bde9e19e9a5446">InvertOverrideLevels</a>
+, <a class="el" href="#a4c935655ab04fb65288ba9a4a0048536ae93f994f01c537c4e2f7d8528c3eb5e9">Count</a>
+ }</td></tr>
+<tr class="separator:a4c935655ab04fb65288ba9a4a0048536"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:aba14a1553a3c988a1a11cd5964e8deed" id="r_aba14a1553a3c988a1a11cd5964e8deed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba14a1553a3c988a1a11cd5964e8deed">Awake</a> ()</td></tr>
+<tr class="separator:aba14a1553a3c988a1a11cd5964e8deed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:abdc873be7e2fc26f6b26e14ac32236bd" id="r_abdc873be7e2fc26f6b26e14ac32236bd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a4c935655ab04fb65288ba9a4a0048536">Version</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abdc873be7e2fc26f6b26e14ac32236bd">version</a> = <a class="el" href="#a4c935655ab04fb65288ba9a4a0048536a4f2a91e15af2631ff9424564b8a45fb2">Version.Initial</a></td></tr>
+<tr class="separator:abdc873be7e2fc26f6b26e14ac32236bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A marker to determine what area of the scene is considered by the Probe Volumes system. </p>
@@ -193,6 +215,64 @@ Public Attributes</h2></td></tr>
 </table>
 
 <p class="definition">Definition at line <a class="el" href="_probe_volume_8cs_source.html#l00018">18</a> of file <a class="el" href="_probe_volume_8cs_source.html">ProbeVolume.cs</a>.</p>
+
+</div>
+</div>
+<a id="a4c935655ab04fb65288ba9a4a0048536" name="a4c935655ab04fb65288ba9a4a0048536"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c935655ab04fb65288ba9a4a0048536">&#9670;&#160;</a></span>Version</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceenum.html">enum</a> <a class="el" href="#a4c935655ab04fb65288ba9a4a0048536">BXRenderPipeline.ProbeVolume.Version</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a4c935655ab04fb65288ba9a4a0048536a4f2a91e15af2631ff9424564b8a45fb2" name="a4c935655ab04fb65288ba9a4a0048536a4f2a91e15af2631ff9424564b8a45fb2"></a>Initial&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4c935655ab04fb65288ba9a4a0048536aa9de29b1ddc0eecb369c3b79f95f522c" name="a4c935655ab04fb65288ba9a4a0048536aa9de29b1ddc0eecb369c3b79f95f522c"></a>LocalMode&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4c935655ab04fb65288ba9a4a0048536a5d8fde3f9d29ec1bf6bde9e19e9a5446" name="a4c935655ab04fb65288ba9a4a0048536a5d8fde3f9d29ec1bf6bde9e19e9a5446"></a>InvertOverrideLevels&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a4c935655ab04fb65288ba9a4a0048536ae93f994f01c537c4e2f7d8528c3eb5e9" name="a4c935655ab04fb65288ba9a4a0048536ae93f994f01c537c4e2f7d8528c3eb5e9"></a>Count&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="_probe_volume_8_migration_8cs_source.html#l00010">10</a> of file <a class="el" href="_probe_volume_8_migration_8cs_source.html">ProbeVolume.Migration.cs</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="aba14a1553a3c988a1a11cd5964e8deed" name="aba14a1553a3c988a1a11cd5964e8deed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba14a1553a3c988a1a11cd5964e8deed">&#9670;&#160;</a></span>Awake()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> BXRenderPipeline.ProbeVolume.Awake </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_probe_volume_8_migration_8cs_source.html#l00028">28</a> of file <a class="el" href="_probe_volume_8_migration_8cs_source.html">ProbeVolume.Migration.cs</a>.</p>
 
 </div>
 </div>
@@ -374,6 +454,30 @@ Public Attributes</h2></td></tr>
 <p>The size. </p>
 
 <p class="definition">Definition at line <a class="el" href="_probe_volume_8cs_source.html#l00043">43</a> of file <a class="el" href="_probe_volume_8cs_source.html">ProbeVolume.cs</a>.</p>
+
+</div>
+</div>
+<a id="abdc873be7e2fc26f6b26e14ac32236bd" name="abdc873be7e2fc26f6b26e14ac32236bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abdc873be7e2fc26f6b26e14ac32236bd">&#9670;&#160;</a></span>version</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a4c935655ab04fb65288ba9a4a0048536">Version</a> BXRenderPipeline.ProbeVolume.version = <a class="el" href="#a4c935655ab04fb65288ba9a4a0048536a4f2a91e15af2631ff9424564b8a45fb2">Version.Initial</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_probe_volume_8_migration_8cs_source.html#l00020">20</a> of file <a class="el" href="_probe_volume_8_migration_8cs_source.html">ProbeVolume.Migration.cs</a>.</p>
 
 </div>
 </div>

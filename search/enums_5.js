@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['probevolumeblendingtexturememorybudget_0',['ProbeVolumeBlendingTextureMemoryBudget',['../namespace_b_x_render_pipeline.html#ad66c8e48774b9c1ec12bed179147bfdd',1,'BXRenderPipeline']]],
-  ['probevolumeshbands_1',['ProbeVolumeSHBands',['../namespace_b_x_render_pipeline.html#ab990d971caf1a583df90e2d5967b1aaa',1,'BXRenderPipeline']]],
-  ['probevolumetexturememorybudget_2',['ProbeVolumeTextureMemoryBudget',['../namespace_b_x_render_pipeline.html#a5f17c177dfab17860bca177d2b06c6c2',1,'BXRenderPipeline']]]
+  ['encoding_0',['Encoding',['../class_bakery_volume.html#a72458c2571f00e2e938024e9f974e077',1,'BakeryVolume']]],
+  ['enumtype_1',['EnumType',['../namespace_b_x_geometry_graph.html#ad034588970e50b298c7c17e33ea2d2bd',1,'BXGeometryGraph']]]
 ];

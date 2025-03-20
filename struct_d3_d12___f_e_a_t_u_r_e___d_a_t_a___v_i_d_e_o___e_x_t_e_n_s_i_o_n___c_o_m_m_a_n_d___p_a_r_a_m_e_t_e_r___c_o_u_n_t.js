@@ -1,0 +1,7 @@
+var struct_d3_d12___f_e_a_t_u_r_e___d_a_t_a___v_i_d_e_o___e_x_t_e_n_s_i_o_n___c_o_m_m_a_n_d___p_a_r_a_m_e_t_e_r___c_o_u_n_t =
+[
+    [ "CommandId", "struct_d3_d12___f_e_a_t_u_r_e___d_a_t_a___v_i_d_e_o___e_x_t_e_n_s_i_o_n___c_o_m_m_a_n_d___p_a_r_a_m_e_t_e_r___c_o_u_n_t.html#a4ee939df97f8ef89f3ed25b0a39bd089", null ],
+    [ "ParameterCount", "struct_d3_d12___f_e_a_t_u_r_e___d_a_t_a___v_i_d_e_o___e_x_t_e_n_s_i_o_n___c_o_m_m_a_n_d___p_a_r_a_m_e_t_e_r___c_o_u_n_t.html#af83648e824fdf8ad2f71319309fc9f68", null ],
+    [ "ParameterPacking", "struct_d3_d12___f_e_a_t_u_r_e___d_a_t_a___v_i_d_e_o___e_x_t_e_n_s_i_o_n___c_o_m_m_a_n_d___p_a_r_a_m_e_t_e_r___c_o_u_n_t.html#a05f5b1c35e3d469f5853a9bbbad5e674", null ],
+    [ "Stage", "struct_d3_d12___f_e_a_t_u_r_e___d_a_t_a___v_i_d_e_o___e_x_t_e_n_s_i_o_n___c_o_m_m_a_n_d___p_a_r_a_m_e_t_e_r___c_o_u_n_t.html#aff31c8100983277194fcd4621c08971f", null ]
+];

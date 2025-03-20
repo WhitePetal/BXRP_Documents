@@ -1,0 +1,4 @@
+var struct_d3_d12___d_e_b_u_g___d_e_v_i_c_e___g_p_u___s_l_o_w_d_o_w_n___p_e_r_f_o_r_m_a_n_c_e___f_a_c_t_o_r =
+[
+    [ "SlowdownFactor", "struct_d3_d12___d_e_b_u_g___d_e_v_i_c_e___g_p_u___s_l_o_w_d_o_w_n___p_e_r_f_o_r_m_a_n_c_e___f_a_c_t_o_r.html#afb86d31a7c56dcd0eaf98d64b32ea1a0", null ]
+];

@@ -1,0 +1,7 @@
+var _b_x_physics_light_setting_8cs =
+[
+    [ "BXRenderPipeline.BXPhysicsLightSetting", "class_b_x_render_pipeline_1_1_b_x_physics_light_setting.html", "class_b_x_render_pipeline_1_1_b_x_physics_light_setting" ],
+    [ "BXRenderPipeline.BXPhysicsLightSetting.ColorSystem", "struct_b_x_render_pipeline_1_1_b_x_physics_light_setting_1_1_color_system.html", "struct_b_x_render_pipeline_1_1_b_x_physics_light_setting_1_1_color_system" ],
+    [ "BXRenderPipeline.BXPhysicsLightSetting.SpectralLuminousEfficacyFuncEelment", "struct_b_x_render_pipeline_1_1_b_x_physics_light_setting_1_1_spectral_luminous_efficacy_func_eelment.html", "struct_b_x_render_pipeline_1_1_b_x_physics_light_setting_1_1_spectral_luminous_efficacy_func_eelment" ],
+    [ "BXRenderPipeline.BXPhysicsLightSetting.ColorWaveLengthElement", "struct_b_x_render_pipeline_1_1_b_x_physics_light_setting_1_1_color_wave_length_element.html", "struct_b_x_render_pipeline_1_1_b_x_physics_light_setting_1_1_color_wave_length_element" ]
+];

@@ -109,19 +109,26 @@ $(function(){initNavTree('class_upload_buffer.html',''); initResizable(true); })
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-types">Private Types</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_upload_buffer-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">UploadBuffer Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &lt;<a class="el" href="_upload_buffer_8h_source.html">UploadBuffer.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_upload_buffer_1_1_allocation.html">Allocation</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_upload_buffer_1_1_page.html">Page</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a3a919f18b482656adf37f615e643ee11" id="r_a3a919f18b482656adf37f615e643ee11"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a919f18b482656adf37f615e643ee11">UploadBuffer</a> (size_t pageSize=_2MB)</td></tr>
+<tr class="memitem:a3a919f18b482656adf37f615e643ee11" id="r_a3a919f18b482656adf37f615e643ee11"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a919f18b482656adf37f615e643ee11">UploadBuffer</a> (size_t pageSize=<a class="el" href="_storage_defines_8h.html#a8cddd239177a5cca540ec55ca1d922a5">_2MB</a>)</td></tr>
 <tr class="memdesc:a3a919f18b482656adf37f615e643ee11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a memory page.  <br /></td></tr>
 <tr class="separator:a3a919f18b482656adf37f615e643ee11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a789e20c6d002b28fe19f6af7976a90a5" id="r_a789e20c6d002b28fe19f6af7976a90a5"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a789e20c6d002b28fe19f6af7976a90a5">GetPagesSize</a> () const</td></tr>
@@ -130,14 +137,65 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5a7f23086d49cc5a6a6c6cc992f2e76f" id="r_a5a7f23086d49cc5a6a6c6cc992f2e76f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_upload_buffer_1_1_allocation.html">Allocation</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a7f23086d49cc5a6a6c6cc992f2e76f">Allocate</a> (size_t sizeInBytes, size_t alignment)</td></tr>
 <tr class="memdesc:a5a7f23086d49cc5a6a6c6cc992f2e76f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate memory in an Upload heap An allocation must not exceed the size of a page Use a memcpy or similar method to copy the buffer data to CPU pointer in the <a class="el" href="struct_upload_buffer_1_1_allocation.html">Allocation</a> structure returned from this function.  <br /></td></tr>
 <tr class="separator:a5a7f23086d49cc5a6a6c6cc992f2e76f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa5139112e176ce113059e3f88d2b8a8a" id="r_aa5139112e176ce113059e3f88d2b8a8a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa5139112e176ce113059e3f88d2b8a8a">Reset</a> ()</td></tr>
+<tr class="memitem:aa5139112e176ce113059e3f88d2b8a8a" id="r_aa5139112e176ce113059e3f88d2b8a8a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa5139112e176ce113059e3f88d2b8a8a">Reset</a> ()</td></tr>
 <tr class="memdesc:aa5139112e176ce113059e3f88d2b8a8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Release all allocated pages. This should only be done when the command list is finished excuting on the <a class="el" href="class_command_queue.html">CommandQueue</a>.  <br /></td></tr>
 <tr class="separator:aa5139112e176ce113059e3f88d2b8a8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-types" name="pri-types"></a>
+Private Types</h2></td></tr>
+<tr class="memitem:a832e62e32f0cf3a6d1fc778cc060f48d" id="r_a832e62e32f0cf3a6d1fc778cc060f48d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a832e62e32f0cf3a6d1fc778cc060f48d">PagePool</a> = std::deque&lt;std::shared_ptr&lt;<a class="el" href="struct_upload_buffer_1_1_page.html">Page</a>&gt;&gt;</td></tr>
+<tr class="memdesc:a832e62e32f0cf3a6d1fc778cc060f48d"><td class="mdescLeft">&#160;</td><td class="mdescRight">A pool of memory pages.  <br /></td></tr>
+<tr class="separator:a832e62e32f0cf3a6d1fc778cc060f48d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:aca77cf0e319f2ef8a33075fcce0714b0" id="r_aca77cf0e319f2ef8a33075fcce0714b0"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="struct_upload_buffer_1_1_page.html">Page</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aca77cf0e319f2ef8a33075fcce0714b0">RequestPage</a> ()</td></tr>
+<tr class="memdesc:aca77cf0e319f2ef8a33075fcce0714b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Request a page from the pool of available pages or create a new page if there are no available pages.  <br /></td></tr>
+<tr class="separator:aca77cf0e319f2ef8a33075fcce0714b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:aefb6c2af39e1caa17eddda496eb44f3d" id="r_aefb6c2af39e1caa17eddda496eb44f3d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a832e62e32f0cf3a6d1fc778cc060f48d">PagePool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefb6c2af39e1caa17eddda496eb44f3d">m_PagePool</a></td></tr>
+<tr class="separator:aefb6c2af39e1caa17eddda496eb44f3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3dd4e05c403ed91cc9bc3b9cd9dea68" id="r_ab3dd4e05c403ed91cc9bc3b9cd9dea68"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a832e62e32f0cf3a6d1fc778cc060f48d">PagePool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3dd4e05c403ed91cc9bc3b9cd9dea68">m_AvailablePages</a></td></tr>
+<tr class="separator:ab3dd4e05c403ed91cc9bc3b9cd9dea68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2122b35241dc4ba1fb9ab109b5e9c34c" id="r_a2122b35241dc4ba1fb9ab109b5e9c34c"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="struct_upload_buffer_1_1_page.html">Page</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2122b35241dc4ba1fb9ab109b5e9c34c">m_CurrentPage</a></td></tr>
+<tr class="separator:a2122b35241dc4ba1fb9ab109b5e9c34c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46f9836bbe2b008a3312794888b3c4a6" id="r_a46f9836bbe2b008a3312794888b3c4a6"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46f9836bbe2b008a3312794888b3c4a6">m_PageSize</a></td></tr>
+<tr class="memdesc:a46f9836bbe2b008a3312794888b3c4a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">The size of each page of memory.  <br /></td></tr>
+<tr class="separator:a46f9836bbe2b008a3312794888b3c4a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
 <p class="definition">Definition at line <a class="el" href="_upload_buffer_8h_source.html#l00011">11</a> of file <a class="el" href="_upload_buffer_8h_source.html">UploadBuffer.h</a>.</p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="a832e62e32f0cf3a6d1fc778cc060f48d" name="a832e62e32f0cf3a6d1fc778cc060f48d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a832e62e32f0cf3a6d1fc778cc060f48d">&#9670;&#160;</a></span>PagePool</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#a832e62e32f0cf3a6d1fc778cc060f48d">UploadBuffer::PagePool</a> = std::deque&lt;std::shared_ptr&lt;<a class="el" href="struct_upload_buffer_1_1_page.html">Page</a>&gt;&gt;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>A pool of memory pages. </p>
+
+<p class="definition">Definition at line <a class="el" href="_upload_buffer_8h_source.html#l00099">99</a> of file <a class="el" href="_upload_buffer_8h_source.html">UploadBuffer.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a3a919f18b482656adf37f615e643ee11" name="a3a919f18b482656adf37f615e643ee11"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3a919f18b482656adf37f615e643ee11">&#9670;&#160;</a></span>UploadBuffer()</h2>
 
@@ -150,7 +208,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">UploadBuffer::UploadBuffer </td>
           <td>(</td>
-          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>pageSize</em></span><span class="paramdefsep"> = </span><span class="paramdefval">_2MB</span></td><td>)</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>pageSize</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="_storage_defines_8h.html#a8cddd239177a5cca540ec55ca1d922a5">_2MB</a></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -229,6 +287,36 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="aca77cf0e319f2ef8a33075fcce0714b0" name="aca77cf0e319f2ef8a33075fcce0714b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca77cf0e319f2ef8a33075fcce0714b0">&#9670;&#160;</a></span>RequestPage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="struct_upload_buffer_1_1_page.html">UploadBuffer::Page</a> &gt; UploadBuffer::RequestPage </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Request a page from the pool of available pages or create a new page if there are no available pages. </p>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="_upload_buffer_8cpp_source.html#l00033">33</a> of file <a class="el" href="_upload_buffer_8cpp_source.html">UploadBuffer.cpp</a>.</p>
+
+</div>
+</div>
 <a id="aa5139112e176ce113059e3f88d2b8a8a" name="aa5139112e176ce113059e3f88d2b8a8a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa5139112e176ce113059e3f88d2b8a8a">&#9670;&#160;</a></span>Reset()</h2>
 
@@ -236,7 +324,7 @@ Public Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void UploadBuffer::Reset </td>
+          <td class="memname"><a class="el" href="d3d12sdklayers_8h.html#a01f9caf1271fa89e1e23e83ddb9cf9d8">void</a> UploadBuffer::Reset </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -247,6 +335,105 @@ Public Member Functions</h2></td></tr>
 <p>Release all allocated pages. This should only be done when the command list is finished excuting on the <a class="el" href="class_command_queue.html">CommandQueue</a>. </p>
 
 <p class="definition">Definition at line <a class="el" href="_upload_buffer_8cpp_source.html#l00051">51</a> of file <a class="el" href="_upload_buffer_8cpp_source.html">UploadBuffer.cpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="ab3dd4e05c403ed91cc9bc3b9cd9dea68" name="ab3dd4e05c403ed91cc9bc3b9cd9dea68"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3dd4e05c403ed91cc9bc3b9cd9dea68">&#9670;&#160;</a></span>m_AvailablePages</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a832e62e32f0cf3a6d1fc778cc060f48d">PagePool</a> UploadBuffer::m_AvailablePages</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_upload_buffer_8h_source.html#l00109">109</a> of file <a class="el" href="_upload_buffer_8h_source.html">UploadBuffer.h</a>.</p>
+
+</div>
+</div>
+<a id="a2122b35241dc4ba1fb9ab109b5e9c34c" name="a2122b35241dc4ba1fb9ab109b5e9c34c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2122b35241dc4ba1fb9ab109b5e9c34c">&#9670;&#160;</a></span>m_CurrentPage</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt;<a class="el" href="struct_upload_buffer_1_1_page.html">Page</a>&gt; UploadBuffer::m_CurrentPage</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_upload_buffer_8h_source.html#l00111">111</a> of file <a class="el" href="_upload_buffer_8h_source.html">UploadBuffer.h</a>.</p>
+
+</div>
+</div>
+<a id="aefb6c2af39e1caa17eddda496eb44f3d" name="aefb6c2af39e1caa17eddda496eb44f3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aefb6c2af39e1caa17eddda496eb44f3d">&#9670;&#160;</a></span>m_PagePool</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a832e62e32f0cf3a6d1fc778cc060f48d">PagePool</a> UploadBuffer::m_PagePool</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_upload_buffer_8h_source.html#l00108">108</a> of file <a class="el" href="_upload_buffer_8h_source.html">UploadBuffer.h</a>.</p>
+
+</div>
+</div>
+<a id="a46f9836bbe2b008a3312794888b3c4a6" name="a46f9836bbe2b008a3312794888b3c4a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46f9836bbe2b008a3312794888b3c4a6">&#9670;&#160;</a></span>m_PageSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t UploadBuffer::m_PageSize</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The size of each page of memory. </p>
+
+<p class="definition">Definition at line <a class="el" href="_upload_buffer_8h_source.html#l00116">116</a> of file <a class="el" href="_upload_buffer_8h_source.html">UploadBuffer.h</a>.</p>
 
 </div>
 </div>

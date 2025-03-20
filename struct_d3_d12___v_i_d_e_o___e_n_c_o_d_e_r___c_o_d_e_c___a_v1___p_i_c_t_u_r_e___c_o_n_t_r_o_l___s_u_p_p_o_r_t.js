@@ -1,0 +1,7 @@
+var struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___c_o_d_e_c___a_v1___p_i_c_t_u_r_e___c_o_n_t_r_o_l___s_u_p_p_o_r_t =
+[
+    [ "MaxUniqueReferencesPerFrame", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___c_o_d_e_c___a_v1___p_i_c_t_u_r_e___c_o_n_t_r_o_l___s_u_p_p_o_r_t.html#a9d52624a56627903b3de2b35201c4789", null ],
+    [ "PredictionMode", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___c_o_d_e_c___a_v1___p_i_c_t_u_r_e___c_o_n_t_r_o_l___s_u_p_p_o_r_t.html#a666595b18f5fa30bf637d0bfbde701a3", null ],
+    [ "SupportedFrameTypes", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___c_o_d_e_c___a_v1___p_i_c_t_u_r_e___c_o_n_t_r_o_l___s_u_p_p_o_r_t.html#ae900dd752d9279bf7a9acc174c173d07", null ],
+    [ "SupportedReferenceWarpedMotionFlags", "struct_d3_d12___v_i_d_e_o___e_n_c_o_d_e_r___c_o_d_e_c___a_v1___p_i_c_t_u_r_e___c_o_n_t_r_o_l___s_u_p_p_o_r_t.html#a369ed42899a50051ae154bf6a95fc0d9", null ]
+];

@@ -109,7 +109,7 @@ $(function(){initNavTree('_s_v_c_c_8cs_source.html',''); initResizable(true); })
   <div class="headertitle"><div class="title">SVCC.cs</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="keyword">using </span>System.Collections;</div>
+<a href="_s_v_c_c_8cs.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="keyword">using </span>System.Collections;</div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="keyword">using </span>System.Collections.Generic;</div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="keyword">using </span>UnityEngine;</div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
@@ -119,65 +119,77 @@ $(function(){initNavTree('_s_v_c_c_8cs_source.html',''); initResizable(true); })
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="class_b_x_render_pipeline_1_1_s_v_c_c.html">   10</a></span>    <span class="keyword">public</span> <span class="keyword">class </span><a class="code hl_class" href="class_b_x_render_pipeline_1_1_s_v_c_c.html">SVCC</a> : ScriptableObject</div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>    {</div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>        [SerializeField]</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>        <span class="keyword">public</span> ShaderVariantCollection[] collections;</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="class_b_x_render_pipeline_1_1_s_v_c_c.html#a2f3870dabf3f261f564851ef0b992467">   13</a></span>        <span class="keyword">public</span> ShaderVariantCollection[] <a class="code hl_variable" href="class_b_x_render_pipeline_1_1_s_v_c_c.html#a2f3870dabf3f261f564851ef0b992467">collections</a>;</div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>        <span class="keyword">public</span> <span class="keywordtype">int</span> Count</div>
+<div class="foldopen" id="foldopen00015" data-start="{" data-end="};">
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="class_b_x_render_pipeline_1_1_s_v_c_c.html#af4b5e63423fa46a929eb55207de15a51">   15</a></span>        <span class="keyword">public</span> <span class="keywordtype">int</span> <a class="code hl_property" href="class_b_x_render_pipeline_1_1_s_v_c_c.html#af4b5e63423fa46a929eb55207de15a51">Count</a></div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>        {</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>            <span class="keyword">get</span></div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>            {</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>                <span class="keywordflow">return</span> collections.Length;</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="class_b_x_render_pipeline_1_1_s_v_c_c.html#a2f3870dabf3f261f564851ef0b992467">collections</a>.Length;</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>            }</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>        }</div>
+</div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
 <div class="foldopen" id="foldopen00023" data-start="{" data-end="};">
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="struct_b_x_render_pipeline_1_1_s_v_c_c_1_1_iterator.html">   23</a></span>        <span class="keyword">public</span> <span class="keyword">struct </span>Iterator</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="struct_b_x_render_pipeline_1_1_s_v_c_c_1_1_iterator.html">   23</a></span>        <span class="keyword">public</span> <span class="keyword">struct </span><a class="code hl_function" href="struct_b_x_render_pipeline_1_1_s_v_c_c_1_1_iterator.html#a78bb001e7d90f56bec2049264f93d624">Iterator</a></div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>        {</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>            <span class="keyword">private</span> readonly <a class="code hl_class" href="class_b_x_render_pipeline_1_1_s_v_c_c.html">SVCC</a> owner;</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="struct_b_x_render_pipeline_1_1_s_v_c_c_1_1_iterator.html#a13c1f78cda7b045a4ae6323b7d7d85fe">   25</a></span>            <span class="keyword">private</span> readonly <a class="code hl_class" href="class_b_x_render_pipeline_1_1_s_v_c_c.html">SVCC</a> <a class="code hl_variable" href="struct_b_x_render_pipeline_1_1_s_v_c_c_1_1_iterator.html#a13c1f78cda7b045a4ae6323b7d7d85fe">owner</a>;</div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>            <span class="keyword">private</span> <span class="keywordtype">int</span> index;</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="struct_b_x_render_pipeline_1_1_s_v_c_c_1_1_iterator.html#af1da93f889f0fdb25cbd5f8665c75e92">   27</a></span>            <span class="keyword">private</span> <span class="keywordtype">int</span> <a class="code hl_variable" href="struct_b_x_render_pipeline_1_1_s_v_c_c_1_1_iterator.html#af1da93f889f0fdb25cbd5f8665c75e92">index</a>;</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>            </div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>            <span class="keyword">public</span> Iterator(<a class="code hl_class" href="class_b_x_render_pipeline_1_1_s_v_c_c.html">SVCC</a> setOwner)</div>
+<div class="foldopen" id="foldopen00029" data-start="{" data-end="}">
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="struct_b_x_render_pipeline_1_1_s_v_c_c_1_1_iterator.html#a78bb001e7d90f56bec2049264f93d624">   29</a></span>            <span class="keyword">public</span> <a class="code hl_function" href="struct_b_x_render_pipeline_1_1_s_v_c_c_1_1_iterator.html#a78bb001e7d90f56bec2049264f93d624">Iterator</a>(<a class="code hl_class" href="class_b_x_render_pipeline_1_1_s_v_c_c.html">SVCC</a> setOwner)</div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>            {</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>                this.owner = setOwner;</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>                index = 0;</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>                <a class="code hl_variable" href="struct_b_x_render_pipeline_1_1_s_v_c_c_1_1_iterator.html#af1da93f889f0fdb25cbd5f8665c75e92">index</a> = 0;</div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>            }</div>
+</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>            <span class="keyword">public</span> ref ShaderVariantCollection Current</div>
+<div class="foldopen" id="foldopen00035" data-start="{" data-end="};">
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="struct_b_x_render_pipeline_1_1_s_v_c_c_1_1_iterator.html#aafdf7bda8204426e9714a54305901d6e">   35</a></span>            <span class="keyword">public</span> ref ShaderVariantCollection <a class="code hl_property" href="struct_b_x_render_pipeline_1_1_s_v_c_c_1_1_iterator.html#aafdf7bda8204426e9714a54305901d6e">Current</a></div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>            {</div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>                <span class="keyword">get</span></div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>                {</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>                    ref var svc = ref owner[index];</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>                    ref var svc = ref <a class="code hl_variable" href="struct_b_x_render_pipeline_1_1_s_v_c_c_1_1_iterator.html#a13c1f78cda7b045a4ae6323b7d7d85fe">owner</a>[<a class="code hl_variable" href="struct_b_x_render_pipeline_1_1_s_v_c_c_1_1_iterator.html#af1da93f889f0fdb25cbd5f8665c75e92">index</a>];</div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>                    <span class="keywordflow">return</span> ref svc;</div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>                }</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>            }</div>
+</div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>            <span class="keyword">public</span> <span class="keywordtype">bool</span> MoveNext()</div>
+<div class="foldopen" id="foldopen00044" data-start="{" data-end="}">
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="struct_b_x_render_pipeline_1_1_s_v_c_c_1_1_iterator.html#a3e798a808266ada103edb4e237b13b96">   44</a></span>            <span class="keyword">public</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="struct_b_x_render_pipeline_1_1_s_v_c_c_1_1_iterator.html#a3e798a808266ada103edb4e237b13b96">MoveNext</a>()</div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>            {</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>                ++index;</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>                <span class="keywordflow">return</span> index &lt; owner.collections.Length;</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>                ++<a class="code hl_variable" href="struct_b_x_render_pipeline_1_1_s_v_c_c_1_1_iterator.html#af1da93f889f0fdb25cbd5f8665c75e92">index</a>;</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="struct_b_x_render_pipeline_1_1_s_v_c_c_1_1_iterator.html#af1da93f889f0fdb25cbd5f8665c75e92">index</a> &lt; <a class="code hl_variable" href="struct_b_x_render_pipeline_1_1_s_v_c_c_1_1_iterator.html#a13c1f78cda7b045a4ae6323b7d7d85fe">owner</a>.collections.Length;</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>            }</div>
+</div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>            <span class="keyword">public</span> <span class="keywordtype">void</span> Reset()</div>
+<div class="foldopen" id="foldopen00050" data-start="{" data-end="}">
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="struct_b_x_render_pipeline_1_1_s_v_c_c_1_1_iterator.html#ae8bfb009f8c3d3eb2ae60937ae7191ac">   50</a></span>            <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code hl_function" href="struct_b_x_render_pipeline_1_1_s_v_c_c_1_1_iterator.html#ae8bfb009f8c3d3eb2ae60937ae7191ac">Reset</a>()</div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>            {</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>                index = -1;</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>                <a class="code hl_variable" href="struct_b_x_render_pipeline_1_1_s_v_c_c_1_1_iterator.html#af1da93f889f0fdb25cbd5f8665c75e92">index</a> = -1;</div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>            }</div>
+</div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>        }</div>
 </div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>        <span class="keyword">public</span> <a class="code hl_struct" href="struct_b_x_render_pipeline_1_1_s_v_c_c_1_1_iterator.html">Iterator</a> GetEnumerator()</div>
+<div class="foldopen" id="foldopen00056" data-start="{" data-end="}">
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="class_b_x_render_pipeline_1_1_s_v_c_c.html#af7d5c43a4cef5880d60af62b7e45d49e">   56</a></span>        <span class="keyword">public</span> <a class="code hl_struct" href="struct_b_x_render_pipeline_1_1_s_v_c_c_1_1_iterator.html">Iterator</a> <a class="code hl_function" href="class_b_x_render_pipeline_1_1_s_v_c_c.html#af7d5c43a4cef5880d60af62b7e45d49e">GetEnumerator</a>()</div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>        {</div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>            <span class="keywordflow">return</span> <span class="keyword">new</span> <a class="code hl_struct" href="struct_b_x_render_pipeline_1_1_s_v_c_c_1_1_iterator.html">Iterator</a>(<span class="keyword">this</span>);</div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>        }</div>
+</div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span></div>
 <div class="foldopen" id="foldopen00066" data-start="{" data-end="};">
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno"><a class="line" href="class_b_x_render_pipeline_1_1_s_v_c_c.html#a01593de260aa4343dcb23b3c4f8bd2e8">   66</a></span>        <span class="keyword">public</span> ref ShaderVariantCollection <span class="keyword">this</span>[<span class="keywordtype">int</span> index]</div>
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>        {</div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>            <span class="keyword">get</span></div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>            {</div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>                var svc = collections[index];</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>                var svc = <a class="code hl_variable" href="class_b_x_render_pipeline_1_1_s_v_c_c.html#a2f3870dabf3f261f564851ef0b992467">collections</a>[index];</div>
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>                <span class="keywordflow">if</span> (svc != <span class="keyword">null</span> &amp;&amp; !svc.isWarmedUp)</div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>                    svc.WarmUp();</div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>                <span class="keywordflow">return</span> ref collections[index];</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>                <span class="keywordflow">return</span> ref <a class="code hl_variable" href="class_b_x_render_pipeline_1_1_s_v_c_c.html#a2f3870dabf3f261f564851ef0b992467">collections</a>[index];</div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>            }</div>
 <div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>        }</div>
 </div>
@@ -185,14 +197,23 @@ $(function(){initNavTree('_s_v_c_c_8cs_source.html',''); initResizable(true); })
 </div>
 <div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>}</div>
 <div class="ttc" id="aclass_b_x_render_pipeline_1_1_s_v_c_c_html"><div class="ttname"><a href="class_b_x_render_pipeline_1_1_s_v_c_c.html">BXRenderPipeline.SVCC</a></div><div class="ttdoc">遍历SVCC时会直接进行Shader预热</div><div class="ttdef"><b>Definition</b> <a href="#l00010">SVCC.cs:11</a></div></div>
+<div class="ttc" id="aclass_b_x_render_pipeline_1_1_s_v_c_c_html_a2f3870dabf3f261f564851ef0b992467"><div class="ttname"><a href="class_b_x_render_pipeline_1_1_s_v_c_c.html#a2f3870dabf3f261f564851ef0b992467">BXRenderPipeline.SVCC.collections</a></div><div class="ttdeci">ShaderVariantCollection[] collections</div><div class="ttdef"><b>Definition</b> <a href="#l00013">SVCC.cs:13</a></div></div>
+<div class="ttc" id="aclass_b_x_render_pipeline_1_1_s_v_c_c_html_af4b5e63423fa46a929eb55207de15a51"><div class="ttname"><a href="class_b_x_render_pipeline_1_1_s_v_c_c.html#af4b5e63423fa46a929eb55207de15a51">BXRenderPipeline.SVCC.Count</a></div><div class="ttdeci">int Count</div><div class="ttdef"><b>Definition</b> <a href="#l00015">SVCC.cs:16</a></div></div>
+<div class="ttc" id="aclass_b_x_render_pipeline_1_1_s_v_c_c_html_af7d5c43a4cef5880d60af62b7e45d49e"><div class="ttname"><a href="class_b_x_render_pipeline_1_1_s_v_c_c.html#af7d5c43a4cef5880d60af62b7e45d49e">BXRenderPipeline.SVCC.GetEnumerator</a></div><div class="ttdeci">Iterator GetEnumerator()</div><div class="ttdef"><b>Definition</b> <a href="#l00056">SVCC.cs:56</a></div></div>
 <div class="ttc" id="anamespace_b_x_render_pipeline_html"><div class="ttname"><a href="namespace_b_x_render_pipeline.html">BXRenderPipeline</a></div><div class="ttdef"><b>Definition</b> <a href="_b_x_additional_light_data_8_types_8cs_source.html#l00006">BXAdditionalLightData.Types.cs:7</a></div></div>
 <div class="ttc" id="astruct_b_x_render_pipeline_1_1_s_v_c_c_1_1_iterator_html"><div class="ttname"><a href="struct_b_x_render_pipeline_1_1_s_v_c_c_1_1_iterator.html">BXRenderPipeline.SVCC.Iterator</a></div><div class="ttdef"><b>Definition</b> <a href="#l00023">SVCC.cs:24</a></div></div>
+<div class="ttc" id="astruct_b_x_render_pipeline_1_1_s_v_c_c_1_1_iterator_html_a13c1f78cda7b045a4ae6323b7d7d85fe"><div class="ttname"><a href="struct_b_x_render_pipeline_1_1_s_v_c_c_1_1_iterator.html#a13c1f78cda7b045a4ae6323b7d7d85fe">BXRenderPipeline.SVCC.Iterator.owner</a></div><div class="ttdeci">readonly SVCC owner</div><div class="ttdef"><b>Definition</b> <a href="#l00025">SVCC.cs:25</a></div></div>
+<div class="ttc" id="astruct_b_x_render_pipeline_1_1_s_v_c_c_1_1_iterator_html_a3e798a808266ada103edb4e237b13b96"><div class="ttname"><a href="struct_b_x_render_pipeline_1_1_s_v_c_c_1_1_iterator.html#a3e798a808266ada103edb4e237b13b96">BXRenderPipeline.SVCC.Iterator.MoveNext</a></div><div class="ttdeci">bool MoveNext()</div><div class="ttdef"><b>Definition</b> <a href="#l00044">SVCC.cs:44</a></div></div>
+<div class="ttc" id="astruct_b_x_render_pipeline_1_1_s_v_c_c_1_1_iterator_html_a78bb001e7d90f56bec2049264f93d624"><div class="ttname"><a href="struct_b_x_render_pipeline_1_1_s_v_c_c_1_1_iterator.html#a78bb001e7d90f56bec2049264f93d624">BXRenderPipeline.SVCC.Iterator.Iterator</a></div><div class="ttdeci">Iterator(SVCC setOwner)</div><div class="ttdef"><b>Definition</b> <a href="#l00029">SVCC.cs:29</a></div></div>
+<div class="ttc" id="astruct_b_x_render_pipeline_1_1_s_v_c_c_1_1_iterator_html_aafdf7bda8204426e9714a54305901d6e"><div class="ttname"><a href="struct_b_x_render_pipeline_1_1_s_v_c_c_1_1_iterator.html#aafdf7bda8204426e9714a54305901d6e">BXRenderPipeline.SVCC.Iterator.Current</a></div><div class="ttdeci">ref ShaderVariantCollection Current</div><div class="ttdef"><b>Definition</b> <a href="#l00035">SVCC.cs:36</a></div></div>
+<div class="ttc" id="astruct_b_x_render_pipeline_1_1_s_v_c_c_1_1_iterator_html_ae8bfb009f8c3d3eb2ae60937ae7191ac"><div class="ttname"><a href="struct_b_x_render_pipeline_1_1_s_v_c_c_1_1_iterator.html#ae8bfb009f8c3d3eb2ae60937ae7191ac">BXRenderPipeline.SVCC.Iterator.Reset</a></div><div class="ttdeci">void Reset()</div><div class="ttdef"><b>Definition</b> <a href="#l00050">SVCC.cs:50</a></div></div>
+<div class="ttc" id="astruct_b_x_render_pipeline_1_1_s_v_c_c_1_1_iterator_html_af1da93f889f0fdb25cbd5f8665c75e92"><div class="ttname"><a href="struct_b_x_render_pipeline_1_1_s_v_c_c_1_1_iterator.html#af1da93f889f0fdb25cbd5f8665c75e92">BXRenderPipeline.SVCC.Iterator.index</a></div><div class="ttdeci">int index</div><div class="ttdef"><b>Definition</b> <a href="#l00027">SVCC.cs:27</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_f73a8b7d50989afdadf24d8fc7357a9a.html">FloowDream</a></li><li class="navelem"><a class="el" href="dir_1ba945c5ec581c9e331de81f300aff07.html">Assets</a></li><li class="navelem"><a class="el" href="dir_a57f4778d467e0a6236fa4788364df6c.html">Scripts</a></li><li class="navelem"><a class="el" href="dir_8b4148ef0ffda13d8a8272867298b61d.html">BXRenderPipeline</a></li><li class="navelem"><a class="el" href="dir_0acec51146588e9612d135198fadcab2.html">ShaderVariants</a></li><li class="navelem"><b>SVCC.cs</b></li>
+    <li class="navelem"><a class="el" href="dir_f73a8b7d50989afdadf24d8fc7357a9a.html">FloowDream</a></li><li class="navelem"><a class="el" href="dir_1ba945c5ec581c9e331de81f300aff07.html">Assets</a></li><li class="navelem"><a class="el" href="dir_a57f4778d467e0a6236fa4788364df6c.html">Scripts</a></li><li class="navelem"><a class="el" href="dir_8b4148ef0ffda13d8a8272867298b61d.html">BXRenderPipeline</a></li><li class="navelem"><a class="el" href="dir_0acec51146588e9612d135198fadcab2.html">ShaderVariants</a></li><li class="navelem"><a class="el" href="_s_v_c_c_8cs.html">SVCC.cs</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
   </ul>
 </div>

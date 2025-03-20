@@ -1,0 +1,26 @@
+var struct_bakery_lightmap_group_plain =
+[
+    [ "atlasPacker", "struct_bakery_lightmap_group_plain.html#ac8b25e5b0268ac490f1fc7be2a94543d", null ],
+    [ "autoResolution", "struct_bakery_lightmap_group_plain.html#a475f1ed6e4f3dc266156dd7fed8cf021", null ],
+    [ "computeSSS", "struct_bakery_lightmap_group_plain.html#a9b201a543f0009b0d1b2fdca09c15364", null ],
+    [ "containsTerrains", "struct_bakery_lightmap_group_plain.html#a49c7862c31814c7104734c9a157c371b", null ],
+    [ "fakeShadowBias", "struct_bakery_lightmap_group_plain.html#af5ec93126dbda03d5b70b29e64c2520a", null ],
+    [ "flipNormal", "struct_bakery_lightmap_group_plain.html#a44d83a6476c8e1cbfa7c3aed69c14fa5", null ],
+    [ "holeFilling", "struct_bakery_lightmap_group_plain.html#a395bc4f27c5c69e8b0356579e315e7d1", null ],
+    [ "id", "struct_bakery_lightmap_group_plain.html#afd3df02ef4b890582621b5653c0b7724", null ],
+    [ "isImplicit", "struct_bakery_lightmap_group_plain.html#a955a16f9f3de15731c34608d05f2c432", null ],
+    [ "name", "struct_bakery_lightmap_group_plain.html#aed009fd70d90cd28d183dc5dec9a8a4e", null ],
+    [ "parentName", "struct_bakery_lightmap_group_plain.html#a708528df2d427fff59b177529336e6c9", null ],
+    [ "probes", "struct_bakery_lightmap_group_plain.html#a246a8d574f7fc4e45686879f44982cb7", null ],
+    [ "renderDirMode", "struct_bakery_lightmap_group_plain.html#a9392c88deb24579e06795f43882d980a", null ],
+    [ "renderMode", "struct_bakery_lightmap_group_plain.html#a7c2f52c2255586ddf2d8cec4975dc708", null ],
+    [ "resolution", "struct_bakery_lightmap_group_plain.html#ab3e7b7f1e2a6991892ea93cebdda6236", null ],
+    [ "sceneLodLevel", "struct_bakery_lightmap_group_plain.html#af9f6cdb2c118a4f99b22f6474f21d202", null ],
+    [ "sssB", "struct_bakery_lightmap_group_plain.html#af0fb8d737bf3ee73c5ae5e85d6625e3c", null ],
+    [ "sssDensity", "struct_bakery_lightmap_group_plain.html#a5c060afc820a384fdde1ede0fdf6a5ff", null ],
+    [ "sssG", "struct_bakery_lightmap_group_plain.html#a265fb259ee59b8f148bc57187c3b29e9", null ],
+    [ "sssR", "struct_bakery_lightmap_group_plain.html#adb408de5110958d34944e4106d8218a4", null ],
+    [ "sssSamples", "struct_bakery_lightmap_group_plain.html#a4da96faa3c6bba3b2796c4677d429448", null ],
+    [ "transparentSelfShadow", "struct_bakery_lightmap_group_plain.html#acd1d60bf4562798ce59cc198bacda171", null ],
+    [ "vertexBake", "struct_bakery_lightmap_group_plain.html#a50c01b2dad517cc28c7b7e5e79db9be9", null ]
+];
