@@ -316,7 +316,7 @@ var annotated_dup =
       [ "BXRenderCommonSettings", "class_b_x_render_pipeline_1_1_b_x_render_common_settings.html", "class_b_x_render_pipeline_1_1_b_x_render_common_settings" ],
       [ "BXRenderer", "class_b_x_render_pipeline_1_1_b_x_renderer.html", null ],
       [ "BXRenderFeature", "class_b_x_render_pipeline_1_1_b_x_render_feature.html", null ],
-      [ "BXRenderPipeline", "class_b_x_render_pipeline_1_1_b_x_render_pipeline.html", null ],
+      [ "BXRenderPipeline", "class_b_x_render_pipeline_1_1_b_x_render_pipeline.html", "class_b_x_render_pipeline_1_1_b_x_render_pipeline" ],
       [ "BXRenderPipelineAsset", "class_b_x_render_pipeline_1_1_b_x_render_pipeline_asset.html", "class_b_x_render_pipeline_1_1_b_x_render_pipeline_asset" ],
       [ "BXRenderSettings", "class_b_x_render_pipeline_1_1_b_x_render_settings.html", null ],
       [ "BXRenderSettingsVolume", "class_b_x_render_pipeline_1_1_b_x_render_settings_volume.html", null ],

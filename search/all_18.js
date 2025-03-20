@@ -20,7 +20,8 @@ var searchData=
   ['toplevelasgenerator_17',['TopLevelASGenerator',['../classnv__helpers__dx12_1_1_top_level_a_s_generator.html',1,'nv_helpers_dx12']]],
   ['trademarks_18',['Trademarks',['../D:/FloowDream/Assets/Scripts/BXRenderPipeline/XEngine/XEngine/external/DirectX-Headers-main/README.md#autotoc_md19',1,'']]],
   ['transitionresource_19',['TransitionResource',['../class_engine.html#a2f96ef2d8a4b60f0f7ccd739774532af',1,'Engine']]],
-  ['turnoverrate_20',['turnoverRate',['../class_b_x_render_pipeline_1_1_probe_reference_volume.html#a3bad87525c6f99d81e2e92d332107ae4',1,'BXRenderPipeline::ProbeReferenceVolume']]],
-  ['type_21',['Type',['../struct_microsoft_1_1_w_r_l_1_1_details_1_1_adjust_implements.html',1,'Microsoft::WRL::Details::Type&lt;... &gt;'],['../struct_microsoft_1_1_w_r_l_1_1_details_1_1_adjust_implements.html',1,'Microsoft::WRL::Details::Type&lt; I0,... &gt;'],['../struct_microsoft_1_1_w_r_l_1_1_details_1_1_adjust_implements.html',1,'Microsoft::WRL::Details::Type&lt;... &gt;']]],
-  ['typeserializationinfo_22',['TypeSerializationInfo',['../struct_b_x_geometry_graph_1_1_serialization_helper_1_1_type_serialization_info.html',1,'BXGeometryGraph::SerializationHelper']]]
+  ['trygetrendercommonsettings_20',['TryGetRenderCommonSettings',['../class_b_x_render_pipeline_1_1_b_x_render_pipeline.html#a2ff49dcbb1732b9e996eaacead9e86b6',1,'BXRenderPipeline::BXRenderPipeline']]],
+  ['turnoverrate_21',['turnoverRate',['../class_b_x_render_pipeline_1_1_probe_reference_volume.html#a3bad87525c6f99d81e2e92d332107ae4',1,'BXRenderPipeline::ProbeReferenceVolume']]],
+  ['type_22',['Type',['../struct_microsoft_1_1_w_r_l_1_1_details_1_1_adjust_implements.html',1,'Microsoft::WRL::Details::Type&lt;... &gt;'],['../struct_microsoft_1_1_w_r_l_1_1_details_1_1_adjust_implements.html',1,'Microsoft::WRL::Details::Type&lt; I0,... &gt;'],['../struct_microsoft_1_1_w_r_l_1_1_details_1_1_adjust_implements.html',1,'Microsoft::WRL::Details::Type&lt;... &gt;']]],
+  ['typeserializationinfo_23',['TypeSerializationInfo',['../struct_b_x_geometry_graph_1_1_serialization_helper_1_1_type_serialization_info.html',1,'BXGeometryGraph::SerializationHelper']]]
 ];

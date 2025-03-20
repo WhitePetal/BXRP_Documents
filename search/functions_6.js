@@ -46,13 +46,14 @@ var searchData=
   ['getqualifiedname_43',['GetQualifiedName',['../struct_i_dxc_cursor.html#afcb4ea479c32a6fae3e389d6c884ed10',1,'IDxcCursor']]],
   ['getraygenentrysize_44',['GetRayGenEntrySize',['../classnv__helpers__dx12_1_1_shader_binding_table_generator.html#a07a98387b8339b5a69df0b8e27074d01',1,'nv_helpers_dx12::ShaderBindingTableGenerator']]],
   ['getraygensectionsize_45',['GetRayGenSectionSize',['../classnv__helpers__dx12_1_1_shader_binding_table_generator.html#a7adfb5deaae8d683461b479409616d3f',1,'nv_helpers_dx12::ShaderBindingTableGenerator']]],
-  ['getruntimeresources_46',['GetRuntimeResources',['../class_b_x_render_pipeline_1_1_probe_reference_volume.html#a525c89fc06a17db10941e359b674882f',1,'BXRenderPipeline::ProbeReferenceVolume']]],
-  ['getsnappedchild_47',['GetSnappedChild',['../struct_i_dxc_cursor.html#a084eb34bd8ba2a2586e73d95dbeed5b5',1,'IDxcCursor']]],
-  ['getspelling_48',['GetSpelling',['../struct_i_dxc_cursor.html#aad52db23ebc8c6cd873a5ba14d6df05d',1,'IDxcCursor']]],
-  ['getstringlength_49',['GetStringLength',['../struct_i_dxc_blob_wide.html#a32f6ee88a44ff71793b3c89147590864',1,'IDxcBlobWide::GetStringLength()'],['../struct_i_dxc_blob_utf8.html#ae77941b5c2ecbf930730e73d8bf7351f',1,'IDxcBlobUtf8::GetStringLength()']]],
-  ['getstringpointer_50',['GetStringPointer',['../struct_i_dxc_blob_wide.html#aa52324579193f57409b72963833cc11c',1,'IDxcBlobWide::GetStringPointer()'],['../struct_i_dxc_blob_utf8.html#afbf6199f13a5b29439b4885cb3c57368',1,'IDxcBlobUtf8::GetStringPointer()']]],
-  ['getvideomemorycoast_51',['GetVideoMemoryCoast',['../class_b_x_render_pipeline_1_1_probe_reference_volume.html#a45f681726555473311700fdfc6a0e920',1,'BXRenderPipeline::ProbeReferenceVolume']]],
-  ['getwindowbyname_52',['GetWindowByName',['../class_application.html#a8bacb5acb592e62e101e867dbf50ad63',1,'Application']]],
-  ['getwindowhandle_53',['GetWindowHandle',['../class_window.html#a505f97a3623db7e57a19776f73a0823b',1,'Window']]],
-  ['getwindowname_54',['GetWindowName',['../class_window.html#aa5d296ffbd9685e91f6400e0a3eefb63',1,'Window']]]
+  ['getrenderfeatures_46',['GetRenderFeatures',['../class_b_x_render_pipeline_1_1_b_x_render_pipeline.html#a8ed69f9c36717307199251f9a9e546c1',1,'BXRenderPipeline::BXRenderPipeline']]],
+  ['getruntimeresources_47',['GetRuntimeResources',['../class_b_x_render_pipeline_1_1_probe_reference_volume.html#a525c89fc06a17db10941e359b674882f',1,'BXRenderPipeline::ProbeReferenceVolume']]],
+  ['getsnappedchild_48',['GetSnappedChild',['../struct_i_dxc_cursor.html#a084eb34bd8ba2a2586e73d95dbeed5b5',1,'IDxcCursor']]],
+  ['getspelling_49',['GetSpelling',['../struct_i_dxc_cursor.html#aad52db23ebc8c6cd873a5ba14d6df05d',1,'IDxcCursor']]],
+  ['getstringlength_50',['GetStringLength',['../struct_i_dxc_blob_wide.html#a32f6ee88a44ff71793b3c89147590864',1,'IDxcBlobWide::GetStringLength()'],['../struct_i_dxc_blob_utf8.html#ae77941b5c2ecbf930730e73d8bf7351f',1,'IDxcBlobUtf8::GetStringLength()']]],
+  ['getstringpointer_51',['GetStringPointer',['../struct_i_dxc_blob_wide.html#aa52324579193f57409b72963833cc11c',1,'IDxcBlobWide::GetStringPointer()'],['../struct_i_dxc_blob_utf8.html#afbf6199f13a5b29439b4885cb3c57368',1,'IDxcBlobUtf8::GetStringPointer()']]],
+  ['getvideomemorycoast_52',['GetVideoMemoryCoast',['../class_b_x_render_pipeline_1_1_probe_reference_volume.html#a45f681726555473311700fdfc6a0e920',1,'BXRenderPipeline::ProbeReferenceVolume']]],
+  ['getwindowbyname_53',['GetWindowByName',['../class_application.html#a8bacb5acb592e62e101e867dbf50ad63',1,'Application']]],
+  ['getwindowhandle_54',['GetWindowHandle',['../class_window.html#a505f97a3623db7e57a19776f73a0823b',1,'Window']]],
+  ['getwindowname_55',['GetWindowName',['../class_window.html#aa5d296ffbd9685e91f6400e0a3eefb63',1,'Window']]]
 ];

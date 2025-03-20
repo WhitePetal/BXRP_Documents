@@ -9,5 +9,6 @@ var searchData=
   ['l2_5f3_6',['L2_3',['../struct_b_x_render_pipeline_1_1_probe_reference_volume_1_1_runtime_resources.html#ad34cae467fc4e7cadd3091e9aa02a5c1',1,'BXRenderPipeline::ProbeReferenceVolume::RuntimeResources']]],
   ['leakreductionmode_7',['leakReductionMode',['../class_b_x_render_pipeline_1_1_probe_volumes_options.html#a99b7fcb4f2261277a9f74f5c5bdeffb7',1,'BXRenderPipeline::ProbeVolumesOptions']]],
   ['leakreductionmode_5fruntime_8',['leakReductionMode_runtime',['../class_b_x_render_pipeline_1_1_probe_volumes_options.html#aa5391b1e50793d15ccffc42ca1cdfec9',1,'BXRenderPipeline::ProbeVolumesOptions']]],
-  ['lowestsubdivleveloverride_9',['lowestSubdivLevelOverride',['../class_b_x_render_pipeline_1_1_probe_volume.html#aeb0fc4a491e0e31c62224743b60caca2',1,'BXRenderPipeline::ProbeVolume']]]
+  ['legacyshadertagids_9',['legacyShaderTagIds',['../class_b_x_render_pipeline_1_1_b_x_render_pipeline.html#a8d0728b053933277c4600f6ddd94fff9',1,'BXRenderPipeline::BXRenderPipeline']]],
+  ['lowestsubdivleveloverride_10',['lowestSubdivLevelOverride',['../class_b_x_render_pipeline_1_1_probe_volume.html#aeb0fc4a491e0e31c62224743b60caca2',1,'BXRenderPipeline::ProbeVolume']]]
 ];

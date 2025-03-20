@@ -76,7 +76,7 @@ var searchData=
   ['bxrendercommonsettings_73',['BXRenderCommonSettings',['../class_b_x_render_pipeline_1_1_b_x_render_common_settings.html',1,'BXRenderPipeline']]],
   ['bxrenderer_74',['BXRenderer',['../class_b_x_render_pipeline_1_1_b_x_renderer.html',1,'BXRenderPipeline']]],
   ['bxrenderfeature_75',['BXRenderFeature',['../class_b_x_render_pipeline_1_1_b_x_render_feature.html',1,'BXRenderPipeline']]],
-  ['bxrenderpipeline_76',['BXRenderPipeline',['../class_b_x_render_pipeline_1_1_b_x_render_pipeline.html',1,'BXRenderPipeline.BXRenderPipeline'],['../namespace_b_x_render_pipeline.html',1,'BXRenderPipeline']]],
+  ['bxrenderpipeline_76',['BXRenderPipeline',['../class_b_x_render_pipeline_1_1_b_x_render_pipeline.html',1,'BXRenderPipeline.BXRenderPipeline'],['../namespace_b_x_render_pipeline.html',1,'BXRenderPipeline'],['../class_b_x_render_pipeline_1_1_b_x_render_pipeline.html#ae020cba2269420ce272239cbece67dcc',1,'BXRenderPipeline.BXRenderPipeline.BXRenderPipeline()']]],
   ['bxrenderpipeline_3a_3ahighdefinition_77',['HighDefinition',['../namespace_b_x_render_pipeline_1_1_high_definition.html',1,'BXRenderPipeline']]],
   ['bxrenderpipeline_3a_3alighttransport_78',['LightTransport',['../namespace_b_x_render_pipeline_1_1_light_transport.html',1,'BXRenderPipeline']]],
   ['bxrenderpipelineasset_79',['BXRenderPipelineAsset',['../class_b_x_render_pipeline_1_1_b_x_render_pipeline_asset.html',1,'BXRenderPipeline']]],

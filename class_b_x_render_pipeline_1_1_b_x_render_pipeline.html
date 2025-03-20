@@ -116,6 +116,9 @@ $(function(){initNavTree('class_b_x_render_pipeline_1_1_b_x_render_pipeline.html
   <div class="headertitle"><div class="title">BXRenderPipeline.BXRenderPipeline Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>BXRP渲染管线实例类 即渲染的入口  
+ <a href="#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for BXRenderPipeline.BXRenderPipeline:</div>
 <div class="dyncontent">
@@ -125,44 +128,56 @@ Inheritance diagram for BXRenderPipeline.BXRenderPipeline:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ae020cba2269420ce272239cbece67dcc" id="r_ae020cba2269420ce272239cbece67dcc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae020cba2269420ce272239cbece67dcc">BXRenderPipeline</a> (bool useDynamicBatching, bool useGPUInstancing, bool useSRPBatching, <a class="el" href="class_b_x_render_pipeline_1_1_b_x_render_common_settings.html">BXRenderCommonSettings</a> commonSettings, List&lt; <a class="el" href="class_b_x_render_pipeline_1_1_b_x_render_feature.html">BXRenderFeature</a> &gt; beforeRenderFeatures, List&lt; <a class="el" href="class_b_x_render_pipeline_1_1_b_x_render_feature.html">BXRenderFeature</a> &gt; onDirShadowRenderFeatures, List&lt; <a class="el" href="class_b_x_render_pipeline_1_1_b_x_render_feature.html">BXRenderFeature</a> &gt; beforeOpaqueRenderFeatures, List&lt; <a class="el" href="class_b_x_render_pipeline_1_1_b_x_render_feature.html">BXRenderFeature</a> &gt; afterOpaqueRenderFeatures, List&lt; <a class="el" href="class_b_x_render_pipeline_1_1_b_x_render_feature.html">BXRenderFeature</a> &gt; beforeTransparentFeatures, List&lt; <a class="el" href="class_b_x_render_pipeline_1_1_b_x_render_feature.html">BXRenderFeature</a> &gt; afterTransparentFeatures, List&lt; <a class="el" href="class_b_x_render_pipeline_1_1_b_x_render_feature.html">BXRenderFeature</a> &gt; onPostProcessRenderFeatures)</td></tr>
+<tr class="memitem:ae020cba2269420ce272239cbece67dcc" id="r_ae020cba2269420ce272239cbece67dcc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae020cba2269420ce272239cbece67dcc">BXRenderPipeline</a> (bool useDynamicBatching, bool useGPUInstancing, bool useSRPBatching, <a class="el" href="class_b_x_render_pipeline_1_1_b_x_render_common_settings.html">BXRenderCommonSettings</a> <a class="el" href="#aa03df1a9928811ea37220c7ed0d06b22">commonSettings</a>, List&lt; <a class="el" href="class_b_x_render_pipeline_1_1_b_x_render_feature.html">BXRenderFeature</a> &gt; beforeRenderFeatures, List&lt; <a class="el" href="class_b_x_render_pipeline_1_1_b_x_render_feature.html">BXRenderFeature</a> &gt; onDirShadowRenderFeatures, List&lt; <a class="el" href="class_b_x_render_pipeline_1_1_b_x_render_feature.html">BXRenderFeature</a> &gt; beforeOpaqueRenderFeatures, List&lt; <a class="el" href="class_b_x_render_pipeline_1_1_b_x_render_feature.html">BXRenderFeature</a> &gt; afterOpaqueRenderFeatures, List&lt; <a class="el" href="class_b_x_render_pipeline_1_1_b_x_render_feature.html">BXRenderFeature</a> &gt; beforeTransparentFeatures, List&lt; <a class="el" href="class_b_x_render_pipeline_1_1_b_x_render_feature.html">BXRenderFeature</a> &gt; afterTransparentFeatures, List&lt; <a class="el" href="class_b_x_render_pipeline_1_1_b_x_render_feature.html">BXRenderFeature</a> &gt; onPostProcessRenderFeatures)</td></tr>
+<tr class="memdesc:ae020cba2269420ce272239cbece67dcc"><td class="mdescLeft">&#160;</td><td class="mdescRight">构建BXRP实例  <br /></td></tr>
 <tr class="separator:ae020cba2269420ce272239cbece67dcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c67fffd786c5f14bf833f3a3f55f387" id="r_a5c67fffd786c5f14bf833f3a3f55f387"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c67fffd786c5f14bf833f3a3f55f387">AddRenderFeature</a> (<a class="el" href="class_b_x_render_pipeline_1_1_b_x_render_feature.html">BXRenderFeature</a> renderFeature, RenderFeatureStep step)</td></tr>
+<tr class="memdesc:a5c67fffd786c5f14bf833f3a3f55f387"><td class="mdescLeft">&#160;</td><td class="mdescRight">向BXRP管线实例添加(注册)RenderFeature  <br /></td></tr>
 <tr class="separator:a5c67fffd786c5f14bf833f3a3f55f387"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf70b32f16ef6eee22417e92499f61af" id="r_abf70b32f16ef6eee22417e92499f61af"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf70b32f16ef6eee22417e92499f61af">RemoveRenderFeature</a> (<a class="el" href="class_b_x_render_pipeline_1_1_b_x_render_feature.html">BXRenderFeature</a> renderFeature)</td></tr>
+<tr class="memdesc:abf70b32f16ef6eee22417e92499f61af"><td class="mdescLeft">&#160;</td><td class="mdescRight">从BXRP管线实例移除(销毁)RenderFeature  <br /></td></tr>
 <tr class="separator:abf70b32f16ef6eee22417e92499f61af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ed69f9c36717307199251f9a9e546c1" id="r_a8ed69f9c36717307199251f9a9e546c1"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_b_x_render_pipeline_1_1_b_x_render_feature.html">BXRenderFeature</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ed69f9c36717307199251f9a9e546c1">GetRenderFeatures</a> (RenderFeatureStep step)</td></tr>
+<tr class="memdesc:a8ed69f9c36717307199251f9a9e546c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">访问指定渲染阶段执行的所有RenderFeature  <br /></td></tr>
 <tr class="separator:a8ed69f9c36717307199251f9a9e546c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a2ff49dcbb1732b9e996eaacead9e86b6" id="r_a2ff49dcbb1732b9e996eaacead9e86b6"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ff49dcbb1732b9e996eaacead9e86b6">TryGetRenderCommonSettings</a> (out <a class="el" href="class_b_x_render_pipeline_1_1_b_x_render_common_settings.html">BXRenderCommonSettings</a> settings)</td></tr>
+<tr class="memdesc:a2ff49dcbb1732b9e996eaacead9e86b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">外部快速访问管线基础设置的方法  <br /></td></tr>
 <tr class="separator:a2ff49dcbb1732b9e996eaacead9e86b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:aa03df1a9928811ea37220c7ed0d06b22" id="r_aa03df1a9928811ea37220c7ed0d06b22"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_b_x_render_pipeline_1_1_b_x_render_common_settings.html">BXRenderCommonSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa03df1a9928811ea37220c7ed0d06b22">commonSettings</a></td></tr>
+<tr class="memdesc:aa03df1a9928811ea37220c7ed0d06b22"><td class="mdescLeft">&#160;</td><td class="mdescRight">管线基础设置  <br /></td></tr>
 <tr class="separator:aa03df1a9928811ea37220c7ed0d06b22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:a0d64071fb65111369fe0c3c03b9988d5" id="r_a0d64071fb65111369fe0c3c03b9988d5"><td class="memItemLeft" align="right" valign="top">static ShaderTagId[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d64071fb65111369fe0c3c03b9988d5">forwardShaderTagIds</a></td></tr>
+<tr class="memdesc:a0d64071fb65111369fe0c3c03b9988d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">前向渲染所支持的所有LightMode  <br /></td></tr>
 <tr class="separator:a0d64071fb65111369fe0c3c03b9988d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad9c4294983cf7d85bd19e2f698d6e933" id="r_ad9c4294983cf7d85bd19e2f698d6e933"><td class="memItemLeft" align="right" valign="top">static ShaderTagId[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad9c4294983cf7d85bd19e2f698d6e933">deferredShaderTagIds</a></td></tr>
+<tr class="memdesc:ad9c4294983cf7d85bd19e2f698d6e933"><td class="mdescLeft">&#160;</td><td class="mdescRight">延迟渲染所支持的所有LightMode  <br /></td></tr>
 <tr class="separator:ad9c4294983cf7d85bd19e2f698d6e933"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d0728b053933277c4600f6ddd94fff9" id="r_a8d0728b053933277c4600f6ddd94fff9"><td class="memItemLeft" align="right" valign="top">static ShaderTagId[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d0728b053933277c4600f6ddd94fff9">legacyShaderTagIds</a></td></tr>
+<tr class="memdesc:a8d0728b053933277c4600f6ddd94fff9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unity自带的，但是BXRP已经不支持的LightMode.  <br /></td></tr>
 <tr class="separator:a8d0728b053933277c4600f6ddd94fff9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:af5b7245482bbc13927657370e6ce2d8e" id="r_af5b7245482bbc13927657370e6ce2d8e"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af5b7245482bbc13927657370e6ce2d8e">Render</a> (ScriptableRenderContext context, <a class="el" href="class_camera.html">Camera</a>[] cameras)</td></tr>
+<tr class="memdesc:af5b7245482bbc13927657370e6ce2d8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">BXRP管线渲染执行入口 每个渲染帧调用一次  <br /></td></tr>
 <tr class="separator:af5b7245482bbc13927657370e6ce2d8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d71ecb86528b70a3d14b54a04fd9d66" id="r_a6d71ecb86528b70a3d14b54a04fd9d66"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d71ecb86528b70a3d14b54a04fd9d66">Dispose</a> (bool disposing)</td></tr>
+<tr class="memdesc:a6d71ecb86528b70a3d14b54a04fd9d66"><td class="mdescLeft">&#160;</td><td class="mdescRight">BXRP管线实例销毁方法  <br /></td></tr>
 <tr class="separator:a6d71ecb86528b70a3d14b54a04fd9d66"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="_b_x_render_pipeline_8cs_source.html#l00011">11</a> of file <a class="el" href="_b_x_render_pipeline_8cs_source.html">BXRenderPipeline.cs</a>.</p>
+<div class="textblock"><p>BXRP渲染管线实例类 即渲染的入口 </p>
+
+<p class="definition">Definition at line <a class="el" href="_b_x_render_pipeline_8cs_source.html#l00015">15</a> of file <a class="el" href="_b_x_render_pipeline_8cs_source.html">BXRenderPipeline.cs</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ae020cba2269420ce272239cbece67dcc" name="ae020cba2269420ce272239cbece67dcc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae020cba2269420ce272239cbece67dcc">&#9670;&#160;</a></span>BXRenderPipeline()</h2>
@@ -228,7 +243,25 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_b_x_render_pipeline_8cs_source.html#l00052">52</a> of file <a class="el" href="_b_x_render_pipeline_8cs_source.html">BXRenderPipeline.cs</a>.</p>
+<p>构建BXRP实例 </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">useDynamicBatching</td><td></td></tr>
+    <tr><td class="paramname">useGPUInstancing</td><td></td></tr>
+    <tr><td class="paramname">useSRPBatching</td><td></td></tr>
+    <tr><td class="paramname">commonSettings</td><td></td></tr>
+    <tr><td class="paramname">beforeRenderFeatures</td><td></td></tr>
+    <tr><td class="paramname">onDirShadowRenderFeatures</td><td></td></tr>
+    <tr><td class="paramname">beforeOpaqueRenderFeatures</td><td></td></tr>
+    <tr><td class="paramname">afterOpaqueRenderFeatures</td><td></td></tr>
+    <tr><td class="paramname">beforeTransparentFeatures</td><td></td></tr>
+    <tr><td class="paramname">afterTransparentFeatures</td><td></td></tr>
+    <tr><td class="paramname">onPostProcessRenderFeatures</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="_b_x_render_pipeline_8cs_source.html#l00128">128</a> of file <a class="el" href="_b_x_render_pipeline_8cs_source.html">BXRenderPipeline.cs</a>.</p>
 
 </div>
 </div>
@@ -252,7 +285,16 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_b_x_render_pipeline_8cs_source.html#l00170">170</a> of file <a class="el" href="_b_x_render_pipeline_8cs_source.html">BXRenderPipeline.cs</a>.</p>
+<p>向BXRP管线实例添加(注册)RenderFeature </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">renderFeature</td><td></td></tr>
+    <tr><td class="paramname">step</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="_b_x_render_pipeline_8cs_source.html#l00271">271</a> of file <a class="el" href="_b_x_render_pipeline_8cs_source.html">BXRenderPipeline.cs</a>.</p>
 
 </div>
 </div>
@@ -279,7 +321,15 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_b_x_render_pipeline_8cs_source.html#l00119">119</a> of file <a class="el" href="_b_x_render_pipeline_8cs_source.html">BXRenderPipeline.cs</a>.</p>
+<p>BXRP管线实例销毁方法 </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">disposing</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="_b_x_render_pipeline_8cs_source.html#l00205">205</a> of file <a class="el" href="_b_x_render_pipeline_8cs_source.html">BXRenderPipeline.cs</a>.</p>
 
 </div>
 </div>
@@ -298,7 +348,16 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_b_x_render_pipeline_8cs_source.html#l00230">230</a> of file <a class="el" href="_b_x_render_pipeline_8cs_source.html">BXRenderPipeline.cs</a>.</p>
+<p>访问指定渲染阶段执行的所有RenderFeature </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">step</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="_b_x_render_pipeline_8cs_source.html#l00340">340</a> of file <a class="el" href="_b_x_render_pipeline_8cs_source.html">BXRenderPipeline.cs</a>.</p>
 
 </div>
 </div>
@@ -317,7 +376,15 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_b_x_render_pipeline_8cs_source.html#l00201">201</a> of file <a class="el" href="_b_x_render_pipeline_8cs_source.html">BXRenderPipeline.cs</a>.</p>
+<p>从BXRP管线实例移除(销毁)RenderFeature </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">renderFeature</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="_b_x_render_pipeline_8cs_source.html#l00306">306</a> of file <a class="el" href="_b_x_render_pipeline_8cs_source.html">BXRenderPipeline.cs</a>.</p>
 
 </div>
 </div>
@@ -348,7 +415,16 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_b_x_render_pipeline_8cs_source.html#l00094">94</a> of file <a class="el" href="_b_x_render_pipeline_8cs_source.html">BXRenderPipeline.cs</a>.</p>
+<p>BXRP管线渲染执行入口 每个渲染帧调用一次 </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">context</td><td></td></tr>
+    <tr><td class="paramname">cameras</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="_b_x_render_pipeline_8cs_source.html#l00176">176</a> of file <a class="el" href="_b_x_render_pipeline_8cs_source.html">BXRenderPipeline.cs</a>.</p>
 
 </div>
 </div>
@@ -375,7 +451,16 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_b_x_render_pipeline_8cs_source.html#l00252">252</a> of file <a class="el" href="_b_x_render_pipeline_8cs_source.html">BXRenderPipeline.cs</a>.</p>
+<p>外部快速访问管线基础设置的方法 </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">settings</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="_b_x_render_pipeline_8cs_source.html#l00367">367</a> of file <a class="el" href="_b_x_render_pipeline_8cs_source.html">BXRenderPipeline.cs</a>.</p>
 
 </div>
 </div>
@@ -392,7 +477,9 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_b_x_render_pipeline_8cs_source.html#l00042">42</a> of file <a class="el" href="_b_x_render_pipeline_8cs_source.html">BXRenderPipeline.cs</a>.</p>
+<p>管线基础设置 </p>
+
+<p class="definition">Definition at line <a class="el" href="_b_x_render_pipeline_8cs_source.html#l00076">76</a> of file <a class="el" href="_b_x_render_pipeline_8cs_source.html">BXRenderPipeline.cs</a>.</p>
 
 </div>
 </div>
@@ -424,7 +511,9 @@ Protected Member Functions</h2></td></tr>
 <div class="line">            <span class="keyword">new</span> ShaderTagId(<span class="stringliteral">&quot;BXDeferredAddAlpha&quot;</span>)</div>
 <div class="line">        }</div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="_b_x_render_pipeline_8cs_source.html#l00019">19</a> of file <a class="el" href="_b_x_render_pipeline_8cs_source.html">BXRenderPipeline.cs</a>.</p>
+<p>延迟渲染所支持的所有LightMode </p>
+
+<p class="definition">Definition at line <a class="el" href="_b_x_render_pipeline_8cs_source.html#l00029">29</a> of file <a class="el" href="_b_x_render_pipeline_8cs_source.html">BXRenderPipeline.cs</a>.</p>
 
 </div>
 </div>
@@ -454,7 +543,9 @@ Protected Member Functions</h2></td></tr>
 <div class="line">            <span class="keyword">new</span> ShaderTagId(<span class="stringliteral">&quot;BXForwardBaseAlphaTest&quot;</span>)</div>
 <div class="line">        }</div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="_b_x_render_pipeline_8cs_source.html#l00013">13</a> of file <a class="el" href="_b_x_render_pipeline_8cs_source.html">BXRenderPipeline.cs</a>.</p>
+<p>前向渲染所支持的所有LightMode </p>
+
+<p class="definition">Definition at line <a class="el" href="_b_x_render_pipeline_8cs_source.html#l00020">20</a> of file <a class="el" href="_b_x_render_pipeline_8cs_source.html">BXRenderPipeline.cs</a>.</p>
 
 </div>
 </div>
@@ -487,7 +578,9 @@ Protected Member Functions</h2></td></tr>
 <div class="line">            <span class="keyword">new</span> ShaderTagId(<span class="stringliteral">&quot;VertexLM&quot;</span>)</div>
 <div class="line">        }</div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="_b_x_render_pipeline_8cs_source.html#l00028">28</a> of file <a class="el" href="_b_x_render_pipeline_8cs_source.html">BXRenderPipeline.cs</a>.</p>
+<p>Unity自带的，但是BXRP已经不支持的LightMode. </p>
+
+<p class="definition">Definition at line <a class="el" href="_b_x_render_pipeline_8cs_source.html#l00040">40</a> of file <a class="el" href="_b_x_render_pipeline_8cs_source.html">BXRenderPipeline.cs</a>.</p>
 
 </div>
 </div>
