@@ -5,7 +5,7 @@ var class_b_x_render_pipeline_forward_1_1_b_x_lights =
     [ "CollectLightDatas", "class_b_x_render_pipeline_forward_1_1_b_x_lights.html#ab0c9a96662fbd61e049348618bfc4fce", null ],
     [ "Dispose", "class_b_x_render_pipeline_forward_1_1_b_x_lights.html#ace0fcd7365a66bbb60ac6cfad94dd0d0", null ],
     [ "ExecuteCommandBuffer", "class_b_x_render_pipeline_forward_1_1_b_x_lights.html#a16f0aceae975d1f10077a29e64652ee0", null ],
-    [ "Setup", "class_b_x_render_pipeline_forward_1_1_b_x_lights.html#abb3ed163051db4d17b66c0b733a58dfb", null ],
+    [ "Setup", "class_b_x_render_pipeline_forward_1_1_b_x_lights.html#a71576d051e4b9246189c27c353ccbc9b", null ],
     [ "SetupDirectionalLight", "class_b_x_render_pipeline_forward_1_1_b_x_lights.html#a8dac66955cd000f495207d97d0f8a000", null ],
     [ "SetupLights", "class_b_x_render_pipeline_forward_1_1_b_x_lights.html#a1b2caa6a28c61d5b63e9c1b63c22f758", null ],
     [ "SetupPointLight", "class_b_x_render_pipeline_forward_1_1_b_x_lights.html#a689dd54aa0b075850b514067cb9b5915", null ],

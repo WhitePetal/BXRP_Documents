@@ -8,6 +8,5 @@ var class_b_x_render_pipeline_forward_1_1_b_x_other_camera_render =
     [ "Init", "class_b_x_render_pipeline_forward_1_1_b_x_other_camera_render.html#a394b045c6b49370cff66f2f693970dd3", null ],
     [ "Render", "class_b_x_render_pipeline_forward_1_1_b_x_other_camera_render.html#a8b76079a0c0944f3c5832dc11875cc8a", null ],
     [ "Submit", "class_b_x_render_pipeline_forward_1_1_b_x_other_camera_render.html#a919a5b9731709d1f256a1545550f525a", null ],
-    [ "lights", "class_b_x_render_pipeline_forward_1_1_b_x_other_camera_render.html#a1c86896fbaff37bae432b33feb0199d2", null ],
-    [ "onDirShadowsRenderFeatures", "class_b_x_render_pipeline_forward_1_1_b_x_other_camera_render.html#a3d8174c228d901082e94883d04023735", null ]
+    [ "lights", "class_b_x_render_pipeline_forward_1_1_b_x_other_camera_render.html#a1c86896fbaff37bae432b33feb0199d2", null ]
 ];

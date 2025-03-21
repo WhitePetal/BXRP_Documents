@@ -1742,7 +1742,6 @@ var hierarchy =
       [ "BXGeometryGraph.Runtime.GeometrySO", "class_b_x_geometry_graph_1_1_runtime_1_1_geometry_s_o.html", null ],
       [ "BXGeometryGraph.SubGraphAsset", "class_b_x_geometry_graph_1_1_sub_graph_asset.html", null ],
       [ "BXRenderPipeline.BXRenderCommonSettings", "class_b_x_render_pipeline_1_1_b_x_render_common_settings.html", null ],
-      [ "BXRenderPipeline.BXRenderFeature", "class_b_x_render_pipeline_1_1_b_x_render_feature.html", null ],
       [ "BXRenderPipeline.BXVolumeComponment", "class_b_x_render_pipeline_1_1_b_x_volume_componment.html", [
         [ "BXRenderPipeline.BXBloomComponent", "class_b_x_render_pipeline_1_1_b_x_bloom_component.html", null ],
         [ "BXRenderPipeline.BXExpourseComponent", "class_b_x_render_pipeline_1_1_b_x_expourse_component.html", null ],

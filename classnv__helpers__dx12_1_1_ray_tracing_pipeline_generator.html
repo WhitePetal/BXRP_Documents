@@ -25,8 +25,6 @@
 </script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
-<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
-<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -35,9 +33,8 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">BXRP<span id="projectnumber">&#160;V0.0.1</span>
+   <div id="projectname">BXRP
    </div>
-   <div id="projectbrief">基于UniySRP创建的自定义渲染管线</div>
   </td>
     <td>        <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -185,8 +182,6 @@ Private Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Helper class to create raytracing pipelines. </p>
-
-<p class="definition">Definition at line <a class="el" href="_raytracing_pipeline_generator_8h_source.html#l00075">75</a> of file <a class="el" href="_raytracing_pipeline_generator_8h_source.html">RaytracingPipelineGenerator.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a4faf17e7f037304b8860f93dbca03700" name="a4faf17e7f037304b8860f93dbca03700"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4faf17e7f037304b8860f93dbca03700">&#9670;&#160;</a></span>RayTracingPipelineGenerator()</h2>
@@ -204,8 +199,6 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>The pipeline helper requires access to the device, as well as the raytracing device prior to Windows 10 RS5. </p>
 
-<p class="definition">Definition at line <a class="el" href="_raytracing_pipeline_generator_8cpp_source.html#l00054">54</a> of file <a class="el" href="_raytracing_pipeline_generator_8cpp_source.html">RaytracingPipelineGenerator.cpp</a>.</p>
-
 </div>
 </div>
 <a id="ae30d3a6fbf67229f38a04b38d0dd4b7a" name="ae30d3a6fbf67229f38a04b38d0dd4b7a"></a>
@@ -222,8 +215,6 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_raytracing_pipeline_generator_8cpp_source.html#l00062">62</a> of file <a class="el" href="_raytracing_pipeline_generator_8cpp_source.html">RaytracingPipelineGenerator.cpp</a>.</p>
 
 </div>
 </div>
@@ -262,8 +253,6 @@ Private Attributes</h2></td></tr>
 <li>The closest hit shader, invoked on the hit point closest to the ray start. The shaders in a hit group share the same root signature, and are only referred to by the hit group name in other places of the program. </li>
 </ul>
 
-<p class="definition">Definition at line <a class="el" href="_raytracing_pipeline_generator_8cpp_source.html#l00092">92</a> of file <a class="el" href="_raytracing_pipeline_generator_8cpp_source.html">RaytracingPipelineGenerator.cpp</a>.</p>
-
 </div>
 </div>
 <a id="a8a5da922c1681a49dfdd73ca1a535f58" name="a8a5da922c1681a49dfdd73ca1a535f58"></a>
@@ -286,8 +275,6 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Add a DXIL library to the pipeline. Note that this library has to be compiled with dxc, using a lib_6_3 target. The exported symbols must correspond exactly to the names of the shaders declared in the library, although unused ones can be omitted. </p>
 
-<p class="definition">Definition at line <a class="el" href="_raytracing_pipeline_generator_8cpp_source.html#l00076">76</a> of file <a class="el" href="_raytracing_pipeline_generator_8cpp_source.html">RaytracingPipelineGenerator.cpp</a>.</p>
-
 </div>
 </div>
 <a id="ab7a09f6a35cdbce090e516355912cd8e" name="ab7a09f6a35cdbce090e516355912cd8e"></a>
@@ -309,8 +296,6 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>The shaders and hit groups may have various root signatures. This call associates a root signature to one or more symbols. All imported symbols must be associated to one root signature. </p>
-
-<p class="definition">Definition at line <a class="el" href="_raytracing_pipeline_generator_8cpp_source.html#l00106">106</a> of file <a class="el" href="_raytracing_pipeline_generator_8cpp_source.html">RaytracingPipelineGenerator.cpp</a>.</p>
 
 </div>
 </div>
@@ -338,8 +323,6 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Build a list containing the export symbols for the ray generation shaders, miss shaders, and hit group names </p>
 
-<p class="definition">Definition at line <a class="el" href="_raytracing_pipeline_generator_8cpp_source.html#l00351">351</a> of file <a class="el" href="_raytracing_pipeline_generator_8cpp_source.html">RaytracingPipelineGenerator.cpp</a>.</p>
-
 </div>
 </div>
 <a id="a7d25ba784e644a1d0bdbf45b390d8353" name="a7d25ba784e644a1d0bdbf45b390d8353"></a>
@@ -366,8 +349,6 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>The pipeline creation requires having at least one empty global and local root signatures, so we systematically create both </p>
 
-<p class="definition">Definition at line <a class="el" href="_raytracing_pipeline_generator_8cpp_source.html#l00297">297</a> of file <a class="el" href="_raytracing_pipeline_generator_8cpp_source.html">RaytracingPipelineGenerator.cpp</a>.</p>
-
 </div>
 </div>
 <a id="a82b0460f1bb4506e2f983af14781d58b" name="a82b0460f1bb4506e2f983af14781d58b"></a>
@@ -387,8 +368,6 @@ Private Attributes</h2></td></tr>
 
 <p>Compiles the raytracing state object. </p>
 
-<p class="definition">Definition at line <a class="el" href="_raytracing_pipeline_generator_8cpp_source.html#l00147">147</a> of file <a class="el" href="_raytracing_pipeline_generator_8cpp_source.html">RaytracingPipelineGenerator.cpp</a>.</p>
-
 </div>
 </div>
 <a id="a86959da2d80f34ad2bc63a555ff19827" name="a86959da2d80f34ad2bc63a555ff19827"></a>
@@ -406,8 +385,6 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>When hitting geometry, a number of surface attributes can be generated by the intersector. Using the built-in triangle intersector the attributes are the barycentric coordinates, with a size 2*sizeof(float). </p>
-
-<p class="definition">Definition at line <a class="el" href="_raytracing_pipeline_generator_8cpp_source.html#l00128">128</a> of file <a class="el" href="_raytracing_pipeline_generator_8cpp_source.html">RaytracingPipelineGenerator.cpp</a>.</p>
 
 </div>
 </div>
@@ -427,8 +404,6 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>The payload is the way hit or miss shaders can exchange data with the shader that called TraceRay. When several ray types are used (e.g. primary and shadow rays), this value must be the largest possible payload size. Note that to optimize performance, this size must be kept as low as possible. </p>
 
-<p class="definition">Definition at line <a class="el" href="_raytracing_pipeline_generator_8cpp_source.html#l00118">118</a> of file <a class="el" href="_raytracing_pipeline_generator_8cpp_source.html">RaytracingPipelineGenerator.cpp</a>.</p>
-
 </div>
 </div>
 <a id="a5d69cfbed2dc08ab9038dd2431aae3b6" name="a5d69cfbed2dc08ab9038dd2431aae3b6"></a>
@@ -446,8 +421,6 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Upon hitting a surface, a closest hit shader can issue a new TraceRay call. This parameter indicates the maximum level of recursion. Note that this depth should be kept as low as possible, typically 2, to allow hit shaders to trace shadow rays. Recursive ray tracing algorithms must be flattened to a loop in the ray generation program for best performance. </p>
-
-<p class="definition">Definition at line <a class="el" href="_raytracing_pipeline_generator_8cpp_source.html#l00139">139</a> of file <a class="el" href="_raytracing_pipeline_generator_8cpp_source.html">RaytracingPipelineGenerator.cpp</a>.</p>
 
 </div>
 </div>
@@ -472,8 +445,6 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_raytracing_pipeline_generator_8h_source.html#l00192">192</a> of file <a class="el" href="_raytracing_pipeline_generator_8h_source.html">RaytracingPipelineGenerator.h</a>.</p>
-
 </div>
 </div>
 <a id="a831a5288da79abbd84f18caf77896c3b" name="a831a5288da79abbd84f18caf77896c3b"></a>
@@ -495,8 +466,6 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_raytracing_pipeline_generator_8h_source.html#l00194">194</a> of file <a class="el" href="_raytracing_pipeline_generator_8h_source.html">RaytracingPipelineGenerator.h</a>.</p>
 
 </div>
 </div>
@@ -520,8 +489,6 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_raytracing_pipeline_generator_8h_source.html#l00193">193</a> of file <a class="el" href="_raytracing_pipeline_generator_8h_source.html">RaytracingPipelineGenerator.h</a>.</p>
-
 </div>
 </div>
 <a id="ad8b3564de57970b989d0661428d9d5cd" name="ad8b3564de57970b989d0661428d9d5cd"></a>
@@ -544,8 +511,6 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_raytracing_pipeline_generator_8h_source.html#l00182">182</a> of file <a class="el" href="_raytracing_pipeline_generator_8h_source.html">RaytracingPipelineGenerator.h</a>.</p>
-
 </div>
 </div>
 <a id="a7855dc1af10a4c36894028acafbf4d73" name="a7855dc1af10a4c36894028acafbf4d73"></a>
@@ -567,8 +532,6 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_raytracing_pipeline_generator_8h_source.html#l00181">181</a> of file <a class="el" href="_raytracing_pipeline_generator_8h_source.html">RaytracingPipelineGenerator.h</a>.</p>
 
 </div>
 </div>
@@ -593,8 +556,6 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Attribute size, initialized to 2 for the barycentric coordinates used by the built-in triangle intersection shader </p>
 
-<p class="definition">Definition at line <a class="el" href="_raytracing_pipeline_generator_8h_source.html#l00188">188</a> of file <a class="el" href="_raytracing_pipeline_generator_8h_source.html">RaytracingPipelineGenerator.h</a>.</p>
-
 </div>
 </div>
 <a id="ab6da582dca3c70901e47c0852beaa239" name="ab6da582dca3c70901e47c0852beaa239"></a>
@@ -616,8 +577,6 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_raytracing_pipeline_generator_8h_source.html#l00185">185</a> of file <a class="el" href="_raytracing_pipeline_generator_8h_source.html">RaytracingPipelineGenerator.h</a>.</p>
 
 </div>
 </div>
@@ -643,8 +602,6 @@ Private Attributes</h2></td></tr>
 
 <p>Maximum recursion depth, initialized to 1 to at least allow tracing primary rays. </p>
 
-<p class="definition">Definition at line <a class="el" href="_raytracing_pipeline_generator_8h_source.html#l00190">190</a> of file <a class="el" href="_raytracing_pipeline_generator_8h_source.html">RaytracingPipelineGenerator.h</a>.</p>
-
 </div>
 </div>
 <a id="ae9026fc3432e0619f559a3c3d1967b2f" name="ae9026fc3432e0619f559a3c3d1967b2f"></a>
@@ -667,13 +624,11 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_raytracing_pipeline_generator_8h_source.html#l00183">183</a> of file <a class="el" href="_raytracing_pipeline_generator_8h_source.html">RaytracingPipelineGenerator.h</a>.</p>
-
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li><a class="el" href="_raytracing_pipeline_generator_8h_source.html">RaytracingPipelineGenerator.h</a></li>
-<li><a class="el" href="_raytracing_pipeline_generator_8cpp_source.html">RaytracingPipelineGenerator.cpp</a></li>
+<li>D:/FloowDream/Assets/Scripts/BXRenderPipeline/XEngine/XEngine/external/DXRHelpers/nv_helpers_dx12/<a class="el" href="_raytracing_pipeline_generator_8h_source.html">RaytracingPipelineGenerator.h</a></li>
+<li>D:/FloowDream/Assets/Scripts/BXRenderPipeline/XEngine/XEngine/external/DXRHelpers/nv_helpers_dx12/<a class="el" href="_raytracing_pipeline_generator_8cpp.html">RaytracingPipelineGenerator.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

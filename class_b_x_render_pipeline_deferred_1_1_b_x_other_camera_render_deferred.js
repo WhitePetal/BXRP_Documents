@@ -27,7 +27,6 @@ var class_b_x_render_pipeline_deferred_1_1_b_x_other_camera_render_deferred =
     [ "lights", "class_b_x_render_pipeline_deferred_1_1_b_x_other_camera_render_deferred.html#a1f1cd8cae3de4fd5144b95a8008dad68", null ],
     [ "loadActions", "class_b_x_render_pipeline_deferred_1_1_b_x_other_camera_render_deferred.html#a3e45d3713246afa5e3f5e94c34b1ecf4", null ],
     [ "mrt", "class_b_x_render_pipeline_deferred_1_1_b_x_other_camera_render_deferred.html#ac97068e7d34bda03a93e7c819ace2cfe", null ],
-    [ "onDirShadowsRenderFeatures", "class_b_x_render_pipeline_deferred_1_1_b_x_other_camera_render_deferred.html#abccb68eb65858670f3d63ff510c27633", null ],
     [ "stencilLightMats", "class_b_x_render_pipeline_deferred_1_1_b_x_other_camera_render_deferred.html#a46c4cd903b317ee33a95f440b158cdd2", null ],
     [ "storeActions", "class_b_x_render_pipeline_deferred_1_1_b_x_other_camera_render_deferred.html#aad91eac6baf346b800acc8588a22644b", null ]
 ];

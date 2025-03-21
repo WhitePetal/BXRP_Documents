@@ -8,6 +8,7 @@ var class_b_x_render_pipeline_1_1_b_x_volume_manager =
     [ "IsVolumeRenderedByCamera", "class_b_x_render_pipeline_1_1_b_x_volume_manager.html#a8be1c0c95f35c7eecc580326c4edbfbf", null ],
     [ "OverrideData", "class_b_x_render_pipeline_1_1_b_x_volume_manager.html#ac48da37e41bfb1bce2619c088e36df6f", null ],
     [ "Register", "class_b_x_render_pipeline_1_1_b_x_volume_manager.html#a6ec8a63606aa14d21ab8ca7ee570e225", null ],
+    [ "Render", "class_b_x_render_pipeline_1_1_b_x_volume_manager.html#af2c8c004ccfef22a558fff8f382085cb", null ],
     [ "Unregister", "class_b_x_render_pipeline_1_1_b_x_volume_manager.html#ae8fb4c7dde32d6a60f1e0d7c01d78860", null ],
     [ "Update", "class_b_x_render_pipeline_1_1_b_x_volume_manager.html#aff4802482943a1dfb7a002de02439d22", null ],
     [ "instance", "class_b_x_render_pipeline_1_1_b_x_volume_manager.html#ae78ffdf7da5fac3583668f886a988fcf", null ],

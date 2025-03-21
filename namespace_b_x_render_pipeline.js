@@ -32,7 +32,6 @@ var namespace_b_x_render_pipeline =
     [ "BXReflectionProbeManager", "struct_b_x_render_pipeline_1_1_b_x_reflection_probe_manager.html", "struct_b_x_render_pipeline_1_1_b_x_reflection_probe_manager" ],
     [ "BXRenderCommonSettings", "class_b_x_render_pipeline_1_1_b_x_render_common_settings.html", "class_b_x_render_pipeline_1_1_b_x_render_common_settings" ],
     [ "BXRenderer", "class_b_x_render_pipeline_1_1_b_x_renderer.html", "class_b_x_render_pipeline_1_1_b_x_renderer" ],
-    [ "BXRenderFeature", "class_b_x_render_pipeline_1_1_b_x_render_feature.html", "class_b_x_render_pipeline_1_1_b_x_render_feature" ],
     [ "BXRenderPipeline", "class_b_x_render_pipeline_1_1_b_x_render_pipeline.html", "class_b_x_render_pipeline_1_1_b_x_render_pipeline" ],
     [ "BXRenderPipelineAsset", "class_b_x_render_pipeline_1_1_b_x_render_pipeline_asset.html", "class_b_x_render_pipeline_1_1_b_x_render_pipeline_asset" ],
     [ "BXRenderPipelineGraphicsSettingsExtensions", "class_b_x_render_pipeline_1_1_b_x_render_pipeline_graphics_settings_extensions.html", null ],
@@ -131,6 +130,7 @@ var namespace_b_x_render_pipeline =
       [ "AfterOpaque", "namespace_b_x_render_pipeline.html#a1c9e5ac778deeec3d601d70d523ad485a015ffb7a40d15fa0608a9d000183519e", null ],
       [ "BeforeTransparent", "namespace_b_x_render_pipeline.html#a1c9e5ac778deeec3d601d70d523ad485a5f7daed2d50fed9ba111dffe4fa97d65", null ],
       [ "AfterTransparent", "namespace_b_x_render_pipeline.html#a1c9e5ac778deeec3d601d70d523ad485a240b991cb55127c1f29d9619060b6049", null ],
-      [ "OnPostProcess", "namespace_b_x_render_pipeline.html#a1c9e5ac778deeec3d601d70d523ad485a00fc0b08f5752024100078814775482d", null ]
+      [ "OnPostProcess", "namespace_b_x_render_pipeline.html#a1c9e5ac778deeec3d601d70d523ad485a00fc0b08f5752024100078814775482d", null ],
+      [ "MAX", "namespace_b_x_render_pipeline.html#a1c9e5ac778deeec3d601d70d523ad485a26a4b44a837bf97b972628509912b4a5", null ]
     ] ]
 ];

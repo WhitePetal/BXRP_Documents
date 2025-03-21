@@ -347,7 +347,6 @@ var annotated_dup =
       [ "BXReflectionProbeManager", "struct_b_x_render_pipeline_1_1_b_x_reflection_probe_manager.html", "struct_b_x_render_pipeline_1_1_b_x_reflection_probe_manager" ],
       [ "BXRenderCommonSettings", "class_b_x_render_pipeline_1_1_b_x_render_common_settings.html", "class_b_x_render_pipeline_1_1_b_x_render_common_settings" ],
       [ "BXRenderer", "class_b_x_render_pipeline_1_1_b_x_renderer.html", "class_b_x_render_pipeline_1_1_b_x_renderer" ],
-      [ "BXRenderFeature", "class_b_x_render_pipeline_1_1_b_x_render_feature.html", "class_b_x_render_pipeline_1_1_b_x_render_feature" ],
       [ "BXRenderPipeline", "class_b_x_render_pipeline_1_1_b_x_render_pipeline.html", "class_b_x_render_pipeline_1_1_b_x_render_pipeline" ],
       [ "BXRenderPipelineAsset", "class_b_x_render_pipeline_1_1_b_x_render_pipeline_asset.html", "class_b_x_render_pipeline_1_1_b_x_render_pipeline_asset" ],
       [ "BXRenderPipelineGraphicsSettingsExtensions", "class_b_x_render_pipeline_1_1_b_x_render_pipeline_graphics_settings_extensions.html", null ],

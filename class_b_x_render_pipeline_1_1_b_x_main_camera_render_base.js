@@ -1,6 +1,10 @@
 var class_b_x_render_pipeline_1_1_b_x_main_camera_render_base =
 [
     [ "Dispose", "class_b_x_render_pipeline_1_1_b_x_main_camera_render_base.html#ae96e634a5c6086a934c495b83b0edfbb", null ],
+    [ "DrawPostProcess", "class_b_x_render_pipeline_1_1_b_x_main_camera_render_base.html#a99c901203e36b58f2f03aa8c236e6847", null ],
+    [ "DrawPostProcess", "class_b_x_render_pipeline_1_1_b_x_main_camera_render_base.html#a740a772b6c450ef8d8c669358ba0671d", null ],
+    [ "RegisterNeedReleasePostProcessTempRT", "class_b_x_render_pipeline_1_1_b_x_main_camera_render_base.html#a4518b60379ac0e962a937f53d0e5fe79", null ],
+    [ "RelasePostProcessTempRTs", "class_b_x_render_pipeline_1_1_b_x_main_camera_render_base.html#a6f5b6547b81e8a946c7f0e58649770b0", null ],
     [ "camera", "class_b_x_render_pipeline_1_1_b_x_main_camera_render_base.html#aee620563cbf305346771d479f2d880c7", null ],
     [ "commandBuffer", "class_b_x_render_pipeline_1_1_b_x_main_camera_render_base.html#ab18f015331745dd1d50010f145630409", null ],
     [ "commandBufferName", "class_b_x_render_pipeline_1_1_b_x_main_camera_render_base.html#aff0bc827db9862075d73b00de04d323e", null ],
@@ -13,6 +17,8 @@ var class_b_x_render_pipeline_1_1_b_x_main_camera_render_base =
     [ "height", "class_b_x_render_pipeline_1_1_b_x_main_camera_render_base.html#a4daaceb70c86e135804770d07005f9ba", null ],
     [ "height_screen", "class_b_x_render_pipeline_1_1_b_x_main_camera_render_base.html#af9f206a50272df8fdc5cdb7958091f83", null ],
     [ "maxShadowDistance", "class_b_x_render_pipeline_1_1_b_x_main_camera_render_base.html#aabf45031f5b9274cb895f79ab80ae51d", null ],
+    [ "needReleasePostProcessTempRTs", "class_b_x_render_pipeline_1_1_b_x_main_camera_render_base.html#a4c0a15c716ddde8c3de8263767226a78", null ],
+    [ "postProcessInputTarget", "class_b_x_render_pipeline_1_1_b_x_main_camera_render_base.html#a0d82cf7c504f0307730bba7012d5f14a", null ],
     [ "postProcessMat", "class_b_x_render_pipeline_1_1_b_x_main_camera_render_base.html#a1cd688ee039495eccb3d6602fb258352", null ],
     [ "SampleName", "class_b_x_render_pipeline_1_1_b_x_main_camera_render_base.html#a608dba735dc20099ed64992438b14a76", null ],
     [ "viewToWorldMatrix", "class_b_x_render_pipeline_1_1_b_x_main_camera_render_base.html#a241bb4d2bf4c9cc078789b52726f2177", null ],
